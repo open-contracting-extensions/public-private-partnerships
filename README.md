@@ -4,7 +4,7 @@
 
 The [Open Contracting Partnership (OCP)](http://www.open-contracting.org) was incubated within the World Bank from 2012 - 2015. During that time, the OCP led the development of the [Open Contracting Data Standard (OCDS)](http://standard.open-contracting.org). This provides a technical specification for the disclosure of open data, and key documents, about every stage of contracting processes. To date, OCDS has primarily been used by governments and civil society for disclosure and analysis of government procurement information. 
 
-Over 2016, the World Bank Open Contracting team, PPP team, Open Contracting Partnershion, and Open Data Services, are working in partnership to extend OCDS to support proactive and comprehensive disclosure of structured data about Public Private Partnerships (PPPs).
+Over 2016, the World Bank Open Contracting team, PPP team, Open Contracting Partnership, and Open Data Services, are working in partnership to extend OCDS to support proactive and comprehensive disclosure of structured data about Public Private Partnerships (PPPs).
 
 This work builds upon the document: ["A Framework for Disclosure in Public-Private Partnerships: technical guidance for systematic, proactive pre- & post-procurement disclosure of information in Public-Private Partnership programmes"](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a-framework-for-disclosure-in-public-private-partnership-projects)
 
