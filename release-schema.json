@@ -1,0 +1,36 @@
+{"properties":
+  {
+    "ocid": {},
+    "id":{},
+    "date":{},
+    "tag":{},
+    "initiationType": {}, 
+    "title": {
+     "title": "Title",
+     "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
+     "type": "string"
+    },
+    "description": {
+     "title": "Description",
+     "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces.",
+     "type": "string"
+    }
+  },
+
+"definitions":
+  {"Planning": {
+    "properties":{
+        "sector": {
+            "title":"Project sector",
+            "description":"A high-level categorisation of the main sector this procurement process relates to. This value should be taken from the the **PPP sector codelist**.",
+            "type":"string"
+        },
+        "subSector": {
+            "title":"Project sub sector",
+            "description":"A more detailed sectoral classification for this project. For example, if 'Tranport' is selected in the sector field, the sub-sector may be 'Airports'. There is no defined codelist for subsectors, to allow countries and reporting frameworks to define the detailed sectors that matter to them.",
+            "type":"string"
+        }
+    }
+   }
+  }
+}
