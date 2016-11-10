@@ -18,7 +18,7 @@
   },
 
 "definitions":
-  {"Planning": {
+  {"Projects": {
     "properties":{
         "sector": {
             "title":"Project sector",
