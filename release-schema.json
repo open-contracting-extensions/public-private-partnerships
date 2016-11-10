@@ -22,13 +22,24 @@
     "properties":{
         "sector": {
             "title":"Project sector",
-            "description":"A high-level categorisation of the main sector this procurement process relates to. This value should be taken from the the **PPP sector codelist**.",
-            "type":"string"
+            "description":"A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+            "$ref": "#/definitions/Classification"
         },
-        "subSector": {
-            "title":"Project sub sector",
-            "description":"A more detailed sectoral classification for this project. For example, if 'Tranport' is selected in the sector field, the sub-sector may be 'Airports'. There is no defined codelist for subsectors, to allow countries and reporting frameworks to define the detailed sectors that matter to them.",
-            "type":"string"
+        "additionalSectors": {
+            "title":"Additional sector classification",
+            "description":"Additional sector classifications, using local vocabularies where required..",
+            "type":"array",
+            "items": {
+                "$ref": "#/definitions/Classification"
+            }
+        },
+        "locations": {
+            "title":"Project location",
+            "description":"Information about the location where a project is taking place.",
+            "type":"array",
+            "items": {
+                "$ref": "#/definitions/Location"
+            }
         }
     }
    }
