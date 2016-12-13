@@ -14,7 +14,8 @@
      "title": "Description",
      "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces.",
      "type": "string"
-    }
+    },
+    "buyer":null
   },
 
 "definitions":
@@ -25,8 +26,8 @@
             "description":"A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
             "$ref": "#/definitions/Classification"
         },
-        "additionalSectors": {
-            "title":"Additional sector classification",
+        "additionalClassifications": {
+            "title":"Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
             "description":"Additional sector classifications, using local vocabularies where required..",
             "type":"array",
             "items": {
@@ -42,6 +43,54 @@
             }
         }
     }
+   },
+   "Contract": {
+    "properties":{
+      "financialModel":{
+          "title":"Financial Model",
+          "description":"Key indicators that summarise the financial model for this contract.",
+          "type":"array",
+          "items": {
+            "$ref":"#definitions/Indicator"
+          }
+      }
+    }
+   },
+   "Indicator": {
+      "type":"object",
+      "title":"Indicators",
+      "description":"For capturing single value key indicators. To track change in measures over time, use metrics instead.",
+      "properties":{
+        "id":{
+          "type":"string",
+          "title":"ID",
+          "description":"An identifier for this indicator"
+        },
+        "title":{
+            "title":"Title",
+            "description":"The title of this indicator",
+            "type":["string","null"]
+        },
+        "indicatorCode": {
+            "title":"Code",
+            "description":"Drawn from the indictorType codelist",
+            "type":["string","null"]  
+
+        },
+        "indicatorValue": {
+            "title":"Value",
+            "description":"A numerical value for this indicator",
+            "type":["float","string","null"]
+        },
+        "notes":{
+            "title":"Notes",
+            "description":"Any supporting notes for interpretation of this indicator",
+            "type":["string","null"]
+        }
+
+      }
    }
   }
 }
+
+
