@@ -51,7 +51,7 @@
           "description":"Key indicators that summarise the financial model for this contract.",
           "type":"array",
           "items": {
-            "$ref":"#definitions/Indicator"
+            "$ref":"#/definitions/Indicator"
           }
       }
     }
