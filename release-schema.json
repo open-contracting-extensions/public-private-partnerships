@@ -97,7 +97,7 @@
         },
         "indicatorValue": {
             "title":"Value",
-            "description":"A numerical value for this indicator",
+            "description":"A value for this indicator",
             "type":["number","string","null"]
         },
         "notes":{
