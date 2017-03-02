@@ -51,9 +51,9 @@
    },
 	"Award": {
 		"properties": {
-			"privateParty": {
-				"title": "Private party",
-				"description": "The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV.",
+			"preferredBidder": {
+				"title": "Preferred bidder",
+				"description": "The bidder awarded this award, the preferred bidder will become the counter party of the procuring authority in the PPP contract when the contract is signed.",
 				"type": "array",
 				"items": {
 					"$ref": "#/definitions/OrganizationReference"
