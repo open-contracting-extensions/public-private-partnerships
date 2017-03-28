@@ -51,9 +51,9 @@
    },
 	"Award": {
 		"properties": {
-			"preferredBidder": {
-				"title": "Preferred bidder",
-				"description": "The bidder awarded this award, the preferred bidder will become the counter party of the procuring authority in the PPP contract when the contract is signed.",
+			"preferredBidders": {
+				"title": "Preferred bidders",
+				"description": "The bidder or bidders awarded this award, the preferred bidder(s) will become the counter party or parties of the procuring authority in the PPP contract when the contract is signed.",
 				"type": "array",
 				"items": {
 					"$ref": "#/definitions/OrganizationReference"
