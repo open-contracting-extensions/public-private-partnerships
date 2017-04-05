@@ -136,17 +136,17 @@
 		"title": "Finance summary",
 		"description": "Key indicators that describe the financial model of the PPP.",
 		"properties": {
-			"equityDebtRatio": {
-				"title": "Equity debt ratio",
-				"description": "The World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided by) the shareholder equity of the project company'.",
+			"debtEquityRatio": {
+				"title": "Debt equity ratio",
+				"description": "The debt-equity ratio of the project, expressed as a decimal value. The World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided by) the shareholder equity of the project company'. Also known as 'leverage' or 'gearing'. Further details on the debt equity ratio can be provided in the debtEquityRatioDetails field.",
 				"type": [
 					"number",
 					"null"
 				]
 			},
-			"equityDebtRatioDetails": {
-				"title": "Equity debt ratio details",
-				"description": "Further details on the calculation of the equity debt ratio.",
+			"debtEquityRatioDetails": {
+				"title": "Debt equity ratio details",
+				"description": "Further details on the calculation of the debt equity ratio.",
 				"type": [
 					"string",
 					"null"
