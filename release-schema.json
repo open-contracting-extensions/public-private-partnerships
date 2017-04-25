@@ -85,7 +85,7 @@
 		"properties": {
 			"riskPremium": {
 				"title": "Risk premium",
-				"description": "The risk premium used by government when evaluating the PPP option. An explanation of the risk premium used should be provided in the riskPremiumDetails field.",
+				"description": "The risk premium used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk premium used should be provided in the riskPremiumDetails field.",
 				"type": [
 					"number",
 					"null"
@@ -101,7 +101,7 @@
 			},
 			"discountRate": {
 				"title": "Discount rate",
-				"description": "The discount rate used by government when evaluating the PPP option. Further details can be provided in the discountRateDetails field.",
+				"description": "The discount rate used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be provided in the discountRateDetails field.",
 				"type": [
 					"number",
 					"null"
