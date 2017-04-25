@@ -154,11 +154,9 @@
 			},
 			"shareCapital": {
 				"title": "Share capital",
-				"description": "",
-				"type": [
-					"number",
-					"null"
-				]
+				"description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
+				"type": "object",
+				"$ref": "#/definitions/Value"
 			},
 			"shareCapitalDetails": {
 				"title": "Share capital details",
@@ -170,7 +168,7 @@
 			},
 			"subsidyRatio": {
 				"title": "Subsidy ratio",
-				"description": "Subsidy as a proportion of project value.",
+				"description": "Subsidy as a proportion of project value, expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in the subsidyRatioDetails field.",
 				"type": [
 					"number",
 					"null"
@@ -186,7 +184,7 @@
 			},
 			"projectIRR": {
 				"title": "Project Internal Rate of Return",
-				"description": "The rate of return of an investment calculated from its projected cash flows. The internal rate of return (IRR) is also the discount rate that equates the present value of a future stream of cash flows to the initial investment.",
+				"description": "The internal rate of return of the project, expressed as a decimal fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The rate of return of an investment calculated from its projected cash flows. The internal rate of return (IRR) is also the discount rate that equates the present value of a future stream of cash flows to the initial investment'. Further details on the project IRR can be provided in the projectIRRDetails field.",
 				"type": [
 					"number",
 					"null"
