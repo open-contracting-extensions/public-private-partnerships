@@ -59,17 +59,17 @@
 					"$ref": "#/definitions/OrganizationReference"
 				}
 			},
-			"suppliers": null
-		}
-	},
-	"Contract": {
-		"properties":{
 			"evaluationIndicators":{
 				"title":"Evaluation of PPP option",
 				"description":"Key indicators that describe how the PPP option has been evaluated by government.",
 				"type":"object",
 				"$ref":"#/definitions/EvaluationIndicators"
 			},
+			"suppliers": null
+		}
+	},
+	"Contract": {
+		"properties":{
 			"financeSummary": {
 				"title": "Finance summary",
 				"description": "Key indicators that describe the financial model of the PPP.",
