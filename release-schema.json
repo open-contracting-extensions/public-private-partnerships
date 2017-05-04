@@ -24,7 +24,33 @@
   },
 
 "definitions":
-  {"Project": {
+  {
+    "OrganizationReference":{
+        "properties":{
+            "address": null,
+            "identifier":null,
+            "additionalIdentifiers": null,
+            "contactPoint":null
+        }
+    },
+    "Amendment":{
+        "properties":{
+            "changes":null
+        }
+    },
+    "Tender":{
+        "properties":{
+            "amendment":null
+        }
+    },
+    "Transaction":{
+        "properties":{
+            "amount": null,
+            "providerOrganization": null,
+            "receiverOrganization": null
+        }
+    },
+    "Project": {
     "properties":{
         "sector": {
             "title":"Project sector",
@@ -65,7 +91,8 @@
 				"type":"object",
 				"$ref":"#/definitions/EvaluationIndicators"
 			},
-			"suppliers": null
+			"suppliers": null,
+            "amendment":null
 		}
 	},
 	"Contract": {
@@ -75,7 +102,8 @@
 				"description": "Key indicators that describe the financial model of the PPP.",
 				"type": "object",
 				"$ref":"#/definitions/FinanceSummary"
-			}
+			},
+            "amendment":null
 		}
 	},
 	"EvaluationIndicators": {

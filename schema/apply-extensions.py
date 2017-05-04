@@ -31,6 +31,10 @@ for extension in extension_json['extensions']:
         print("Nothing")
         pass
 
+with open("../release-schema.json") as local_patch:
+    local_json = json.load(local_patch,object_pairs_hook=OrderedDict)
+    schema = json_merge_patch.merge(schema, local_json)
+
 with open('ppp-release-schema.json','w') as schema_file:
     json.dump(schema,schema_file,indent=4)
 
