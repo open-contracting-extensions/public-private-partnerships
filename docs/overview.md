@@ -5,7 +5,7 @@
    :align: right
 ```
 
-The PPP Disclosure Framework sets out **what** to disclose.
+The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Patnership process.
 
 OCDS for PPPs provides a framework for **how** to publish the requested information, with clear separation of:
 
@@ -17,6 +17,13 @@ It is designed to support **real time** updates, with data and documents on each
 
 ## Data
 
+```eval_rst
+.. image:: _assets/structured_shareholding.png
+   :align: right
+   :width: 400
+   :target: spreadsheet.html
+```
+
 Many elements of the PPP framework call for **structured data**. For example:
 
 * Project values over time;
@@ -25,7 +32,7 @@ Many elements of the PPP framework call for **structured data**. For example:
 * Details of project finance;
 * A list of shareholders, and shares held;
 
-OCDS for PPPs provides structured data elements to represent this information. 
+OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions/index.md). 
 
 These structured data elements can be represented using JSON data, or via simple spreadsheet templates. 
 
@@ -46,11 +53,18 @@ Use OCDS to:
 This way, stakeholders can more easily find the information they need to understand a project: and compliance with the framework can be more easily assessed. 
 
 ```eval_rst
- .. note: Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published.
+.. note:: Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published.
 
 ```
 
 ## Presentation 
+
+```eval_rst
+.. image:: _assets/ocds_show.png
+   :align: right
+   :width: 400
+   :target: /_static/ocds-show/?load=/_static/full.json
+```
 
 With the combination of:
 

@@ -1,6 +1,17 @@
+# Framework
+
+```eval_rst
+.. image:: _assets/disclosure-framework.png
+```
+
+[The World Bank Framework for Disclosure in Public Private Patnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects. 
+
+This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they prioritise. 
+
+This section should be read in conjunction with the Disclosure Framework.
+
+
 ## I. Basic Project Information 
-
-
 
 <div class='disclosure-timing'>
 
@@ -15,11 +26,8 @@ P    R   R   R   R   R
 
 </div>
 
- 
 
- 
-
- ### I.1. Name, location and sector 
+### I.1. Name, location and sector 
 
 Each project should have a name, location and sectoral classification. This information is included in the ```planning/project``` section of each release. A detailed breakdown of each field is given below. 
 
@@ -28,6 +36,7 @@ Each project should have a name, location and sectoral classification. This info
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/planning/project
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -36,6 +45,7 @@ Each project should have a name, location and sectoral classification. This info
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/project
+  :ignore_path: /releases/0/
 ```
 
 
@@ -48,9 +58,7 @@ Each project should have a name, location and sectoral classification. This info
 
 We recommend keeping descriptions to one paragraph or less. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -67,9 +75,7 @@ Information can be provided using the following OCDS fields.
 
 This can be cross-walked to most other PPP clasification schemes in use, and so provides a common framework for understanding the sectoral focus of investments. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -84,9 +90,7 @@ Information can be provided using the following OCDS fields.
 
  One or more additional project classifications can be provided if required by a particular user of the data, or to relate the project to a national taxonomy. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -106,9 +110,7 @@ Additional classificaiton schemes can also be provided, such as project classifi
 
 There are a range of tools available to generate GeoJSON data, such as [http://geojson.io/](http://geojson.io) 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -123,9 +125,7 @@ Information can be provided using the following OCDS fields.
 
  The sponsoring agency or department’s details should be included in the parties section, with the ```parties/0/role``` field array including the value '```sponsor```'. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -161,9 +161,7 @@ P   R   R   R      R
 
  The value, or range of values, anticipated during the planning stage. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -178,9 +176,7 @@ Information can be provided using the following OCDS fields.
 
  The value, or range of values, in a call for tenders for the project. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -195,9 +191,7 @@ Information can be provided using the following OCDS fields.
 
  The value of the project at time of contract award. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -212,9 +206,7 @@ Information can be provided using the following OCDS fields.
 
  The total value of the project agreed in the contract(s). 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -249,9 +241,7 @@ P
 
 These documents should be tagged with a ```documentType``` value of 'needsAssessment' in the ```planning/documents``` array.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -265,6 +255,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/planning/documents/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -273,6 +264,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/documents/0
+  :ignore_path: /releases/0/
 ```
 
 
@@ -303,9 +295,7 @@ P
 
 These documents should be tagged with a ```documentType``` value of 'technicalSpecifications' in the ```tender/documents``` array.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -340,9 +330,7 @@ P
 
 These documents should be tagged with a ```documentType``` value of 'serviceDescription' in the ```tender/documents``` array.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -382,9 +370,7 @@ A metric with the ```id``` 'demand' should be given, with a series of forecast `
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -398,6 +384,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/planning/forecasts
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -406,6 +393,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/forecasts
+  :ignore_path: /releases/0/
 ```
 
 
@@ -421,9 +409,7 @@ Information can be provided using the following OCDS fields.
 
 These documents should be tagged with a ```documentType``` value of 'estimatedDemand' in the ```planning/documents``` array. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -463,9 +449,7 @@ Descriptions should be provided for both:
 
 These documents should be tagged with a ```documentType``` value of 'projectAdditionality' or 'financeAdditionality' in the ```planning/documents``` array.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -500,9 +484,7 @@ P
 
 These documents should be tagged with a ```documentType``` value of 'pppModeRationale' in the ```planning/documents``` array.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -536,9 +518,7 @@ Each approval during the planning stage should be included in the ```planning/mi
 
 Documentation associated with the approval can be given in the associated milestones documents block. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -552,6 +532,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/planning/milestones/1
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -560,6 +541,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/milestones/1
+  :ignore_path: /releases/0/
 ```
 
 
@@ -570,9 +552,7 @@ Information can be provided using the following OCDS fields.
 
 Key events relating to comercial and financial close This information can be provided using entries in the appropriate milestones array, with each milestone having a ```type```, ```code``` and ```status``` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -637,9 +617,7 @@ The milestone should have a ```type``` of 'financing', a ```code``` of 'financia
 
 Key events relating to the implementation of the project. This information can be provided using entries in the appropriate milestones array, with each milestone having a ```type```, ```code``` and ```status``` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -714,9 +692,7 @@ P   U   U   U   U
 
  The milestone should have a ```type``` of 'delivery', a ```code``` of 'commissioning' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -748,9 +724,7 @@ P   U   U   U   U   U
 
 This expected date of contract expiry can be entered into the ```contractPeriod/endDate``` field. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -782,9 +756,7 @@ P   U   U   U   U   U
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -824,9 +796,7 @@ P   U   U   U   U   U
 
 The ```organization/roles``` field should be set to ```publicAuthority``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -840,6 +810,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/parties/1
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -848,6 +819,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/parties/1
+  :ignore_path: /releases/0/
 ```
 
 
@@ -873,9 +845,7 @@ P   U   U   U   U   U
 
  The ```publicAuthority``` section of an OCDS release should be used to reference the entry for the public authority in the ```parties``` section. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -889,6 +859,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/0/publicAuthority
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -897,6 +868,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/publicAuthority
+  :ignore_path: /releases/0/
 ```
 
 
@@ -922,9 +894,7 @@ P   U   U   U   U   U
 
  The ```contracts``` section of an OCDS release should be used to reference the entries in the ```parties``` section for any other public entites which are signatories to the contract. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -938,6 +908,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/signatories
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -946,6 +917,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/signatories
+  :ignore_path: /releases/4/
 ```
 
 
@@ -967,9 +939,7 @@ Private party: name of company or consortium, name of representative, address, t
 
 The ```organization/roles``` field should be set to ```privateParty``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -983,6 +953,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/parties/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -991,6 +962,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/0
+  :ignore_path: /releases/4/
 ```
 
 
@@ -1001,9 +973,7 @@ Information can be provided using the following OCDS fields.
 
  The ```awards``` section of an OCDS release should be used to reference the entry for the private party in the ```parties``` section. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1017,6 +987,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1025,6 +996,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
+  :ignore_path: /releases/3/
 ```
 
 
@@ -1043,9 +1015,7 @@ Financiers: name of Lead FI, other FIs, name of representative of lead FI, addre
 
 The ```organization/roles``` field should be set to ```leadBank``` or ```lender``` as appropriate and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1059,6 +1029,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/parties/4
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1067,6 +1038,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/4
+  :ignore_path: /releases/4/
 ```
 
 
@@ -1077,9 +1049,7 @@ Information can be provided using the following OCDS fields.
 
  The ```contracts``` section of an OCDS release should be used to reference the entries in the ```parties``` section for any financiers which are signatories to the contract. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1121,9 +1091,7 @@ P   U
 
  The ```tender/tenderPeriod``` field should be used to provide the period during which the tender is open for submissions, ```tenderPeriod.endDate``` should contain the closing date for tender submissions. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1137,6 +1105,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender/tenderPeriod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1145,6 +1114,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/tenderPeriod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1170,9 +1140,7 @@ P   U
 
  The ```tender/enquiryPeriod```field should be used to provide the period during which enquiries may be made and answered. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1186,6 +1154,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender/enquiryPeriod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1194,6 +1163,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/enquiryPeriod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1224,9 +1194,7 @@ P   U
 
  The ```tender/awardPeriod``` field should be used to provide the period during which an award is expected to be made. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1240,6 +1208,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender/awardPeriod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1248,6 +1217,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/awardPeriod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1273,9 +1243,7 @@ P   U   U   U   U   U
 
  The ```tender/contractPeriod``` field should be used to provide the expected start and end dates for the contract. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1288,7 +1256,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/contractPeriod
+  :jsonpointer: /releases/1/tender
+  :include_only: contractPeriod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1296,7 +1266,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/contractPeriod
+  :jsonpointer: /releases/1/tender
+  :include_only: contractPeriod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1320,11 +1292,9 @@ P   U
 
 </div>
 
- Information on the procurement method used should be provided using the following fields in the ```tender``` section of an OCDS release: 
+ Information on the procurement method used should be provided in the ```tender``` section of an OCDS release: 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1337,7 +1307,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/procurementMethod
+  :jsonpointer: /releases/1/tender
+  :include_only: procurementMethod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1345,7 +1317,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/procurementMethod
+  :jsonpointer: /releases/1/tender
+  :include_only: procurementMethod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1369,11 +1343,9 @@ P   U
 
 </div>
 
- Information on the submission method for bids should be provided using the following fields in the ```tender``` section of an OCDS release: 
+ Information on the submission method for bids should be provided in the ```tender``` section of an OCDS release: 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1386,7 +1358,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/submissionMethod
+  :jsonpointer: /releases/1/tender
+  :include_only: submissionMethod
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1394,7 +1368,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/submissionMethod
+  :jsonpointer: /releases/1/tender
+  :include_only: submissionMethod
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1418,11 +1394,9 @@ P   U
 
 </div>
 
- Information on the eligibility criteria for bidders can be provided using the ```eligibilityCriteria``` field in the ```tender``` section of an OCDS release. 
+ Information on the eligibility criteria for bidders can be provided using ```tender``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1435,7 +1409,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/eligibilityCriteria
+  :jsonpointer: /releases/1/tender
+  :include_only: eligibilityCriteria
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1443,7 +1419,9 @@ Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/eligibilityCriteria
+  :jsonpointer: /releases/1/tender
+  :include_only: eligibilityCriteria
+  :ignore_path: /releases/1/
 ```
 
 
@@ -1471,9 +1449,7 @@ P   U
 
 Each document should be tagged with an appropriate ```documentType``` value from the [document type codelist](../schema/codelists/#document-type). 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1492,9 +1468,7 @@ RFQ documents
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1513,9 +1487,7 @@ Pre-qualification or shortlist OCDS provides an [organization building block](..
 
 * Information about the bidders which were not shortlisted or invited to submit a proposal follow the pre-qualification process can be provided using an entry in the ```parties``` section of an OCDS release with the ```organization/role``` field set to ```disqualifiedBidder```. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1539,9 +1511,7 @@ RFP documents
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1562,9 +1532,7 @@ Evaluation criteria: brief description with weightage
 
  Structured information on evaluation criteria can be provided using the ```criteria``` field in the ```tender``` section of an OCDS release. OCDS provides a [criteria, requirements, responses model](../schema/reference/#requirements) for disclosure of structured information on evaluation criteria and bidder responses.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1583,9 +1551,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 The ```document/documentType``` field should be set to ```evaluationCriteria``` (from the [document type codelist](../schema/codelists/#document-type)) to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1604,9 +1570,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1626,9 +1590,7 @@ The ```document/description``` field can be used to provide a free text summary 
 A value from the [document type codelist](../schema/codelists/#document-type) of ```negotiationParameters``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed.
  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1647,9 +1609,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) of ```minutes``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1672,9 +1632,7 @@ See section I.4
 
 The ```organization/roles``` field should be set to ```preferredBidder``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1688,6 +1646,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/parties/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1696,6 +1655,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0
+  :ignore_path: /releases/3/
 ```
 
 
@@ -1706,9 +1666,7 @@ Information can be provided using the following OCDS fields.
 
  The ```award``` section of an OCDS release should be used to reference the entry for the preferred bidder in the ```parties``` section. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1722,6 +1680,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1730,6 +1689,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
+  :ignore_path: /releases/3/
 ```
 
 
@@ -1763,9 +1723,7 @@ The following information should be provided for each risk:
 Additional free text information on each risk allocation, for example the rationale for the allocation, can also be provided.
  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1779,6 +1737,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/riskAllocation
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1787,6 +1746,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/riskAllocation
+  :ignore_path: /releases/4/
 ```
 
 
@@ -1797,9 +1757,7 @@ Information can be provided using the following OCDS fields.
 
  Additional financial modelling for risks can also be linked to or provided in a document. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1824,9 +1782,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) of ```evaluationReports``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1853,9 +1809,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1870,9 +1824,7 @@ See section I.4
 
 The discount rates used should be specified in the diclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used. Structured information and supporting details about the discount rate and risk premium used by government to evaluate the PPP should be provided in the ```award/evaluationIndicators``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1886,6 +1838,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/awards/0/evaluationIndicators
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1894,6 +1847,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/evaluationIndicators
+  :ignore_path: /releases/3/
 ```
 
 
@@ -1908,9 +1862,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1929,9 +1881,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1952,9 +1902,7 @@ See section I.4
 
 Debt-equity ratio Structured information and supporting details about the debt-equity ratio for the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -1968,6 +1916,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary/debtEquityRatio
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1976,6 +1925,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary/debtEquityRatio
+  :ignore_path: /releases/4/
 ```
 
 
@@ -1986,9 +1936,7 @@ Information can be provided using the following OCDS fields.
 
 Share capital Structured information and supporting details about the share capital of the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2002,6 +1950,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary/shareCapital
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2010,6 +1959,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary/shareCapital
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2028,9 +1978,7 @@ Shareholders with proportion held and voting rights
 
 The ```organization/roles``` field should be set to ```equityInvestor```. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2044,6 +1992,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/parties/4
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2052,6 +2001,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/4
+  :ignore_path: /releases/3/
 ```
 
 
@@ -2062,9 +2012,7 @@ Information can be provided using the following OCDS fields.
 
  Structured information about each shareholder on the proportion of shares held and voting rights should be provided in the entry in the ```parties/shareholders``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2078,6 +2026,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2086,6 +2035,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders
+  :ignore_path: /releases/3/
 ```
 
 
@@ -2108,9 +2058,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2125,9 +2073,7 @@ See section I.4
 
  Information on equity transfer caps or lock in arrangements applicable to a particular shareholder can be provided in the ```parties/shareholders/notes``` field. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2141,6 +2087,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders/0/notes
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2149,6 +2096,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders/0/notes
+  :ignore_path: /releases/3/
 ```
 
 
@@ -2167,9 +2115,7 @@ Commercial lenders, institutional investors, bilateral or multilateral lenders, 
 
 The ```organization/roles``` field should be set to ```lender``` or ```equityInvestor``` as appropriate. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2183,6 +2129,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/parties/4
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2191,6 +2138,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/4
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2201,9 +2149,7 @@ Information can be provided using the following OCDS fields.
 
  Details of the type of finance provided by each lender or investor should be provided in the ```contract/finance``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2217,6 +2163,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2225,6 +2172,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2235,9 +2183,7 @@ Information can be provided using the following OCDS fields.
 
 Categorize senior debit, mezzanine debit, other Details of all debt financing should be provided in the ```contract/finance``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2251,6 +2197,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0/financeCategory
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2259,6 +2206,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0/financeCategory
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2269,9 +2217,7 @@ Information can be provided using the following OCDS fields.
 
 Amount and tenor of each, fixed or floating rate Details of interest rates relating to each finance arrangement should be provided in the ```contract/finance``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2285,6 +2231,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2293,6 +2240,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2309,9 +2257,7 @@ Security and step in arrangements
 
  Details of security and step in rights relating to each financing arrangement should be provided in the ```contract/finance/description``` field, whilst the ```contract/finance/stepInRights``` flag should be set for each financing arrangement to indicate whether step in rights apply. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2325,6 +2271,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2333,6 +2280,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2347,9 +2295,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2364,9 +2310,7 @@ See section I.4
 
 Forecast IRR Structured information and supporting details about the forecast IRR of the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2380,6 +2324,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2388,6 +2333,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2410,9 +2356,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
 
  Structured information about financial guarantees can be provided in the contract ```finance``` block, with a ```financeCategory``` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2427,9 +2371,7 @@ Information can be provided using the following OCDS fields.
 
  Documentation of each guarantee should be provided using one or more ```documentation``` blocks (one for each guarantee), with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2456,9 +2398,7 @@ Subsidy as a proportion of project value
 
  Structured information and supporting details about the subsidy ratio for the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2472,6 +2412,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2480,6 +2421,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2494,9 +2436,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2515,9 +2455,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2536,9 +2474,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2559,9 +2495,7 @@ These are payments made by the public authority or purchaser to the private prov
 
  Structured information on actual individual service payments can be provided in the ```contract/implementation/transactions``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2575,6 +2509,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2583,6 +2518,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
+  :ignore_path: /releases/5/
 ```
 
 
@@ -2593,9 +2529,7 @@ Information can be provided using the following OCDS fields.
 
 Total payments and periodicity Structured information on total agreed and actual service payments can be provided in the ```contract/charges``` and ```contract/implementation/charges``` sections of an OCDS release respectively. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2609,6 +2543,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/charges
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2617,6 +2552,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/charges
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2631,9 +2567,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2652,9 +2586,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2675,9 +2607,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2697,9 +2627,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2726,9 +2654,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2747,9 +2673,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2778,9 +2702,7 @@ Structured information on the tariffs defined in the contract and subsequent rev
 
  Structured information on the tariffs defined in the contract and subsequent revisions to tariffs can be provided in the ```implementation/tariffs``` section of an OCDS release.  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2794,6 +2716,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/tariffs
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -2802,6 +2725,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/tariffs
+  :ignore_path: /releases/4/
 ```
 
 
@@ -2816,9 +2740,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2837,9 +2759,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2858,9 +2778,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2879,9 +2797,7 @@ The ```document/description``` field can be used to provide a free text summary 
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2906,9 +2822,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2927,9 +2841,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2954,9 +2866,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2971,9 +2881,7 @@ See section I.4
 
 Nature of Variation A description of the nature of the variation should be provided in the ```amendment/description``` field. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -2988,9 +2896,7 @@ Information can be provided using the following OCDS fields.
 
 Rationale for variation A rationale for the variation should be provided in the ```amendment/rationale``` field. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3005,9 +2911,7 @@ Information can be provided using the following OCDS fields.
 
 Change in roles and responsibilities of the parties due to the variation, if any Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the ```parties``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3021,6 +2925,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/parties
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3029,6 +2934,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties
+  :ignore_path: /releases/4/
 ```
 
 
@@ -3039,9 +2945,7 @@ Information can be provided using the following OCDS fields.
 
 Change in original risk allocation due to the variation, if any Structured information on changes to the original risk allocation due to the variation should be provided by updating the ```contract/riskAllocation``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3055,6 +2959,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/riskAllocation
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3063,6 +2968,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/riskAllocation
+  :ignore_path: /releases/4/
 ```
 
 
@@ -3077,9 +2983,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3098,9 +3002,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3115,9 +3017,7 @@ See section I.4
 
 Change in tariffs or service levels due to the variation, if any Structured information on changes to the tariffs should be provided by updating the ```contract/implementation/tariffs``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3131,6 +3031,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/tariffs
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3139,6 +3040,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/tariffs
+  :ignore_path: /releases/4/
 ```
 
 
@@ -3149,9 +3051,7 @@ Information can be provided using the following OCDS fields.
 
  Structured information on changes to services levels should be provided by updating the ```contract/agreedMetrics``` section of an OCDS release. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3165,6 +3065,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/agreedMetrics/0
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3173,6 +3074,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/agreedMetrics/0
+  :ignore_path: /releases/4/
 ```
 
 
@@ -3183,9 +3085,7 @@ Information can be provided using the following OCDS fields.
 
 Date of variation The date of the variation should be provded using the ```amendment/date``` field. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3210,9 +3110,7 @@ A metric with the ```id``` 'demand' should be given, with a series of forecast `
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3226,6 +3124,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3234,6 +3133,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  :ignore_path: /releases/6/
 ```
 
 
@@ -3256,9 +3156,7 @@ A metric with the ```id``` 'revenue' should be given, with a series of forecast 
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3272,6 +3170,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3280,6 +3179,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  :ignore_path: /releases/6/
 ```
 
 
@@ -3292,9 +3192,7 @@ Provide links to audited financial statements of the provider company. This info
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3313,9 +3211,7 @@ A metric with the ```id``` 'revenue' should be given, with a series of forecast 
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3329,6 +3225,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3337,6 +3234,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  :ignore_path: /releases/6/
 ```
 
 
@@ -3349,9 +3247,7 @@ State actual year-wise performance here against each of 10-12 identified key per
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3365,6 +3261,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3373,6 +3270,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
+  :ignore_path: /releases/6/
 ```
 
 
@@ -3384,9 +3282,7 @@ Information can be provided using the following OCDS fields.
 State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed. Structured data about actual performance failures, penalties and abatments and those provided for in the contract can be provided in the ```contract/implementation/performanceFailures``` section of an OCDS release.
  
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3400,6 +3296,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
+  
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -3408,6 +3305,7 @@ Information can be provided using the following OCDS fields.
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
+  :ignore_path: /releases/6/
 ```
 
 
@@ -3422,9 +3320,7 @@ The ```document/description``` field should be used to provide a free text summa
 
 A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
-**Schema** 
-
-Information can be provided using the following OCDS fields.
+**Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
@@ -3435,4 +3331,4 @@ See section I.4
 
  
 
-                                                       
+     

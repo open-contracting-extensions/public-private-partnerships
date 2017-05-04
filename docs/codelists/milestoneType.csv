@@ -1,0 +1,11 @@
+Code,Title,Description,Source
+preProcurement,Pre-procurement,Events such as the preparation of key studies,https://github.com/open-contracting/ocds-milestones-update
+engagement,Engagement,"For engagement milestones, such as a public hearing.",https://github.com/open-contracting/ocds-milestones-update
+approval,Approval,Events such as project sign-offs,https://github.com/open-contracting/ocds-milestones-update
+procurement,Procurement,"Events taking place during the procurement which are not captured by fields in core OCDS, such as additional enquiry periods or draft tender submissions in a competitive dialogue process",
+adjudication,Adjudication,"For adjudication milestones, such as the meeting date of a committee. Sometimes known as evaluation or assessment.",https://github.com/open-contracting/ocds-milestones-update
+contractClose,Contract close,Events such as commercial and financial close,https://github.com/open-contracting/public-private-partnerships/issues/25
+delivery,Delivery,"Events such as the predicated date for works or development to start, or to be finalised",https://github.com/open-contracting/ocds-milestones-update
+reporting,Reporting,"For reporting milestones, such as when key reports should be provided.",https://github.com/open-contracting/ocds-milestones-update
+financial,Financial,"Events such as planned payments, or equity transfers",https://github.com/open-contracting/ocds-milestones-update
+planning,planning,For events during the planning phase of a process.,http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#milestone-type

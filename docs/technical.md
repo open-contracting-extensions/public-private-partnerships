@@ -15,11 +15,9 @@ The extended OCDS for PPPs schema provides all the elements covered by the World
 
 ## The OCDS for PPPs Schema
 
-To produce and validate OCDS for PPPs data, create an OCDS 1.1 file, and include the consolidated OCDS for PPPs extensions. 
+To produce and validate OCDS for PPPs data, create an OCDS 1.1 file, and declare the consolidated OCDS for PPPs extensions as part of a release or record package.
 
-TODO TODO TOD
-
-A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](LINK LINK LINK), and a [full reference table is provided](LINK LINK LINK).
+A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](/_static/ppp-extension.json), and a [full reference table is provided](LINK LINK LINK).
 
 ## Who is this for?
 
@@ -43,5 +41,5 @@ First review:
 * The [core Open Contracting Data Standard documentation](http://standard.open-contracting.org/latest/en/getting_started/);
 * The [World Bank Framework for Disclosure in Public Private Partnerships](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a-framework-for-disclosure-in-public-private-partnership-projects)
 
-Then consult the [reference](reference.md) pages to see how each element from the PPP Disclosure Framework template can be captured using OCDS.
+Then consult the [reference](framework.md) pages to see how each element from the PPP Disclosure Framework template can be captured using OCDS.
 

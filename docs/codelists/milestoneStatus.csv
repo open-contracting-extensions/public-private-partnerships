@@ -1,0 +1,5 @@
+Category,Code,Title,Description,Source,Notes/Questions
+,scheduled,Scheduled,This milestone has been scheduled for the date in milestone.dueDate. Progress towards the milestone has not yet been evaluated as of milestone.dateModified,https://github.com/open-contracting/ocds-milestones-update,
+,met,Met,This milestone has been achieved. The data on which it was met should be placed in the milestone.dateMet field,https://github.com/open-contracting/ocds-milestones-update,
+,notMet,Not met,This milestone had not been met at the date it was last reviewed (see milestone.dateModified). ,https://github.com/open-contracting/ocds-milestones-update,
+,partiallyMet,Partially met,This milestone was judged to have been partially met at the date it was last reviewed (see milestone.dateModified),https://github.com/open-contracting/ocds-milestones-update,

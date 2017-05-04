@@ -15,12 +15,15 @@ extension_json = requests.get(location).json()
 with open('base-release-schema.json') as schema_file:
     schema = json.load(schema_file,object_pairs_hook=OrderedDict)
 
+ppp_extension = {}
+
 for extension in extension_json['extensions']:
     try:
         if extension['slug'] in extensions_to_merge:
             print("Merging " + extension['slug'] )
             extension_patch = requests.get(extension['url'].rstrip("/") + "/" + "release-schema.json").json()
             schema = json_merge_patch.merge(schema, extension_patch)
+            ppp_extension = json_merge_patch.merge(ppp_extension, extension_patch)
 
 
             extension_readme = requests.get(extension['url'].rstrip("/") + "/" + "README.md")
@@ -38,4 +41,6 @@ with open("../release-schema.json") as local_patch:
 with open('ppp-release-schema.json','w') as schema_file:
     json.dump(schema,schema_file,indent=4)
 
+with open('ppp-extension.json','w') as extension_file:
+    json.dump(ppp_extension,extension_file,indent=4)
     

@@ -1,10 +1,17 @@
-Open Data Services Sphinx Base
+Home
 ==============================
 
+This site contains technical documentation for OCDS for PPPs. 
 
-### Who is it for?
+This provides an extended Open Contracting Data Standard schema - offering as structured data model for presenting information on Public Private Partnership Projects.
 
+OTHER INTRODUCTORY TEXT HERE
 
+## Partners
+
+DETAILS OF PARTNERS HERE. 
+
+## Contents
 
 Contents:
 
@@ -12,14 +19,24 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+
    overview
    technical
    timing
-   reference
+   spreadsheet
+   framework
+   example
 
+   reference/index
+   documents
+   extensions/index
+
+   governance
 ```
 
+## Credits
 
+Developed by Open Data Services Co-operative for the World Bank and Open Contracting Partnership. 
 
 Indices and tables
 ==================
