@@ -386,6 +386,8 @@ class JSONInclude(LiteralInclude):
     option_spec = {
         'jsonpointer': directives.unchanged,
         'expand': directives.unchanged,
+        'exclude': directives.unchanged,
+        'includeonly':directives.unchanged,
         'title': directives.unchanged,
     }
 
@@ -398,6 +400,14 @@ class JSONInclude(LiteralInclude):
         except KeyError as e:
             title = filename
         pointed = resolve_pointer(json_obj, self.options['jsonpointer'])
+        # Remove the items mentioned in exclude
+        if(self.options.get('exclude')):
+            for item in self.options['exclude'].split(","):
+                try:
+                    del pointed[item.strip()]
+                except KeyError as e:
+                    pass
+
         code = json.dumps(pointed, indent='    ')
         # Ideally we would add the below to a data-expand element, but I can't see how to do this, so using classes for now...
         class_list = self.options.get('class', [])
@@ -406,7 +416,6 @@ class JSONInclude(LiteralInclude):
         class_list = class_list + ['expandjson expand-{0}'.format(s.strip()) for s in expand]
         literal = nodes.literal_block(code, code, classes=class_list)
         literal['language'] = 'json' 
-        literal['caption'] = 'TEST'
         return [ literal ]
 
 def flatten_dict(obj, path, result, recursive=False):
@@ -426,11 +435,11 @@ def flatten_dict(obj, path, result, recursive=False):
                 result[path + '/' + key] = value
 
 
-
 class JSONIncludeFlat(CSVTable):
     option_spec = {
         'jsonpointer': directives.unchanged,
         'title': directives.unchanged,
+        'exclude': directives.unchanged,
         'recursive': directives.flag,
         'ignore_path': directives.unchanged,
     }
@@ -444,7 +453,13 @@ class JSONIncludeFlat(CSVTable):
             json_obj = json.load(fp, object_pairs_hook=OrderedDict)
         filename = str(file_path).split("/")[-1].replace(".json","")
         pointed = resolve_pointer(json_obj, self.options['jsonpointer'])
-
+        if(self.options.get('exclude')):
+            for item in self.options['exclude'].split(","):
+                try:
+                    del pointed[item.strip()]
+                except KeyError as e:
+                    pass
+        
         csv_data = []
 
         ignore_path = self.options.get('ignore_path', ' ')
