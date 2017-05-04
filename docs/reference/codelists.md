@@ -5,7 +5,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/documentType.csv
+   :file: ../codelists/documentType.csv
 ```
 
 ## financeCategory
@@ -13,7 +13,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/financeCategory.csv
+   :file: ../codelists/financeCategory.csv
 ```
 
 ## financeType
@@ -21,7 +21,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/financeType.csv
+   :file: ../codelists/financeType.csv
 ```
 
 ## financialIndicator
@@ -29,7 +29,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/financialIndicator.csv
+   :file: ../codelists/financialIndicator.csv
 ```
 
 ## metricID
@@ -37,7 +37,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/metricID.csv
+   :file: ../codelists/metricID.csv
 ```
 
 ## milestoneCode
@@ -45,7 +45,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/milestoneCode.csv
+   :file: ../codelists/milestoneCode.csv
 ```
 
 ## milestoneStatus
@@ -53,7 +53,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/milestoneStatus.csv
+   :file: ../codelists/milestoneStatus.csv
 ```
 
 ## milestoneType
@@ -61,7 +61,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/milestoneType.csv
+   :file: ../codelists/milestoneType.csv
 ```
 
 ## organizationRole
@@ -69,7 +69,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/organizationRole.csv
+   :file: ../codelists/organizationRole.csv
 ```
 
 ## riskAllocation
@@ -77,7 +77,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/riskAllocation.csv
+   :file: ../codelists/riskAllocation.csv
 ```
 
 ## riskCategory
@@ -85,7 +85,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/riskCategory.csv
+   :file: ../codelists/riskCategory.csv
 ```
 
 ## riskImpact
@@ -93,7 +93,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/riskImpact.csv
+   :file: ../codelists/riskImpact.csv
 ```
 
 ## riskLikelihood
@@ -101,7 +101,7 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/riskLikelihood.csv
+   :file: ../codelists/riskLikelihood.csv
 ```
 
 ## votingRights
@@ -109,5 +109,5 @@
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/votingRights.csv
+   :file: ../codelists/votingRights.csv
 ```

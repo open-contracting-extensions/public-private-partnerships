@@ -27,6 +27,6 @@ The full list of document types, and where they should appear, is given below.
 ```eval_rst
 .. csv-table::
    :header-rows: 1
-   :file: docs/codelists/documentType.csv
+   :file: ../codelists/documentType.csv
 ```
 
