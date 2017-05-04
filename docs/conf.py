@@ -387,7 +387,7 @@ class JSONInclude(LiteralInclude):
         'jsonpointer': directives.unchanged,
         'expand': directives.unchanged,
         'exclude': directives.unchanged,
-        'includeonly':directives.unchanged,
+        'include_only':directives.unchanged,
         'title': directives.unchanged,
     }
 
@@ -407,6 +407,11 @@ class JSONInclude(LiteralInclude):
                     del pointed[item.strip()]
                 except KeyError as e:
                     pass
+
+        if(self.options.get('include_only')):
+            for node in list(pointed):
+                if not (node in self.options.get('include_only')):
+                    del pointed[node]
 
         code = json.dumps(pointed, indent='    ')
         # Ideally we would add the below to a data-expand element, but I can't see how to do this, so using classes for now...
@@ -441,6 +446,7 @@ class JSONIncludeFlat(CSVTable):
         'title': directives.unchanged,
         'exclude': directives.unchanged,
         'recursive': directives.flag,
+        'include_only': directives.unchanged,
         'ignore_path': directives.unchanged,
     }
 
@@ -459,7 +465,10 @@ class JSONIncludeFlat(CSVTable):
                     del pointed[item.strip()]
                 except KeyError as e:
                     pass
-        
+        if(self.options.get('include_only')):
+            for node in list(pointed):
+                if not (node in self.options.get('include_only')):
+                    del pointed[node]
         csv_data = []
 
         ignore_path = self.options.get('ignore_path', ' ')

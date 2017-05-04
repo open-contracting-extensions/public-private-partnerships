@@ -127,8 +127,8 @@ OCDS is designed to support real-time publication of information, so within each
 <td width="30%">Recommended release tag</td>
 </tr>
 <tr>
-<td>5.2 Contract rengotiation</td>
-<td>5.2.X</td>
+<td>7.1 Contract rengotiation</td>
+<td>7.1.X</td>
 <td>contractUpdate</td>
 </tr>
 </tbody></table>
