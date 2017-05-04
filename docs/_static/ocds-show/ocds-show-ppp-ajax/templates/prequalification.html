@@ -1,0 +1,279 @@
+{% set tender = release.preQualification %}
+<h3 class="tab-heading">
+{% if tender.title %}
+  {{ tender.title }} {{change_label(tender, 'title')}}
+{% else %}
+  {{ gettext("No title provided") }}
+{% endif %}
+</h3>
+<div class="row">
+
+  <div class="col-xs-12">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {% if tender.description %}
+          {{ tender.description }} {{change_label(tender, 'description')}}
+        {% else %}
+          {{ gettext("No description provided") }}
+        {% endif %}
+        <dl> 
+           <dt class="dt-large dt-inline dt-gap">
+             {{ gettext("Status") }}
+           </dt>
+           <dd class="dd-large dd-inline dd-gap">
+              {% if tender.status %}
+                {{ tender.status }} {{change_label(tender, 'status')}}
+              {% else %}
+                {{ gettext("No status provided") }}
+              {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-inline">
+              {{ gettext("Eligibility criteria")}}
+           </dt>
+           <dd class="dd-large dd-large dd-inline">
+              {% if tender.eligibilityCriteria %}
+                {{ tender.eligibilityCriteria }} {{change_label(tender, 'eligibilityCriteria')}}
+              {% else %}
+                {{ gettext("No eligibility criteria provided") }}
+              {% endif %}
+           </dd>
+           <dt class="dt-inline dt-large">
+              {{ gettext("ID")}}
+           </dt>
+           <dd class="dd-inline dd-large">
+              {{ tender.id }} {{change_label(tender, 'id')}}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+             {{ gettext("Key Dates")}}
+           </dt>
+           <dd class="dd-small">
+            <strong>{{ gettext("Tender start: ")}}</strong>
+            {% if tender.period.startDate %}
+              {{date_popout(tender.period, 'startDate')}}
+            {% else %}
+              <span class="bg-warning">{{ gettext("No start date provided") }}</span>
+            {% endif %}
+            <strong class="gap-left">{{ gettext("Tender end: ")}}</strong>
+            {% if tender.period.endDate %}
+              {{date_popout(tender.period, 'endDate')}}
+            {% else %}
+              <span class="bg-warning">{{ gettext("No end date provided") }}</span>
+            {% endif %}
+            {% if tender.period.durationInDays %}
+              <strong class="gap-left">{{ gettext("Tender Duration (in days): ")}}</strong>
+              {{ tender.period.durationInDays }} {{change_label(tender.period, 'durationInDays')}}
+            {% endif %}
+            {% if tender.period.maxExtentDate %}
+              <strong class="gap-left">{{ gettext("Tender Max Extent Date: ")}}</strong>
+              {{date_popout(tender.period, 'maxExtentDate')}}
+            {% endif %}
+            <br/>
+
+
+            <strong>{{ gettext("Award start: ")}}</strong>
+            {% if tender.awardPeriod.startDate %}
+              {{date_popout(tender.awardPeriod, 'startDate')}}
+            {% else %}
+              <span class="bg-warning">{{ gettext("No start date provided") }}</span>
+            {% endif %}
+            <strong class="gap-left">{{ gettext("Award end: ")}}</strong>
+            {% if tender.awardPeriod.endDate %}
+              {{date_popout(tender.awardPeriod, 'endDate')}}
+            {% else %}
+              <span class="bg-warning">{{ gettext("No end date provided") }}<span>
+            {% endif %}
+            {% if tender.awardPeriod.durationInDays %}
+              <strong class="gap-left">{{ gettext("Award Period Duration (in days): ")}}</strong>
+              {{ tender.awardPeriod.durationInDays}} {{change_label(tender.awardPeriod, 'durationInDays')}}
+            {% endif %}
+            {% if tender.awardPeriod.maxExtentDate %}
+              <strong class="gap-left">{{ gettext("Max Extent Date: ")}}</strong>
+              {{date_popout(tender.awardPeriod, 'maxExtentDate')}}
+            {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+             {{ gettext("Enquiries")}}
+           </dt>
+           <dd class="dd-small">
+             <p>
+             {{change_label(tender, 'hasEnquiries')}}
+             {% if tender.hasEnquiries == false %}
+               {{ gettext("There have been no enquiries regarding this tender") }}
+             {% elif tender.hasEnquiries %}
+               {{ gettext("There have been enquiries regarding this tender") }}
+             {% else %}
+               <span class="bg-warning">{{ gettext("No information on enquiries provided") }}</span>
+             {% endif %}
+             </p>
+             <strong>{{ gettext("Enquiries start: ")}}</strong>
+             {% if tender.enquiryPeriod.startDate %}
+               {{date_popout(tender.enquiryPeriod, 'startDate')}}
+             {% else %}
+               <span class="bg-warning">{{ gettext("No start date provided") }}</span>
+             {% endif %}
+             <strong class="gap-left">{{ gettext("Enquiries end: ")}}</strong>
+             {% if tender.enquiryPeriod.endDate %}
+               {{date_popout(tender.enquiryPeriod, 'endDate')}}
+             {% else %}
+               <span class="bg-warning">{{ gettext("No end date provided") }}</span>
+             {% endif %}
+
+             {% if tender.enquiryPeriod.durationInDays %}
+               <strong class="gap-left">{{ gettext("Enquiries Period Duration (in days): ")}}</strong>
+               {{ tender.enquiryPeriod.durationInDays}}
+               {{change_label(tender.enquiryPeriod, 'durationInDays')}}
+             {% endif %}
+             {% if tender.enquiryPeriod.maxExtentDate %}
+               <strong class="gap-left">{{ gettext("Enquiries Max Extent Date: ")}}</strong>
+               {{date_popout(tender.enquiryPeriod, 'maxExtentDate')}}
+             {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+             {{ gettext("Procurement method") }}
+           </dt>
+           <dd class="dd-small">
+             {% if tender.procurementMethod %}
+             <strong>{{tender.procurementMethod}}:{{change_label(tender, 'procurementMethod')}}</strong>	<!-- set up a filter or function to convert between codelist values and titles -->
+             {% else %}
+               <strong>No procurement method provided </strong>
+             {% endif %}
+             {% if tender.procurementMethodRationale %}
+               {{ tender.procurementMethodRationale}} {{change_label(tender, 'procurementMethodRationale')}}
+             {% else %}
+               <span class="bg-warning">{{ gettext("No rationale provided") }}</span>
+             {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+             {{ gettext("Award criteria") }}
+           </dt>
+           <dd class="dd-small">
+             <strong>
+               {% if tender.awardCriteria %}
+                 {{ tender.awardCriteria }}:
+                 {{change_label(tender, 'awardCriteria')}}
+               {% else %}
+                 {{ gettext("No award criteria provided") }}
+               {% endif %}
+             </strong>
+             {% if tender.awardCriteriaDetails %}
+               {{ tender.awardCriteriaDetails }}
+               {{change_label(tender, 'awardCriteriaDetails')}}
+             {% else %}
+               <span class="bg-warning">{{ gettext("No award criteria details provided")}}</span>
+             {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+             {{ gettext("Submission method") }}
+           </dt>
+           <dd class="dd-small">
+            <strong>
+              {% if tender.submissionMethod %}
+                {{ tender.submissionMethod|join(", ")}}:
+                {{change_label(tender, 'submissionMethod')}}
+              {% else %}
+                {{ gettext("No submission method provided") }}
+              {% endif %}
+            </strong>
+            {% if tender.submissionMethodDetails %}
+              {{ tender.submissionMethodDetails}}
+              {{change_label(tender, 'submissionMethodDetails')}}
+            {% else %}
+              <span class="bg-warning">{{ gettext("No submission method details provided")}}</span>
+            {% endif %}
+           </dd>
+         </dl> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    {% if tender.documents %}
+      {% set documents = tender.documents %}
+      {% set parent = tender %}
+      {% include 'documents.html' %}
+    {% else %}
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            {{ gettext("Documents") }}
+          </h3>
+        </div>
+        <div class="panel-body">
+          {{ gettext("No documents provided") }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-{% if tender.tenderers %}default{% else %}warning{% endif %}">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+           {{ gettext("Procuring Entity") }}
+        </h3>
+      </div>
+      <div class="panel-body">
+        <div class="col-md-12">
+          {% set organization = parties[tender.procuringEntity.id] %}
+          {% if not parties[tender.procuringEntity.id] %}
+            {% set organization = tender.procuringEntity %}
+          {% endif %}
+          {% include 'organization_ppp.html' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-{% if tender.tenderers %}default{% else %}warning{% endif %}">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+           {{ gettext("Tenderers:") }} {% if tender.numberOfTenderers %}{{ tender.numberOfTenderers }}{% else %}<span class="bg-warning">{{ gettext("Number of tenderers not provided")}}</span>{% endif %}
+        </h3>
+      </div>
+      <div class="panel-body">
+        {% for tenderer in tender.tenderers %}
+          <div class="col-md-12">
+            {% set organization = parties[tenderer.id] %}
+            {% if not parties[tenderer.id] %}
+              {% set organization = tenderer %}
+            {% endif %}
+            {% include 'organization_ppp.html' %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    {% if tender.milestones %}
+      {% set milestones = tender.milestones %}
+      {% set parent = tender %}
+      {% include 'milestones.html' %}
+    {% else %}
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            {{ gettext("Milestones") }}
+          </h3>
+        </div>
+        <div class="panel-body">
+          {{ gettext("No milestones provided") }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>

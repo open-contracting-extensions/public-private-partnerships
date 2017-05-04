@@ -1,0 +1,206 @@
+<h3 class="tab-heading">
+  {% if award.title %}
+  {{ award.title }} <small> ({{ award.id }}) </small>
+  {% else %}
+    {{ award.id }}
+  {% endif %} {{change_label(award)}}
+
+</h3>
+<section id="award-{{loop.index}}">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {% if award.description %}
+          {{ award.description }} 
+        {% else %}
+          {{ gettext("No description provided") }}
+        {% endif %}
+        <dl> 
+           <dt class="dt-large dt-inline dt-gap">
+						 {{ gettext("Status") }} {{change_label(award, 'status')}}
+           </dt>
+           <dd class="dd-large dd-inline dd-gap">
+             {% if award.status %}
+               {{ award.status }}
+             {% else %}
+               {{ gettext("No status provided") }}
+             {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-inline">
+							{{ gettext("Date") }} {{change_label(award, 'date')}}
+           </dt>
+           <dd class="dd-large dd-inline">
+              {% if award.date %}
+                {{ date_popout(award, 'date') }}
+              {% else %}
+                {{ gettext("No date provided") }}
+              {% endif %}
+           </dd>
+
+           <dt class="dt-large dt-inline">
+							{{ gettext("Value") }} {{change_label(award, 'value')}}
+           </dt>
+           <dd class="dd-large dd-inline">
+							{% if award.value.amount %}
+								{{ award.value.amount|currency }} {{change_label(award.value, 'amount')}}
+								{{ award.value.currency}} {{change_label(award.value, 'currency')}}
+							{% else %}
+								{{ gettext("Value not provided") }}
+							{% endif %}
+           </dd>
+
+           <dt class="dt-large dt-gap">
+							{{ gettext("Contract Period")}} {{change_label(award, 'contractPeriod')}}
+           </dt>
+           <dd class="dd-small">
+							<strong>{{ gettext("Start: ")}}</strong>
+							{% if award.contractPeriod.startDate %}
+								{{date_popout(award.contractPeriod, 'startDate')}}
+							{% else %}
+								<span class="bg-warning">{{ gettext("No start date provided") }}</span>
+							{% endif %}
+							<strong class="gap-left">{{ gettext("End: ")}}</strong>
+							{% if award.contractPeriod.endDate %}
+								{{date_popout(award.contractPeriod, 'endDate')}}
+							{% else %}
+								<span class="bg-warning">{{ gettext("No end date provided") }}</span>
+							{% endif %}
+
+							{% if award.contractPeriod.durationInDays %}
+                <strong class="gap-left">{{ gettext("Duration (in days): ")}}</strong>
+								{{ award.contractPeriod.durationInDays}} {{change_label(award.contractPeriod, 'durationInDays')}}
+							{% endif %}
+
+							{% if award.contractPeriod.maxExtentDate %}
+                <strong class="gap-left">{{ gettext("Max Extent Date: ")}}</strong>
+								{{date_popout(award.contractPeriod, 'maxExtentDate')}}
+							{% endif %}
+           </dd>
+
+         </dl> 
+      </div>
+    </div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							 {{ gettext("Preferred Bidders") }} {{change_label(award, 'preferredBidders')}}
+						</h3>
+					</div>
+					<div class="panel-body">
+						{% for supplier in award.preferredBidders %}
+							<div class="col-md-12">
+								{% set organization = parties[supplier.id] %}
+                {% if not parties[supplier.id] %}
+                  {% set organization = supplier %}
+                {% endif %}
+								{% include 'organization_ppp.html' %}
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+    {% if award.requirementResponses %}
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                 {{ gettext("Reqirement Responses") }} 
+              </h3>
+            </div>
+                {% set requirementResponses = award.requirementResponses %}
+                {% include 'requirement_responses.html' %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+		<div class="row">
+			<div class="col-md-12">
+				{% if award.items %}
+					{% set items = award.items %}
+					{% set parent = award %}
+					{% include 'items.html' %}
+				{% else %}
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								{{ gettext("Items") }}
+							</h3>
+						</div>
+						<div class="panel-body">
+							{{ gettext("No items provided") }}
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				{% if award.documents %}
+					{% set documents = award.documents %}
+					{% set parent = award %}
+					{% include 'documents.html' %}
+				{% else %}
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								{{ gettext("Documents") }}
+							</h3>
+						</div>
+						<div class="panel-body">
+							{{ gettext("No documents provided") }}
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				{% if award.agreedMetrics %}
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								{{ gettext("Agreed Metrics") }}
+							</h3>
+						</div>
+						<div class="panel-body">
+              {% set metrics = award.agreedMetrics %}
+              {% set parent = award %}
+              {% include 'metrics.html' %}
+						</div>
+					</div>
+				{% else %}
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								{{ gettext("Agreed Metrics") }}
+							</h3>
+						</div>
+						<div class="panel-body">
+							{{ gettext("No Agreed Metrics provided") }}
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+

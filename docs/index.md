@@ -1,4 +1,31 @@
-More in depth docs placed here if needed
-========================================
+Open Data Services Sphinx Base
+==============================
 
-The docs directory is optional. It should be used though if more indepth docs are needed.
+
+### Who is it for?
+
+
+
+Contents:
+
+```eval_rst
+.. toctree::
+   :maxdepth: 2
+
+   overview
+   technical
+   timing
+   reference
+
+```
+
+
+
+Indices and tables
+==================
+
+```eval_rst
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+```

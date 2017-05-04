@@ -1,0 +1,40 @@
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th>
+        Title
+      </th>
+      <th>
+        ID
+      </th>
+      <th>
+        OCID
+      </th>
+      <th>
+        Relationship
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for relatedProcess in relatedProcesses %}
+    <tr>
+      <td>
+        {% if relatedProcess.uri %}
+          <a href="{{relatedProcess.uri}}"> {{relatedProcess.title}} </a>
+        {% else %}
+          {{relatedProcess.title}}
+        {% endif %}
+      </td>
+      <td>
+        {{relatedProcess.id}}
+      </td>
+      <td>
+        {{relatedProcess.ocid}}
+      </td>
+      <td>
+        {{relatedProcess.relationship|join(", ")}}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

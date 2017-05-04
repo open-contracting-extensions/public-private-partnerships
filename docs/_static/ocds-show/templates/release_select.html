@@ -1,0 +1,12 @@
+    <h2> PPP Release
+
+    <label id="label-id-select" class="pull-right">
+        Release ID:
+    <select id="id-select">
+      {% for id in release_ids %}
+        <option {% if id == release_id %}selected{%endif%} value="{{id}}">{{id}}</option> 
+      {% endfor %}
+    </select>
+    </label>
+    </h2>
+

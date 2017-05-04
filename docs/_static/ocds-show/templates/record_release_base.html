@@ -1,0 +1,20 @@
+
+
+<ul class="release-timeline">
+{% for release in releases %}
+
+ <li class="release-timeline-item">
+   <a href="#" class="release-button" data-release-number="{{loop.index0}}" >
+     <div class="release-badge {%if releaseNumber == loop.index0 %} success {% else %}  primary {%endif%}">{{loop.index}}</div>
+   </a>
+   {%if not loop.last %}
+     <span class="release-timeline-line"></span>
+   {%endif%}
+ </li>
+
+{% endfor %}
+</ul>
+
+
+{% block release %}
+{% endblock release %}

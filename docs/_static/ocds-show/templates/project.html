@@ -1,0 +1,81 @@
+<div class="panel panel-{% if project %}default{% else %}warning{% endif %}">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+      {{change_label(parent, 'project')}} {{ gettext("Project: ") }} {{project.title}} {{change_label(project, 'title')}} <small> ({{project.id}} {{change_label(project, 'id')}})</small>
+		</h3>
+	</div>
+	<div class="panel-body">
+  <dl> 
+    <dt class="dt-large">
+    </dt>
+    <dd class="dd-large">
+     {% if project.description %}
+       {{ project.description }}
+       {{ change_label(project, 'description') }}
+     {% else %}
+       {{ gettext("Project description not provided") }}
+     {% endif %}
+    </dd>
+    <dt class="dt-large dt-inline dt-gap">
+       Further Information
+    </dt>
+    <dd class="dd-large dd-inline dd-gap">
+     {% if project.uri %}
+       <a href="{{ project.uri }}">{{ project.uri }}</a>
+       {{ change_label(project, 'uri') }}
+     {% else %}
+       {{ gettext("Further information not provided") }}
+     {% endif %}
+    </dd>
+    <dt class="dt-large dt-inline dt-gap">
+     {{ gettext("Total Value") }} 
+    </dt>
+    <dd class="dd-large dd-inline dd-gap">
+     {% if project.totalValue.amount %}
+       {{ project.totalValue.amount|currency }}
+       {{change_label(project.totalValue, 'amount')}}
+       {{project.totalValue.currency}}
+       {{change_label(project.totalValue, 'currency')}}
+     {% else %}
+       {{ gettext("Total value not provided") }}
+     {% endif %}
+   </dd>
+   <dt class="dt-large dt-gap"> {{gettext("Sector Classifications")}} {{change_label(project, "sector")}} </dt>
+   <dd class="dd-large">
+      {{ project.sector.description }} {{change_label(project.sector, "description")}}
+      <small>
+        ({{ project.sector.scheme }} -
+        {{change_label(project.sector, "scheme")}}
+        {% if project.sector.uri %}
+          <a href="{{ project.sector.uri }}">{{ project.sector.id }}</a>)
+          {{change_label(project.sector, "uri")}}
+        {% else %}
+          {{ project.sector.id }})
+          {{change_label(project.sector, "id")}}
+        {% endif %}
+      </small>
+      {{change_label(project, "additionalClassifications")}}
+      {% if project.additionalClassifications %}
+        {% for classification in project.additionalClassifications %}
+          <br>{{ classification.description }}
+          <small>
+            ({{ classification.scheme }} -
+            {% if classification.uri %}
+              <a href="{{ classification.uri }}">{{ classification.id }}</a>)
+            {% else %}
+              {{ classification.id }})
+            {% endif %}
+          </small>
+        {% endfor %}
+      {% endif %}
+   </dd>
+   <dt class="dt-large dt-gap">
+       {{ gettext("Project Locations") }}
+   </dt>
+   <dd class="dd-large">
+   {% set locations = project.locations %}
+   {% include 'locations.html' %}
+   </dd>
+  </dl> 
+	</div>
+</div>

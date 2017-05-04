@@ -1,0 +1,121 @@
+<section id="planning">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="panel panel-{% if planning.budget.amount.amount %}default{% else %}warning{% endif %}">
+					<div class="panel-body">
+            <dl> 
+						   <dt class="dt-large dt-inline">
+                {{ gettext("Budget amount") }} 
+						   </dt>
+               <dd class="dd-large dd-inline">
+                {% if planning.budget.amount.amount %}
+                  {{ planning.budget.amount.amount|currency }}
+                  {{change_label(planning.budget.amount, 'amount')}}
+                  {{planning.budget.amount.currency}}
+                  {{change_label(planning.budget.amount, 'currency')}}
+                {% else %}
+                  {{ gettext("Budget amount not provided") }}
+                {% endif %}
+               </dd>
+
+						   <dt class="dt-small dt-inline">
+                {{ gettext("Budget ID") }} 
+						   </dt>
+               <dd class="dd-small dd-inline">
+                {% if planning.budget.id %}
+                  {{planning.budget.id}}
+                  {{change_label(planning.budget, 'id')}}
+                {% else %}
+                  {{ gettext("Budget ID not provided") }}
+                {% endif %}
+               </dd>
+
+						   <dt class="dt-small dt-inline">
+                {{ gettext("Budget Source") }} 
+						   </dt>
+               <dd class="dd-small dd-inline">
+                {% if planning.budget.source %}
+                  <a href="{{planning.budget.uri}}" target="_blank">{{planning.budget.source}}</a>
+                  {{change_label(planning.budget, 'source')}}
+                {% else %}
+                  <span class="bg-warning">{{ gettext("Budget source not provided") }}</span>
+                {% endif %}
+               </dd>
+
+
+						   <dt class="dt-large dt-gap">
+                {{ gettext("Budget description") }}
+						   </dt>
+               <dd class="dd-small">
+                {% if planning.budget.description %}
+                  {{planning.budget.description}}
+                  {{change_label(planning.budget, 'description')}}
+                {% else %}
+                  <span class="bg-warning">{{ gettext("Budget description not provided.") }}</span>
+                {% endif %}
+               </dd>
+
+						   <dt class="dt-large dt-gap">
+                  {{ gettext("Rationale") }}
+						   </dt>
+               <dd class="dd-small">
+                 {% if planning.rationale %}
+                   {{planning.rationale}}
+                   {{change_label(planning, 'rationale')}}
+                 {% else %}
+                   {{ gettext("Budget rationale not provided") }}
+                 {% endif %}
+               </dd>
+						   <dt class="dt-large dt-gap dt-inline">
+                 {{ gettext("Project Name") }}
+						   </dt>
+               <dd class="dd-large dd-inline dd-gap">
+                 {% if planning.budget.project %}
+                   {{planning.budget.project}}
+                   {{change_label(planning.budget, 'project')}}
+                 {% else %}
+                   <span class="bg-warning">{{ gettext("Project name not provided.") }}</span>
+                 {% endif %}
+               </dd>
+						   <dt class="dt-small dt-inline">
+                 {{ gettext("Project ID") }}
+						   </dt>
+               <dd class="dd-small dd-inline">
+                 {% if planning.budget.projectID %}
+                   {{planning.budget.projectID}}
+                   {{change_label(planning.budget, 'projectID')}}
+                 {% else %}
+                   <span class="bg-warning">({{ gettext("Project ID not provided") }})</span>
+                 {% endif %}
+               </dd>
+             </dl> 
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				{% if planning.documents %}
+					{% set documents = planning.documents %}
+					{% set parent = planning %}
+					{% include 'documents.html' %}
+				{% else %}
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								{{ gettext("Documents") }}
+							</h3>
+						</div>
+						<div class="panel-body">
+							{{ gettext("No documents provided") }}
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+
+</section>
+
+

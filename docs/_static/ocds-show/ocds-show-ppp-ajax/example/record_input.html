@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/custom.css">
+
+    </head>
+    <body>
+      <div class="container-fluid">
+        <h2> Input </h2>
+        <textarea id="input-json" name="input-json"></textarea>
+
+        <h2> Releases </h2>
+        <div id="container">
+        </div>
+      </div>
+    </body>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../js/nunjucks.min.js"></script>
+	<script src="../js/merge.js"></script>
+    <script src="../templates.js"></script>
+    <script src="record.json"></script>
+    <script>
+
+       var jsonInput = document.getElementById('input-json')
+       var container = document.getElementById('container')
+
+       try {
+           jsonInput.value = JSON.stringify(example_record, null, 2)
+       } catch (e) {
+           jsonInput.value = "BAD DATA"
+       }
+       
+       var gettext = function(text) {
+          return text
+       }
+       var env = nunjucks.configure()
+       // this needs replacing with something readable
+       env.addFilter('currency', function(number) {
+          return number.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')
+       })
+
+       var render_json = function (releaseNumber) {
+           try {
+             var input = JSON.parse(jsonInput.value)
+           } catch (e) {
+             container.innerHTML = '<h2> Invalid JSON data </h2>'
+             return
+           }
+           input['gettext'] = gettext
+           input['releaseNumber'] = releaseNumber
+           input['release'] = merge(input.releases.slice(0, releaseNumber + 1))
+           var content = env.render('record_release.html', input);
+           container.innerHTML = content
+       }
+
+       render_json(0);
+
+       document.getElementById('input-json').onkeyup = function(e) {
+         render_json(0);
+       }
+
+       $('#container').on("click", ".release-button", function(e) {
+         render_json($(this).data()["releaseNumber"])
+       })
+
+       $('#container').on("click", ".nav a", function(e) {
+         e.preventDefault()
+         if (!$(this).parent().hasClass("disabled")) {
+           $(this).tab('show');
+
+         }
+       })
+
+
+
+    </script>
+</html>

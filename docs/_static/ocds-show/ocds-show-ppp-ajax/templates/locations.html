@@ -1,0 +1,27 @@
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>{{ gettext("Location Description") }}</th>
+        <th>{{ gettext("URI") }}</th>
+        <th>{{ gettext("Gazetteer Scheme") }}</th>
+        <th>{{ gettext("Gazetteer Identifiers") }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for location in locations %}
+        <tr> <!-- add conditional colouring based on presence of url? -->
+          <td>{{ location.description }} {{change_label(location, 'description')}}</td>
+          <td><a href="{{ location.uri }}">{{ location.uri }} {{change_label(location, 'uri')}}</a></td>
+          <td>{{ location.gazetteer.scheme }} {{change_label(location.gazetteer, 'scheme')}}</td>
+          <td>{% if location.gazetteer.identifiers %} 
+                {{ location.gazetteer.identifiers|join(", ") }} 
+                {{change_label(location.gazetteer, 'identifiers')}}
+              {% endif %}
+          </td>
+              
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,108 @@
+<div class="col-md-12">
+  <div class="panel panel-{% if tender.procuringEntity %}default{% else %}warning{% endif %}">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        {% if criterion.title %}
+          {{ criterion.title }} {{change_label(criterion, 'title')}}
+          {% if criteria.id %}
+            <small> {{ criterion.id }} {{change_label(criterion, 'id')}} </small>
+          {% endif %}
+        {% else %}
+          {{ gettext("No title provided") }}
+        {% endif %}
+      </h3>
+    </div>
+    <div class="panel-body">
+      <div class="col-md-12">
+        <p> {{ criterion.description }} {{change_label(criterion, 'description')}} </p>
+        <dl class="clearfix">
+          <dt class="dt-small dt-inline">
+            {{ gettext("Source")}}
+          </dt>
+          <dd class="dd-small dd-inline">
+            {{ criterion.source }}
+            {{ change_label(criterion, 'source') }}
+          </dd>
+          <dt class="dt-small dt-inline">
+            {{ gettext("Related Item")}}
+          </dt>
+          <dd class="dd-small dd-inline">
+            {{ criterion.relatedItem }}
+            {{ change_label(criterion, 'relatedItem') }}
+          </dd>
+          <dt class="dt-small dt-inline">
+            {{ gettext("Relates To")}}
+          </dt>
+          <dd class="dd-small dd-inline">
+            {{ criterion.relatesTo }}
+            {{ change_label(criterion, 'relatesTo') }}
+          </dd>
+        </dl>
+        {% for requirementGroup in criterion.requirementGroups %}
+          <h4> <strong> {{ gettext("Requirement Group:") }} </strong> {{requirementGroup.description}} <small> ({{requirementGroup.id}}) </small> </h4>
+          <div class="table-responsive">
+            <table class="table table-condensed table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>
+                    {{ gettext("Title") }} 
+                  </th>
+                  <th>
+                    {{ gettext("Description") }} 
+                  </th>
+                  <th>
+                    {{ gettext("Period") }} 
+                  </th>
+                  <th>
+                    {{ gettext("Data Type") }} 
+                  </th>
+                  <th>
+                    {{ gettext("Values") }} 
+                  </th>
+                  <th>
+                    {{ gettext("Pattern") }} 
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for requirement in requirementGroup.requirements %}
+                  <tr>
+                    <td>
+                      {{requirement.title}} <small> ({{requirement.id}}) </small>
+                    </td>
+                    <td>
+                      {{requirement.description}}
+                    </td>
+                    <td>
+                      {% set period = requirement.period %}
+                      {% include 'period.html'%}
+                    </td>
+                    <td>
+                      {{requirement.dataType}}
+                    </td>
+                    <td>
+                      <dl>
+                        {% if requirement.expectedValue %}
+                          <dt> {{ gettext("Expected Value:") }} </dt> <dd>{{ requirement.expectedValue }} </dd>
+                        {% endif %}
+                        {% if requirement.minValue %}
+                          <dt> {{ gettext("Min Value:") }} </dt> <dd>{{ requirement.minValue }} </dd>
+                        {% endif %}
+                        {% if requirement.maxValue %}
+                          <dt> {{ gettext("Max Value:") }} </dt> <dd>{{ requirement.maxValue }} </dd>
+                        {% endif %}
+                      </dl>
+                    </td>
+                    <td>
+                      {{requirement.pattern}}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

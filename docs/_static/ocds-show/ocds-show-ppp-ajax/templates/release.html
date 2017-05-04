@@ -1,0 +1,98 @@
+  {% macro change_label(object, key) %}
+    {% if get_change %}
+      {% set change = get_change(object, key) %}
+      {% if change == "new" %}
+        <span class="label label-success {{class}}">{{gettext("new")}}</span>
+      {% elif change == "changed" %}
+        <span class="label label-primary {{class}}">{{gettext("changed")}}</span>
+      {% endif %}
+    {% endif %}
+  {% endmacro %}
+
+  <h1>
+    {{release.tender.title}} {% if not release.tender.title %} {{release.ocid}} {% endif %}  
+  </h1>
+
+<main class="row">
+
+  <ul class="release-pills col-md-3 nav nav-pills nav-stacked">
+    <li role="presentation" class="active"><a href="#metadata">Metadata</a></li>
+    <li role="presentation" class="{% if not release.tender.procuringEntity %}disabled{%endif%}" ><a href="#procuringEntity">Procuring entity {% if release.tender.procuringEntity %}{{change_label(release, 'tender')}}{%endif%}</a></li>
+    <li role="presentation" class="{% if not release.buyer %}disabled{%endif%}" ><a href="#buyer">Buyer {{change_label(release, 'buyer')}} </a></li>
+    <li role="presentation" class="{% if not release.planning %}disabled{%endif%}" ><a href="#planning">Planning {{change_label(release, 'planning')}}</a></li>
+    <li role="presentation" class="{% if not release.tender %}disabled{%endif%} " ><a href="#tender">Tender {{ change_label(release, 'tender') }}</a> </li>
+    <li role="presentation" class="{% if not release.awards %}disabled{%endif%}" ><a href="#awards">Awards {{ change_label(release, 'awards') }}</a></li>
+    <li role="presentation" class="{% if not release.contracts %}disabled{%endif%}" ><a href="#contracts">Contracts {{ change_label(release, 'contracts') }}</a></li>
+  </ul>
+
+
+  <div id="release-tabs" class="tab-content">
+	<div class="col-md-9 tab-pane active" id="metadata">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<strong>OCID: </strong>{{release.ocid}}
+						</li>
+						<li class="list-group-item">
+							<strong>Release ID: </strong>{{release.id}}
+						</li>
+						<li class="list-group-item">
+							<strong>Date: </strong>{{release.date}}
+						</li>
+						<li class="list-group-item">
+							<strong>Tags: </strong>
+              {% if release.tag %}
+                {{ release.tag|join(", ") }}
+              {% else %}
+							  {{ gettext("No Tags Provided") }}
+              {% endif %}
+						</li>
+						<li class="list-group-item">
+							<strong>Initiation type: </strong>{{release.initiationType}}
+						</li>
+					</ul>
+	</div>
+	<div class="col-md-9 tab-pane" id="procuringEntity">
+    {% if release.tender.procuringEntity %}
+      {% set organization = release.tender.procuringEntity %}
+      {% include 'organization.html' %}
+    {% else %}
+      {{ gettext("No procuring entity information provided") }}
+    {% endif %}
+  </div>
+	<div class="col-md-9 tab-pane" id="buyer">
+    {% if release.buyer %}
+      {% set organization = release.buyer %}
+      {% set title = gettext("Buyer") %}
+      {% include 'organization.html' %}
+    {% else %}
+      {{ gettext("No buyer information provided") }}
+    {% endif %}
+	</div>
+
+  {% set planning = release.planning %}
+	<div id="planning" class="tab-pane col-md-9">
+		{% if planning %}
+			{% include 'planning.html' %}
+		{% else %}
+			<div class="panel panel-danger"> <!-- make the panel behaviour dependent on the release tags, e.g. if planning is present in the release tags this should be danger, otherwise make it collapse -->
+				<div class="panel-heading">
+					<h2 class="panel-title">
+						No planning data provided
+					</h2>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+  {% set tender = release.tender %}
+	<div id="tender" class="tab-pane col-md-9">
+		{% include 'tender.html' %}
+	</div>
+  {% set awards = release.awards %}
+	<div id="awards" class="tab-pane col-md-9">
+		{% include 'awards.html' %}
+	</div>
+  {% set contracts = release.contracts %}
+	<div id="contracts" class="tab-pane col-md-9">
+		{% include 'contracts.html' %} 		
+	</div>
+</main>

@@ -1,0 +1,51 @@
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+           {{ gettext("Bid Statistics") }}
+        </h3>
+      </div>
+
+      <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>{{ gettext("ID") }}</th>
+            <th>{{ gettext("Date") }}</th>
+            <th>{{ gettext("Notes") }}</th>
+            <th>{{ gettext("Measure") }}</th>
+            <th>{{ gettext("Value") }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for statistic in bids.statistics %}
+            <tr>
+              <td>{{ statistic.id }} {{change_label(statistic, "title")}} </td>
+              <td>{{ date_popout(statistic, "date") }} </td>
+              <td>{{ statistic.measure }} {{change_label(statistic, "measure")}} </td>
+              <td>{{ statistic.value }} {{change_label(statistic, "value")}} </td>
+            </tr>
+          {% endfor %}
+        </tbody>	
+      </table>
+      </div>
+
+
+
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+           {{ gettext("Bids") }}
+        </h3>
+      </div>
+      <div class="panel-body">
+        <section id="bids">
+          {% for bid in bids.details %}
+            {% include 'bid.html' %}
+            {% if not loop.last %}
+              <hr>
+            {% endif %}
+          {% endfor %}
+        </section>
+      </div>
+    </div>

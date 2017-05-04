@@ -1,0 +1,122 @@
+<section id="bid-{{loop.index}}">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-{% if bid.amount.amount %}default{% else %}warning{% endif %}">
+        <div class="panel-body">
+          <dl> 
+            <dt class="dt-large dt-inline">
+              {{ gettext("Status") }}
+            </dt>
+            <dd class="dd-large dd-inline">
+              {% if bid.status %}
+                {{ bid.status }} {{change_label(bid, 'status')}}
+              {% else %}
+                {{ gettext("No status provided") }}
+              {% endif %}
+            </dd>
+            <dt class="dt-large dt-inline dt-gap">
+              {{ gettext("Value") }}
+            </dt>
+            <dd class="dd-large dd-inline dd-gap">
+              {{change_label(bid, 'value')}}
+              {% if bid.value.amount %}
+                {{bid.value.amount|currency }}
+                {{change_label(bid.value, 'amount')}}
+                {{bid.value.currency}}
+                {{change_label(bid.value, 'currency')}}
+              {% else %}
+                {{ gettext("Value not provided") }}
+              {% endif %}
+            </dd>
+
+            <dt class="dt-large dt-inline">
+              {{ gettext("Date") }}
+            </dt>
+            <dd class="dd-large dd-inline">
+              {% if bid.date %}
+                {{ date_popout(bid, 'date') }}
+              {% else %}
+                {{ gettext("Date not provided") }}
+              {% endif %}
+            </dd>
+          </dl> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if bid.requirementResponses %}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+               {{ gettext("Reqirement Responses") }} 
+            </h3>
+          </div>
+              {% set requirementResponses = bid.requirementResponses %}
+              {% include 'requirement_responses.html' %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-{% if bid.tenderers %}default{% else %}warning{% endif %}">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+             {{ gettext("Tenderers") }} 
+          </h3>
+        </div>
+        <div class="panel-body">
+          {% for tenderer in bid.tenderers %}
+            <div class="col-md-12">
+              {% set organization = parties[tenderer.id] %}
+              {% if not parties[tenderer.id] %}
+                {% set organization = tenderer %}
+              {% endif %}
+              {% include 'organization.html' %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      {% if bid.documents %}
+        {% set documents = bid.documents %}
+        {% set parent = bid %}
+        {% include 'documents.html' %}
+      {% else %}
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              {{ gettext("Documents") }}
+            </h3>
+          </div>
+          <div class="panel-body">
+            {{ gettext("No documents provided") }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+

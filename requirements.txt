@@ -1,0 +1,29 @@
+Sphinx==1.5.3
+sphinx-intl==0.9.9
+transifex-client==0.12.4
+sphinx-rtd-theme==0.2.4
+# recommonmark commit pinned from master branch
+-e git+https://github.com/rtfd/recommonmark.git@50be4978d7d91d0b8a69643c63450c8cd92d1212#egg=recommonmark
+## The following requirements were added by pip freeze:
+alabaster==0.7.10
+appdirs==1.4.3
+Babel==2.3.4
+click==6.7
+CommonMark==0.5.4
+docutils==0.13.1
+imagesize==0.7.1
+Jinja2==2.9.5
+MarkupSafe==1.0
+packaging==16.8
+Pygments==2.2.0
+pyparsing==2.2.0
+pytz==2016.10
+requests==2.13.0
+six==1.10.0
+snowballstemmer==1.2.1
+urllib3==1.20
+jsonpointer==1.10
+jsonschema==2.5.1
+json-merge-patch
+-e git+https://github.com/OpenDataServices/flatten-tool.git@400336bfcfa0feeded14ce1e66f7c817ef2a7652#egg=flattentool
+-e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@919b28c15b74707efb408a673cdd1c2e3fffe0d4#egg=sphinxcontrib-jsonschema
