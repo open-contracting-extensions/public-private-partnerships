@@ -121,6 +121,18 @@
                 "id": "XX-GOV-00000000",
                 "name": "Telecoms Promoter"
             },
+            "relatedProcesses": [
+                {
+                    "id": "1.0",
+                    "title": "Tender for financial advisor",
+                    "relationship": [
+                        "advisor"
+                    ],
+                    "identifier": "ocds-213czf-00000-0001",
+                    "scheme": "ocid",
+                    "uri": "http://finance.example.gov/tenders/ocds-213czf-00000-0001"
+                }
+            ],
             "planning": {
                 "budget": {
                     "id": "123456789.0",
@@ -2403,7 +2415,7 @@
                     "id": "XX-XXX-11111111",
                     "name": "Alpha Holdings Ltd",
                     "roles": [
-                        "shareholder"
+                        "equityInvestor"
                     ],
                     "identifier": {
                         "scheme": "XX-XXX",
@@ -4316,6 +4328,75 @@
                                     }
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ocid": "ocds-213czf-example-ppp",
+            "id": "2.1.1",
+            "language": "en",
+            "date": "2015-10-31T00:00:00Z",
+            "initiationType": "ppp",
+            "tag": [
+                "qualification"
+            ],
+            "title": "Example PPP",
+            "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
+            "preQualification": {
+                "id": "1.0",
+                "title": "Example PPP pre-qualification",
+                "status": "active",
+                "submissionMethod": [
+                    "electronicSubmission"
+                ],
+                "submissionMethodDetails": "Prospective bidders must submit their RFQ responses to the electronic portal at http://eprocurement.example.gov",
+                "period": {
+                    "startDate": "2015-10-31T00:00:00Z",
+                    "endDate": "2015-11-30T00:00:00Z"
+                },
+                "enquiryPeriod": {
+                    "startDate": "2015-10-31T00:00:00Z",
+                    "endDate": "2015-11-06T23:59:59Z"
+                },
+                "eligibilityCriteria": "All interested parties are eligible to submit a RFQ response",
+                "qualificationPeriod": {
+                    "startDate": "2015-12-01T00:00:00Z",
+                    "endDate": "2015-12-01T23:59:59Z"
+                },
+                "procuringEntity": {
+                    "id": "XX-GOV-12345678",
+                    "name": "Ministry of Communications"
+                }
+            }
+        },
+        {
+            "ocid": "ocds-213czf-example-ppp",
+            "id": "7.1.1",
+            "language": "en",
+            "date": "2020-01-24T00:00:00Z",
+            "initiationType": "ppp",
+            "tag": [
+                "contractAmendment"
+            ],
+            "title": "Example PPP",
+            "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
+            "contracts": [
+                {
+                    "id": "1.0",
+                    "awardID": "1.0",
+                    "period": {
+                        "endDate": "2046-01-23T00:00:00Z"
+                    },
+                    "amendments": [
+                        {
+                            "date": "2020-01-24T00:00:00Z",
+                            "rationale": "The contract was extended in accordance with the provisions in section X.",
+                            "id": "1.0",
+                            "description": "This amendment extends the Example PPP contract to 2046-01-23.",
+                            "amendsReleaseID": "5.1.1",
+                            "releaseID": "7.1.1"
                         }
                     ]
                 }
