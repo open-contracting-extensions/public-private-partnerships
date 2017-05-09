@@ -26,4 +26,4 @@ jsonpointer==1.10
 jsonschema==2.5.1
 json-merge-patch
 -e git+https://github.com/OpenDataServices/flatten-tool.git@400336bfcfa0feeded14ce1e66f7c817ef2a7652#egg=flattentool
--e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@919b28c15b74707efb408a673cdd1c2e3fffe0d4#egg=sphinxcontrib-jsonschema
+-e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@d063f29c9cf20f8ec64a78e7ec47084d8c2f171e#egg=sphinxcontrib-jsonschema

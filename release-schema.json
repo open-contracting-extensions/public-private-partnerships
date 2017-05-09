@@ -58,8 +58,8 @@
             "$ref": "#/definitions/Classification"
         },
         "additionalClassifications": {
-            "title":"Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
-            "description":"Additional sector classifications, using local vocabularies where required..",
+            "title":"Additional sector classifications",
+            "description":"Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
             "type":"array",
             "items": {
                 "$ref": "#/definitions/Classification"
