@@ -430,7 +430,9 @@ These documents should be tagged with a ```documentType``` value of 'technicalSp
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -467,7 +469,9 @@ These documents should be tagged with a ```documentType``` value of 'serviceDesc
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -552,7 +556,9 @@ These documents should be tagged with a ```documentType``` value of 'estimatedDe
     :include: planning/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -594,7 +600,9 @@ These documents should be tagged with a ```documentType``` value of 'projectAddi
     :include: planning/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -631,7 +639,9 @@ These documents should be tagged with a ```documentType``` value of 'pppModeRati
     :include: planning/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -730,7 +740,9 @@ P   U   U   U
 
  This milestone should have a ```type``` of 'financing', a ```code``` of 'commercialClose' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
 
-See example for planning milestones in section I.10
+
+
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
 
  
 
@@ -757,7 +769,11 @@ P   U   U   U
 
  To indicate the date of financial close, a milestone should be added to the ```contract/milestones``` (the contract may have a ```status``` of 'pending' up until it is signed). 
 
-The milestone should have a ```type``` of 'financing', a ```code``` of 'financialClose' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.See example for planning milestones in section I.10
+The milestone should have a ```type``` of 'financing', a ```code``` of 'financialClose' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+
+
+
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
 
  
 
@@ -788,7 +804,7 @@ Contract Milestones (Estimated and Actual) - Date of commencement of constructio
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U   U   U   U    
+P   U   U   U   U   U 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -798,7 +814,9 @@ P   U   U   U   U
 
 
  The milestone should have a ```type``` of 'delivery', a ```code``` of 'developmentStarted' or 'constructionStarted' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
-See example for planning milestones in section I.10
+
+
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
 
  
 
@@ -812,7 +830,7 @@ Contract Milestones (Estimated and Actual) - Date of completion of construction 
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U   U   U   U    
+P   U   U   U   U   U 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -821,7 +839,9 @@ P   U   U   U   U
 
 
 
- The milestone should have a ```type``` of 'delivery', a ```code``` of 'developmentComplete' or 'constructionComplete' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.See example for planning milestones in section I.10
+ The milestone should have a ```type``` of 'delivery', a ```code``` of 'developmentComplete' or 'constructionComplete' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
 
  
 
@@ -837,7 +857,7 @@ Contract Milestones (Estimated and Actual) - Date of commissioning
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U   U   U   U    
+P   U   U   U   U   U 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -846,16 +866,9 @@ P   U   U   U   U
 
 
 
- The milestone should have a ```type``` of 'delivery', a ```code``` of 'commissioning' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```. 
+ The milestone should have a ```type``` of 'delivery', a ```code``` of 'commissioning' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
 
-**Schema**: Information can be provided using the following OCDS fields.
-
-```eval_rst
-.. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/implementation/milestones
-    :collapse: 
-```
-See example for planning milestones in section I.10
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
 
  
 
@@ -878,9 +891,13 @@ P   U   U   U   U   U
 
 
 
- This information can be provided using ```contractPeriod``` field in the ```tender``` section of an OCDS release.
+ Information on the expected contract expiry date at the tender and award stages of a contracting process should be provided using ```contractPeriod``` field in the ```tender``` and ```award``` sections of an OCDS release respectively.
 
-This expected date of contract expiry can be entered into the ```contractPeriod/endDate``` field. 
+This expected date of contract expiry should be entered into the ```contractPeriod/endDate``` field.
+
+Information on the actual contract expiry date should be provided using the ```period``` field in the ```contract``` section of an OCDS release.
+
+The actual date of contract expiry should be entered into the ```period/endDate``` field.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -889,6 +906,27 @@ This expected date of contract expiry can be entered into the ```contractPeriod/
     :include: tender/contractPeriod
     :collapse: 
 ```
+
+
+**JSON Example**
+
+```eval_rst
+.. jsoninclude:: examples/full.json
+  :jsonpointer: /releases/1/tender
+  :include_only: contractPeriod
+  
+```
+
+**Flattened example** (showing top-level fields only)
+
+
+```eval_rst
+.. jsoninclude-flat:: examples/full.json
+  :jsonpointer: /releases/1/tender
+  :include_only: contractPeriod
+  :ignore_path: /releases/1/
+```
+
 
 
  
@@ -914,16 +952,18 @@ P   U   U   U   U   U
 
  Links to contract documents can be provided using the ```documents``` field in the ```contract``` section of an OCDS release (the contract may have a ```status``` of 'pending' up until it is signed). OCDS provides a [document building block](../schema/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../../extensions/documentation_details/)
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) (```contractDraft```, ```contractSigned``` or ```contractSchedules``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contract/documents
+    :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -1589,7 +1629,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: preQualification/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -1610,7 +1652,9 @@ Pre-qualification or shortlist
     :include: parties
     :collapse: 
 ```
-See section I.18.1
+
+
+**Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the ```organization``` building block.
 
  
 
@@ -1868,7 +1912,7 @@ P   U
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender
-  :include_only: procurementMethod
+  :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
   
 ```
 
@@ -1878,7 +1922,7 @@ P   U
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender
-  :include_only: procurementMethod
+  :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
   :ignore_path: /releases/1/
 ```
 
@@ -1921,7 +1965,7 @@ P   U
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender
-  :include_only: submissionMethod
+  :include_only: submissionMethod, submissionMethodDetails
   
 ```
 
@@ -1931,7 +1975,7 @@ P   U
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender
-  :include_only: submissionMethod
+  :include_only: submissionMethod, submissionMethodDetails
   :ignore_path: /releases/1/
 ```
 
@@ -2022,7 +2066,9 @@ Each document should be tagged with an appropriate ```documentType``` value from
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2043,7 +2089,9 @@ The ```document/documentType``` field should be set to ```evaluationCriteria``` 
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2055,7 +2103,7 @@ Brief information on constitution of the evaluation committees
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value of ```evaluationCommittee``` from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2064,7 +2112,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2086,7 +2136,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) of
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2107,7 +2159,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) of
     :include: tender/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2260,7 +2314,7 @@ Additional free text information on each risk allocation, for example the ration
 
 
 
- Additional financial modelling for risks can also be linked to or provided in a document. 
+ Additional financial modelling for risks can also be linked to or provided in a document, using a ```documentType``` of ```riskProvisions```. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2269,7 +2323,9 @@ Additional free text information on each risk allocation, for example the ration
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2298,7 +2354,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) of
     :include: awards/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2320,7 +2378,7 @@ State the rationale for doing the project as a PPP, including any qualitative or
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```valueForMoneyAnalysis``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2329,7 +2387,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: awards/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2343,7 +2403,7 @@ The discount rates used should be specified in the diclosure along with the risk
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/evaluationIndicators
+    :include: awards/0/evaluationIndicators
     :collapse: 
 ```
 
@@ -2377,7 +2437,7 @@ The discount rates used should be specified in the diclosure along with the risk
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```discountRate``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2386,7 +2446,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: awards/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2398,7 +2460,7 @@ Risk comparison of other financing mechanisms should be specified.
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```riskComparison``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2407,7 +2469,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: awards/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2438,7 +2502,8 @@ Debt-equity ratio
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary/debtEquityRatio
+  :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: debtEquityRatio, debtEquityRatioDetails
   
 ```
 
@@ -2447,7 +2512,8 @@ Debt-equity ratio
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary/debtEquityRatio
+  :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: debtEquityRatio, debtEquityRatioDetails
   :ignore_path: /releases/4/
 ```
 
@@ -2474,7 +2540,8 @@ Share capital
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary/shareCapital
+  :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: shareCapital, shareCapitalDetails
   
 ```
 
@@ -2483,7 +2550,8 @@ Share capital
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary/shareCapital
+  :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: shareCapital, shareCapitalDetails
   :ignore_path: /releases/4/
 ```
 
@@ -2591,7 +2659,7 @@ Equity transfer caps
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```equityTransferCaps``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2600,7 +2668,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2623,7 +2693,7 @@ See section I.4
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders/0/notes
+  :jsonpointer: /releases/3/parties/0/shareholders/0
   
 ```
 
@@ -2632,7 +2702,7 @@ See section I.4
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders/0/notes
+  :jsonpointer: /releases/3/parties/0/shareholders/0
   :ignore_path: /releases/3/
 ```
 
@@ -2726,13 +2796,15 @@ The ```organization/roles``` field should be set to ```lender``` or ```equityInv
 
 Categorize senior debit, mezzanine debit, other
 
- Details of all debt financing should be provided in the ```contract/finance``` section of an OCDS release. 
+ Details of all debt financing should be provided in the ```contract/finance``` section of an OCDS release.
+
+*Note: Not all fields are required or applicable to all types of financing arrangement* 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/finance
+    :include: contracts/0/finance/financeType,contracts/0/finance/financeCategory
     :collapse: 
 ```
 
@@ -2741,7 +2813,8 @@ Categorize senior debit, mezzanine debit, other
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0/financeCategory
+  :jsonpointer: /releases/4/contracts/0/finance/0
+  :include_only: financeType, financeCategory
   
 ```
 
@@ -2750,7 +2823,8 @@ Categorize senior debit, mezzanine debit, other
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0/financeCategory
+  :jsonpointer: /releases/4/contracts/0/finance/0
+  :include_only: financeType, financeCategory
   :ignore_path: /releases/4/
 ```
 
@@ -2768,7 +2842,7 @@ Amount and tenor of each, fixed or floating rate
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/finance
+    :include: contracts/0/finance/interestRate
     :collapse: 
 ```
 
@@ -2812,7 +2886,7 @@ Security and step in arrangements
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/finance
+    :include: contracts/0/finance/description,contracts/0/finance/stepInRights
     :collapse: 
 ```
 
@@ -2822,6 +2896,7 @@ Security and step in arrangements
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  :include_only: description, stepInRights
   
 ```
 
@@ -2831,6 +2906,7 @@ Security and step in arrangements
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
+  :include_only: description, stepInRights
   :ignore_path: /releases/4/
 ```
 
@@ -2846,7 +2922,7 @@ Security and step in arrangements
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```financeArrangements``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2855,7 +2931,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -2870,7 +2948,7 @@ Forecast IRR
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
     :include: contracts/0/financeSummary
-    :collapse: 
+    :collapse: projectIRR,projectIRRDetails
 ```
 
 
@@ -2879,6 +2957,7 @@ Forecast IRR
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: projectIRR, projectIRRDetails
   
 ```
 
@@ -2888,6 +2967,7 @@ Forecast IRR
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: projectIRR, projectIRRDetails
   :ignore_path: /releases/4/
 ```
 
@@ -2932,7 +3012,9 @@ Detail the type and exact details of the guarantees provided - both explicit and
 
 
 
- Documentation of each guarantee should be provided using one or more ```documentation``` blocks (one for each guarantee), with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.  
+ Documentation of each guarantee should be provided using one or more ```documentation``` blocks (one for each guarantee) in the ```contract``` section of an OCDS release, with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.
+
+A value of ```guarantee``` should be used in the ```documentType``` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2971,8 +3053,8 @@ Subsidy as a proportion of project value
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/financeSummary
-    :collapse: contract/financeSummary/shareCapital,contract/financeSummary/shareCapitalDetails,contract/financeSummary/debtEquityRatio,contract/financeSummary/debtEquityRatioDetails,contract/financeSummary/projectIRR,contract/financeSummary/projectIRRDetails
+    :include: contracts/0/financeSummary/subsidyRatio,contracts/0/financeSummary/subsidyRatioDetails
+    :collapse: 
 ```
 
 
@@ -2981,6 +3063,7 @@ Subsidy as a proportion of project value
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: subsidyRatio, subsidyRatioDetalis
   
 ```
 
@@ -2990,6 +3073,7 @@ Subsidy as a proportion of project value
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
+  :include_only: subsidyRatio, subsidyRatioDetalis
   :ignore_path: /releases/4/
 ```
 
@@ -3005,7 +3089,7 @@ Subsidy as a proportion of project value
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```grants``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3014,7 +3098,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3026,7 +3112,7 @@ Capital subsidies paid during construction with periodicity of milestones
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```grants``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3035,7 +3121,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3056,7 +3144,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3108,13 +3198,13 @@ These are payments made by the public authority or purchaser to the private prov
 
 Total payments and periodicity
 
- Structured information on total agreed and actual service payments can be provided in the ```contract/charges``` and ```contract/implementation/charges``` sections of an OCDS release respectively. 
+ Structured information on total service payments can be provided in the ```contract/implementation/charges``` sections of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
 .. jsonschema:: ../schema/ppp-release-schema.json
-    :include: contracts/0/charges,contracts/0/implementation/charges
+    :include: contracts/0/implementation/charges
     :collapse: 
 ```
 
@@ -3148,7 +3238,7 @@ Methodology for calculating payments
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```servicePayments``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3157,7 +3247,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3169,7 +3261,7 @@ Indexation used
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```servicePayments``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3178,7 +3270,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3192,7 +3286,7 @@ See section I.4
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```lease``` or ```assetTransfer``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3201,7 +3295,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3214,7 +3310,7 @@ See section I.4
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```otherGovernmentSupport``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3223,7 +3319,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3245,7 +3343,7 @@ See section I.4
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```revenueShare``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3254,7 +3352,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3266,7 +3366,7 @@ See section I.4
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```revenueShare``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3275,7 +3375,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/implementation/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3301,7 +3403,9 @@ Structured information on the tariffs defined in the contract and subsequent rev
 
 
 
- Structured information on the tariffs defined in the contract and subsequent revisions to tariffs can be provided in the ```implementation/tariffs``` section of an OCDS release.  
+ Structured information on the tariffs defined in the contract should be provided in the ```contract/tariffs``` section of an OCDS release and subsequent revisions to tariffs can be provided in the ```implementation/tariffs``` section of an OCDS release. 
+
+Information on who pays the tariff can be modelled using a ```dimension``` in cases where different charges apply to different parties. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3337,11 +3441,11 @@ Structured information on the tariffs defined in the contract and subsequent rev
 
 
 
- Tariffs and pricing schedules can also be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](../schema/reference/#document) for disclosure of documents.
+ Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the ```documents``` field of the ```implementation``` section of an OCDS release. OCDS provides a [document building block](../schema/reference/#document) for disclosure of documents.
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```tariffs``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3350,7 +3454,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3362,7 +3468,7 @@ Methodology for tariff setting/pricing
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```tariffMethod``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3371,7 +3477,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3392,7 +3500,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3404,7 +3514,7 @@ See section I.4
 
 The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```tariffIllustration``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3413,7 +3523,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3433,7 +3545,7 @@ Describe key events of default under two major categories: concessionaires event
 
 The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```termination``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3442,7 +3554,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3454,7 +3568,7 @@ State details of hand over of assets back to state, condition of assets, and any
 
 The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](../schema/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../schema/codelists/#document-type) of ```handover``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3463,7 +3577,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3608,7 +3724,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3629,7 +3747,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3698,7 +3818,7 @@ State the actual annual measured levels of demand or stated levels of demand in 
 
  Structured data about estimated demand should be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'demand' should be given, with a series of forecast ```observations``` that capture the actual demand for a given period.
+A metric with the ```id``` 'demand' should be given, with a series of actual ```observations``` that capture the actual demand for a given period.
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
@@ -3748,7 +3868,7 @@ State the actual annual total revenues reported in the financial statements and 
 
  Structured data about aggregated annual revenues can be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'revenue' should be given, with a series of forecast ```observations``` that capture the revenue for a given period.
+A metric with the ```id``` 'revenue' should be given, with a series of actual ```observations``` that capture the revenue for a given period.
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
@@ -3761,24 +3881,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**JSON Example**
-
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  
-```
-
-**Flattened example** (showing top-level fields only)
-
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  :ignore_path: /releases/6/
-```
-
-
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
 
  
 
@@ -3797,7 +3900,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/implementation/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
@@ -3807,7 +3912,7 @@ Recommended only where there is government equity investment or other form of go
 
  Structured data about actual IRR can be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'revenue' should be given, with a series of forecast ```observations``` that capture the revenue for a given period.
+A metric with the ```id``` 'IRR' should be given, with a series of actual ```observations``` that capture the revenue for a given period.
 
 These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
 
@@ -3820,24 +3925,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**JSON Example**
-
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  
-```
-
-**Flattened example** (showing top-level fields only)
-
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  :ignore_path: /releases/6/
-```
-
-
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
 
  
 
@@ -3858,24 +3946,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**JSON Example**
-
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  
-```
-
-**Flattened example** (showing top-level fields only)
-
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  :ignore_path: /releases/6/
-```
-
-
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
 
  
 
@@ -3933,7 +4004,9 @@ A value from the [document type codelist](../schema/codelists/#document-type) sh
     :include: contracts/0/implementation/documents
     :collapse: 
 ```
-See section I.4
+
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
 
  
 
