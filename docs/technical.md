@@ -17,7 +17,7 @@ The extended OCDS for PPPs schema provides all the elements covered by the World
 
 To produce and validate OCDS for PPPs data, create an OCDS 1.1 file, and declare the consolidated OCDS for PPPs extensions as part of a release or record package.
 
-A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](/_static/ppp-extension.json), and a [full reference table is provided](LINK LINK LINK).
+A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](/_static/ppp-extension.json), and a [full reference table is provided](/reference/schema.html).
 
 ## Who is this for?
 
