@@ -27,3 +27,5 @@ jsonschema==2.5.1
 json-merge-patch
 -e git+https://github.com/OpenDataServices/flatten-tool.git@400336bfcfa0feeded14ce1e66f7c817ef2a7652#egg=flattentool
 -e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@bfbd5bdfdea11c70f91dc7a40ffbc8722408aff4#egg=sphinxcontrib-jsonschema
+# Pull in a open contracting standard commit for some of the python utils
+-e git+git@github.com:open-contracting/standard.git@ef113d5ce3cb6d205347558259167011e0e3a39b#egg=ocds-standard

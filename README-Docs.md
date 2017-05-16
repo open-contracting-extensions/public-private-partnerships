@@ -6,11 +6,11 @@ This repository stores documentation for OCDS for PPPs, built using Sphinx.
 ### Translation guide
 
 ```
-cd schema
+mkdir locale
+pybabel extract -F .babel_schema . -o locale/ppp-schema.pot
+pybabel extract -F .babel_codelists . -o locale/ppp-codelists.pot
 
-pybabel extract -F .babel_schema . -o ../locale/schema.pot
-
-cd ../docs
+cd docs
 
 sphinx-build -b gettext . ../locale/
 
