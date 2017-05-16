@@ -2,8 +2,9 @@
 
 The Open Contracting Data Standard for Public Private Partnerships release draws together a number of general extensions.
 
-This extension provides a number of fields and building blocks that are currenetly seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
+Full documentation is available at [http://ocds-for-ppps.readthedocs.io/](http://ocds-for-ppps.readthedocs.io/)
 
+This extension provides a number of fields and building blocks that are currenetly seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
 
 ### Project level information
 
