@@ -1,0 +1,184 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[ocds-for-ppps.ppp-schema]
+file_filter = locale/<lang>/LC_MESSAGES/ppp-schema.po
+source_file = build_locale/ppp-schema.pot
+source_lang = en
+
+[ocds-for-ppps.ppp-codelists]
+file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
+source_file = build_locale/ppp-codelists.pot
+source_lang = en
+
+[ocds-for-ppps.index]
+file_filter = locale/<lang>/LC_MESSAGES/index.po
+source_file = build_locale/index.pot
+source_lang = en
+
+[ocds-for-ppps.governance]
+file_filter = locale/<lang>/LC_MESSAGES/governance.po
+source_file = build_locale/governance.pot
+source_lang = en
+
+[ocds-for-ppps.timing]
+file_filter = locale/<lang>/LC_MESSAGES/timing.po
+source_file = build_locale/timing.pot
+source_lang = en
+
+[ocds-for-ppps.framework]
+file_filter = locale/<lang>/LC_MESSAGES/framework.po
+source_file = build_locale/framework.pot
+source_lang = en
+
+[ocds-for-ppps.overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview.po
+source_file = build_locale/overview.pot
+source_lang = en
+
+[ocds-for-ppps.technical]
+file_filter = locale/<lang>/LC_MESSAGES/technical.po
+source_file = build_locale/technical.pot
+source_lang = en
+
+[ocds-for-ppps.example]
+file_filter = locale/<lang>/LC_MESSAGES/example.po
+source_file = build_locale/example.pot
+source_lang = en
+
+[ocds-for-ppps.spreadsheet]
+file_filter = locale/<lang>/LC_MESSAGES/spreadsheet.po
+source_file = build_locale/spreadsheet.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--budget]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/budget.po
+source_file = build_locale/extensions/budget.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--milestone_documents]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/milestone_documents.po
+source_file = build_locale/extensions/milestone_documents.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--budget_project]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/budget_project.po
+source_file = build_locale/extensions/budget_project.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--finance]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/finance.po
+source_file = build_locale/extensions/finance.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--location]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/location.po
+source_file = build_locale/extensions/location.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--requirements]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/requirements.po
+source_file = build_locale/extensions/requirements.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--process_title]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/process_title.po
+source_file = build_locale/extensions/process_title.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--risk_allocation]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/risk_allocation.po
+source_file = build_locale/extensions/risk_allocation.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--transaction_milestones]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/transaction_milestones.po
+source_file = build_locale/extensions/transaction_milestones.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--index]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/index.po
+source_file = build_locale/extensions/index.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--tariffs]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/tariffs.po
+source_file = build_locale/extensions/tariffs.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--charges]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/charges.po
+source_file = build_locale/extensions/charges.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--metrics]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/metrics.po
+source_file = build_locale/extensions/metrics.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--documentation_details]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/documentation_details.po
+source_file = build_locale/extensions/documentation_details.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--related_process]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/related_process.po
+source_file = build_locale/extensions/related_process.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--bids]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/bids.po
+source_file = build_locale/extensions/bids.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--signatories]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/signatories.po
+source_file = build_locale/extensions/signatories.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--qualification]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/qualification.po
+source_file = build_locale/extensions/qualification.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--ppp]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/ppp.po
+source_file = build_locale/extensions/ppp.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--milestones]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/milestones.po
+source_file = build_locale/extensions/milestones.pot
+source_lang = en
+
+[ocds-for-ppps.extensions--shareholders]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/shareholders.po
+source_file = build_locale/extensions/shareholders.pot
+source_lang = en
+
+[ocds-for-ppps.reference--schema]
+file_filter = locale/<lang>/LC_MESSAGES/reference/schema.po
+source_file = build_locale/reference/schema.pot
+source_lang = en
+
+[ocds-for-ppps.reference--index]
+file_filter = locale/<lang>/LC_MESSAGES/reference/index.po
+source_file = build_locale/reference/index.pot
+source_lang = en
+
+[ocds-for-ppps.reference--documents]
+file_filter = locale/<lang>/LC_MESSAGES/reference/documents.po
+source_file = build_locale/reference/documents.pot
+source_lang = en
+
+[ocds-for-ppps.reference--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
+source_file = build_locale/reference/codelists.pot
+source_lang = en
+
+[ocds-for-ppps.codelists--README]
+file_filter = locale/<lang>/LC_MESSAGES/codelists/README.po
+source_file = build_locale/codelists/README.pot
+source_lang = en
+
