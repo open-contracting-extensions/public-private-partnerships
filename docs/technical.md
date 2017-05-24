@@ -9,7 +9,7 @@ This provides a foundational model for:
 * Publishing real-time releases from a contracting process;
 * Publishing compiled records of a contracting process;
 
-The basic OCDS schema has been [extended](/extensions/) with a range of additional building blocks and codelist values. 
+The basic OCDS schema has been [extended](extensions/index.md) with a range of additional building blocks and codelist values. 
 
 The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1).
 
@@ -17,7 +17,7 @@ The extended OCDS for PPPs schema provides all the elements covered by the [Worl
 
 To produce and validate OCDS for PPPs data, create an [OCDS 1.1 file](http://standard.open-contracting.org/latest/en/schema/), and declare the consolidated OCDS for PPPs extensions as part of a release or record package.
 
-A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](/_static/ppp-extension.json), and a [full reference table is provided](/reference/schema.md).
+A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](_static/ppp-extension.json), and a [full schema reference table is provided](reference/framework.md).
 
 ## Who is this for?
 

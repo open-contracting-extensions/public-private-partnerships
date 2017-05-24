@@ -79,4 +79,4 @@ In particular:
 * OCDS for PPP data can be converted into spreadsheet formats for detailed analysis;
 * Any third-party can build an interface using the OCDS for PPPs standard;
 
-You can explore a [preview of OCDS show with example data](/_static/ocds-show/?load=/_static/full.json).
+You can explore a [preview of OCDS show with example data](_static/ocds-show/?load=/_static/full.json).
