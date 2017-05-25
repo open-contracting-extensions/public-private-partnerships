@@ -118,7 +118,7 @@ OCDS is designed to support real-time publication of information, so within each
 </tr>
 </tbody></table>
 
-### R: Rengotiation
+### R: Renegotiation
 
 <table class="docutils">
 <tbody><tr>

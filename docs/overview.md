@@ -13,7 +13,7 @@ OCDS for PPPs provides a framework for **how** to publish the requested informat
 * Documments
 * Presentation
 
-It is designed to support **real time** updates, with data and documents on each stage of a PPP process published and updated on an ongoing basis. 
+The [OCDS releases and records model](http://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis. 
 
 ## Data
 
@@ -79,4 +79,4 @@ In particular:
 * OCDS for PPP data can be converted into spreadsheet formats for detailed analysis;
 * Any third-party can build an interface using the OCDS for PPPs standard;
 
-You can explore a [preview of OCDS show with example data](/_static/ocds-show/?load=/_static/full.json).
+You can explore a [preview of OCDS show with example data](_static/ocds-show/?load=/_static/full.json).
