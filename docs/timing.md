@@ -8,6 +8,8 @@ The reference page includes information about the stage at which certain informa
 
 OCDS is designed to support real-time publication of information, so within each stage there may be multiple points where new or updated information is available. Each time information is provided, we call this an OCDS 'release'.
 
+A PPP process is likely to involve the stages below, the following release identifiers are a guide and additional releases can be made at any stage of the project.
+
 ### PP: Pre-Procurement
 
 <table class="docutils">
