@@ -353,7 +353,7 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 
-locale_dirs = ['locale/']   # path is example but recommended.
+locale_dirs = ['../locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 

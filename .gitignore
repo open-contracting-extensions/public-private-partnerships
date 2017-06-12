@@ -2,3 +2,4 @@ docs/_build
 .ve
 *.swp
 build_locale
+*.mo
