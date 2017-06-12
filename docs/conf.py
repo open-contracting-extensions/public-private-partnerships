@@ -168,7 +168,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static','examples','../schema']
+html_static_path = ['../schema', '_static', 'examples']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -684,6 +684,9 @@ directives.register_directive('jsoninclude-flat', JSONIncludeFlat)
 directives.register_directive('extensionlist', ExtensionList)
 directives.register_directive('extensiontable', ExtensionTable)
 
+
+import subprocess
+subprocess.run(['pybabel', 'compile', '-d', '../locale', '-D', 'schema'])
 
 import gettext
 import sys
