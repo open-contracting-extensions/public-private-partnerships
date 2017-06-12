@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/location.md:3
+msgid ""
+"Communicating the location of proposed or executed contract delivery is "
+"important to make users of contracting data."
+msgstr ""
+"La comunicación sobre la ubicación de la ejecución de un contrato propuesto "
+"o ejecutado es importante para los usuarios de los datos de contrataciones."
+
+#: ../docs/extensions/location.md:5
+msgid ""
+"This extension introduces two properties at the ```items``` level to "
+"describe location:"
+msgstr ""
+"Esta extensión introduce dos propiedades en el nivel ```items``` para "
+"describir la ubicación:"
+
+#: ../docs/extensions/location.md:7
+msgid ""
+"```deliveryAddress``` - a standard ```Address``` block which can be used to "
+"provide a postal address where services should be delivered."
+msgstr ""
+"```deliveryAddress``` - un bloque ```Address``` estándar que puede usarse "
+"para proporcionar una dirección postal donde los servicios deben de "
+"ejecutarse."
+
+#: ../docs/extensions/location.md:8
+msgid ""
+"```deliveryLocation``` - a new block consisting of GeoJSON and Gazetteer "
+"entries to describe a wider range of locations to which the contract line "
+"item relates."
+msgstr ""
+"```deliveryLocation``` - un nuevo bloque que consta de entradas GeoJSON y de"
+" diccionario geográfico para describir una gama más amplia de ubicaciones a "
+"las que se refiere la partida del contrato."
+
+#: ../docs/Extension location:1
+msgid "Field"
+msgstr "Campo"
+
+#: ../docs/Extension location:1
+msgid "Definition"
+msgstr "Definición"
+
+#: ../docs/Extension location:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../docs/Extension location:1
+msgid "Type"
+msgstr "Tipo"
+
+#: ../docs/Extension location:1 ../docs/Extension location:1 ../docs/Extension
+#: location:1 ../docs/Extension location:1 ../docs/Extension location:1
+#: ../docs/Extension location:1 ../docs/Extension location:1
+msgid "Location"
+msgstr "Ubicación"
+
+#: ../docs/Extension location:1
+msgid ""
+"A name or description of this location. This might include the name(s) of "
+"the location(s), or might provide a human readable description of the "
+"location to be covered. This description may be used in a user-interface."
+msgstr ""
+"Un nombre o descripción de esta ubicación. Esto puede incluir el nombre o "
+"nombres de la(s) ubicación(es), o podría proporcionar una descripción "
+"legible por el usuario de la ubicación que se cubrirá. Esta descripción se "
+"puede utilizar en una interfaz de usuario."
+
+#: ../docs/Extension location:1
+msgid ""
+"An array of one or more codes drawn from the gazetteer indicated in scheme."
+msgstr ""
+"Una matriz de uno o más códigos extraídos del diccionario geográfico "
+"indicado en el esquema."
+
+#: ../docs/Extension location:1
+msgid ""
+"The entry of the selected gazetteer in the gazetteers codelist. The codelist"
+" provides details of services, where available, that can resolve a gazetteer"
+" entry to provide location names."
+msgstr ""
+"La entrada del diccionario geográfico seleccionado en la lista de códigos de"
+" diccionarios geográficos. La lista de códigos proporciona detalles de los "
+"servicios, cuando están disponibles, que pueden resolver una entrada de un "
+"diccionario geográfico para proporcionar nombres de ubicación."
+
+#: ../docs/Extension location:1
+msgid ""
+"We follow the `GeoJSON standard <http://geojson.org/>`__ to express basic "
+"location information, using latitude and longitude values in the `WGS84 "
+"<https://en.wikipedia.org/wiki/World_Geodetic_System>`__ (EPSG:4326) "
+"projection.  A point location can be identified by geocoding a delivery "
+"address. For concession licenses, or other contracts covering a polygon "
+"location which is not contained in a known gazetteer, polygon and multi-"
+"polygon can be used."
+msgstr ""
+"Seguimos el estándar `GeoJSON <http://geojson.org/>`__ para expresar la "
+"información básica de ubicación, utilizando los valores de latitud y "
+"longitud en el sistema de proyección `WGS84 "
+"<https://en.wikipedia.org/wiki/World_Geodetic_System>`__ (EPSG: 4326). Se "
+"puede identificar una ubicación de punto geocodificando una dirección de "
+"entrega. Para las licencias de concesión u otros contratos que cubran una "
+"ubicación de polígonos que no están contenidos en un diccionario geográfico "
+"conocido, se pueden utilizar polígonos y polígonos múltiples."
+
+#: ../docs/Extension location:1
+msgid ""
+"The relevant array of points, e.g. [latitude,longitude], or nested array, "
+"for the geoJSON geometry being described. The longitude and latitude MUST be"
+" expressed in decimal degrees in the WGS84 (EPSG:4326) projection"
+msgstr ""
+"La matriz relevante de puntos, p. [Latitud, longitud] o matriz anidada, para"
+" la geometría geoJSON que se está describiendo. La longitud y la latitud "
+"DEBEN expresarse en grados decimales en la proyección WGS84 (EPSG: 4326)"
+
+#: ../docs/Extension location:1
+msgid ""
+"The type of `geoJSON Geometry Objects <http://geojson.org/geojson-spec.html"
+"#geometry-objects>`__ being provided. To provide latitude and longitude use "
+"'point', and enter an array of [latitude,longitude] as the value of "
+"coordinates field: e.g. [37.42,-122.085]. Note the capitalisation of type "
+"values - set in order to maintain compatibility with geoJSON."
+msgstr ""
+"Se proporciona el tipo de `Objetos Geométricos geoJSON <http://geojson.org"
+"/geojson-spec.html#geometry-objects>`__. Para proporcionar latitud y "
+"longitud, usa \"punto\", e ingresa una matriz de [latitud, longitud] como el"
+" valor del campo de coordenadas: p.ej. [37,42, -122,085]. Tenga en cuenta "
+"las mayúsculas de los valores de tipo - establecidos para mantener la "
+"compatibilidad con geoJSON."
+
+#: ../docs/Extension location:1
+msgid ""
+"A URI to a further description of the activity location. This may be a human"
+" readable document with information on the location, or a machine-readable "
+"description of the location."
+msgstr ""
+"Un URI para una descripción más detallada de la ubicación de la actividad. "
+"Esto puede ser un documento legible por el usuario con información sobre la "
+"ubicación o una descripción legible por máquina de la ubicación."
+
+#: ../docs/extensions/location.md:19
+msgid "See locationGazeteers.csv"
+msgstr "Ver locationGazeteers.csv"
+
+#: ../docs/extensions/location.md:22
+msgid "Below is an example of a geolocated item:"
+msgstr "A continuación se muestra un ejemplo de un elemento geolocalizado:"
+
+#: ../docs/extensions/location.md:68
+msgid ""
+"If the procurement related to the rebuilding of a road, then the item could "
+"also specify more complex geometries such as:"
+msgstr ""
+"Si la adquisición se relacionara con la reconstrucción de una carretera, "
+"entonces el elemento también podría especificar geometrías más complejas, "
+"tales como:"
+
+#: ../docs/extensions/location.md:87
+msgid ""
+"You can take the contents of the geometry object, excluding the "
+"```geometry``` keyword, and plug this into any GeoJSON tool to see the shape"
+" that is described."
+msgstr ""
+"Puede tomar el contenido del objeto geométrico, excluyendo la palabra clave "
+"```geometry```, y conectarlo a cualquier herramienta de GeoJSON para ver la "
+"forma en que se describe."

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/tariffs.md:4
+msgid ""
+"Some contracts, particularly Public Private Partnership contracts, include "
+"agreements about the user fees to be charged for use of the infrastructure "
+"or services the contract relates to."
+msgstr ""
+"Algunos contratos, en particular los contratos de Asociación Público "
+"Privada, incluyen acuerdos sobre las tarifas de usuario que se cobrarán por "
+"el uso de la infraestructura o los servicios a los que se refiere el "
+"contrato."
+
+#: ../docs/extensions/tariffs.md:6
+msgid ""
+"For example, a Public Private Partnership project to build a bridge may set "
+"out the tolls for cars and other vehicles cross the bridge."
+msgstr ""
+"Por ejemplo, un proyecto de Asociación Pública Privada para construir un "
+"puente puede establecer los peajes para coches y otros vehículos cruzar el "
+"puente."
+
+#: ../docs/extensions/tariffs.md:8
+msgid ""
+"The tariff extension allows a structured list of these charges to be set "
+"out."
+msgstr ""
+"La extensión de tarifas permite establecer una lista estructurada de estos "
+"cargos."
+
+#: ../docs/extensions/tariffs.md:10
+msgid ""
+"It also includes an additional codelist entries for the documentType "
+"codelist for:"
+msgstr ""
+"También incluye entradas de lista de códigos adicionales para la lista de "
+"códigos documentType para:"
+
+#: ../docs/extensions/tariffs.md:12
+msgid "tariffs"
+msgstr "tariffs"
+
+#: ../docs/extensions/tariffs.md:13
+msgid "tariffMethod"
+msgstr "tariffMethod"
+
+#: ../docs/extensions/tariffs.md:14
+msgid "tariffReview"
+msgstr "tariffReview"
+
+#: ../docs/extensions/tariffs.md:15
+msgid "tariffIllustration"
+msgstr "tariffIllustration"
+
+#: ../docs/extensions/tariffs.md:19
+msgid ""
+"The tariff model builds upon the metrics extension, allowing an array of "
+"tarrif items, each with an identifier, title, period, value, units and an "
+"arbitrary set of dimensions."
+msgstr ""
+"El modelo de tarifas se basa en la extensión de métricas, permitiendo una "
+"matriz de elementos tarrif, cada uno con un identificador, título, período, "
+"valor, unidades y un conjunto arbitrario de dimensiones."
+
+#: ../docs/extensions/tariffs.md:21
+msgid ""
+"For example, if the toll for a road bridge varies based on (a) the type of "
+"vehicle; and (b) the time of day; an implementation of the tariff extension "
+"may create new fields for ```dimension/vehicleType``` and "
+"```dimension/timeOfDay```, populating these according to local codelists. In"
+" PPP cases, these additional dimensions may mirror those used in the "
+"estimated demand and other metrics sections."
+msgstr ""
+"Por ejemplo, si el peaje para un puente de carretera varía según (a) el tipo"
+" de vehículo y (b) la hora del día; una implementación de la extensión de "
+"tarifas puede crear nuevos campos para ```dimension/vehicleType``` y "
+"```dimension/timeOfDay```, rellenando estos de acuerdo con las listas de "
+"códigos locales. En los casos de APP, estas dimensiones adicionales pueden "
+"reflejar las utilizadas en la demanda estimada y otras secciones de "
+"métricas."
+
+#: ../docs/extensions/tariffs.md:25
+msgid ""
+"The example below shows a very simply tariff table, without periods or "
+"units, but with two dimensions. Tariffs which relate to a particular set of "
+"dates could have a ```period``` block. Those which relate to a particular "
+"unit (e.g. tonnes) could have this indicated using a ```unit``` block."
+msgstr ""
+"El ejemplo siguiente muestra una tabla de tarifas muy sencilla, sin periodos"
+" ni unidades, pero con dos dimensiones. Las tarifas que se refieren a un "
+"determinado conjunto de fechas podrían tener un bloque ```period```. Los que"
+" se refieren a una unidad particular (por ejemplo, toneladas) podrían tener "
+"esto indicado usando un bloque ```unit```."
+
+#: ../docs/extensions/tariffs.md:83
+msgid "The following document types are introduced by the tariff extension"
+msgstr ""
+"Los siguientes tipos de documentos son introducidos por la extensión de "
+"tarifa"
+
+#: ../docs/extensions/tariffs.md:85
+msgid "tariffs - For providing tariff and pricing schedules."
+msgstr "tariffs - Para proporcionar tarifas y horarios de precios."
+
+#: ../docs/extensions/tariffs.md:86
+msgid ""
+"tariffMethod - For summarising the method by which tariffs are set, and "
+"linking to detailed documentation of the methods for setting tariffs. This "
+"may include written documentation, and spreadsheets providing the models "
+"used to calculate tariffs."
+msgstr ""
+"tariffMethod - Para resumir el método por el cual se fijan las tarifas, y "
+"enlazando a la documentación detallada de los métodos para fijar tarifas. "
+"Esto puede incluir documentación escrita y hojas de cálculo que proporcionan"
+" los modelos utilizados para calcular las tarifas."
+
+#: ../docs/extensions/tariffs.md:87
+msgid ""
+"tariffReview - For summarising the arrangements for the review and "
+"regulation of tariffs, and linking to detailed documentation that covers how"
+" tariffs are regulated. This is important to explain to users why they are "
+"paying what they are paying, and the scope for changes to payment "
+"structures."
+msgstr ""
+"tariffReview - Para resumir las disposiciones para la revisión y regulación "
+"de los aranceles, y enlazar con la documentación detallada que cubra cómo se"
+" regulan las tarifas. Esto es importante para explicar a los usuarios por "
+"qué están pagando lo que están pagando, y el alcance de los cambios en las "
+"estructuras de pago."
+
+#: ../docs/extensions/tariffs.md:88
+msgid ""
+"tariffIllustration - For linking to graphs and reports on the change over "
+"time in tariff prices. Use the relevant image media type when linking to "
+"PNG, JPEG or GIF graphs to allow applications to directly display this "
+"content."
+msgstr ""
+"tariffIllustration - Para vincular a gráficos e informes sobre el cambio en "
+"el tiempo en los precios de las tarifas. Utilice el tipo de material de "
+"imagen relevante al vincular a gráficos PNG, JPEG o GIF para permitir que "
+"las aplicaciones muestren directamente este contenido."

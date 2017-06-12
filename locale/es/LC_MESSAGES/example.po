@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/example.md:3
+msgid ""
+"OCDS for PPPs can be used to build up a clear record of all the stages of a "
+"Public Private Partnership project over time."
+msgstr ""
+"El OCDS para APPs se puede utilizar para construir un registro claro de "
+"todas las etapas de un proyecto de asociación público-privada en el tiempo."
+
+#: ../docs/example.md:5
+msgid ""
+"Fully implemented, it will bring together, in a structured form, key "
+"documents and data."
+msgstr ""
+"Completamente implementado reunirá, de forma estructurada, documentos y "
+"datos clave."
+
+#: ../docs/example.md:7
+msgid ""
+"This allows different stakeholders to understand how a project has "
+"developed."
+msgstr ""
+"Esto permite a las diferentes partes interesadas comprender cómo se ha "
+"desarrollado un proyecto."
+
+#: ../docs/example.md:16
+msgid ""
+"Based on our pilot work with the Red Compartida programme, we have created a"
+" fictional example PPP."
+msgstr ""
+"Basado en nuestro trabajo piloto con el programa Red Compartida, hemos "
+"creado un ejemplo ficticio de APP."
+
+#: ../docs/example.md:18
+msgid ""
+"We used the [spreadsheet template](spreadsheet.md) to prepare a series of "
+"releases of data, representing different stages of the procurement process."
+msgstr ""
+"Utilizamos la [plantilla de hoja de cálculo](spreadsheet.md) para preparar "
+"una serie de entregas de datos, que representan diferentes etapas del "
+"proceso de contratación."
+
+#: ../docs/example.md:20
+msgid ""
+"This was exported as an Excel file, and converted into JSON using the [OCDS "
+"Convert, Validate and Explore tool](http://standard.open-"
+"contracting.org/validator/)"
+msgstr ""
+"Esto se exportó como un archivo de Excel y se convirtió en JSON utilizando "
+"la herramienta [OCDS Convert, Validate and Explore](http://standard.open-"
+"contracting.org/validator/)"
+
+#: ../docs/example.md:22
+msgid ""
+"The release were then compiled into a record, and are available to browse "
+"using the [open source OCDS Show framework](https://github.com/open-"
+"contracting/ocds-show/tree/ppp) which provides:"
+msgstr ""
+"Después la entrega fue compilada en un registro, y está disponible para "
+"revisarse usando el [marco OCDS Show](https://github.com/open-contracting"
+"/ocds-show/tree/ppp) que proporciona:"
+
+#: ../docs/example.md:24
+msgid "A templating engine for displaying OCDS releases and records;"
+msgstr "Un motor de plantillas para mostrar las entregas y registros de OCDS;"
+
+#: ../docs/example.md:25
+msgid "Alerts to changed fields between different releases;"
+msgstr "Alertas sobre campos modificados entre diferentes entregas;"
+
+#: ../docs/example.md:26
+msgid "Example visualisation of data;"
+msgstr "Ejemplo de visualización de datos;"
+
+#: ../docs/example.md:30
+msgid "View the [OCDS releases in JSON format here](/_static/full.json)."
+msgstr "Ve las [entregas de OCDS en formato JSON aquí](/_static/full.json)."
+
+#: ../docs/example.md:32
+msgid ""
+"View the [OCDS record in JSON format "
+"here](/_static/full_record_package.json)."
+msgstr ""
+"Ve el [registro de OCDS en formato JSON "
+"aquí](/_static/full_record_package.json)."
+
+#: ../docs/example.md:34
+msgid ""
+"View the [data in OCDS show here](/_static/ocds-"
+"show/?load=/_static/full_record_package.json)."
+msgstr ""
+"Ve los [datos en OCDS show aquí](/_static/ocds-"
+"show/?load=/_static/full_record_package.json)."
+
+#: ../docs/example.md:36
+msgid "In the record within OCDS show:"
+msgstr "En el registro dentro de OCDS show:"
+
+#: ../docs/example.md:38
+msgid "The circles along the top represent new 'releases' of information;"
+msgstr ""
+"Los círculos a lo largo de la parte superior representan nuevas \"entregas\""
+" de información;"
+
+#: ../docs/example.md:39
+msgid "The sections down to side reflect stages of the contracting process;"
+msgstr ""
+"Las secciones hacia abajo reflejan las etapas del proceso de contratación;"
+
+#: ../docs/example.md:40
+msgid ""
+"The record 'builds up' as information is provided, and highlights what has "
+"changed at each point;"
+msgstr ""
+"El registro se \"crece\" a medida que se proporciona información, y destaca "
+"lo que ha cambiado en cada punto;"
+
+#: ../docs/example.md:42
+msgid ""
+"Use the 'text input' button to see (and adapt) the JSON data which generates"
+" this view."
+msgstr ""
+"Utiliza el botón \"entrada de texto\" para ver (y adaptar) los datos JSON "
+"que generan esta vista."
+
+#: ../docs/example.md:44
+msgid ""
+"Using the open source [OCDS Show framework](https://github.com/open-"
+"contracting/ocds-show/tree/ppp) alternative presentations of data can be "
+"prepared."
+msgstr ""
+"Utilizando el marco [OCDS Show](https://github.com/open-contracting/ocds-"
+"show/tree/ppp) se pueden preparar presentaciones alternativas de datos."

@@ -1,0 +1,409 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: codelists/releaseTag.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/releaseTag.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/releaseTag.csv
+msgid "Description"
+msgstr "Descripción"
+
+#: codelists/releaseTag.csv
+msgid "Source"
+msgstr "Fuente"
+
+#. Title
+#: codelists/releaseTag.csv:1
+msgid "Planning"
+msgstr "Planeación"
+
+#. Description
+#: codelists/releaseTag.csv:1
+msgid ""
+"A contracting process is proposed or planned. Information in the tender "
+"section describes the proposed process. The tender.status field should be "
+"used to identify whether the planning is at an early pipeline stage, or "
+"whether there are detailed plans for a tender developed."
+msgstr ""
+"Un proceso de contratación se propone o se planea. La información en la "
+"sección de licitación describe el proceso propuesto. El campo tender.status "
+"debe ser utilizado para identificar si la planificación se encuentra en una "
+"etapa temprana, o si hay planes detallados para una licitación."
+
+#. Title
+#: codelists/releaseTag.csv:2
+msgid "Planning Update"
+msgstr "Actualización de Planeación"
+
+#. Description
+#: codelists/releaseTag.csv:2
+msgid ""
+"Details of a proposed or planned contracting process are being updated. This"
+" may include addition of information and documents from consultation "
+"engagement activities, revised details or timelines for a proposed "
+"contracting process, or a tender.status update to indicate that a pipeline "
+"proposal has been withdrawn."
+msgstr ""
+"Se están actualizando los detalles de un proceso de contratación propuesto o"
+" planeado. Esto puede incluir la adición de información y documentos de las "
+"actividades de participación en la consulta, los detalles revisados ​​o los "
+"plazos para un proceso de contratación propuesto, o una actualización del "
+"estado de licitación para indicar que una propuesta ha sido retirada."
+
+#. Title
+#: codelists/releaseTag.csv:3
+msgid "Qualification"
+msgstr "Calificación"
+
+#. Description
+#: codelists/releaseTag.csv:3
+msgid ""
+"Providing information about a new pre-qualification process (to qualify or "
+"pre-select bidders for a tender process)."
+msgstr ""
+"Proporcionar información sobre un nuevo proceso de precalificación (para "
+"calificar o preseleccionar a los licitadores para un proceso de licitación)."
+
+#. Title
+#: codelists/releaseTag.csv:4
+msgid "Qualification Update"
+msgstr "Actualización de Calificación"
+
+#. Description
+#: codelists/releaseTag.csv:4
+msgid ""
+"An update to an existing qualification release. There should be at least one"
+" qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationUpdate is published. An update may add new information"
+" or make corrections to prior published information. It should not be used "
+"for formal legal amendments to a pre-qualification process, for which the "
+"qualificationAmendment tag should be used."
+msgstr ""
+"Actualización de una entrega de calificación existente. Debe haber al menos "
+"una entrega de calificación con el mismo ocid, pero un releaseDate anterior,"
+" antes de que se edite un qualifiedUpdate. Una actualización puede agregar "
+"nueva información o hacer correcciones a la información publicada "
+"anteriormente. No debe utilizarse para las enmiendas legales formales a un "
+"proceso de precalificación, para lo cual se debe usar la etiqueta "
+"qualificationAmendment."
+
+#. Title
+#: codelists/releaseTag.csv:5
+msgid "Qualification Amendment"
+msgstr "Enmienda de Calificación"
+
+#. Description
+#: codelists/releaseTag.csv:5
+msgid ""
+"An amendment to an existing qualification release. There should be at least "
+"one qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationAmendment is published. The term amendment has legal "
+"meaning in many jurisdictions."
+msgstr ""
+"Una enmienda a una entrega de calificación existente. Debe haber por lo "
+"menos una entrega de calificación con el mismo ocid, pero una releaseDate "
+"anterior, antes de que se publique una qualificationAmendment. El término "
+"enmienda tiene significado legal en muchas jurisdicciones."
+
+#. Title
+#: codelists/releaseTag.csv:6
+msgid "Qualification Cancellation"
+msgstr "Cancelación de la Calificación"
+
+#. Description
+#: codelists/releaseTag.csv:6
+msgid ""
+"The cancellation of an existing pre-qualification process. There should be "
+"at least one release with the same ocid, but an earlier releaseDate, which "
+"provides details of the pre-qualification process being cancelled."
+msgstr ""
+"La cancelación de un proceso de precalificación existente. Debe haber al "
+"menos una entrega con el mismo ocid, pero un releaseDate anterior, que "
+"proporciona detalles del proceso de precalificación que se cancela."
+
+#. Title
+#: codelists/releaseTag.csv:7
+msgid "Shortlist"
+msgstr "Lista Corta"
+
+#. Description
+#: codelists/releaseTag.csv:7
+msgid ""
+"Providing information about the qualification or pre-selection of bidders. "
+"The preQualification section may be populated with details of the process "
+"leading up to the shortlist, and details of qualified or shortlisted bidders"
+" will be provided in the parties section."
+msgstr ""
+"Proporcionar información sobre la calificación o preselección de los "
+"licitadores. La sección de precalificación puede ser llenada con detalles "
+"sobre el proceso que conduce a la lista corta, y los detalles de licitadores"
+" calificados o preseleccionados serán proporcionados en la sección de "
+"partes."
+
+#. Title
+#: codelists/releaseTag.csv:8
+msgid "Shortlist Update"
+msgstr "Actualización de lista corta"
+
+#. Description
+#: codelists/releaseTag.csv:8
+msgid ""
+"An update to an existing shortlist release. There should be at least one "
+"shortlist release with the same ocid, but an earlier releaseDate before an "
+"shortlistUpdate is published. An update may add new information or make "
+"corrections."
+msgstr ""
+"Una actualización de una lista de preselecciones existente. Debe haber al "
+"menos una entrega de lista corta con el mismo ocid, pero un releaseDate "
+"anterior, antes de que se publique una shortlistUpdate. Una actualización "
+"puede agregar nueva información o hacer correcciones."
+
+#. Title
+#: codelists/releaseTag.csv:9
+msgid "Tender"
+msgstr "Licitación"
+
+#. Description
+#: codelists/releaseTag.csv:9
+msgid ""
+"Providing information about a new tender (call for proposals) process. "
+"Tender release should contain details of the goods or services being sought."
+msgstr ""
+"Proporcionar información sobre un nuevo proceso de licitación (llamada a "
+"propuestas). La entrega de licitación debe contener detalles de los bienes o"
+" servicios solicitados."
+
+#. Title
+#: codelists/releaseTag.csv:10
+msgid "Tender Amendment"
+msgstr "Enmienda de Licitación"
+
+#. Description
+#: codelists/releaseTag.csv:10
+msgid ""
+"An amendment to an existing tender release. There should be at least one "
+"tender release with the same ocid, but an earlier releaseDate, before a "
+"tenderAmendment is published. The term amendment has legal meaning in many "
+"jurisdictions."
+msgstr ""
+"Una enmienda a una entrega de licitación existente. Debe haber al menos una "
+"entrega de licitación con el mismo ocid, pero una releaseDate anterior, "
+"antes de que se publique una tenderAmendment. El término enmienda tiene "
+"significado legal en muchas jurisdicciones."
+
+#. Title
+#: codelists/releaseTag.csv:11
+msgid "Tender Update"
+msgstr "Actualización de Licitación"
+
+#. Description
+#: codelists/releaseTag.csv:11
+msgid ""
+"An update to an existing tender release. There should be at least one tender"
+" release with the same ocid, but an earlier releaseDate, before a "
+"tenderUpdate is published. An update may add new information or make "
+"corrections to prior published information. It should not be used for formal"
+" legal amendments to a tender, for which the tenderAmendment tag should be "
+"used."
+msgstr ""
+"Una actualización de una entrega de licitación existente. Debe haber al "
+"menos una entrega de licitación con el mismo ocid, pero un releaseDate "
+"anterior, antes de que se publique un tenderUpdate. Una actualización puede "
+"agregar nueva información o hacer correcciones a la información publicada "
+"anteriormente. No debe usarse para las enmiendas legales formales a una "
+"licitación, para la cual se debe usar la etiqueta de tenderAmendment."
+
+#. Title
+#: codelists/releaseTag.csv:12
+msgid "Tender Cancellation"
+msgstr "Cancelación de la Licitación"
+
+#. Description
+#: codelists/releaseTag.csv:12
+msgid ""
+"The cancellation of an existing tender. There should be at least one release"
+" with the same ocid, but an earlier releaseDate, which provides details of "
+"the tender being cancelled."
+msgstr ""
+"La cancelación de una licitación existente. Debe haber al menos una entrega "
+"con el mismo ocid, pero una releaseDate anterior, que proporciona detalles "
+"de la oferta que se cancela."
+
+#. Title
+#: codelists/releaseTag.csv:13
+msgid "Award"
+msgstr "Adjudicación"
+
+#. Description
+#: codelists/releaseTag.csv:13
+msgid ""
+"Providing information about the award of a contract. The tender section may "
+"be populated with details of the process leading up to the award, and one or"
+" more award sections will be present."
+msgstr ""
+"Proporciona información sobre la adjudicación de un contrato. La sección de "
+"licitación puede ser llenada con detalles del proceso que conduce a la "
+"adjudicación, y estarán presentes una o más secciones de la adjudicación."
+
+#. Title
+#: codelists/releaseTag.csv:14
+msgid "Award Update"
+msgstr "Actualización de Adjudicación"
+
+#. Description
+#: codelists/releaseTag.csv:14
+msgid ""
+"An update to an existing award release. There should be at least one award "
+"release with the same ocid, but an earlier releaseDate before an awardUpdate"
+" is published. An update may add new information or make corrections."
+msgstr ""
+"Una actualización de una entrega de adjudicación existente. Debe haber al "
+"menos una entrega de adjudicación con el mismo ocid, pero un releaseDate "
+"anterior, antes de que se publique un awardUpdate. Una actualización puede "
+"agregar nueva información o hacer correcciones."
+
+#. Title
+#: codelists/releaseTag.csv:15
+msgid "Award Cancellation"
+msgstr "Cancelación de la Adjudicación"
+
+#. Description
+#: codelists/releaseTag.csv:15
+msgid "Providing information about the cancellation of an award."
+msgstr "Proporciona información sobre la cancelación de una adjudicación."
+
+#. Title
+#: codelists/releaseTag.csv:16
+msgid "Contract"
+msgstr "Contrato"
+
+#. Description
+#: codelists/releaseTag.csv:16
+msgid ""
+"Providing information about the details of a contract that has been, or will"
+" be, entered into. The tender section may be populated with details of the "
+"process leading up to the contract, and the award section may contain "
+"details of the award on the basis of which this contract will be signed."
+msgstr ""
+"Proporcionar información sobre los detalles de un contrato que ha sido, o "
+"será, celebrado. La sección de licitación puede ser llenada con detalles del"
+" proceso previo al contrato, y la sección de adjudicación puede contener "
+"detalles de la adjudicación sobre la base de la cual se firmará este "
+"contrato."
+
+#. Title
+#: codelists/releaseTag.csv:17
+msgid "Contract Update"
+msgstr "Actualización del Contrato"
+
+#. Description
+#: codelists/releaseTag.csv:17
+msgid ""
+"Providing information about updates to a contract. There should be at least "
+"one contract release with the same ocid, but an earlier releaseDate, before "
+"a contractUpdate is published. An update may add new information or make "
+"corrections to prior published information. It should not be used for formal"
+" legal amendments to a contract, for which the contractAmendment tag should "
+"be used."
+msgstr ""
+"Proporcionar información sobre las actualizaciones de un contrato. Debe "
+"haber por lo menos una entrega del contrato con el mismo ocid, pero un "
+"releaseDate anterior, antes de que se publique un contractUpdate. Una "
+"actualización puede agregar nueva información o hacer correcciones a la "
+"información publicada anteriormente. No se debe utilizar para las enmiendas "
+"legales formales a un contrato, para el cual debe utilizarse la etiqueta "
+"contractAmendment."
+
+#. Title
+#: codelists/releaseTag.csv:18
+msgid "Contract Amendment"
+msgstr "Enmienda del Contrato"
+
+#. Description
+#: codelists/releaseTag.csv:18
+msgid ""
+"An amendment to an existing contract release. There should be at least one "
+"contract release with the same ocid, but an earlier releaseDate, before a "
+"contractAmendment is published. The term amendment has legal meaning in many"
+" jurisdictions."
+msgstr ""
+"Una enmienda a una entrega existente de contrato. Debe haber por lo menos "
+"una entrega del contrato con el mismo ocid, pero una releaseDate anterior, "
+"antes de que se publique un contractAmendment. El término enmienda tiene "
+"significado legal en muchas jurisdicciones."
+
+#. Title
+#: codelists/releaseTag.csv:19
+msgid "Implementation"
+msgstr "Implementación"
+
+#. Description
+#: codelists/releaseTag.csv:19
+msgid ""
+"Providing new information on the implementation of a contracting process."
+msgstr ""
+"Proporciona nueva información sobre la implementación de un proceso de "
+"contratación."
+
+#. Title
+#: codelists/releaseTag.csv:20
+msgid "Implementation Update"
+msgstr "Actualización de Implementación"
+
+#. Description
+#: codelists/releaseTag.csv:20
+msgid ""
+"Updating existing information provided about the implementation of a "
+"contracting process."
+msgstr ""
+"Actualización de la información existente sobre la implementación de un "
+"proceso de contratación."
+
+#. Title
+#: codelists/releaseTag.csv:21
+msgid "Contract Termination"
+msgstr "Terminación de Contrato"
+
+#. Description
+#: codelists/releaseTag.csv:21
+msgid "Providing information at the end of a contracting process."
+msgstr "Proporciona información al final de un proceso de contratación."
+
+#. Title
+#: codelists/releaseTag.csv:22
+msgid "Compiled record"
+msgstr "Registro compilado"
+
+#. Description
+#: codelists/releaseTag.csv:22
+msgid ""
+"This tag is used only in compiled records, which have merged together "
+"multiple releases to provide a snapshot view of the contract, and a version "
+"history."
+msgstr ""
+"Esta etiqueta se utiliza sólo en registros compilados, que han combinado "
+"varias versiones para proporcionar una vista instantánea del contrato y un "
+"historial de versiones."

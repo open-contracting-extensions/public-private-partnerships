@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/budget_project.md:4
+msgid ""
+"[Issue #400](https://github.com/open-contracting/standard/issues/400) raises"
+" the importance of distinguishing project information from budget "
+"information."
+msgstr ""
+"El [issue #400](https://github.com/open-contracting/standard/issues/400) "
+"plantea la importancia de distinguir la información del proyecto de la "
+"información presupuestaria."
+
+#: ../docs/extensions/budget_project.md:6
+msgid "This is also important for the PPP extension to OCDS."
+msgstr "Esto también es importante para la extensión APP de OCDS."
