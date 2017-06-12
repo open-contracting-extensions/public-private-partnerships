@@ -3,3 +3,4 @@ docs/_build
 *.swp
 build_locale
 *.mo
+docs/_static/ppp-release-schema.json

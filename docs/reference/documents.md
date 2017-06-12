@@ -15,7 +15,7 @@ Each document can be represented using a ```Document``` object. This can contain
 The full set of fields for representing a document are shown below
 
 ```eval_rst
-.. jsonschema:: ../schema/ppp-release-schema.json
+.. jsonschema:: _static/ppp-release-schema.json
     :pointer: /definitions/Document
     :collapse: 
 ```
