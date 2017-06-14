@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/index.md:4
+msgid "This site contains technical documentation for OCDS for PPPs."
+msgstr "Este sitio contiene la documentación técnica de OCDS para APPs."
+
+#: ../docs/index.md:6
+msgid ""
+"This provides an extended Open Contracting Data Standard schema - offering "
+"as structured data model for presenting information on Public Private "
+"Partnership Projects."
+msgstr ""
+"Éste proporciona un esquema extendido del Estándar de Datos de "
+"Contrataciones Abiertas - ofreciendo un modelo de datos estructurados para "
+"presentar información sobre Proyectos de Asociación Público Privada."
+
+#: ../docs/index.md:10
+msgid ""
+"OCDS for PPPs was developed between May 2016 and May 2017 through a "
+"partnership between the [World Bank Open Contracting "
+"team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP "
+"team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
+"Contracting Partnershion](http://open-contracting.org), and [Open Data "
+"Services Co-operative](http://www.opendataservices.coop)."
+msgstr ""
+"El OCDS para APP se desarrolló entre mayo de 2016 y mayo de 2017 a través de"
+" una asociación entre el [Equipo de Contrataciones Abiertas del Banco "
+"Mundial](https://blogs.worldbank.org/category/tags/open-contracting), [el "
+"equipo de APP](http://www.worldbank.org/en/topic/publicprivatepartnerships),"
+" la [Open Contracting Partnership](http://open-contracting.org), y [Open "
+"Data Services Co-operative](http://www.opendataservices.coop)."
+
+#: ../docs/index.md:12
+msgid ""
+"For more information, contact [Lindsey Marchessault](lmarchessault@open-"
+"contracting.org)"
+msgstr ""
+"Para mayor información, comuníquese con [Lindsey Marchessault](lmarchessault"
+"@open-contracting.org)"
+
+#: ../docs/index.md:16
+msgid "Contents:"
+msgstr "Contenido:"
+
+#: ../docs/index.md:39
+msgid ""
+"Developed by Open Data Services Co-operative for the World Bank and Open "
+"Contracting Partnership."
+msgstr ""
+"Desarrollado por Open Data Services Co-operative para el Banco Mundial y "
+"Open Contracting Partnership."
+
+#: ../docs/index.md:1
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../docs/index.md:2
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../docs/index.md:3
+msgid ":ref:`search`"
+msgstr ":ref:`search`"

@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/metrics.md:4
+msgid ""
+"The metrics extension provides a common building block for reporting "
+"structured performance information on contracts."
+msgstr ""
+"La extensión de métricas proporciona un bloque de construcción común para la"
+" información estructurada de rendimiento de informes sobre contratos."
+
+#: ../docs/extensions/metrics.md:6
+msgid ""
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"```Metric``` representing a single **observation**, categorised by a number "
+"of **dimensions**."
+msgstr ""
+"Las métricas están estructuradas como un [cubo de datos "
+"OLAP](https://en.wikipedia.org/wiki/OLAP_cube) con cada instancia de "
+"```Metric``` que representa una sola **observation**, categorizada por un "
+"número de **dimensions**."
+
+#: ../docs/extensions/metrics.md:50
+msgid ""
+"Metrics can be used along with the **requirements extension** which will add"
+" a 'relatedRequirementID' property to metrics."
+msgstr ""
+"Las métricas se pueden utilizar junto con la **extensión de requisitos** que"
+" agregará una propiedad 'relatedRequirementID' a las métricas."
+
+#: ../docs/extensions/metrics.md:52
+msgid ""
+"With the requirements extension, bids, awards and contracts can include a "
+"```requirementResponse``` indicating the values against each metric that a "
+"supplier intends to meet."
+msgstr ""
+"Con la extensión de requisitos, las ofertas, adjudicaciones y contratos "
+"pueden incluir un ```requirementResponse``` que indica los valores contra "
+"cada métrica que un proveedor desea cumplir."
+
+#: ../docs/extensions/metrics.md:54
+msgid ""
+"This can allow a degree of comparison between performance anticipated at "
+"bid, award, contract and implementation phases."
+msgstr ""
+"Esto puede permitir un cierto grado de comparación entre el rendimiento "
+"previsto en las fases de licitación, adjudicación, contrato y ejecución."
+
+#: ../docs/extensions/metrics.md:58
+msgid "[ ] Check oneOf schema syntax for value **or** quantity"
+msgstr "[ ] Compruebe la sintaxis del esquema oneOf para value **o**quantity"
+
+#: ../docs/extensions/metrics.md:59
+msgid "[ ] Add relatedRequirementID to requirements extension"
+msgstr "[ ] Agregue relatedRequirementID a la extensión de requisitos"
+
+#: ../docs/extensions/metrics.md:60
+msgid "[ ] Validate schema updates"
+msgstr "[ ] Validar actualizaciones de esquema"

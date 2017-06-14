@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/bids.md:4
+msgid ""
+"Information on bids submitted as part of a contracting process is important "
+"for many forms of analysis, including:"
+msgstr ""
+"La información sobre las ofertas presentadas como parte de un proceso de "
+"contratación es importante para varios análisis, incluyendo:"
+
+#: ../docs/extensions/bids.md:6
+msgid ""
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
+msgstr ""
+"Análisis de mercado para comprender la competitividad de un determinado "
+"mercado;"
+
+#: ../docs/extensions/bids.md:7
+msgid "Red flag analysis for understanding potential corruption risks; and"
+msgstr ""
+"Análisis de banderas rojas para comprender los posibles riesgos de "
+"corrupción; y"
+
+#: ../docs/extensions/bids.md:8
+msgid "Value for money analysis;"
+msgstr "Análisis de valor por dinero;"
+
+#: ../docs/extensions/bids.md:10
+msgid ""
+"Regulatory regimes vary on the extent to which they allow information on "
+"bidding to be proactively published, and at what point in the procurement "
+"process. In some systems and processes, a list of invited bidders will be "
+"published at the start of tendering, and full details and documents on the "
+"bids recieved may be disclosed when evaluation is complete. In other "
+"systems, only summary statistics on the number of bids received may be made "
+"public."
+msgstr ""
+"Los regímenes regulatorios varían en la medida en que permiten que la "
+"información sobre las licitaciones se publique de forma proactiva y en qué "
+"momento del proceso de adquisición. En algunos sistemas y procesos, se "
+"publicará una lista de licitadores invitados al comienzo de la licitación, y"
+" todos los detalles y documentos sobre las ofertas recibidas podrán ser "
+"revelados cuando se complete la evaluación. En otros sistemas, sólo pueden "
+"hacerse públicas las estadísticas resumidas sobre el número de ofertas "
+"recibidas."
+
+#: ../docs/extensions/bids.md:12
+msgid ""
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
+"to assess which fields are applicable to their local regulatory regime, and "
+"to local use-cases."
+msgstr ""
+"La extensión de ofertas del OCDS introduce una sección nueva, flexible y de "
+"alto nivel en cada proceso de contratación para capturar información sobre "
+"las ofertas. Los implementadores deberán evaluar qué campos son aplicables a"
+" su régimen regulatorio local y a los casos de uso locales."
+
+#: ../docs/extensions/bids.md:16
+msgid ""
+"The ```bids/bidStatistics``` array can be used to represent key statistical "
+"information about the number of bids and bidders. Each entry in the array is"
+" a ```BidStatistic``` object containing at least:"
+msgstr ""
+"La matriz ```bids/bidStatistics``` puede utilizarse para representar "
+"información estadística clave sobre el número de ofertas y licitadores. Cada"
+" entrada en la matriz es un objeto ```BidStatistic``` que contiene al menos:"
+
+#: ../docs/extensions/bids.md:18
+msgid "An identifier;"
+msgstr "Un identificador;"
+
+#: ../docs/extensions/bids.md:19
+msgid "A measure, from the bidStatistics codelist;"
+msgstr "Una medida, de la lista de códigos bidStatistics;"
+
+#: ../docs/extensions/bids.md:20
+msgid "A value for that measure;"
+msgstr "Un valor para esa medida;"
+
+#: ../docs/extensions/bids.md:32
+msgid ""
+"This is an **open** codelist. Publishers can add their own codes to this "
+"list. When doing so, publishers are encouraged to engage with the open "
+"contracting community to agree upon definitions of each code."
+msgstr ""
+"Esta es una lista de códigos **abierta**. Los publicadores pueden agregar "
+"sus propios códigos a esta lista. Al hacerlo, se alienta a que colaboren con"
+" la comunidad de contrataciones abiertas para acordar las definiciones de "
+"cada código."
+
+#: ../docs/extensions/bids.md:34
+msgid ""
+"For example, publishers may wish to add statistics on minority or women "
+"owned businesses, or bids that meet certain environmental standards and "
+"targets."
+msgstr ""
+"Por ejemplo, los publicadores tal vez deseen agregar estadísticas sobre "
+"negocios pertenecientes a minorías o a mujeres u ofertas que cumplan ciertos"
+" estándares y metas ambientales."
+
+#: ../docs/extensions/bids.md:44
+msgid ""
+"The ```bids/details``` array is used to provide one or more ```Bid``` "
+"objects, each representing a unique bid received."
+msgstr ""
+"La matriz ````bids/details``` se utiliza para proporcionar uno o más objetos"
+" ```Bid```, cada uno representando una única oferta recibida."
+
+#: ../docs/extensions/bids.md:54
+msgid "ToDo"
+msgstr "ToDo"

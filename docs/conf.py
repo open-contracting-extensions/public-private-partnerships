@@ -168,7 +168,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static','examples','../schema']
+html_static_path = ['../schema', '_static', 'examples']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -353,7 +353,7 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 
-locale_dirs = ['locale/']   # path is example but recommended.
+locale_dirs = ['../locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 
@@ -685,6 +685,41 @@ directives.register_directive('extensionlist', ExtensionList)
 directives.register_directive('extensiontable', ExtensionTable)
 
 
+import subprocess
+subprocess.run(['pybabel', 'compile', '-d', '../locale', '-D', 'schema'])
+
+import gettext
+import sys
+import json
+import os
+import shutil
+from collections import OrderedDict
+
+def translate_schema(language):
+    name = 'ppp-release-schema.json'
+    directory_name = '_static'
+
+    if language == 'en':
+        shutil.copy('../schema/' + name, directory_name)
+        return
+
+    print("Translating schema to language " + language)
+    translator = gettext.translation('ppp-schema', '../locale', languages=[language])
+
+    def translate_data(data):
+        for key, value in list(data.items()):
+            if key in ('title', 'description') and isinstance(value, str):
+                data[key] = translator.gettext(value)
+            if isinstance(value, dict):
+                translate_data(value)
+    data = json.load(open('../schema/' + name), object_pairs_hook=OrderedDict)
+    translate_data(data)
+    if not os.path.exists(directory_name):
+        os.makedirs(directory_name)
+    json.dump(data, open(os.path.join(directory_name, name), 'w+'), indent=4, ensure_ascii=False)
+
+
+
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
@@ -693,3 +728,4 @@ def setup(app):
         'enable_eval_rst': True
         }, True)
     app.add_transform(AutoStructify)
+    translate_schema(app.config.overrides.get('language', 'en'))

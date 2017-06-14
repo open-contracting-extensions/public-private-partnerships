@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/shareholders.md:3
+msgid ""
+"The shareholder extension can be used to provide details of the owners of "
+"parties involved in a contracting process."
+msgstr ""
+"La extensión de accionista se puede utilizar para proporcionar detalles de "
+"los propietarios de las partes involucradas en un proceso de contratación."
+
+#: ../docs/extensions/shareholders.md:5
+msgid ""
+"For example, in Public Private Partnerships processes, companies are often "
+"required to disclose information on their ownership structures when bidding,"
+" and when the contract is awarded, information on the ownership of a Special"
+" Purpose Vehicle (SPV) operating the contract may need to be kept up to date"
+" during project implementation."
+msgstr ""
+"Por ejemplo, en los procesos de Asociaciones Público-Privadas, a menudo se "
+"requiere que las compañías divulguen información sobre sus estructuras de "
+"propiedad al licitar y cuando se adjudique el contrato, es necesario "
+"mantener información sobre la propiedad de una Sociedad con Fines "
+"Específicos (SPV) actualizada durante la ejecución del proyecto."
+
+#: ../docs/extensions/shareholders.md:7
+msgid ""
+"Because each owner mentioned in the shareholders array should also gain an "
+"entry in the 'parties' array, it is possible to use this extension to build "
+"up information on corporate ownership networks involved in a contracting "
+"process."
+msgstr ""
+"Debido a que cada propietario mencionado en la matriz de accionistas también"
+" debetener una entrada en la matriz de 'parties', es posible utilizar esta "
+"extensión para crear información sobre las redes de propiedad corporativa "
+"involucrados en un proceso de contratación."
+
+#: ../docs/extensions/shareholders.md:11
+msgid ""
+"This extension also includes a 'stub' entry for recording beneficial "
+"ownership information against a party."
+msgstr ""
+"Esta extensión también incluye una entrada 'stub' para registrar información"
+" de propiedad beneficiaria contra una parte."
+
+#: ../docs/extensions/shareholders.md:13
+msgid ""
+"At present this includes space for free-text description of ownership and "
+"control structures, but this may be further extended with structured "
+"beneficial ownership information drawing on the draft [Beneficial Ownership "
+"Data Standard](https://github.com/openownership/data-standard)."
+msgstr ""
+"En la actualidad, esto incluye espacio para la descripción en texto libre de"
+" las estructuras de propiedad y control, pero podría ampliarse con "
+"información estructurada sobre la propiedad efectiva basada en el borrador "
+"[Beneficial Ownership Data Standard](https://github.com/openownership/data-"
+"standard)."

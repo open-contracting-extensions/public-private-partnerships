@@ -10,7 +10,7 @@ This allows different stakeholders to understand how a project has developed.
 
 ```eval_rst
 .. image:: _assets/ocds_show.png
-   :target: /_static/ocds-show/?load=/_static/full.json
+   :target: ../_static/ocds-show/?load=../full.json
 ```
 
 Based on our pilot work with the Red Compartida programme, we have created a fictional example PPP.
@@ -27,11 +27,11 @@ The release were then compiled into a record, and are available to browse using 
 
 ## Explore the example
 
-View the [OCDS releases in JSON format here](/_static/full.json).
+View the [OCDS releases in JSON format here](../_static/full.json).
 
-View the [OCDS record in JSON format here](/_static/full_record_package.json).
+View the [OCDS record in JSON format here](../_static/full_record_package.json).
 
-View the [data in OCDS show here](/_static/ocds-show/?load=/_static/full_record_package.json).
+View the [data in OCDS show here](../_static/ocds-show/?load=../full_record_package.json).
 
 In the record within OCDS show:
 
