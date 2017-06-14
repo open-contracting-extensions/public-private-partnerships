@@ -8,15 +8,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/tariffs.md:0
+msgid "Tariffs"
+msgstr ""
+
+#: ../docs/extensions/tariffs.md:0
+msgid "Introduction"
+msgstr ""
 
 #: ../docs/extensions/tariffs.md:4
 msgid ""
@@ -35,8 +43,8 @@ msgid ""
 "out the tolls for cars and other vehicles cross the bridge."
 msgstr ""
 "Por ejemplo, un proyecto de Asociación Pública Privada para construir un "
-"puente puede establecer los peajes para coches y otros vehículos cruzar el "
-"puente."
+"puente puede establecer los peajes para coches y otros vehículos para cruzar"
+" el mismo."
 
 #: ../docs/extensions/tariffs.md:8
 msgid ""
@@ -70,6 +78,10 @@ msgstr "tariffReview"
 msgid "tariffIllustration"
 msgstr "tariffIllustration"
 
+#: ../docs/extensions/tariffs.md:0
+msgid "Tariff modelling"
+msgstr ""
+
 #: ../docs/extensions/tariffs.md:19
 msgid ""
 "The tariff model builds upon the metrics extension, allowing an array of "
@@ -97,6 +109,10 @@ msgstr ""
 "reflejar las utilizadas en la demanda estimada y otras secciones de "
 "métricas."
 
+#: ../docs/extensions/tariffs.md:0
+msgid "Worked example"
+msgstr ""
+
 #: ../docs/extensions/tariffs.md:25
 msgid ""
 "The example below shows a very simply tariff table, without periods or "
@@ -109,6 +125,10 @@ msgstr ""
 "determinado conjunto de fechas podrían tener un bloque ```period```. Los que"
 " se refieren a una unidad particular (por ejemplo, toneladas) podrían tener "
 "esto indicado usando un bloque ```unit```."
+
+#: ../docs/extensions/tariffs.md:0
+msgid "Codelist entries"
+msgstr ""
 
 #: ../docs/extensions/tariffs.md:83
 msgid "The following document types are introduced by the tariff extension"
@@ -128,9 +148,9 @@ msgid ""
 "used to calculate tariffs."
 msgstr ""
 "tariffMethod - Para resumir el método por el cual se fijan las tarifas, y "
-"enlazando a la documentación detallada de los métodos para fijar tarifas. "
-"Esto puede incluir documentación escrita y hojas de cálculo que proporcionan"
-" los modelos utilizados para calcular las tarifas."
+"enlazar a la documentación detallada de los métodos para fijar tarifas. Esto"
+" puede incluir documentación escrita y hojas de cálculo con los modelos "
+"utilizados para calcular las tarifas."
 
 #: ../docs/extensions/tariffs.md:87
 msgid ""
@@ -141,10 +161,10 @@ msgid ""
 "structures."
 msgstr ""
 "tariffReview - Para resumir las disposiciones para la revisión y regulación "
-"de los aranceles, y enlazar con la documentación detallada que cubra cómo se"
-" regulan las tarifas. Esto es importante para explicar a los usuarios por "
-"qué están pagando lo que están pagando, y el alcance de los cambios en las "
-"estructuras de pago."
+"de las tarifas, y enlazar con la documentación detallada que explique cómo "
+"se regulan las tarifas. Esto es importante para poder enseñarles a los "
+"usuarios por qué están pagando lo que están pagando, y el alcance de los "
+"cambios en las estructuras de pago."
 
 #: ../docs/extensions/tariffs.md:88
 msgid ""

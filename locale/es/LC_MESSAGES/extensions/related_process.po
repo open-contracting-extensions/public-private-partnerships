@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,6 +18,10 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/extensions/related_process.md:0
+msgid "Related processes"
+msgstr ""
+
 #: ../docs/extensions/related_process.md:4
 msgid ""
 "In OCDS each contracting process can have only one planning and tender "
@@ -26,7 +30,7 @@ msgid ""
 msgstr ""
 "En OCDS cada proceso de contratación puede tener sólo una fase de "
 "planificación y de licitación. Hay una serie de casos en los que es "
-"importante conocer los procesos relacionados de planificación y licitación, "
+"importante conocer procesos relacionados de planificación y licitación, "
 "incluyendo:"
 
 #: ../docs/extensions/related_process.md:6
@@ -67,6 +71,10 @@ msgstr ""
 "En todos estos casos, el bloque ```relatedProcess``` puede utilizarse para "
 "hacer una referencia cruzada entre los procesos de contratación abierta "
 "pertinentes utilizando su ```OCID```."
+
+#: ../docs/extensions/related_process.md:0
+msgid "Process and contract relationships"
+msgstr ""
 
 #: ../docs/extensions/related_process.md:15
 msgid "A related process can be declared at two points in an OCDS release."
@@ -111,8 +119,8 @@ msgid ""
 msgstr ""
 "Cuando se registra un ```release/relatedProcess``` apuntando al ocid del "
 "proceso de planificación que resultó en una licitación, una entrada "
-"```tender/documents``` con ```documentType``` de 'procurementPlan' Y podría "
-"proporcionarse un enlace a páginas web sobre el plan de adquisiciones;"
+"```tender/documents``` con ```documentType``` de 'procurementPlan' Y  un "
+"enlace a páginas web sobre el plan de adquisiciones podría proporcionarse;"
 
 #: ../docs/extensions/related_process.md:24
 msgid ""
@@ -121,8 +129,8 @@ msgid ""
 "```documentType``` of 'subContract' and a title that describes it as the "
 "subcontracting process, could be provided;"
 msgstr ""
-"Cuando se registra un ```contract/relatedProcess``` que señala el ocid de un"
-" proceso de subcontratación, se puede proporcionaruna entrada "
+"Cuando se registra un ```contract/relatedProcess``` que señala al ocid de un"
+" proceso de subcontratación, se puede proporcionar una entrada "
 "```contract/documents``` con ```documentType``` de 'subContract' y un título"
 " que lo describa como el proceso de subcontratación;"
 
@@ -138,6 +146,10 @@ msgstr ""
 " se puede proporcionar una entrada ```contract/documents``` con "
 "```documentType``` de 'tenderNotice' y un título que lo describa como el "
 "proceso sucesor."
+
+#: ../docs/extensions/related_process.md:0
+msgid "Codelists"
+msgstr ""
 
 #: ../docs/extensions/related_process.md:29
 msgid "The relatedProcess codelist is given below."

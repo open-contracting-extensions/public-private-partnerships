@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/bids.md:0
+msgid "Bid statistics and details"
+msgstr ""
 
 #: ../docs/extensions/bids.md:4
 msgid ""
@@ -75,6 +79,10 @@ msgstr ""
 "las ofertas. Los implementadores deberán evaluar qué campos son aplicables a"
 " su régimen regulatorio local y a los casos de uso locales."
 
+#: ../docs/extensions/bids.md:0
+msgid "Bid Statistics"
+msgstr ""
+
 #: ../docs/extensions/bids.md:16
 msgid ""
 "The ```bids/bidStatistics``` array can be used to represent key statistical "
@@ -97,6 +105,14 @@ msgstr "Una medida, de la lista de códigos bidStatistics;"
 msgid "A value for that measure;"
 msgstr "Un valor para esa medida;"
 
+#: ../docs/extensions/bids.md:0
+msgid "Bid Statistics Schema"
+msgstr ""
+
+#: ../docs/extensions/bids.md:0
+msgid "Bid Statistics Codelists"
+msgstr ""
+
 #: ../docs/extensions/bids.md:32
 msgid ""
 "This is an **open** codelist. Publishers can add their own codes to this "
@@ -118,6 +134,10 @@ msgstr ""
 "negocios pertenecientes a minorías o a mujeres u ofertas que cumplan ciertos"
 " estándares y metas ambientales."
 
+#: ../docs/extensions/bids.md:0
+msgid "Bid details"
+msgstr ""
+
 #: ../docs/extensions/bids.md:44
 msgid ""
 "The ```bids/details``` array is used to provide one or more ```Bid``` "
@@ -125,6 +145,10 @@ msgid ""
 msgstr ""
 "La matriz ````bids/details``` se utiliza para proporcionar uno o más objetos"
 " ```Bid```, cada uno representando una única oferta recibida."
+
+#: ../docs/extensions/bids.md:0
+msgid "Example"
+msgstr ""
 
 #: ../docs/extensions/bids.md:54
 msgid "ToDo"

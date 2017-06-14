@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,9 +18,13 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/index.md:0
+msgid "Home"
+msgstr ""
+
 #: ../docs/index.md:4
 msgid "This site contains technical documentation for OCDS for PPPs."
-msgstr "Este sitio contiene la documentación técnica de OCDS para APPs."
+msgstr "Este sitio contiene documentación técnica de OCDS para APPs."
 
 #: ../docs/index.md:6
 msgid ""
@@ -28,9 +32,13 @@ msgid ""
 "as structured data model for presenting information on Public Private "
 "Partnership Projects."
 msgstr ""
-"Éste proporciona un esquema extendido del Estándar de Datos de "
+"Éste proporciona un esquema extendido del Estándar de Datos para las "
 "Contrataciones Abiertas - ofreciendo un modelo de datos estructurados para "
 "presentar información sobre Proyectos de Asociación Público Privada."
+
+#: ../docs/index.md:0
+msgid "Partners"
+msgstr ""
 
 #: ../docs/index.md:10
 msgid ""
@@ -56,9 +64,17 @@ msgstr ""
 "Para mayor información, comuníquese con [Lindsey Marchessault](lmarchessault"
 "@open-contracting.org)"
 
+#: ../docs/index.md:0
+msgid "Contents"
+msgstr ""
+
 #: ../docs/index.md:16
 msgid "Contents:"
 msgstr "Contenido:"
+
+#: ../docs/index.md:0
+msgid "Credits"
+msgstr ""
 
 #: ../docs/index.md:39
 msgid ""
@@ -68,14 +84,6 @@ msgstr ""
 "Desarrollado por Open Data Services Co-operative para el Banco Mundial y "
 "Open Contracting Partnership."
 
-#: ../docs/index.md:1
-msgid ":ref:`genindex`"
-msgstr ":ref:`genindex`"
-
-#: ../docs/index.md:2
-msgid ":ref:`modindex`"
-msgstr ":ref:`modindex`"
-
-#: ../docs/index.md:3
-msgid ":ref:`search`"
-msgstr ":ref:`search`"
+#: ../docs/index.md:0
+msgid "Indices and tables"
+msgstr ""

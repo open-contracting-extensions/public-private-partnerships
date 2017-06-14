@@ -8,15 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/overview.md:0
+msgid "Overview"
+msgstr ""
 
 #: ../docs/overview.md:8
 msgid ""
@@ -38,7 +42,7 @@ msgstr ""
 "El OCDS para APP proporciona un marco sobre **cómo** publicar la información"
 " solicitada, con clara separación de:"
 
-#: ../docs/overview.md:12
+#: ../docs/overview.md:12 ../docs/overview.md:0
 msgid "Data"
 msgstr "Datos"
 
@@ -46,7 +50,7 @@ msgstr "Datos"
 msgid "Documments"
 msgstr "Documentos"
 
-#: ../docs/overview.md:14
+#: ../docs/overview.md:14 ../docs/overview.md:0
 msgid "Presentation"
 msgstr "Presentación"
 
@@ -104,6 +108,10 @@ msgstr ""
 "Estos elementos de datos estructurados pueden representarse mediante datos "
 "JSON o mediante plantillas de hoja de cálculo simples."
 
+#: ../docs/overview.md:0
+msgid "Documents"
+msgstr ""
+
 #: ../docs/overview.md:41
 msgid "PPP projects involve can involve 100s or 1000s of pages of documents."
 msgstr ""
@@ -145,20 +153,9 @@ msgid ""
 "understand a project: and compliance with the framework can be more easily "
 "assessed."
 msgstr ""
-"De esta manera, las partes interesadas pueden encontrar más fácilmente la "
+"De esta manera, las partes interesadas pueden encontrar fácilmente la "
 "información que necesitan para entender un proyecto y el cumplimiento con el"
 " marco puede ser evaluado más fácilmente."
-
-#: ../docs/overview.md:1
-msgid ""
-"Make sure that documents are directly accessible at a persistent web "
-"address. Avoid placing documents behind a log-in or CAPTCHA, or moving the "
-"location of documents once they have been published."
-msgstr ""
-"Asegúrese de que los documentos estén directamente accesibles en una "
-"dirección web persistente. Evite colocar documentos detrás de un registro o "
-"CAPTCHA, o mover la ubicación de los documentos una vez que se hayan "
-"publicado."
 
 #: ../docs/overview.md:69
 msgid "With the combination of:"
@@ -209,8 +206,6 @@ msgstr ""
 
 #: ../docs/overview.md:82
 msgid ""
-"You can explore a [preview of OCDS show with example data](/_static/ocds-"
-"show/?load=/_static/full.json)."
+"You can explore a [preview of OCDS show with example data](../_static/ocds-"
+"show/?load=../full.json)."
 msgstr ""
-"Puede explorar una [vista previa de OCDS show con datos de ejemplo](/_static"
-"/ocds-show/?load=/_static/full.json)."

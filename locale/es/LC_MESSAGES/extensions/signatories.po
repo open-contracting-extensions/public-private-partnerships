@@ -8,15 +8,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/signatories.md:0
+msgid "Contract signatories"
+msgstr ""
+
+#: ../docs/extensions/signatories.md:0
+msgid "Background"
+msgstr ""
 
 #: ../docs/extensions/signatories.md:5
 msgid ""
@@ -42,10 +50,14 @@ msgid ""
 "specified in ```buyer```/```publicAuthority``` and "
 "```award/suppliers```/```award/preferredBidders```."
 msgstr ""
-"En algunos tipos de contratación pueden existir signatarios adicionales del "
-"contrato o los firmantes del contrato pueden diferir de los especificados en"
-" ```buyer```/```publicAuthority``` y "
+"En algunos tipos de procesos de contratación pueden existir signatarios "
+"adicionales del contrato o los firmantes del contrato pueden diferir de los "
+"especificados en ```buyer```/```publicAuthority``` y "
 "```award/suppliers```/```award/preferredBidders```."
+
+#: ../docs/extensions/signatories.md:0
+msgid "Extension fields"
+msgstr ""
 
 #: ../docs/extensions/signatories.md:11
 msgid ""
@@ -57,6 +69,10 @@ msgstr ""
 "contract```. La propiedad ```signatory``` es una matriz de "
 "```organizationReferences```."
 
+#: ../docs/extensions/signatories.md:0
+msgid "Example"
+msgstr ""
+
 #: ../docs/extensions/signatories.md:15
 msgid ""
 "The following JSON snippet models a PPP contracting process where there is "
@@ -66,6 +82,10 @@ msgstr ""
 "El siguiente fragmento de JSON modela un proceso de contratación de APP "
 "cuando hay un firmante adicional al contrato además de los definidos en los "
 "campos ```publicAuthority``` y ```award/preferredBidders```."
+
+#: ../docs/extensions/signatories.md:0
+msgid "Usage notes"
+msgstr ""
 
 #: ../docs/extensions/signatories.md:52
 msgid ""

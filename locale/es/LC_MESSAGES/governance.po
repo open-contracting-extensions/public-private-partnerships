@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/governance.md:0
+msgid "History and governance"
+msgstr ""
 
 #: ../docs/governance.md:3
 msgid ""
@@ -29,6 +33,10 @@ msgstr ""
 "Mundial, el equipo de APP, Open Contracting Partnership y Open Data "
 "Services."
 
+#: ../docs/governance.md:0
+msgid "Development"
+msgstr ""
+
 #: ../docs/governance.md:7
 msgid ""
 "You can read more about the early development process on the [Open "
@@ -38,6 +46,10 @@ msgstr ""
 "Puedes leer más sobre el proceso de desarrollo inicial en el blog de [Open "
 "Contracting Partnership](http://www.open-contracting.org/2016/09/08"
 "/extending-open-contracting-data-standard-ppps/)"
+
+#: ../docs/governance.md:0
+msgid "Governance"
+msgstr ""
 
 #: ../docs/governance.md:10
 msgid ""

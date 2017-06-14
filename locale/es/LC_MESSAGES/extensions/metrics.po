@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,13 +18,17 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/extensions/metrics.md:0
+msgid "Metrics Extension"
+msgstr ""
+
 #: ../docs/extensions/metrics.md:4
 msgid ""
 "The metrics extension provides a common building block for reporting "
 "structured performance information on contracts."
 msgstr ""
-"La extensión de métricas proporciona un bloque de construcción común para la"
-" información estructurada de rendimiento de informes sobre contratos."
+"La extensión de métricas proporciona un bloque de construcción común para "
+"reportar información estructurada de rendimiento de los contratos."
 
 #: ../docs/extensions/metrics.md:6
 msgid ""
@@ -35,8 +39,12 @@ msgid ""
 msgstr ""
 "Las métricas están estructuradas como un [cubo de datos "
 "OLAP](https://en.wikipedia.org/wiki/OLAP_cube) con cada instancia de "
-"```Metric``` que representa una sola **observation**, categorizada por un "
+"```Metric``` representando una sola **observation**, categorizada por un "
 "número de **dimensions**."
+
+#: ../docs/extensions/metrics.md:0
+msgid "Use with requirements"
+msgstr ""
 
 #: ../docs/extensions/metrics.md:50
 msgid ""
@@ -63,6 +71,10 @@ msgid ""
 msgstr ""
 "Esto puede permitir un cierto grado de comparación entre el rendimiento "
 "previsto en las fases de licitación, adjudicación, contrato y ejecución."
+
+#: ../docs/extensions/metrics.md:0
+msgid "To Do"
+msgstr ""
 
 #: ../docs/extensions/metrics.md:58
 msgid "[ ] Check oneOf schema syntax for value **or** quantity"

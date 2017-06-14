@@ -8,15 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/requirements.md:0
+msgid "Requirements"
+msgstr ""
 
 #: ../docs/extensions/requirements.md:3
 msgid ""
@@ -37,7 +41,7 @@ msgid ""
 msgstr ""
 "La extensión está diseñada para permitir que las entidades compradoras o los"
 " compradores expresen criterios, relacionados con los artículos adquiridos o"
-" los propios licitadores, como datos estructurados."
+" sobre los propios licitadores, como datos estructurados."
 
 #: ../docs/extensions/requirements.md:7
 msgid ""
@@ -51,6 +55,10 @@ msgstr ""
 "información sobre un artículo, mientras que una entidad licitadora puede "
 "responder con información sobre si un licitador está inhabilitado."
 
+#: ../docs/extensions/requirements.md:0
+msgid "CCCEV Model"
+msgstr ""
+
 #: ../docs/extensions/requirements.md:11
 msgid "The CCCEV model defines the following concepts:"
 msgstr "El modelo CCCEV define los siguientes conceptos:"
@@ -62,7 +70,7 @@ msgid ""
 "one or more of it's requirement groups are satisfied."
 msgstr ""
 "**Criterio** Un criterio representa una regla o principio usado para juzgar,"
-" evaluar o evaluar un artículo o un licitador. Un criterio se satisface "
+" evaluar o calificar un artículo o un licitador. Un criterio se satisface "
 "cuando uno o más de sus grupos están satisfechos."
 
 #: ../docs/extensions/requirements.md:16
@@ -102,6 +110,10 @@ msgstr ""
 "**AND**, donde un grupo de requisitos debe cumplirse para satisfacer un "
 "criterio, así como las condiciones **OR**, donde existen requisitos "
 "alternativos que pueden satisfacer un criterio."
+
+#: ../docs/extensions/requirements.md:0
+msgid "Schema"
+msgstr ""
 
 #: ../docs/extensions/requirements.md:29
 msgid ""
@@ -146,6 +158,10 @@ msgid "*contracts.requirementResponses* - an array or requirement responses"
 msgstr ""
 "*contracts.requirementResponses* - una matriz de respuestas a los requisitos"
 
+#: ../docs/extensions/requirements.md:0
+msgid "Background"
+msgstr ""
+
 #: ../docs/extensions/requirements.md:40
 msgid ""
 "There are number of scenarios in which structured information on "
@@ -155,6 +171,10 @@ msgstr ""
 "Hay una serie de escenarios en los es necesaria la información estructurada "
 "sobre los requisitos. Ver discusión en el issue de Github [# "
 "223](https://github.com/open-contracting/standard/issues/223)."
+
+#: ../docs/extensions/requirements.md:0
+msgid "Example usage"
+msgstr ""
 
 #: ../docs/extensions/requirements.md:44
 msgid ""
@@ -170,6 +190,10 @@ msgid "Below is an example of responses which meet the above requirements:"
 msgstr ""
 "A continuación se muestra un ejemplo de respuestas que cumplen los "
 "requisitos anteriores:"
+
+#: ../docs/extensions/requirements.md:0
+msgid "Further extensions"
+msgstr ""
 
 #: ../docs/extensions/requirements.md:177
 msgid ""
@@ -187,6 +211,10 @@ msgstr ""
 "respuesta de requisito, y propiedades adicionales de *requirements* como "
 "**certificationLevel** que actualmente no están implementados en esta "
 "extensión."
+
+#: ../docs/extensions/requirements.md:0
+msgid "Outstanding issues"
+msgstr ""
 
 #: ../docs/extensions/requirements.md:181
 msgid ""

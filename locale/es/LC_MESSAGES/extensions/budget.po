@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,9 +18,17 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/extensions/budget.md:0
+msgid "Budget Breakdown"
+msgstr ""
+
 #: ../docs/extensions/budget.md:2
 msgid "================"
 msgstr "================"
+
+#: ../docs/extensions/budget.md:0
+msgid "Background"
+msgstr ""
 
 #: ../docs/extensions/budget.md:6
 msgid ""
@@ -39,6 +47,10 @@ msgid ""
 msgstr ""
 "El núcleo de OCDS incluye un solo campo ```budget.amount``` para capturar el"
 " valor total del presupuesto para el proceso de contratación."
+
+#: ../docs/extensions/budget.md:0
+msgid "Providing more detailed budget information"
+msgstr ""
 
 #: ../docs/extensions/budget.md:12
 msgid ""
@@ -74,6 +86,10 @@ msgstr ""
 "datos estructurados sobre presupuestos multi-anuales permiten a los usuarios"
 " entender el perfil de gasto esperado de un contrato."
 
+#: ../docs/extensions/budget.md:0
+msgid "Extension fields"
+msgstr ""
+
 #: ../docs/extensions/budget.md:20
 msgid ""
 "This extension adds a ```budgetBreakdown``` property to the ```planning``` "
@@ -108,6 +124,10 @@ msgid ""
 msgstr ""
 "```budget.period``` - un bloque de período, que describe el período al que "
 "se aplica esta parte del presupuesto"
+
+#: ../docs/extensions/budget.md:0
+msgid "Guidance"
+msgstr ""
 
 #: ../docs/extensions/budget.md:29
 msgid "In the core ```planning.budget``` block:"
@@ -150,17 +170,33 @@ msgstr ""
 " una explicación de texto libre de la fuente del presupuesto, por ejemplo "
 "\"Inversión del sector privado por parte del adjudicatario\"."
 
+#: ../docs/extensions/budget.md:0
+msgid "Examples"
+msgstr ""
+
+#: ../docs/extensions/budget.md:0
+msgid "Multi-source budgets"
+msgstr ""
+
 #: ../docs/extensions/budget.md:41
 msgid "The following JSON snippet models a single year multi-source budget:"
 msgstr ""
 "El siguiente fragmento JSON modela un presupuesto multi-fuente de un solo "
 "año:"
 
+#: ../docs/extensions/budget.md:0
+msgid "Multi-year budgets"
+msgstr ""
+
 #: ../docs/extensions/budget.md:96
 msgid "The following JSON snippet models a multi-year single source budget:"
 msgstr ""
 "El siguiente fragmento JSON modela un presupuesto multi-anual de fuente "
 "única:"
+
+#: ../docs/extensions/budget.md:0
+msgid "To do"
+msgstr ""
 
 #: ../docs/extensions/budget.md:145
 msgid ""

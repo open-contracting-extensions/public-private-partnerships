@@ -8,15 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/milestones.md:0
+msgid "Milestone Extension"
+msgstr ""
 
 #: ../docs/extensions/milestones.md:3
 msgid ""
@@ -50,7 +54,7 @@ msgstr ""
 #: ../docs/extensions/milestones.md:11
 msgid "**preProcurement** events, such as the preparation of key studies"
 msgstr ""
-"E ventos de **preProcurement**, tales como la preparación de estudios clave"
+"Eventos de **preProcurement**, tales como la preparación de estudios clave"
 
 #: ../docs/extensions/milestones.md:12
 msgid "**engagement** events, such as public hearings or consultations"
@@ -93,6 +97,14 @@ msgstr ""
 msgid "These can all be modelled using the milestones extension."
 msgstr "Estos pueden ser modelados usando la extensión de hitos."
 
+#: ../docs/extensions/milestones.md:0
+msgid "Extension details"
+msgstr ""
+
+#: ../docs/extensions/milestones.md:0
+msgid "Milestones by section"
+msgstr ""
+
 #: ../docs/extensions/milestones.md:25
 msgid ""
 "With this extension in use, a ```milestones``` building block is available "
@@ -117,8 +129,8 @@ msgid ""
 "engagement and approval milestones."
 msgstr ""
 "**Tender** - para cualquier hito relacionado con el proceso de licitación. "
-"Es probable que esto incluya hitos en la valoración, y en algunos casos "
-"incluirá hitos de participación y aprobación."
+"Es probable que esto incluya hitos en la evaluación, en algunos casos, "
+"también, incluirá hitos de participación y aprobación."
 
 #: ../docs/extensions/milestones.md:29
 msgid ""
@@ -154,7 +166,7 @@ msgid ""
 "**tender** sections together as these will apply to the whole contracting "
 "process."
 msgstr ""
-"Las aplicaciones consumidoras pueden desear combinar los hitos de las "
+"Las aplicaciones consumidoras pueden desear combinar los hitos de  "
 "**planning** y **tender**, ya que éstas se aplicarán a todo el proceso de "
 "contratación."
 
@@ -171,6 +183,10 @@ msgstr ""
 "agregar todos los hitos independientemente del contrato en el que aparezcan,"
 " ya que los diferentes contratos resultantes de una sola licitación pueden "
 "tener hitos diferentes."
+
+#: ../docs/extensions/milestones.md:0
+msgid "Milestone types"
+msgstr ""
 
 #: ../docs/extensions/milestones.md:40
 msgid ""
@@ -221,13 +237,17 @@ msgstr ""
 "**financial** para eventos tales como pagos planeados, o transferencias de "
 "capital"
 
+#: ../docs/extensions/milestones.md:0
+msgid "Milestone status"
+msgstr ""
+
 #: ../docs/extensions/milestones.md:52
 msgid ""
 "We will update the milestoneStatus code list to include an extra entry for "
 "**scheduled** milestones, and will add definitions, giving a codelist of:"
 msgstr ""
 "Actualizaremos la lista de códigos de milestoneStatus para incluir una "
-"entrada adicional para los hitos **scheduled** y agregaremos definiciones, "
+"entrada adicional para los hitos **scheduled** y agregará definiciones, "
 "proporcionando una lista de códigos de:"
 
 #: ../docs/extensions/milestones.md:54
@@ -265,6 +285,10 @@ msgstr ""
 "cumplido parcialmente en la fecha en que se revisó por última vez (véase "
 "milestone.dateModified)"
 
+#: ../docs/extensions/milestones.md:0
+msgid "dateMet"
+msgstr ""
+
 #: ../docs/extensions/milestones.md:61
 msgid ""
 "A field for ```milestone/dateMet``` is introduced to capture the date on "
@@ -273,6 +297,10 @@ msgstr ""
 "Se introduce un campo para ```milestone/dateMet``` para capturar la fecha en"
 " la que se completó el hito."
 
+#: ../docs/extensions/milestones.md:0
+msgid "Milestone codes"
+msgstr ""
+
 #: ../docs/extensions/milestones.md:65
 msgid ""
 "A field is included for ```milestone/code``` which can be used by "
@@ -280,8 +308,8 @@ msgid ""
 "for analysis."
 msgstr ""
 "Se incluye un campo para ```milestone/code``` que puede ser usado por las "
-"aplicaciones para clasificar eventos de hito importantes que pueden ser "
-"importantes para el análisis."
+"aplicaciones para clasificar eventos de hito  que pueden ser importantes "
+"para realizar análisis."
 
 #: ../docs/extensions/milestones.md:67
 msgid ""
@@ -294,6 +322,10 @@ msgstr ""
 "rastrear las aprobaciones, por lo que pueden proponer un código para "
 "```projectApproval```. A continuación, pueden buscar proyectos que tengan un"
 " hito con el código ```projectApproval``` y un estado de 'Met'."
+
+#: ../docs/extensions/milestones.md:0
+msgid "PPP Usage"
+msgstr ""
 
 #: ../docs/extensions/milestones.md:71
 msgid ""
@@ -321,6 +353,14 @@ msgid ""
 msgstr ""
 "Cuando no se requiere código, el código puede dejarse en blanco. Se "
 "proporcionan más detalles en la documentación de OCDS para APPs."
+
+#: ../docs/extensions/milestones.md:0
+msgid "Example"
+msgstr ""
+
+#: ../docs/extensions/milestones.md:0
+msgid "Notes:"
+msgstr ""
 
 #: ../docs/extensions/milestones.md:239
 msgid ""
