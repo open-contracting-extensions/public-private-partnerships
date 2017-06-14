@@ -686,7 +686,7 @@ directives.register_directive('extensiontable', ExtensionTable)
 
 
 import subprocess
-subprocess.run(['pybabel', 'compile', '-d', '../locale', '-D', 'schema'])
+subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
 
 import gettext
 import sys
@@ -704,7 +704,7 @@ def translate_schema(language):
         return
 
     print("Translating schema to language " + language)
-    translator = gettext.translation('ppp-schema', '../locale', languages=[language])
+    translator = gettext.translation('ppp-schema', '../locale/', languages=[language])
 
     def translate_data(data):
         for key, value in list(data.items()):
