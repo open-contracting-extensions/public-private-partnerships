@@ -4,4 +4,5 @@ The table below contains all possible fields provided by the [OCDS for PPPs sche
 
 ```eval_rst
 .. jsonschema:: ../_static/ppp-release-schema.json
+   :nocrossref:
 ```
