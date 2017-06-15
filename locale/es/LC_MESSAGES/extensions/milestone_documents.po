@@ -8,15 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/milestone_documents.md:0
+msgid "Milestone Documents"
+msgstr ""
 
 #: ../docs/extensions/milestone_documents.md:4
 msgid ""
@@ -36,6 +40,10 @@ msgstr ""
 "proporcionando campos para detallar los documentos relacionados con cada "
 "hito individual."
 
+#: ../docs/extensions/milestone_documents.md:0
+msgid "Guidance"
+msgstr ""
+
 #: ../docs/extensions/milestone_documents.md:10
 msgid ""
 "Publishers should consider that many consuming applications will only look "
@@ -46,7 +54,7 @@ msgstr ""
 "Los publicadores deben considerar que muchas aplicaciones consumidoras sólo "
 "buscarán en las secciones ```tender/documents```, ```award/documents```, "
 "```contracts/documents``` y ```contracts/implementation/documents```` para "
-"acceder y mostrar la documentación relevante a los usuarios."
+"acceder y mostrar  documentación relevante a los usuarios."
 
 #: ../docs/extensions/milestone_documents.md:12
 msgid ""
@@ -63,8 +71,8 @@ msgid ""
 "However, in cases where it is important to track documents on a milestone-"
 "by-milestone basis this extension can be introduced."
 msgstr ""
-"Sin embargo, en los casos en que es importante rastrear los documentos hito "
-"por hito, esta extensión puede utilizarse."
+"Sin embargo, en los casos en los que es importante rastrear los documentos "
+"hito por hito, esta extensión puede utilizarse."
 
 #: ../docs/extensions/milestone_documents.md:16
 msgid ""

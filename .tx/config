@@ -7,11 +7,6 @@ file_filter = locale/<lang>/LC_MESSAGES/ppp-schema.po
 source_file = build_locale/ppp-schema.pot
 source_lang = en
 
-[ocds-for-ppps.ppp-codelists]
-file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
-source_file = build_locale/ppp-codelists.pot
-source_lang = en
-
 [ocds-for-ppps.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = build_locale/index.pot

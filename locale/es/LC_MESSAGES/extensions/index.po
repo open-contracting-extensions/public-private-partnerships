@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,13 +18,18 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/extensions/index.md:0
+msgid "Extension reference"
+msgstr ""
+
 #: ../docs/extensions/index.md:3
 msgid ""
 "OCDS for PPPs is constructed using a number of re-usable extensions for the "
 "Open Contracting Data Standard."
 msgstr ""
 "El OCDS para APPs se construye utilizando una serie de extensiones "
-"reutilizables para el Open Contracting Data Standard."
+"reutilizables para el Estándar de datos para las Contrataciones Abiertas "
+"(OCDS en inglés)."
 
 #: ../docs/extensions/index.md:5
 msgid "This section contains detailed documentation for each extension."

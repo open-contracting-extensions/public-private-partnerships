@@ -687,6 +687,7 @@ directives.register_directive('extensiontable', ExtensionTable)
 
 import subprocess
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
+subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
 
 import gettext
 import sys
@@ -694,6 +695,8 @@ import json
 import os
 import shutil
 from collections import OrderedDict
+
+# Derived from://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_schema.py 
 
 def translate_schema(language):
     name = 'ppp-release-schema.json'
@@ -719,6 +722,44 @@ def translate_schema(language):
     json.dump(data, open(os.path.join(directory_name, name), 'w+'), indent=4, ensure_ascii=False)
 
 
+import glob
+
+# Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_codelists.py
+
+def translate_codelists(language):
+    fallback = (language == 'en')
+
+    translator = gettext.translation('reference/codelists', '../locale', languages=[language], fallback=fallback)
+
+    codelists_dir = '../codelists'
+    codelists_output_dir = '_static/codelists'
+
+    if not os.path.exists(codelists_output_dir):
+        os.makedirs(codelists_output_dir)
+
+    def convert_fieldname(name):
+        for heading in ('Title', 'Description'):
+            if heading in name:
+                return translator.gettext(heading)
+        return translator.gettext(name)
+
+    for file in glob.glob(codelists_dir + '/*.csv'):
+        output_file = join(codelists_output_dir, file.split('/')[-1])
+        with open(file) as csv_file, open(output_file, 'w+') as out_csv_file:
+            dict_reader = csv.DictReader(csv_file)
+            fieldnames = [convert_fieldname(fieldname) for fieldname in dict_reader.fieldnames]
+            dict_writer = csv.DictWriter(out_csv_file, fieldnames)
+            dict_writer.writeheader()
+
+            for row in dict_reader:
+                new_row = {}
+                for key, value in row.items():
+                    if 'title' in key.lower() or 'description' in key.lower() or 'name' in key.lower():
+                        if value:
+                            value = translator.gettext(value)
+                    new_row[convert_fieldname(key)] = value
+                dict_writer.writerow(new_row)
+
 
 
 def setup(app):
@@ -728,4 +769,6 @@ def setup(app):
         'enable_eval_rst': True
         }, True)
     app.add_transform(AutoStructify)
-    translate_schema(app.config.overrides.get('language', 'en'))
+    language = app.config.overrides.get('language', 'en')
+    translate_schema(language)
+    translate_codelists(language)

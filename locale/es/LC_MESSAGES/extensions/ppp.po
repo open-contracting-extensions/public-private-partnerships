@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,13 +18,17 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../docs/extensions/ppp.md:0
+msgid "OCDS for Public Private Partnerships"
+msgstr ""
+
 #: ../docs/extensions/ppp.md:3
 msgid ""
 "The Open Contracting Data Standard for Public Private Partnerships release "
 "draws together a number of general extensions."
 msgstr ""
-"La emisión de del Estándar de Datos de Contrataciones Abiertas de "
-"Asociaciones Público-Privadas reúne una serie de extensiones generales."
+"La publicación del Estándar de datos para las Contrataciones Abiertas para "
+"las  Asociaciones Público-Privadas reúne una serie de extensiones generales."
 
 #: ../docs/extensions/ppp.md:5
 msgid ""
@@ -35,6 +39,10 @@ msgstr ""
 "Esta extensión proporciona una serie de campos y bloques  que se consideran "
 "actualmente como específicos para la divulgación de APP contra el Marco de "
 "Divulgación de APP del Banco Mundial."
+
+#: ../docs/extensions/ppp.md:0
+msgid "Project level information"
+msgstr ""
 
 #: ../docs/extensions/ppp.md:10
 msgid ""
@@ -71,6 +79,10 @@ msgstr ""
 msgid "An example is shown below:"
 msgstr "A continuación se muestra un ejemplo:"
 
+#: ../docs/extensions/ppp.md:0
+msgid "Evaluation Indicators"
+msgstr ""
+
 #: ../docs/extensions/ppp.md:49
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators to "
@@ -100,6 +112,10 @@ msgstr "riskPremium"
 #: ../docs/extensions/ppp.md:55
 msgid "netPresentValue"
 msgstr "netPresentValue"
+
+#: ../docs/extensions/ppp.md:0
+msgid "Finance Summary"
+msgstr ""
 
 #: ../docs/extensions/ppp.md:59
 msgid ""

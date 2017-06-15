@@ -76,6 +76,7 @@ We recommend keeping descriptions to one paragraph or less.
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/project/title,planning/project/description
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -95,6 +96,7 @@ This can be cross-walked to most other PPP clasification schemes in use, and so 
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/project/sector
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -112,6 +114,7 @@ This can be cross-walked to most other PPP clasification schemes in use, and so 
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/project/additionalClassification
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -134,6 +137,7 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/project/locations
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -176,6 +180,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwners,parties/0/shareholders
+    :nocrossref:
 ```
 
 
@@ -227,6 +232,7 @@ P   U   U   U   U   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: publicAuthority
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -286,6 +292,7 @@ P   R   R   R      R
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/project/totalValue
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -303,6 +310,7 @@ P   R   R   R      R
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/value
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -320,6 +328,7 @@ P   R   R   R      R
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/value
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -337,6 +346,7 @@ P   R   R   R      R
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/value
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -374,6 +384,7 @@ These documents should be tagged with a ```documentType``` value of 'needsAssess
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -430,6 +441,7 @@ These documents should be tagged with a ```documentType``` value of 'technicalSp
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -469,6 +481,7 @@ These documents should be tagged with a ```documentType``` value of 'serviceDesc
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -515,6 +528,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/forecasts
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -556,6 +570,7 @@ These documents should be tagged with a ```documentType``` value of 'estimatedDe
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -600,6 +615,7 @@ These documents should be tagged with a ```documentType``` value of 'projectAddi
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -639,6 +655,7 @@ These documents should be tagged with a ```documentType``` value of 'pppModeRati
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -677,6 +694,7 @@ Documentation associated with the approval can be given in the associated milest
 .. jsonschema:: _static/ppp-release-schema.json
     :include: planning/milestones
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -713,6 +731,7 @@ Key events relating to comercial and financial close
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/milestones
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -790,6 +809,7 @@ Key events relating to the implementation of the project.
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/milestones
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -906,6 +926,7 @@ The actual date of contract expiry should be entered into the ```period/endDate`
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/contractPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -961,6 +982,7 @@ A value from the [document type codelist](_static/codelists/#document-type) (```
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1005,6 +1027,7 @@ P   U   U   U   U   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/signatories
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1058,6 +1081,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/additionalIdentifiers,parties/shareholders,parties/beneficialOwnership
+    :nocrossref:
 ```
 
 
@@ -1109,6 +1133,7 @@ P   U   U   U   U   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: publicAuthority
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1156,6 +1181,7 @@ Private party: name of company or consortium, name of representative, address, t
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/signatories
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1194,6 +1220,7 @@ The ```organization/roles``` field should be set to ```privateParty``` and the `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/additionalIdentifiers
+    :nocrossref:
 ```
 
 
@@ -1230,6 +1257,7 @@ The ```organization/roles``` field should be set to ```privateParty``` and the `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/preferredBidders
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1276,6 +1304,7 @@ The ```organization/roles``` field should be set to ```leadBank``` or ```lender`
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/additionalIdentifiers,parties/shareholders,parties/beneficialOwnership
+    :nocrossref:
 ```
 
 
@@ -1312,6 +1341,7 @@ The ```organization/roles``` field should be set to ```leadBank``` or ```lender`
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/signatories
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1379,6 +1409,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/period
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1430,6 +1461,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/enquiryPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1481,6 +1513,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/qualificationPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1532,6 +1565,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/submissionMethod,preQualification/submissionMethodDetails
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1585,6 +1619,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/eligibilityCriteria
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1629,6 +1664,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: preQualification/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1652,6 +1688,7 @@ Pre-qualification or shortlist
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1694,6 +1731,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/tenderPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1745,6 +1783,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/enquiryPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1801,6 +1840,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/awardPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1852,6 +1892,7 @@ P   U   U   U   U   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/contractPeriod
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1905,6 +1946,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/procurementMethod,tender/procurementMethodDetails,tender/procurementMethodRationale
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -1958,6 +2000,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/submissionMethod,tender/submissionMethodDetails
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2011,6 +2054,7 @@ P   U
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/eligibilityCriteria
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2066,6 +2110,7 @@ Each document should be tagged with an appropriate ```documentType``` value from
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2089,6 +2134,7 @@ The ```document/documentType``` field should be set to ```evaluationCriteria``` 
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2112,6 +2158,7 @@ A value of ```evaluationCommittee``` from the [document type codelist](_static/c
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2136,6 +2183,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2159,6 +2207,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: tender/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2188,6 +2237,7 @@ The ```organization/roles``` field should be set to ```preferredBidder``` and th
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/additionalIdentifiers
+    :nocrossref:
 ```
 
 
@@ -2224,6 +2274,7 @@ The ```organization/roles``` field should be set to ```preferredBidder``` and th
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/preferredBidders
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2287,6 +2338,7 @@ Additional free text information on each risk allocation, for example the ration
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/riskAllocation
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2323,6 +2375,7 @@ Additional free text information on each risk allocation, for example the ration
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2354,6 +2407,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2387,6 +2441,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2406,6 +2461,7 @@ The discount rates used should be specified in the diclosure along with the risk
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/evaluationIndicators
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2446,6 +2502,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2469,6 +2526,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: awards/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2496,6 +2554,7 @@ Debt-equity ratio
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/financeSummary
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2534,6 +2593,7 @@ Share capital
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/financeSummary
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2582,6 +2642,7 @@ The ```organization/roles``` field should be set to ```equityInvestor```.
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: parties/additionalIdentifiers,parties/shareholders
+    :nocrossref:
 ```
 
 
@@ -2618,6 +2679,7 @@ The ```organization/roles``` field should be set to ```equityInvestor```.
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties/0/shareholders
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2668,6 +2730,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2687,6 +2750,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties/0/shareholders/0/notes
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2733,6 +2797,7 @@ The ```organization/roles``` field should be set to ```lender``` or ```equityInv
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2769,6 +2834,7 @@ The ```organization/roles``` field should be set to ```lender``` or ```equityInv
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2807,6 +2873,7 @@ Categorize senior debit, mezzanine debit, other
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance/financeType,contracts/0/finance/financeCategory
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2845,6 +2912,7 @@ Amount and tenor of each, fixed or floating rate
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance/interestRate
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2889,6 +2957,7 @@ Security and step in arrangements
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance/description,contracts/0/finance/stepInRights
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2931,6 +3000,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -2950,6 +3020,7 @@ Forecast IRR
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/financeSummary
     :collapse: projectIRR,projectIRRDetails
+    :nocrossref:
 ```
 
 
@@ -3004,6 +3075,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance
     :collapse: contract/finance/interestRate,contract/finance/repaymentFrequency
+    :nocrossref:
 ```
 
 
@@ -3023,6 +3095,7 @@ A value of ```guarantee``` should be used in the ```documentType``` field.
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3056,6 +3129,7 @@ Subsidy as a proportion of project value
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/financeSummary/subsidyRatio,contracts/0/financeSummary/subsidyRatioDetails
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3098,6 +3172,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3121,6 +3196,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3144,6 +3220,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3171,6 +3248,7 @@ These are payments made by the public authority or purchaser to the private prov
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/transactions
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3207,6 +3285,7 @@ Total payments and periodicity
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/charges
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3247,6 +3326,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3270,6 +3350,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3295,6 +3376,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3319,6 +3401,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3352,6 +3435,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3375,6 +3459,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3414,6 +3499,7 @@ Information on who pays the tariff can be modelled using a ```dimension``` in ca
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/tariffs
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3454,6 +3540,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3477,6 +3564,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3500,6 +3588,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3523,6 +3612,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3554,6 +3644,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3577,6 +3668,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3635,6 +3727,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3652,6 +3745,7 @@ Nature of Variation
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/amendments/0/description
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3669,6 +3763,7 @@ Rationale for variation
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/amendments/0/rationale
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3686,6 +3781,7 @@ Change in roles and responsibilities of the parties due to the variation, if any
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3703,6 +3799,7 @@ Change in original risk allocation due to the variation, if any
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/riskAllocation
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3724,6 +3821,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3747,6 +3845,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3766,6 +3865,7 @@ Change in tariffs or service levels due to the variation, if any
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/tariffs
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3783,6 +3883,7 @@ Change in tariffs or service levels due to the variation, if any
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/agreedMetrics
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3800,6 +3901,7 @@ Date of variation
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/amendments/0/date
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3829,6 +3931,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3879,6 +3982,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3900,6 +4004,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3923,6 +4028,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3944,6 +4050,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -3964,6 +4071,7 @@ State instances of performance failure during the year and the penalty or abatem
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/performanceFailures
     :collapse: 
+    :nocrossref:
 ```
 
 
@@ -4004,6 +4112,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
+    :nocrossref:
 ```
 
 

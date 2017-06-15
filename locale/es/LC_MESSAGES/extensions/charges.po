@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/charges.md:0
+msgid "Charges"
+msgstr ""
 
 #: ../docs/extensions/charges.md:3
 msgid ""
@@ -35,6 +39,10 @@ msgid ""
 msgstr ""
 "Esto puede utilizarse para proporcionar un desglose del **apoyo "
 "gubernamental** a un proyecto, sobre una base de período por período."
+
+#: ../docs/extensions/charges.md:0
+msgid "Overview"
+msgstr ""
 
 #: ../docs/extensions/charges.md:9
 msgid ""

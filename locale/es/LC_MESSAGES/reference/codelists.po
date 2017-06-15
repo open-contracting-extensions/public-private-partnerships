@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,75 +18,104 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "Codelists"
+msgstr ""
+
+#: ../docs/reference/codelists.md:0
+msgid "documentType"
+msgstr ""
+
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Framework"
 msgstr "Marco de referencia"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Section"
 msgstr "Sección"
 
-#: ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/financeCategory.csv:1 ../docs/codelists/financeType.csv:1
-#: ../docs/codelists/financialIndicator.csv:1 ../docs/codelists/metricID.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/riskAllocation.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Code"
 msgstr "Código"
 
-#: ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/financeCategory.csv:1 ../docs/codelists/financeType.csv:1
-#: ../docs/codelists/financialIndicator.csv:1 ../docs/codelists/metricID.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/riskAllocation.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Title"
 msgstr "Título"
 
-#: ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/financeCategory.csv:1 ../docs/codelists/financeType.csv:1
-#: ../docs/codelists/financialIndicator.csv:1 ../docs/codelists/metricID.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/riskAllocation.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Description"
 msgstr "Descripción"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Summary required"
 msgstr "Resumen requerido"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.4"
 msgstr "I.4"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "planning/documents"
 msgstr "planning/documents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "needsAssessment"
 msgstr "needsAssessment"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Needs Assessment"
 msgstr "Necesita Valoración"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Information on the project need, benefits provided, and economic and social "
 "impact"
@@ -94,34 +123,53 @@ msgstr ""
 "Información sobre la necesidad del proyecto, beneficios proporcionados e "
 "impacto económico y social"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Yes"
 msgstr "Sí"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "valueForMoneyAnalysis"
 msgstr "valueForMoneyAnalysis"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Value for money analysis"
 msgstr "Análisis de valor por dinero"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "A summary of the value for money analysis carried out for the project, along"
 " with supporting figures, calculations and business case, based on projected"
@@ -131,53 +179,53 @@ msgstr ""
 " junto con las cifras de soporte, cálculos y modelo de negocios, basados "
 "​​en los resultados proyectados o reales de la adquisición."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.5"
 msgstr "I.5"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "technicalSpecifications"
 msgstr "technicalSpecifications"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Technical Specifications"
 msgstr "Especificaciones técnicas"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Detailed technical information about goods or services to be provided."
 msgstr ""
 "Información técnica detallada sobre los bienes o servicios que se deben "
 "proporcionar."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.6"
 msgstr "I.6"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "serviceDescription"
 msgstr "serviceDescription"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Service descriptions"
 msgstr "Descripciones del servicio"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "A high-level description of the services"
 msgstr "Una descripción de general de los servicios"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.7"
 msgstr "I.7"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "estimatedDemand"
 msgstr "estimatedDemand"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Estimated demand"
 msgstr "Demanda estimada"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "A narrative describing the estimated demand to be served (annually) by the "
 "project."
@@ -185,93 +233,109 @@ msgstr ""
 "Una narrativa que describa la demanda estimada que se cubrirá (anualmente) "
 "por el proyecto."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.8"
 msgstr "I.8"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "projectAdditionality"
 msgstr "projectAdditionality"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Project additionality"
 msgstr "Adicionalidad del proyecto"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "A description of the additionality provided by the project"
 msgstr "Una descripción de la adicionalidad proporcionada por el proyecto"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "financeAdditionality"
 msgstr "financeAdditionality"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Finance additionality"
 msgstr "Adicionalidad financiera"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "A description of the additionality provided by the finance method"
 msgstr ""
 "Una descripción de la adicionalidad proporcionada por el método financiero"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.9"
 msgstr "I.9"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "pppModeRationale"
 msgstr "pppModeRationale"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Rationale for PPP modality"
 msgstr "Justificación de la modalidad APP"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "A description of the reasons for choosing to conduct this project as a PPP"
 msgstr ""
 "Una descripción de las razones por las que se eligió llevar a cabo este "
 "proyecto como APP"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "I.17"
 msgstr "I.17"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contractDraft"
 msgstr "contractDraft"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Contract draft"
 msgstr "Borrador del contrato"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "A draft or pro-forma copy of the contract."
 msgstr "Un borrador o copia pro forma del contrato."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "No"
 msgstr "No"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contractSchedule"
 msgstr "contractSchedule"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Schedules and milestones"
 msgstr "Cronograma e hitos"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation setting out key milestones and schedules. Structured versions "
 "of this information may be modelled using the milestones block."
@@ -280,26 +344,34 @@ msgstr ""
 "estructuradas de esta información pueden ser modeladas utilizando el bloque "
 "de hitos."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contract/documents"
 msgstr "contract/documents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contractSigned"
 msgstr "contractSigned"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Signed Contract"
 msgstr "Contrato firmado"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "A copy of the signed contract. Consider providing both machine-readable "
 "(e.g. original PDF, Word or Open Document format files), and a separate "
@@ -310,30 +382,38 @@ msgstr ""
 "original, PDF o Word) y una entrada de documento separada para las páginas "
 "con firmas digitalizadas donde sea necesario."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "II.1"
 msgstr "II.1"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tender/documents"
 msgstr "tender/documents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "feasibilityStudy"
 msgstr "feasibilityStudy"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Feasibility study"
 msgstr "Estudio de factibilidad"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of feasibility studies carried out for this contracting "
 "process, providing information on net benefits or costs of the proposed "
@@ -343,15 +423,15 @@ msgstr ""
 "de contratación, proporcionando información sobre los beneficios o costos "
 "netos de los bienes, obras o servicios propuestos."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "environmentalImpact"
 msgstr "environmentalImpact"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Environmental Impact"
 msgstr "Impacto ambiental"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of environmental impact assessments carried out before, during"
 " or after the contracting process."
@@ -359,15 +439,15 @@ msgstr ""
 "Documentación de las evaluaciones de impacto ambiental realizadas antes, "
 "durante o después del proceso de contratación."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "finalAudit"
 msgstr "finalAudit"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Final Audit"
 msgstr "Auditoría Final"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of a final audit carried out at the end of contract "
 "implementation."
@@ -375,15 +455,15 @@ msgstr ""
 "Documentación de una auditoría final realizada al final de la ejecución del "
 "contrato."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tenderNotice"
 msgstr "tenderNotice"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Tender Notice"
 msgstr "Aviso de licitación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "The formal notice that gives details of a tender. This may be a link to a "
 "downloadable document, to a web page, or to an official gazette in which the"
@@ -393,35 +473,36 @@ msgstr ""
 "enlace a un documento descargable, a una página web o a un boletín oficial "
 "en el que figura el aviso."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "II.2"
 msgstr "II.2"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "evaluationCommittee"
 msgstr "evaluationCommittee"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Evaluation Committee Details"
 msgstr "Detalles del Comité de Evaluación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Information on the constitution of the evaluation committee"
 msgstr "Información sobre la constitución del comité de evaluación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "preQualification/documents"
 msgstr "preQualification/documents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "requestForQualification"
 msgstr "requestForQualification"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Request for Qualification"
 msgstr "Solicitud de Calificación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "The set of documents issued by the procuring authority that constitute the "
 "basis of the qualification and potentially the pre-selection of candidates "
@@ -436,41 +517,41 @@ msgstr ""
 "entrar en una nueva fase antes de la presentación de la oferta, como una "
 "fase de diálogo o una fase interactiva)."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "evaluationCriteria"
 msgstr "evaluationCriteria"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Evaluation Criteria"
 msgstr "Criterios de evaluación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Documentation on how bids will be evaluated."
 msgstr "Documentación sobre cómo se evaluarán las ofertas."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "minutes"
 msgstr "minutes"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Minutes"
 msgstr "Minutas"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Minutes of pre-bid meetings, or other relevant meetings."
 msgstr ""
 "Minutas de las reuniones previas a la licitación u otras reuniones "
 "pertinentes."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "shortlistedFirms"
 msgstr "shortlistedFirms"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Shortlisted Firms"
 msgstr "Firmas preseleccionadas"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation providing information on shortlisted firms. Structured "
 "versions of this information can be provided using the bids extension."
@@ -479,34 +560,34 @@ msgstr ""
 " versiones estructuradas de esta información se pueden proporcionar usando "
 "la extensión de ofertas."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "negotiationParameters"
 msgstr "negotiationParameters"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Negotiation Parameters"
 msgstr "Parámetros de Negociación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "A description of the parameters for negotiation with the preferred proponent"
 msgstr ""
 "Una descripción de los parámetros para la negociación con el proponente "
 "preferido"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "III.1"
 msgstr "III.1"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "riskProvisions"
 msgstr "riskProvisions"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Provisions for management of risks and liabilities"
 msgstr "Provisiones para la gestión de riesgos y pasivos"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation covering how risks will be managed as part of this contracting"
 " process."
@@ -514,24 +595,26 @@ msgstr ""
 "Documentación sobre cómo se gestionarán los riesgos como parte de este "
 "proceso de contratación."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "IV.1"
 msgstr "IV.1"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "award/documents"
 msgstr "award/documents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "evaluationReports"
 msgstr "evaluationReports"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Evaluation report"
 msgstr "Reporte de evaluacion"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation on the evaluation of the bids and the application of the "
 "evaluation criteria, including the justification fo the award"
@@ -539,39 +622,39 @@ msgstr ""
 "Documentación sobre la evaluación de las ofertas y la aplicación de los "
 "criterios de evaluación, incluyendo la justificación de la adjudicación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "IV.2"
 msgstr "IV.2"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "riskComparison"
 msgstr "riskComparison"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Risk comparison"
 msgstr "Comparación de riesgos"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Risk comparison of other financing methods"
 msgstr "Comparación de riesgos de otros métodos de financiamiento"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "IV.4"
 msgstr "IV.4"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "IV.2.2"
 msgstr "IV.2.2"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "discountRate"
 msgstr "discountRate"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Discount rate and risk premium"
 msgstr "Tasa de descuento y prima de riesgo"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "An explanation of the discount rate, and any risk premium used, including "
 "information on project-specific circumstances that justify the risk premium "
@@ -581,19 +664,19 @@ msgstr ""
 "utilizada, incluyendo información sobre las circunstancias específicas del "
 "proyecto que justifiquen la tasa de prima de riesgo utilizada."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "V.4"
 msgstr "V.4"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "equityTransferCaps"
 msgstr "equityTransferCaps"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Equity transfer caps"
 msgstr "Topes de transferencia de capital"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Details of any restrictions on the transfer of equity by shareholders or "
 "other relevant participants in the project. Certain contracts provide for "
@@ -606,57 +689,62 @@ msgstr ""
 "diferentes etapas del contrato, especialmente durante la fase de "
 "construcción y durante algunos años después."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "V.8"
 msgstr "V.8"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "financeArrangements"
 msgstr "financeArrangements"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Security and step in arrangements"
 msgstr "Seguridad y arreglos de intervención"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VI.1"
 msgstr "VI.1"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contractGuarantees"
 msgstr "contractGuarantees"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Guarantees"
 msgstr "Garantías"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of guarantees relating to a contracting process or contract."
 msgstr "Documentación de las garantías relativas a un contrato o contrato."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "guaranteeReports"
 msgstr "guaranteeReports"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Fiscal commitment and continent liabilities disclosure reports"
 msgstr ""
 "Informes de divulgación de compromisos fiscales y de pasivos continentales"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VI.2"
 msgstr "VI.2"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "grants"
 msgstr "grants"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Grants"
 msgstr "Subsidios"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Information on grants given to support the project. Grant information should"
 " detail the total value of subsidy, and/or the valie of subsidy as a "
@@ -675,28 +763,38 @@ msgstr ""
 "operación, se deben proporcionar detalles de la periodicidad de los pagos de"
 " la subvención y los hitos particulares de la subvención."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "contract/implementation/documents"
 msgstr "contract/implementation/documents"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VI.3"
 msgstr "VI.3"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "servicePayments"
 msgstr "servicePayments"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Service payments"
 msgstr "Pagos de servicios"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Service payments are payments made by the public authority or purchaser to "
 "the private provider for infrastructure services (applicable in some types "
@@ -711,20 +809,25 @@ msgstr ""
 "como la metodología utilizada para calcular los pagos y la indexación "
 "utilizada."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VI.4"
 msgstr "VI.4"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "landTransfer"
 msgstr "landTransfer"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Land transfer"
 msgstr "Transferencia de tierras"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Details of land transferred on lease or other basis by governemnt, including"
 " details of property numbers with the quantum of land transferred, zoning "
@@ -735,15 +838,18 @@ msgstr ""
 "tierra transferida, información de la zonificación y condiciones de la "
 "transferencia."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "assetTransfer"
 msgstr "assetTransfer"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Asset Transfer"
 msgstr "Transferencia de activos"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Details of asset, human resource of personnel transfers, including "
 "documentation of the conditions of transfer."
@@ -751,20 +857,24 @@ msgstr ""
 "Detalles de los activos, recursos humanos de las transferencias de personal,"
 " incluida la documentación de las condiciones de transferencia."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VI.5"
 msgstr "VI.5"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "revenueShare"
 msgstr "revenueShare"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Revenue Share"
 msgstr "Participación de los ingresos"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of any revenue share arrangements, including revenue share on "
 "the base-case and upside for a public private partnership project."
@@ -773,15 +883,15 @@ msgstr ""
 "participación de los ingresos en el caso base y el alza para un proyecto de "
 "asociación público-privada."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "otherGovernmentSupport"
 msgstr "otherGovernmentSupport"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Other government support"
 msgstr "Otro apoyo gubernamental"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Documentation of any other government support, including non-complete "
 "clauses or provision for revenue shortfall loans."
@@ -789,19 +899,19 @@ msgstr ""
 "Documentación de cualquier otro apoyo gubernamental, incluyendo cláusulas no"
 " completas o provisión para préstamos de déficit de ingresos."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VII.2"
 msgstr "VII.2"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tariffMethod"
 msgstr "tariffMethod"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Tariff method"
 msgstr "Método de tarificación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "For summarising the method by which tariffs are set, and linking to detailed"
 " documentation of the methods for setting tariffs. This may include written "
@@ -814,19 +924,19 @@ msgstr ""
 "modelos utilizados para calcular las tarifas. Esto debería aclarar quién "
 "establece la tarifa y sobre qué base."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VII.3"
 msgstr "VII.3"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tariffReview"
 msgstr "tariffReview"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Tariff review"
 msgstr "Revisión de la tarifa"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "For summarising the arrangements for the review and regulation of tariffs, "
 "and linking to detailed documentation that covers how tariffs are regulated."
@@ -839,35 +949,35 @@ msgstr ""
 " están pagando lo que están pagando, y el alcance de los cambios en las "
 "estructuras de pago."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VII.1"
 msgstr "VII.1"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tariffs"
 msgstr "tariffs"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Tariffs"
 msgstr "Tarifas"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "For providing tariff and pricing schedules."
 msgstr "Para proporcionar tarifas y programación de precios."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VII.4"
 msgstr "VII.4"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "tariffIllustration"
 msgstr "tariffIllustration"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Tariff illustrations"
 msgstr "Ilustraciones de tarifas"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "For linking to graphs and reports on the change over time in tariff prices. "
 "Use the relevant image media type when linking to PNG, JPEG or GIF graphs to"
@@ -878,47 +988,52 @@ msgstr ""
 "vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones "
 "muestren directamente este contenido."
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VIII.1"
 msgstr "VIII.1"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "defaultEvents"
 msgstr "defaultEvents"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Defaults"
 msgstr "Incumplimientos"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Information on events of default"
 msgstr "Información sobre eventos de incumplimiento"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "termination"
 msgstr "termination"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Termination"
 msgstr "Terminación"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Information on contract termination"
 msgstr "Información sobre la terminación del contrato"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "VIII.2"
 msgstr "VIII.2"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "handover"
 msgstr "handover"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Handover"
 msgstr "Entrega"
 
-#: ../docs/codelists/documentType.csv:1 ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid ""
 "Contractual provisions for, or reporting on, handover of assets back to the "
 "state, including details of condition of assets and any other conditions of "
@@ -928,58 +1043,66 @@ msgstr ""
 "información sobre ellos, incluyendo detalles de la condición de los activos "
 "y cualquier otra condición de traspaso."
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "X.2"
 msgstr "X.2"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "financialStatement"
 msgstr "financialStatement"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Financial statement"
 msgstr "Estado financiero"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Audited financial statements of the project company"
 msgstr "Estados financieros auditados de la empresa del proyecto"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "X.6"
 msgstr "X.6"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "performanceReport"
 msgstr "performanceReport"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Performance report"
 msgstr "Reporte de desempeño"
 
-#: ../docs/codelists/documentType.csv:1
+#: ../docs/_static/codelists/documentType.csv:1
 msgid "Performance assessment reports"
 msgstr "Informes de evaluación de rendimiento"
 
-#: ../docs/codelists/financeCategory.csv:1 ../docs/codelists/financeType.csv:1
-#: ../docs/codelists/financialIndicator.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/riskAllocation.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "financeCategory"
+msgstr ""
+
+#: ../docs/_static/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Source"
 msgstr "Fuente"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "equity"
 msgstr "equity"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Equity"
 msgstr "Capital"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid ""
 "Equity finance is given in exchange for a share of ownership in the project "
 "(usually via direct or indirect shareholding in a Special Purpose Vehicle "
@@ -989,15 +1112,15 @@ msgstr ""
 "el proyecto (generalmente a través de participación directa o indirecta en "
 "una Entidad con Cometido Especial (SPV) creada para ejecutar el proyecto)."
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "seniorDebt"
 msgstr "seniorDebt"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Senior debt"
 msgstr "Deuda principal"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid ""
 "Senior debt (sometimes called senior loans) take priority over other more "
 "junior debt."
@@ -1005,15 +1128,15 @@ msgstr ""
 "La deuda principal (a veces llamada préstamos principales) tiene prioridad "
 "sobre otra deuda de categoría inferior."
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "mezannineDebt"
 msgstr "mezannineDebt"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Mezannine debt"
 msgstr "Deuda intermedia"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid ""
 "Mezzanine debt (sometimes called mezzanine loans) take priority over common "
 "shares (equity)."
@@ -1021,17 +1144,19 @@ msgstr ""
 "La deuda intermedia (a veces llamada préstamos mezzanine) tiene prioridad "
 "sobre las acciones ordinarias (capital)."
 
-#: ../docs/codelists/financeCategory.csv:1 ../docs/codelists/financeType.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "other"
 msgstr "other"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Other debts or investments"
 msgstr "Otras deudas o inversiones"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid ""
 "Details of the conditions attached to this finance should be recorded in the"
 " associated notes field."
@@ -1039,29 +1164,29 @@ msgstr ""
 "Los detalles sobre las condiciones asociadas a este financiamiento deben "
 "registrarse en el campo de notas asociadas."
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "grant"
 msgstr "grant"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Grant"
 msgstr "Subsidio"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "A grant is finance provided without expectation of repayment."
 msgstr ""
 "Una subvención es el financiamiento proporcionado sin la expectativa de "
 "pago."
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "guarantee"
 msgstr "guarantee"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid "Guarantee"
 msgstr "Garantía"
 
-#: ../docs/codelists/financeCategory.csv:1
+#: ../docs/_static/codelists/financeCategory.csv:1
 msgid ""
 "A guarantee is a promise by one party to assume the debt of another if the "
 "other defaults. Guarantees should not be counted in totals of the overall "
@@ -1071,15 +1196,19 @@ msgstr ""
 "otro incumple. Las garantías no deben contabilizarse en los totales del "
 "financiamiento global de un proyecto."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "financeType"
+msgstr ""
+
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "institutional"
 msgstr "institutional"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Institutional"
 msgstr "Institucional"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "This finance was provided by institutional investors: entities which pool "
 "money to purchase securities, real property, and other investment assets or "
@@ -1093,21 +1222,21 @@ msgstr ""
 "incluyen bancos, compañías de seguros, pensiones, fondos de cobertura, "
 "fideicomisos, asesores de inversiones, dotaciones y fondos mutuos."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "https://en.wikipedia.org/w/index.php?title=Institutional_investor&oldid=764994591"
 msgstr ""
 "https://en.wikipedia.org/w/index.php?title=Institutional_investor&oldid=764994591"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "commercial"
 msgstr "commercial"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Commercial"
 msgstr "Comercial"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "This finance was provided by private parties who do not fall within the "
 "definition of institutional investor."
@@ -1115,15 +1244,15 @@ msgstr ""
 "Este financiamiento fue proporcionada por particulares que no entran dentro "
 "de la definición de inversor institucional."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "bilateral"
 msgstr "bilateral"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Bilateral"
 msgstr "Bilateral"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "This finance was provided by a bilateral institution: an agency of one "
 "specific government, usually a development agency or export-credit agency "
@@ -1135,19 +1264,19 @@ msgstr ""
 "agencia de crédito a la exportación con un mandato para apoyar a las "
 "empresas nacionales en la búsqueda de inversiones en el extranjero."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "https://ppi.worldbank.org/methodology/glossary"
 msgstr "https://ppi.worldbank.org/methodology/glossary"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "multilateral"
 msgstr "multilateral"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Multilateral"
 msgstr "Multilateral"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "This finance was provided by a multilateral institution: a body created by a"
 " group of countries to provides financing and professional support, "
@@ -1157,150 +1286,166 @@ msgstr ""
 "organismo creado por un grupo de países para proporcionar financiamiento y "
 "apoyo profesional, principalmente con fines de desarrollo."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "https://en.wikipedia.org/w/index.php?title=International_financial_institutions&oldid=757498881"
 msgstr ""
 "https://en.wikipedia.org/w/index.php?title=International_financial_institutions&oldid=757498881"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "publicBondIssue"
 msgstr "publicBondIssue"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Public Bond Issue"
 msgstr "Emisión de Bonos Públicos"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "This finance was provided through a public bond issue."
 msgstr ""
 "Este financiamiento fue proporcionado a través de una emisión de bonos "
 "públicos."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "supplierCredit"
 msgstr "supplierCredit"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Supplier Credit"
 msgstr "Crédito del Proveedor"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid ""
 "This finance was provided through a line of credit provided by a supplier."
 msgstr ""
 "Este financiamiento fue proporcionado a través de una línea de crédito dada "
 "por un proveedor."
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "Other"
 msgstr "Otro"
 
-#: ../docs/codelists/financeType.csv:1
+#: ../docs/_static/codelists/financeType.csv:1
 msgid "This finance was provided through some other source."
 msgstr "Este financiamiento se proporcionó a través de alguna otra fuente."
 
-#: ../docs/codelists/financialIndicator.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "financialIndicator"
+msgstr ""
+
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Category"
 msgstr "Categoría"
 
-#: ../docs/codelists/financialIndicator.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "Notes/Questions"
 msgstr "Notas/Preguntas"
 
-#: ../docs/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
 msgid "subsidyRatio"
 msgstr "subsidyRatio"
 
-#: ../docs/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
 msgid "Subsidy Ratio"
 msgstr "Proporción de subsidio"
 
-#: ../docs/codelists/financialIndicator.csv:1
+#: ../docs/_static/codelists/financialIndicator.csv:1
 msgid "Subsidy as a proportion of project value"
 msgstr "La subvención como proporción del valor del proyecto"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "metricID"
+msgstr ""
+
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "demand"
 msgstr "demand"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "Demand"
 msgstr "Demanda"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "For reporting on forecast or actual demand"
 msgstr "Para informar sobre la demanda prevista o real"
 
-#: ../docs/codelists/metricID.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "revenue"
 msgstr "revenue"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "Revenue"
 msgstr "Ingresos"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "For reporting on forecast or actual revenues"
 msgstr "Para informar sobre los ingresos previstos o reales"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "IRR"
 msgstr "TIR"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "Internal Rate of Return"
 msgstr "Tasa de Rentabilidad Interna"
 
-#: ../docs/codelists/metricID.csv:1
+#: ../docs/_static/codelists/metricID.csv:1
 msgid "For reporting on forecast or actual project IRR"
 msgstr "Para informar sobre la TIR proyectada o real"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "milestoneCode"
+msgstr ""
+
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Notes"
 msgstr "Notas"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "projectApproval"
 msgstr "projectApproval"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Project approval"
 msgstr "Aprobación del proyecto"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "The dates of approvals required from relevant authorities."
 msgstr ""
 "Las fechas de las aprobaciones requeridas por las autoridades pertinentes."
 
-#: ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneStatus.csv:1
-#: ../docs/codelists/milestoneType.csv:1 ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/milestoneType.csv:1 ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/milestoneType.csv:1 ../docs/codelists/milestoneType.csv:1
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "https://github.com/open-contracting/ocds-milestones-update"
 msgstr "https://github.com/open-contracting/ocds-milestones-update"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "milestone/type = approval"
 msgstr "milestone/type = approval"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "commercialClose"
 msgstr "commercialClose"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Commercial close"
 msgstr "Cierre comercial"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "In a financing, the point at which the commercial documentation has been "
 "executed but before conditions precedent have been satisfied or waived; "
@@ -1310,23 +1455,24 @@ msgstr ""
 "comercial, pero antes de que se hayan cumplido o eximido las condiciones "
 "previas; antes del cierre financiero."
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "https://pppknowledgelab.org/glossary#Commercial_Close"
 msgstr "https://pppknowledgelab.org/glossary#Commercial_Close"
 
-#: ../docs/codelists/milestoneCode.csv:1 ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "milestone/type = contractClose"
 msgstr "milestone/type = contractClose"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "financialClose"
 msgstr "financialClose"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Financial close"
 msgstr "Cierre financiero"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "In a financing, the point at which the documentation has been executed and "
 "conditions precedent have been satisfied or waived. Drawdowns become "
@@ -1336,48 +1482,50 @@ msgstr ""
 "las condiciones precedentes se han cumplido o se han eximido. Después de "
 "este punto son admisibles los retiros."
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "https://pppknowledgelab.org/glossary#Financial_Close"
 msgstr "https://pppknowledgelab.org/glossary#Financial_Close"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "commencement"
 msgstr "commencement"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Commencement of construction or development"
 msgstr "Comienzo de la construcción o desarrollo"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "The date of commencement of construction or development"
 msgstr "La fecha de inicio de la construcción o desarrollo"
 
-#: ../docs/codelists/milestoneCode.csv:1 ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "milestone/type = delivery"
 msgstr "milestone/type = delivery"
 
-#: ../docs/codelists/milestoneCode.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "completion"
 msgstr "completion"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Completion of construction of development"
 msgstr "Finalización de la construcción del desarrollo"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "The date of completion of construction or development"
 msgstr "La fecha de terminación de la construcción o desarrollo"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "commissioning"
 msgstr "commissioning"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Commissioning"
 msgstr "Puesta en servicio"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "The testing and inspection of the completed works to verify that the works "
 "are ready for commercial operation."
@@ -1385,19 +1533,19 @@ msgstr ""
 "La comprobación e inspección de las obras terminadas para verificar que las "
 "obras están listas para el funcionamiento comercial."
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "https://pppknowledgelab.org/glossary#Commissioning"
 msgstr "https://pppknowledgelab.org/glossary#Commissioning"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "enquiryPeriodStart"
 msgstr "enquiryPeriodStart"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Enquiry period start"
 msgstr "Comienzo del período de consulta"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "For processes with multiple enquiry periods,the start date of a period "
 "during which enquiries may be made and responded to which is not provided in"
@@ -1408,20 +1556,21 @@ msgstr ""
 " se proporciona en el bloque de tender/enquiryPeriod. A veces conocido como "
 "períodos de clarificación."
 
-#: ../docs/codelists/milestoneCode.csv:1 ../docs/codelists/milestoneCode.csv:1
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "milestone/type = procurement"
 msgstr "milestone/type = procurement"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "enquiryPeriodEnd"
 msgstr "enquiryPeriodEnd"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Enquiry period end"
 msgstr "Fin del período de consulta"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "For processes with multiple enquiry periods, the end date of a period during"
 " which enquiries may be made and responded to which is not provided in the "
@@ -1432,15 +1581,15 @@ msgstr ""
 "preguntas que no se proporcionan en el bloque de tender/enquiryPeriod. A "
 "veces conocido como períodos de clarificación."
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "draftFinalTender"
 msgstr "draftFinalTender"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Submission of draft final tender"
 msgstr "Presentación del borrador final de licitación"
 
-#: ../docs/codelists/milestoneCode.csv:1
+#: ../docs/_static/codelists/milestoneCode.csv:1
 msgid ""
 "For competitive dialogue processes, the deadline for submission of draft "
 "final tenders"
@@ -1448,15 +1597,19 @@ msgstr ""
 "Para los procesos de diálogo competitivo, el plazo para la presentación de "
 "borradores finales de licitación"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "milestoneStatus"
+msgstr ""
+
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "scheduled"
 msgstr "scheduled"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "Scheduled"
 msgstr "Programado"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid ""
 "This milestone has been scheduled for the date in milestone.dueDate. "
 "Progress towards the milestone has not yet been evaluated as of "
@@ -1465,15 +1618,15 @@ msgstr ""
 "Este hito se ha programado para la fecha en milestone.dueDate. El progreso "
 "hacia el hito aún no ha sido evaluado como de milestone.dateModified"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "met"
 msgstr "met"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "Met"
 msgstr "Cumplido"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid ""
 "This milestone has been achieved. The data on which it was met should be "
 "placed in the milestone.dateMet field"
@@ -1481,15 +1634,15 @@ msgstr ""
 "Este hito se ha logrado. Los datos sobre los que se ha cumplido deben "
 "colocarse en el campo milestone.dateMet"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "notMet"
 msgstr "notMet"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "Not met"
 msgstr "No se cumplió"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid ""
 "This milestone had not been met at the date it was last reviewed (see "
 "milestone.dateModified)."
@@ -1497,15 +1650,15 @@ msgstr ""
 "Este hito no se ha cumplido en la fecha de su última revisión (ver "
 "milestone.dateModified)."
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "partiallyMet"
 msgstr "partiallyMet"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "Partially met"
 msgstr "Parcialmente cumplido"
 
-#: ../docs/codelists/milestoneStatus.csv:1
+#: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid ""
 "This milestone was judged to have been partially met at the date it was last"
 " reviewed (see milestone.dateModified)"
@@ -1513,51 +1666,55 @@ msgstr ""
 "Se juzgó que este hito se había cumplido parcialmente en la fecha en que se "
 "revisó por última vez (véase milestone.dateModified)"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "milestoneType"
+msgstr ""
+
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "preProcurement"
 msgstr "preProcurement"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Pre-procurement"
 msgstr "Preadquisición"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Events such as the preparation of key studies"
 msgstr "Eventos como la preparación de estudios clave"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "engagement"
 msgstr "engagement"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Engagement"
 msgstr "Participación"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "For engagement milestones, such as a public hearing."
 msgstr "Para hitos de participación, como una audiencia pública."
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "approval"
 msgstr "approval"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Approval"
 msgstr "Aprobación"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Events such as project sign-offs"
 msgstr "Eventos como la aprobación de proyectos"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "procurement"
 msgstr "procurement"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Procurement"
 msgstr "Contratación"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid ""
 "Events taking place during the procurement which are not captured by fields "
 "in core OCDS, such as additional enquiry periods or draft tender submissions"
@@ -1568,15 +1725,15 @@ msgstr ""
 "adicionales o  presentación de borrdores de ofertas en un proceso de diálogo"
 " competitivo"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "adjudication"
 msgstr "adjudication"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Adjudication"
 msgstr "Adjudicación"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid ""
 "For adjudication milestones, such as the meeting date of a committee. "
 "Sometimes known as evaluation or assessment."
@@ -1584,33 +1741,33 @@ msgstr ""
 "Para los hitos de adjudicación, como la fecha de la reunión de un comité. A "
 "veces conocido como evaluación o valoración."
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "contractClose"
 msgstr "contractClose"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Contract close"
 msgstr "Cierre de contrato"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Events such as commercial and financial close"
 msgstr "Eventos como el cierre comercial y financiero"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid ""
 "https://github.com/open-contracting/public-private-partnerships/issues/25"
 msgstr ""
 "https://github.com/open-contracting/public-private-partnerships/issues/25"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "delivery"
 msgstr "delivery"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Delivery"
 msgstr "Entrega"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid ""
 "Events such as the predicated date for works or development to start, or to "
 "be finalised"
@@ -1618,40 +1775,41 @@ msgstr ""
 "Eventos como la fecha prevista para que las obras o el desarrollo comiencen "
 "o se finalicen"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "reporting"
 msgstr "reporting"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Reporting"
 msgstr "Informes"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "For reporting milestones, such as when key reports should be provided."
 msgstr ""
 "Para hitos de reporte, como cuando se deben proporcionar informes clave."
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "financial"
 msgstr "financial"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Financial"
 msgstr "Financiero"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "Events such as planned payments, or equity transfers"
 msgstr "Eventos como pagos planificados o transferencias de capital"
 
-#: ../docs/codelists/milestoneType.csv:1 ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "planning"
 msgstr "planning"
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid "For events during the planning phase of a process."
 msgstr "Para eventos durante la fase de planificación de un proceso."
 
-#: ../docs/codelists/milestoneType.csv:1
+#: ../docs/_static/codelists/milestoneType.csv:1
 msgid ""
 "http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#milestone-"
 "type"
@@ -1659,24 +1817,255 @@ msgstr ""
 "http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#milestone-"
 "type"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "organizationRole"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "publicAuthority"
 msgstr "publicAuthority"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "Public authority"
 msgstr "Autoridad pública"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The unit/body/department within a government that is tendering and "
+"contracting the project. The public counterpart in the PPP contract."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "https://ppp-certification.com/ppp-certification-guide/glossary"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "bidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Bidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The company or a group of companies, such as a consortium, that submits a "
+"bid in response to a RFP. A bidder could be a single party or a consortium "
+"of parties, each responsible for a specific element, such as constructing "
+"the infrastructure, supplying the equipment, or operating the business."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "qualifiedBidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Qualified bidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"Those parties invited to submit a proposal in response to a Request for "
+"Proposal (RFP) for a project in which the government only allows a limited "
+"number of pre-qualified bidders to proceed to the RFP phase."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "preferredBidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Preferred bidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The bidder identified at the end of the tender evaluation process as being "
+"the government’s preferred partner to enter into (or enter into final "
+"negotiations for) a PPP contract. The preferred bidder is awarded the "
+"contract and called to contract signature."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+msgid "privateParty"
+msgstr "privateParty"
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+msgid "Private party"
+msgstr "Parte privada"
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The counter party of the procuring authority in the PPP contract. A private "
+"entity which has been granted the contract to construct and operate a "
+"government asset, and which is usually created under the form of a Special "
+"Purpose Vehicle or SPV."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "leadBank"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Lead bank"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A lead bank is a bank that oversees the arrangement of a loan syndication"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "lender"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Lender"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The APMG PPP Certification Program defines lenders as \"Institutions that "
+"provide lending to the project: mainly banks and institutional investors "
+"through project bonds\""
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "equityInvestor"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Equity investor"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"The APMG PPP Certification Program defines equity investors as \"Investors "
+"who finance a portion of the project’s capital expenditures (Capex), "
+"typically as share capital or subordinated debt\""
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "consortiaMember"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Consortia member"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"One of a group of companies that has joined together to bid for a project."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "interestedParty"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Interested party"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A party which has expressed an interest in the project, for example by "
+"purchasing tender documents or submitted clarification questions, but has "
+"not yet formally submitted a bid."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "grantor"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Grantor"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "The party which grants a concession, a license or some other right."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "disqualifiedBidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Disqualified bidder"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A bidder which either did not pass the qualification stage of the evaluation"
+" process or did not pass the pre-qualification stage of the process."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "socialWitness"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Social witness"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A social witness participates as an external observer in a public "
+"procurements process. They have a formal role as an observer."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "otherWitness"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Other witness"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A witness attends one or more stages of the procurement process to observe "
+"proceedings."
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "notary"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid "Notary"
+msgstr ""
+
+#: ../docs/_static/codelists/organizationRole.csv:1
+msgid ""
+"A person authorized to perform certain legal formalities, especially to "
+"certify documents and proceedings."
+msgstr ""
+
+#: ../docs/reference/codelists.md:0
+msgid "riskAllocation"
+msgstr ""
+
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "The risk is retained wholly or mostly by government"
 msgstr "El riesgo es retenido total o principalmente por el gobierno"
 
-#: ../docs/codelists/riskAllocation.csv:1
-#: ../docs/codelists/riskAllocation.csv:1 ../docs/codelists/riskImpact.csv:1
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskImpact.csv:1
-#: ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/riskLikelihood.csv:1
-#: ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid ""
 "http://pubdocs.worldbank.org/en/422531461874706371/PFRAM20160401-Guidance-"
 "Note-for-PFRAM-March-28-2016.pdf"
@@ -1684,27 +2073,19 @@ msgstr ""
 "http://pubdocs.worldbank.org/en/422531461874706371/PFRAM20160401-Guidance-"
 "Note-for-PFRAM-March-28-2016.pdf"
 
-#: ../docs/codelists/riskAllocation.csv:1
-msgid "privateParty"
-msgstr "privateParty"
-
-#: ../docs/codelists/riskAllocation.csv:1
-msgid "Private party"
-msgstr "Parte privada"
-
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "The risk is retained wholly or mostly by the private party"
 msgstr "El riesgo es retenido total o principalmente por la parte privada"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "undefined"
 msgstr "undefined"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "Undefined"
 msgstr "Indefinido"
 
-#: ../docs/codelists/riskAllocation.csv:1
+#: ../docs/_static/codelists/riskAllocation.csv:1
 msgid ""
 "The risk is not clearly assigned to a specific party. Details can be "
 "provided in the relevant notes field."
@@ -1712,21 +2093,27 @@ msgstr ""
 "El riesgo no está claramente asignado a una parte específica. Los detalles "
 "pueden ser proporcionados en el campo de notas correspondiente."
 
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "riskCategory"
+msgstr ""
+
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "designAndConstruction"
 msgstr "designAndConstruction"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "landAvailability"
 msgstr "landAvailability"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Land availability and acquisition risk"
 msgstr "Disponibilidad de tierras y riesgo de adquisición"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Relates to the unavailability of land or site to construct the "
 "infrastructure at the time of contract signature"
@@ -1734,25 +2121,32 @@ msgstr ""
 "Se refiere a la falta de disponibilidad de terreno o de sitio para construir"
 " la infraestructura en el momento de la firma del contrato"
 
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "APMG PPP Certification Program"
 msgstr "APMG PPP Certification Program"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "environmental"
 msgstr "environmental"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Environmental risk"
 msgstr "Riesgo ambiental"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Environmental risks may be related to a number of environmental issues such "
 "as general contamination, pollution, water contamination, impact on the "
@@ -1765,15 +2159,15 @@ msgstr ""
 "Una evaluación adversa puede requerir cambios en el diseño que lleven a un "
 "impacto directo en el costo de la infraestructura"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "design"
 msgstr "design"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Design risks"
 msgstr "Riesgos de diseño"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Represents the possibility that design quality for the asset is not adequate"
 " to meet project requirements"
@@ -1781,15 +2175,15 @@ msgstr ""
 "Representa la posibilidad de que la calidad del diseño del activo no sea "
 "adecuada para satisfacer los requisitos del proyecto"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "construction"
 msgstr "construction"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Construction risks"
 msgstr "Riesgos de construcción"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Represents the possibility that during the construction Phase, the actual "
 "project costs or construction time exceeds the projected time and costs"
@@ -1798,11 +2192,11 @@ msgstr ""
 " reales del proyecto o el tiempo de construcción exceda el tiempo y los "
 "costos proyectados"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Completion and commissioning"
 msgstr "Finalización y puesta en marcha"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Refers to the failure to meet the construction outcome or finalization as "
 "prescribed"
@@ -1810,30 +2204,32 @@ msgstr ""
 "Se refiere a la falta de cumplimiento de la construcción o finalización "
 "según lo prescrito"
 
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "operating"
 msgstr "operating"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Revenue risk"
 msgstr "Riesgo de ingresos"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Refers to the risk of the revenue flows not being correctly assessed"
 msgstr ""
 "Se refiere al riesgo de que los flujos de ingresos no se evalúen "
 "correctamente"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "inflationAndFx"
 msgstr "inflationAndFx"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Foreign exchange, Inflation and indexation risk"
 msgstr "Riesgo de inflación y de indexación"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risk that changes in exchange rates or inflation adversely affect the "
 "project outcomes"
@@ -1841,15 +2237,15 @@ msgstr ""
 "Riesgo de que los cambios en los tipos de cambio o la inflación afecten "
 "adversamente los resultados del proyecto"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "availabilityAndQuality"
 msgstr "availabilityAndQuality"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Availability and quality risk"
 msgstr "Riesgo de disponibilidad y de calidad"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risk linked to availability and quality issues relating to performance "
 "requirements and performance target levels"
@@ -1857,33 +2253,34 @@ msgstr ""
 "Riesgo vinculado a las cuestiones de disponibilidad y calidad relacionadas "
 "con los requisitos de rendimiento y los niveles objetivo de rendimiento"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "otherRevenue"
 msgstr "otherRevenue"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Other revenue risk events"
 msgstr "Otros eventos de riesgo de ingresos"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "credit or counterparty risk; fraud/non-payment by users"
 msgstr ""
 "riesgo de crédito o de la contraparte; fraude/falta de pago por parte de los"
 " usuarios"
 
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "finance"
 msgstr "finance"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "financeAvailability"
 msgstr "financeAvailability"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Availability of finance"
 msgstr "Disponibilidad de financiamiento"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Represents the risk of financing not being available at commercial close or "
 "before construction starts"
@@ -1891,27 +2288,27 @@ msgstr ""
 "Representa el riesgo de que el financiamiento no esté disponible en el "
 "cierre comercial o antes de que comience la construcción."
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "refinancing"
 msgstr "refinancing"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Refinancing risks"
 msgstr "Riesgos de refinanciamiento"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Risks relating to the downside of refinancing"
 msgstr "Riesgos relacionados con la desventaja del refinanciamiento"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "changeInLaw"
 msgstr "changeInLaw"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Changes in law"
 msgstr "Cambios en la ley"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risk that a change in general law or the sector regulatory framework "
 "adversely affect the project"
@@ -1919,15 +2316,15 @@ msgstr ""
 "Riesgo de que un cambio en la legislación general o en el marco regulatorio "
 "del sector afecte negativamente al proyecto"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "forceMajeure"
 msgstr "forceMajeure"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Force Majeure"
 msgstr "Fuerza mayor"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risk that external events beyond the control of the parties to the contract,"
 " such as natural disasters, wars, terrorism etc.,  affect the project"
@@ -1936,15 +2333,15 @@ msgstr ""
 "contrato, como desastres naturales, guerras, terrorismo, etc., afecten el "
 "proyecto"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "earlyTermination"
 msgstr "earlyTermination"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Early termination"
 msgstr "Terminación anticipada"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risk that compensation sum due to early termination may be insufficient to "
 "meet private party’s financial obligations or is less than expected"
@@ -1953,15 +2350,15 @@ msgstr ""
 "pueda ser insuficiente para satisfacer las obligaciones financieras de las "
 "partes privadas o sea inferior a la esperada"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "compliance"
 msgstr "compliance"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "Compliance risks"
 msgstr "Riesgos de cumplimiento"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "Risks deriving from the compliance or lack thereof of regulatory obligations"
 " related to the development of the project"
@@ -1969,114 +2366,135 @@ msgstr ""
 "Riesgos derivados del cumplimiento o de la ausencia de obligaciones "
 "reglamentarias relacionadas con el desarrollo del proyecto"
 
-#: ../docs/codelists/riskCategory.csv:1 ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid ""
 "https://drive.google.com/file/d/0B79uNIOfT24eSjhzYU56NlR2YUE/view?usp=sharing"
 msgstr ""
 "https://drive.google.com/file/d/0B79uNIOfT24eSjhzYU56NlR2YUE/view?usp=sharing"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "all"
 msgstr "all"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "All risks"
 msgstr "Todos los riesgos"
 
-#: ../docs/codelists/riskCategory.csv:1
+#: ../docs/_static/codelists/riskCategory.csv:1
 msgid "All risks deriving from the project"
 msgstr "Todos los riesgos derivados del proyecto"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "riskImpact"
+msgstr ""
+
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "low"
 msgstr "low"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "Low"
 msgstr "Bajo"
 
-#: ../docs/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
 msgid "The impact of the risk occuring is low"
 msgstr "El impacto de que ocurra el riesgo es bajo"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "medium"
 msgstr "medium"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "Medium"
 msgstr "Medio"
 
-#: ../docs/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
 msgid "The impact of the risk occuring is medium"
 msgstr "El impacto de que ocurra el riesgo es medio"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "high"
 msgstr "high"
 
-#: ../docs/codelists/riskImpact.csv:1 ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "High"
 msgstr "Alto"
 
-#: ../docs/codelists/riskImpact.csv:1
+#: ../docs/_static/codelists/riskImpact.csv:1
 msgid "The impact of the risk occuring is high"
 msgstr "El impacto de que ocurra el riesgo es alto"
 
-#: ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "riskLikelihood"
+msgstr ""
+
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "The probability of the risk occuring is low"
 msgstr "La probabilidad de que ocurra el riesgo es baja"
 
-#: ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "The probability of the risk occuring is medium"
 msgstr "La probabilidad de que ocurra el riesgo es media"
 
-#: ../docs/codelists/riskLikelihood.csv:1
+#: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "The probability of the risk occuring is high"
 msgstr "La probabilidad de que ocurra el riesgo es alta"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/reference/codelists.md:0
+msgid "votingRights"
+msgstr ""
+
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "none"
 msgstr "none"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "None"
 msgstr "Ninguna"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "The shareholder is not entitled to vote under any circumstances."
 msgstr "El accionista no tiene derecho a voto bajo ninguna circunstancia."
 
-#: ../docs/codelists/votingRights.csv:1 ../docs/codelists/votingRights.csv:1
-#: ../docs/codelists/votingRights.csv:1 ../docs/codelists/votingRights.csv:1
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "http://uk.practicallaw.com/5-613-3685"
 msgstr "http://uk.practicallaw.com/5-613-3685"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "ordinary"
 msgstr "ordinary"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Ordinary"
 msgstr "Ordinario"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid ""
 "The shareholder is entitled to a single vote per share in all circumstances."
 msgstr ""
 "El accionista tiene derecho a un voto por acción en todas las "
 "circunstancias."
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "additional"
 msgstr "additional"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Additional"
 msgstr "Adicional"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid ""
 "The shareholder is entitled to more than one vote per share in all "
 "circumstances. The votingRightsDetails field can be used to provide the "
@@ -2087,15 +2505,15 @@ msgstr ""
 "proporcionar el número de votos por acción a los que el accionista tiene "
 "derecho."
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "restricted"
 msgstr "restricted"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Restricted"
 msgstr "Restringido"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid ""
 "The shareholder is entitled to vote in specific circumstances only. The "
 "votingRightsDetails field can be used to provide details of such "
@@ -2105,15 +2523,15 @@ msgstr ""
 "únicamente. El campo votingRightsDetails se puede utilizar para proporcionar"
 " detalles de dichas circunstancias."
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "enhanced"
 msgstr "enhanced"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid "Enhanced"
 msgstr "Aumentado"
 
-#: ../docs/codelists/votingRights.csv:1
+#: ../docs/_static/codelists/votingRights.csv:1
 msgid ""
 "The shareholder is entitled to more than one vote per share in specific "
 "circumstances only. The votingRightsDetails field can be used to provide "

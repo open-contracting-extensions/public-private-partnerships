@@ -8,15 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-06-14 16:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/shareholders.md:0
+msgid "Shareholder and ownership details"
+msgstr ""
 
 #: ../docs/extensions/shareholders.md:3
 msgid ""
@@ -48,9 +52,13 @@ msgid ""
 "process."
 msgstr ""
 "Debido a que cada propietario mencionado en la matriz de accionistas también"
-" debetener una entrada en la matriz de 'parties', es posible utilizar esta "
+" debe tener una entrada en la matriz de 'parties', es posible utilizar esta "
 "extensión para crear información sobre las redes de propiedad corporativa "
 "involucrados en un proceso de contratación."
+
+#: ../docs/extensions/shareholders.md:0
+msgid "Beneficial ownership"
+msgstr ""
 
 #: ../docs/extensions/shareholders.md:11
 msgid ""
