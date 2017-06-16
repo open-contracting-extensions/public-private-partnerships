@@ -117,11 +117,6 @@ file_filter = locale/<lang>/LC_MESSAGES/extensions/documentation_details.po
 source_file = build_locale/extensions/documentation_details.pot
 source_lang = en
 
-[ocds-for-ppps.extensions--related_process]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/related_process.po
-source_file = build_locale/extensions/related_process.pot
-source_lang = en
-
 [ocds-for-ppps.extensions--bids]
 file_filter = locale/<lang>/LC_MESSAGES/extensions/bids.po
 source_file = build_locale/extensions/bids.pot

@@ -52,6 +52,7 @@ First, run the Installation as described above.
 
 Extracting strings that need translating:
 ```
+rm -r build_locale
 mkdir build_locale
 pybabel extract -F .babel_schema . -o build_locale/ppp-schema.pot
 
@@ -59,11 +60,13 @@ cd docs
 sphinx-build -b gettext . ../build_locale/
 cd ..
 
-rm -r build_locale/_static/ocds-show build_locale/codelists/README.pot
+rm -r build_locale/_static/ocds-show
 ```
 
 Pushing extracted strings to transifex:
 ```
+rm .tx/config
+sphinx-intl create-txconfig
 sphinx-intl update-txconfig-resources --transifex-project-name ocds-for-ppps --pot-dir build_locale --locale-dir locale
 tx push -s
 ```
