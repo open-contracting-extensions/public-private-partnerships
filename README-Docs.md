@@ -23,7 +23,7 @@ source .ve/bin/activate
 pip install -r requirements.txt
 ```
 
-## Build the docs
+## Build the docs locally
 
 First follow the steps under Installation, then:
 
@@ -81,7 +81,9 @@ Pull translations from transifex:
 tx pull -a -f
 ```
 
-To build the Spanish docs, follow the "Build the docs" instructions above, but instead of `make dirhtml`, run:
+These should be commited and pushed, which will trigger a build of the ReadTheDocs Spanish site - https://ocds-for-ppps.readthedocs.io/es/latest/
+
+To build the Spanish docs locally, follow the "Build the docs locally" instructions above, but instead of `make dirhtml`, run:
 ```
 make -e SPHINXOPTS="-D language='es'" html
 ```
