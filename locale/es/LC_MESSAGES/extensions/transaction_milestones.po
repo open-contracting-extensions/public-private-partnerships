@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../docs/extensions/transaction_milestones.md:0
 msgid "Transactions - relatedMilestone Extension"
-msgstr ""
+msgstr "Transacciones  - Extensión relatedMilestone"
 
 #: ../docs/extensions/transaction_milestones.md:0
 msgid "Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #: ../docs/extensions/transaction_milestones.md:5
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../docs/extensions/transaction_milestones.md:0
 msgid "Extension fields"
-msgstr ""
+msgstr "Campos de extensión"
 
 #: ../docs/extensions/transaction_milestones.md:11
 msgid ""
@@ -72,4 +72,4 @@ msgstr ""
 
 #: ../docs/extensions/transaction_milestones.md:0
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"

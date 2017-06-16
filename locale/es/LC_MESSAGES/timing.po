@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../docs/timing.md:0
 msgid "Publication timing"
-msgstr ""
+msgstr "Calendario de publicación"
 
 #: ../docs/timing.md:0
 msgid "Stages"
-msgstr ""
+msgstr "Etapas"
 
 #: ../docs/timing.md:5
 msgid ""
@@ -60,27 +60,30 @@ msgid ""
 "identifiers are a guide and additional releases can be made at any stage of "
 "the project."
 msgstr ""
+"Es probable que un proceso de APP incluya las etapas siguientes, los "
+"siguientes identificadores de entregas son una guía y se pueden hacer "
+"entregas adicionales en cualquier etapa del proyecto."
 
 #: ../docs/timing.md:0
 msgid "PP: Pre-Procurement"
-msgstr ""
+msgstr "PP: Pre-Adquisición"
 
 #: ../docs/timing.md:0
 msgid "P: Procurement"
-msgstr ""
+msgstr "P: Adquisición"
 
 #: ../docs/timing.md:0
 msgid "A: Award"
-msgstr ""
+msgstr "A: Adjudicación"
 
 #: ../docs/timing.md:0
 msgid "CC: Post Commercial-Close"
-msgstr ""
+msgstr "CC: Post Cierre Comercial"
 
 #: ../docs/timing.md:0
 msgid "I: Implementation"
-msgstr ""
+msgstr "I: Implementación"
 
 #: ../docs/timing.md:0
 msgid "R: Renegotiation"
-msgstr ""
+msgstr "R: Renegociación"

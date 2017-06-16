@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/technical.md:0
 msgid "Technical overview"
-msgstr ""
+msgstr "Resumen técnico"
 
 #: ../docs/technical.md:3
 msgid ""
@@ -57,6 +57,8 @@ msgid ""
 "The basic OCDS schema has been [extended](extensions/index.md) with a range "
 "of additional building blocks and codelist values."
 msgstr ""
+"El esquema básico de OCDS se ha extendido (extensions/index.md) con un rango"
+" de bloques y valores de lista de códigos adicionales."
 
 #: ../docs/technical.md:14
 msgid ""
@@ -65,10 +67,14 @@ msgid ""
 "Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
 "/ppp-tools#T1)."
 msgstr ""
+"El esquema extendido de OCDS para APPs proporciona todos los elementos "
+"cubiertos por el [Marco de divulgación de APP del Banco Mundial] "
+"(http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-"
+"tools#T1)."
 
 #: ../docs/technical.md:0
 msgid "The OCDS for PPPs Schema"
-msgstr ""
+msgstr "El esquema OCDS para APPs"
 
 #: ../docs/technical.md:18
 msgid ""
@@ -77,6 +83,10 @@ msgid ""
 "the consolidated OCDS for PPPs extensions as part of a release or record "
 "package."
 msgstr ""
+"Para producir y validar datos de OCDS para APP, cree un [archivo OCDS "
+"1.1](http://standard.open-contracting.org/latest/en/schema/) y declare las "
+"extensiones de OCDS consolidado para APPs como parte de una entrega o "
+"paquete de registro."
 
 #: ../docs/technical.md:20
 msgid ""
@@ -84,10 +94,13 @@ msgid ""
 "[available to download](../_static/ppp-extension.json), and a [full "
 "reference table is provided](reference/schema.md)."
 msgstr ""
+"También está [disponible para descargar](../_static/ppp-extension.json) un "
+"esquema de OCDS para APPs compilado, con las extensiones aplicadas y se "
+"proporciona una [tabla de referencia completa](reference/schema.html)."
 
 #: ../docs/technical.md:0
 msgid "Who is this for?"
-msgstr ""
+msgstr "¿Para quien es?"
 
 #: ../docs/technical.md:24
 msgid ""
@@ -131,6 +144,10 @@ msgid ""
 "information is being captured on all the required aspects of the framework, "
 "and that information is published at the appropriate time."
 msgstr ""
+"El esquema de OCDS para PPPs ampliado y la [documentación de "
+"referencia](framework.md) se pueden utilizar como una \"lista de control\" "
+"para asegurar que la información se está capturando en todos los aspectos "
+"requeridos del marco y esa información se publica en el momento apropiado."
 
 #: ../docs/technical.md:35
 msgid ""
@@ -150,7 +167,7 @@ msgstr ""
 
 #: ../docs/technical.md:0
 msgid "How to use this documentation"
-msgstr ""
+msgstr "Cómo utilizar esta documentación"
 
 #: ../docs/technical.md:39
 msgid "First review:"

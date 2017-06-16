@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../docs/extensions/tariffs.md:0
 msgid "Tariffs"
-msgstr ""
+msgstr "Tarifas"
 
 #: ../docs/extensions/tariffs.md:0
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #: ../docs/extensions/tariffs.md:4
 msgid ""
@@ -80,7 +80,7 @@ msgstr "tariffIllustration"
 
 #: ../docs/extensions/tariffs.md:0
 msgid "Tariff modelling"
-msgstr ""
+msgstr "Modelado de tarifas"
 
 #: ../docs/extensions/tariffs.md:19
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../docs/extensions/tariffs.md:0
 msgid "Worked example"
-msgstr ""
+msgstr "Ejemplo Desarrollado"
 
 #: ../docs/extensions/tariffs.md:25
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../docs/extensions/tariffs.md:0
 msgid "Codelist entries"
-msgstr ""
+msgstr "Entradas de lista de códigos"
 
 #: ../docs/extensions/tariffs.md:83
 msgid "The following document types are introduced by the tariff extension"

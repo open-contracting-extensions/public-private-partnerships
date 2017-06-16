@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../docs/extensions/signatories.md:0
 msgid "Contract signatories"
-msgstr ""
+msgstr "Firmantes del contrato"
 
 #: ../docs/extensions/signatories.md:0
 msgid "Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #: ../docs/extensions/signatories.md:5
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../docs/extensions/signatories.md:0
 msgid "Extension fields"
-msgstr ""
+msgstr "Campos de extensión"
 
 #: ../docs/extensions/signatories.md:11
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../docs/extensions/signatories.md:0
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"
 
 #: ../docs/extensions/signatories.md:15
 msgid ""
@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../docs/extensions/signatories.md:0
 msgid "Usage notes"
-msgstr ""
+msgstr "Notas de uso"
 
 #: ../docs/extensions/signatories.md:52
 msgid ""

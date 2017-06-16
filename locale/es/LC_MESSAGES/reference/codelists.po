@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "Codelists"
-msgstr ""
+msgstr "Listas de códigos"
 
 #: ../docs/reference/codelists.md:0
 msgid "documentType"
-msgstr ""
+msgstr "documentType"
 
 #: ../docs/_static/codelists/documentType.csv:1
 msgid "Framework"
@@ -1077,7 +1077,7 @@ msgstr "Informes de evaluación de rendimiento"
 
 #: ../docs/reference/codelists.md:0
 msgid "financeCategory"
-msgstr ""
+msgstr "financeCategory"
 
 #: ../docs/_static/codelists/financeCategory.csv:1
 #: ../docs/_static/codelists/financeType.csv:1
@@ -1198,7 +1198,7 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "financeType"
-msgstr ""
+msgstr "financeType"
 
 #: ../docs/_static/codelists/financeType.csv:1
 msgid "institutional"
@@ -1331,7 +1331,7 @@ msgstr "Este financiamiento se proporcionó a través de alguna otra fuente."
 
 #: ../docs/reference/codelists.md:0
 msgid "financialIndicator"
-msgstr ""
+msgstr "financialIndicator"
 
 #: ../docs/_static/codelists/financialIndicator.csv:1
 #: ../docs/_static/codelists/milestoneStatus.csv:1
@@ -1358,7 +1358,7 @@ msgstr "La subvención como proporción del valor del proyecto"
 
 #: ../docs/reference/codelists.md:0
 msgid "metricID"
-msgstr ""
+msgstr "metricID"
 
 #: ../docs/_static/codelists/metricID.csv:1
 msgid "demand"
@@ -1399,7 +1399,7 @@ msgstr "Para informar sobre la TIR proyectada o real"
 
 #: ../docs/reference/codelists.md:0
 msgid "milestoneCode"
-msgstr ""
+msgstr "milestoneCode"
 
 #: ../docs/_static/codelists/milestoneCode.csv:1
 msgid "Notes"
@@ -1599,7 +1599,7 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "milestoneStatus"
-msgstr ""
+msgstr "milestoneStatus"
 
 #: ../docs/_static/codelists/milestoneStatus.csv:1
 msgid "scheduled"
@@ -1668,7 +1668,7 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "milestoneType"
-msgstr ""
+msgstr "milestoneType"
 
 #: ../docs/_static/codelists/milestoneType.csv:1
 msgid "preProcurement"
@@ -1819,7 +1819,7 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "organizationRole"
-msgstr ""
+msgstr "organizationRole"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 #: ../docs/_static/codelists/riskAllocation.csv:1
@@ -1836,6 +1836,8 @@ msgid ""
 "The unit/body/department within a government that is tendering and "
 "contracting the project. The public counterpart in the PPP contract."
 msgstr ""
+"La unidad/cuerpo/departamento dentro de un gobierno que está licitando y "
+"contratando el proyecto. La contraparte pública en el contrato de APP."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 #: ../docs/_static/codelists/organizationRole.csv:1
@@ -1844,15 +1846,15 @@ msgstr ""
 #: ../docs/_static/codelists/organizationRole.csv:1
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "https://ppp-certification.com/ppp-certification-guide/glossary"
-msgstr ""
+msgstr "https://ppp-certification.com/ppp-certification-guide/glossary"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "bidder"
-msgstr ""
+msgstr "bidder"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Bidder"
-msgstr ""
+msgstr "Licitador"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1861,14 +1863,19 @@ msgid ""
 "of parties, each responsible for a specific element, such as constructing "
 "the infrastructure, supplying the equipment, or operating the business."
 msgstr ""
+"La empresa o un grupo de empresas, como un consorcio, que presenta una "
+"oferta en respuesta a una solicitud de propuesta. Un licitador podría ser "
+"una sola parte o un consorcio de partes, cada uno responsable de un elemento"
+" específico, como la construcción de la infraestructura, el suministro del "
+"equipo o la operación del negocio."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "qualifiedBidder"
-msgstr ""
+msgstr "qualifiedBidder"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Qualified bidder"
-msgstr ""
+msgstr "Licitante calificado"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1876,14 +1883,18 @@ msgid ""
 "Proposal (RFP) for a project in which the government only allows a limited "
 "number of pre-qualified bidders to proceed to the RFP phase."
 msgstr ""
+"Las partes invitadas a presentar una propuesta en respuesta a un llamado a "
+"propuestas (RFP) para un proyecto en el que el gobierno sólo permite a un "
+"número limitado de licitadores precalificados para proceder a la fase de "
+"llamado a propuestas."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "preferredBidder"
-msgstr ""
+msgstr "preferredBidder"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Preferred bidder"
-msgstr ""
+msgstr "Licitante preferido"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1892,6 +1903,10 @@ msgid ""
 "negotiations for) a PPP contract. The preferred bidder is awarded the "
 "contract and called to contract signature."
 msgstr ""
+"El licitador identificado al final del proceso de evaluación de ofertas como"
+" el socio preferido del gobierno para celebrar (o entrar en negociaciones "
+"finales) un contrato de APP. Se adjudica el contrato al licitador preferido "
+"y se le llama a firmar el contrato."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 #: ../docs/_static/codelists/riskAllocation.csv:1
@@ -1910,27 +1925,33 @@ msgid ""
 "government asset, and which is usually created under the form of a Special "
 "Purpose Vehicle or SPV."
 msgstr ""
+"La contraparte de la autoridad contratante en el contrato APP. Una entidad "
+"privada a la que se le ha concedido el contrato para construir y operar un "
+"activo gubernamental y que normalmente se crea bajo la forma de un Vehículo "
+"de Propósito Especial o SPV. "
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "leadBank"
-msgstr ""
+msgstr "leadBank"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Lead bank"
-msgstr ""
+msgstr "Lider del consorcio"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "A lead bank is a bank that oversees the arrangement of a loan syndication"
 msgstr ""
+"Un líder del consorcio es un banco que supervisa el arreglo de una "
+"sindicación de préstamos"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "lender"
-msgstr ""
+msgstr "lender"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Lender"
-msgstr ""
+msgstr "Prestador"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1938,14 +1959,17 @@ msgid ""
 "provide lending to the project: mainly banks and institutional investors "
 "through project bonds\""
 msgstr ""
+"El Programa de Certificación PPP de APMG define a los prestamistas como "
+"\"Instituciones que proporcionan préstamos al proyecto: principalmente "
+"bancos e inversores institucionales a través de bonos de proyectos\""
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "equityInvestor"
-msgstr ""
+msgstr "equityInvestor"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Equity investor"
-msgstr ""
+msgstr "Inversor de capital"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1953,27 +1977,31 @@ msgid ""
 "who finance a portion of the project’s capital expenditures (Capex), "
 "typically as share capital or subordinated debt\""
 msgstr ""
+"El Programa de Certificación PPP de APMG define a los inversores de capital "
+"como \"Inversores que financian una parte de los gastos de capital del "
+"proyecto (Capex), típicamente como capital social o deuda subordinada\""
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "consortiaMember"
-msgstr ""
+msgstr "consortiaMember"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Consortia member"
-msgstr ""
+msgstr "Miembro de los consorcios"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "One of a group of companies that has joined together to bid for a project."
 msgstr ""
+"Uno de un grupo de empresas que se han unido para licitar un proyecto."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "interestedParty"
-msgstr ""
+msgstr "interestedParty"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Interested party"
-msgstr ""
+msgstr "Parte interesada"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
@@ -1981,78 +2009,89 @@ msgid ""
 "purchasing tender documents or submitted clarification questions, but has "
 "not yet formally submitted a bid."
 msgstr ""
+"Una parte que haya manifestado su interés en el proyecto, por ejemplo, "
+"comprando documentos de licitación o presentado preguntas de aclaración, "
+"pero aún no ha presentado formalmente una oferta."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "grantor"
-msgstr ""
+msgstr "grantor"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Grantor"
-msgstr ""
+msgstr "Concedente"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "The party which grants a concession, a license or some other right."
-msgstr ""
+msgstr "La parte que otorga una concesión, una licencia u otro derecho."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "disqualifiedBidder"
-msgstr ""
+msgstr "disqualifiedBidder"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Disqualified bidder"
-msgstr ""
+msgstr "Licitador descalificado"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "A bidder which either did not pass the qualification stage of the evaluation"
 " process or did not pass the pre-qualification stage of the process."
 msgstr ""
+"Un licitante que no pasó la fase de calificación del proceso de evaluación o"
+" no pasó la etapa de precalificación del proceso."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "socialWitness"
-msgstr ""
+msgstr "socialWitness"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Social witness"
-msgstr ""
+msgstr "Testigo social"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "A social witness participates as an external observer in a public "
 "procurements process. They have a formal role as an observer."
 msgstr ""
+"Un testigo social participa como observador externo en un proceso de "
+"adquisiciones públicas. Tienen un papel formal como observador."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "otherWitness"
-msgstr ""
+msgstr "otherWitness"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Other witness"
-msgstr ""
+msgstr "Otro testigo"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "A witness attends one or more stages of the procurement process to observe "
 "proceedings."
 msgstr ""
+"Un testigo asiste a una o más etapas del proceso de adquisición para "
+"observar los procedimientos."
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "notary"
-msgstr ""
+msgstr "notary"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid "Notary"
-msgstr ""
+msgstr "Notario"
 
 #: ../docs/_static/codelists/organizationRole.csv:1
 msgid ""
 "A person authorized to perform certain legal formalities, especially to "
 "certify documents and proceedings."
 msgstr ""
+"Una persona autorizada para realizar ciertas formalidades legales, "
+"especialmente para certificar documentos y procedimientos."
 
 #: ../docs/reference/codelists.md:0
 msgid "riskAllocation"
-msgstr ""
+msgstr "riskAllocation"
 
 #: ../docs/_static/codelists/riskAllocation.csv:1
 msgid "The risk is retained wholly or mostly by government"
@@ -2095,7 +2134,7 @@ msgstr ""
 
 #: ../docs/reference/codelists.md:0
 msgid "riskCategory"
-msgstr ""
+msgstr "riskCategory"
 
 #: ../docs/_static/codelists/riskCategory.csv:1
 #: ../docs/_static/codelists/riskCategory.csv:1
@@ -2387,7 +2426,7 @@ msgstr "Todos los riesgos derivados del proyecto"
 
 #: ../docs/reference/codelists.md:0
 msgid "riskImpact"
-msgstr ""
+msgstr "riskImpact"
 
 #: ../docs/_static/codelists/riskImpact.csv:1
 #: ../docs/_static/codelists/riskLikelihood.csv:1
@@ -2433,7 +2472,7 @@ msgstr "El impacto de que ocurra el riesgo es alto"
 
 #: ../docs/reference/codelists.md:0
 msgid "riskLikelihood"
-msgstr ""
+msgstr "riskLikelihood"
 
 #: ../docs/_static/codelists/riskLikelihood.csv:1
 msgid "The probability of the risk occuring is low"
@@ -2449,7 +2488,7 @@ msgstr "La probabilidad de que ocurra el riesgo es alta"
 
 #: ../docs/reference/codelists.md:0
 msgid "votingRights"
-msgstr ""
+msgstr "votingRights"
 
 #: ../docs/_static/codelists/votingRights.csv:1
 msgid "none"

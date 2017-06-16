@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/extensions/documentation_details.md:0
 msgid "Documentation details"
-msgstr ""
+msgstr "Detalles de la documentación"
 
 #: ../docs/extensions/documentation_details.md:3
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../docs/extensions/documentation_details.md:0
 msgid "Providing enhanced documentation and document links"
-msgstr ""
+msgstr "Proveer mejor documentación y enlaces de documentos"
 
 #: ../docs/extensions/documentation_details.md:11
 msgid ""
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../docs/extensions/documentation_details.md:0
 msgid "Extension fields"
-msgstr ""
+msgstr "Campos de extensión"
 
 #: ../docs/Extension documentation_details:1
 msgid "Field"

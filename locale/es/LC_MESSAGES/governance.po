@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/governance.md:0
 msgid "History and governance"
-msgstr ""
+msgstr "Historia y gobernanza"
 
 #: ../docs/governance.md:3
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../docs/governance.md:0
 msgid "Development"
-msgstr ""
+msgstr "Desarrollo"
 
 #: ../docs/governance.md:7
 msgid ""
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../docs/governance.md:0
 msgid "Governance"
-msgstr ""
+msgstr "Gobernanza"
 
 #: ../docs/governance.md:10
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/reference/documents.md:0
 msgid "Documents"
-msgstr ""
+msgstr "Documentos"
 
 #: ../docs/reference/documents.md:3
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../docs/reference/documents.md:0
 msgid "Representation"
-msgstr ""
+msgstr "Representación"
 
 #: ../docs/reference/documents.md:9
 msgid ""
@@ -82,19 +82,19 @@ msgstr "Descripción"
 
 #: ../docs/sphinxcontrib-jsonschema:1
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: ../docs/sphinxcontrib-jsonschema:1
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: ../docs/sphinxcontrib-jsonschema:1
 msgid "Required"
-msgstr ""
+msgstr "Requerido"
 
 #: ../docs/reference/documents.md:0
 msgid "Types"
-msgstr ""
+msgstr "Tipos"
 
 #: ../docs/reference/documents.md:26
 msgid ""

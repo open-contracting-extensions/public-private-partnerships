@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "Milestone Extension"
-msgstr ""
+msgstr "Extensión de Hito"
 
 #: ../docs/extensions/milestones.md:3
 msgid ""
@@ -99,11 +99,11 @@ msgstr "Estos pueden ser modelados usando la extensión de hitos."
 
 #: ../docs/extensions/milestones.md:0
 msgid "Extension details"
-msgstr ""
+msgstr "Detalles de la extensión"
 
 #: ../docs/extensions/milestones.md:0
 msgid "Milestones by section"
-msgstr ""
+msgstr "Hitos por sección"
 
 #: ../docs/extensions/milestones.md:25
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "Milestone types"
-msgstr ""
+msgstr "Tipos de hitos"
 
 #: ../docs/extensions/milestones.md:40
 msgid ""
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "Milestone status"
-msgstr ""
+msgstr "Estado del hito"
 
 #: ../docs/extensions/milestones.md:52
 msgid ""
@@ -287,7 +287,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "dateMet"
-msgstr ""
+msgstr "dateMet"
 
 #: ../docs/extensions/milestones.md:61
 msgid ""
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "Milestone codes"
-msgstr ""
+msgstr "Códigos de hitos"
 
 #: ../docs/extensions/milestones.md:65
 msgid ""
@@ -325,7 +325,7 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "PPP Usage"
-msgstr ""
+msgstr "Uso de APP"
 
 #: ../docs/extensions/milestones.md:71
 msgid ""
@@ -356,11 +356,11 @@ msgstr ""
 
 #: ../docs/extensions/milestones.md:0
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"
 
 #: ../docs/extensions/milestones.md:0
 msgid "Notes:"
-msgstr ""
+msgstr "Notas:"
 
 #: ../docs/extensions/milestones.md:239
 msgid ""

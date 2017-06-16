@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "Framework reference"
-msgstr ""
+msgstr "Referencia del marco de referencia"
 
 #: ../docs/framework.md:7
 msgid ""
@@ -64,14 +64,20 @@ msgid ""
 "information on the stages of the contracting process can be found in the "
 "[publication timing section](timing.md)."
 msgstr ""
+"La cartografía de cada requisito en el marco  de referencia incluye una guía"
+" para el calendario de publicación, indicando si la información debe ser "
+"**P**ublicada, **R**epetida o **U**pdated (actualizada) en cada etapa del "
+"proceso de contratación. Más información sobre las etapas del proceso de "
+"contratación se puede encontrar en la [sección de calendario de "
+"publicación](timing.md)."
 
 #: ../docs/framework.md:0
 msgid "I. Basic Project Information"
-msgstr ""
+msgstr "I. Información Básica del Proyecto"
 
 #: ../docs/framework.md:0
 msgid "I.1. Name, location and sector"
-msgstr ""
+msgstr "I.1. Nombre, localización y sector"
 
 #: ../docs/framework.md:40
 msgid "Each project should have a name, location and sectoral classification."
@@ -180,7 +186,7 @@ msgstr "http://communications.gov.example/projects/example_ppp"
 
 #: ../docs/framework.md:0
 msgid "I.1.1. Project name and description"
-msgstr ""
+msgstr "I.1.1. Nombre y descripción del proyecto"
 
 #: ../docs/framework.md:69
 msgid ""
@@ -543,7 +549,7 @@ msgstr "Requerido"
 
 #: ../docs/framework.md:0
 msgid "I.1.2. Project sector"
-msgstr ""
+msgstr "I.1.2. Sector del proyecto"
 
 #: ../docs/framework.md:89
 msgid ""
@@ -565,7 +571,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.1.2.1. Project sector (additional)"
-msgstr ""
+msgstr "I.1.2.1. Sector del proyecto (adicional)"
 
 #: ../docs/framework.md:109
 msgid ""
@@ -589,7 +595,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.1.3. Project location"
-msgstr ""
+msgstr "I.1.3. Localización del proyecto"
 
 #: ../docs/framework.md:127
 msgid "The locations where a project is taking place can be specified using:"
@@ -622,11 +628,11 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.2. Sponsoring agency/department"
-msgstr ""
+msgstr "I.2. Agencia/departamento patrocinador"
 
 #: ../docs/framework.md:0
 msgid "I.2.1. Organization details"
-msgstr ""
+msgstr "I.2.1. Detalles de la organización"
 
 #: ../docs/framework.md:173
 msgid ""
@@ -636,6 +642,11 @@ msgid ""
 "block](_static/reference/#organization) for disclosure of information about "
 "organizations and their roles."
 msgstr ""
+"Los detalles de la agencia o departamento patrocinador, incluyendo el nombre"
+" y los detalles de contacto, que deben proporcionarse en la sección "
+"```parties``` de una entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:175 ../docs/framework.md:1076
 msgid ""
@@ -679,7 +690,7 @@ msgstr "publicAuthority"
 
 #: ../docs/framework.md:0
 msgid "I.2.2. Organization reference"
-msgstr ""
+msgstr "I.2.2. Referencia de la organización"
 
 #: ../docs/framework.md:227
 msgid ""
@@ -701,7 +712,7 @@ msgstr "publicAuthority/name"
 
 #: ../docs/framework.md:0
 msgid "I.3. Project value"
-msgstr ""
+msgstr "I.3. Valor del proyecto"
 
 #: ../docs/framework.md:262
 msgid "The value of a project can be specified at a number of points in time."
@@ -711,7 +722,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.3.1. Planned value"
-msgstr ""
+msgstr "I.3.1. Valor planeado"
 
 #: ../docs/framework.md:287
 msgid "The value, or range of values, anticipated during the planning stage."
@@ -720,7 +731,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.3.2. Tender value"
-msgstr ""
+msgstr "I.3.2. Valor de licitación"
 
 #: ../docs/framework.md:305
 msgid "The value, or range of values, in a call for tenders for the project."
@@ -730,7 +741,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.3.3. Award value"
-msgstr ""
+msgstr "I.3.3. Valor de la adjudicación"
 
 #: ../docs/framework.md:323
 msgid "The value of the project at time of contract award."
@@ -738,7 +749,7 @@ msgstr "El valor del proyecto en el momento de la adjudicación del contrato."
 
 #: ../docs/framework.md:0
 msgid "I.3.4. Contract value"
-msgstr ""
+msgstr "I.3.4. Valor del contrato"
 
 #: ../docs/framework.md:341
 msgid "The total value of the project agreed in the contract(s)."
@@ -746,7 +757,7 @@ msgstr "El valor total del proyecto acordado en el o los contrato(s)."
 
 #: ../docs/framework.md:0
 msgid "I.4. Project economic and social benefits"
-msgstr ""
+msgstr "I.4. Beneficios económicos y sociales del proyecto"
 
 #: ../docs/framework.md:357
 msgid ""
@@ -869,7 +880,7 @@ msgstr "Example Consultancy Services Ltd"
 
 #: ../docs/framework.md:0
 msgid "I.5. Project technical description"
-msgstr ""
+msgstr "I.5. Descripción técnica del proyecto"
 
 #: ../docs/framework.md:414
 msgid "Technical description of the physical infrastructure"
@@ -918,7 +929,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.6. Project high level description"
-msgstr ""
+msgstr "I.6. Descripción general del proyecto"
 
 #: ../docs/framework.md:454
 msgid "High-level description of the services"
@@ -939,7 +950,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.7. Estimated project demand"
-msgstr ""
+msgstr "I.7. Demanda estimada del proyecto"
 
 #: ../docs/framework.md:494
 msgid "Estimated demand to be served annually"
@@ -947,7 +958,7 @@ msgstr "Demanda estimada a ser servida anualmente"
 
 #: ../docs/framework.md:0
 msgid "I.7.1. Structured information on estimated demand"
-msgstr ""
+msgstr "I.7.1. Información estructurada sobre la demanda estimada"
 
 #: ../docs/framework.md:519
 msgid ""
@@ -1006,7 +1017,7 @@ msgstr "El tráfico anual 4G medido en gigabytes"
 
 #: ../docs/framework.md:0
 msgid "I.7.2. Estimated demand documentation"
-msgstr ""
+msgstr "I.7.2. Documentación de la demanda estimada"
 
 #: ../docs/framework.md:560
 msgid ""
@@ -1025,7 +1036,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.8. Project additionality"
-msgstr ""
+msgstr "I.8. Adicionalidad del proyecto"
 
 #: ../docs/framework.md:583
 msgid "Project additionality"
@@ -1063,7 +1074,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.9. Reasons for selection of PPP mode (general)"
-msgstr ""
+msgstr "I.9. Razones para la selección de la forma APP (general)"
 
 #: ../docs/framework.md:628
 msgid "Reason for selection of PPP mode and type in brief"
@@ -1087,7 +1098,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.10. Project approval dates"
-msgstr ""
+msgstr "I 10. Fechas de aprobación de proyectos"
 
 #: ../docs/framework.md:668
 msgid "Dates of various approvals"
@@ -1184,7 +1195,7 @@ msgstr "2015-01-01T00:00:00-06:00"
 
 #: ../docs/framework.md:0
 msgid "I.11. Contract Milestones"
-msgstr ""
+msgstr "I.11. Hitos del Contrato"
 
 #: ../docs/framework.md:724
 msgid "Key events relating to comercial and financial close"
@@ -1205,7 +1216,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.11.1. Contract milestones - Date of commercial close"
-msgstr ""
+msgstr "I.11.1. Hitos del contrato - Fecha de cierre comercial"
 
 #: ../docs/framework.md:742
 msgid "Contract Milestones (Estimated and Actual) - Date of commercial close"
@@ -1246,7 +1257,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.11.2. Contract milestones - Date of financial close"
-msgstr ""
+msgstr "I.11.2. Hitos del contrato - Fecha del cierre financiero"
 
 #: ../docs/framework.md:771
 msgid "Contract Milestones (Estimated and Actual) - Date of financial close"
@@ -1288,7 +1299,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.12. Implemenation milestones"
-msgstr ""
+msgstr "I.12. Hitos de implementación"
 
 #: ../docs/framework.md:802
 msgid "Key events relating to the implementation of the project."
@@ -1299,6 +1310,8 @@ msgid ""
 "I.12.1. Implemenation milestones - Date of commencement of construction or "
 "development"
 msgstr ""
+"I.12.1. Hitos de implementación - Fecha de inicio de la construcción o "
+"desarrollo"
 
 #: ../docs/framework.md:820
 msgid ""
@@ -1325,6 +1338,8 @@ msgid ""
 "I.12.2. Implementation milestones - Date of completion of construction or "
 "development"
 msgstr ""
+"I.12.2. Hitos de implementación - Fecha de terminación de la construcción o "
+"desarrollo"
 
 #: ../docs/framework.md:846
 msgid ""
@@ -1348,7 +1363,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.12.3. Implementation milestones - Date of commissioning"
-msgstr ""
+msgstr "I.12.3. Hitos de implementación - Fecha de puesta en marcha"
 
 #: ../docs/framework.md:871
 msgid "Contract Milestones (Estimated and Actual) - Date of commissioning"
@@ -1378,7 +1393,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.12.4. Implementation milestones - Date of contract expiry"
-msgstr ""
+msgstr "I.12.4. Hitos de implementación - Fecha de vencimiento del contrato"
 
 #: ../docs/framework.md:898
 msgid "Contract Milestones (Estimated and Actual) - Date of contract expiry"
@@ -1424,7 +1439,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.13. Contract documents"
-msgstr ""
+msgstr "I.13. Documentos del contrato"
 
 #: ../docs/framework.md:958
 msgid "Links to all contract documents"
@@ -1439,6 +1454,13 @@ msgid ""
 "which has [a number of available extensions for PPP use "
 "cases](../../extensions/documentation_details/)"
 msgstr ""
+"Los vínculos a los documentos contractuales pueden proporcionarse utilizando"
+" el campo ```documents``` en la sección ```contract``` de una entrega de "
+"OCDS (el contrato puede tener ```status``` de 'pending' hasta que esté "
+"firmado). El OCDS proporciona un [bloque de documentos] "
+"(_static/reference/#document)  para la divulgación de documentos que tiene "
+"[una serie de extensiones disponibles para casos de uso de "
+"APP](../../extensions/documentation_details/)"
 
 #: ../docs/framework.md:977
 msgid ""
@@ -1447,10 +1469,15 @@ msgid ""
 " be entered into the ```document/documentType``` field to identify the type "
 "of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) ( Debe introducirse ````contractDraft```,"
+" ```contractSigned``` or ```contractSchedules``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "I.14. Contract parties - public authority"
-msgstr ""
+msgstr "I.14. Partes del contrato - autoridad pública"
 
 #: ../docs/framework.md:995
 msgid ""
@@ -1472,7 +1499,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.14.1. Contract signatories"
-msgstr ""
+msgstr "I.14.1. Firmantes del contrato"
 
 #: ../docs/framework.md:1022
 msgid ""
@@ -1528,7 +1555,7 @@ msgstr "Mega Consortium Ltd"
 
 #: ../docs/framework.md:0
 msgid "I.14.2. Organization details"
-msgstr ""
+msgstr "I.14.2. Detalles de la organización"
 
 #: ../docs/framework.md:1074
 msgid ""
@@ -1537,10 +1564,15 @@ msgid ""
 "an [organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
+"Los detalles de la autoridad pública, incluyendo el nombre y los detalles de"
+" contacto, deben ser proporcionados en la sección ```parties``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:0
 msgid "I.14.3. Organization reference"
-msgstr ""
+msgstr "I.14.3. Referencia de la organización"
 
 #: ../docs/framework.md:1128
 msgid ""
@@ -1553,7 +1585,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.15. Contract parties - private party"
-msgstr ""
+msgstr "I.15. Partes del contrato - parte privada"
 
 #: ../docs/framework.md:1163
 msgid ""
@@ -1579,7 +1611,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.15.1. Contract signatories"
-msgstr ""
+msgstr "I.15.1. Firmantes del contrato"
 
 #: ../docs/framework.md:1176
 msgid ""
@@ -1593,7 +1625,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.15.2. Organization details"
-msgstr ""
+msgstr "I.15.2. Detalles de la organización"
 
 #: ../docs/framework.md:1213
 msgid ""
@@ -1602,6 +1634,11 @@ msgid ""
 "[organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
+"Los detalles de la parte privada, incluyendo el nombre y los detalles de "
+"contacto, deben ser proporcionados en la sección ```parties``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:1215
 msgid ""
@@ -1637,7 +1674,7 @@ msgstr "privateParty"
 
 #: ../docs/framework.md:0
 msgid "I.15.3. Organization reference"
-msgstr ""
+msgstr "I.15.3. Referencia de la organización"
 
 #: ../docs/framework.md:1252
 msgid ""
@@ -1662,7 +1699,7 @@ msgstr "Mega Consorcio"
 
 #: ../docs/framework.md:0
 msgid "I.16. Contract parties - financiers"
-msgstr ""
+msgstr "I.16. Partes del contrato - Financieros"
 
 #: ../docs/framework.md:1287
 msgid ""
@@ -1675,7 +1712,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "I.16.1. Organization details"
-msgstr ""
+msgstr "I.16.1. Detalles de la organización"
 
 #: ../docs/framework.md:1297
 msgid ""
@@ -1684,6 +1721,11 @@ msgid ""
 "[organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
+"Los detalles de los financieros, incluyendo el nombre y los detalles de "
+"contacto, deben ser proporcionados en la sección ```parties``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:1299
 msgid ""
@@ -1724,7 +1766,7 @@ msgstr "leadBank"
 
 #: ../docs/framework.md:0
 msgid "I.16.2. Contract signatories"
-msgstr ""
+msgstr "I.16.2. Firmantes de contratos"
 
 #: ../docs/framework.md:1336
 msgid ""
@@ -1738,7 +1780,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II. Procurement Information"
-msgstr ""
+msgstr "II. Información de Adquisiciones"
 
 #: ../docs/framework.md:1371
 msgid ""
@@ -1754,7 +1796,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.1. Pre qualification"
-msgstr ""
+msgstr "II.1. Pre-calificación"
 
 #: ../docs/framework.md:1379
 msgid ""
@@ -1770,7 +1812,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.1.1. Dates - Submission period"
-msgstr ""
+msgstr "II.1.1. Fechas - Periodo de presentación"
 
 #: ../docs/framework.md:1404
 msgid ""
@@ -1801,7 +1843,7 @@ msgstr "2015-11-30T00:00:00Z"
 
 #: ../docs/framework.md:0
 msgid "II.1.2. Dates - Enquiry period"
-msgstr ""
+msgstr "II.1.2. Fechas - Período de consulta"
 
 #: ../docs/framework.md:1456
 msgid ""
@@ -1826,7 +1868,7 @@ msgstr "2015-11-06T23:59:59Z"
 
 #: ../docs/framework.md:0
 msgid "II.1.3. Dates - Qualification period"
-msgstr ""
+msgstr "II.1.3. Fechas - Periodo de calificación"
 
 #: ../docs/framework.md:1508
 msgid ""
@@ -1856,7 +1898,7 @@ msgstr "2015-12-01T23:59:59Z"
 
 #: ../docs/framework.md:0
 msgid "II.1.4. Summary details - Submission method"
-msgstr ""
+msgstr "II.1.4. Resumen de detalles - Método de presentación"
 
 #: ../docs/framework.md:1560
 msgid ""
@@ -1889,7 +1931,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.1.5. Summary details - Eligibility criteria"
-msgstr ""
+msgstr "II.1.5. Resumen de detalles - Criterios de elegibilidad"
 
 #: ../docs/framework.md:1614
 msgid ""
@@ -1913,7 +1955,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.1.6. RFQ documents"
-msgstr ""
+msgstr "II.1.6. Documentos de solicitud de oferta"
 
 #: ../docs/framework.md:1651
 msgid "RFQ documents"
@@ -1943,6 +1985,10 @@ msgid ""
 "[document building block](_static/reference/#document) for disclosure of "
 "documents."
 msgstr ""
+"Pueden proporcionarse enlaces a documentos de RFQ utilizando el campo "
+"```documents``` en la sección ```prequalification``` de una versión de OCDS."
+" El OCDS proporciona un [bloque de documento](_static/reference/#document) "
+"para la divulgación de documentos."
 
 #: ../docs/framework.md:1659 ../docs/framework.md:3215
 #: ../docs/framework.md:3583 ../docs/framework.md:3722
@@ -1953,10 +1999,13 @@ msgid ""
 "should be entered into the ```document/documentType``` field to identify the"
 " type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) en el campo ```document/documentType``` "
+"para identificar el tipo de documento que se está divulgando."
 
 #: ../docs/framework.md:0
 msgid "II.2. List of pre-qualified suppliers"
-msgstr ""
+msgstr "II.2. Lista de proveedores pre-calificados"
 
 #: ../docs/framework.md:1677
 msgid "Pre-qualification or shortlist"
@@ -1968,6 +2017,9 @@ msgid ""
 "block](_static/reference/#organization) which can be used for disclosure of "
 "information about bidders and their roles:"
 msgstr ""
+"El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) que puede utilizarse para la "
+"divulgación de información sobre los licitadores y sus funciones:"
 
 #: ../docs/framework.md:1681
 msgid ""
@@ -2005,7 +2057,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3. Tender"
-msgstr ""
+msgstr "II.3. Licitación"
 
 #: ../docs/framework.md:1701
 msgid ""
@@ -2019,7 +2071,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.1. Dates - Tender period"
-msgstr ""
+msgstr "II.3.1. Fechas - Período de licitación"
 
 #: ../docs/framework.md:1726
 msgid ""
@@ -2050,7 +2102,7 @@ msgstr "2016-08-08T01:00:00+02:00"
 
 #: ../docs/framework.md:0
 msgid "II.3.2. Dates - Enquiry period"
-msgstr ""
+msgstr "II.3.2. Fechas - Período de consulta"
 
 #: ../docs/framework.md:1778
 msgid ""
@@ -2127,7 +2179,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.3. Dates - Award period"
-msgstr ""
+msgstr "II.3.2. Fechas - Período de adjudicación"
 
 #: ../docs/framework.md:1835
 msgid ""
@@ -2151,7 +2203,7 @@ msgstr "2016-12-09T01:00:00+01:00"
 
 #: ../docs/framework.md:0
 msgid "II.3.4. Dates - Contract period"
-msgstr ""
+msgstr "II.3.4. Fechas - Período de contratación"
 
 #: ../docs/framework.md:1887
 msgid ""
@@ -2163,7 +2215,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.5. Summary details - Procurement method"
-msgstr ""
+msgstr "II.3.5. Resumen de detalles - Método de adquisición"
 
 #: ../docs/framework.md:1941
 msgid ""
@@ -2209,7 +2261,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.6. Summary details - Submission method"
-msgstr ""
+msgstr "II.3.6. Resumen de detalles - Método de presentación"
 
 #: ../docs/framework.md:1995
 msgid ""
@@ -2251,7 +2303,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.7. Summary details - Eligibility criteria"
-msgstr ""
+msgstr "II.3.7. Resumen de detalles - Criterios de elegibilidad"
 
 #: ../docs/framework.md:2049
 msgid ""
@@ -2276,7 +2328,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.9. Other Documents"
-msgstr ""
+msgstr "II.3.9. Otros documentos"
 
 #: ../docs/framework.md:2103
 msgid ""
@@ -2287,16 +2339,26 @@ msgid ""
 "```tender/documents``` array. A short summary text for each document can "
 "also be provided using the ```document/description``` field."
 msgstr ""
+"Los enlaces a los documentos de adquisiciones, los estudios de viabilidad, "
+"incluida la adquisición de terrenos, la información social, ambiental y de "
+"rehabilitación y los informes de auditores independientes de adquisiciones "
+"deben proporcionarse utilizando el [bloque de "
+"documentos](_static/reference/#document) en la matriz de "
+"```tender/documents```. También se puede proporcionar un breve texto de "
+"resumen para cada documento utilizando el campo ```document/description```."
 
 #: ../docs/framework.md:2105
 msgid ""
 "Each document should be tagged with an appropriate ```documentType``` value "
 "from the [document type codelist](_static/codelists/#document-type)."
 msgstr ""
+"Cada documento debe estar etiquetado con un valor ```documentType``` "
+"apropiado de la [lista de códigos del tipo de documento](_static/codelists"
+"/#document-type)."
 
 #: ../docs/framework.md:0
 msgid "II.4. Evaluation criteria"
-msgstr ""
+msgstr "II.4. Criterios de evaluación"
 
 #: ../docs/framework.md:2123
 msgid "Evaluation criteria: brief description with weightage"
@@ -2309,6 +2371,10 @@ msgid ""
 "provides a [document building block](_static/reference/#document) for "
 "disclosure of documents."
 msgstr ""
+"Esto debe proporcionarse en un documento o documentos utilizando el campo "
+"```documents``` en la sección``` tender``` de una entrega de OCDS. El OCDS "
+"proporciona un [bloque de documentos](_static/reference/#document) para la "
+"divulgación de documentos."
 
 #: ../docs/framework.md:2127 ../docs/framework.md:2151
 #: ../docs/framework.md:2175 ../docs/framework.md:2200
@@ -2338,10 +2404,14 @@ msgid ""
 "codelist](_static/codelists/#document-type)) to identify the type of "
 "document being disclosed."
 msgstr ""
+"El campo ```document/documentType``` debe establecerse en "
+"```evaluationCriteria``` (de la [lista de códigos tipo de "
+"documento](_static/codelists/#document-type)) para identificar el tipo de "
+"documento divulgado."
 
 #: ../docs/framework.md:0
 msgid "II.5. Evaluation committee information"
-msgstr ""
+msgstr "II.5. Información del comité de evaluación"
 
 #: ../docs/framework.md:2147
 msgid "Brief information on constitution of the evaluation committees"
@@ -2355,6 +2425,10 @@ msgid ""
 "provides a [document building block](_static/reference/#document) for "
 "disclosure of documents."
 msgstr ""
+"Esta información puede ser proporcionada en un documento o documentos "
+"utilizando el campo ```documents``` en la sección ``` tender``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:2153
 msgid ""
@@ -2363,10 +2437,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de ```evaluationCommittee``` de la [lista de "
+"códigos de tipo de documento](_static/codelists/#document-type) en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "II.6. Negotiation parameters"
-msgstr ""
+msgstr "II.6. Parámetros de negociación"
 
 #: ../docs/framework.md:2171
 msgid ""
@@ -2383,10 +2461,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos de tipo de "
+"documento](_static/codelists/#document-type) de ```negotiationParameters```"
+"  en el campo ```document/documentType``` para identificar el tipo de "
+"documento que se divulga."
 
 #: ../docs/framework.md:0
 msgid "II.7. Pre-bid meeting minutes"
-msgstr ""
+msgstr "II.7. Minutas de la reunión previa a la oferta"
 
 #: ../docs/framework.md:2196
 msgid "Minutes of pre-bid meetings"
@@ -2398,14 +2480,18 @@ msgid ""
 "of ```minutes``` should be entered into the ```document/documentType``` "
 "field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```minutes``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "II.8. Contract award"
-msgstr ""
+msgstr "II.8. Adjudicación del contrato"
 
 #: ../docs/framework.md:0
 msgid "II.8.1. Organization details"
-msgstr ""
+msgstr "II.8.1. Detalles de la organización"
 
 #: ../docs/framework.md:2230
 msgid ""
@@ -2414,6 +2500,11 @@ msgid ""
 "an [organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
+"Los detalles del licitador preferido, incluyendo el nombre y los detalles de"
+" contacto, deben ser proporcionados en la sección ```parties``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:2232
 msgid ""
@@ -2431,7 +2522,7 @@ msgstr "preferredBidder"
 
 #: ../docs/framework.md:0
 msgid "II.8.2. Organization reference"
-msgstr ""
+msgstr "II.8.2. Referencia de la organización"
 
 #: ../docs/framework.md:2269
 msgid ""
@@ -2444,11 +2535,11 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "III. Risk"
-msgstr ""
+msgstr "III. Riesgo"
 
 #: ../docs/framework.md:0
 msgid "III.1. Individual risk allocation information"
-msgstr ""
+msgstr "III.1. Información de asignación de riesgos individuales"
 
 #: ../docs/framework.md:2312
 msgid ""
@@ -2479,7 +2570,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "III.1.1. Structured risk allocation information"
-msgstr ""
+msgstr "III.1.1. Información estructurada sobre la asignación de riesgos"
 
 #: ../docs/framework.md:2324
 msgid ""
@@ -2685,7 +2776,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "III.1.2. Additional financial modelling for risks"
-msgstr ""
+msgstr "III.1.2. Modelación financiera de los riesgos adicional"
 
 #: ../docs/framework.md:2370
 msgid ""
@@ -2698,11 +2789,11 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IV. Evaluation of PPP option"
-msgstr ""
+msgstr "IV. Evaluación de la opción APP"
 
 #: ../docs/framework.md:0
 msgid "IV.1. Evaluation report"
-msgstr ""
+msgstr "IV.1. Reporte de evaluación"
 
 #: ../docs/framework.md:2396
 msgid "Link to evaluation report (value for money or other)"
@@ -2716,6 +2807,10 @@ msgid ""
 "provides a [document building block](_static/reference/#document) for "
 "disclosure of documents."
 msgstr ""
+"Esta información puede ser proporcionada en un documento o documentos "
+"utilizando el campo ```documents``` en la sección ``` tender``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:2402
 msgid ""
@@ -2724,14 +2819,18 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de "
+"documento](_static/codelists/#document-type) de ```evaluationReports``` en "
+"el campo ```document/documentType```  para identificar el tipo de documento "
+"que se divulga."
 
 #: ../docs/framework.md:0
 msgid "IV.2. Summary data"
-msgstr ""
+msgstr "IV.2. Datos resumidos"
 
 #: ../docs/framework.md:0
 msgid "IV.2.1. Rationale for project as PPP (specific)"
-msgstr ""
+msgstr "IV.2.1. Justificación del proyecto como APP (específico)"
 
 #: ../docs/framework.md:2428
 msgid ""
@@ -2763,10 +2862,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Un valor de la [lista de códigos de tipo de documento](_static/codelists"
+"/#document-type) de ```valueForMoneyAnalysis``` debe ingresarse en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"divulga."
 
 #: ../docs/framework.md:0
 msgid "IV.2.2.1. Discount rate and risk premium - structured data."
-msgstr ""
+msgstr "IV.2.2.1. Tasa de descuento y prima de riesgo - datos estructurados."
 
 #: ../docs/framework.md:2454
 msgid ""
@@ -2834,6 +2937,7 @@ msgstr "Basado en la actual tasa de bonos del sector público a largo plazo"
 #: ../docs/framework.md:0
 msgid "IV.2.2.2. Discount rate and risk premium - supporting documentation"
 msgstr ""
+"IV.2.2.2. Tasa de descuento y prima de riesgo - documentación de apoyo"
 
 #: ../docs/framework.md:2493
 msgid ""
@@ -2843,6 +2947,11 @@ msgid ""
 "release. OCDS provides a [document building "
 "block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"Se puede proporcionar documentación de apoyo sobre la tasa de descuento y la"
+" prima de riesgo utilizada por el gobierno para evaluar la APP  en un "
+"documento o documentos usando el campo `` `documents`` en la sección` `` "
+"award``` de una entrega de OCDS . OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:2497
 msgid ""
@@ -2850,10 +2959,14 @@ msgid ""
 "of ```discountRate``` should be entered into the ```document/documentType```"
 " field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```minutes``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "IV.2.3. Risk comparison"
-msgstr ""
+msgstr "IV.2.3. Comparación de riesgos"
 
 #: ../docs/framework.md:2515
 msgid "Risk comparison of other financing mechanisms should be specified."
@@ -2868,14 +2981,18 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se deber introducir un valor de la [lista de códigos del tipo de "
+"documento](_static/codelists/#document-type) de ```riskComparison``` en el "
+"campo ```document/documentType``` para identificar el tipo de documento que "
+"se divulga."
 
 #: ../docs/framework.md:0
 msgid "V. Financial Information"
-msgstr ""
+msgstr "V. Información Financiera"
 
 #: ../docs/framework.md:0
 msgid "V.1. Debt-equity ratio"
-msgstr ""
+msgstr "V.1. Proporción de capital de la deuda"
 
 #: ../docs/framework.md:2547
 msgid "Debt-equity ratio"
@@ -2915,7 +3032,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.2. Share capital"
-msgstr ""
+msgstr "V.2. Capital accionario"
 
 #: ../docs/framework.md:2586
 msgid "Share capital"
@@ -2944,7 +3061,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.3. Shareholders with proportion held and voting rights"
-msgstr ""
+msgstr "V.3. Accionistas con proporción mantenida y derechos de voto"
 
 #: ../docs/framework.md:2625
 msgid "Shareholders with proportion held and voting rights"
@@ -2952,7 +3069,7 @@ msgstr "Accionistas con proporción mantenida y derechos de voto"
 
 #: ../docs/framework.md:0
 msgid "V.3.1. Shareholder organization details"
-msgstr ""
+msgstr "V.3.1. Detalles de organización de accionistas"
 
 #: ../docs/framework.md:2635
 msgid ""
@@ -2961,6 +3078,10 @@ msgid ""
 "block](_static/reference/#organization) for disclosure of information about "
 "organizations and their roles."
 msgstr ""
+"Los detalles de los accionistas deben proporcionarse en la sección "
+"```parties``` de una entrega de OCDS. El OCDS proporciona un [bloque de "
+"organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:2637
 msgid ""
@@ -2982,7 +3103,7 @@ msgstr "equityInvestor"
 
 #: ../docs/framework.md:0
 msgid "V.3.1. Proportion held and voting rights"
-msgstr ""
+msgstr "V.3.1. Proporción mantenida y derechos de voto"
 
 #: ../docs/framework.md:2674
 msgid ""
@@ -3063,7 +3184,7 @@ msgstr "ninguna"
 
 #: ../docs/framework.md:0
 msgid "V.4. Equity transfer caps"
-msgstr ""
+msgstr "V.4. Topes de transferencia de capital"
 
 #: ../docs/framework.md:2709
 msgid "Equity transfer caps"
@@ -3082,7 +3203,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.4.1. Documentation of equity transfer caps"
-msgstr ""
+msgstr "V.4.1. Documentación de los topes de transferencia de capital"
 
 #: ../docs/framework.md:2721 ../docs/framework.md:2991
 msgid ""
@@ -3091,6 +3212,10 @@ msgid ""
 " provides a [document building block](_static/reference/#document) for "
 "disclosure of documents."
 msgstr ""
+"Esta información puede ser proporcionada en un documento o documentos "
+"utilizando el campo ```documents``` en la sección ``` tender``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:2725
 msgid ""
@@ -3099,10 +3224,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos de tipo de "
+"documento](_static/codelists/#document-type) de ```equityTransferCaps``` en "
+"el campo ```document/documentType```  para identificar el tipo de documento "
+"que se divulga."
 
 #: ../docs/framework.md:0
 msgid "V.4.2. Individual shareholder lock in arrangements"
-msgstr ""
+msgstr "V.4.2. Bloqueo individual de los accionistas en los acuerdos"
 
 #: ../docs/framework.md:2745
 msgid ""
@@ -3136,7 +3265,7 @@ msgstr "parties/0/shareholders/0/notes"
 
 #: ../docs/framework.md:0
 msgid "V.5. Lender and investor information"
-msgstr ""
+msgstr "V.5. Información de prestamistas e inversores"
 
 #: ../docs/framework.md:2780
 msgid ""
@@ -3149,7 +3278,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.5.1. Organization information"
-msgstr ""
+msgstr "V.5.1. Información de la organización"
 
 #: ../docs/framework.md:2790
 msgid ""
@@ -3158,6 +3287,10 @@ msgid ""
 "block](_static/reference/#organization) for disclosure of information about "
 "organizations and their roles."
 msgstr ""
+"Los detalles de los prestamistas y accionistas deben proporcionarse en la "
+"sección ```parties``` de una entrega de OCDS. El OCDS proporciona un [bloque"
+" de organización](_static/reference/#organization) para la divulgación de "
+"información sobre las organizaciones y sus funciones."
 
 #: ../docs/framework.md:2792
 msgid ""
@@ -3169,7 +3302,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.5.2. Financing information"
-msgstr ""
+msgstr "V.5.2. Información Financiera"
 
 #: ../docs/framework.md:2829
 msgid ""
@@ -3240,7 +3373,7 @@ msgstr "30.4"
 
 #: ../docs/framework.md:0
 msgid "V.6. Debt information"
-msgstr ""
+msgstr "V.6. Información de la deuda"
 
 #: ../docs/framework.md:2864
 msgid "Categorize senior debit, mezzanine debit, other"
@@ -3264,7 +3397,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.7. Rate information"
-msgstr ""
+msgstr "V.7. Información de Tasas"
 
 #: ../docs/framework.md:2905
 msgid "Amount and tenor of each, fixed or floating rate"
@@ -3297,7 +3430,7 @@ msgstr "LIBOR"
 
 #: ../docs/framework.md:0
 msgid "V.8. Security information"
-msgstr ""
+msgstr "V.8. Informacion de seguridad"
 
 #: ../docs/framework.md:2942
 msgid "Security and step in arrangements"
@@ -3305,7 +3438,7 @@ msgstr "Seguridad y trámites de intervención"
 
 #: ../docs/framework.md:0
 msgid "V.8.1. Structured security and step in information"
-msgstr ""
+msgstr "V.8.1. Seguridad estructurada e información de intervención"
 
 #: ../docs/framework.md:2952
 msgid ""
@@ -3322,7 +3455,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.8.2. Security and step in documentation"
-msgstr ""
+msgstr "V.8.2. Seguridad y documentación de intervención"
 
 #: ../docs/framework.md:2995
 msgid ""
@@ -3331,10 +3464,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```financeArrangements``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "V.9. Forecast IRR"
-msgstr ""
+msgstr "V.9. Previsión de TIR "
 
 #: ../docs/framework.md:3013
 msgid "Forecast IRR"
@@ -3360,11 +3497,11 @@ msgstr "0.043"
 
 #: ../docs/framework.md:0
 msgid "VI. Government Support"
-msgstr ""
+msgstr "VI. Apoyo gubernamental"
 
 #: ../docs/framework.md:0
 msgid "VI.1. Guarantee information"
-msgstr ""
+msgstr "VI.1. Información de garantía"
 
 #: ../docs/framework.md:3060
 msgid ""
@@ -3382,7 +3519,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.1.1. Structured information on guarantees"
-msgstr ""
+msgstr "VI.1.1. Información estructurada sobre garantías"
 
 #: ../docs/framework.md:3070
 msgid ""
@@ -3399,7 +3536,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.1.2.. Guarantee documentation"
-msgstr ""
+msgstr "VI.1.2. Documentación de garantía"
 
 #: ../docs/framework.md:3088
 msgid ""
@@ -3422,11 +3559,11 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.2. Grant/Subsidy information"
-msgstr ""
+msgstr "VI.2. Información de subvención/subsidio"
 
 #: ../docs/framework.md:0
 msgid "VI.2.1. Subsidy as a proportion of project value"
-msgstr ""
+msgstr "VI.2.1. Subvención como proporción del valor del proyecto"
 
 #: ../docs/framework.md:3114
 msgid "Subsidy as a proportion of project value"
@@ -3436,6 +3573,8 @@ msgstr "Subvención como proporción del valor del proyecto"
 msgid ""
 "VI.2.1. Structured information on subsidy as a proportion of project value"
 msgstr ""
+"VI.2.1. Información estructurada sobre el subsidio como proporción del valor"
+" del proyecto"
 
 #: ../docs/framework.md:3124
 msgid ""
@@ -3459,6 +3598,8 @@ msgstr "0"
 msgid ""
 "VI.2.1. Supporting documentation on subsidy as a proportion of project value"
 msgstr ""
+"VI.2.1. Documentación de apoyo sobre la subvención como proporción del valor"
+" del proyecto"
 
 #: ../docs/framework.md:3163
 msgid ""
@@ -3467,6 +3608,11 @@ msgid ""
 "```contract``` section of an OCDS release. OCDS provides a [document "
 "building block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"La documentación de respaldo sobre el índice de subsidio puede ser "
+"proporcionada en un documento o documentos utilizando el campo "
+"```documents``` en la sección ``` contract``` de una entrega de OCDS. El "
+"OCDS proporciona un [bloque de documento](_static/reference/#document) para "
+"la divulgación de documentos."
 
 #: ../docs/framework.md:3167 ../docs/framework.md:3191
 msgid ""
@@ -3474,10 +3620,14 @@ msgid ""
 "of ```grants``` should be entered into the ```document/documentType``` field"
 " to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```grants``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VI.2.2. Supporting documentation on capital subsidies"
-msgstr ""
+msgstr "VI.2.2. Documentación de apoyo sobre subvenciones de capital"
 
 #: ../docs/framework.md:3185
 msgid ""
@@ -3499,10 +3649,14 @@ msgid ""
 " provides a [document building block](_static/reference/#document) for "
 "disclosure of documents."
 msgstr ""
+"Esta información puede ser proporcionada en un documento o documentos "
+"utilizando el campo ```documents``` en la sección ``` contract``` de una "
+"entrega de OCDS. El OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:0
 msgid "VI.2.3. Supporting documentation on operating subsidies"
-msgstr ""
+msgstr "VI.2.3. Documentación de apoyo sobre subsidios de funcionamiento"
 
 #: ../docs/framework.md:3209
 msgid "Operating subsidies and their periodicity of milestones"
@@ -3510,7 +3664,7 @@ msgstr "Subsidios de explotación y periodicidad de los hitos"
 
 #: ../docs/framework.md:0
 msgid "VI.3. Service payment information"
-msgstr ""
+msgstr "VI.3. Información sobre pago del servicio"
 
 #: ../docs/framework.md:3233
 msgid ""
@@ -3524,6 +3678,7 @@ msgstr ""
 #: ../docs/framework.md:0
 msgid "VI.3.1. Structured information on individual service payments"
 msgstr ""
+"VI.3.1. Información estructurada sobre pagos de servicios individuales"
 
 #: ../docs/framework.md:3243
 msgid ""
@@ -3567,7 +3722,7 @@ msgstr "2017-04-01T00:00:00-06:00"
 
 #: ../docs/framework.md:0
 msgid "VI.3.2. Structured information on total service payments"
-msgstr ""
+msgstr "VI.3.2. Información estructurada sobre los pagos totales del servicio"
 
 #: ../docs/framework.md:3278
 msgid "Total payments and periodicity"
@@ -3849,7 +4004,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.3.3. Service payment calculation methodology"
-msgstr ""
+msgstr "VI.3.3. Metodología de cálculo del pago de servicios"
 
 #: ../docs/framework.md:3315
 msgid "Methodology for calculating payments"
@@ -3862,10 +4017,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```servicePayments``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VI.3.4. Service payment indexation"
-msgstr ""
+msgstr "VI.3.4. Indización de pagos por servicios"
 
 #: ../docs/framework.md:3339
 msgid "Indexation used"
@@ -3874,6 +4033,7 @@ msgstr "Indexación utilizada"
 #: ../docs/framework.md:0
 msgid "VI.4. Land leases, asset transfers information"
 msgstr ""
+"VI.4. Arrendamientos de tierras, información de transferencias de activos"
 
 #: ../docs/framework.md:3363
 msgid ""
@@ -3905,10 +4065,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Debe introducirse un valor de la [lista de códigos del tipo de "
+"documento](_static/codelists/#document-type) de ```lease``` o "
+"```assetTransfer```  en el campo ```document/documentType``` para "
+"identificar el tipo de documento que se divulga."
 
 #: ../docs/framework.md:0
 msgid "VI.5. Other support"
-msgstr ""
+msgstr "VI.5. Otro apoyo"
 
 #: ../docs/framework.md:3389
 msgid "Non-complete clauses"
@@ -3925,10 +4089,14 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de [lista de códigos de tipo de "
+"documento](_static/codelists/#document-type) de ```otherGovernmentSupport```"
+" en el campo ```document/documentType``` para identificar el tipo de "
+"documento que se divulga."
 
 #: ../docs/framework.md:0
 msgid "VI.6. Revenue share information"
-msgstr ""
+msgstr "VI.6. Información sobre la participación en los ingresos"
 
 #: ../docs/framework.md:3414
 msgid "Revenue share on base case"
@@ -3944,7 +4112,7 @@ msgstr "Enlaces a gráficas: pagos anuales del concesionario al gobierno"
 
 #: ../docs/framework.md:0
 msgid "VI.6.1. Revenue share agreed in contract"
-msgstr ""
+msgstr "VI.6.1. Participación de ingresos acordada en contrato"
 
 #: ../docs/framework.md:3430 ../docs/framework.md:3454
 msgid ""
@@ -3952,10 +4120,15 @@ msgid ""
 "of ```revenueShare``` should be entered into the ```document/documentType```"
 " field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de "
+"documento](_static/codelists/#document-type) de ```revenueShare``` en el "
+"campo ```document/documentType```  para identificar el tipo de documento que"
+" se divulga."
 
 #: ../docs/framework.md:0
 msgid "VI.6.2. Revenue share in operation during contract"
 msgstr ""
+"VI.6.2. Participación de los ingresos en operación durante el contrato"
 
 #: ../docs/framework.md:3450 ../docs/framework.md:3997
 #: ../docs/framework.md:4103
@@ -3965,14 +4138,18 @@ msgid ""
 "release. OCDS provides a [document building "
 "block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"Esta información debe proporcionarse en un documento o documentos utilizando"
+" el campo ```documents``` en la sección ``` implementation``` de una entrega"
+" de OCDS. El OCDS proporciona un [bloque de "
+"documentos](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:0
 msgid "VII. Tariffs"
-msgstr ""
+msgstr "VII. Tarifas"
 
 #: ../docs/framework.md:0
 msgid "VII.1. Tariffs and pricing"
-msgstr ""
+msgstr "VII.1. Tarifas y precios"
 
 #: ../docs/framework.md:3480
 msgid "Tariffs and pricing"
@@ -4001,7 +4178,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VII.1.1. Structured tariff and pricing information"
-msgstr ""
+msgstr "VII.1.1. Información estructurada de tarifas y precios"
 
 #: ../docs/framework.md:3492
 msgid ""
@@ -4050,7 +4227,7 @@ msgstr "Precio al por mayor de sms por mensaje"
 
 #: ../docs/framework.md:0
 msgid "VII.1.2. Tariff and pricing documentation"
-msgstr ""
+msgstr "VII.1.2. Documentación de tarifas y precios"
 
 #: ../docs/framework.md:3531
 msgid ""
@@ -4061,6 +4238,14 @@ msgid ""
 "```implementation``` section of an OCDS release. OCDS provides a [document "
 "building block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"Las tarifas y los cronogramas de precios definidas en el contrato también "
+"pueden proporcionarse en un documento o documentos utilizando el campo "
+"```documents``` en la sección ```contract``` de una entrega de OCDS. Las "
+"revisiones posteriores de las tarifas y las tablas de precios pueden "
+"proporcionarse en el campo ```documents``` de la sección "
+"```implementation``` de una entrega de OCDS. El OCDS proporciona un [bloque "
+"de documento](_static/reference/#document) para la divulgación de "
+"documentos."
 
 #: ../docs/framework.md:3535
 msgid ""
@@ -4068,10 +4253,14 @@ msgid ""
 "of ```tariffs``` should be entered into the ```document/documentType``` "
 "field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```tariffs``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VII.2. Tariff setting methodology"
-msgstr ""
+msgstr "VII.2. Metodología de fijación de tarifas"
 
 #: ../docs/framework.md:3553
 msgid "Methodology for tariff setting/pricing"
@@ -4083,14 +4272,18 @@ msgid ""
 "of ```tariffMethod``` should be entered into the ```document/documentType```"
 " field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```tariffMethod``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VII.3. Tariff review mechanism"
-msgstr ""
+msgstr "VII.3. Mecanismo de revisión de tarifas"
 
 #: ../docs/framework.md:0
 msgid "VII.4. Tariff change illustrations"
-msgstr ""
+msgstr "VII.4. Ilustraciones de cambio de tarifas"
 
 #: ../docs/framework.md:3607
 msgid ""
@@ -4099,14 +4292,18 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```tariffIllustration``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VIII. Contract Termination"
-msgstr ""
+msgstr "VIII. Terminación de contrato"
 
 #: ../docs/framework.md:0
 msgid "VIII.1. Events of default and termination payments"
-msgstr ""
+msgstr "VIII.1. Eventos de pagos por incumplimiento y terminación"
 
 #: ../docs/framework.md:3633
 msgid ""
@@ -4128,6 +4325,10 @@ msgid ""
 "an OCDS release. OCDS provides a [document building "
 "block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"La provisión para la terminación del contrato debe ser proporcionada en un "
+"documento o documentos usando el campo ```documents`` en la sección "
+"```contract``` de una entrega de OCDS. El OCDS proporciona un [bloque de "
+"documento](_static/reference/#document) para la divulgación de documentos."
 
 #: ../docs/framework.md:3637 ../docs/framework.md:3661
 #: ../docs/framework.md:3814 ../docs/framework.md:3838
@@ -4147,10 +4348,14 @@ msgid ""
 "of ```termination``` should be entered into the ```document/documentType``` "
 "field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```termination``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "VIII.2. Handover information"
-msgstr ""
+msgstr "VIII.2. Información de entrega"
 
 #: ../docs/framework.md:3657
 msgid ""
@@ -4168,14 +4373,18 @@ msgid ""
 "of ```handover``` should be entered into the ```document/documentType``` "
 "field to identify the type of document being disclosed."
 msgstr ""
+"Se debe introducir un valor de la [lista de códigos del tipo de documento] "
+"(_static/codelists/#document-type) de ```handover``` en el campo "
+"```document/documentType``` para identificar el tipo de documento que se "
+"está divulgando."
 
 #: ../docs/framework.md:0
 msgid "IX. Renegotiations"
-msgstr ""
+msgstr "IX. Renegociaciones"
 
 #: ../docs/framework.md:0
 msgid "IX.1. Contract variation details"
-msgstr ""
+msgstr "IX.1. Detalles de variación en el contrato"
 
 #: ../docs/framework.md:3689
 msgid ""
@@ -4245,7 +4454,7 @@ msgstr "7.1.1"
 
 #: ../docs/framework.md:0
 msgid "IX.1.1. Contract docuemnts"
-msgstr ""
+msgstr "IX.1.1. Documentos contractuales"
 
 #: ../docs/framework.md:3718
 msgid ""
@@ -4253,6 +4462,10 @@ msgid ""
 "the ```contract``` section of an OCDS release. OCDS provides a [document "
 "building block](_static/reference/#document) for disclosure of documents."
 msgstr ""
+"El contrato enmendado debe proporcionarse utilizando el campo "
+"```documents``` en la sección ```contract``` de una entrega de OCDS. El OCDS"
+" proporciona un [bloque de documento](_static/reference/#document) para la "
+"divulgación de documentos."
 
 #: ../docs/framework.md:3720
 msgid ""
@@ -4267,7 +4480,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.2. Description"
-msgstr ""
+msgstr "IX.1.2. Descripción"
 
 #: ../docs/framework.md:3738
 msgid "Nature of Variation"
@@ -4283,7 +4496,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.3. Rationale"
-msgstr ""
+msgstr "IX.1.3. Justificación"
 
 #: ../docs/framework.md:3756
 msgid "Rationale for variation"
@@ -4298,7 +4511,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.4. Parties"
-msgstr ""
+msgstr "IX.1.4. Partes"
 
 #: ../docs/framework.md:3774
 msgid ""
@@ -4320,7 +4533,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.5. Risk allocation"
-msgstr ""
+msgstr "IX.1.5. Asignación de riesgos"
 
 #: ../docs/framework.md:3792
 msgid "Change in original risk allocation due to the variation, if any"
@@ -4340,7 +4553,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.6. Fiscal commitments"
-msgstr ""
+msgstr "IX.1.6. Compromisos fiscales"
 
 #: ../docs/framework.md:3810
 msgid ""
@@ -4352,7 +4565,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.6. Costs"
-msgstr ""
+msgstr "IX.1.6. Costos"
 
 #: ../docs/framework.md:3834
 msgid "Change in capital or operational costs due to the variation, if any"
@@ -4362,7 +4575,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.7. Tariffs"
-msgstr ""
+msgstr "IX.1.7. Tarifas"
 
 #: ../docs/framework.md:3858
 msgid "Change in tariffs or service levels due to the variation, if any"
@@ -4381,7 +4594,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.8. Service levels"
-msgstr ""
+msgstr "IX.1.8. Niveles de servicio"
 
 #: ../docs/framework.md:3878
 msgid ""
@@ -4394,7 +4607,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "IX.1.9. Date"
-msgstr ""
+msgstr "IX.1.9. Fecha"
 
 #: ../docs/framework.md:3894
 msgid "Date of variation"
@@ -4410,11 +4623,11 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X. Performance Information"
-msgstr ""
+msgstr "X. Información de rendimiento"
 
 #: ../docs/framework.md:0
 msgid "X.1. Actual annual demand"
-msgstr ""
+msgstr "X.1. Demanda anual real"
 
 #: ../docs/framework.md:3920
 msgid ""
@@ -4473,7 +4686,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.2. Actual annual revenue"
-msgstr ""
+msgstr "X.2. Ingresos anuales reales"
 
 #: ../docs/framework.md:3961
 msgid ""
@@ -4485,7 +4698,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.2.1. Structured information on annual revenues"
-msgstr ""
+msgstr "X.2.1. Información estructurada sobre los ingresos anuales"
 
 #: ../docs/framework.md:3971
 msgid ""
@@ -4524,7 +4737,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.2.2. Financial statements"
-msgstr ""
+msgstr "X.2.2. Estados financieros"
 
 #: ../docs/framework.md:3995
 msgid "Provide links to audited financial statements of the provider company."
@@ -4534,7 +4747,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.3. Actual IRR"
-msgstr ""
+msgstr "X.3. TIR real"
 
 #: ../docs/framework.md:4017
 msgid ""
@@ -4564,7 +4777,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.4. Actual KPI performance"
-msgstr ""
+msgstr "X.4. Rendimiento real de KPI"
 
 #: ../docs/framework.md:4041
 msgid ""
@@ -4586,7 +4799,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "X.5. Performance failure information"
-msgstr ""
+msgstr "X.5. Información de fallos de desempeño"
 
 #: ../docs/framework.md:4063
 msgid ""
@@ -4656,7 +4869,7 @@ msgstr "300000.0"
 
 #: ../docs/framework.md:0
 msgid "X.6. Performance assessment reports"
-msgstr ""
+msgstr "X.6. Informes de evaluación de rendimiento"
 
 #: ../docs/framework.md:4101
 msgid ""

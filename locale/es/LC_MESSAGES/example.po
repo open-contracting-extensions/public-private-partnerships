@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/example.md:0
 msgid "Worked Example"
-msgstr ""
+msgstr "Ejemplo Desarrollado"
 
 #: ../docs/example.md:3
 msgid ""
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../docs/example.md:0
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: ../docs/example.md:16
 msgid ""
@@ -101,23 +101,27 @@ msgstr "Ejemplo de visualización de datos;"
 
 #: ../docs/example.md:0
 msgid "Explore the example"
-msgstr ""
+msgstr "Explora el ejemplo"
 
 #: ../docs/example.md:30
 msgid "View the [OCDS releases in JSON format here](../_static/full.json)."
-msgstr ""
+msgstr "Ver las [entregas OCDS en formato JSON aquí](../_static/full.json)."
 
 #: ../docs/example.md:32
 msgid ""
 "View the [OCDS record in JSON format "
 "here](../_static/full_record_package.json)."
 msgstr ""
+"Ver el [registro de OCDS en formato JSON "
+"aquí](../_static/full_record_package.json)."
 
 #: ../docs/example.md:34
 msgid ""
 "View the [data in OCDS show here](../_static/ocds-"
 "show/?load=../full_record_package.json)."
 msgstr ""
+"Ver los [datos en OCDS show aquí](../_static/ocds-"
+"show/?load=../full_record_package.json)."
 
 #: ../docs/example.md:36
 msgid "In the record within OCDS show:"

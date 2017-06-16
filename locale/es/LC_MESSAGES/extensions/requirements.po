@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 16:59+0100\n"
+"POT-Creation-Date: 2017-06-16 11:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Requirements"
-msgstr ""
+msgstr "Requisitos"
 
 #: ../docs/extensions/requirements.md:3
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "CCCEV Model"
-msgstr ""
+msgstr "Modelo CCCEV"
 
 #: ../docs/extensions/requirements.md:11
 msgid "The CCCEV model defines the following concepts:"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Schema"
-msgstr ""
+msgstr "Esquema"
 
 #: ../docs/extensions/requirements.md:29
 msgid ""
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #: ../docs/extensions/requirements.md:40
 msgid ""
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Example usage"
-msgstr ""
+msgstr "Ejemplo de uso"
 
 #: ../docs/extensions/requirements.md:44
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Further extensions"
-msgstr ""
+msgstr "Otras extensiones"
 
 #: ../docs/extensions/requirements.md:177
 msgid ""
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../docs/extensions/requirements.md:0
 msgid "Outstanding issues"
-msgstr ""
+msgstr "Problemáticas destacadas"
 
 #: ../docs/extensions/requirements.md:181
 msgid ""
