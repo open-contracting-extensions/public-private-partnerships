@@ -50,7 +50,7 @@ for extension in extension_json['extensions']:
             filename = f.filename
             if 'codelist' in filename and filename[-3:] == 'csv':
                 index = filename.rfind('/')
-                csv_filename = '../codelist' + filename[index:]
+                csv_filename = '../codelists' + filename[index:]
                 with open(csv_filename, 'wb') as fp:
                     fp.write(zip_file.read(f.filename))
                 print('{} {} for extension {}'.format('Adding codelist', filename[index + 1:], extension.get('name')))
