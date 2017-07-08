@@ -1,234 +1,237 @@
-{"properties":
-  {
+{
+  "properties": {
     "ocid": {},
-    "id":{},
-    "date":{},
-    "tag":{},
-    "initiationType": {}, 
+    "id": {},
+    "date": {},
+    "tag": {},
+    "initiationType": {},
     "title": {
-     "title": "Title",
-     "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
-     "type": "string"
+      "title": "Title",
+      "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
+      "type": "string"
     },
     "description": {
-     "title": "Description",
-     "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces.",
-     "type": "string"
+      "title": "Description",
+      "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces.",
+      "type": "string"
     },
-    "buyer":null,
-	"publicAuthority": {
-		"title": "Public authority",
-		"description": "The public authority is the unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.",
-		"$ref": "#/definitions/OrganizationReference"
-	}
+    "buyer": null,
+    "publicAuthority": {
+      "title": "Public authority",
+      "description": "The public authority is the unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.",
+      "$ref": "#/definitions/OrganizationReference"
+    }
   },
-
-"definitions":
-  {
-    "OrganizationReference":{
-        "properties":{
-            "address": null,
-            "identifier":null,
-            "additionalIdentifiers": null,
-            "contactPoint":null
-        }
+  "definitions": {
+    "OrganizationReference": {
+      "properties": {
+        "address": null,
+        "identifier": null,
+        "additionalIdentifiers": null,
+        "contactPoint": null
+      }
     },
-    "Amendment":{
-        "properties":{
-            "changes":null
-        }
+    "Amendment": {
+      "properties": {
+        "changes": null
+      }
     },
-    "Tender":{
-        "properties":{
-            "amendment":null
-        }
+    "Tender": {
+      "properties": {
+        "amendment": null
+      }
     },
-    "Transaction":{
-        "properties":{
-            "amount": null,
-            "providerOrganization": null,
-            "receiverOrganization": null
-        }
+    "Transaction": {
+      "properties": {
+        "amount": null,
+        "providerOrganization": null,
+        "receiverOrganization": null
+      }
     },
     "Project": {
-    "properties":{
+      "properties": {
         "sector": {
-            "title":"Project sector",
-            "description":"A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
-            "$ref": "#/definitions/Classification"
+          "title": "Project sector",
+          "description": "A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+          "$ref": "#/definitions/Classification"
         },
         "additionalClassifications": {
-            "title":"Additional sector classifications",
-            "description":"Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
-            "type":"array",
-            "items": {
-                "$ref": "#/definitions/Classification"
-            }
+          "title": "Additional sector classifications",
+          "description": "Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Classification"
+          }
         },
         "locations": {
-            "title":"Project location",
-            "description":"Information about the location where a project is taking place.",
-            "type":"array",
-            "items": {
-                "$ref": "#/definitions/Location"
-            }
+          "title": "Project location",
+          "description": "Information about the location where a project is taking place.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          }
         }
+      }
+    },
+    "Award": {
+      "properties": {
+        "preferredBidders": {
+          "title": "Preferred bidders",
+          "description": "The bidder or bidders awarded this award, the preferred bidder(s) will become the counter party or parties of the procuring authority in the PPP contract when the contract is signed.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          }
+        },
+        "evaluationIndicators": {
+          "title": "Evaluation of PPP option",
+          "description": "Key indicators that describe how the PPP option has been evaluated by government.",
+          "type": "object",
+          "$ref": "#/definitions/EvaluationIndicators"
+        },
+        "suppliers": null,
+        "amendment": null
+      }
+    },
+    "Contract": {
+      "properties": {
+        "financeSummary": {
+          "title": "Finance summary",
+          "description": "Key indicators that describe the financial model of the PPP.",
+          "type": "object",
+          "$ref": "#/definitions/FinanceSummary"
+        },
+        "amendment": null
+      }
+    },
+    "EvaluationIndicators": {
+      "type": "object",
+      "title": "Evaluation indicators",
+      "description": "Key indicators that describe how the PPP option has been evaluated by government.",
+      "properties": {
+        "riskPremium": {
+          "title": "Risk premium",
+          "description": "The risk premium used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk premium used should be provided in the riskPremiumDetails field.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "riskPremiumDetails": {
+          "title": "Risk premium details",
+          "description": "Further details on the risk premium used including an explanation of why it was used.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "discountRate": {
+          "title": "Discount rate",
+          "description": "The discount rate used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be provided in the discountRateDetails field.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "discountRateDetails": {
+          "title": "Discount rate details",
+          "description": "Further details on the discount rate used.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "netPresentValue": {
+          "title": "Net present value",
+          "description": "The discounted value of an investment’s cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
+          "type": "object",
+          "$ref": "#/definitions/Value"
+        },
+        "netPresentValueDetails": {
+          "title": "Net present value details",
+          "description": "Further details on the calculation of the net present value.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "FinanceSummary": {
+      "type": "object",
+      "title": "Finance summary",
+      "description": "Key indicators that describe the financial model of the PPP.",
+      "properties": {
+        "debtEquityRatio": {
+          "title": "Debt equity ratio",
+          "description": "The debt-equity ratio of the project, expressed as a decimal value. The World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided by) the shareholder equity of the project company'. Also known as 'leverage' or 'gearing'. Further details on the debt equity ratio can be provided in the debtEquityRatioDetails field.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "debtEquityRatioDetails": {
+          "title": "Debt equity ratio details",
+          "description": "Further details on the calculation of the debt equity ratio.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "shareCapital": {
+          "title": "Share capital",
+          "description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
+          "type": "object",
+          "$ref": "#/definitions/Value"
+        },
+        "shareCapitalDetails": {
+          "title": "Share capital details",
+          "description": "Further details on the calculation of the share capital.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subsidyRatio": {
+          "title": "Subsidy ratio",
+          "description": "Subsidy as a proportion of project value, expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in the subsidyRatioDetails field.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subsidyRatioDetails": {
+          "title": "Subsidy ratio details",
+          "description": "Further details on the calculation of the subsidy ratio.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "projectIRR": {
+          "title": "Project Internal Rate of Return",
+          "description": "The internal rate of return of the project, expressed as a decimal fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The rate of return of an investment calculated from its projected cash flows. The internal rate of return (IRR) is also the discount rate that equates the present value of a future stream of cash flows to the initial investment'. Further details on the project IRR can be provided in the projectIRRDetails field.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "projectIRRDetails": {
+          "title": "Project IRR details",
+          "description": "Further details on the calculation of the project IRR.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Budget": {
+      "properties": {
+        "source": null,
+        "project": null,
+        "projectID": null
+      }
     }
-   },
-	"Award": {
-		"properties": {
-			"preferredBidders": {
-				"title": "Preferred bidders",
-				"description": "The bidder or bidders awarded this award, the preferred bidder(s) will become the counter party or parties of the procuring authority in the PPP contract when the contract is signed.",
-				"type": "array",
-				"items": {
-					"$ref": "#/definitions/OrganizationReference"
-				}
-			},
-			"evaluationIndicators":{
-				"title":"Evaluation of PPP option",
-				"description":"Key indicators that describe how the PPP option has been evaluated by government.",
-				"type":"object",
-				"$ref":"#/definitions/EvaluationIndicators"
-			},
-			"suppliers": null,
-            "amendment":null
-		}
-	},
-	"Contract": {
-		"properties":{
-			"financeSummary": {
-				"title": "Finance summary",
-				"description": "Key indicators that describe the financial model of the PPP.",
-				"type": "object",
-				"$ref":"#/definitions/FinanceSummary"
-			},
-            "amendment":null
-		}
-	},
-	"EvaluationIndicators": {
-		"type": "object",
-		"title": "Evaluation indicators",
-		"description": "Key indicators that describe how the PPP option has been evaluated by government.",
-		"properties": {
-			"riskPremium": {
-				"title": "Risk premium",
-				"description": "The risk premium used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk premium used should be provided in the riskPremiumDetails field.",
-				"type": [
-					"number",
-					"null"
-				]
-			},
-			"riskPremiumDetails": {
-				"title": "Risk premium details",
-				"description": "Further details on the risk premium used including an explanation of why it was used.",
-				"type": [
-					"string",
-					"null"
-				]
-			},
-			"discountRate": {
-				"title": "Discount rate",
-				"description": "The discount rate used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be provided in the discountRateDetails field.",
-				"type": [
-					"number",
-					"null"
-				]
-			},
-			"discountRateDetails": {
-				"title": "Discount rate details",
-				"description": "Further details on the discount rate used.",
-				"type": [
-					"string",
-					"null"
-				]
-			},
-			"netPresentValue": {
-				"title": "Net present value",
-				"description": "The discounted value of an investment’s cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
-				"type": "object",
-				"$ref": "#/definitions/Value"
-			},
-			"netPresentValueDetails": {
-				"title": "Net present value details",
-				"description": "Further details on the calculation of the net present value.",
-				"type": [
-					"string",
-					"null"
-				]
-			}
-		}
-	},
-	"FinanceSummary": {
-		"type": "object",
-		"title": "Finance summary",
-		"description": "Key indicators that describe the financial model of the PPP.",
-		"properties": {
-			"debtEquityRatio": {
-				"title": "Debt equity ratio",
-				"description": "The debt-equity ratio of the project, expressed as a decimal value. The World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided by) the shareholder equity of the project company'. Also known as 'leverage' or 'gearing'. Further details on the debt equity ratio can be provided in the debtEquityRatioDetails field.",
-				"type": [
-					"number",
-					"null"
-				]
-			},
-			"debtEquityRatioDetails": {
-				"title": "Debt equity ratio details",
-				"description": "Further details on the calculation of the debt equity ratio.",
-				"type": [
-					"string",
-					"null"
-				]
-			},
-			"shareCapital": {
-				"title": "Share capital",
-				"description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
-				"type": "object",
-				"$ref": "#/definitions/Value"
-			},
-			"shareCapitalDetails": {
-				"title": "Share capital details",
-				"description": "Further details on the calculation of the share capital.",
-				"type": [
-					"string",
-					"null"
-				]
-			},
-			"subsidyRatio": {
-				"title": "Subsidy ratio",
-				"description": "Subsidy as a proportion of project value, expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in the subsidyRatioDetails field.",
-				"type": [
-					"number",
-					"null"
-				]
-			},
-			"subsidyRatioDetails": {
-				"title": "Subsidy ratio details",
-				"description": "Further details on the calculation of the subsidy ratio.",
-				"type": [
-					"string",
-					"null"
-				]
-			},
-			"projectIRR": {
-				"title": "Project Internal Rate of Return",
-				"description": "The internal rate of return of the project, expressed as a decimal fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The rate of return of an investment calculated from its projected cash flows. The internal rate of return (IRR) is also the discount rate that equates the present value of a future stream of cash flows to the initial investment'. Further details on the project IRR can be provided in the projectIRRDetails field.",
-				"type": [
-					"number",
-					"null"
-				]
-			},
-			"projectIRRDetails": {
-				"title": "Project IRR details",
-				"description": "Further details on the calculation of the project IRR.",
-				"type": [
-					"string",
-					"null"
-				]
-			}
-		}
-	}
   }
 }
-
-
