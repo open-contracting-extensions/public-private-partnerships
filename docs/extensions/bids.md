@@ -46,7 +46,7 @@ The ```bids/details``` array is used to provide one or more ```Bid``` objects, e
 ```eval_rst
 .. extensiontable::
    :extension: bids
-   :exclude_definitions: BidStatistics
+   :exclude_definitions: statistics BidsStatistic 
 ```
 
 ### Example
