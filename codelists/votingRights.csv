@@ -1,6 +1,6 @@
-Code,Title,Description,Source
-none,None,The shareholder is not entitled to vote under any circumstances.,http://uk.practicallaw.com/5-613-3685
-ordinary,Ordinary,The shareholder is entitled to a single vote per share in all circumstances.,http://uk.practicallaw.com/5-613-3685
-additional,Additional,The shareholder is entitled to more than one vote per share in all circumstances. The votingRightsDetails field can be used to provide the number of votes per share the shareholder entitled to.,http://uk.practicallaw.com/5-613-3685
-restricted,Restricted,The shareholder is entitled to vote in specific circumstances only. The votingRightsDetails field can be used to provide details of such circumstances.,http://uk.practicallaw.com/5-613-3685
-enhanced,Enhanced,The shareholder is entitled to more than one vote per share in specific circumstances only. The votingRightsDetails field can be used to provide details of such circumstances.,http://uk.practicallaw.com/5-613-3685
+Category,Code,Title_en,Description_en,Source
+,ordinary,Ordinary voting rights,The shareholder is entitled to a single vote per share in all circumstances,
+,none,No voting rights,The shareholder is not entitled to vote under any circumstances,
+,restricted,Restricted voting rights,The shareholder is entitled to vote in specific circumstances only,
+,additional,Additional voting rights,The shareholder is entitled to more than one vote per share in all circumstances,
+,enhanced,Enhanced voting rights,The shareholder is entitled to more than one vote per share in specific circumstances only,

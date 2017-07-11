@@ -1,5 +1,11 @@
 # Codelists
 
+OCDS for PPPs reuses many existing codelists from OCDS core, introduces some new codelists and updates some existing codelists.
+
+The following codelists are either new or updated, please refer to the [codelists section](http://standard.open-contracting.org/latest/en/schema/codelists/) of the OCDS core documentation for details of codelists which are reused without updates.
+
+<<< note the following list needs updating based on the contents of the /codelists folder >>>
+
 ## documentType
 
 ```eval_rst
