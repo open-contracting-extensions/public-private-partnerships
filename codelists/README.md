@@ -9,5 +9,6 @@ Each codelist is fetched from the relevant extension repository with the excepti
 * milestoneCode - adds an open codelist of milestone codes, specific to OCDS for PPPs
 * partyRole - replaces the partyRole codelist in OCDS with codes specific to OCDS for PPPs
 * milestoneType - replace the milestoneType codelist in OCDS with codes specific to OCDS for PPPs
+* releaseTag - adds codes specific to OCDS for PPPs
 
 <<< to-do: merging of codelists (e.g. documentType from public-private-partnerships and tarrifs extension) >>>
