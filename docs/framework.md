@@ -944,8 +944,7 @@ The actual date of contract expiry should be entered into the ```period/endDate`
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: contractPeriod
+  :jsonpointer: /releases/1/tender/contractPeriod
   :ignore_path: /releases/1/
 ```
 
@@ -1910,8 +1909,7 @@ P   U   U   U   U   U
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: contractPeriod
+  :jsonpointer: /releases/1/tender/contractPeriod
   :ignore_path: /releases/1/
 ```
 
