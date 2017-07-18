@@ -1,6 +1,7 @@
 docs/_build
 .ve
 *.swp
+build
 build_locale
 *.mo
 docs/_static/ppp-release-schema.json
