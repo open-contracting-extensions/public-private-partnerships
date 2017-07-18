@@ -3,7 +3,6 @@
 Markdown==2.6.5
 sphinx-intl==0.9.9
 transifex-client==0.12.4
-sphinx-rtd-theme==0.2.4
 # recommonmark commit pinned from master branch
 -e git+https://github.com/rtfd/recommonmark.git@b70d5f52245d6714054e2d8f871ac6449bd980f8#egg=recommonmark
 ## The following requirements were added by pip freeze:
@@ -35,3 +34,4 @@ json-merge-patch
 -e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@bfbd5bdfdea11c70f91dc7a40ffbc8722408aff4#egg=sphinxcontrib-jsonschema
 # Pull in a open contracting standard commit for some of the python utils
 -e git+https://github.com/open-contracting/ocds_sphinx_directives.git@831a87c9781185437c40d2e8dac643f7e213dabf#egg=ocds_sphinx_directives
+-e git+https://github.com/open-contracting/standard_theme.git@open_contracting#egg=standard_theme

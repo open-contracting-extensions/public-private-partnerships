@@ -5,3 +5,16 @@
 {% block extrahead %}
     {{ super() }}
 {% endblock %}
+
+{% block sidebartitle %}
+<a href="{{ pathto(master_doc) }}" class="icon icon-home">{{ project }}</a>
+<div class="version">{{ version }}</div>
+{% endblock %}
+
+{% block mobile_nav %}
+  <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+  <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+{% endblock %}
+
+{% block extra_links %}
+{% endblock %}
