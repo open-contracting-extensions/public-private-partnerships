@@ -9,10 +9,10 @@ from collections import OrderedDict
 from zipfile import ZipFile
 
 
-extensions_to_merge = ['ppp', 'process_title', 'location', 'requirements', 'budget', 'budget_project',
+extensions_to_merge = ['process_title', 'location', 'requirements', 'budget', 'budget_project',
                        'documentation_details', 'metrics', 'risk_allocation', 'shareholders', 'finance',
                        'qualification', 'tariffs', 'performance_failures', 'signatories', 'charges',
-                       'transaction_milestones', 'bids', 'milestone_documents']
+                       'transaction_milestones', 'bids', 'milestone_documents', 'ppp']
 
 GIT_REF = "master"
 location = "http://standard.open-contracting.org/extension_registry/{}/extensions.json".format(GIT_REF)
