@@ -544,7 +544,7 @@ def translate_codelists(language):
 
     translator = gettext.translation('reference/codelists', '../locale', languages=[language], fallback=fallback)
 
-    codelists_dir = '../codelists'
+    codelists_dir = '../compiledCodelists'
     codelists_output_dir = '_static/codelists'
 
     if not os.path.exists(codelists_output_dir):

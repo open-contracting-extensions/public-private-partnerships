@@ -1,0 +1,4 @@
+Category,Code,Title_en,Description_en,Source
+,publicAuthority,Public authority,The risk is wholly or mostly retained by the public authority,
+,privateParty,Private party,The risk is wholly or mostly retained by the private party,
+,undefined,Undefined,The risk is not clearly assigned to a specific party. Further details can be provided in the notes field.,
