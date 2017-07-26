@@ -55,6 +55,7 @@ Extracting strings that need translating:
 rm -r build_locale
 mkdir build_locale
 pybabel extract -F .babel_schema . -o build_locale/ppp-schema.pot
+pybabel extract -F .babel_codelists . -o build_locale/ppp-codelists.pot
 
 cd docs
 sphinx-build -b gettext . ../build_locale/
