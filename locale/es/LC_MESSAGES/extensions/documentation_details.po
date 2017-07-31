@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 11:54+0100\n"
+"POT-Creation-Date: 2017-07-31 17:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -172,6 +172,32 @@ msgid "Document"
 msgstr "Documento"
 
 #: ../docs/Extension documentation_details:1
+msgid "A short summary of the document."
+msgstr "Un breve resumen del documento."
+
+#: ../docs/Extension documentation_details:1
+msgid ""
+"When the information referenced exists within a large document, indicate the"
+" first page on which it can be found. This should refer to the printed page "
+"number, not the page number reported by software applications."
+msgstr ""
+"Cuando la información mencionada exista dentro de un documento grande, se "
+"debe indicar la primera página en la que se puede encontrar. Esto debe de "
+"referirse al número de página impreso, no al número de página reportado por "
+"software."
+
+#: ../docs/Extension documentation_details:1
+msgid ""
+"When the information referenced exists within a large document, indicate the"
+" last page on which it can be found. This should refer to the printed page "
+"number, not the page number reported by software applications."
+msgstr ""
+"Cuando la información mencionada existe dentro de un documento grande, se "
+"debe indicar la última página en la que se puede encontrar. Esto debe de "
+"referirse al número de página impreso, no al número de página reportado por "
+"software."
+
+#: ../docs/Extension documentation_details:1
 msgid ""
 "A description of any special arrangements required to access this document. "
 "This may include a requirement to register for document access, a fee to be "
@@ -193,32 +219,6 @@ msgstr ""
 " y/o la organización responsable. Por ejemplo cuando se escribió una "
 "especificación técnica por un consultor, incluir el nombre de la "
 "organización y del consultor."
-
-#: ../docs/Extension documentation_details:1
-msgid "A short summary of the document."
-msgstr "Un breve resumen del documento."
-
-#: ../docs/Extension documentation_details:1
-msgid ""
-"When the information referenced exists within a large document, indicate the"
-" last page on which it can be found. This should refer to the printed page "
-"number, not the page number reported by software applications."
-msgstr ""
-"Cuando la información mencionada existe dentro de un documento grande, se "
-"debe indicar la última página en la que se puede encontrar. Esto debe de "
-"referirse al número de página impreso, no al número de página reportado por "
-"software."
-
-#: ../docs/Extension documentation_details:1
-msgid ""
-"When the information referenced exists within a large document, indicate the"
-" first page on which it can be found. This should refer to the printed page "
-"number, not the page number reported by software applications."
-msgstr ""
-"Cuando la información mencionada exista dentro de un documento grande, se "
-"debe indicar la primera página en la que se puede encontrar. Esto debe de "
-"referirse al número de página impreso, no al número de página reportado por "
-"software."
 
 #: ../docs/Extension documentation_details:1
 msgid ""

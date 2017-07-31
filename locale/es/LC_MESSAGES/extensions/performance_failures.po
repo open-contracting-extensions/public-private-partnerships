@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2017 Open Contracting Partnership
+# This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "Performance Failures Extension"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "Background"
+msgstr "Antecedentes"
+
+#: ../docs/extensions/performance_failures.md:5
+msgid ""
+"The [Framework for disclosure in Public Private "
+"Partnerships](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-"
+"in-PPPs-Framework.pdf) requires disclosure of instances of performance "
+"failures during the the life of a contract, along with the penalties or "
+"abatements defined, imposed and paid in relation to each category of "
+"performance failures."
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "Extension Fields"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:9
+msgid ""
+"This extension introduces the ```performanceFailures``` property to the "
+"```implementation``` section of an OCDS release."
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:11
+msgid ""
+"The new property is an array of ```performanceFailure``` objects. The "
+"```performanceFailure``` object has the following properties:"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:13
+msgid ""
+"```period``` - an OCDS ```period``` object defining the reporting period to "
+"applicable to the performance failures being reported"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:14
+msgid ""
+"```category``` - a free text field used to describe the category of "
+"performance failures being reported"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:15
+msgid ""
+"```events``` - a number field used to state the number of performance "
+"failure events in the period and category being reported"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:16
+msgid ""
+"```penaltyContracted``` - a free text field used to describe the penalty or "
+"abatement defined in the contract for the number, category and period of "
+"performance failures being reported"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:17
+msgid ""
+"```penaltyImposed``` - a free text field used to describe the penalty or "
+"abatement actually imposed for the number, category and period of "
+"performance failures being reported"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:18
+msgid ""
+"```penaltyPaid``` - a boolean field indicating whether the penalty imposed "
+"has been paid. A value of ```true``` indicates that the penalty has been "
+"paid"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../docs/extensions/performance_failures.md:22
+msgid ""
+"The following JSON snippet models the performance failures reported for a "
+"single period and category."
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "Usage Notes"
+msgstr ""
+
+#: ../docs/extensions/performance_failures.md:0
+msgid "To do"
+msgstr "Por hacer"
+
+#: ../docs/extensions/performance_failures.md:46
+msgid ""
+"Add a ```relatedTransactions``` reference to the performance failure object?"
+msgstr ""
