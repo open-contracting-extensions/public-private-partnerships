@@ -28,7 +28,7 @@ msgid ""
 "PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
 "Framework.pdf) calls for individual risk allocation information."
 msgstr ""
-"El [marco para la divulgación de APP] "
+"El [marco para la divulgación de APP]"
 "(http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
 "Framework.pdf) exige información individual sobre la asignación de riesgos."
 

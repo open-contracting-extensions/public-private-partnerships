@@ -32,7 +32,7 @@ msgstr ""
 "En algunos casos, es importante proporcionar un título y una descripción "
 "completos para un proceso de contratación, distintos de los campos "
 "individuales de título y descripción incluidos en los bloques de "
-"```tender```,``` award`` y ```contract```."
+"```tender```,``` award``` y ```contract```."
 
 #: ../docs/extensions/process_title.md:5
 msgid ""

@@ -29,7 +29,7 @@ msgid ""
 "for communicating criteria and responses."
 msgstr ""
 "La ampliación de los requisitos se basa en el modelo de la UE [Vocabulario "
-"de Criterios Fundamentales y Evidencia Básica (CCCEV)] "
+"de Criterios Fundamentales y Evidencia Básica (CCCEV)]"
 "(https://joinup.ec.europa.eu/node/153001) para comunicar criterios y "
 "respuestas."
 
@@ -96,7 +96,7 @@ msgid ""
 "**Requirement Response** A requirements response is an assertion that "
 "responds to a specific requirement."
 msgstr ""
-"** Respuesta de requisito ** Una respuesta de requisitos es una afirmación "
+"**Respuesta de requisito** Una respuesta de requisitos es una afirmación "
 "que responde a un requisito específico."
 
 #: ../docs/extensions/requirements.md:25

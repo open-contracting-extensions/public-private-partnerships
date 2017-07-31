@@ -75,7 +75,7 @@ msgstr ""
 #: ../docs/extensions/finance.md:14
 msgid "**Finance Type** - an entry from a FinanceType codelist"
 msgstr ""
-"**Tipo de Financiamiento ** - una entrada de una lista de códigos de "
+"**Tipo de Financiamiento** - una entrada de una lista de códigos de "
 "FinanceType"
 
 #: ../docs/extensions/finance.md:15
@@ -139,7 +139,7 @@ msgid ""
 "Framework](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
 msgstr ""
 "La lista de códigos 'financeType' se basa en la lista de [Página 57 del "
-"Marco de divulgación de APP del Banco Mundial] "
+"Marco de divulgación de APP del Banco Mundial]"
 "(http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
 
 #: ../docs/extensions/finance.md:31

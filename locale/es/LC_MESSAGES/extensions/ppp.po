@@ -140,7 +140,7 @@ msgid ""
 " **value** and supporting **free-text details** for each indicator:"
 msgstr ""
 "La sección ```contract/financeSummary``` incluye propiedades para expresar "
-"el **value ** y soporta **detalles de texto libre** para cada indicador:"
+"el **value** y soporta **detalles de texto libre** para cada indicador:"
 
 #: ../docs/extensions/ppp.md:64
 msgid "debtEquityRatio"
