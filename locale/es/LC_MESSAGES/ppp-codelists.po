@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-12 11:32+0100\n"
+"POT-Creation-Date: 2017-07-26 18:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,29 +19,3051 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: codelists/releaseTag.csv
+#: compiledCodelists/awardCriteria.csv compiledCodelists/awardStatus.csv
+#: compiledCodelists/bidStatistics.csv compiledCodelists/bidStatus.csv
+#: compiledCodelists/contractStatus.csv compiledCodelists/dataType.csv
+#: compiledCodelists/documentType.csv
+#: compiledCodelists/extendedProcurementCategory.csv
+#: compiledCodelists/financeCategory.csv compiledCodelists/financeTypes.csv
+#: compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv compiledCodelists/method.csv
+#: compiledCodelists/metricID.csv compiledCodelists/milestoneCode.csv
+#: compiledCodelists/milestoneStatus.csv compiledCodelists/milestoneType.csv
+#: compiledCodelists/partyRole.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/procurementCategory.csv
+#: compiledCodelists/relatedProcess.csv
+#: compiledCodelists/relatedProcessScheme.csv compiledCodelists/relatesTo.csv
+#: compiledCodelists/releaseTag.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/submissionMethod.csv compiledCodelists/tenderStatus.csv
+#: compiledCodelists/unitClassificationScheme.csv
+#: compiledCodelists/votingRights.csv
 msgid "Code"
 msgstr "Código"
 
-#: codelists/releaseTag.csv
+#: compiledCodelists/awardCriteria.csv compiledCodelists/awardStatus.csv
+#: compiledCodelists/bidStatistics.csv compiledCodelists/bidStatus.csv
+#: compiledCodelists/contractStatus.csv compiledCodelists/dataType.csv
+#: compiledCodelists/documentType.csv
+#: compiledCodelists/extendedProcurementCategory.csv
+#: compiledCodelists/financeCategory.csv compiledCodelists/financeTypes.csv
+#: compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv compiledCodelists/method.csv
+#: compiledCodelists/metricID.csv compiledCodelists/milestoneCode.csv
+#: compiledCodelists/milestoneStatus.csv compiledCodelists/milestoneType.csv
+#: compiledCodelists/partyRole.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/procurementCategory.csv
+#: compiledCodelists/relatedProcess.csv
+#: compiledCodelists/relatedProcessScheme.csv compiledCodelists/relatesTo.csv
+#: compiledCodelists/releaseTag.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/submissionMethod.csv compiledCodelists/tenderStatus.csv
+#: compiledCodelists/unitClassificationScheme.csv
+#: compiledCodelists/votingRights.csv
 msgid "Title"
 msgstr "Título"
 
-#: codelists/releaseTag.csv
+#: compiledCodelists/awardCriteria.csv compiledCodelists/awardStatus.csv
+#: compiledCodelists/bidStatistics.csv compiledCodelists/bidStatus.csv
+#: compiledCodelists/contractStatus.csv compiledCodelists/dataType.csv
+#: compiledCodelists/documentType.csv
+#: compiledCodelists/extendedProcurementCategory.csv
+#: compiledCodelists/financeCategory.csv compiledCodelists/financeTypes.csv
+#: compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv compiledCodelists/method.csv
+#: compiledCodelists/metricID.csv compiledCodelists/milestoneCode.csv
+#: compiledCodelists/milestoneStatus.csv compiledCodelists/milestoneType.csv
+#: compiledCodelists/partyRole.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/procurementCategory.csv
+#: compiledCodelists/relatedProcess.csv
+#: compiledCodelists/relatedProcessScheme.csv compiledCodelists/relatesTo.csv
+#: compiledCodelists/releaseTag.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/submissionMethod.csv compiledCodelists/tenderStatus.csv
+#: compiledCodelists/unitClassificationScheme.csv
+#: compiledCodelists/votingRights.csv
 msgid "Description"
 msgstr "Descripción"
 
-#: codelists/releaseTag.csv
+#: compiledCodelists/awardCriteria.csv
+msgid "Deprecated"
+msgstr ""
+
+#: compiledCodelists/awardCriteria.csv compiledCodelists/awardStatus.csv
+#: compiledCodelists/bidStatistics.csv compiledCodelists/bidStatus.csv
+#: compiledCodelists/contractStatus.csv compiledCodelists/dataType.csv
+#: compiledCodelists/documentType.csv
+#: compiledCodelists/extendedProcurementCategory.csv
+#: compiledCodelists/financeCategory.csv compiledCodelists/financeTypes.csv
+#: compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv compiledCodelists/method.csv
+#: compiledCodelists/metricID.csv compiledCodelists/milestoneCode.csv
+#: compiledCodelists/milestoneStatus.csv compiledCodelists/milestoneType.csv
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+#: compiledCodelists/partyRole.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/procurementCategory.csv
+#: compiledCodelists/relatedProcess.csv
+#: compiledCodelists/relatedProcessScheme.csv compiledCodelists/relatesTo.csv
+#: compiledCodelists/releaseTag.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/submissionMethod.csv compiledCodelists/tenderStatus.csv
+#: compiledCodelists/unitClassificationScheme.csv
+#: compiledCodelists/votingRights.csv
+msgid "Extension"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/awardCriteria.csv:1 compiledCodelists/awardCriteria.csv:2
+#: compiledCodelists/awardCriteria.csv:3 compiledCodelists/awardCriteria.csv:4
+#: compiledCodelists/awardCriteria.csv:5 compiledCodelists/awardCriteria.csv:6
+#: compiledCodelists/awardCriteria.csv:7 compiledCodelists/awardCriteria.csv:8
+#: compiledCodelists/awardStatus.csv:1 compiledCodelists/awardStatus.csv:2
+#: compiledCodelists/awardStatus.csv:3 compiledCodelists/awardStatus.csv:4
+#: compiledCodelists/contractStatus.csv:1
+#: compiledCodelists/contractStatus.csv:2
+#: compiledCodelists/contractStatus.csv:3
+#: compiledCodelists/contractStatus.csv:4 compiledCodelists/documentType.csv:1
+#: compiledCodelists/documentType.csv:2 compiledCodelists/documentType.csv:3
+#: compiledCodelists/documentType.csv:4 compiledCodelists/documentType.csv:5
+#: compiledCodelists/documentType.csv:6 compiledCodelists/documentType.csv:7
+#: compiledCodelists/documentType.csv:8 compiledCodelists/documentType.csv:9
+#: compiledCodelists/documentType.csv:10 compiledCodelists/documentType.csv:11
+#: compiledCodelists/documentType.csv:12 compiledCodelists/documentType.csv:13
+#: compiledCodelists/documentType.csv:14 compiledCodelists/documentType.csv:15
+#: compiledCodelists/documentType.csv:16 compiledCodelists/documentType.csv:17
+#: compiledCodelists/documentType.csv:18 compiledCodelists/documentType.csv:19
+#: compiledCodelists/documentType.csv:20 compiledCodelists/documentType.csv:21
+#: compiledCodelists/documentType.csv:22 compiledCodelists/documentType.csv:23
+#: compiledCodelists/documentType.csv:24 compiledCodelists/documentType.csv:25
+#: compiledCodelists/documentType.csv:26 compiledCodelists/documentType.csv:27
+#: compiledCodelists/documentType.csv:28 compiledCodelists/documentType.csv:29
+#: compiledCodelists/documentType.csv:30 compiledCodelists/documentType.csv:31
+#: compiledCodelists/documentType.csv:32 compiledCodelists/documentType.csv:33
+#: compiledCodelists/documentType.csv:34 compiledCodelists/documentType.csv:35
+#: compiledCodelists/documentType.csv:36 compiledCodelists/documentType.csv:37
+#: compiledCodelists/documentType.csv:38 compiledCodelists/documentType.csv:39
+#: compiledCodelists/documentType.csv:40
+#: compiledCodelists/extendedProcurementCategory.csv:1
+#: compiledCodelists/extendedProcurementCategory.csv:2
+#: compiledCodelists/extendedProcurementCategory.csv:3
+#: compiledCodelists/extendedProcurementCategory.csv:4
+#: compiledCodelists/initiationType.csv:1
+#: compiledCodelists/itemClassificationScheme.csv:1
+#: compiledCodelists/itemClassificationScheme.csv:2
+#: compiledCodelists/itemClassificationScheme.csv:3
+#: compiledCodelists/itemClassificationScheme.csv:4
+#: compiledCodelists/itemClassificationScheme.csv:5
+#: compiledCodelists/itemClassificationScheme.csv:6
+#: compiledCodelists/itemClassificationScheme.csv:7
+#: compiledCodelists/locationGazeteer.csv:1 compiledCodelists/method.csv:1
+#: compiledCodelists/method.csv:2 compiledCodelists/method.csv:3
+#: compiledCodelists/method.csv:4 compiledCodelists/milestoneStatus.csv:1
+#: compiledCodelists/milestoneStatus.csv:2
+#: compiledCodelists/milestoneStatus.csv:3
+#: compiledCodelists/milestoneStatus.csv:4
+#: compiledCodelists/milestoneType.csv:1 compiledCodelists/milestoneType.csv:2
+#: compiledCodelists/milestoneType.csv:3 compiledCodelists/milestoneType.csv:4
+#: compiledCodelists/milestoneType.csv:5
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:1
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:2
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:3
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:4
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:5
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:6
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:7
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:8
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:9
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:10
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:11
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:12
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:13
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:14
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:15
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:16
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:17
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:18
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:19
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:20
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:21
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:22
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:23
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:24
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:25
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:26
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:27
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:28
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:29
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:30
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:31
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:32
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:33
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:34
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:35
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:36
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:37
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:38
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:39
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:40
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:41
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:42
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:43
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:44
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:45
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:46
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:47
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:48
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:49
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:50
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:51
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:52
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:53
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:54
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:55
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:56
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:57
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:58
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:59
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:60
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:61
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:62
+#: compiledCodelists/partyRole.csv:1 compiledCodelists/partyRole.csv:2
+#: compiledCodelists/partyRole.csv:3 compiledCodelists/partyRole.csv:4
+#: compiledCodelists/procurementCategory.csv:1
+#: compiledCodelists/procurementCategory.csv:2
+#: compiledCodelists/procurementCategory.csv:3
+#: compiledCodelists/relatedProcess.csv:1
+#: compiledCodelists/relatedProcess.csv:2
+#: compiledCodelists/relatedProcess.csv:3
+#: compiledCodelists/relatedProcess.csv:4
+#: compiledCodelists/relatedProcess.csv:5
+#: compiledCodelists/relatedProcess.csv:6
+#: compiledCodelists/relatedProcess.csv:7
+#: compiledCodelists/relatedProcess.csv:8
+#: compiledCodelists/relatedProcessScheme.csv:1
+#: compiledCodelists/releaseTag.csv:1 compiledCodelists/releaseTag.csv:2
+#: compiledCodelists/releaseTag.csv:3 compiledCodelists/releaseTag.csv:4
+#: compiledCodelists/releaseTag.csv:5 compiledCodelists/releaseTag.csv:6
+#: compiledCodelists/releaseTag.csv:7 compiledCodelists/releaseTag.csv:8
+#: compiledCodelists/releaseTag.csv:9 compiledCodelists/releaseTag.csv:10
+#: compiledCodelists/releaseTag.csv:11 compiledCodelists/releaseTag.csv:12
+#: compiledCodelists/releaseTag.csv:13 compiledCodelists/releaseTag.csv:14
+#: compiledCodelists/releaseTag.csv:15 compiledCodelists/releaseTag.csv:16
+#: compiledCodelists/submissionMethod.csv:1
+#: compiledCodelists/submissionMethod.csv:2
+#: compiledCodelists/submissionMethod.csv:3
+#: compiledCodelists/submissionMethod.csv:4
+#: compiledCodelists/tenderStatus.csv:1 compiledCodelists/tenderStatus.csv:2
+#: compiledCodelists/tenderStatus.csv:3 compiledCodelists/tenderStatus.csv:4
+#: compiledCodelists/tenderStatus.csv:5 compiledCodelists/tenderStatus.csv:6
+#: compiledCodelists/tenderStatus.csv:7
+#: compiledCodelists/unitClassificationScheme.csv:1
+#: compiledCodelists/unitClassificationScheme.csv:2
+msgid "OCDS Core"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:1
+msgid "The award will be made to the qualified bid with the lowest price."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:1
+msgid "Price only"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:2
+msgid ""
+"The award will be made to the qualified bid demonstrating the lowest overall"
+" cost. A cost assessment could cover the entire monetary implications of the"
+" proposal, including the price paid to the supplier and the running costs, "
+"switching costs or other non-price costs of choosing a particular option."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:2
+msgid "costOnly"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:3
+msgid ""
+"The award will be made to the qualified bid demonstrating the highest "
+"quality against some assessment method. The price is either fixed, or with a"
+" maximum set and price factors not included in the evaluation."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:3
+msgid "Quality Only"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:4
+msgid ""
+"The award will be made to the qualified bid demonstrating the highest score "
+"against a set of weighted criteria such as price, cost and quality "
+"(including, for example, the environmental and social impact of the "
+"procurement). Structured information on individual qualifying criteria can "
+"be provided with the requirements extension."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:4
+msgid "Rated Criteria"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:5 compiledCodelists/awardCriteria.csv:6
+#: compiledCodelists/awardCriteria.csv:8
+msgid ""
+"This code has been deprecated. Please choose from one of the other codes."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:5
+msgid "Lowest Cost"
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:6
+msgid "Best Proposal"
+msgstr ""
+
+#. Description
+#: compiledCodelists/awardCriteria.csv:7
+msgid ""
+"This code has been deprecated. 'Rated criteria' is a likely alternatives for"
+" most procedures formerly mapped to this code."
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:7
+msgid "Best Value to Government"
+msgstr ""
+
+#. Title
+#: compiledCodelists/awardCriteria.csv:8
+msgid "Single Bid Only"
+msgstr ""
+
+#: compiledCodelists/awardStatus.csv compiledCodelists/bidStatistics.csv
+#: compiledCodelists/bidStatus.csv compiledCodelists/contractStatus.csv
+#: compiledCodelists/dataType.csv compiledCodelists/documentType.csv
+#: compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/relatesTo.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/votingRights.csv
+msgid "Category"
+msgstr "Categoría"
+
+#: compiledCodelists/awardStatus.csv compiledCodelists/contractStatus.csv
+#: compiledCodelists/dataType.csv compiledCodelists/financeCategory.csv
+#: compiledCodelists/financeTypes.csv compiledCodelists/initiationType.csv
+#: compiledCodelists/itemClassificationScheme.csv
+#: compiledCodelists/locationGazeteer.csv
+#: compiledCodelists/locationGazeteers.csv compiledCodelists/milestoneCode.csv
+#: compiledCodelists/preQualificationStatus.csv
+#: compiledCodelists/relatesTo.csv compiledCodelists/responseSource.csv
+#: compiledCodelists/riskAllocation.csv compiledCodelists/riskCategory.csv
+#: compiledCodelists/votingRights.csv
 msgid "Source"
 msgstr "Fuente"
 
+#. Title_en
 #. Title
-#: codelists/releaseTag.csv:1
-msgid "Planning"
-msgstr "Planeación"
+#: compiledCodelists/awardStatus.csv:1 compiledCodelists/bidStatus.csv:2
+#: compiledCodelists/contractStatus.csv:1
+msgid "Pending"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/awardStatus.csv:1
+msgid ""
+"This award has been proposed, but is not yet in force. This may be due to a "
+"cooling off period, or some other process."
+msgstr ""
+
+#. Title_en
+#. Title
+#: compiledCodelists/awardStatus.csv:2 compiledCodelists/contractStatus.csv:2
+#: compiledCodelists/preQualificationStatus.csv:2
+#: compiledCodelists/tenderStatus.csv:3
+msgid "Active"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/awardStatus.csv:2
+msgid "This award has been made, and is currently in force."
+msgstr ""
+
+#. Title_en
+#. Title
+#: compiledCodelists/awardStatus.csv:3 compiledCodelists/contractStatus.csv:3
+#: compiledCodelists/preQualificationStatus.csv:3
+#: compiledCodelists/tenderStatus.csv:4
+msgid "Cancelled"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/awardStatus.csv:3
+msgid "This award has been cancelled."
+msgstr ""
+
+#. Title_en
+#. Title
+#: compiledCodelists/awardStatus.csv:4
+#: compiledCodelists/preQualificationStatus.csv:4
+#: compiledCodelists/tenderStatus.csv:5
+msgid "Unsuccessful"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/awardStatus.csv:4
+msgid ""
+"This award could not be successfully made. If items or supplier details are "
+"included within the award section, then these narrow the scope of the "
+"unsuccessful award (i.e. the award of noted items, or an award to the noted "
+"supplier, was unsuccessful, but there may be other successful awards for "
+"different items listed in the tender, or to different suppliers)."
+msgstr ""
+
+#: compiledCodelists/bidStatistics.csv
+msgid "Min"
+msgstr ""
+
+#: compiledCodelists/bidStatistics.csv
+msgid "Max"
+msgstr ""
+
+#: compiledCodelists/bidStatistics.csv
+msgid "Required by"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/bidStatistics.csv:1 compiledCodelists/bidStatistics.csv:2
+#: compiledCodelists/bidStatistics.csv:3 compiledCodelists/bidStatistics.csv:4
+#: compiledCodelists/bidStatistics.csv:5 compiledCodelists/bidStatistics.csv:6
+#: compiledCodelists/bidStatistics.csv:7 compiledCodelists/bidStatistics.csv:8
+#: compiledCodelists/bidStatistics.csv:9
+#: compiledCodelists/bidStatistics.csv:10
+#: compiledCodelists/bidStatistics.csv:11 compiledCodelists/bidStatus.csv:1
+#: compiledCodelists/bidStatus.csv:2 compiledCodelists/bidStatus.csv:3
+#: compiledCodelists/bidStatus.csv:4 compiledCodelists/bidStatus.csv:5
+msgid "Bid statistics and details"
+msgstr "Estadísticas y detalles de las ofertas"
 
 #. Description
-#: codelists/releaseTag.csv:1
+#: compiledCodelists/bidStatistics.csv:1
+msgid "The total number of unique requests to participate received"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:1
+msgid "Requests to Participate"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:2
+msgid ""
+"The total number of unique bids received (prior to any being discounted for "
+"not meeting essential criteria)."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:2
+msgid "Bids"
+msgstr "Ofertas"
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:3
+msgid ""
+"The total number of unique bids received that were considered valid against "
+"relevant criteria (either of the bidder, or the bid submission itself). All "
+"valid bids should be considered during the tender evaluation stage. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:3
+msgid "Valid Bids"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:4
+msgid ""
+"The total number of unique organisations or consortia submitting bids  "
+"(prior to any being discounted for not meeting essential criteria)."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:4
+msgid "Bidders"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:5
+msgid ""
+"The total number of unique organisations or consortia passing the "
+"qualification stage of the evaluation process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:5
+msgid "Qualified Bidders"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:6
+msgid ""
+"The total number of unique organisations or consortia that did not pass the "
+"qualification stage of the evaluation process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:6
+msgid "Disqualified Bidders"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:7
+msgid "The number of bids received by electronic means."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:7
+msgid "Electronic Bids"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:8
+msgid "The number of bids received from Small and Medium Sized Enterprises"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:8
+msgid "Bids from SMEs"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:9
+msgid ""
+"The number of bids received from bidders from outside the country where the "
+"tender is issued."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:9
+msgid "Bids from Foreign Firms"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:10
+msgid ""
+"The number of bids received from bidders from outside the country where the "
+"tender is issued, but based within another EU country, Iceland, Norway,or "
+"Liechtenstein."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:10
+msgid "Bids from firms in other EU single market countries"
+msgstr ""
+
+#. Description
+#: compiledCodelists/bidStatistics.csv:11
+msgid ""
+"The number of tenders excluded because they were abnormally low. Note that "
+"in some EU datasets this may have been converted from a boolean, such that a"
+" value of 1 would indicate '1 or more' tenders were excluded. Users should "
+"evalute and interpret data accordingly."
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatistics.csv:11
+msgid "Tenders excluded because they were abnormally low"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatus.csv:1
+msgid "Invited"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatus.csv:3
+msgid "Valid"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatus.csv:4
+msgid "Disqualified"
+msgstr ""
+
+#. Title
+#: compiledCodelists/bidStatus.csv:5 compiledCodelists/tenderStatus.csv:7
+msgid "Withdrawn"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/contractStatus.csv:1
+msgid ""
+"This contract has been proposed, but is not yet in force. It may be awaiting"
+" signature."
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/contractStatus.csv:2
+msgid ""
+"This contract has been signed by all the parties, and is now legally in "
+"force."
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/contractStatus.csv:3
+msgid "This contract has been cancelled prior to being signed."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/contractStatus.csv:4
+msgid "Terminated "
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/contractStatus.csv:4
+msgid ""
+"This contract was signed and in force, and has now come to a close. This may"
+" be due to successful completion of the contract, or may be early "
+"termination due to some non-completion."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/dataType.csv:1
+msgid "String"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/dataType.csv:1
+msgid "The requirement response must be of type string"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/dataType.csv:1 compiledCodelists/dataType.csv:2
+#: compiledCodelists/dataType.csv:3 compiledCodelists/dataType.csv:4
+#: compiledCodelists/dataType.csv:5 compiledCodelists/relatesTo.csv:1
+#: compiledCodelists/relatesTo.csv:2 compiledCodelists/responseSource.csv:1
+#: compiledCodelists/responseSource.csv:2
+#: compiledCodelists/responseSource.csv:3
+msgid "Requirements"
+msgstr "Requisitos"
+
+#. Title_en
+#: compiledCodelists/dataType.csv:2
+msgid "Date-time"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/dataType.csv:2
+msgid "The requirement reposnse must be of type date-time (ISO8601)"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/dataType.csv:3
+msgid "Number"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/dataType.csv:3
+msgid "The requirement response must be of type number"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/dataType.csv:4
+msgid "Integer"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/dataType.csv:4
+msgid "The requirement response must be of type integer"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/dataType.csv:5
+msgid "Boolean"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/dataType.csv:5
+msgid "The requirement response must be of type boolean"
+msgstr ""
+
+#: compiledCodelists/documentType.csv
+msgid "Section"
+msgstr "Sección"
+
+#. Title_en
+#: compiledCodelists/documentType.csv:1
+msgid "Tender Notice"
+msgstr "Aviso de licitación"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:1
+msgid ""
+"The formal notice that gives details of a tender. This may be a link to a "
+"downloadable document, to a web page, or to an official gazette in which the"
+" notice is contained."
+msgstr ""
+"El aviso formal que da los detalles de una licitación. Puede tratarse de un "
+"enlace a un documento descargable, a una página web o a un boletín oficial "
+"en el que figura el aviso."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:2
+msgid "Award Notice"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:2
+msgid ""
+"The formal notice that gives details of the contract award. This may be a "
+"link to a downloadable document, to a web page, or to an official gazette in"
+" which the notice is contained."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:3
+msgid "Contract Notice"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:3
+msgid ""
+"The formal notice that gives details of a contract being signed and valid to"
+" start implementation. This may be a link to a downloadable document, to a "
+"web page, or to an official gazette in which the notice is contained."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:4
+msgid "Completion certificate"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:4
+msgid ""
+"A completion certificate issued by a relevant authority providing evidence "
+"that works were completed to a certain level of quality. Completion "
+"certificates may only be relevant for particular kinds of contracting "
+"processes."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:5
+msgid "Procurement Plan"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:5
+msgid ""
+"Documentation that sets out the basis for this particular contracting "
+"process."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:6
+msgid "Bidding Documents"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:6
+msgid ""
+"Documentation for potential suppliers, describing the goals of the contract "
+"(e.g. goods and services to be procured), and the bidding process."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:7
+msgid "Technical Specifications"
+msgstr "Especificaciones técnicas"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:7
+msgid "Detailed technical information about goods or services to be provided."
+msgstr ""
+"Información técnica detallada sobre los bienes o servicios que se deben "
+"proporcionar."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:8
+msgid "Evaluation Criteria"
+msgstr "Criterios de evaluación"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:8
+msgid "Documentation on how bids will be evaluated."
+msgstr "Documentación sobre cómo se evaluarán las ofertas."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:9
+msgid "Evaluation report"
+msgstr "Reporte de evaluacion"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:9
+msgid ""
+"Documentation on the evaluation of the bids and the application of the "
+"evaluation criteria, including the justification fo the award"
+msgstr ""
+"Documentación sobre la evaluación de las ofertas y la aplicación de los "
+"criterios de evaluación, incluyendo la justificación de la adjudicación"
+
+#. Title_en
+#: compiledCodelists/documentType.csv:10
+msgid "Contract draft"
+msgstr "Borrador del contrato"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:10
+msgid "A draft or pro-forma copy of the contract."
+msgstr "Un borrador o copia pro forma del contrato."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:11
+msgid "Signed Contract"
+msgstr "Contrato firmado"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:11
+msgid ""
+"A copy of the signed contract. Consider providing both machine-readable "
+"(e.g. original PDF, Word or Open Document format files), and a separate "
+"document entry for scanned-signed pages where this is required."
+msgstr ""
+"Una copia del contrato firmado. Considere la posibilidad de proporcionar "
+"archivos legibles por máquina (por ejemplo, archivos PDF en formato "
+"original, Word o formatos abiertos) y una entrada de documento separada para"
+" las páginas con firmas digitalizadas donde sea necesario."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:12
+msgid "Arrangements for ending contract"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:12
+msgid "Documentation of the arrangements for ending the contract(s)."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:13
+msgid "Schedules and milestones"
+msgstr "Cronograma e hitos"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:13
+msgid ""
+"Documentation setting out key milestones and schedules. Structured versions "
+"of this information may be modelled using the milestones block."
+msgstr ""
+"Documentación que establece hitos y cronogramas clave. Las versiones "
+"estructuradas de esta información pueden ser modeladas utilizando el bloque "
+"de hitos."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:14
+msgid "Physical progress reports"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:14
+msgid ""
+"Documentation on the status of implementation, usually against key "
+"milestones."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:15
+msgid "Financial progress reports"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:15
+msgid ""
+"Documentation providing dates and amounts of stage payments made (against "
+"total amount) and the source of those payments, including cost overruns, if "
+"any. Structured versions of this information can be provided through "
+"contract implementation transactions."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:16
+msgid "Final Audit"
+msgstr "Auditoría Final"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:16
+msgid ""
+"Documentation of a final audit carried out at the end of contract "
+"implementation."
+msgstr ""
+"Documentación de una auditoría final realizada al final de la ejecución del "
+"contrato."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:17
+msgid "Public Hearing Notice"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:17
+msgid ""
+"Documentation of any public hearings that took place as part of the planning"
+" for this contracting process."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:18
+msgid "Market Studies"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:18
+msgid ""
+"Documentation of any market studies that took place as part of the planning "
+"for this contracting process."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:19
+msgid "Eligibility Criteria"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:19
+msgid "Detailed documents about the eligibility of bidders."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:20
+msgid "Clarifications to bidders questions"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:20
+msgid ""
+"Documentation that provides replies to issues raised in pre-bid conferences "
+"or an enquiry processes."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:21
+msgid "Shortlisted Firms"
+msgstr "Firmas preseleccionadas"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:21
+msgid ""
+"Documentation providing information on shortlisted firms. Structured "
+"versions of this information can be provided using the bids extension."
+msgstr ""
+"Documentación que proporciona información sobre firmas preseleccionadas. Las"
+" versiones estructuradas de esta información se pueden proporcionar usando "
+"la extensión de ofertas."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:22
+msgid "Environmental Impact"
+msgstr "Impacto ambiental"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:22
+msgid ""
+"Documentation of environmental impact assessments carried out before, during"
+" or after the contracting process."
+msgstr ""
+"Documentación de las evaluaciones de impacto ambiental realizadas antes, "
+"durante o después del proceso de contratación."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:23
+msgid "Assesment of government's assets and liabilities"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:23
+msgid ""
+"Documentation covering assessments of the government's assets and "
+"liabilities related to this contracting process."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:24
+msgid "Provisions for management of risks and liabilities"
+msgstr "Provisiones para la gestión de riesgos y pasivos"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:24
+msgid ""
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
+msgstr ""
+"Documentación sobre cómo se gestionarán los riesgos como parte de este "
+"proceso de contratación."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:25
+msgid "Winning Bid"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:25
+msgid ""
+"Documentation of the winning bid, including, wherever applicable, a full "
+"copy of the proposal receieved."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:26
+msgid "Complaints and decisions"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:26
+msgid ""
+"Documentation of any complaints received, or decisions in response to "
+"complaints."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:27
+msgid "Annexes to the Contract"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:27
+msgid ""
+"Copies of annexes and other supporting documentation related to the "
+"contract."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:28
+msgid "Guarantees"
+msgstr "Garantías"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:28
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
+msgstr "Documentación de las garantías relativas a un contrato o contrato."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:29
+msgid "Subcontracts"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:29
+msgid ""
+"Documentation detailing subcontracts and/or providing a copy of subcontracts"
+" themselves. Where OCDS data on the subcontracts exists, this can be "
+"declared using the relatedProcess block."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:30
+msgid "Needs Assessment"
+msgstr "Requiere Valoración"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:30
+msgid ""
+"Documentation of the needs assessments carried out for this contracting "
+"process addressing demand for the project or investment from the affected "
+"communities or users."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:31
+msgid "Feasibility study"
+msgstr "Estudio de factibilidad"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:31
+msgid ""
+"Documentation of feasibility studies carried out for this contracting "
+"process, providing information on net benefits or costs of the proposed "
+"goods, works or services."
+msgstr ""
+"Documentación de los estudios de factibilidad realizados para este proceso "
+"de contratación, proporcionando información sobre los beneficios o costos "
+"netos de los bienes, obras o servicios propuestos."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:32
+msgid "Project plan"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:32
+msgid ""
+"Documentation of project planning for this contracting process, and, where "
+"applicable, a copy of the project plan document."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:33
+msgid "Bill Of Quantity"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:33
+msgid ""
+"Documentation that provides itemised information on materials, parts and "
+"labour, and the terms and conditions for their provision, providing "
+"information that would enable bidders to price work effectively. Structured "
+"versions of item and quantity information at each of tender, award and "
+"contract stage can be provided using units within the items building block."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:34
+msgid "Information on bidders"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:34
+msgid ""
+"Documentation on bidders or participants, their validation documents and any"
+" procedural exemptions for which they qualify"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:35
+msgid "Conflict of Interest"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:35
+msgid "Documentation of conflicts of interest declared or uncovered."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:36
+msgid "Debarments"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:36
+msgid "Documentation of any debarments issued."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:37
+msgid "Illustrations"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:37
+msgid ""
+"Images intended to provide supporting information. The url for images should"
+" generally be directly to an image file which applications can display as "
+"part of a gallery of images. At the tender stage, images may be "
+"illustrations of goods, works or services required or for sale. At the "
+"implementation stage, images may be illlustrations or visual evidence of "
+"physical progress. "
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:38
+msgid "Bid Submission Documents"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:38
+msgid "Documentation submitted by a bidder as part of their proposal."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:39
+msgid "Contract Summary"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:39
+msgid ""
+"Documentation providing an overview of the key terms and sections of the "
+"contract. Commonly used for large and complex contracts."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:40
+msgid "Cancellation Details"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:40
+msgid ""
+"Documentation the arrangements, or reasons, for cancellation of a "
+"contracting process, award or specific contract.  "
+msgstr ""
+
+#. Title_en
+#. Extension
+#: compiledCodelists/documentType.csv:41 compiledCodelists/documentType.csv:42
+#: compiledCodelists/documentType.csv:43 compiledCodelists/documentType.csv:44
+msgid "Tariffs"
+msgstr "Tarifas"
+
+#. Description_en
+#: compiledCodelists/documentType.csv:41
+msgid "For providing tariff and pricing schedules."
+msgstr "Para proporcionar tarifas y programación de precios."
+
+#. Title_en
+#: compiledCodelists/documentType.csv:42
+msgid "Tariff Method"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:42
+msgid ""
+"For summarising the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This may include written "
+"documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:43
+msgid "Tariff Review"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:43
+msgid ""
+"For summarising the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/documentType.csv:44
+msgid "Tariff Illustration"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/documentType.csv:44
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+msgstr ""
+
+#. Extension
+#: compiledCodelists/documentType.csv:45 compiledCodelists/documentType.csv:46
+#: compiledCodelists/documentType.csv:47 compiledCodelists/documentType.csv:48
+#: compiledCodelists/documentType.csv:49 compiledCodelists/documentType.csv:50
+#: compiledCodelists/documentType.csv:51 compiledCodelists/documentType.csv:52
+#: compiledCodelists/documentType.csv:53 compiledCodelists/documentType.csv:54
+#: compiledCodelists/documentType.csv:55 compiledCodelists/documentType.csv:56
+#: compiledCodelists/documentType.csv:57 compiledCodelists/documentType.csv:58
+#: compiledCodelists/documentType.csv:59 compiledCodelists/documentType.csv:60
+#: compiledCodelists/documentType.csv:61 compiledCodelists/documentType.csv:62
+#: compiledCodelists/documentType.csv:63 compiledCodelists/documentType.csv:64
+#: compiledCodelists/documentType.csv:65 compiledCodelists/documentType.csv:66
+#: compiledCodelists/documentType.csv:67 compiledCodelists/documentType.csv:68
+#: compiledCodelists/documentType.csv:69 compiledCodelists/documentType.csv:70
+#: compiledCodelists/documentType.csv:71 compiledCodelists/documentType.csv:72
+#: compiledCodelists/documentType.csv:73 compiledCodelists/documentType.csv:74
+#: compiledCodelists/documentType.csv:75 compiledCodelists/documentType.csv:76
+#: compiledCodelists/documentType.csv:77 compiledCodelists/documentType.csv:78
+#: compiledCodelists/documentType.csv:79 compiledCodelists/documentType.csv:80
+#: compiledCodelists/documentType.csv:81 compiledCodelists/documentType.csv:82
+#: compiledCodelists/documentType.csv:83 compiledCodelists/documentType.csv:84
+#: compiledCodelists/documentType.csv:85 compiledCodelists/documentType.csv:86
+#: compiledCodelists/documentType.csv:87 compiledCodelists/documentType.csv:88
+#: compiledCodelists/documentType.csv:89 compiledCodelists/documentType.csv:90
+#: compiledCodelists/documentType.csv:91 compiledCodelists/documentType.csv:92
+#: compiledCodelists/documentType.csv:93 compiledCodelists/documentType.csv:94
+#: compiledCodelists/documentType.csv:95 compiledCodelists/documentType.csv:96
+#: compiledCodelists/metricID.csv:1 compiledCodelists/metricID.csv:2
+#: compiledCodelists/metricID.csv:3 compiledCodelists/milestoneCode.csv:1
+#: compiledCodelists/milestoneCode.csv:2 compiledCodelists/milestoneCode.csv:3
+#: compiledCodelists/milestoneCode.csv:4 compiledCodelists/milestoneCode.csv:5
+#: compiledCodelists/milestoneCode.csv:6 compiledCodelists/milestoneCode.csv:7
+#: compiledCodelists/milestoneCode.csv:8 compiledCodelists/milestoneCode.csv:9
+#: compiledCodelists/milestoneCode.csv:10
+#: compiledCodelists/milestoneCode.csv:11
+#: compiledCodelists/milestoneCode.csv:12
+#: compiledCodelists/milestoneType.csv:6 compiledCodelists/milestoneType.csv:7
+#: compiledCodelists/partyRole.csv:5 compiledCodelists/partyRole.csv:6
+#: compiledCodelists/partyRole.csv:7 compiledCodelists/partyRole.csv:8
+#: compiledCodelists/partyRole.csv:9 compiledCodelists/partyRole.csv:10
+#: compiledCodelists/partyRole.csv:11 compiledCodelists/partyRole.csv:12
+#: compiledCodelists/partyRole.csv:13 compiledCodelists/partyRole.csv:14
+#: compiledCodelists/partyRole.csv:15 compiledCodelists/partyRole.csv:16
+#: compiledCodelists/partyRole.csv:17 compiledCodelists/partyRole.csv:18
+#: compiledCodelists/partyRole.csv:19
+msgid "Public Private Partnership"
+msgstr ""
+
+#. Description
+#: compiledCodelists/extendedProcurementCategory.csv:1
+msgid ""
+"This contracting process involves physical or electronic goods or supplies"
+msgstr ""
+
+#. Title
+#: compiledCodelists/extendedProcurementCategory.csv:1
+#: compiledCodelists/procurementCategory.csv:1
+msgid "Goods and supplies"
+msgstr ""
+
+#. Description
+#: compiledCodelists/extendedProcurementCategory.csv:2
+msgid ""
+"This contracting process involves construction, repair, rehabilitation, "
+"demolition, restoration or maintenance of some asset or infrastructure."
+msgstr ""
+
+#. Title
+#: compiledCodelists/extendedProcurementCategory.csv:2
+#: compiledCodelists/procurementCategory.csv:2
+msgid "Works"
+msgstr ""
+
+#. Description
+#: compiledCodelists/extendedProcurementCategory.csv:3
+msgid ""
+"This contracting process involves professional services of some form, "
+"generally contracted for on the basis of measurable outputs or deliverables."
+" When the consultingServices code is also available or in use for data from "
+"a particular dataset, the service code must only be used for non-consulting "
+"services."
+msgstr ""
+
+#. Title
+#: compiledCodelists/extendedProcurementCategory.csv:3
+#: compiledCodelists/procurementCategory.csv:3
+msgid "Services"
+msgstr ""
+
+#. Description
+#: compiledCodelists/extendedProcurementCategory.csv:4
+msgid ""
+"This contracting process involves professional services provided on a "
+"consultancy basis."
+msgstr ""
+
+#. Title
+#: compiledCodelists/extendedProcurementCategory.csv:4
+msgid "Consulting Services"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/financeCategory.csv:1
+#: compiledCodelists/financeCategory.csv:2
+#: compiledCodelists/financeCategory.csv:3
+#: compiledCodelists/financeCategory.csv:4
+#: compiledCodelists/financeCategory.csv:5
+#: compiledCodelists/financeCategory.csv:6
+#: compiledCodelists/financeTypes.csv:1 compiledCodelists/financeTypes.csv:2
+#: compiledCodelists/financeTypes.csv:3 compiledCodelists/financeTypes.csv:4
+#: compiledCodelists/financeTypes.csv:5 compiledCodelists/financeTypes.csv:6
+#: compiledCodelists/financeTypes.csv:7
+msgid "Finance"
+msgstr "Financiamiento"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:1
+msgid ""
+"Equity finance is given in exchange for a share of ownership in the project "
+"(usually via direct or indirect shareholding in a Special Purpose Vehicle "
+"(SPV) company created to run the project)."
+msgstr ""
+"El financiamiento de capital se da a cambio de una parte de la propiedad en "
+"el proyecto (generalmente a través de participación directa o indirecta en "
+"una Entidad con Cometido Especial (SPV) creada para ejecutar el proyecto)."
+
+#. Title
+#: compiledCodelists/financeCategory.csv:1
+msgid "Equity"
+msgstr "Capital"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:2
+msgid ""
+"Senior debt (sometimes called senior loans) take priority over other more "
+"junior debt."
+msgstr ""
+"La deuda principal (a veces llamada préstamos principales) tiene prioridad "
+"sobre otra deuda de categoría inferior."
+
+#. Title
+#: compiledCodelists/financeCategory.csv:2
+msgid "Senior debt"
+msgstr "Deuda principal"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:3
+msgid ""
+"Mezzanine debt (sometimes called mezzanine loans) take priority over common "
+"shares."
+msgstr ""
+
+#. Title
+#: compiledCodelists/financeCategory.csv:3
+msgid "Mezannine debt"
+msgstr "Deuda intermedia"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:4
+msgid "A grant is finance provided without expectation of repayment."
+msgstr ""
+"Una subvención es el financiamiento proporcionado sin la expectativa de "
+"pago."
+
+#. Title
+#: compiledCodelists/financeCategory.csv:4
+msgid "Grant"
+msgstr "Subsidio"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:5
+msgid ""
+"A guarantee is a promise by one party to assume the debt of another if the "
+"other defaults. Guarantees should not be counted in totals of the overall "
+"financing of a project."
+msgstr ""
+"Una garantía es una promesa por una parte de asumir la deuda de otra si el "
+"otro incumple. Las garantías no deben contabilizarse en los totales del "
+"financiamiento global de un proyecto."
+
+#. Title
+#: compiledCodelists/financeCategory.csv:5
+msgid "Guarantee"
+msgstr "Garantía"
+
+#. Description
+#: compiledCodelists/financeCategory.csv:6
+msgid ""
+"Any details of the conditions attached to this finance can be recorded in an"
+" associated notes field. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/financeCategory.csv:6
+msgid "Other debts or investments"
+msgstr "Otras deudas o inversiones"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:1
+msgid ""
+"This finance was provided by institutional investors: entities which pool "
+"money to purchase securities, real property, and other investment assets or "
+"originate loans. Institutional investors include banks, insurance companies,"
+" pensions, hedge funds, REITs, investment advisors, endowments, and mutual "
+"funds."
+msgstr ""
+"Este financiamiento fue proporcionado por inversores institucionales: "
+"entidades que combinan fondos para comprar valores, bienes inmuebles y otros"
+" activos de inversión u originar préstamos. Los inversores institucionales "
+"incluyen bancos, compañías de seguros, pensiones, fondos de cobertura, "
+"fideicomisos, asesores de inversiones, dotaciones y fondos mutuos."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:1
+msgid "Institutional"
+msgstr "Institucional"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:2
+msgid ""
+"This finance was provided by private parties who do not fall within the "
+"definition of institutional investor."
+msgstr ""
+"Este financiamiento fue proporcionada por particulares que no entran dentro "
+"de la definición de inversor institucional."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:2
+msgid "Commercial"
+msgstr "Comercial"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:3
+msgid ""
+"This finance was provided by a bilateral institution: an agency of one "
+"specific government, usually a development agency or export-credit agency "
+"with a mandate to support domestic businesses in pursuing investments "
+"abroad."
+msgstr ""
+"Este financiamiento fue proporcionado por una institución bilateral: una "
+"agencia de un gobierno específico, usualmente una agencia de desarrollo o "
+"agencia de crédito a la exportación con un mandato para apoyar a las "
+"empresas nacionales en la búsqueda de inversiones en el extranjero."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:3
+msgid "Bilateral"
+msgstr "Bilateral"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:4
+msgid ""
+"This finance was provided by a multilateral institution: a body created by a"
+" group of countries to provides financing and professional support, "
+"primarily for the purpose of development. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/financeTypes.csv:4
+msgid "Multilateral"
+msgstr "Multilateral"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:5
+msgid "This finance was provided through a public bond issue."
+msgstr ""
+"Este financiamiento fue proporcionado a través de una emisión de bonos "
+"públicos."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:5
+msgid "Public Bond Issue"
+msgstr "Emisión de Bonos Públicos"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:6
+msgid ""
+"This finance was provided through a line of credit provided by a supplier."
+msgstr ""
+"Este financiamiento fue proporcionado a través de una línea de crédito dada "
+"por un proveedor."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:6
+msgid "Supplier Credit"
+msgstr "Crédito del Proveedor"
+
+#. Description
+#: compiledCodelists/financeTypes.csv:7
+msgid "This finance was provided through some other source."
+msgstr "Este financiamiento se proporcionó a través de alguna otra fuente."
+
+#. Title
+#: compiledCodelists/financeTypes.csv:7
+msgid "Other"
+msgstr "Otro"
+
+#. Title_en
+#. Title
+#: compiledCodelists/initiationType.csv:1 compiledCodelists/releaseTag.csv:3
+msgid "Tender"
+msgstr "Licitación"
+
+#. Description_en
+#: compiledCodelists/initiationType.csv:1
+msgid ""
+"An open competitive bidding or tendering to form contracts. The process "
+"generally involves publicly inviting prospective contractors to submit bids "
+"for evaluation and selecting a winner or winners."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:1
+msgid "EC Common Procurement Vocabulary"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:1
+msgid ""
+"The Common Procurement Vocabulary is a standard adopted by the Commission of"
+" the European Community, and consisting of a main vocabulary for defining "
+"the subject of a contract, and a supplementary vocabulary for adding further"
+" qualitative information. The main vocabulary, identified in OCDS by the "
+"code CPV, is based on a tree structure comprising codes of up to 9 digits "
+"(an 8 digit code plus a check digit) associated with a wording that "
+"describes the type of supplies, works or services forming the subject of the"
+" contract. Codes may be provided with or without the check digit, and "
+"consuming applications should be aware of this when processing data with CPV"
+" codes."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:2
+msgid "EC Common Procurement Vocabulary - Supplementary Codelists"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:2
+msgid ""
+"The Common Procurement Vocabulary is a standard adopted by the Commission of"
+" the European Community, and consisting of a main vocabulary for defining "
+"the subject of a contract, and a supplementary vocabulary for adding further"
+" qualitative information. The supplementary vocabulary, identified in OCDS "
+"by the code CPVS, is made up of an alphanumeric code with a corresponding "
+"wording allowing further details to be added regarding the specific nature "
+"or destination of the goods to be purchased."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:3
+msgid "Goods and Services Identification Number"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:3
+msgid ""
+"The Canadia federal government uses Goods and Services Identification Number"
+" (GSIN) codes to identify generic product descriptions for its procurement "
+"activities. The full list is published and maintained at buyandsell.gc.ca"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:4
+msgid "United Nations Standard Products and Services Code"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:4
+msgid ""
+"The United Nations Standard Products and Services Code (UNSPSC) is a "
+"hierarchical convention that is used to classify all products and services. "
+"Machine readable meta-data for UNSPSC is not provided as open data: and so "
+"publishers should consider alternative classification shemes that do provide"
+" open data lookup tables wherever possible."
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:5
+msgid "Central Product Classification"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:5
+msgid ""
+"The Central Product Classification (CPC) is a product classification for "
+"goods and services promulgated by the United Nations Statistical Commission."
+" It is intended to be an international standard for organizing and analyzing"
+" data on industrial production, national accounts, trade and prices"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:6
+msgid ""
+"Russian National Classification of Products by Economic Activity (1994)"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:6
+msgid ""
+"Part of the unified system of classification and coding of technical, "
+"economic and social information of the Russian Federation, in use for "
+"Russian Procurement information until January 1, 2016. Superseded by OKPD"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/itemClassificationScheme.csv:7
+msgid ""
+"Russian National Classification of Products by Economic Activity (2014)"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/itemClassificationScheme.csv:7
+msgid ""
+"Part of the national standardisation system of the Russian Federation and "
+"based on harmonisation with the Statistical Classification of Products by "
+"Activity in the European Economic Community, 2008. In use from January 1 "
+"2014"
+msgstr ""
+
+#. Title_en
+#. Title
+#: compiledCodelists/locationGazeteer.csv:1
+#: compiledCodelists/locationGazeteers.csv:1
+msgid "EU Nomenclature of Territorial Units for Statistics "
+msgstr ""
+
+#. Description_en
+#. Description
+#: compiledCodelists/locationGazeteer.csv:1
+#: compiledCodelists/locationGazeteers.csv:1
+msgid ""
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
+msgstr ""
+
+#: compiledCodelists/locationGazeteers.csv
+msgid "URI_Pattern"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/locationGazeteers.csv:1
+#: compiledCodelists/locationGazeteers.csv:2
+#: compiledCodelists/locationGazeteers.csv:3
+#: compiledCodelists/locationGazeteers.csv:4
+#: compiledCodelists/locationGazeteers.csv:5
+#: compiledCodelists/locationGazeteers.csv:6
+msgid "Location"
+msgstr "Ubicación"
+
+#. Description
+#: compiledCodelists/locationGazeteers.csv:2
+msgid "ISO 2-Digit Country Codes"
+msgstr ""
+
+#. Title
+#: compiledCodelists/locationGazeteers.csv:2
+msgid "ISO Country Codes (3166-1 alpha-2)"
+msgstr ""
+
+#. Description
+#: compiledCodelists/locationGazeteers.csv:3
+msgid ""
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, populated centres and other "
+"locations, embedded within a structured tree of geographic relations."
+msgstr ""
+
+#. Title
+#: compiledCodelists/locationGazeteers.csv:3
+msgid "GeoNames"
+msgstr ""
+
+#. Description
+#: compiledCodelists/locationGazeteers.csv:4
+msgid ""
+"OpenStreetMap Nodes consist of a single point in space defined by a "
+"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"particular geographic feature they represent."
+msgstr ""
+
+#. Title
+#: compiledCodelists/locationGazeteers.csv:4
+msgid "OpenStreetMap Node"
+msgstr ""
+
+#. Description
+#: compiledCodelists/locationGazeteers.csv:5
+msgid ""
+"Relations are used to model logical (and usually local) or geographic "
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in OpenStreetMap."
+msgstr ""
+
+#. Title
+#: compiledCodelists/locationGazeteers.csv:5
+msgid "OpenStreetMap Relation"
+msgstr ""
+
+#. Description
+#: compiledCodelists/locationGazeteers.csv:6
+msgid ""
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be used "
+"to describe fragments of roads or local boundaries and bounding boxes."
+msgstr ""
+
+#. Title
+#: compiledCodelists/locationGazeteers.csv:6
+msgid "OpenStreetMap Way"
+msgstr ""
+
+#. Description
+#: compiledCodelists/method.csv:1
+msgid "All interested suppliers may submit a tender."
+msgstr ""
+
+#. Title
+#: compiledCodelists/method.csv:1
+msgid "Open"
+msgstr ""
+
+#. Description
+#: compiledCodelists/method.csv:2
+msgid "Only qualified suppliers are invited to submit a tender."
+msgstr ""
+
+#. Title
+#: compiledCodelists/method.csv:2
+msgid "Selective"
+msgstr ""
+
+#. Description
+#: compiledCodelists/method.csv:3
+msgid "The procuring entity contacts a number of suppliers of its choice."
+msgstr ""
+
+#. Title
+#: compiledCodelists/method.csv:3
+msgid "Limited"
+msgstr ""
+
+#. Description
+#: compiledCodelists/method.csv:4
+msgid "The contract is awarded to a single supplier without competition."
+msgstr ""
+
+#. Title
+#: compiledCodelists/method.csv:4
+msgid "Direct"
+msgstr ""
+
+#. Description
+#: compiledCodelists/metricID.csv:1
+msgid "For reporting on forecast or actual demand"
+msgstr "Para informar sobre la demanda prevista o real"
+
+#. Title
+#: compiledCodelists/metricID.csv:1
+msgid "Demand"
+msgstr "Demanda"
+
+#. Description
+#: compiledCodelists/metricID.csv:2
+msgid "For reporting on forecast or actual revenues"
+msgstr "Para informar sobre los ingresos previstos o reales"
+
+#. Title
+#: compiledCodelists/metricID.csv:2
+msgid "Revenue"
+msgstr "Ingresos"
+
+#. Description
+#: compiledCodelists/metricID.csv:3
+msgid "For reporting on forecast or actual project IRR"
+msgstr "Para informar sobre la TIR proyectada o real"
+
+#. Title
+#: compiledCodelists/metricID.csv:3
+msgid "Internal Rate of Return"
+msgstr "Tasa de Rentabilidad Interna"
+
+#: compiledCodelists/milestoneCode.csv
+msgid "Notes"
+msgstr "Notas"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:1
+msgid "Project approval"
+msgstr "Aprobación del proyecto"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:2
+msgid "The dates of approvals required from relevant authorities."
+msgstr ""
+"Las fechas de las aprobaciones requeridas por las autoridades pertinentes."
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:2
+msgid "https://github.com/open-contracting/ocds-milestones-update"
+msgstr "https://github.com/open-contracting/ocds-milestones-update"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:3
+msgid "Commercial close"
+msgstr "Cierre comercial"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:3
+msgid ""
+"In a financing, the point at which the commercial documentation has been "
+"executed but before conditions precedent have been satisfied or waived; "
+"before financial close."
+msgstr ""
+"En una financiación, el punto en el que se ha ejecutado la documentación "
+"comercial, pero antes de que se hayan cumplido o eximido las condiciones "
+"previas; antes del cierre financiero."
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:4
+msgid "Financial close"
+msgstr "Cierre financiero"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:4
+msgid ""
+"In a financing, the point at which the documentation has been executed and "
+"conditions precedent have been satisfied or waived. Drawdowns become "
+"permissible after this point."
+msgstr ""
+"En una financiación, el punto en el que se ha ejecutado la documentación y "
+"las condiciones precedentes se han cumplido o se han eximido. Después de "
+"este punto son admisibles los retiros."
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:5
+msgid "Commencement of construction or development"
+msgstr "Comienzo de la construcción o desarrollo"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:6
+msgid "The date of commencement of construction or development"
+msgstr "La fecha de inicio de la construcción o desarrollo"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:7
+msgid "Completion of construction of development"
+msgstr "Finalización de la construcción del desarrollo"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:7
+msgid "The date of completion of construction or development"
+msgstr "La fecha de terminación de la construcción o desarrollo"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:8
+msgid "Commissioning"
+msgstr "Puesta en servicio"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:8
+msgid ""
+"The testing and inspection of the completed works to verify that the works "
+"are ready for commercial operation."
+msgstr ""
+"La comprobación e inspección de las obras terminadas para verificar que las "
+"obras están listas para el funcionamiento comercial."
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:9
+msgid "Enquiry period start"
+msgstr "Comienzo del período de consulta"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:9
+msgid ""
+"For processes with multiple enquiry periods,the start date of a period "
+"during which enquiries may be made and responded to which is not provided in"
+" the tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+"Para los procesos con múltiples períodos de consulta, la fecha de inicio de "
+"un período durante el cual se pueden hacer consultas y se responderán que no"
+" se proporciona en el bloque de tender/enquiryPeriod. A veces conocido como "
+"períodos de clarificación."
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:10
+msgid "Enquiry period end"
+msgstr "Fin del período de consulta"
+
+#. Description
+#: compiledCodelists/milestoneCode.csv:10
+msgid ""
+"For processes with multiple enquiry periods, the end date of a period during"
+" which enquiries may be made and responded to which is not provided in the "
+"tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+"Para los procesos con múltiples períodos de consulta, la fecha de "
+"finalización de un período durante el cual se pueden realizar y responder "
+"preguntas que no se proporcionan en el bloque de tender/enquiryPeriod. A "
+"veces conocido como períodos de clarificación."
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:11
+msgid "Submission of draft final tender"
+msgstr "Presentación del borrador final de licitación"
+
+#. Title
+#: compiledCodelists/milestoneCode.csv:12
+msgid ""
+"For competitive dialogue processes, the deadline for submission of draft "
+"final tenders"
+msgstr ""
+"Para los procesos de diálogo competitivo, el plazo para la presentación de "
+"borradores finales de licitación"
+
+#. Description
+#: compiledCodelists/milestoneStatus.csv:1
+msgid ""
+"This milestone has been scheduled for the date in milestone.dueDate. "
+"Progress towards the milestone has not yet been evaluated as of "
+"milestone.dateModified"
+msgstr ""
+"Este hito se ha programado para la fecha en milestone.dueDate. El progreso "
+"hacia el hito aún no ha sido evaluado como de milestone.dateModified"
+
+#. Title
+#: compiledCodelists/milestoneStatus.csv:1
+msgid "Scheduled"
+msgstr "Programado"
+
+#. Description
+#: compiledCodelists/milestoneStatus.csv:2
+msgid ""
+"This milestone has been achieved. The data on which it was met should be "
+"placed in the milestone.dateMet field"
+msgstr ""
+"Este hito se ha logrado. Los datos sobre los que se ha cumplido deben "
+"colocarse en el campo milestone.dateMet"
+
+#. Title
+#: compiledCodelists/milestoneStatus.csv:2
+msgid "Met"
+msgstr "Cumplido"
+
+#. Description
+#: compiledCodelists/milestoneStatus.csv:3
+msgid ""
+"This milestone had not been met at the date it was last reviewed (see "
+"milestone.dateModified)."
+msgstr ""
+"Este hito no se ha cumplido en la fecha de su última revisión (ver "
+"milestone.dateModified)."
+
+#. Title
+#: compiledCodelists/milestoneStatus.csv:3
+msgid "Not Met"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneStatus.csv:4
+msgid ""
+"This milestone was judged to have been partially met at the date it was last"
+" reviewed (see milestone.dateModified)"
+msgstr ""
+"Se juzgó que este hito se había cumplido parcialmente en la fecha en que se "
+"revisó por última vez (véase milestone.dateModified)"
+
+#. Title
+#: compiledCodelists/milestoneStatus.csv:4
+msgid "Partially Met"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:1
+msgid "For events during the planning phase of a process."
+msgstr "Para eventos durante la fase de planificación de un proceso."
+
+#. Title
+#: compiledCodelists/milestoneType.csv:1
+msgid "Planning milesones"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:2
+msgid "For engagement milestones, such as a public hearing."
+msgstr "Para hitos de participación, como una audiencia pública."
+
+#. Title
+#: compiledCodelists/milestoneType.csv:2
+msgid "Engagement milestones"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:3
+msgid "For adjudication milestones, such as the meeting date of a committee."
+msgstr ""
+
+#. Title
+#: compiledCodelists/milestoneType.csv:3
+msgid "Adjudication milestones"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:4
+msgid ""
+"For delivery milestones, such as the date when a good or service should be "
+"provided."
+msgstr ""
+
+#. Title
+#: compiledCodelists/milestoneType.csv:4
+msgid "Delivery milestones"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:5
+msgid "For reporting milestones, such as when key reports should be provided."
+msgstr ""
+"Para hitos de reporte, como cuando se deben proporcionar informes clave."
+
+#. Title
+#: compiledCodelists/milestoneType.csv:5
+msgid "Reporting milestones"
+msgstr ""
+
+#. Description
+#: compiledCodelists/milestoneType.csv:6
+msgid ""
+"Events taking place during the procurement which are not captured by fields "
+"in core OCDS, such as additional enquiry periods or draft tender submissions"
+" in a competitive dialogue process"
+msgstr ""
+"Los acontecimientos que se producen durante la contratación y que no son "
+"capturados por los campos del OCDS básico, tales como periodos de consulta "
+"adicionales o  presentación de borrdores de ofertas en un proceso de diálogo"
+" competitivo"
+
+#. Title
+#: compiledCodelists/milestoneType.csv:6
+msgid "Procurement"
+msgstr "Contratación"
+
+#. Description
+#: compiledCodelists/milestoneType.csv:7
+msgid "Events such as commercial and financial close"
+msgstr "Eventos como el cierre comercial y financiero"
+
+#. Title
+#: compiledCodelists/milestoneType.csv:7
+msgid "Contract close"
+msgstr "Cierre de contrato"
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "code"
+msgstr ""
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "name"
+msgstr ""
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "description"
+msgstr ""
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "category"
+msgstr ""
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "url"
+msgstr ""
+
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv
+msgid "public-database"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:1
+msgid "Afghanistan Central Business Registry"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:1
+msgid "Website not yet searchable"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:2
+msgid "Ministry of Economy"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:3
+msgid "Australian Business Register"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:4
+msgid "Australian Charities and Not-for-profits Commission"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:5
+msgid "Bangladesh NGO Affairs Bureau"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:6
+msgid "Banque Carrefour des entreprises / Kruispuntbank van ondernemingen"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:7
+msgid "Canadian Revenue Agency / Agence du revenu du Canada"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:7
+msgid "CRA_ACR is legal requirement for bilingual use"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:8
+msgid "Common Directory of Organizational Units and Offices - DIR3"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:8
+#, python-format
+msgid ""
+"EXCEL Tables: "
+"http://administracionelectronica.gob.es/ctt/resources/Soluciones/238/Area%20descargas/Listado%20Oficinas%20AGE.xlsx?idIniciativa=238&idElemento=2745"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:9
+msgid "Ministry of Foreign Affairs"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:9
+msgid ""
+"Charities are registered but no openly searchable database yet available."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:10
+msgid "Finnish Patent and Registration office"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:11
+msgid ""
+"Registre de Commerce et des Societies /Trade and Companies Register - "
+"Commercial Court Registry"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:12
+msgid "Charity Commission"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:13
+msgid "Companies House"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:14
+msgid "UK Government Departments Reference Numbers"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:14
+msgid "Codes for use by IATI for UK Government Departments."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:15
+msgid "UK Government Departments, Agencies & Public Bodies"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:15
+msgid ""
+"Use the final segment of the url (below /organisations) as the "
+"\"registration number\", converting all \"-\" to \"_\". Keep \"registration "
+"number\" portion all lowercase."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:16
+msgid "The Charity Commission for Northern Ireland"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:17
+msgid "HM Revenue and Customs"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:18
+msgid "Scottish Charity Register"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:19
+msgid "UK Register of Learning Providers"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:20
+msgid "Department of Social Welfare"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:21
+msgid "Ministry Home affairs/ Kementerian Dalam Negeri"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:21
+msgid ""
+"NGO registration can also be done through Ministry Home affairs/ Kementerian"
+" Dalam Negeri"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:22
+msgid "Ministry of Justice & Human Rights/ Kementerian Hukum Dan Hak"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:22
+msgid ""
+"Company registration is done through Ministry of Justice & Human Rights/ "
+"Kementerian Hukum Dan Hak"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:23
+msgid "Ministry of Foreign affairs/ Kementerian Luar Negeri"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:23
+msgid ""
+"International NGO registration is done through Ministry of Foreign affairs/ "
+"Kementerian Luar Negeri"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:24
+msgid "NGOs registered at Provinicial Level"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:24
+msgid ""
+"Registration for NGO in Indonesia can be done at the provincial level. "
+"Because there is regional autonomy, each provincial has different "
+"requirements. Website is just one example"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:25
+msgid "Irish Register of Charities"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:26
+msgid "Irish CompaniesRegistration Office"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:27
+msgid "Isle of Man Companies Registry"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:28
+msgid "Isle of Man Index of Registered Charities"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:29
+msgid "Government of India, Minstry of Corporate Affairs"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:29
+msgid ""
+"MCA regulates corporate affairs in India through the Companies Act, 1956, "
+"2013 and other allied Acts, Bills and Rules."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:30
+msgid "NGO's Coordination Board"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:31
+msgid "Registar of Companies"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:32
+msgid "Registrar of Societies"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:33
+msgid "Lesotho Council of Non Governmental Organisations"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:34
+msgid ""
+"Ministry of Home Affairs - Central Committee for the Registration and "
+"Supervision of Organisations"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:34
+msgid ""
+"The MHA assigns a registration number to each NGO - this number is time "
+"limited, for example 4 years, after which the registration is reviewed."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:35
+msgid "The Council for Non Governmental Organisations in Malawi"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:36
+msgid "Malawi Revenue Authority"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:37
+msgid "NGO Board of Malawi"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:37
+msgid ""
+"There is a pdf file with a list of registered NGOs, but these do not appear "
+"to be registration numbers. New database is planned"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:38
+msgid "Registrar General, Department of Justice"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:39
+msgid "Mozambique Ministry of Justice"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:40
+msgid "Kamer van Koophandel"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:41
+msgid "Brønnøysundregistrene"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:42
+msgid "Company Registrar Office"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:43
+msgid "NGO registration"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:44
+msgid "Pakistan Centre for Philanthropy"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:44
+msgid ""
+"The PCP Certification Programme seeks to bring transparency, accountability "
+"and good governance in the nonprofit sector in Pakistan. The first "
+"initiative of its kind in South Asia; it involves the evaluation of a "
+"nonprofit organisation on standardised parameters of internal governance, "
+"financial management and programme delivery."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:45
+msgid "Bolagsverket / Swedish Companies Registration Office"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:46
+msgid "Slovakia Ministry Of Interior Trade Register"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:46
+msgid ""
+"Most organisations (including NGOs) have to be registered with the Ministry "
+"of Interior for the Trade Register Of The Slovak Republic (Živnostensky "
+"Register Slovenskej Republiky) and are allocated a unique registration "
+"number"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:47
+msgid "United State Register, Ukraine"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:48
+msgid "NGO Board, Ministry of Internal Affairs"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:49
+msgid "Registration Services Bureau"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:50
+msgid ""
+"Corporation registration is the responsibility of each state (see link)"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:51
+msgid "Internal Revenue Service / Employer Identification Number"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:52
+msgid "Index of U.S. Government Departments and Agencies"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:52
+msgid ""
+"Use the final segment of the url (below /federal and excluding the "
+"extension) as the \"registration number\", converting all \"-\" to \"_\". "
+"Keep \"registration number\" portion all lowercase."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:53
+msgid "International Aid Transparency Initiative Organisation Identifier"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:53
+msgid ""
+"XI-IATI is a list of organisation identifiers that is maintained by the IATI"
+" Secretariat. Any publisher may apply to the IATI Technical Team for an "
+"identifier to be generated."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:54
+msgid "OECD Development Assistance Committee"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:54
+msgid "See Donor, Agency, and Delivery Channel codes"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:55
+msgid "United Nations Office for the Coordination of Humanitarian Affairs"
+msgstr ""
+
+#. description
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:55
+msgid ""
+"OCHA is the part of the United Nations Secretariat responsible for bringing "
+"together humanitarian actors to ensure a coherent response to emergencies."
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:56
+msgid "Companies and Intellectual Property Commission (CIPC)"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:57
+msgid "Association for Non-Profit Organisations"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:58
+msgid "SA Revenue Service Tax Exemption Unit / Public Benefit Organisations"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:59
+msgid "Non Governmental Organisation Registration Board"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:60
+msgid "Patents and Companies Registration Agency"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:61
+msgid "Private Voluntary Organisations Council"
+msgstr ""
+
+#. name
+#: compiledCodelists/organizationIdentifierRegistrationAgency_iati.csv:62
+msgid "Registrar of Deeds"
+msgstr ""
+
+#. Description
+#: compiledCodelists/partyRole.csv:1
+msgid ""
+"A party who has made an enquiry during the enquiry phase of a contracting "
+"process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/partyRole.csv:1
+msgid "Enquirer"
+msgstr ""
+
+#. Description
+#: compiledCodelists/partyRole.csv:2
+msgid "A party making a payment from a transaction"
+msgstr ""
+
+#. Title
+#: compiledCodelists/partyRole.csv:2
+msgid "Payer"
+msgstr "Pagador"
+
+#. Description
+#: compiledCodelists/partyRole.csv:3
+msgid "A party in receipt of a payment from a transaction"
+msgstr ""
+
+#. Title
+#: compiledCodelists/partyRole.csv:3
+msgid "Payee"
+msgstr "Beneficiarios"
+
+#. Description
+#: compiledCodelists/partyRole.csv:4
+msgid ""
+"A party responsible for the review of this procurement process. This party "
+"often has a role in any challenges made to the contract award. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/partyRole.csv:4
+msgid "Review Body"
+msgstr ""
+
+#. Description
+#: compiledCodelists/partyRole.csv:5
+msgid ""
+"The unit/body/department within a government that is tendering and "
+"contracting the project. The public counterpart in the PPP contract."
+msgstr ""
+"La unidad/cuerpo/departamento dentro de un gobierno que está licitando y "
+"contratando el proyecto. La contraparte pública en el contrato de APP."
+
+#. Title
+#. Title_en
+#: compiledCodelists/partyRole.csv:5 compiledCodelists/riskAllocation.csv:1
+msgid "Public authority"
+msgstr "Autoridad pública"
+
+#. Description
+#: compiledCodelists/partyRole.csv:6
+msgid ""
+"The company or a group of companies, such as a consortium, that submits a "
+"bid in response to a RFP. A bidder could be a single party or a consortium "
+"of parties, each responsible for a specific element, such as constructing "
+"the infrastructure, supplying the equipment, or operating the business."
+msgstr ""
+"La empresa o un grupo de empresas, como un consorcio, que presenta una "
+"oferta en respuesta a una solicitud de propuesta. Un licitador podría ser "
+"una sola parte o un consorcio de partes, cada uno responsable de un elemento"
+" específico, como la construcción de la infraestructura, el suministro del "
+"equipo o la operación del negocio."
+
+#. Title
+#: compiledCodelists/partyRole.csv:6
+msgid "Bidder"
+msgstr "Licitador"
+
+#. Description
+#: compiledCodelists/partyRole.csv:7
+msgid ""
+"Those parties invited to submit a proposal in response to a Request for "
+"Proposal (RFP) for a project in which the government only allows a limited "
+"number of pre-qualified bidders to proceed to the RFP phase."
+msgstr ""
+"Las partes invitadas a presentar una propuesta en respuesta a un llamado a "
+"propuestas (RFP) para un proyecto en el que el gobierno sólo permite a un "
+"número limitado de licitadores precalificados para proceder a la fase de "
+"llamado a propuestas."
+
+#. Title
+#: compiledCodelists/partyRole.csv:7
+msgid "Qualified bidder"
+msgstr "Licitante calificado"
+
+#. Description
+#: compiledCodelists/partyRole.csv:8
+msgid ""
+"The bidder identified at the end of the tender evaluation process as being "
+"the government’s preferred partner to enter into (or enter into final "
+"negotiations for) a PPP contract. The preferred bidder is awarded the "
+"contract and called to contract signature."
+msgstr ""
+"El licitador identificado al final del proceso de evaluación de ofertas como"
+" el socio preferido del gobierno para celebrar (o entrar en negociaciones "
+"finales) un contrato de APP. Se adjudica el contrato al licitador preferido "
+"y se le llama a firmar el contrato."
+
+#. Title
+#: compiledCodelists/partyRole.csv:8
+msgid "Preferred bidder"
+msgstr "Licitante preferido"
+
+#. Description
+#: compiledCodelists/partyRole.csv:9
+msgid ""
+"The counter party of the procuring authority in the PPP contract. A private "
+"entity which has been granted the contract to construct and operate a "
+"government asset, and which is usually created under the form of a Special "
+"Purpose Vehicle or SPV."
+msgstr ""
+"La contraparte de la autoridad contratante en el contrato APP. Una entidad "
+"privada a la que se le ha concedido el contrato para construir y operar un "
+"activo gubernamental y que normalmente se crea bajo la forma de un Vehículo "
+"de Propósito Especial o SPV. "
+
+#. Title
+#. Title_en
+#: compiledCodelists/partyRole.csv:9 compiledCodelists/riskAllocation.csv:2
+msgid "Private party"
+msgstr "Parte privada"
+
+#. Description
+#: compiledCodelists/partyRole.csv:10
+msgid ""
+"A lead bank is a bank that oversees the arrangement of a loan syndication"
+msgstr ""
+"Un líder del consorcio es un banco que supervisa el arreglo de una "
+"sindicación de préstamos"
+
+#. Title
+#: compiledCodelists/partyRole.csv:10
+msgid "Lead bank"
+msgstr "Lider del consorcio"
+
+#. Description
+#: compiledCodelists/partyRole.csv:11
+msgid ""
+"The APMG PPP Certification Program defines lenders as \"Institutions that "
+"provide lending to the project: mainly banks and institutional investors "
+"through project bonds\""
+msgstr ""
+"El Programa de Certificación PPP de APMG define a los prestamistas como "
+"\"Instituciones que proporcionan préstamos al proyecto: principalmente "
+"bancos e inversores institucionales a través de bonos de proyectos\""
+
+#. Title
+#: compiledCodelists/partyRole.csv:11
+msgid "Lender"
+msgstr "Prestador"
+
+#. Description
+#: compiledCodelists/partyRole.csv:12
+msgid ""
+"The APMG PPP Certification Program defines equity investors as \"Investors "
+"who finance a portion of the project’s capital expenditures (Capex), "
+"typically as share capital or subordinated debt\""
+msgstr ""
+"El Programa de Certificación PPP de APMG define a los inversores de capital "
+"como \"Inversores que financian una parte de los gastos de capital del "
+"proyecto (Capex), típicamente como capital social o deuda subordinada\""
+
+#. Title
+#: compiledCodelists/partyRole.csv:12
+msgid "Equity investor"
+msgstr "Inversor de capital"
+
+#. Description
+#: compiledCodelists/partyRole.csv:13
+msgid ""
+"One of a group of companies that has joined together to bid for a project."
+msgstr ""
+"Uno de un grupo de empresas que se han unido para licitar un proyecto."
+
+#. Title
+#: compiledCodelists/partyRole.csv:13
+msgid "Consortia member"
+msgstr "Miembro de los consorcios"
+
+#. Description
+#: compiledCodelists/partyRole.csv:14
+msgid ""
+"A party which has expressed an interest in the project, for example by "
+"purchasing tender documents or submitted clarification questions, but has "
+"not yet formally submitted a bid."
+msgstr ""
+"Una parte que haya manifestado su interés en el proyecto, por ejemplo, "
+"comprando documentos de licitación o presentado preguntas de aclaración, "
+"pero aún no ha presentado formalmente una oferta."
+
+#. Title
+#: compiledCodelists/partyRole.csv:14
+msgid "Interested party"
+msgstr "Parte interesada"
+
+#. Description
+#: compiledCodelists/partyRole.csv:15
+msgid "The party which grants a concession, a license or some other right."
+msgstr "La parte que otorga una concesión, una licencia u otro derecho."
+
+#. Title
+#: compiledCodelists/partyRole.csv:15
+msgid "Grantor"
+msgstr "Concedente"
+
+#. Description
+#: compiledCodelists/partyRole.csv:16
+msgid ""
+"A bidder which either did not pass the qualification stage of the evaluation"
+" process or did not pass the pre-qualification stage of the process. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/partyRole.csv:16
+msgid "Disqualified bidder"
+msgstr "Licitador descalificado"
+
+#. Description
+#: compiledCodelists/partyRole.csv:17
+msgid ""
+"A social witness participates as an external observer in a public "
+"procurements process. They have a formal role as an observer."
+msgstr ""
+"Un testigo social participa como observador externo en un proceso de "
+"adquisiciones públicas. Tienen un papel formal como observador."
+
+#. Title
+#: compiledCodelists/partyRole.csv:17
+msgid "Social witness"
+msgstr "Testigo social"
+
+#. Description
+#: compiledCodelists/partyRole.csv:18
+msgid ""
+"A witness attends one or more stages of the procurement process to observe "
+"proceedings."
+msgstr ""
+"Un testigo asiste a una o más etapas del proceso de adquisición para "
+"observar los procedimientos."
+
+#. Title
+#: compiledCodelists/partyRole.csv:18
+msgid "Other witness"
+msgstr "Otro testigo"
+
+#. Description
+#: compiledCodelists/partyRole.csv:19
+msgid ""
+"A person authorized to perform certain legal formalities, especially to "
+"certify documents and proceedings."
+msgstr ""
+"Una persona autorizada para realizar ciertas formalidades legales, "
+"especialmente para certificar documentos y procedimientos."
+
+#. Title
+#: compiledCodelists/partyRole.csv:19
+msgid "Notary"
+msgstr "Notario"
+
+#. Title_en
+#. Title
+#: compiledCodelists/preQualificationStatus.csv:1
+#: compiledCodelists/tenderStatus.csv:2
+msgid "Planned"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/preQualificationStatus.csv:1
+msgid "This pre-qualification has been proposed, but is not yet taking place."
+msgstr ""
+
+#. Extension
+#. Title
+#: compiledCodelists/preQualificationStatus.csv:1
+#: compiledCodelists/preQualificationStatus.csv:2
+#: compiledCodelists/preQualificationStatus.csv:3
+#: compiledCodelists/preQualificationStatus.csv:4
+#: compiledCodelists/preQualificationStatus.csv:5
+#: compiledCodelists/releaseTag.csv:17 compiledCodelists/releaseTag.csv:18
+#: compiledCodelists/releaseTag.csv:19 compiledCodelists/releaseTag.csv:20
+#: compiledCodelists/releaseTag.csv:21 compiledCodelists/releaseTag.csv:22
+msgid "Qualification"
+msgstr "Calificación"
+
+#. Description_en
+#: compiledCodelists/preQualificationStatus.csv:2
+msgid "A pre-qualification process is currently taking place."
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/preQualificationStatus.csv:3
+msgid "The pre-qualification process has been cancelled."
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/preQualificationStatus.csv:4
+msgid "The pre-qualification process was unsuccessful."
+msgstr ""
+
+#. Title_en
+#. Title
+#: compiledCodelists/preQualificationStatus.csv:5
+#: compiledCodelists/tenderStatus.csv:6
+msgid "Complete"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/preQualificationStatus.csv:5
+msgid "The pre-qualification process is complete."
+msgstr ""
+
+#. Description
+#: compiledCodelists/procurementCategory.csv:1
+msgid ""
+"The primary object of this contracting process involves physical or "
+"electronic goods or supplies."
+msgstr ""
+
+#. Description
+#: compiledCodelists/procurementCategory.csv:2
+msgid ""
+"The primary object of this contracting process involves construction, "
+"repair, rehabilitation, demolition, restoration or maintenance of some asset"
+" or infrastructure."
+msgstr ""
+
+#. Description
+#: compiledCodelists/procurementCategory.csv:3
+msgid ""
+"The primary object of this contracting process involves professional "
+"services of some form, generally contracted for on the basis of measurable "
+"outputs or deliverables."
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:1
+msgid ""
+"This contracting process follows on from the related process to establish a "
+"framework. The suppliers on the framework are listed in the award section of"
+" the related process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:1
+msgid "Framework agreement procedure first stage"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:2
+msgid "This contracting process follows on from the related planning process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:2
+msgid "Planning process"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:3
+msgid ""
+"This contracting process may result in a sub-contract of the related "
+"process. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:3
+msgid "Parent contract (for sub-contracts)"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:4
+msgid ""
+"This contracting process is the renewal or replacement of the related prior "
+"process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:4
+msgid "Prior process"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:5
+msgid ""
+"This contracting process follows on from an previous unsuccessful process."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:5
+msgid "Unsuccessful process"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:6
+msgid "The related process may result in a sub-contract of this contract. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:6
+msgid "Sub-contract"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:7
+msgid "The related process may result in the replacement of this contract."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:7
+msgid "Replacement process"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcess.csv:8
+msgid "The related process may result in the renewal of this contract."
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcess.csv:8
+msgid "Renewal process"
+msgstr ""
+
+#. Description
+#: compiledCodelists/relatedProcessScheme.csv:1
+msgid "An open contracting process identifier (OCID)"
+msgstr ""
+
+#. Title
+#: compiledCodelists/relatedProcessScheme.csv:1
+msgid "Open Contracting ID"
+msgstr "Open Contracting ID"
+
+#. Title_en
+#: compiledCodelists/relatesTo.csv:1 compiledCodelists/responseSource.csv:1
+msgid "Tenderer"
+msgstr "Licitador"
+
+#. Description_en
+#: compiledCodelists/relatesTo.csv:1
+msgid "The criterion evaluates or assesses a tenderer"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/relatesTo.csv:2
+msgid "Item"
+msgstr "Artículo"
+
+#. Description_en
+#: compiledCodelists/relatesTo.csv:2
+msgid "The criterion evaluates or assesses an item"
+msgstr ""
+
+#. Description
+#: compiledCodelists/releaseTag.csv:1
 msgid ""
 "A contracting process is proposed or planned. Information in the tender "
 "section describes the proposed process. The tender.status field should be "
@@ -54,12 +3076,12 @@ msgstr ""
 "etapa temprana, o si hay planes detallados para una licitación."
 
 #. Title
-#: codelists/releaseTag.csv:2
-msgid "Planning Update"
-msgstr "Actualización de Planeación"
+#: compiledCodelists/releaseTag.csv:1
+msgid "Planning"
+msgstr "Planeación"
 
 #. Description
-#: codelists/releaseTag.csv:2
+#: compiledCodelists/releaseTag.csv:2
 msgid ""
 "Details of a proposed or planned contracting process are being updated. This"
 " may include addition of information and documents from consultation "
@@ -74,12 +3096,209 @@ msgstr ""
 "estado de licitación para indicar que una propuesta ha sido retirada."
 
 #. Title
-#: codelists/releaseTag.csv:3
-msgid "Qualification"
-msgstr "Calificación"
+#: compiledCodelists/releaseTag.csv:2
+msgid "Planning Update"
+msgstr "Actualización de Planeación"
 
 #. Description
-#: codelists/releaseTag.csv:3
+#: compiledCodelists/releaseTag.csv:3
+msgid ""
+"Providing information about a new tender (call for proposals) process. "
+"Tender release should contain details of the goods or services being sought."
+msgstr ""
+"Proporcionar información sobre un nuevo proceso de licitación (llamada a "
+"propuestas). La entrega de licitación debe contener detalles de los bienes o"
+" servicios solicitados."
+
+#. Description
+#: compiledCodelists/releaseTag.csv:4
+msgid ""
+"An amendment to an existing tender release. There should be at least one "
+"tender release with the same ocid, but an earlier releaseDate, before a "
+"tenderAmendment is published. The term amendment has legal meaning in many "
+"jurisdictions."
+msgstr ""
+"Una enmienda a una entrega de licitación existente. Debe haber al menos una "
+"entrega de licitación con el mismo ocid, pero una releaseDate anterior, "
+"antes de que se publique una tenderAmendment. El término enmienda tiene "
+"significado legal en muchas jurisdicciones."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:4
+msgid "Tender Amendment"
+msgstr "Enmienda de Licitación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:5
+msgid ""
+"An update to an existing tender release. There should be at least one tender"
+" release with the same ocid, but an earlier releaseDate, before a "
+"tenderUpdate is published. An update may add new information or make "
+"corrections to prior published information. It should not be used for formal"
+" legal amendments to a tender, for which the tenderAmendment tag should be "
+"used. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:5
+msgid "Tender Update"
+msgstr "Actualización de Licitación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:6
+msgid ""
+"The cancellation of an existing tender. There should be at least one release"
+" with the same ocid, but an earlier releaseDate, which provides details of "
+"the tender being cancelled."
+msgstr ""
+"La cancelación de una licitación existente. Debe haber al menos una entrega "
+"con el mismo ocid, pero una releaseDate anterior, que proporciona detalles "
+"de la oferta que se cancela."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:6
+msgid "Tender Cancellation"
+msgstr "Cancelación de la Licitación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:7
+msgid ""
+"Providing information about  the award of a contract. The tender section may"
+" be populated with details of the process leading up to the award, and one "
+"or more award sections will be present."
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:7
+msgid "Award"
+msgstr "Adjudicación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:8
+msgid ""
+"An update to an existing award release. There should be at least one award "
+"release with the same ocid, but an earlier releaseDate before an awardUpdate"
+" is published. An update may add new information or make corrections. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:8
+msgid "Award Update"
+msgstr "Actualización de Adjudicación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:9
+msgid "Providing information about  the cancellation of an award. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:9
+msgid "Award Cancellation"
+msgstr "Cancelación de la Adjudicación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:10
+msgid ""
+"Providing information about the details of a contract that has been, or will"
+" be, entered into. The tender section may be populated with details of the "
+"process leading up to the contract, and the award section may contain "
+"details of the award on the basis of which this contract will be signed."
+msgstr ""
+"Proporcionar información sobre los detalles de un contrato que ha sido, o "
+"será, celebrado. La sección de licitación puede ser llenada con detalles del"
+" proceso previo al contrato, y la sección de adjudicación puede contener "
+"detalles de la adjudicación sobre la base de la cual se firmará este "
+"contrato."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:10
+msgid "Contract"
+msgstr "Contrato"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:11
+msgid ""
+"Providing information about updates to a contract. There should be at least "
+"one contract release with the same ocid, but an earlier releaseDate, before "
+"a contractUpdate is published. An update may add new information or make "
+"corrections to prior published information. It should not be used for formal"
+" legal amendments to a contract, for which the contractAmendment tag should "
+"be used. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:11
+msgid "Contract Update"
+msgstr "Actualización del Contrato"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:12
+msgid ""
+"An amendment to an existing contract release. There should be at least one "
+"contract release with the same ocid, but an earlier releaseDate, before a "
+"contractAmendment is published. The term amendment has legal meaning in many"
+" jurisdictions."
+msgstr ""
+"Una enmienda a una entrega existente de contrato. Debe haber por lo menos "
+"una entrega del contrato con el mismo ocid, pero una releaseDate anterior, "
+"antes de que se publique un contractAmendment. El término enmienda tiene "
+"significado legal en muchas jurisdicciones."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:12
+msgid "Contract Amendment"
+msgstr "Enmienda del Contrato"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:13
+msgid ""
+"Providing new information on the implementation of a contracting process. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:13
+msgid "Implementation"
+msgstr "Implementación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:14
+msgid ""
+"Updating existing information provided about the implementation of a "
+"contracting process."
+msgstr ""
+"Actualización de la información existente sobre la implementación de un "
+"proceso de contratación."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:14
+msgid "Implementation Update"
+msgstr "Actualización de Implementación"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:15
+msgid "Providing information at the end of a contracting process."
+msgstr "Proporciona información al final de un proceso de contratación."
+
+#. Title
+#: compiledCodelists/releaseTag.csv:15
+msgid "Contract Termination"
+msgstr "Terminación de Contrato"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:16
+msgid ""
+"This tag is used only in compiled records, which have merged together "
+"multiple releases to provide a snapshot view of the contract, and a version "
+"history. "
+msgstr ""
+
+#. Title
+#: compiledCodelists/releaseTag.csv:16
+msgid "Compiled record"
+msgstr "Registro compilado"
+
+#. Description
+#: compiledCodelists/releaseTag.csv:17
 msgid ""
 "Providing information about a new pre-qualification process (to qualify or "
 "pre-select bidders for a tender process)."
@@ -87,13 +3306,8 @@ msgstr ""
 "Proporcionar información sobre un nuevo proceso de precalificación (para "
 "calificar o preseleccionar a los licitadores para un proceso de licitación)."
 
-#. Title
-#: codelists/releaseTag.csv:4
-msgid "Qualification Update"
-msgstr "Actualización de Calificación"
-
 #. Description
-#: codelists/releaseTag.csv:4
+#: compiledCodelists/releaseTag.csv:18
 msgid ""
 "An update to an existing qualification release. There should be at least one"
 " qualification release with the same ocid, but an earlier releaseDate, "
@@ -111,12 +3325,12 @@ msgstr ""
 "qualificationAmendment."
 
 #. Title
-#: codelists/releaseTag.csv:5
-msgid "Qualification Amendment"
-msgstr "Enmienda de Calificación"
+#: compiledCodelists/releaseTag.csv:18
+msgid "Qualification Update"
+msgstr "Actualización de Calificación"
 
 #. Description
-#: codelists/releaseTag.csv:5
+#: compiledCodelists/releaseTag.csv:19
 msgid ""
 "An amendment to an existing qualification release. There should be at least "
 "one qualification release with the same ocid, but an earlier releaseDate, "
@@ -129,12 +3343,12 @@ msgstr ""
 "enmienda tiene significado legal en muchas jurisdicciones."
 
 #. Title
-#: codelists/releaseTag.csv:6
-msgid "Qualification Cancellation"
-msgstr "Cancelación de la Calificación"
+#: compiledCodelists/releaseTag.csv:19
+msgid "Qualification Amendment"
+msgstr "Enmienda de Calificación"
 
 #. Description
-#: codelists/releaseTag.csv:6
+#: compiledCodelists/releaseTag.csv:20
 msgid ""
 "The cancellation of an existing pre-qualification process. There should be "
 "at least one release with the same ocid, but an earlier releaseDate, which "
@@ -145,12 +3359,12 @@ msgstr ""
 "proporciona detalles del proceso de precalificación que se cancela."
 
 #. Title
-#: codelists/releaseTag.csv:7
-msgid "Shortlist"
-msgstr "Lista Corta"
+#: compiledCodelists/releaseTag.csv:20
+msgid "Qualification Cancellation"
+msgstr "Cancelación de la Calificación"
 
 #. Description
-#: codelists/releaseTag.csv:7
+#: compiledCodelists/releaseTag.csv:21
 msgid ""
 "Providing information about the qualification or pre-selection of bidders. "
 "The preQualification section may be populated with details of the process "
@@ -164,12 +3378,12 @@ msgstr ""
 "partes."
 
 #. Title
-#: codelists/releaseTag.csv:8
-msgid "Shortlist Update"
-msgstr "Actualización de lista corta"
+#: compiledCodelists/releaseTag.csv:21
+msgid "Shortlist"
+msgstr "Lista Corta"
 
 #. Description
-#: codelists/releaseTag.csv:8
+#: compiledCodelists/releaseTag.csv:22
 msgid ""
 "An update to an existing shortlist release. There should be at least one "
 "shortlist release with the same ocid, but an earlier releaseDate before an "
@@ -182,228 +3396,465 @@ msgstr ""
 "puede agregar nueva información o hacer correcciones."
 
 #. Title
-#: codelists/releaseTag.csv:9
-msgid "Tender"
-msgstr "Licitación"
+#: compiledCodelists/releaseTag.csv:22
+msgid "Shortlist Update"
+msgstr "Actualización de lista corta"
 
-#. Description
-#: codelists/releaseTag.csv:9
-msgid ""
-"Providing information about a new tender (call for proposals) process. "
-"Tender release should contain details of the goods or services being sought."
+#. Description_en
+#: compiledCodelists/responseSource.csv:1
+msgid "The response should be provided by the tenderer "
 msgstr ""
-"Proporcionar información sobre un nuevo proceso de licitación (llamada a "
-"propuestas). La entrega de licitación debe contener detalles de los bienes o"
-" servicios solicitados."
 
-#. Title
-#: codelists/releaseTag.csv:10
-msgid "Tender Amendment"
-msgstr "Enmienda de Licitación"
+#. Title_en
+#: compiledCodelists/responseSource.csv:2
+msgid "Buyer"
+msgstr "Comprador"
 
-#. Description
-#: codelists/releaseTag.csv:10
-msgid ""
-"An amendment to an existing tender release. There should be at least one "
-"tender release with the same ocid, but an earlier releaseDate, before a "
-"tenderAmendment is published. The term amendment has legal meaning in many "
-"jurisdictions."
+#. Description_en
+#: compiledCodelists/responseSource.csv:2
+msgid "The response should be provided by the buyer"
 msgstr ""
-"Una enmienda a una entrega de licitación existente. Debe haber al menos una "
-"entrega de licitación con el mismo ocid, pero una releaseDate anterior, "
-"antes de que se publique una tenderAmendment. El término enmienda tiene "
-"significado legal en muchas jurisdicciones."
 
-#. Title
-#: codelists/releaseTag.csv:11
-msgid "Tender Update"
-msgstr "Actualización de Licitación"
+#. Title_en
+#: compiledCodelists/responseSource.csv:3
+msgid "Procuring entity"
+msgstr "Entidad contratante"
 
-#. Description
-#: codelists/releaseTag.csv:11
-msgid ""
-"An update to an existing tender release. There should be at least one tender"
-" release with the same ocid, but an earlier releaseDate, before a "
-"tenderUpdate is published. An update may add new information or make "
-"corrections to prior published information. It should not be used for formal"
-" legal amendments to a tender, for which the tenderAmendment tag should be "
-"used."
+#. Description_en
+#: compiledCodelists/responseSource.csv:3
+msgid "The response should be provided by the procuring entity"
 msgstr ""
-"Una actualización de una entrega de licitación existente. Debe haber al "
-"menos una entrega de licitación con el mismo ocid, pero un releaseDate "
-"anterior, antes de que se publique un tenderUpdate. Una actualización puede "
-"agregar nueva información o hacer correcciones a la información publicada "
-"anteriormente. No debe usarse para las enmiendas legales formales a una "
-"licitación, para la cual se debe usar la etiqueta de tenderAmendment."
 
-#. Title
-#: codelists/releaseTag.csv:12
-msgid "Tender Cancellation"
-msgstr "Cancelación de la Licitación"
-
-#. Description
-#: codelists/releaseTag.csv:12
-msgid ""
-"The cancellation of an existing tender. There should be at least one release"
-" with the same ocid, but an earlier releaseDate, which provides details of "
-"the tender being cancelled."
+#. Description_en
+#: compiledCodelists/riskAllocation.csv:1
+msgid "The risk is wholly or mostly retained by the public authority"
 msgstr ""
-"La cancelación de una licitación existente. Debe haber al menos una entrega "
-"con el mismo ocid, pero una releaseDate anterior, que proporciona detalles "
-"de la oferta que se cancela."
 
-#. Title
-#: codelists/releaseTag.csv:13
-msgid "Award"
-msgstr "Adjudicación"
-
-#. Description
-#: codelists/releaseTag.csv:13
-msgid ""
-"Providing information about the award of a contract. The tender section may "
-"be populated with details of the process leading up to the award, and one or"
-" more award sections will be present."
+#. Extension
+#: compiledCodelists/riskAllocation.csv:1
+#: compiledCodelists/riskAllocation.csv:2
+#: compiledCodelists/riskAllocation.csv:3 compiledCodelists/riskCategory.csv:1
+#: compiledCodelists/riskCategory.csv:2 compiledCodelists/riskCategory.csv:3
+#: compiledCodelists/riskCategory.csv:4 compiledCodelists/riskCategory.csv:5
+#: compiledCodelists/riskCategory.csv:6 compiledCodelists/riskCategory.csv:7
+#: compiledCodelists/riskCategory.csv:8 compiledCodelists/riskCategory.csv:9
+#: compiledCodelists/riskCategory.csv:10 compiledCodelists/riskCategory.csv:11
+#: compiledCodelists/riskCategory.csv:12 compiledCodelists/riskCategory.csv:13
+#: compiledCodelists/riskCategory.csv:14 compiledCodelists/riskCategory.csv:15
+#: compiledCodelists/riskCategory.csv:16
+msgid "Risk Allocation"
 msgstr ""
-"Proporciona información sobre la adjudicación de un contrato. La sección de "
-"licitación puede ser llenada con detalles del proceso que conduce a la "
-"adjudicación, y estarán presentes una o más secciones de la adjudicación."
 
-#. Title
-#: codelists/releaseTag.csv:14
-msgid "Award Update"
-msgstr "Actualización de Adjudicación"
-
-#. Description
-#: codelists/releaseTag.csv:14
-msgid ""
-"An update to an existing award release. There should be at least one award "
-"release with the same ocid, but an earlier releaseDate before an awardUpdate"
-" is published. An update may add new information or make corrections."
+#. Description_en
+#: compiledCodelists/riskAllocation.csv:2
+msgid "The risk is wholly or mostly retained by the private party"
 msgstr ""
-"Una actualización de una entrega de adjudicación existente. Debe haber al "
-"menos una entrega de adjudicación con el mismo ocid, pero un releaseDate "
-"anterior, antes de que se publique un awardUpdate. Una actualización puede "
-"agregar nueva información o hacer correcciones."
 
-#. Title
-#: codelists/releaseTag.csv:15
-msgid "Award Cancellation"
-msgstr "Cancelación de la Adjudicación"
+#. Title_en
+#: compiledCodelists/riskAllocation.csv:3
+msgid "Undefined"
+msgstr "Indefinido"
 
-#. Description
-#: codelists/releaseTag.csv:15
-msgid "Providing information about the cancellation of an award."
-msgstr "Proporciona información sobre la cancelación de una adjudicación."
-
-#. Title
-#: codelists/releaseTag.csv:16
-msgid "Contract"
-msgstr "Contrato"
-
-#. Description
-#: codelists/releaseTag.csv:16
+#. Description_en
+#: compiledCodelists/riskAllocation.csv:3
 msgid ""
-"Providing information about the details of a contract that has been, or will"
-" be, entered into. The tender section may be populated with details of the "
-"process leading up to the contract, and the award section may contain "
-"details of the award on the basis of which this contract will be signed."
+"The risk is not clearly assigned to a specific party. Further details can be"
+" provided in the notes field."
 msgstr ""
-"Proporcionar información sobre los detalles de un contrato que ha sido, o "
-"será, celebrado. La sección de licitación puede ser llenada con detalles del"
-" proceso previo al contrato, y la sección de adjudicación puede contener "
-"detalles de la adjudicación sobre la base de la cual se firmará este "
-"contrato."
-
-#. Title
-#: codelists/releaseTag.csv:17
-msgid "Contract Update"
-msgstr "Actualización del Contrato"
 
 #. Description
-#: codelists/releaseTag.csv:17
+#: compiledCodelists/riskCategory.csv:1
 msgid ""
-"Providing information about updates to a contract. There should be at least "
-"one contract release with the same ocid, but an earlier releaseDate, before "
-"a contractUpdate is published. An update may add new information or make "
-"corrections to prior published information. It should not be used for formal"
-" legal amendments to a contract, for which the contractAmendment tag should "
-"be used."
+"Relates to the unavailability of land or site to construct the "
+"infrastructure at the time of contract signature"
 msgstr ""
-"Proporcionar información sobre las actualizaciones de un contrato. Debe "
-"haber por lo menos una entrega del contrato con el mismo ocid, pero un "
-"releaseDate anterior, antes de que se publique un contractUpdate. Una "
-"actualización puede agregar nueva información o hacer correcciones a la "
-"información publicada anteriormente. No se debe utilizar para las enmiendas "
-"legales formales a un contrato, para el cual debe utilizarse la etiqueta "
-"contractAmendment."
+"Se refiere a la falta de disponibilidad de terreno o de sitio para construir"
+" la infraestructura en el momento de la firma del contrato"
 
 #. Title
-#: codelists/releaseTag.csv:18
-msgid "Contract Amendment"
-msgstr "Enmienda del Contrato"
+#: compiledCodelists/riskCategory.csv:1
+msgid "Land availability and acquisition risk"
+msgstr "Disponibilidad de tierras y riesgo de adquisición"
 
 #. Description
-#: codelists/releaseTag.csv:18
+#: compiledCodelists/riskCategory.csv:2
 msgid ""
-"An amendment to an existing contract release. There should be at least one "
-"contract release with the same ocid, but an earlier releaseDate, before a "
-"contractAmendment is published. The term amendment has legal meaning in many"
-" jurisdictions."
+"Environmental risks may be related to a number of environmental issues such "
+"as general contamination, pollution, water contamination, impact on the "
+"natural environment etc. An adverse assessment may require changes in "
+"design, leading to a direct impact on cost of infrastructure"
 msgstr ""
-"Una enmienda a una entrega existente de contrato. Debe haber por lo menos "
-"una entrega del contrato con el mismo ocid, pero una releaseDate anterior, "
-"antes de que se publique un contractAmendment. El término enmienda tiene "
-"significado legal en muchas jurisdicciones."
+"Los riesgos ambientales pueden estar relacionados con una serie de "
+"cuestiones ambientales tales como la contaminación general, la contaminación"
+" del aire, la contaminación del agua, el impacto en el medio ambiente, etc. "
+"Una evaluación adversa puede requerir cambios en el diseño que lleven a un "
+"impacto directo en el costo de la infraestructura"
 
 #. Title
-#: codelists/releaseTag.csv:19
-msgid "Implementation"
-msgstr "Implementación"
+#: compiledCodelists/riskCategory.csv:2
+msgid "Environmental risk"
+msgstr "Riesgo ambiental"
 
 #. Description
-#: codelists/releaseTag.csv:19
+#: compiledCodelists/riskCategory.csv:3
 msgid ""
-"Providing new information on the implementation of a contracting process."
+"Represents the possibility that design quality for the asset is not adequate"
+" to meet project requirements"
 msgstr ""
-"Proporciona nueva información sobre la implementación de un proceso de "
-"contratación."
+"Representa la posibilidad de que la calidad del diseño del activo no sea "
+"adecuada para satisfacer los requisitos del proyecto"
 
 #. Title
-#: codelists/releaseTag.csv:20
-msgid "Implementation Update"
-msgstr "Actualización de Implementación"
+#: compiledCodelists/riskCategory.csv:3
+msgid "Design risks"
+msgstr "Riesgos de diseño"
 
 #. Description
-#: codelists/releaseTag.csv:20
+#: compiledCodelists/riskCategory.csv:4
 msgid ""
-"Updating existing information provided about the implementation of a "
-"contracting process."
+"Represents the possibility that during the construction Phase, the actual "
+"project costs or construction time exceeds the projected time and costs"
 msgstr ""
-"Actualización de la información existente sobre la implementación de un "
-"proceso de contratación."
+"Representa la posibilidad de que durante la fase de construcción, los costos"
+" reales del proyecto o el tiempo de construcción exceda el tiempo y los "
+"costos proyectados"
 
 #. Title
-#: codelists/releaseTag.csv:21
-msgid "Contract Termination"
-msgstr "Terminación de Contrato"
+#: compiledCodelists/riskCategory.csv:4
+msgid "Construction risks"
+msgstr "Riesgos de construcción"
 
 #. Description
-#: codelists/releaseTag.csv:21
-msgid "Providing information at the end of a contracting process."
-msgstr "Proporciona información al final de un proceso de contratación."
-
-#. Title
-#: codelists/releaseTag.csv:22
-msgid "Compiled record"
-msgstr "Registro compilado"
-
-#. Description
-#: codelists/releaseTag.csv:22
+#: compiledCodelists/riskCategory.csv:5
 msgid ""
-"This tag is used only in compiled records, which have merged together "
-"multiple releases to provide a snapshot view of the contract, and a version "
-"history."
+"Refers to the failure to meet the construction outcome or finalization as "
+"prescribed"
 msgstr ""
-"Esta etiqueta se utiliza sólo en registros compilados, que han combinado "
-"varias versiones para proporcionar una vista instantánea del contrato y un "
-"historial de versiones."
+"Se refiere a la falta de cumplimiento de la construcción o finalización "
+"según lo prescrito"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:5
+msgid "Completion and commissioning"
+msgstr "Finalización y puesta en marcha"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:6
+msgid "Refers to the risk of the revenue flows not being correctly assessed"
+msgstr ""
+"Se refiere al riesgo de que los flujos de ingresos no se evalúen "
+"correctamente"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:6
+msgid "Revenue risk"
+msgstr "Riesgo de ingresos"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:7
+msgid ""
+"Risk that changes in exchange rates or inflation adversely affect the "
+"project outcomes"
+msgstr ""
+"Riesgo de que los cambios en los tipos de cambio o la inflación afecten "
+"adversamente los resultados del proyecto"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:7
+msgid "Foreign exchange, Inflation and indexation risk"
+msgstr "Riesgo de inflación y de indexación"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:8
+msgid ""
+"Risk linked to availability and quality issues relating to performance "
+"requirements and performance target levels"
+msgstr ""
+"Riesgo vinculado a las cuestiones de disponibilidad y calidad relacionadas "
+"con los requisitos de rendimiento y los niveles objetivo de rendimiento"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:8
+msgid "Availability and quality risk"
+msgstr "Riesgo de disponibilidad y de calidad"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:9
+msgid "credit or counterparty risk; fraud/non-payment by users"
+msgstr ""
+"riesgo de crédito o de la contraparte; fraude/falta de pago por parte de los"
+" usuarios"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:9
+msgid "Other revenue risk events"
+msgstr "Otros eventos de riesgo de ingresos"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:10
+msgid ""
+"Represents the risk of financing not being available at commercial close or "
+"before construction starts"
+msgstr ""
+"Representa el riesgo de que el financiamiento no esté disponible en el "
+"cierre comercial o antes de que comience la construcción."
+
+#. Title
+#: compiledCodelists/riskCategory.csv:10
+msgid "Availability of finance"
+msgstr "Disponibilidad de financiamiento"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:11
+msgid "Risks relating to the downside of refinancing"
+msgstr "Riesgos relacionados con la desventaja del refinanciamiento"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:11
+msgid "Refinancing risks"
+msgstr "Riesgos de refinanciamiento"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:12
+msgid ""
+"Risk that a change in general law or the sector regulatory framework "
+"adversely affect the project"
+msgstr ""
+"Riesgo de que un cambio en la legislación general o en el marco regulatorio "
+"del sector afecte negativamente al proyecto"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:12
+msgid "Changes in law"
+msgstr "Cambios en la ley"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:13
+msgid ""
+"Risk that external events beyond the control of the parties to the contract,"
+" such as natural disasters, wars, terrorism etc.,  affect the project"
+msgstr ""
+"Riesgo de que eventos externos fuera del control de las partes en el "
+"contrato, como desastres naturales, guerras, terrorismo, etc., afecten el "
+"proyecto"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:13
+msgid "Force Majeure"
+msgstr "Fuerza mayor"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:14
+msgid ""
+"Risk that compensation sum due to early termination may be insufficient to "
+"meet private party’s financial obligations or is less than expected"
+msgstr ""
+"Riesgo de que la suma de compensación debida a la terminación anticipada "
+"pueda ser insuficiente para satisfacer las obligaciones financieras de las "
+"partes privadas o sea inferior a la esperada"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:14
+msgid "Early termination"
+msgstr "Terminación anticipada"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:15
+msgid ""
+"Risks deriving from the compliance or lack thereof of regulatory obligations"
+" related to the development of the project"
+msgstr ""
+"Riesgos derivados del cumplimiento o de la ausencia de obligaciones "
+"reglamentarias relacionadas con el desarrollo del proyecto"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:15
+msgid "Compliance risks"
+msgstr "Riesgos de cumplimiento"
+
+#. Description
+#: compiledCodelists/riskCategory.csv:16
+msgid "All risks deriving from the project"
+msgstr "Todos los riesgos derivados del proyecto"
+
+#. Title
+#: compiledCodelists/riskCategory.csv:16
+msgid "All risks"
+msgstr "Todos los riesgos"
+
+#. Description
+#: compiledCodelists/submissionMethod.csv:1
+msgid "Bids will be recieved through an electronic procurement platform."
+msgstr ""
+
+#. Title
+#: compiledCodelists/submissionMethod.csv:1
+msgid "Electronic Submission"
+msgstr ""
+
+#. Description
+#: compiledCodelists/submissionMethod.csv:2
+msgid "Bids will be recieved through an electronic auction platform."
+msgstr ""
+
+#. Title
+#: compiledCodelists/submissionMethod.csv:2
+msgid "Electronic Auction"
+msgstr ""
+
+#. Description
+#: compiledCodelists/submissionMethod.csv:3
+msgid ""
+"Bids will be recieved via written documents, delivered as hard copies, via "
+"generic e-mail systems, or some similar mechanism."
+msgstr ""
+
+#. Title
+#: compiledCodelists/submissionMethod.csv:3
+msgid "Written"
+msgstr ""
+
+#. Description
+#: compiledCodelists/submissionMethod.csv:4
+msgid ""
+"Bids will only be recieved if they are hand delivered at the time and place "
+"specified in submissionMethodDetails or attached documentation."
+msgstr ""
+
+#. Title
+#: compiledCodelists/submissionMethod.csv:4
+msgid "In Person"
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:1
+msgid ""
+"A future contracting process is being considered. Early information about "
+"the process may be provided in the tender section. A process with this "
+"status may provide information on early engagement or consultation "
+"opportunities, during which the details of a subsequent tender can be "
+"shaped."
+msgstr ""
+
+#. Title
+#: compiledCodelists/tenderStatus.csv:1
+msgid "planning"
+msgstr "planning"
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:2
+msgid ""
+"A contracting process is scheduled, but is not yet taking place. Details of "
+"the anticipated dates may be provided in the tender block."
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:3
+msgid "A tender process is currently taking place."
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:4
+msgid "The tender process has been cancelled."
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:5
+msgid "The tender process was unsucessful."
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:6
+msgid "The tender process is complete. "
+msgstr ""
+
+#. Description
+#: compiledCodelists/tenderStatus.csv:7
+msgid "No further information on this process is available under this ocid."
+msgstr ""
+
+#. Description
+#: compiledCodelists/unitClassificationScheme.csv:1
+msgid ""
+"Use the commmon code from the latest version of the UN/CEFACT Recommendation"
+" 20 list of 'Codes for Units of Measure Used in International Trade'"
+msgstr ""
+
+#. Title
+#: compiledCodelists/unitClassificationScheme.csv:1
+msgid "UN/CEFACT Recommendation 20"
+msgstr ""
+
+#. Description
+#: compiledCodelists/unitClassificationScheme.csv:2
+msgid ""
+"Use the [QUDT Code](http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html) "
+"value."
+msgstr ""
+
+#. Title
+#: compiledCodelists/unitClassificationScheme.csv:2
+msgid "Quantities, Units, Dimensions and Data Types Ontologies"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/votingRights.csv:1
+msgid "Ordinary voting rights"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/votingRights.csv:1
+msgid ""
+"The shareholder is entitled to a single vote per share in all circumstances"
+msgstr ""
+
+#. Extension
+#: compiledCodelists/votingRights.csv:1 compiledCodelists/votingRights.csv:2
+#: compiledCodelists/votingRights.csv:3 compiledCodelists/votingRights.csv:4
+#: compiledCodelists/votingRights.csv:5
+msgid "Shareholders"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/votingRights.csv:2
+msgid "No voting rights"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/votingRights.csv:2
+msgid "The shareholder is not entitled to vote under any circumstances"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/votingRights.csv:3
+msgid "Restricted voting rights"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/votingRights.csv:3
+msgid "The shareholder is entitled to vote in specific circumstances only"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/votingRights.csv:4
+msgid "Additional voting rights"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/votingRights.csv:4
+msgid ""
+"The shareholder is entitled to more than one vote per share in all "
+"circumstances"
+msgstr ""
+
+#. Title_en
+#: compiledCodelists/votingRights.csv:5
+msgid "Enhanced voting rights"
+msgstr ""
+
+#. Description_en
+#: compiledCodelists/votingRights.csv:5
+msgid ""
+"The shareholder is entitled to more than one vote per share in specific "
+"circumstances only"
+msgstr ""

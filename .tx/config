@@ -167,3 +167,8 @@ file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
 source_file = build_locale/reference/codelists.pot
 source_lang = en
 
+[ocds-for-ppps.codelists]
+file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
+source_file = build_locale/ppp-codelists.pot
+source_lang = en
+
