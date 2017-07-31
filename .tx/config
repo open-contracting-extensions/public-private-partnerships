@@ -7,6 +7,11 @@ file_filter = locale/<lang>/LC_MESSAGES/ppp-schema.po
 source_file = build_locale/ppp-schema.pot
 source_lang = en
 
+[ocds-for-ppps.ppp-codelists]
+file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
+source_file = build_locale/ppp-codelists.pot
+source_lang = en
+
 [ocds-for-ppps.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = build_locale/index.pot
@@ -147,6 +152,11 @@ file_filter = locale/<lang>/LC_MESSAGES/extensions/shareholders.po
 source_file = build_locale/extensions/shareholders.pot
 source_lang = en
 
+[ocds-for-ppps.extensions--performance_failures]
+file_filter = locale/<lang>/LC_MESSAGES/extensions/performance_failures.po
+source_file = build_locale/extensions/performance_failures.pot
+source_lang = en
+
 [ocds-for-ppps.reference--schema]
 file_filter = locale/<lang>/LC_MESSAGES/reference/schema.po
 source_file = build_locale/reference/schema.pot
@@ -165,10 +175,5 @@ source_lang = en
 [ocds-for-ppps.reference--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
 source_file = build_locale/reference/codelists.pot
-source_lang = en
-
-[ocds-for-ppps.codelists]
-file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
-source_file = build_locale/ppp-codelists.pot
 source_lang = en
 
