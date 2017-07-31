@@ -3418,9 +3418,9 @@ msgid ""
 "contracting.org/latest/en/schema/codelists/#voting-rights)."
 msgstr ""
 "Especifica el tipo de derechos de voto asociado a las acciones que posee el "
-"accionista en contra de la [lista de códigos de derechos de voto]"
-"(http://standard.open-contracting.org/latest/en/schema/codelists/#voting-"
-"rights)."
+"accionista en contra de la [lista de códigos de derechos de "
+"voto](http://standard.open-contracting.org/latest/en/schema/codelists"
+"/#voting-rights)."
 
 #. /definitions/Shareholder/properties/votingRights/title
 #: schema/ppp-extension.json:1 schema/ppp-release-schema.json:1
@@ -4011,9 +4011,9 @@ msgid ""
 msgstr ""
 "Seguimos el [GeoJSON estándar](http://geojson.org/) para expresar la "
 "información básica de ubicación, usando valores de latitud y longitud en el "
-"[WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG : 4326)."
-" Se puede identificar una ubicación de punto geocodificando una dirección de"
-" entrega. Para las licencias de concesión u otros contratos que cubran una "
+"[WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG : 4326). "
+"Se puede identificar una ubicación de punto geocodificando una dirección de "
+"entrega. Para las licencias de concesión u otros contratos que cubran una "
 "ubicación de polígonos que no están contenidos en un diccionario geográfico "
 "conocido, se pueden utilizar polígonos y polígonos múltiples."
 
@@ -5479,9 +5479,9 @@ msgid ""
 msgstr ""
 "El identificador para este grupo de requisitos. Debe ser único y no puede "
 "cambiar dentro del Proceso de Contratación Abierta del que forma parte "
-"(definido por un solo ocid). Consulte la [guía de identificadores]"
-"(http://standard.open-contracting.org/latest/en/schema/identifiers/) para "
-"obtener más detalles."
+"(definido por un solo ocid). Consulte la [guía de "
+"identificadores](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) para obtener más detalles."
 
 #. /definitions/RequirementGroup/properties/description/description
 #: schema/ppp-extension.json:1 schema/ppp-release-schema.json:1
