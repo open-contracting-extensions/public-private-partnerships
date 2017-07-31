@@ -500,6 +500,7 @@ directives.register_directive('jsoninclude-flat', JSONIncludeFlat)
 
 import subprocess
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
+subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-codelists'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
 
 import gettext
