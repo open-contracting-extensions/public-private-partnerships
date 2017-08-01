@@ -6,3 +6,4 @@ build_locale
 *.mo
 docs/_static/ppp-release-schema.json
 docs/_static/codelists/
+docs/extensions/codelists_translated/

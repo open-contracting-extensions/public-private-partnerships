@@ -540,13 +540,10 @@ import glob
 
 # Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_codelists.py
 
-def translate_codelists(language):
+def translate_codelists(language, codelists_dir, codelists_output_dir):
     fallback = (language == 'en')
 
     translator = gettext.translation('ppp-codelists', '../locale', languages=[language], fallback=fallback)
-
-    codelists_dir = '../compiledCodelists'
-    codelists_output_dir = '_static/codelists'
 
     if not os.path.exists(codelists_output_dir):
         os.makedirs(codelists_output_dir)
@@ -585,4 +582,7 @@ def setup(app):
     app.add_transform(AutoStructify)
     language = app.config.overrides.get('language', 'en')
     translate_schema(language)
-    translate_codelists(language)
+    translate_codelists(language, '../compiledCodelists', '_static/codelists')
+    translate_codelists(language, 'extensions/codelists', 'extensions/codelists_translated')
+    
+

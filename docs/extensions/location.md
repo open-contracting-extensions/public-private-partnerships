@@ -14,7 +14,7 @@ This extension introduces two properties at the ```items``` level to describe lo
    :extension: location
 ```
 
-## Gazeteer Codelist
+## Gazetteer Codelist
 
 See locationGazeteers.csv
 
