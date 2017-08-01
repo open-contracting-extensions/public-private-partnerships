@@ -112,7 +112,7 @@ This can be cross-walked to most other PPP clasification schemes in use, and so 
 
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
-    :include: planning/project/additionalClassification
+    :include: planning/project/additionalClassifications
     :collapse: 
     :nocrossref:
 ```
