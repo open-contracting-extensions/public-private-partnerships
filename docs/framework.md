@@ -6,7 +6,7 @@
 
 [The World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects. 
 
-This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they priorities. 
+This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they prioritize. 
 
 This section should be read in conjunction with the Disclosure Framework.
 
