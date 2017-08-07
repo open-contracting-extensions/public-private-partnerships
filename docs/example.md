@@ -23,7 +23,7 @@ The release were then compiled into a record, and are available to browse using 
 
 * A templating engine for displaying OCDS releases and records;
 * Alerts to changed fields between different releases;
-* Example visualisation of data; 
+* Example visualization of data; 
 
 ## Explore the example
 

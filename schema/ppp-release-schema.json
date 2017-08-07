@@ -64,7 +64,7 @@
         },
         "parties": {
             "title": "Parties",
-            "description": "Information on the parties (organisations, economic operators and other participants) who are involved in the contracting process and their roles, e.g. buyer, procuring entity, supplier etc. Organization references elsewhere in the schema are used to refer back to this entries in this list.",
+            "description": "Information on the parties (organizations, economic operators and other participants) who are involved in the contracting process and their roles, e.g. buyer, procuring entity, supplier etc. Organization references elsewhere in the schema are used to refer back to this entries in this list.",
             "type": "array",
             "items": {
                 "$ref": "#/definitions/Organization"
@@ -83,7 +83,7 @@
         },
         "awards": {
             "title": "Awards",
-            "description": "Information from the award phase of the contracting process. There may be more than one award per contracting process e.g. because the contract is split amongst different providers, or because it is a standing offer.",
+            "description": "Information from the award phase of the contracting process. There may be more than one award per contracting process e.g. because the contract is split among different providers, or because it is a standing offer.",
             "type": "array",
             "items": {
                 "$ref": "#/definitions/Award"
@@ -399,7 +399,7 @@
                 },
                 "awardPeriod": {
                     "title": "Evaluation and award period",
-                    "description": "The period for decision making regarding the contract award. The end date should be the date on which an award decision is due to be finalised. The start date is optional, and may be used to indicate the start of an evaluation period.",
+                    "description": "The period for decision making regarding the contract award. The end date should be the date on which an award decision is due to be finalized. The start date is optional, and may be used to indicate the start of an evaluation period.",
                     "$ref": "#/definitions/Period"
                 },
                 "contractPeriod": {
@@ -417,7 +417,7 @@
                 },
                 "tenderers": {
                     "title": "Tenderers",
-                    "description": "All parties who submit a bid on a tender. More detailed information on bids and the bidding organisation can be provided using the optional bid extension.",
+                    "description": "All parties who submit a bid on a tender. More detailed information on bids and the bidding organization can be provided using the optional bid extension.",
                     "type": "array",
                     "items": {
                         "$ref": "#/definitions/OrganizationReference"
@@ -505,7 +505,7 @@
         },
         "Award": {
             "title": "Award",
-            "description": "An award for the given procurement. There may be more than one award per contracting process e.g. because the contract is split amongst different providers, or because it is a standing offer.",
+            "description": "An award for the given procurement. There may be more than one award per contracting process e.g. because the contract is split among different providers, or because it is a standing offer.",
             "type": "object",
             "required": [
                 "id"
@@ -631,7 +631,7 @@
                 },
                 "requirementResponses": {
                     "type": "array",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -766,7 +766,7 @@
                 },
                 "milestones": {
                     "title": "Contract milestones",
-                    "description": "A list of milestones associated with the finalisation of this contract.",
+                    "description": "A list of milestones associated with the finalization of this contract.",
                     "type": "array",
                     "items": {
                         "$ref": "#/definitions/Milestone"
@@ -804,7 +804,7 @@
                 },
                 "requirementResponses": {
                     "type": "array",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -964,7 +964,7 @@
                         null
                     ],
                     "codelist": "milestoneType.csv",
-                    "opencodelist": true
+                    "openCodelist": true
                 },
                 "description": {
                     "title": "Description",
@@ -976,7 +976,7 @@
                 },
                 "code": {
                     "title": "Milestone code",
-                    "description": "Milestone codes can be used to track specific events that take place for a particular kind of contracting process. For example, a code of 'approvalLetter' could be used to allow applications to understand this milestone represents the date an approvalLetter is due or signed. Milestone codes is an open codelist, and codes should be agreed amoungst data producers and the applications using that data.",
+                    "description": "Milestone codes can be used to track specific events that take place for a particular kind of contracting process. For example, a code of 'approvalLetter' could be used to allow applications to understand this milestone represents the date an approvalLetter is due or signed. Milestone codes is an open codelist, and codes should be agreed among data producers and the applications using that data.",
                     "type": [
                         "string",
                         "null"
@@ -1171,7 +1171,7 @@
                         "null"
                     ],
                     "title": "Author",
-                    "description": "The name of the author of these documents. Include the name of individuals and/or organisations responsible. For example, when a technical specification was written by a consultant, include the name and organisation of the consultant. "
+                    "description": "The name of the author of these documents. Include the name of individuals and/or organizations responsible. For example, when a technical specification was written by a consultant, include the name and organization of the consultant. "
                 }
             },
             "patternProperties": {
@@ -1204,7 +1204,7 @@
                 },
                 "description": {
                     "title": "Budget Source",
-                    "description": "A short free text description of the budget allocation for this contracting process. This may be used to provide human readable information on the budget category allocated to this contracting process, and/or, information about the nature and source of the allocation (e.g. conditional, confirmed; any official authorisations given to the budget allocation). ",
+                    "description": "A short free text description of the budget allocation for this contracting process. This may be used to provide human readable information on the budget category allocated to this contracting process, and/or, information about the nature and source of the allocation (e.g. conditional, confirmed; any official authorizations given to the budget allocation). ",
                     "type": [
                         "string",
                         "null"
@@ -1257,7 +1257,7 @@
         "Transaction": {
             "type": "object",
             "title": "Transaction information",
-            "description": "A spending transaction related to the contracting process. Draws upon the data models of the [Fiscal Data Package](http://fiscal.dataprotocols.org/) and the [International Aid Transpareny Initiative](http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/) and should be used to cross-reference to more detailed information held using a Fiscal Data Package, IATI file, or to provide enough information to allow a user to manually or automatically cross-reference with some other published source of transactional spending data.",
+            "description": "A spending transaction related to the contracting process. Draws upon the data models of the [Fiscal Data Package](http://fiscal.dataprotocols.org/) and the [International Aid Transparency Initiative](http://iatistandard.org/activity-standard/iati-activities/iati-activity/transaction/) and should be used to cross-reference to more detailed information held using a Fiscal Data Package, IATI file, or to provide enough information to allow a user to manually or automatically cross-reference with some other published source of transactional spending data.",
             "required": [
                 "id"
             ],
@@ -1755,7 +1755,7 @@
                     "description": "The region. For example, CA."
                 },
                 "postalCode": {
-                    "title": "Postalcode",
+                    "title": "Postal code",
                     "type": [
                         "string",
                         "null"
@@ -1807,7 +1807,7 @@
                         "string",
                         "null"
                     ],
-                    "description": "The telephone number of the contact point/person. This should include the international dialling code."
+                    "description": "The telephone number of the contact point/person. This should include the international dialing code."
                 },
                 "faxNumber": {
                     "title": "Fax number",
@@ -1815,7 +1815,7 @@
                         "string",
                         "null"
                     ],
-                    "description": "The fax number of the contact point/person. This should include the international dialling code."
+                    "description": "The fax number of the contact point/person. This should include the international dialing code."
                 },
                 "url": {
                     "title": "URL",
@@ -1891,7 +1891,7 @@
                     ]
                 },
                 "durationInDays": {
-                    "description": "The maximum duration of this period in days. A user interface may wish to collect or display this data in months or years as appropriate, but should convert it into days when completing this field. This field can be used when exact dates are not known.  Where a startDate and endDate are given, this field is optional, and should reflect the difference between those two days. Where a startDate and maxExtentDate are given, this field is optional, and should reflect the diffence between startDate and maxExtentDate.",
+                    "description": "The maximum duration of this period in days. A user interface may wish to collect or display this data in months or years as appropriate, but should convert it into days when completing this field. This field can be used when exact dates are not known.  Where a startDate and endDate are given, this field is optional, and should reflect the difference between those two days. Where a startDate and maxExtentDate are given, this field is optional, and should reflect the difference between startDate and maxExtentDate.",
                     "title": "Duration (days)",
                     "type": [
                         "integer",
@@ -1901,7 +1901,7 @@
             }
         },
         "RelatedProcess": {
-            "description": "A reference to a related contracting process: generally one preceeding or following on from the current process.",
+            "description": "A reference to a related contracting process: generally one preceding or following on from the current process.",
             "type": "object",
             "title": "Related Process",
             "properties": {
@@ -1923,7 +1923,7 @@
                         "null"
                     ],
                     "codelist": "relatedProcess.csv",
-                    "opencodelist": true
+                    "openCodelist": true
                 },
                 "title": {
                     "description": "The title of the related process, where referencing an open contracting process, this field should match the tender/title field in the related process.",
@@ -1953,7 +1953,7 @@
                 },
                 "uri": {
                     "format": "uri",
-                    "description": "A URI pointing to a machine-readble document, release or record package containing the identified related process.",
+                    "description": "A URI pointing to a machine-readable document, release or record package containing the identified related process.",
                     "title": "Related process URI",
                     "type": [
                         "string",
@@ -2068,7 +2068,7 @@
                     "description": "If the requirements extension is also in use, the detailed responses of this bid to the tender requirements can be specified here.",
                     "type": "array",
                     "title": "Requirement responses",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -2224,7 +2224,7 @@
                 "sector": {
                     "$ref": "#/definitions/Classification",
                     "title": "Project sector",
-                    "description": "A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
+                    "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
                 },
                 "uri": {
                     "type": [
@@ -2246,7 +2246,7 @@
                 "additionalClassifications": {
                     "type": "array",
                     "title": "Additional sector classifications",
-                    "description": "Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
+                    "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
                     "items": {
                         "$ref": "#/definitions/Classification"
                     }
@@ -2391,7 +2391,7 @@
                         "null"
                     ],
                     "title": "Exchange rate guarantees",
-                    "description": "Is there an associated exchange rate guarantee with this souce of finance. This is a true/false field to indicate when exchange rate guarantees exist. Details of any guarantees can be provided in the finance description, or in associated documents."
+                    "description": "Is there an associated exchange rate guarantee with this source of finance. This is a true/false field to indicate when exchange rate guarantees exist. Details of any guarantees can be provided in the finance description, or in associated documents."
                 },
                 "financingParty": {
                     "$ref": "#/definitions/OrganizationReference"
@@ -2418,7 +2418,7 @@
                     "description": "A short description of this financing arrangement. This may include details of lender rights, step in arrangements, exchange rate guarantees, and for syndicated loans, details of syndication and any banks who are known parties to the loan."
                 },
                 "financeCategory": {
-                    "description": "For categorising the nature of any financial investment. This field must be filled in for debt finance. This information can be used to identify the order of preference for investors to get their money back in cases of liquidation.",
+                    "description": "For categorizing the nature of any financial investment. This field must be filled in for debt finance. This information can be used to identify the order of preference for investors to get their money back in cases of liquidation.",
                     "type": [
                         "string",
                         "null"
@@ -2713,7 +2713,7 @@
                         "null"
                     ],
                     "title": "Penalty paid",
-                    "description": "A yes/no field indicating whether the penalty imposed for this period, cateogry and number of performance failures has been paid."
+                    "description": "A yes/no field indicating whether the penalty imposed for this period, category and number of performance failures has been paid."
                 },
                 "penaltyImposed": {
                     "type": [
@@ -2740,7 +2740,7 @@
                     "description": "The number of performance failures for the given period and category."
                 }
             },
-            "description": "Details of the performance failures for a given period and category. Details of the associated penalities and abatements provided for in the contract, imposed and paid can also be provided."
+            "description": "Details of the performance failures for a given period and category. Details of the associated penalties and abatements provided for in the contract, imposed and paid can also be provided."
         },
         "EvaluationIndicators": {
             "type": "object",
@@ -3221,7 +3221,7 @@
                     "description": "The identifier for this requirement group. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details."
                 },
                 "requirements": {
-                    "description": "A list requirements which must all be satisified for the requirement group to be met.",
+                    "description": "A list requirements which must all be satisfied for the requirement group to be met.",
                     "type": "array",
                     "title": "Requirements",
                     "items": {
@@ -3276,7 +3276,7 @@
                     "description": "Criterion description"
                 },
                 "source": {
-                    "description": "Source of response to the requirements specificed in the criterion, for example responses may be submitted by tenderers or by an assessment committee at the procuringEntity.",
+                    "description": "Source of response to the requirements specified in the criterion, for example responses may be submitted by tenderers or by an assessment committee at the procuringEntity.",
                     "type": "string",
                     "openCodelist": false,
                     "codelist": "responseSource.csv"

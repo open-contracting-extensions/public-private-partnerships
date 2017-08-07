@@ -316,7 +316,7 @@
                     "description": "If the requirements extension is also in use, the detailed responses of this bid to the tender requirements can be specified here.",
                     "type": "array",
                     "title": "Requirement responses",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -936,7 +936,7 @@
                     "description": "The identifier for this requirement group. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details."
                 },
                 "requirements": {
-                    "description": "A list requirements which must all be satisified for the requirement group to be met.",
+                    "description": "A list requirements which must all be satisfied for the requirement group to be met.",
                     "type": "array",
                     "title": "Requirements",
                     "items": {
@@ -991,7 +991,7 @@
                     "description": "Criterion description"
                 },
                 "source": {
-                    "description": "Source of response to the requirements specificed in the criterion, for example responses may be submitted by tenderers or by an assessment committee at the procuringEntity.",
+                    "description": "Source of response to the requirements specified in the criterion, for example responses may be submitted by tenderers or by an assessment committee at the procuringEntity.",
                     "type": "string",
                     "openCodelist": false,
                     "codelist": "responseSource.csv"
@@ -1203,7 +1203,7 @@
                         "null"
                     ],
                     "title": "Exchange rate guarantees",
-                    "description": "Is there an associated exchange rate guarantee with this souce of finance. This is a true/false field to indicate when exchange rate guarantees exist. Details of any guarantees can be provided in the finance description, or in associated documents."
+                    "description": "Is there an associated exchange rate guarantee with this source of finance. This is a true/false field to indicate when exchange rate guarantees exist. Details of any guarantees can be provided in the finance description, or in associated documents."
                 },
                 "financingParty": {
                     "$ref": "#/definitions/OrganizationReference"
@@ -1230,7 +1230,7 @@
                     "description": "A short description of this financing arrangement. This may include details of lender rights, step in arrangements, exchange rate guarantees, and for syndicated loans, details of syndication and any banks who are known parties to the loan."
                 },
                 "financeCategory": {
-                    "description": "For categorising the nature of any financial investment. This field must be filled in for debt finance. This information can be used to identify the order of preference for investors to get their money back in cases of liquidation.",
+                    "description": "For categorizing the nature of any financial investment. This field must be filled in for debt finance. This information can be used to identify the order of preference for investors to get their money back in cases of liquidation.",
                     "type": [
                         "string",
                         "null"
@@ -1324,7 +1324,7 @@
                     "description": "The total value of budget allocations for this contracting process. The budget breakdown extension can be used to provide data for multiple budget sources, or to split the budget by years or other periods. "
                 },
                 "description": {
-                    "description": "A short free text description of the budget allocation for this contracting process. This may be used to provide human readable information on the budget category allocated to this contracting process, and/or, information about the nature and source of the allocation (e.g. conditional, confirmed; any official authorisations given to the budget allocation). "
+                    "description": "A short free text description of the budget allocation for this contracting process. This may be used to provide human readable information on the budget category allocated to this contracting process, and/or, information about the nature and source of the allocation (e.g. conditional, confirmed; any official authorizations given to the budget allocation). "
                 },
                 "uri": {
                     "description": "A URI pointing directly to records about the related budget for this contracting process. Where possible this URI should return machine and human-readable representations of the data."
@@ -1344,7 +1344,7 @@
                 },
                 "requirementResponses": {
                     "type": "array",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -1413,7 +1413,7 @@
                         "null"
                     ],
                     "title": "Author",
-                    "description": "The name of the author of these documents. Include the name of individuals and/or organisations responsible. For example, when a technical specification was written by a consultant, include the name and organisation of the consultant. "
+                    "description": "The name of the author of these documents. Include the name of individuals and/or organizations responsible. For example, when a technical specification was written by a consultant, include the name and organization of the consultant. "
                 },
                 "url": {
                     "description": "A direct link to the documentation. The server providing access to this document should be configured to correctly report the document mime type. Where the information for this documentType is found within a larger document, the page number or section should be included [using a fragment identifier](https://helpx.adobe.com/acrobat/kb/link-html-pdf-page-acrobat.html). E.g. #page=32."
@@ -1450,7 +1450,7 @@
                         "null"
                     ],
                     "title": "Penalty paid",
-                    "description": "A yes/no field indicating whether the penalty imposed for this period, cateogry and number of performance failures has been paid."
+                    "description": "A yes/no field indicating whether the penalty imposed for this period, category and number of performance failures has been paid."
                 },
                 "penaltyImposed": {
                     "type": [
@@ -1477,7 +1477,7 @@
                     "description": "The number of performance failures for the given period and category."
                 }
             },
-            "description": "Details of the performance failures for a given period and category. Details of the associated penalities and abatements provided for in the contract, imposed and paid can also be provided."
+            "description": "Details of the performance failures for a given period and category. Details of the associated penalties and abatements provided for in the contract, imposed and paid can also be provided."
         },
         "Location": {
             "type": "object",
@@ -1604,7 +1604,7 @@
                 },
                 "requirementResponses": {
                     "type": "array",
-                    "unqiueItems": true,
+                    "uniqueItems": true,
                     "items": {
                         "$ref": "#/definitions/RequirementResponse"
                     }
@@ -1834,7 +1834,7 @@
                 "sector": {
                     "$ref": "#/definitions/Classification",
                     "title": "Project sector",
-                    "description": "A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
+                    "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
                 },
                 "uri": {
                     "type": [
@@ -1856,7 +1856,7 @@
                 "additionalClassifications": {
                     "type": "array",
                     "title": "Additional sector classifications",
-                    "description": "Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
+                    "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
                     "items": {
                         "$ref": "#/definitions/Classification"
                     }
