@@ -41,5 +41,7 @@ In the record within OCDS show:
 
 Use the 'text input' button to see (and adapt) the JSON data which generates this view.
 
+Use a web browser addon for a more user friendly preview of the json files. Install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) or [JSONView for Firefox](https://addons.mozilla.org/en-us/firefox/addon/jsonview/).
+
 Using the open source [OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) alternative presentations of data can be prepared.
 
