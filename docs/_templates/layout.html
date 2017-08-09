@@ -18,3 +18,11 @@
 
 {% block extra_links %}
 {% endblock %}
+
+{% block developed_by %}
+  {{ super() }}
+  <p class="oc-developed-by" style="margin-top: 0px">and</p>
+  <a href="http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools"> 
+    <img src="http://www.worldbank.org/content/dam/wbr/logo/logo-wb-header-en.svg" />
+  </a>
+{% endblock %}
