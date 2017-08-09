@@ -1,0 +1,63 @@
+code,name,description,category,url,public-database,Extension
+AF-CBR,Afghanistan Central Business Registry,Website not yet searchable,AF,http://acbr.gov.af/,,OCDS Core
+AF-MOE,Ministry of Economy,,AF,http://moec.gov.af/en,,OCDS Core
+AU-ABN,Australian Business Register,,AU,http://abr.business.gov.au/,,OCDS Core
+AU-ACNC,Australian Charities and Not-for-profits Commission,,AU,http://www.acnc.gov.au/ACNC/,,OCDS Core
+BD-NAB,Bangladesh NGO Affairs Bureau,,BD,http://114.129.9.31/welcome/ngo_profile,,OCDS Core
+BE-BCE_KBO,Banque Carrefour des entreprises / Kruispuntbank van ondernemingen,,BE,economie.fgov.be/fr/entreprises/BCE,,OCDS Core
+CA-CRA_ACR,Canadian Revenue Agency / Agence du revenu du Canada,CRA_ACR is legal requirement for bilingual use,CA,http://www.cra-arc.gc.ca/,,OCDS Core
+ES-DIR3,Common Directory of Organizational Units and Offices - DIR3,EXCEL Tables: http://administracionelectronica.gob.es/ctt/resources/Soluciones/238/Area%20descargas/Listado%20Oficinas%20AGE.xlsx?idIniciativa=238&idElemento=2745,ES,http://administracionelectronica.gob.es/ctt/dir3/descargas,,OCDS Core
+ET-MFA,Ministry of Foreign Affairs,Charities are registered but no openly searchable database yet available.,ET,http://www.mfa.gov.et/,,OCDS Core
+FI-PRO,Finnish Patent and Registration office,,FI,http://www.prh.fi/en/index.html,,OCDS Core
+FR-RCS,Registre de Commerce et des Societies /Trade and Companies Register - Commercial Court Registry,,FR,http://www.infogreffe.fr,,OCDS Core
+GB-CHC,Charity Commission,,GB,http://www.charity-commission.gov.uk/,,OCDS Core
+GB-COH,Companies House,,GB,http://www.companieshouse.gov.uk/,,OCDS Core
+GB-GOV,UK Government Departments Reference Numbers,Codes for use by IATI for UK Government Departments.,GB,http://data.gov.uk/dataset/iati-organisation-identifier-for-uk-government-bodies,,OCDS Core
+GB-GOVUK,"UK Government Departments, Agencies & Public Bodies","Use the final segment of the url (below /organisations) as the ""registration number"", converting all ""-"" to ""_"". Keep ""registration number"" portion all lowercase.",GB,https://www.gov.uk/government/organisations,,OCDS Core
+GB-NIC,The Charity Commission for Northern Ireland,,GB,http://www.charitycommissionni.org.uk/,,OCDS Core
+GB-REV,HM Revenue and Customs,,GB,http://www.hmrc.gov.uk/,,OCDS Core
+GB-SC,Scottish Charity Register,,GB,http://www.oscr.org.uk/,,OCDS Core
+GB-UKPRN,UK Register of Learning Providers,,GB,https://www.ukrlp.co.uk/,,OCDS Core
+GH-DSW,Department of Social Welfare,,GH,,,OCDS Core
+ID-KDN,Ministry Home affairs/ Kementerian Dalam Negeri,NGO registration can also be done through Ministry Home affairs/ Kementerian Dalam Negeri,ID,http://www.kemendagri.go.id/media/filemanager/2011/02/22/d/a/daf.ormas___lsm_2010.pdf,,OCDS Core
+ID-KHH,Ministry of Justice & Human Rights/ Kementerian Hukum Dan Hak,Company registration is done through Ministry of Justice & Human Rights/ Kementerian Hukum Dan Hak,ID,http://www.kemenkumham.go.id/,,OCDS Core
+ID-KLN,Ministry of Foreign affairs/ Kementerian Luar Negeri,International NGO registration is done through Ministry of Foreign affairs/ Kementerian Luar Negeri,ID,http://www.kemlu.go.id/,,OCDS Core
+ID-PRO,NGOs registered at Provinicial Level,"Registration for NGO in Indonesia can be done at the provincial level. Because there is regional autonomy, each provincial has different requirements. Website is just one example",ID,http://www.satulayanan.net/layanan/pendaftaran-lsm-atau-ormas/perizinan-lsm-atau-ormas-baru,,OCDS Core
+IE-CHY,Irish Register of Charities,,IE,,,OCDS Core
+IE-CRO,Irish CompaniesRegistration Office,,IE,http://www.cro.ie/,,OCDS Core
+IM-CR,Isle of Man Companies Registry,,IM,http://www.gov.im/ded/companies/companiesregistry.xml?menuid=21615,,OCDS Core
+IM-GR,Isle of Man Index of Registered Charities,,IM,http://www.gov.im/registries/courts/charities/,,OCDS Core
+IN-MCA,"Government of India, Minstry of Corporate Affairs","MCA regulates corporate affairs in India through the Companies Act, 1956, 2013 and other allied Acts, Bills and Rules.",IN,http://www.mca.gov.in/,,OCDS Core
+KE-NCB,NGO's Coordination Board,,KE,http://www.ngobureau.or.ke/,,OCDS Core
+KE-RCO,Registar of Companies,,KE,http://www.attorney-general.go.ke/,,OCDS Core
+KE-RSO,Registrar of Societies,,KE,http://www.attorney-general.go.ke/,,OCDS Core
+LS-LCN,Lesotho Council of Non Governmental Organisations,,LS,http://www.lcn.org.ls/,,OCDS Core
+MM-MHA,Ministry of Home Affairs - Central Committee for the Registration and Supervision of Organisations,"The MHA assigns a registration number to each NGO - this number is time limited, for example 4 years, after which the registration is reviewed.",MM,No url for the ministry (as at 2/10/2013),,OCDS Core
+MW-CNM,The Council for Non Governmental Organisations in Malawi,,MW,http://www.congoma.mw/index.html,,OCDS Core
+MW-MRA,Malawi Revenue Authority,,MW,http://www.mra.mw/,,OCDS Core
+MW-NBM,NGO Board of Malawi,"There is a pdf file with a list of registered NGOs, but these do not appear to be registration numbers. New database is planned",MW,http://ngoboardmalawi.mw/directory.php,,OCDS Core
+MW-RG,"Registrar General, Department of Justice",,MW,,,OCDS Core
+MZ-MOJ,Mozambique Ministry of Justice,,MZ,,,OCDS Core
+NL-KVK,Kamer van Koophandel,,NL,http://www.kvk.nl/,,OCDS Core
+NO-BRC,Brønnøysundregistrene,,NO,http://www.brreg.no/,,OCDS Core
+NP-CRO,Company Registrar Office,,NP,http://www.cro.gov.np/,,OCDS Core
+NP-SWC,NGO registration,,NP,http://www.swc.org.np/,,OCDS Core
+PK-PCP,Pakistan Centre for Philanthropy,"The PCP Certification Programme seeks to bring transparency, accountability and good governance in the nonprofit sector in Pakistan. The first initiative of its kind in South Asia; it involves the evaluation of a nonprofit organisation on standardised parameters of internal governance, financial management and programme delivery.",PK,https://drive.google.com/file/d/0B67B7u-xqLazZFhHTkUtUVVRWXc/view,,OCDS Core
+SE-BLV,Bolagsverket / Swedish Companies Registration Office,,SE,http://www.bolagsverket.se/,,OCDS Core
+SK-ZRSR,Slovakia Ministry Of Interior Trade Register,Most organisations (including NGOs) have to be registered with the Ministry of Interior for the Trade Register Of The Slovak Republic (Živnostensky Register Slovenskej Republiky) and are allocated a unique registration number,SK,http://www.zrsr.sk/default.aspx?LANG=en,,OCDS Core
+UA-EDR,"United State Register, Ukraine",,UA,http://irc.gov.ua/ua/Poshuk-v-YeDR.html,,OCDS Core
+UG-NGB,"NGO Board, Ministry of Internal Affairs",,UG,http://www.mia.go.ug/?page_id=62,,OCDS Core
+UG-RSB,Registration Services Bureau,,UG,http://www.ursb.go.ug/,,OCDS Core
+US-DOS,Corporation registration is the responsibility of each state (see link),,US,http://www.companieshouse.gov.uk/links/usaLink.shtml,,OCDS Core
+US-EIN,Internal Revenue Service / Employer Identification Number,,US,"http://www.irs.gov/businesses/small/article/0,,id=98350,00.html",,OCDS Core
+US-USAGOV,Index of U.S. Government Departments and Agencies,"Use the final segment of the url (below /federal and excluding the extension) as the ""registration number"", converting all ""-"" to ""_"". Keep ""registration number"" portion all lowercase.",US,http://www.usa.gov/directory/federal/index.shtml,,OCDS Core
+XI-IATI,International Aid Transparency Initiative Organisation Identifier,XI-IATI is a list of organisation identifiers that is maintained by the IATI Secretariat. Any publisher may apply to the IATI Technical Team for an identifier to be generated.,XI,http://iatistandard.org/codelists/IATIOrganisationIdentifier/,,OCDS Core
+XM-DAC,OECD Development Assistance Committee,"See Donor, Agency, and Delivery Channel codes",XM,http://www.oecd.org/dac/stats/dacandcrscodelists.htm,,OCDS Core
+XM-OCHA,United Nations Office for the Coordination of Humanitarian Affairs,OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies.,XM,http://www.unocha.org,,OCDS Core
+ZA-CIP,Companies and Intellectual Property Commission (CIPC),,ZA,http://www.cipro.gov.za/,,OCDS Core
+ZA-NPO,Association for Non-Profit Organisations,,ZA,http://www.npo.gov.za/,,OCDS Core
+ZA-PBO,SA Revenue Service Tax Exemption Unit / Public Benefit Organisations,,ZA,http://www.sars.gov.za/home.asp?pid=170,,OCDS Core
+ZM-NRB,Non Governmental Organisation Registration Board,,ZM,,,OCDS Core
+ZM-PCR,Patents and Companies Registration Agency,,ZM,http://www.pacra.org.zm/,,OCDS Core
+ZW-PVO,Private Voluntary Organisations Council,,ZW,,,OCDS Core
+ZW-ROD,Registrar of Deeds,,ZW,,,OCDS Core

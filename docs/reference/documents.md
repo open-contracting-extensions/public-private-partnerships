@@ -26,8 +26,8 @@ The full set of fields for representing a document are shown below
 The full list of document types, and where they should appear, is given below.
 
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: ../../codelists/documentType.csv
+   :file: ../_static/codelists/documentType.csv
 ```
 

@@ -1,6 +1,8 @@
 # History and governance
 
-OCDS for PPPs was developed between May 2016 and May 2017 through a partnership between the World Bank Open Contracting team, PPP team, Open Contracting Partnershion, and Open Data Services. 
+OCDS for PPPs was developed between May 2016 and May 2017 through a partnership between the World Bank Governance Global Practice (GGP), the World Bank Public Private Partnerships Cross-Cutting Solutions Area (PPP CCSA) and the Open Contracting Partnership. Open Data Services was hired to implement the development of the product.
+
+You can read more about OCDS for PPPs and other tools for transparency and accountability in PPPs on the [World Bank Governance for Development blog](http://blogs.worldbank.org/governance/public-private-partnerships-transparency-and-accountability-where-my-data).
 
 ## Development
 
@@ -35,4 +37,4 @@ Issues related to the individual extensions that make up the implementation prof
 
 General issues relating to their combination in this implementation profile can be raised [in the project issue tracker](https://github.com/open-contracting/public-private-partnerships/issues).
 
-Ongoing maintainence of this 
+Ongoing maintainence of OCDS for PPPs will be supported by the OCDS Global Helpdesk, for eqnuiries please contact [data@open-contracting.org](data@open-contracting.org).

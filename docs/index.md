@@ -7,9 +7,9 @@ This provides an extended Open Contracting Data Standard schema, offering a stru
 
 ## Partners
 
-OCDS for PPPs was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnershion](http://open-contracting.org), and [Open Data Services Co-operative](http://www.opendataservices.coop). 
+OCDS for PPPs was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](http://open-contracting.org), and [Open Data Services Co-operative](http://www.opendataservices.coop). 
 
-For more information, contact [Lindsey Marchessault](lmarchessault@open-contracting.org)
+For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)
 
 ## Contents
 

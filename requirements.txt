@@ -1,10 +1,10 @@
-# sphinx commit pinned from stable branch
--e git+https://github.com/sphinx-doc/sphinx.git@95583428f5d2fd93c9def52bba028d2cefd930d5#egg=Sphinx
+.
+Sphinx==1.5.1
 Markdown==2.6.5
 sphinx-intl==0.9.9
 transifex-client==0.12.4
 # recommonmark commit pinned from master branch
--e git+https://github.com/rtfd/recommonmark.git@b70d5f52245d6714054e2d8f871ac6449bd980f8#egg=recommonmark
+-e git+https://github.com/rtfd/recommonmark.git@81d7c6f7b37981ac22571dd91a7cc9d24c3e66a1#egg=recommonmark
 ## The following requirements were added by pip freeze:
 alabaster==0.7.10
 appdirs==1.4.3
@@ -33,5 +33,6 @@ json-merge-patch
 -e git+https://github.com/OpenDataServices/flatten-tool.git@400336bfcfa0feeded14ce1e66f7c817ef2a7652#egg=flattentool
 -e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@bfbd5bdfdea11c70f91dc7a40ffbc8722408aff4#egg=sphinxcontrib-jsonschema
 # Pull in a open contracting standard commit for some of the python utils
--e git+https://github.com/open-contracting/ocds_sphinx_directives.git@831a87c9781185437c40d2e8dac643f7e213dabf#egg=ocds_sphinx_directives
+-e git+https://github.com/open-contracting/standard.git@1.1#egg=standard
+-e git+https://github.com/open-contracting/ocds_sphinx_directives.git@114d0267aa96a91a19ce725964f677aa730cef79#egg=ocds_sphinx_directives
 -e git+https://github.com/open-contracting/standard_theme.git@open_contracting#egg=standard_theme

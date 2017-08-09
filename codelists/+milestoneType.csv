@@ -1,0 +1,3 @@
+Code,Title,Description,Source
+procurement,Procurement,"Events taking place during the procurement which are not captured by fields in core OCDS, such as additional enquiry periods or draft tender submissions in a competitive dialogue process",
+contractClose,Contract close,Events such as commercial and financial close,https://github.com/open-contracting/public-private-partnerships/issues/25

@@ -5,6 +5,8 @@ The metrics extension provides a common building block for reporting structured 
 
 Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of ```Metric``` representing a single **observation**, categorised by a number of **dimensions**.
 
+Where the metrics extension is used to model targets for a contracting process, the ```description``` field can be used to start whether the target is a minimum or recommended target.
+
 
 ```json
 {

@@ -496,6 +496,7 @@ directives.register_directive('jsoninclude-flat', JSONIncludeFlat)
 
 import subprocess
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
+subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-codelists'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
 
 import gettext
@@ -535,19 +536,16 @@ import glob
 
 # Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_codelists.py
 
-def translate_codelists(language):
+def translate_codelists(language, codelists_dir, codelists_output_dir):
     fallback = (language == 'en')
 
-    translator = gettext.translation('reference/codelists', '../locale', languages=[language], fallback=fallback)
-
-    codelists_dir = '../codelists'
-    codelists_output_dir = '_static/codelists'
+    translator = gettext.translation('ppp-codelists', '../locale', languages=[language], fallback=fallback)
 
     if not os.path.exists(codelists_output_dir):
         os.makedirs(codelists_output_dir)
 
     def convert_fieldname(name):
-        for heading in ('Title', 'Description'):
+        for heading in ('Title', 'Description', 'Extension'):
             if heading in name:
                 return translator.gettext(heading)
         return translator.gettext(name)
@@ -563,7 +561,7 @@ def translate_codelists(language):
             for row in dict_reader:
                 new_row = {}
                 for key, value in row.items():
-                    if 'title' in key.lower() or 'description' in key.lower() or 'name' in key.lower():
+                    if 'title' in key.lower() or 'description' in key.lower() or 'name' in key.lower() or 'extension' in key.lower():
                         if value:
                             value = translator.gettext(value)
                     new_row[convert_fieldname(key)] = value
@@ -580,4 +578,7 @@ def setup(app):
     app.add_transform(AutoStructify)
     language = app.config.overrides.get('language', 'en')
     translate_schema(language)
-    translate_codelists(language)
+    translate_codelists(language, '../compiledCodelists', '_static/codelists')
+    translate_codelists(language, 'extensions/codelists', 'extensions/codelists_translated')
+    
+
