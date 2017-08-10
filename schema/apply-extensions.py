@@ -154,7 +154,10 @@ for extension in extension_json['extensions']:
     if blob_index != -1:
         docs_url = docs_url[:blob_index]
 
-    repo_zip = requests.get(docs_url + '/archive/master.zip', stream=True)
+    EXT_REF = extension['url'].split('/')[-2]
+
+    repo_zip = requests.get('https://github.com/open-contracting/' + extension['url'].split('/')[-3] + '/archive/{}.zip'.format(EXT_REF), stream=True)
+    print(repo_zip.ok)
     if repo_zip.ok:
         zip_file = ZipFile(io.BytesIO(repo_zip.content))
         for f in zip_file.filelist:
