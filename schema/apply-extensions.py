@@ -18,7 +18,7 @@ extensions_to_merge = ['process_title', 'location', 'requirements', 'budget', 'b
                        'qualification', 'tariffs', 'performance_failures', 'signatories', 'charges',
                        'transaction_milestones', 'bids', 'milestone_documents', 'ppp']
 
-GIT_REF = "master"
+GIT_REF = "ppp"
 location = "http://standard.open-contracting.org/extension_registry/{}/extensions.json".format(GIT_REF)
 extension_json = requests.get(location).json()
 
