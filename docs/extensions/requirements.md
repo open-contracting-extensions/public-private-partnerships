@@ -37,7 +37,7 @@ The extension introduces a new building block for each of the concepts described
 
 ## Background
 
-There are number of scenarios in which structured information on requirements is neccessary. See discussion in Github issue [#223](https://github.com/open-contracting/standard/issues/223).
+There are number of scenarios in which structured information on requirements is necessary. See discussion in GitHub issue [#223](https://github.com/open-contracting/standard/issues/223).
 
 ## Example usage
 

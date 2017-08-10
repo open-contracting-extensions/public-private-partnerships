@@ -10,9 +10,9 @@ Some contracts link payments against a contract to specific milestones for the d
 
 This extension adds a ```relatedImplementationMilestone``` property to the ```transaction``` object.
 
-The ```relatedImplementationMilestone``` property is a ```milestoneReference``` object.
+The ```relatedImplementationMilestone``` property is a ```MilestoneReference``` object.
 
-The ```milestoneReference``` object is introduced by the [metrics extension](https://github.com/open-contracting/ocds_metrics_extension).
+The ```MilestoneReference``` object is introduced by the [metrics extension](https://github.com/open-contracting/ocds_metrics_extension).
 
 ## Example
 
