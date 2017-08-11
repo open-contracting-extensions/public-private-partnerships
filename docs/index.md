@@ -3,7 +3,7 @@ Home
 
 This site contains technical documentation for OCDS for PPPs. 
 
-This provides an extended Open Contracting Data Standard schema - offering as structured data model for presenting information on Public Private Partnership Projects.
+This provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects.
 
 ## Partners
 
@@ -18,7 +18,6 @@ Contents:
 ```eval_rst
 .. toctree::
    :maxdepth: 2
-
 
    overview
    technical
