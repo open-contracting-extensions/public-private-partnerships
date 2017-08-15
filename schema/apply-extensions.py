@@ -157,7 +157,6 @@ for extension in extension_json['extensions']:
     EXT_REF = extension['url'].split('/')[-2]
 
     repo_zip = requests.get('https://github.com/open-contracting/' + extension['url'].split('/')[-3] + '/archive/{}.zip'.format(EXT_REF), stream=True)
-    print(repo_zip.ok)
     if repo_zip.ok:
         zip_file = ZipFile(io.BytesIO(repo_zip.content))
         for f in zip_file.filelist:
@@ -174,7 +173,8 @@ for extension in extension_json['extensions']:
 
                 print('{} {} for extension {}'.format('Adding codelist', filename[index + 1:], extension['name']['en']))
                 process_codelist(csv_filename, codelist_content, extension)
-
+    else:
+        print('could not find release zip for ' + extension['slug'])            
 
 ### codelists belonging to ppp i.e this repo
 
