@@ -10,7 +10,7 @@ This is declared within the ```contract``` section, based on an understanding th
 The finance building block includes:
 
 * **Title** and **Description** - for providing summary information about the finance
-* **Financing Party** - an organization reference to the id and name of an organisation listed in the main parties array. 
+* **Financing Party** - an organization reference to the id and name of an organization listed in the main parties array. 
 * **Finance Type** - an entry from a FinanceType codelist
 * **Finance Category** - an entry from a Finance Category codelist
 * **Step in arrangements** and **Exchange rate guarantee** flags, to indicate whether either apply to this finance

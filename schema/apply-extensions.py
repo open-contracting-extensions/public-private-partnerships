@@ -18,7 +18,7 @@ extensions_to_merge = ['process_title', 'location', 'requirements', 'budget', 'b
                        'qualification', 'tariffs', 'performance_failures', 'signatories', 'charges',
                        'transaction_milestones', 'bids', 'milestone_documents', 'ppp']
 
-GIT_REF = "master"
+GIT_REF = "ppp"
 location = "http://standard.open-contracting.org/extension_registry/{}/extensions.json".format(GIT_REF)
 extension_json = requests.get(location).json()
 
@@ -154,7 +154,9 @@ for extension in extension_json['extensions']:
     if blob_index != -1:
         docs_url = docs_url[:blob_index]
 
-    repo_zip = requests.get(docs_url + '/archive/master.zip', stream=True)
+    EXT_REF = extension['url'].split('/')[-2]
+
+    repo_zip = requests.get('https://github.com/open-contracting/' + extension['url'].split('/')[-3] + '/archive/{}.zip'.format(EXT_REF), stream=True)
     if repo_zip.ok:
         zip_file = ZipFile(io.BytesIO(repo_zip.content))
         for f in zip_file.filelist:
@@ -171,7 +173,8 @@ for extension in extension_json['extensions']:
 
                 print('{} {} for extension {}'.format('Adding codelist', filename[index + 1:], extension['name']['en']))
                 process_codelist(csv_filename, codelist_content, extension)
-
+    else:
+        print('could not find release zip for ' + extension['slug'])            
 
 ### codelists belonging to ppp i.e this repo
 

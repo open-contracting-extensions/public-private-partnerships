@@ -8,7 +8,7 @@ In some types of contracting process there may be additional signatories to the 
 
 ## Extension fields
 
-This extension adds a ```signatories``` property to the ```contract``` section. The ```signatories``` property is an array of ```organizationReferences```.
+This extension adds a ```signatories``` property to the ```contract``` section. The ```signatories``` property is an array of ```OrganizationReference```'s.
 
 ## Example
 

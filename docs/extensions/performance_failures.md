@@ -8,7 +8,7 @@ The [Framework for disclosure in Public Private Partnerships](http://pubdocs.wor
 
 This extension introduces the ```performanceFailures``` property to the ```implementation``` section of an OCDS release.
 
-The new property is an array of ```performanceFailure``` objects. The ```performanceFailure``` object has the following properties:
+The new property is an array of ```PerformanceFailure``` objects. The ```PerformanceFailure``` object has the following properties:
 
 * ```period``` - an OCDS ```period``` object defining the reporting period to applicable to the performance failures being reported
 * ```category``` - a free text field used to describe the category of performance failures being reported
@@ -31,7 +31,7 @@ The following JSON snippet models the performance failures reported for a single
 			},
 			"category": "Daily average journey time exceeds 10 minutes",
 			"events": 73,
-			"penaltyContracted": "If the daily average journey time exceeds 10 minutes on more than 52 days per calendar year the project company will be subject to a penalty charge equal to (days - 52) * avgToll. Where days is the total number of days where the average journey time exceeded 10 minutes and avgToll is the average daily toll revenue to the project company over the calendar year in which the failures occured.",
+			"penaltyContracted": "If the daily average journey time exceeds 10 minutes on more than 52 days per calendar year the project company will be subject to a penalty charge equal to (days - 52) * avgToll. Where days is the total number of days where the average journey time exceeded 10 minutes and avgToll is the average daily toll revenue to the project company over the calendar year in which the failures occurred.",
 			"penaltyImposed": "A penalty of £3,360,000 was imposed",
 			"penaltyPaid": true
 		}
