@@ -5,3 +5,16 @@
 .wy-table-responsive table td {
     white-space: normal !important;
 }
+
+.wy-nav-side {
+    background: #004D40;
+}
+.wy-side-nav-search {
+    background: #004D40;
+}
+.oc-switchers {
+    background: #004D40;
+}
+.wy-menu-vertical a:hover {
+    background: #001b16;
+}
