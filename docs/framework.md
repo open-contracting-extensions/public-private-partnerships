@@ -682,7 +682,7 @@ P
 
 
 
- This information can be provided using the [milestones extension](../../extensions/milestones/).
+This information can be provided using the [milestones extension](../extensions/milestones/).
 
 Each approval during the planning stage should be included in the ```planning/milestones``` array with a ```type``` of 'approval', the date the approval is scheduled for (```dueDate```), the status of the approval (```scheduled``` or ```met```) and the date the approval was given (```dateMet```).
 
