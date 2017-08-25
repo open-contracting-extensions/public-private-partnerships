@@ -37,4 +37,4 @@ Issues related to the individual extensions that make up the implementation prof
 
 General issues relating to their combination in this implementation profile can be raised [in the project issue tracker](https://github.com/open-contracting/public-private-partnerships/issues).
 
-Ongoing maintainence of OCDS for PPPs will be supported by the OCDS Global Helpdesk, for eqnuiries please contact [data@open-contracting.org](data@open-contracting.org).
+Ongoing maintenance of OCDS for PPPs will be supported by the OCDS Global Helpdesk, for enquiries please contact [data@open-contracting.org](data@open-contracting.org).

@@ -1,8 +1,8 @@
 # Spreadsheet template
 
-In most cases, OCDS for PPPs data will be created and analysed using customised tools. 
+In most cases, OCDS for PPPs data will be created and analyzed using customized tools. 
 
-However, as a proof-of-concept - and to demonstrate the flattened serialisation of the data model - we have prepared a spreadsheet template that can be used to provide detailed disclosures for a PPP project. 
+However, as a proof-of-concept - and to demonstrate the flattened serialization of the data model - we have prepared a spreadsheet template that can be used to provide detailed disclosures for a PPP project. 
 
 The template is [available to view via Google Sheets here](https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/edit#gid=159397949) or [you can take your own copy to edit](https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/copy). 
 

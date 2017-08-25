@@ -5,12 +5,12 @@
    :align: right
 ```
 
-The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Patnership process.
+The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process.
 
 OCDS for PPPs provides a framework for **how** to publish the requested information, with clear separation of:
 
 * Data
-* Documments
+* Documents
 * Presentation
 
 The [OCDS releases and records model](http://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis. 

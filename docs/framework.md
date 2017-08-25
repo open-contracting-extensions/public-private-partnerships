@@ -4,9 +4,9 @@
 .. image:: _assets/disclosure-framework.png
 ```
 
-[The World Bank Framework for Disclosure in Public Private Patnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects. 
+[The World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects. 
 
-This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they prioritise. 
+This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they prioritize. 
 
 This section should be read in conjunction with the Disclosure Framework.
 
@@ -88,7 +88,7 @@ We recommend keeping descriptions to one paragraph or less.
 
  Projects should be classified using the UN Classification of the Functions of Government Scheme (COFOG).
 
-This can be cross-walked to most other PPP clasification schemes in use, and so provides a common framework for understanding the sectoral focus of investments. 
+This can be cross-walked to most other PPP classification schemes in use, and so provides a common framework for understanding the sectoral focus of investments. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -118,7 +118,7 @@ This can be cross-walked to most other PPP clasification schemes in use, and so 
 ```
 
 
-Additional classificaiton schemes can also be provided, such as project classification against the Sustainable Development Goals (SDGs), or against national frameworks. 
+Additional classification schemes can also be provided, such as project classification against the Sustainable Development Goals (SDGs), or against national frameworks. 
 
  #### I.1.3. Project location 
 
@@ -126,7 +126,7 @@ Additional classificaiton schemes can also be provided, such as project classifi
 
  The locations where a project is taking place can be specified using:
 
-* **A gazeteer entry**. For example, the GeoNames code of the administrative division where activity is taking place.
+* **A gazetteer entry**. For example, the GeoNames code of the administrative division where activity is taking place.
 * **A GeoJSON object**. Describing the boundary, or extent, of where activity will take place.
 
 There are a range of tools available to generate GeoJSON data, such as [http://geojson.io/](http://geojson.io) 
@@ -721,7 +721,7 @@ Documentation associated with the approval can be given in the associated milest
 
  ### I.11. Contract Milestones 
 
-Key events relating to comercial and financial close
+Key events relating to commercial and financial close
 
  This information can be provided using entries in the appropriate milestones array, with each milestone having a ```type```, ```code``` and ```status``` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
 
@@ -797,7 +797,7 @@ The milestone should have a ```type``` of 'financing', a ```code``` of 'financia
 
  
 
- ### I.12. Implemenation milestones 
+ ### I.12. Implementation milestones 
 
 Key events relating to the implementation of the project.
 
@@ -815,7 +815,7 @@ Key events relating to the implementation of the project.
 
  
 
- #### I.12.1. Implemenation milestones - Date of commencement of construction or development 
+ #### I.12.1. Implementation milestones - Date of commencement of construction or development 
 
 Contract Milestones (Estimated and Actual) - Date of commencement of construction or development
 
@@ -973,7 +973,7 @@ P   U   U   U   U   U
 
  Links to contract documents can be provided using the ```documents``` field in the ```contract``` section of an OCDS release (the contract may have a ```status``` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
-A value from the [document type codelist](_static/codelists/#document-type) (```contractDraft```, ```contractSigned``` or ```contractSchedules``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) (```contractDraft```, ```contractSigned``` or ```contractSchedule``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1653,7 +1653,7 @@ RFQ documents
 
 
 
- Links to RFQ documents can be provided using the ```documents``` field in the ```prequalification``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Links to RFQ documents can be provided using the ```documents``` field in the ```preQualification``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
 A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
@@ -1810,7 +1810,7 @@ Some PPP procurement processes have more than one enquiry period during the tend
 * The ```tender/enquiryPeriod``` field should be used to provide the **next** period during which enquiries may be made and answered, if there are no further enquiry periods scheduled the field should be used to provide the **most recent** period during which enquiries may be made and answered. Where an OCDS release is published during an enquiry period the ```tender/enquiryPeriod``` field should be used to provide the start and end dates of the **current** enquiry period.
 * The ```tender/milestones``` block should be used to provide details of any subsequent enquiry periods beyond the next period during which enquiries may be made and answered.
 
-The above guidance should also be followed for processes with multiple enquiry periods during the pre-qualification stage of the procurement, in such cases the same approach should be applied to the equivalent fields from the ```prequalification``` section of an OCDS release. 
+The above guidance should also be followed for processes with multiple enquiry periods during the pre-qualification stage of the procurement, in such cases the same approach should be applied to the equivalent fields from the ```preQualification``` section of an OCDS release. 
 
  #### II.3.3. Dates - Award period 
 
@@ -2449,7 +2449,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
  ##### IV.2.2.1. Discount rate and risk premium - structured data. 
 
-The discount rates used should be specified in the diclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
+The discount rates used should be specified in the disclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
 
  Structured information and supporting details about the discount rate and risk premium used by government to evaluate the PPP should be provided in the ```award/evaluationIndicators``` section of an OCDS release. 
 
@@ -3055,7 +3055,7 @@ Forecast IRR
 
  ### VI.1. Guarantee information 
 
-Detail the type and exact details of the guarantees provided - both explicit and contingent guarantees - such as minimum revenue guarantee, exchange rate guarantee, debit repayment guarantee and other guarantees. Provide links to fiscal commitments and contingent liablities disclosure reports, if any.
+Detail the type and exact details of the guarantees provided - both explicit and contingent guarantees - such as minimum revenue guarantee, exchange rate guarantee, debit repayment guarantee and other guarantees. Provide links to fiscal commitments and contingent liabilities disclosure reports, if any.
 
  
 
@@ -3136,7 +3136,7 @@ Subsidy as a proportion of project value
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: subsidyRatio, subsidyRatioDetalis
+  :include_only: subsidyRatio, subsidyRatioDetails
   
 ```
 
@@ -3146,7 +3146,7 @@ Subsidy as a proportion of project value
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: subsidyRatio, subsidyRatioDetalis
+  :include_only: subsidyRatio, subsidyRatioDetails
   :ignore_path: /releases/4/
 ```
 
@@ -3358,8 +3358,8 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
  ### VI.4. Land leases, asset transfers information 
 
-* Land transferred on lease or other basis by governemnt: give details of property numbers with the quantum of land transferred, zoning information, conditions of transfer
-* Equipment transfers: details of equiment with conditions of transer
+* Land transferred on lease or other basis by government: give details of property numbers with the quantum of land transferred, zoning information, conditions of transfer
+* Equipment transfers: details of equipment with conditions of transfer
 * Human resources/personnel transfers: details and conditions of transfer
 
  This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
@@ -3628,7 +3628,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
  ### VIII.1. Events of default and termination payments 
 
-Describe key events of default under two major categories: concessionaires events of default and public authority's evnts of default. State the terminaiation payments against each, stating clearly the methodolgy used for total payments. The following format may be used:
+Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
  Provision for contract termination should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
@@ -3652,7 +3652,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
  ### VIII.2. Handover information 
 
-State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand voer. Include details of provision for contintuty of service
+State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
  This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
@@ -3709,7 +3709,7 @@ State variations to contract, if any, after signing of the original contract det
 
  
 
- #### IX.1.1. Contract docuemnts 
+ #### IX.1.1. Contract documents 
 
 
 
@@ -3891,7 +3891,7 @@ Change in tariffs or service levels due to the variation, if any
 
 Date of variation
 
- The date of the variation should be provded using the ```amendment/date``` field. 
+ The date of the variation should be provided using the ```amendment/date``` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3956,7 +3956,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
  ### X.2. Actual annual revenue 
 
-Recommended only where revenue share clasuses or other related clasuses such as MRGs are present in the contract.
+Recommended only where revenue share clauses or other related clauses such as MRGs are present in the contract.
 
 
  
@@ -4060,7 +4060,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed.
 
- Structured data about actual performance failures, penalties and abatments and those provided for in the contract can be provided in the ```contract/implementation/performanceFailures``` section of an OCDS release.
+ Structured data about actual performance failures, penalties and abatements and those provided for in the contract can be provided in the ```contract/implementation/performanceFailures``` section of an OCDS release.
  
 
 **Schema**: Information can be provided using the following OCDS fields.

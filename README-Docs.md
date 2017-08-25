@@ -3,7 +3,7 @@ Public Private Partnership Extension (Alpha)
 
 This repository stores documentation for OCDS for PPPs, built using Sphinx.
 
-## Readthedocs
+## ReadTheDocs
 
 The master branch of the repo get automatically built and deployed to:
 https://ocds-for-ppps.readthedocs.io/en/latest/
@@ -46,7 +46,7 @@ Then go to http://localhost:8000/ in a browser.
 
 ## Translation guide
 
-### Pushing text to transifex
+### Pushing text to Transifex
 
 First, run the Installation as described above.
 
@@ -64,7 +64,7 @@ cd ..
 rm -r build_locale/_static/ocds-show
 ```
 
-Pushing extracted strings to transifex:
+Pushing extracted strings to Transifex:
 ```
 rm .tx/config
 sphinx-intl create-txconfig
@@ -73,16 +73,16 @@ tx push -s
 ```
 
 
-### Pulling translations from transifex
+### Pulling translations from Transifex
 
 First, run the Installation as described above.
 
-Pull translations from transifex:
+Pull translations from Transifex:
 ```
 tx pull -a -f
 ```
 
-These should be commited and pushed, which will trigger a build of the ReadTheDocs Spanish site - https://ocds-for-ppps.readthedocs.io/es/latest/
+These should be committed and pushed, which will trigger a build of the ReadTheDocs Spanish site - https://ocds-for-ppps.readthedocs.io/es/latest/
 
 To build the Spanish docs locally, follow the "Build the docs locally" instructions above, but instead of `make dirhtml`, run:
 ```

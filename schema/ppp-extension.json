@@ -1239,12 +1239,12 @@
                         "$ref": "#/definitions/Classification"
                     },
                     "type": "array",
-                    "description": "Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework)."
+                    "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework)."
                 },
                 "sector": {
                     "title": "Project sector",
                     "$ref": "#/definitions/Classification",
-                    "description": "A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
+                    "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification."
                 },
                 "description": {
                     "title": "Project description",
@@ -1424,7 +1424,7 @@
                         "string",
                         "null"
                     ],
-                    "description": "The name of the author of these documents. Include the name of individuals and/or organisations responsible. For example, when a technical specification was written by a consultant, include the name and organisation of the consultant. "
+                    "description": "The name of the author of these documents. Include the name of individuals and/or organizations responsible. For example, when a technical specification was written by a consultant, include the name and organization of the consultant. "
                 },
                 "pageEnd": {
                     "title": "Page end",

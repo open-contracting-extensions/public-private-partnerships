@@ -4,14 +4,14 @@ The Open Contracting Data Standard for Public Private Partnerships release draws
 
 Full documentation is available at [http://ocds-for-ppps.readthedocs.io/](http://ocds-for-ppps.readthedocs.io/)
 
-This extension provides a number of fields and building blocks that are currenetly seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
+This extension provides a number of fields and building blocks that are currently seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
 
 ### Project level information
 
 Building on the [Budget and Projects extension](https://github.com/open-contracting/ocds_budget_projects_extension) this adds to project with:
 
 * Sector classifications - using the [UN Classifications of the Functions of Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)
-* Additional classifications - allowing arbitrary additional project categorisation
+* Additional classifications - allowing arbitrary additional project categorization
 * Project location - with options for gazetteer or point location
 
 An example is shown below:
