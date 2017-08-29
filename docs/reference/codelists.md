@@ -29,6 +29,13 @@ You can read more about using codelists in the [core OCDS documentation](http://
    :file: ../_static/codelists/contractStatus.csv
 ```
 
+### currency
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/currency.csv
+```
+
 ### dataType
 ```eval_rst
 .. csv-table-no-translate::
@@ -155,13 +162,6 @@ You can read more about using codelists in the [core OCDS documentation](http://
 .. csv-table-no-translate::
    :header-rows: 1
    :file: ../_static/codelists/itemClassificationScheme.csv
-```
-
-### organizationIdentifierRegistrationAgency_iati
-```eval_rst
-.. csv-table-no-translate::
-   :header-rows: 1
-   :file: ../_static/codelists/organizationIdentifierRegistrationAgency_iati.csv
 ```
 
 ### partyRole

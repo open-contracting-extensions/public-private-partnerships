@@ -1,97 +1,45 @@
-Category,Section,Code,Title_en,Description_en,Extension
-basic,tender,tenderNotice,Tender Notice,"The formal notice that gives details of a tender. This may be a link to a downloadable document, to a web page, or to an official gazette in which the notice is contained.",OCDS Core
-basic,award,awardNotice,Award Notice,"The formal notice that gives details of the contract award. This may be a link to a downloadable document, to a web page, or to an official gazette in which the notice is contained.",OCDS Core
-basic,contract,contractNotice,Contract Notice,"The formal notice that gives details of a contract being signed and valid to start implementation. This may be a link to a downloadable document, to a web page, or to an official gazette in which the notice is contained.",OCDS Core
-basic,implementation,completionCertificate,Completion certificate,A completion certificate issued by a relevant authority providing evidence that works were completed to a certain level of quality. Completion certificates may only be relevant for particular kinds of contracting processes.,OCDS Core
-basic,planning,procurementPlan,Procurement Plan,Documentation that sets out the basis for this particular contracting process.,OCDS Core
-basic,tender,biddingDocuments,Bidding Documents,"Documentation for potential suppliers, describing the goals of the contract (e.g. goods and services to be procured), and the bidding process.",OCDS Core
-basic,tender,technicalSpecifications,Technical Specifications,Detailed technical information about goods or services to be provided.,OCDS Core
-basic,tender,evaluationCriteria,Evaluation Criteria,Documentation on how bids will be evaluated.,OCDS Core
-intermediate,tender,evaluationReports,Evaluation report,"Documentation on the evaluation of the bids and the application of the evaluation criteria, including the justification fo the award",OCDS Core
-intermediate,"tender, award",contractDraft,Contract draft,A draft or pro-forma copy of the contract.,OCDS Core
-intermediate,contract,contractSigned,Signed Contract,"A copy of the signed contract. Consider providing both machine-readable (e.g. original PDF, Word or Open Document format files), and a separate document entry for scanned-signed pages where this is required.",OCDS Core
-intermediate,"tender, award, contract",contractArrangements,Arrangements for ending contract,Documentation of the arrangements for ending the contract(s).,OCDS Core
-intermediate,"tender, award, contract",contractSchedule,Schedules and milestones,Documentation setting out key milestones and schedules. Structured versions of this information may be modelled using the milestones block.,OCDS Core
-intermediate,implementation,physicalProgressReport,Physical progress reports,"Documentation on the status of implementation, usually against key milestones.",OCDS Core
-intermediate,implementation,financialProgressReport,Financial progress reports,"Documentation providing dates and amounts of stage payments made (against total amount) and the source of those payments, including cost overruns, if any. Structured versions of this information can be provided through contract implementation transactions.",OCDS Core
-intermediate,implementation,finalAudit,Final Audit,Documentation of a final audit carried out at the end of contract implementation.,OCDS Core
-intermediate,tender,hearingNotice,Public Hearing Notice,Documentation of any public hearings that took place as part of the planning for this contracting process.,OCDS Core
-intermediate,planning,marketStudies,Market Studies,Documentation of any market studies that took place as part of the planning for this contracting process.,OCDS Core
-intermediate,tender,eligibilityCriteria,Eligibility Criteria,Detailed documents about the eligibility of bidders.,OCDS Core
-intermediate,tender,clarifications,Clarifications to bidders questions,Documentation that provides replies to issues raised in pre-bid conferences or an enquiry processes.,OCDS Core
-intermediate,tender,shortlistedFirms,Shortlisted Firms,Documentation providing information on shortlisted firms. Structured versions of this information can be provided using the bids extension.,OCDS Core
-advanced,"planning, implementation",environmentalImpact,Environmental Impact,"Documentation of environmental impact assessments carried out before, during or after the contracting process.",OCDS Core
-advanced,planning,assetAndLiabilityAssessment,Assesment of government's assets and liabilities,Documentation covering assessments of the government's assets and liabilities related to this contracting process.,OCDS Core
-advanced,planning,riskProvisions,Provisions for management of risks and liabilities,Documentation covering how risks will be managed as part of this contracting process.,OCDS Core
-advanced,award,winningBid,Winning Bid,"Documentation of the winning bid, including, wherever applicable, a full copy of the proposal receieved.",OCDS Core
-advanced,"tender, award",complaints,Complaints and decisions,"Documentation of any complaints received, or decisions in response to complaints.",OCDS Core
-advanced,contract,contractAnnexe,Annexes to the Contract,Copies of annexes and other supporting documentation related to the contract.,OCDS Core
-advanced,"tender, contract",contractGuarantees,Guarantees,Documentation of guarantees relating to a contracting process or contract.,OCDS Core
-advanced,contract,subContract,Subcontracts,"Documentation detailing subcontracts and/or providing a copy of subcontracts themselves. Where OCDS data on the subcontracts exists, this can be declared using the relatedProcess block.",OCDS Core
-advanced,planning,needsAssessment,Needs Assessment,Documentation of the needs assessments carried out for this contracting process addressing demand for the project or investment from the affected communities or users.,OCDS Core
-advanced,planning,feasibilityStudy,Feasibility study,"Documentation of feasibility studies carried out for this contracting process, providing information on net benefits or costs of the proposed goods, works or services.",OCDS Core
-advanced,planning,projectPlan,Project plan,"Documentation of project planning for this contracting process, and, where applicable, a copy of the project plan document.",OCDS Core
-advanced,tender,billOfQuantity,Bill Of Quantity,"Documentation that provides itemised information on materials, parts and labour, and the terms and conditions for their provision, providing information that would enable bidders to price work effectively. Structured versions of item and quantity information at each of tender, award and contract stage can be provided using units within the items building block.",OCDS Core
-advanced,"tender, bidder",bidders,Information on bidders,"Documentation on bidders or participants, their validation documents and any procedural exemptions for which they qualify",OCDS Core
-advanced,"tender, award, contract, implementation",conflictOfInterest,Conflict of Interest,Documentation of conflicts of interest declared or uncovered.,OCDS Core
-advanced,implementation,debarments,Debarments,Documentation of any debarments issued.,OCDS Core
-advanced,"tender, bid, contract, implementation",illlustration,Illustrations,"Images intended to provide supporting information. The url for images should generally be directly to an image file which applications can display as part of a gallery of images. At the tender stage, images may be illustrations of goods, works or services required or for sale. At the implementation stage, images may be illlustrations or visual evidence of physical progress. ",OCDS Core
-advanced,"bid, award, contract",submissionDocuments,Bid Submission Documents,Documentation submitted by a bidder as part of their proposal.,OCDS Core
-advanced,contract,contractSummary,Contract Summary,Documentation providing an overview of the key terms and sections of the contract. Commonly used for large and complex contracts.,OCDS Core
-advanced,"tender, award, contract, implementation",cancellationDetails,Cancellation Details,"Documentation the arrangements, or reasons, for cancellation of a contracting process, award or specific contract.  ",OCDS Core
-,,tariffs,Tariffs,For providing tariff and pricing schedules.,Tariffs
-,,tariffMethod,Tariff Method,For summarizing the method by which tariffs are set and linking to detailed documentation of the methods for setting tariffs. This may include written documentation and spreadsheets providing the models used to calculate tariffs.,Tariffs
-,,tariffReview,Tariff Review,For summarizing the arrangements for the review and regulation of tariffs and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying and the scope for changes to payment structures.,Tariffs
-,,tariffIllustration,Tariff Illustration,For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG or JPEG or GIF graphs to allow applications to directly display this content.,Tariffs
-,planning/documents,needsAssessment,,,Public Private Partnership
-,planning/documents,valueForMoneyAnalysis,,,Public Private Partnership
-,planning/documents,technicalSpecifications,,,Public Private Partnership
-,planning/documents,serviceDescription,,,Public Private Partnership
-,planning/documents,estimatedDemand,,,Public Private Partnership
-,planning/documents,projectAdditionality,,,Public Private Partnership
-,planning/documents,financeAdditionality,,,Public Private Partnership
-,planning/documents,pppModeRationale,,,Public Private Partnership
-,planning/documents,contractDraft,,,Public Private Partnership
-,planning/documents,contractSchedule,,,Public Private Partnership
-,contract/documents,contractSigned,,,Public Private Partnership
-,contract/documents,contractSchedule,,,Public Private Partnership
-,tender/documents,feasibilityStudy,,,Public Private Partnership
-,tender/documents,environmentalImpact,,,Public Private Partnership
-,tender/documents,finalAudit,,,Public Private Partnership
-,tender/documents,tenderNotice,,,Public Private Partnership
-,tender/documents,evaluationCommittee,,,Public Private Partnership
-,preQualification/documents,requestForQualification,,,Public Private Partnership
-,tender/documents,evaluationCriteria,,,Public Private Partnership
-,tender/documents,minutes,,,Public Private Partnership
-,tender/documents,shortlistedFirms,,,Public Private Partnership
-,tender/documents,negotiationParameters,,,Public Private Partnership
-,contract/documents,riskProvisions,,,Public Private Partnership
-,award/documents,evaluationReports,,,Public Private Partnership
-,award/documents,riskComparison,,,Public Private Partnership
-,award/documents,valueForMoneyAnalysis,,,Public Private Partnership
-,award/documents,discountRate,,,Public Private Partnership
-,contract/documents,equityTransferCaps,,,Public Private Partnership
-,contract/documents,financeArrangements,,,Public Private Partnership
-,contract/documents,contractGuarantees,,,Public Private Partnership
-,contract/documents,guaranteeReports,,,Public Private Partnership
-,contract/documents,grants,,,Public Private Partnership
-,contract/implementation/documents,grants,,,Public Private Partnership
-,contract/documents,servicePayments,,,Public Private Partnership
-,contract/implementation/documents,servicePayments,,,Public Private Partnership
-,contract/documents,landTransfer,,,Public Private Partnership
-,contract/documents,assetTransfer,,,Public Private Partnership
-,contract/implementation/documents,landTransfer,,,Public Private Partnership
-,contract/implementation/documents,assetTransfer,,,Public Private Partnership
-,contract/documents,revenueShare,,,Public Private Partnership
-,contract/implementation/documents,revenueShare,,,Public Private Partnership
-,contract/documents,otherGovernmentSupport,,,Public Private Partnership
-,contract/documents,tariffMethod,,,Public Private Partnership
-,contract/documents,tariffReview,,,Public Private Partnership
-,contract/implementation/documents,tariffs,,,Public Private Partnership
-,contract/implementation/documents,tariffIllustration,,,Public Private Partnership
-,contract/implementation/documents,defaultEvents,,,Public Private Partnership
-,contract/implementation/documents,termination,,,Public Private Partnership
-,contract/documents,handover,,,Public Private Partnership
-,contract/implementation/documents,handover,,,Public Private Partnership
-,contract/implementation/documents,financialStatement,,,Public Private Partnership
-,contract/implementation/documents,performanceReport,,,Public Private Partnership
+Framework,Section,Code,Title,Description,Summary required,Extension
+I.4,planning,needsAssessment,Needs Assessment,"Information on the project need, benefits provided, and economic and social impact",Yes,Public Private Partnership
+"I.4, IV.4","planning, award",valueForMoneyAnalysis,Value for money analysis,"A summary of the value for money analysis carried out for the project, along with supporting figures, calculations and business case, based on projected or actual procurement outcomes.",Yes,Public Private Partnership
+I.5,planning,technicalSpecifications,Technical Specifications,Detailed technical information about goods or services to be provided.,Yes,Public Private Partnership
+I.6,planning,serviceDescription,Service descriptions,A high-level description of the services,Yes,Public Private Partnership
+I.7,planning,estimatedDemand,Estimated demand,A narrative describing the estimated demand to be served (annually) by the project.,Yes,Public Private Partnership
+I.8,planning,projectAdditionality,Project additionality,A description of the additionality provided by the project,Yes,Public Private Partnership
+I.8,planning,financeAdditionality,Finance additionality,A description of the additionality provided by the finance method,Yes,Public Private Partnership
+I.9,planning,pppModeRationale,Rationale for PPP modality,A description of the reasons for choosing to conduct this project as a PPP,Yes,Public Private Partnership
+I.17,planning,contractDraft,Contract draft,A draft or pro-forma copy of the contract.,No,Public Private Partnership
+I.17,"planning, contract",contractSchedule,Schedules and milestones,Documentation setting out key milestones and schedules. Structured versions of this information may be modelled using the milestones block.,No,Public Private Partnership
+I.17,contract,contractSigned,Signed Contract,"A copy of the signed contract. Consider providing both machine-readable (e.g. original PDF, Word or Open Document format files), and a separate document entry for scanned-signed pages where this is required.",No,Public Private Partnership
+II.1,tender,feasibilityStudy,Feasibility study,"Documentation of feasibility studies carried out for this contracting process, providing information on net benefits or costs of the proposed goods, works or services.",No,Public Private Partnership
+II.1,tender,environmentalImpact,Environmental Impact,"Documentation of environmental impact assessments carried out before, during or after the contracting process.",No,Public Private Partnership
+II.1,tender,finalAudit,Final Audit,Documentation of a final audit carried out at the end of contract implementation.,No,Public Private Partnership
+II.1,tender,tenderNotice,Tender Notice,"The formal notice that gives details of a tender. This may be a link to a downloadable document, to a web page, or to an official gazette in which the notice is contained.",No,Public Private Partnership
+II.2,tender,evaluationCommittee,Evaluation Committee Details,Information on the constitution of the evaluation committee,Yes,Public Private Partnership
+II.2,preQualification,requestForQualification,Request for Qualification,"The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase).",No,Public Private Partnership
+II.1,tender,evaluationCriteria,Evaluation Criteria,Documentation on how bids will be evaluated.,Yes,Public Private Partnership
+II.1,tender,minutes,Minutes,"Minutes of pre-bid meetings, or other relevant meetings.",No,Public Private Partnership
+II.1,tender,shortlistedFirms,Shortlisted Firms,Documentation providing information on shortlisted firms. Structured versions of this information can be provided using the bids extension.,No,Public Private Partnership
+II.1,tender,negotiationParameters,Negotiation Parameters,A description of the parameters for negotiation with the preferred proponent,Yes,Public Private Partnership
+III.1,contract,riskProvisions,Provisions for management of risks and liabilities,Documentation covering how risks will be managed as part of this contracting process.,No,Public Private Partnership
+IV.1,award,evaluationReports,Evaluation report,"Documentation on the evaluation of the bids and the application of the evaluation criteria, including the justification fo the award",No,Public Private Partnership
+IV.2,award,riskComparison,Risk comparison,Risk comparison of other financing methods,Yes,Public Private Partnership
+IV.2.2,award,discountRate,Discount rate and risk premium,"An explanation of the discount rate, and any risk premium used, including information on project-specific circumstances that justify the risk premium rate used.",Yes,Public Private Partnership
+V.4,contract,equityTransferCaps,Equity transfer caps,"Details of any restrictions on the transfer of equity by shareholders or other relevant participants in the project. Certain contracts provide for caps on equity transfer in different stages of the contract, especially during the construction stage and for a few years thereafter.",Yes,Public Private Partnership
+V.8,contract,financeArrangements,Security and step in arrangements,,Yes,Public Private Partnership
+VI.1,contract,contractGuarantees,Guarantees,Documentation of guarantees relating to a contracting process or contract.,Yes,Public Private Partnership
+VI.1,contract,guaranteeReports,Fiscal commitment and continent liabilities disclosure reports,,No,Public Private Partnership
+VI.2,"contract, implementation",grants,Grants,"Information on grants given to support the project. Grant information should detail the total value of subsidy, and/or the valie of subsidy as a proportion of the overall project value, as well as providing information on the nature of the grant. For capital subsidies paid during construction of a project, or operating subsidies paid during operation, details of periodicity of grant payments, and particular grant milestones, should be provided.",Yes,Public Private Partnership
+VI.3,"contract, implementation",servicePayments,Service payments,"Service payments are payments made by the public authority or purchaser to the private provider for infrastructure services (applicable in some types of Public Private Partnership projects). The documentation should cover the total number of payments and their periodicity, as well as the methodology used for calculating payments and the indexation used.",Yes,Public Private Partnership
+VI.4,"contract, implementation",landTransfer,Land transfer,"Details of land transferred on lease or other basis by governemnt, including details of property numbers with the quantum of land transferred, zoning information and conditions of transfer.",Yes,Public Private Partnership
+VI.4,"contract, implementation",assetTransfer,Asset Transfer,"Details of asset, human resource of personnel transfers, including documentation of the conditions of transfer.",Yes,Public Private Partnership
+VI.5,"contract, implementation",revenueShare,Revenue Share,"Documentation of any revenue share arrangements, including revenue share on the base-case and upside for a public private partnership project.",Yes,Public Private Partnership
+VI.5,contract,otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans. ",Yes,Public Private Partnership
+VII.2,contract,tariffMethod,Tariff method,"For summarising the method by which tariffs are set, and linking to detailed documentation of the methods for setting tariffs. This may include written documentation, and spreadsheets providing the models used to calculate tariffs. This should make clear who sets the tariff and on what basis.",Yes,Public Private Partnership
+VII.3,contract,tariffReview,Tariff review,"For summarising the arrangements for the review and regulation of tariffs, and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying, and the scope for changes to payment structures.",Yes,Public Private Partnership
+VII.1,contract/implementation,tariffs,Tariffs,For providing tariff and pricing schedules.,No,Public Private Partnership
+VII.4,contract/implementation,tariffIllustration,Tariff illustrations,"For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content. ",No,Public Private Partnership
+VIII.1,contract/implementation,defaultEvents,Defaults,Information on events of default,No,Public Private Partnership
+VIII.1,contract/implementation,termination,Termination,Information on contract termination,No,Public Private Partnership
+VIII.2,"contract, implementation",handover,Handover,"Contractual provisions for, or reporting on, handover of assets back to the state, including details of condition of assets and any other conditions of handover.",Yes,Public Private Partnership
+X.2,contract/implementation,financialStatement,Financial statement,Audited financial statements of the project company,No,Public Private Partnership
+X.6,contract/implementation,performanceReport,Performance report,Performance assessment reports,Yes,Public Private Partnership
