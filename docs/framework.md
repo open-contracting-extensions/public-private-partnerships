@@ -682,7 +682,7 @@ P
 
 
 
- This information can be provided using the [milestones extension](../../extensions/milestones/).
+This information can be provided using the [milestones extension](../extensions/milestones/).
 
 Each approval during the planning stage should be included in the ```planning/milestones``` array with a ```type``` of 'approval', the date the approval is scheduled for (```dueDate```), the status of the approval (```scheduled``` or ```met```) and the date the approval was given (```dateMet```).
 
@@ -971,7 +971,7 @@ P   U   U   U   U   U
 
 
 
- Links to contract documents can be provided using the ```documents``` field in the ```contract``` section of an OCDS release (the contract may have a ```status``` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../../extensions/documentation_details/)
+ Links to contract documents can be provided using the ```documents``` field in the ```contract``` section of an OCDS release (the contract may have a ```status``` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
 A value from the [document type codelist](_static/codelists/#document-type) (```contractDraft```, ```contractSigned``` or ```contractSchedules``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
 
