@@ -97,6 +97,9 @@ def append_extension(codelist_destination, extension, codelist_name):
     with open(codelist_destination, 'r') as current_codelist_file:
         current_codelist = csv.DictReader(current_codelist_file)
         for code_data in current_codelist:
+            if code_data.get('Deprecated'):
+                print('Deprecated codelist {} in file {}'.format(code_data.get('Code'), codelist_name))
+                continue
             code_data['Extension'] = extension['name']['en']
             new_codelist_data.append(code_data)
 
