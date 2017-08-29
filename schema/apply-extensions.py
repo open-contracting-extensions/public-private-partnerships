@@ -27,9 +27,11 @@ with open('base-release-schema.json') as schema_file:
 
 def pick_fieldnames(fieldnames, codelist):
     # Special case document type to ignore fieldname selection.
+    accepted_fieldnames = ['code', 'title', 'description', 'extension']
     if codelist == 'documentType.csv':
         return fieldnames
-    accepted_fieldnames = ['code', 'title', 'description', 'extension']
+    if codelist == 'currency.csv':
+        accepted_fieldnames = ['code', 'title', 'extension', 'name']
     new_fieldnames = []
     for fieldname in fieldnames:
         for accepted_fieldname in accepted_fieldnames:
