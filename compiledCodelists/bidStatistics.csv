@@ -1,12 +1,12 @@
-Category,Code,Title,Description,Min,Max,Required by,Extension
-bids,requests,Requests to Participate,The total number of unique requests to participate received,,,EU,Bid statistics and details
-bids,bids,Bids,The total number of unique bids received (prior to any being discounted for not meeting essential criteria).,,,EU,Bid statistics and details
-bids,validBids,Valid Bids,"The total number of unique bids received that were considered valid against relevant criteria (either of the bidder, or the bid submission itself). All valid bids should be considered during the tender evaluation stage. ",,,,Bid statistics and details
-bidders,bidders,Bidders,The total number of unique organizations or consortia submitting bids  (prior to any being discounted for not meeting essential criteria).,,,,Bid statistics and details
-bidders,qualifiedBidders,Qualified Bidders,The total number of unique organizations or consortia passing the qualification stage of the evaluation process.,,,,Bid statistics and details
-bidders,disqualifiedBidders,Disqualified Bidders,The total number of unique organizations or consortia that did not pass the qualification stage of the evaluation process.,,,,Bid statistics and details
-EU,electronicBids,Electronic Bids,The number of bids received by electronic means.,,,EU,Bid statistics and details
-EU,smeBids,Bids from SMEs,The number of bids received from Small and Medium Sized Enterprises,,,EU,Bid statistics and details
-EU,foreignBids,Bids from Foreign Firms,The number of bids received from bidders from outside the country where the tender is issued.,,,EU,Bid statistics and details
-EU,foreignBidsFromEU,Bids from firms in other EU single market countries,"The number of bids received from bidders from outside the country where the tender is issued, but based within another EU country, Iceland, Norway,or Liechtenstein.",,,EU,Bid statistics and details
-EU,tendersAbnormallyLow,Tenders excluded because they were abnormally low,"The number of tenders excluded because they were abnormally low. Note that in some EU datasets this may have been converted from a boolean, such that a value of 1 would indicate '1 or more' tenders were excluded. Users should evaluate and interpret data accordingly.",,,EU,Bid statistics and details
+Code,Title,Description,Extension
+requests,Requests to Participate,The total number of unique requests to participate received,Bid statistics and details
+bids,Bids,The total number of unique bids received (prior to any being discounted for not meeting essential criteria).,Bid statistics and details
+validBids,Valid Bids,"The total number of unique bids received that were considered valid against relevant criteria (either of the bidder, or the bid submission itself). All valid bids should be considered during the tender evaluation stage. ",Bid statistics and details
+bidders,Bidders,The total number of unique organizations or consortia submitting bids  (prior to any being discounted for not meeting essential criteria).,Bid statistics and details
+qualifiedBidders,Qualified Bidders,The total number of unique organizations or consortia passing the qualification stage of the evaluation process.,Bid statistics and details
+disqualifiedBidders,Disqualified Bidders,The total number of unique organizations or consortia that did not pass the qualification stage of the evaluation process.,Bid statistics and details
+electronicBids,Electronic Bids,The number of bids received by electronic means.,Bid statistics and details
+smeBids,Bids from SMEs,The number of bids received from Small and Medium Sized Enterprises,Bid statistics and details
+foreignBids,Bids from Foreign Firms,The number of bids received from bidders from outside the country where the tender is issued.,Bid statistics and details
+foreignBidsFromEU,Bids from firms in other EU single market countries,"The number of bids received from bidders from outside the country where the tender is issued, but based within another EU country, Iceland, Norway,or Liechtenstein.",Bid statistics and details
+tendersAbnormallyLow,Tenders excluded because they were abnormally low,"The number of tenders excluded because they were abnormally low. Note that in some EU datasets this may have been converted from a boolean, such that a value of 1 would indicate '1 or more' tenders were excluded. Users should evaluate and interpret data accordingly.",Bid statistics and details

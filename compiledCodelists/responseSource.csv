@@ -1,4 +1,4 @@
-Category,Code,Title_en,Description_en,Source,Extension
-,tenderer,Tenderer,The response should be provided by the tenderer ,,Requirements
-,buyer,Buyer,The response should be provided by the buyer,,Requirements
-,procuringEntity,Procuring entity,The response should be provided by the procuring entity,,Requirements
+Code,Title_en,Description_en,Extension
+tenderer,Tenderer,The response should be provided by the tenderer ,Requirements
+buyer,Buyer,The response should be provided by the buyer,Requirements
+procuringEntity,Procuring entity,The response should be provided by the procuring entity,Requirements
