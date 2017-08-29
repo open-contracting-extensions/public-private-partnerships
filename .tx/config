@@ -12,6 +12,11 @@ file_filter = locale/<lang>/LC_MESSAGES/ppp-codelists.po
 source_file = build_locale/ppp-codelists.pot
 source_lang = en
 
+[ocds-for-ppps.404]
+file_filter = locale/<lang>/LC_MESSAGES/404.po
+source_file = build_locale/404.pot
+source_lang = en
+
 [ocds-for-ppps.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = build_locale/index.pot
