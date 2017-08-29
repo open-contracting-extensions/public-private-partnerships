@@ -1,6 +1,6 @@
-Category,Code,Title_en,Description_en,Source,Extension
-,planned,Planned,"This pre-qualification has been proposed, but is not yet taking place.", ,Qualification
-,active,Active,A pre-qualification process is currently taking place., ,Qualification
-,cancelled,Cancelled,The pre-qualification process has been cancelled., ,Qualification
-,unsuccessful,Unsuccessful,The pre-qualification process was unsuccessful., ,Qualification
-,complete,Complete,The pre-qualification process is complete., ,Qualification
+Code,Title_en,Description_en,Extension
+planned,Planned,"This pre-qualification has been proposed, but is not yet taking place.",Qualification
+active,Active,A pre-qualification process is currently taking place.,Qualification
+cancelled,Cancelled,The pre-qualification process has been cancelled.,Qualification
+unsuccessful,Unsuccessful,The pre-qualification process was unsuccessful.,Qualification
+complete,Complete,The pre-qualification process is complete.,Qualification

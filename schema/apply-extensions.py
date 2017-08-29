@@ -25,6 +25,19 @@ extension_json = requests.get(location).json()
 with open('base-release-schema.json') as schema_file:
     schema = json.load(schema_file, object_pairs_hook=OrderedDict)
 
+def pick_fieldnames(fieldnames, codelist):
+    # Special case document type to ignore fieldname selection.
+    if codelist == 'documentType.csv':
+        return fieldnames
+    accepted_fieldnames = ['code', 'title', 'description', 'extension']
+    new_fieldnames = []
+    for fieldname in fieldnames:
+        for accepted_fieldname in accepted_fieldnames:
+            if accepted_fieldname in fieldname.lower():
+                new_fieldnames.append(fieldname)
+                break
+    return new_fieldnames
+
 
 def add_codes(codelist_name, codelist_data, extension):
     codelist_destination = '../compiledCodelists/' + codelist_name[1:]
@@ -35,7 +48,7 @@ def add_codes(codelist_name, codelist_data, extension):
         current_codelist = csv.DictReader(current_codelist_file)
         additional_codes = csv.DictReader(new_codes)
 
-        if current_codelist.fieldnames != additional_codes.fieldnames + ['Extension']:
+        if pick_fieldnames(current_codelist.fieldnames, codelist_name) != pick_fieldnames(additional_codes.fieldnames, codelist_name) + ['Extension']:
             print("WARNING: Codelist {} from extension {} has different fields as the base codelist".format(codelist_name, extension['name']['en']))
             #raise Exception("Codelist {} from extension {} can not be applied as it has different fields as the base codelist".format(codelist_name, extension['name']['en']))
         new_codelist_data.extend(current_codelist)
@@ -77,7 +90,7 @@ def remove_codes(codelist_name, codelist_data, extension):
             writer.writerow(row)
 
 
-def append_extension(codelist_destination, extension):
+def append_extension(codelist_destination, extension, codelist_name):
     new_codelist_data = []
     with open(codelist_destination, 'r') as current_codelist_file:
         current_codelist = csv.DictReader(current_codelist_file)
@@ -90,6 +103,7 @@ def append_extension(codelist_destination, extension):
             fieldnames = current_codelist.fieldnames
         else:
             fieldnames = current_codelist.fieldnames + ['Extension']
+        fieldnames = pick_fieldnames(fieldnames, codelist_name)
 
         writer = csv.DictWriter(new_codelist_file, 
                                 fieldnames=fieldnames,
@@ -113,7 +127,7 @@ def process_codelist(codelist_name, codelist_data, extension):
     else:
         with open(codelist_location, 'wb') as fp:
             fp.write(codelist_data)
-        append_extension(codelist_location, extension)
+        append_extension(codelist_location, extension, codelist_name)
 
 
 
@@ -126,7 +140,7 @@ for codelist in glob.glob('../compiledCodelists/*.csv'):
 for codelist in glob.glob('base-codelists/*.csv'):
     codelist_location = '../compiledCodelists/' + codelist.split('/')[-1]
     shutil.copy(codelist, codelist_location)
-    append_extension(codelist_location, {'name': {'en': 'OCDS Core'}})
+    append_extension(codelist_location, {'name': {'en': 'OCDS Core'}}, codelist.split('/')[-1])
 
 for extension in extension_json['extensions']:
     try:
