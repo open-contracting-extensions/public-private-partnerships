@@ -3,7 +3,9 @@ Metrics Extension
 
 The metrics extension provides a common building block for reporting structured performance information on contracts. 
 
-Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of ```Metric``` representing a single **observation**, categorised by a number of **dimensions**.
+Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of ```Metric``` representing a single **observation**, categorized by a number of **dimensions**.
+
+Where the metrics extension is used to model targets for a contracting process, the ```description``` field can be used to start whether the target is a minimum or recommended target.
 
 Where the metrics extension is used to model targets for a contracting process, the ```description``` field can be used to start whether the target is a minimum or recommended target.
 
@@ -51,7 +53,7 @@ Where the metrics extension is used to model targets for a contracting process, 
 
 Metrics can be used along with the **requirements extension** which will add a 'relatedRequirementID' property to metrics. 
 
-With the requirements extension, bids, awards and contracts can include a ```requirementResponse``` indicating the values against each metric that a supplier intends to meet. 
+With the requirements extension, bids, awards and contracts can include a ```RequirementResponse``` indicating the values against each metric that a supplier intends to meet. 
 
 This can allow a degree of comparison between performance anticipated at bid, award, contract and implementation phases.
 

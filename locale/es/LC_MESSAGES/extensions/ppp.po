@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 11:54+0100\n"
+"POT-Creation-Date: 2017-07-31 17:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,12 @@ msgstr ""
 
 #: ../docs/extensions/ppp.md:5
 msgid ""
+"Full documentation is available at [http://ocds-for-"
+"ppps.readthedocs.io/](http://ocds-for-ppps.readthedocs.io/)"
+msgstr ""
+
+#: ../docs/extensions/ppp.md:7
+msgid ""
 "This extension provides a number of fields and building blocks that are "
 "currenetly seen as specific to PPP disclosure against the World Bank PPP "
 "Disclosure Framework."
@@ -44,7 +50,7 @@ msgstr ""
 msgid "Project level information"
 msgstr "Información a nivel de proyecto"
 
-#: ../docs/extensions/ppp.md:10
+#: ../docs/extensions/ppp.md:11
 msgid ""
 "Building on the [Budget and Projects extension](https://github.com/open-"
 "contracting/ocds_budget_projects_extension) this adds to project with:"
@@ -52,7 +58,7 @@ msgstr ""
 "Desarrollado de la extensión de [Budget and Projects](https://github.com"
 "/open-contracting/ocds_budget_projects_extension) este agrega al proyecto:"
 
-#: ../docs/extensions/ppp.md:12
+#: ../docs/extensions/ppp.md:13
 msgid ""
 "Sector classifications - using the [UN Classifications of the Functions of "
 "Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
@@ -61,7 +67,7 @@ msgstr ""
 "Naciones Unidas de las Funciones del "
 "Gobierno](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
 
-#: ../docs/extensions/ppp.md:13
+#: ../docs/extensions/ppp.md:14
 msgid ""
 "Additional classifications - allowing arbitrary additional project "
 "categorisation"
@@ -69,13 +75,13 @@ msgstr ""
 "Clasificaciones adicionales - permitiendo la categorización arbitraria de "
 "proyectos adicionales"
 
-#: ../docs/extensions/ppp.md:14
+#: ../docs/extensions/ppp.md:15
 msgid "Project location - with options for gazetteer or point location"
 msgstr ""
 "Ubicación del proyecto - con opciones para la localización geográfica o de "
 "puntos"
 
-#: ../docs/extensions/ppp.md:16
+#: ../docs/extensions/ppp.md:17
 msgid "An example is shown below:"
 msgstr "A continuación se muestra un ejemplo:"
 
@@ -83,7 +89,7 @@ msgstr "A continuación se muestra un ejemplo:"
 msgid "Evaluation Indicators"
 msgstr "Indicadores de Evaluación"
 
-#: ../docs/extensions/ppp.md:49
+#: ../docs/extensions/ppp.md:50
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators to "
 "be reported relating to governments evaluation of a PPP project."
@@ -92,7 +98,7 @@ msgstr ""
 "diferentes relacionados con la evaluación de los gobiernos de un proyecto de"
 " APP."
 
-#: ../docs/extensions/ppp.md:51
+#: ../docs/extensions/ppp.md:52
 msgid ""
 "The ```award/evaluationIndicators``` section includes properties to express "
 "the **value** and supporting **free-text details** for each indicator:"
@@ -101,15 +107,15 @@ msgstr ""
 "expresar el **value** y apoyar **detalles de texto libre** para cada "
 "indicador:"
 
-#: ../docs/extensions/ppp.md:53
+#: ../docs/extensions/ppp.md:54
 msgid "discountRate"
 msgstr "discountRate"
 
-#: ../docs/extensions/ppp.md:54
+#: ../docs/extensions/ppp.md:55
 msgid "riskPremium"
 msgstr "riskPremium"
 
-#: ../docs/extensions/ppp.md:55
+#: ../docs/extensions/ppp.md:56
 msgid "netPresentValue"
 msgstr "netPresentValue"
 
@@ -117,7 +123,7 @@ msgstr "netPresentValue"
 msgid "Finance Summary"
 msgstr "Resumen Financiero"
 
-#: ../docs/extensions/ppp.md:59
+#: ../docs/extensions/ppp.md:60
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators "
 "relating to the financial model of a PPP project. Whilst some of these may "
@@ -128,26 +134,26 @@ msgstr ""
 "algunos de estos pueden ser reportados como métricas en forma continua, "
 "algunos son simples valores individuales."
 
-#: ../docs/extensions/ppp.md:61
+#: ../docs/extensions/ppp.md:62
 msgid ""
 "The ```contract/financeSummary``` section includes properties to express the"
 " **value** and supporting **free-text details** for each indicator:"
 msgstr ""
 "La sección ```contract/financeSummary``` incluye propiedades para expresar "
-"el **value ** y soporta **detalles de texto libre** para cada indicador:"
+"el **value** y soporta **detalles de texto libre** para cada indicador:"
 
-#: ../docs/extensions/ppp.md:63
+#: ../docs/extensions/ppp.md:64
 msgid "debtEquityRatio"
 msgstr "debtEquityRatio"
 
-#: ../docs/extensions/ppp.md:64
+#: ../docs/extensions/ppp.md:65
 msgid "shareCapital"
 msgstr "shareCapital"
 
-#: ../docs/extensions/ppp.md:65
+#: ../docs/extensions/ppp.md:66
 msgid "subsidyRatio"
 msgstr "subsidyRatio"
 
-#: ../docs/extensions/ppp.md:66
+#: ../docs/extensions/ppp.md:67
 msgid "projectIRR"
 msgstr "projectIRR"

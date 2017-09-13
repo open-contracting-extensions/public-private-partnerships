@@ -1,113 +1,194 @@
 # Codelists
 
-## documentType
+OCDS for PPPs uses a combination of codes and codelists from OCDS core, individual extensions and the PPP extension itself. The 'extension' column in the table display below indicates where each code originates from.
 
+OCDS for PPPs uses two types of codelist, **open** and **closed**. An **open** codelist provides **suggested** codes which can be added to by publishers, whilst a **closed** codelist provides **mandatory** codes and publishers should only use values provided in the official list. Codes are case sensitive, and are generally provided as english language camelCase.
+
+You can read more about using codelists in the [core OCDS documentation](http://standard.open-contracting.org/latest/en/) and further details on codelists in extensions can be found in the [extension reference](../extensions/index.md).
+
+## Closed codelists
+
+### awardStatus
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/documentType.csv
+   :file: ../_static/codelists/awardStatus.csv
 ```
 
-## financeCategory
-
+### bidStatus
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/financeCategory.csv
+   :file: ../_static/codelists/bidStatus.csv
 ```
 
-## financeType
-
+### contractStatus
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/financeType.csv
+   :file: ../_static/codelists/contractStatus.csv
 ```
 
-## financialIndicator
-
+### currency
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/financialIndicator.csv
+   :file: ../_static/codelists/currency.csv
 ```
 
-## metricID
-
+### dataType
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/metricID.csv
+   :file: ../_static/codelists/dataType.csv
 ```
 
-## milestoneCode
-
+### financeCategory
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/milestoneCode.csv
+   :file: ../_static/codelists/financeCategory.csv
 ```
 
-## milestoneStatus
-
+### initiationType
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/milestoneStatus.csv
+   :file: ../_static/codelists/initiationType.csv
 ```
 
-## milestoneType
-
+### method
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/milestoneType.csv
+   :file: ../_static/codelists/method.csv
 ```
 
-## organizationRole
-
+### milestoneStatus
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/organizationRole.csv
+   :file: ../_static/codelists/milestoneStatus.csv
 ```
 
-## riskAllocation
-
+### preQualificationStatus
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/riskAllocation.csv
+   :file: ../_static/codelists/preQualificationStatus.csv
 ```
 
-## riskCategory
-
+### procurementCategory
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/riskCategory.csv
+   :file: ../_static/codelists/procurementCategory.csv
 ```
 
-## riskImpact
-
+### relatesTo
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/riskImpact.csv
+   :file: ../_static/codelists/relatesTo.csv
 ```
 
-## riskLikelihood
-
+### releaseTag
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/riskLikelihood.csv
+   :file: ../_static/codelists/releaseTag.csv
 ```
 
-## votingRights
-
+### responseSource
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: docs/_static/codelists/votingRights.csv
+   :file: ../_static/codelists/responseSource.csv
 ```
+
+### riskAllocation
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/riskAllocation.csv
+```
+
+### tenderStatus
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/tenderStatus.csv
+```
+
+### votingRights
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/votingRights.csv
+```
+
+## Open codelists
+
+### awardCriteria
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/awardCriteria.csv
+```
+
+### bidStatistics
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/bidStatistics.csv
+```
+
+### documentType
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/documentType.csv
+```
+
+### extendedProcurementCategory
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/extendedProcurementCategory.csv
+```
+
+### itemClassificationScheme
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/itemClassificationScheme.csv
+```
+
+### partyRole
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/partyRole.csv
+```
+
+### relatedProcessScheme
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/relatedProcessScheme.csv
+```
+
+### riskCategory
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/riskCategory.csv
+```
+
+### submissionMethod
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/codelists/submissionMethod.csv
+```
+

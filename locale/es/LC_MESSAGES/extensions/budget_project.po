@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 11:54+0100\n"
+"POT-Creation-Date: 2017-07-31 17:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,14 +24,170 @@ msgstr "Extensión de presupuesto y proyectos"
 
 #: ../docs/extensions/budget_project.md:4
 msgid ""
-"[Issue #400](https://github.com/open-contracting/standard/issues/400) raises"
-" the importance of distinguishing project information from budget "
-"information."
+"In the core OCDS, project information is nested within the ```budget``` "
+"building block. However, in some cases, budget management, and project "
+"management systems are separate, and it may be important to separately "
+"specify:"
 msgstr ""
-"El [issue #400](https://github.com/open-contracting/standard/issues/400) "
-"plantea la importancia de distinguir la información del proyecto de la "
-"información presupuestaria."
 
 #: ../docs/extensions/budget_project.md:6
-msgid "This is also important for the PPP extension to OCDS."
-msgstr "Esto también es importante para la extensión APP de OCDS."
+msgid "The amount reserved in the budget for a specific contracting process;"
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:8
+msgid ""
+"The project the contract relates to, and the total value of that project;"
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:10
+msgid ""
+"This is particularly important in cases of Public Private Partnership "
+"projects, or large infrastructure projects, where users may wish to track "
+"all the contracting processes related to a large-scale project, and to "
+"understand the individual contracts in the context of their contracting "
+"process and overall project values."
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:12
+msgid ""
+"This extension introduces a ```project``` object into the ```planning``` "
+"section."
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:14
+msgid ""
+"In the OCDS for PPPs profile, this is further extended with sector and "
+"location classifications."
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:0
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../docs/extensions/budget_project.md:0
+msgid "Documentation"
+msgstr "Documentación"
+
+#: ../docs/Extension budget_project:1
+msgid "Field"
+msgstr "Campo"
+
+#: ../docs/Extension budget_project:1
+msgid "Definition"
+msgstr "Definición"
+
+#: ../docs/Extension budget_project:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../docs/Extension budget_project:1
+msgid "Type"
+msgstr "Tipo"
+
+#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
+#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
+#: ../docs/Extension budget_project:1
+msgid "Project"
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"An externally provided identifier for the project. This might be drawn from "
+"a projects register, or may be based on the canonical version of a project "
+"name. Project IDs should be unique to a publisher. URIs can be used."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"The name of the project to which this contracting process relates. Some "
+"organizations maintain a registry of projects, and the data should use the "
+"name by which the project is known in that registry."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid "A short free text description of the project."
+msgstr "Una breve descripción en texto libre del proyecto."
+
+#: ../docs/Extension budget_project:1
+msgid "The total anticipated value of the project over it's lifetime."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid "A URI pointing to further information about this project."
+msgstr "Una URI que apunte a mayor información sobre este proyecto."
+
+#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
+#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
+#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
+msgid "Budget"
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"An identifier for the budget line item which provides funds for this "
+"contracting process. Wherever possible, this identifier should be possible "
+"to cross-reference against formal budget documents."
+msgstr ""
+"Un identificador para la partida presupuestaria que provee fondos para este "
+"proceso de contratación. Cuando sea posible, este identificador debe "
+"permitir referenciarse con documentos formales de presupuesto."
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"A short free text description of the budget allocation for this contracting "
+"process. This may be used to provide human readable information on the "
+"budget category allocated to this contracting process, and/or, information "
+"about the nature and source of the allocation (e.g. conditional, confirmed; "
+"any official authorisations given to the budget allocation)."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"The total value of budget allocations for this contracting process. The "
+"budget breakdown extension can be used to provide data for multiple budget "
+"sources, or to split the budget by years or other periods."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"The name of the project that through which this contracting process is "
+"funded. Detailed information should be provided in the extended "
+"projectDetail section."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"An external identifier for the project that this contracting process forms "
+"part of. Required for legacy compatibility with OCDS core."
+msgstr ""
+
+#: ../docs/Extension budget_project:1
+msgid ""
+"A URI pointing directly to records about the related budget for this "
+"contracting process. Where possible this URI should return machine and "
+"human-readable representations of the data."
+msgstr ""
+"Una URI que apunta directamente a los registros sobre el presupuesto "
+"relacionado para este proceso de contratación. Donde sea posible, esta URI "
+"deberá devolver representaciones de los datos legibles por humanos y por "
+"computadora. "
+
+#: ../docs/extensions/budget_project.md:0
+msgid "ChangeLog"
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:47
+msgid "**2017-07-08**"
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:49
+msgid ""
+"Updated version to maintain conformance with OCDS 1.1, removing the "
+"properties in the extension that deleted ```planning/budget/project``` and "
+"```planning/budget/projectID```."
+msgstr ""
+
+#: ../docs/extensions/budget_project.md:51
+msgid ""
+"Removing unneccessary mergeStrategy and pattern property schema elements"
+msgstr ""

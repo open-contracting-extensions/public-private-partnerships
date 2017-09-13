@@ -7,13 +7,13 @@ Information on bids submitted as part of a contracting process is important for 
 * Red flag analysis for understanding potential corruption risks; and
 * Value for money analysis;
 
-Regulatory regimes vary on the extent to which they allow information on bidding to be proactively published, and at what point in the procurement process. In some systems and processes, a list of invited bidders will be published at the start of tendering, and full details and documents on the bids recieved may be disclosed when evaluation is complete. In other systems, only summary statistics on the number of bids received may be made public.
+Regulatory regimes vary on the extent to which they allow information on bidding to be proactively published, and at what point in the procurement process. In some systems and processes, a list of invited bidders will be published at the start of tendering, and full details and documents on the bids received may be disclosed when evaluation is complete. In other systems, only summary statistics on the number of bids received may be made public.
 
 The OCDS bid extension introduces a new, flexible, top-level section to each contracting process to capture bidding information. Implementers will need to assess which fields are applicable to their local regulatory regime, and to local use-cases.
 
 ### Bid Statistics
 
-The ```bids/bidStatistics``` array can be used to represent key statistical information about the number of bids and bidders. Each entry in the array is a ```BidStatistic``` object containing at least:
+The ```bids/bidStatistics``` array can be used to represent key statistical information about the number of bids and bidders. Each entry in the array is a ```BidsStatistic``` object containing at least:
 
 * An identifier;
 * A measure, from the bidStatistics codelist;
@@ -27,16 +27,16 @@ The ```bids/bidStatistics``` array can be used to represent key statistical info
    :exclude_definitions: Bids Bid
 ```
 
-#### Bid Statistics Codelists
+#### Bid Statistics Codelist
 
 This is an **open** codelist. Publishers can add their own codes to this list. When doing so, publishers are encouraged to engage with the open contracting community to agree upon definitions of each code. 
 
 For example, publishers may wish to add statistics on minority or women owned businesses, or bids that meet certain environmental standards and targets. 
 
 ```eval_rst
-.. csv-table::
+.. csv-table-no-translate::
    :header-rows: 1
-   :file: standard/docs/en/extensions/codelists/bidStatistics.csv
+   :file: codelists_translated/bidStatistics.csv
 ```
 
 ### Bid details
@@ -47,6 +47,14 @@ The ```bids/details``` array is used to provide one or more ```Bid``` objects, e
 .. extensiontable::
    :extension: bids
    :exclude_definitions: statistics BidsStatistic 
+```
+
+#### Bid Status Codelist
+
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: codelists_translated/bidStatus.csv
 ```
 
 ### Example
