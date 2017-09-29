@@ -1,6 +1,3 @@
-# ToDo: Replace requests JSON get with ordered dictionary
-# Get process to make it's own backup and switch this back in at the end.
-
 import requests
 import io
 import os
