@@ -1,12 +1,20 @@
 sudo: false
 language: python
+cache: pip
 python:
-  - "3.5"
+  - "3.6"
 addons:
   apt:
     packages:
     - lftp
-install: pip install -r requirements.txt
+deploy:
+  skip_cleanup: true # don't remove stuff we've built
+  provider: script
+  script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-profile-deploy.sh | bash -
+  on:
+    all_branches: true
+install:
+  - pip install -r requirements.txt
 script:
   - |
     mkdir build
@@ -16,9 +24,3 @@ script:
         mv _build/dirhtml ../build/$lang
     done
     cd ..
-deploy:
-  skip_cleanup: true # don't remove stuff we've built
-  provider: script
-  script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-profile-deploy.sh | bash -
-  on:
-    all_branches: true
