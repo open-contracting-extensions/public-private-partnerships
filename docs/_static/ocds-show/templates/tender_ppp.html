@@ -199,6 +199,20 @@
                </dd>
 
 						   <dt class="dt-large dt-gap">
+							   {{ gettext("Procurement Categories") }}
+						   </dt>
+               <dd class="dd-small">
+                 {% if tender.mainProcurementCategory %}
+                   <strong>{{ gettext("Main Procurement Category:") }}</strong>
+                   {{ tender.mainProcurementCategory }} {{change_label(tender, 'mainProcurementCategory')}}</p>
+                 {% endif %}
+                 {% if tender.additionalProcurementCategories %}
+                   <strong>{{ gettext("Additional Procurement Categories:") }}</strong>
+                   {{ tender.additionalProcurementCategories|join(", ") }} {{change_label(tender, 'additionalProcurementCategories')}}
+                 {% endif %}
+               </dd>
+
+						   <dt class="dt-large dt-gap">
 							   {{ gettext("Award criteria") }}
 						   </dt>
                <dd class="dd-small">

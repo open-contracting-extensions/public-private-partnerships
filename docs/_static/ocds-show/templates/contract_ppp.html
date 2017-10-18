@@ -384,7 +384,14 @@
                 {{ gettext("Share Capital") }}
               </dt>
               <dd class="dd-large dd-inline dd-gap">
-                {{ contract.financeSummary.shareCapital }} {{change_label(contract.financeSummary, 'shareCapital')}}
+                {{change_label(contract.financeSummary.shareCapital)}}
+                {% if contract.financeSummary.shareCapital.amount %}
+                  {{ contract.financeSummary.shareCapital.amount|currency }}
+                  {{change_label(contract.financeSummary.shareCapital, 'amount')}}
+                  {{contract.financeSummary.shareCapital.currency}}
+                  {{change_label(contract.financeSummary.shareCapital, 'currency')}}
+                {% endif %}
+
               </dd>
             {% endif %}
             {% if contract.financeSummary.shareCapitalDetails %}
