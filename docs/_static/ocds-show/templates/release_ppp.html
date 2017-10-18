@@ -11,7 +11,12 @@
   {% endmacro %}
 
   {% macro date_popout(object, key) %}
-    <span class="no-wrap" data-toggle="tooltip" title="{{object[key]}}"> {{ object[key]|truncate(10,true,"") }} {{change_label(object, key)}} <span class="glyphicon glyphicon-new-window small-icon" aria-hidden="true"></span> </span>
+    <span class="no-wrap" data-toggle="tooltip" title="{{object[key]}}"> {{ object[key]|truncate(10,true,"") }} {{change_label(object, key)}} 
+      
+    {% if object[key] %}
+      <span class="glyphicon glyphicon-new-window small-icon" aria-hidden="true"></span> 
+    {% endif %}
+    </span>
   {% endmacro %}
 
   {% macro long_text_popout(object, key) %}
@@ -90,10 +95,8 @@
 
 	<div class="col-md-9 tab-pane" id="relatedProcesses">
     <div class="panel panel-default">
-      <div class="panel-body">
-        {% set relatedProcesses = release.relatedProcesses %}
-        {% include 'related_processes.html' %}
-      </div>
+      {% set relatedProcesses = release.relatedProcesses %}
+      {% include 'related_processes.html' %}
     </div>
   </div>
 

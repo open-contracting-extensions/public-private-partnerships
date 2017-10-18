@@ -72,25 +72,25 @@
             <br/>
 
 
-            <strong>{{ gettext("Award start: ")}}</strong>
-            {% if tender.awardPeriod.startDate %}
-              {{date_popout(tender.awardPeriod, 'startDate')}}
+            <strong>{{ gettext("Qualification start: ")}}</strong>
+            {% if tender.qualificationPeriod.startDate %}
+              {{date_popout(tender.qualificationPeriod, 'startDate')}}
             {% else %}
               <span class="bg-warning">{{ gettext("No start date provided") }}</span>
             {% endif %}
-            <strong class="gap-left">{{ gettext("Award end: ")}}</strong>
-            {% if tender.awardPeriod.endDate %}
-              {{date_popout(tender.awardPeriod, 'endDate')}}
+            <strong class="gap-left">{{ gettext("Qualification end: ")}}</strong>
+            {% if tender.qualificationPeriod.endDate %}
+              {{date_popout(tender.qualificationPeriod, 'endDate')}}
             {% else %}
               <span class="bg-warning">{{ gettext("No end date provided") }}<span>
             {% endif %}
-            {% if tender.awardPeriod.durationInDays %}
-              <strong class="gap-left">{{ gettext("Award Period Duration (in days): ")}}</strong>
-              {{ tender.awardPeriod.durationInDays}} {{change_label(tender.awardPeriod, 'durationInDays')}}
+            {% if tender.qualificationPeriod.durationInDays %}
+              <strong class="gap-left">{{ gettext("Qualification Period Duration (in days): ")}}</strong>
+              {{ tender.qualificationPeriod.durationInDays}} {{change_label(tender.qualificationPeriod, 'durationInDays')}}
             {% endif %}
-            {% if tender.awardPeriod.maxExtentDate %}
+            {% if tender.qualificationPeriod.maxExtentDate %}
               <strong class="gap-left">{{ gettext("Max Extent Date: ")}}</strong>
-              {{date_popout(tender.awardPeriod, 'maxExtentDate')}}
+              {{date_popout(tender.qualificationPeriod, 'maxExtentDate')}}
             {% endif %}
            </dd>
 
@@ -129,42 +129,6 @@
              {% if tender.enquiryPeriod.maxExtentDate %}
                <strong class="gap-left">{{ gettext("Enquiries Max Extent Date: ")}}</strong>
                {{date_popout(tender.enquiryPeriod, 'maxExtentDate')}}
-             {% endif %}
-           </dd>
-
-           <dt class="dt-large dt-gap">
-             {{ gettext("Procurement method") }}
-           </dt>
-           <dd class="dd-small">
-             {% if tender.procurementMethod %}
-             <strong>{{tender.procurementMethod}}:{{change_label(tender, 'procurementMethod')}}</strong>	<!-- set up a filter or function to convert between codelist values and titles -->
-             {% else %}
-               <strong>No procurement method provided </strong>
-             {% endif %}
-             {% if tender.procurementMethodRationale %}
-               {{ tender.procurementMethodRationale}} {{change_label(tender, 'procurementMethodRationale')}}
-             {% else %}
-               <span class="bg-warning">{{ gettext("No rationale provided") }}</span>
-             {% endif %}
-           </dd>
-
-           <dt class="dt-large dt-gap">
-             {{ gettext("Award criteria") }}
-           </dt>
-           <dd class="dd-small">
-             <strong>
-               {% if tender.awardCriteria %}
-                 {{ tender.awardCriteria }}:
-                 {{change_label(tender, 'awardCriteria')}}
-               {% else %}
-                 {{ gettext("No award criteria provided") }}
-               {% endif %}
-             </strong>
-             {% if tender.awardCriteriaDetails %}
-               {{ tender.awardCriteriaDetails }}
-               {{change_label(tender, 'awardCriteriaDetails')}}
-             {% else %}
-               <span class="bg-warning">{{ gettext("No award criteria details provided")}}</span>
              {% endif %}
            </dd>
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> </title>
+        <title>ODCS Show for Public Private Partnerships</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,7 +17,7 @@
 
       <nav class="navbar navbar-inverse">
         <div class="container">
-          <a class="navbar-brand" href="#">OCDS PPP Show</a>
+          <a class="navbar-brand" href="#">ODCS Show for Public Private Partnerships</a>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
                   <label class="btn btn-danger btn-file ">
@@ -93,7 +93,7 @@
            return
          }
          if (!currentValue) {
-           container.html('<h1> Welcome to PPP OCDS Show. </h1> <h4>Please supply either an OCDS release or OCDS record. Use upload file or text input buttons above.</h4>')
+           container.html('<h1> ODCS Show for Public Private Partnerships. </h1> <h4>Please supply either an OCDS release or OCDS record. Use upload file or text input buttons above.</h4>')
            return
          }
 
@@ -110,7 +110,9 @@
            input.ocids = input.records.map(function (value) {
              return value.ocid
            })
-           if (context.newData) {
+           if (context.id) {
+              id = context.id
+           } else if(context.newData) {
              id = input.ocids[0]
            } else {
              id = $('#id-select').val() 
@@ -186,7 +188,10 @@
            input.release_ids = input.releases.map(function (value) {
              return value.id
            })
-           if (context.newData) {
+
+           if (context.id) {
+              id = context.id 
+            } else if (context.newData) {
              id = input.release_ids[0]
            } else {
              id = $('#id-select').val() 
@@ -334,7 +339,12 @@
        if(getUrlVars()["load"]) {
           $.get(getUrlVars()["load"],function(data){ 
               jsonInput.val(JSON.stringify(data))
-              render_json({"newData": true});
+              if(getUrlVars()["releaseID"]) {
+                render_json({"id":getUrlVars()["releaseID"],"newData":true});  
+              } else {
+                render_json({"newData":true});
+              }
+              
           })
        } else {
           jsonInput.val("") 

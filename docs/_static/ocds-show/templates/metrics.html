@@ -55,14 +55,33 @@
               </dl>
             </td>
             <td>
-               {{observation.value.amount|currency }}
-               {{change_label(observation.value, 'amount')}}
-               {{observation.value.currency }}
-               {{change_label(observation.value, 'currency')}}
+               {% if observation.value.amount %}
+                 {{observation.value.amount|currency }}
+                 {{change_label(observation.value, 'amount')}}
+                 {{observation.value.currency }}
+                 {{change_label(observation.value, 'currency')}}
+               {% endif %}
             </td>
             <td>
                {{observation.unit.name}}
                {{change_label(observation.unit, 'name')}}
+               {% if observation.unit.id %}
+                 <small> 
+                   ({{observation.unit.id}})
+                   {{change_label(observation.unit, 'id')}}
+                 </small>
+               {% endif %}
+               {% if observation.unit.scheme %}
+                  </br>
+                  <strong> {{ gettext("Scheme:")}} </strong> {{observation.unit.scheme}}
+                  {{change_label(observation.unit, 'scheme')}}
+               {% endif %}
+               {% if observation.unit.uri %}
+                  </br>
+                  <strong> {{ gettext("URI:")}} </strong> {{observation.unit.uri}}
+                  {{change_label(observation.unit, 'uri')}}
+               {% endif %}
+
             </td>
             <td>
                {{observation.measure}}
