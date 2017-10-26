@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"POT-Creation-Date: 2017-08-29 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,10 +21,6 @@ msgstr ""
 #: ../docs/extensions/budget.md:0
 msgid "Budget Breakdown"
 msgstr "Desglose del presupuesto"
-
-#: ../docs/extensions/budget.md:2
-msgid "================"
-msgstr "================"
 
 #: ../docs/extensions/budget.md:0
 msgid "Background"
@@ -151,7 +147,7 @@ msgstr ""
 
 #: ../docs/extensions/budget.md:33
 msgid "```budget.sourceEntity``` should be omitted."
-msgstr ""
+msgstr "Debe omitirse ```budget.sourceEntity``` ."
 
 #: ../docs/extensions/budget.md:35
 msgid ""
@@ -203,11 +199,15 @@ msgid ""
 "Finalize guidance on use of extended fields in the core "
 "```planning.budget``` field."
 msgstr ""
+"Finaliza la guía sobre el uso de campos extendidos en el campo central "
+"```planning.budget```."
 
 #: ../docs/extensions/budget.md:146
 msgid ""
 "Finalize guidance where source entity is not known at time of budgeting"
 msgstr ""
+"Finaliza la guía cuando la entidad fuente no se conoce en el momento de la "
+"presupuestación"
 
 #: ../docs/extensions/budget.md:149
 msgid "See issue https://github.com/open-contracting/standard/issues/377"

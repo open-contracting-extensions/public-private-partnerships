@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"POT-Creation-Date: 2017-08-29 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -102,6 +102,12 @@ msgid ""
 "coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type "
 "values - set in order to maintain compatibility with GeoJSON."
 msgstr ""
+"Se proporciona el tipo de `geoJSON Geometry Objects <http://geojson.org"
+"/geojson-spec.html#geometry-objects>`__. Para proporcionar latitud y "
+"longitud, utilice 'point', e ingrese una lista de [latitud, longitud] como "
+"el valor del campo de coordenadas: p. [37,42, -122,085]. Tenga en cuenta la "
+"capitalización de los tipos de valores - establecidos para mantener la "
+"compatibilidad con geoJSON."
 
 #: ../docs/Extension location:1
 msgid ""
@@ -109,6 +115,9 @@ msgid ""
 "for the GeoJSON geometry being described. The longitude and latitude MUST be"
 " expressed in decimal degrees in the WGS84 (EPSG:4326) projection"
 msgstr ""
+"La lista relevante de puntos, p. ej [latitud, longitud] o lista anidada, "
+"para la geometría GeoJSON descrita. La longitud y la latitud DEBEN "
+"expresarse en grados decimales en la proyección WGS84 (EPSG: 4326)"
 
 #: ../docs/Extension location:1
 msgid ""
@@ -159,7 +168,7 @@ msgstr ""
 
 #: ../docs/extensions/location.md:0
 msgid "Gazetteer Codelist"
-msgstr ""
+msgstr "Lista de códigos de diccionario geográfico "
 
 #: ../docs/extensions/location.md:19
 msgid "See locationGazeteers.csv"

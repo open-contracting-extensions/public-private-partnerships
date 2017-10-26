@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"POT-Creation-Date: 2017-08-29 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
+"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../docs/timing.md:0
 msgid "Publication timing"
-msgstr "Calendario de publicación"
+msgstr "Tiempos de publicación"
 
 #: ../docs/timing.md:0
 msgid "Stages"
@@ -61,7 +61,7 @@ msgid ""
 "the project."
 msgstr ""
 "Es probable que un proceso de APP incluya las etapas siguientes, los "
-"siguientes identificadores de entregas son una guía y se pueden hacer "
+"siguientes identificadores de entregas son una guía, se pueden hacer "
 "entregas adicionales en cualquier etapa del proyecto."
 
 #: ../docs/timing.md:0
