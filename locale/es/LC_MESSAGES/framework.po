@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"POT-Creation-Date: 2017-08-29 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -34,8 +34,8 @@ msgstr ""
 "Público "
 "Privada](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
 "/ppp-tools#T1) ofrece una visión general de las motivaciones, procesos y "
-"marcos legales para divulgación de información en proyectos de Asociación "
-"Público-Privada."
+"marcos legales para la divulgación de información en proyectos de Asociación"
+" Público-Privada.\n"
 
 #: ../docs/framework.md:9
 msgid ""
@@ -64,8 +64,8 @@ msgid ""
 "information on the stages of the contracting process can be found in the "
 "[publication timing section](timing.md)."
 msgstr ""
-"La cartografía de cada requisito en el marco  de referencia incluye una guía"
-" para el calendario de publicación, indicando si la información debe ser "
+"El mapeo de cada requisito en el marco  de referencia incluye una guía para "
+"el calendario de publicación, indicando si la información debe ser "
 "**P**ublicada, **R**epetida o **U**pdated (actualizada) en cada etapa del "
 "proceso de contratación. Más información sobre las etapas del proceso de "
 "contratación se puede encontrar en la [sección de calendario de "
@@ -768,7 +768,7 @@ msgid ""
 "organizations and their roles."
 msgstr ""
 "Los detalles de la agencia o departamento patrocinador, incluyendo el nombre"
-" y los detalles de contacto, que deben proporcionarse en la sección "
+" y los detalles de contacto, deben proporcionarse en la sección "
 "```parties``` de una entrega de OCDS. El OCDS proporciona un [bloque de "
 "organización](_static/reference/#organization) para la divulgación de "
 "información sobre las organizaciones y sus funciones."
@@ -1232,10 +1232,10 @@ msgstr "Fechas de varias aprobaciones"
 #: ../docs/framework.md:685
 msgid ""
 "This information can be provided using the [milestones "
-"extension](../../extensions/milestones/)."
+"extension](../extensions/milestones/)."
 msgstr ""
 "Esta información puede ser proporcionada usando la [extensión de "
-"hitos](../../extensions/milestones/)."
+"hitos](../extensions/milestones/)."
 
 #: ../docs/framework.md:687
 msgid ""
@@ -1564,19 +1564,19 @@ msgstr ""
 
 #: ../docs/examples/full.json:1 ../docs/examples/full.json:1
 msgid "tender/contractPeriod/startDate"
-msgstr ""
+msgstr "tender/contractPeriod/startDate"
 
 #: ../docs/examples/full.json:1 ../docs/examples/full.json:1
 msgid "tender/contractPeriod/endDate"
-msgstr ""
+msgstr "tender/contractPeriod/endDate"
 
 #: ../docs/examples/full.json:1 ../docs/examples/full.json:1
 msgid "2016-01-24T00:00:00Z"
-msgstr ""
+msgstr "2016-01-24T00:00:00Z"
 
 #: ../docs/examples/full.json:1 ../docs/examples/full.json:1
 msgid "2036-01-23T00:00:00Z"
-msgstr ""
+msgstr "2036-01-23T00:00:00Z"
 
 #: ../docs/framework.md:0
 msgid "I.13. Contract documents"
@@ -1593,7 +1593,7 @@ msgid ""
 "```status``` of 'pending' up until it is signed). OCDS provides a [document "
 "building block](_static/reference/#document) for disclosure of documents "
 "which has [a number of available extensions for PPP use "
-"cases](../../extensions/documentation_details/)"
+"cases](../extensions/documentation_details/)"
 msgstr ""
 "Los vínculos a los documentos contractuales pueden proporcionarse utilizando"
 " el campo ```documents``` en la sección ```contract``` de una entrega de "
@@ -1705,8 +1705,8 @@ msgid ""
 "an [organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
-"Los detalles de la autoridad pública, incluyendo el nombre y los detalles de"
-" contacto, deben ser proporcionados en la sección ```parties``` de una "
+"Los detalles de la autoridad pública, incluyendo el nombre y los datos de "
+"contacto, deben ser proporcionados en la sección ```parties``` de una "
 "entrega de OCDS. El OCDS proporciona un [bloque de "
 "organización](_static/reference/#organization) para la divulgación de "
 "información sobre las organizaciones y sus funciones."
@@ -1775,7 +1775,7 @@ msgid ""
 "[organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
-"Los detalles de la parte privada, incluyendo el nombre y los detalles de "
+"Los detalles de la parte privada, incluyendo el nombre y los datos de "
 "contacto, deben ser proporcionados en la sección ```parties``` de una "
 "entrega de OCDS. El OCDS proporciona un [bloque de "
 "organización](_static/reference/#organization) para la divulgación de "
@@ -1862,7 +1862,7 @@ msgid ""
 "[organization building block](_static/reference/#organization) for "
 "disclosure of information about organizations and their roles."
 msgstr ""
-"Los detalles de los financieros, incluyendo el nombre y los detalles de "
+"Los detalles de los financieros, incluyendo el nombre y los datos de "
 "contacto, deben ser proporcionados en la sección ```parties``` de una "
 "entrega de OCDS. El OCDS proporciona un [bloque de "
 "organización](_static/reference/#organization) para la divulgación de "
@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.1.1. Dates - Submission period"
-msgstr "II.1.1. Fechas - Periodo de presentación"
+msgstr "II.1.1. Fechas - Periodo de sumisión"
 
 #: ../docs/framework.md:1403
 msgid ""
@@ -2039,7 +2039,7 @@ msgstr "2015-12-01T23:59:59Z"
 
 #: ../docs/framework.md:0
 msgid "II.1.4. Summary details - Submission method"
-msgstr "II.1.4. Resumen de detalles - Método de presentación"
+msgstr "II.1.4. Resumen de detalles - Método de sumisión"
 
 #: ../docs/framework.md:1559
 msgid ""
@@ -2403,7 +2403,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "II.3.6. Summary details - Submission method"
-msgstr "II.3.6. Resumen de detalles - Método de presentación"
+msgstr "II.3.6. Resumen de detalles - Método de sumisión"
 
 #: ../docs/framework.md:1993
 msgid ""
@@ -2481,11 +2481,11 @@ msgid ""
 "```tender/documents``` array. A short summary text for each document can "
 "also be provided using the ```document/description``` field."
 msgstr ""
-"Los enlaces a los documentos de adquisiciones, los estudios de viabilidad, "
-"incluida la adquisición de terrenos, la información social, ambiental y de "
-"rehabilitación y los informes de auditores independientes de adquisiciones "
-"deben proporcionarse utilizando el [bloque de "
-"documentos](_static/reference/#document) en la matriz de "
+"Los enlaces a los documentos del proceso de contratación, los estudios de "
+"viabilidad, incluida la adquisición de terrenos, la información social, "
+"medioambiental y de rehabilitación y los informes de auditores "
+"independientes de adquisiciones deben proporcionarse utilizando el [bloque "
+"de documentos](_static/reference/#document) en la matriz de "
 "```tender/documents```. También se puede proporcionar un breve texto de "
 "resumen para cada documento utilizando el campo ```document/description```."
 
@@ -2918,7 +2918,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "III.1.2. Additional financial modelling for risks"
-msgstr "III.1.2. Modelación financiera de los riesgos adicional"
+msgstr "III.1.2. Modelación financiera adicional de riegos"
 
 #: ../docs/framework.md:2368
 msgid ""
@@ -3123,7 +3123,7 @@ msgid ""
 "```document/documentType``` field to identify the type of document being "
 "disclosed."
 msgstr ""
-"Se deber introducir un valor de la [lista de códigos del tipo de "
+"Se debe introducir un valor de la [lista de códigos del tipo de "
 "documento](_static/codelists/#document-type) de ```riskComparison``` en el "
 "campo ```document/documentType``` para identificar el tipo de documento que "
 "se divulga."
@@ -3576,7 +3576,7 @@ msgstr "V.8. Informacion de seguridad"
 
 #: ../docs/framework.md:2940
 msgid "Security and step in arrangements"
-msgstr "Seguridad y trámites de intervención"
+msgstr "Seguridad y pasos en los arreglos"
 
 #: ../docs/framework.md:0
 msgid "V.8.1. Structured security and step in information"
@@ -3613,7 +3613,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "V.9. Forecast IRR"
-msgstr "V.9. Previsión de TIR "
+msgstr "V.9. Pronóstico  de TIR "
 
 #: ../docs/framework.md:3011
 msgid "Forecast IRR"
@@ -3643,7 +3643,7 @@ msgstr "VI. Apoyo gubernamental"
 
 #: ../docs/framework.md:0
 msgid "VI.1. Guarantee information"
-msgstr "VI.1. Información de garantía"
+msgstr "VI.1. Información de la garantía"
 
 #: ../docs/framework.md:3058
 msgid ""
@@ -3678,7 +3678,7 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.1.2.. Guarantee documentation"
-msgstr "VI.1.2. Documentación de garantía"
+msgstr "VI.1.2. Documentación de la garantía"
 
 #: ../docs/framework.md:3086
 msgid ""
@@ -3705,7 +3705,7 @@ msgstr "VI.2. Información de subvención/subsidio"
 
 #: ../docs/framework.md:0
 msgid "VI.2.1. Subsidy as a proportion of project value"
-msgstr "VI.2.1. Subvención como proporción del valor del proyecto"
+msgstr "VI.2.1. Subsidio como proporción del valor del proyecto"
 
 #: ../docs/framework.md:3112
 msgid "Subsidy as a proportion of project value"
@@ -3740,8 +3740,8 @@ msgstr "0"
 msgid ""
 "VI.2.1. Supporting documentation on subsidy as a proportion of project value"
 msgstr ""
-"VI.2.1. Documentación de apoyo sobre la subvención como proporción del valor"
-" del proyecto"
+"VI.2.1. Documentación de apoyo sobre el subsidio como proporción del valor "
+"del proyecto"
 
 #: ../docs/framework.md:3161
 msgid ""
@@ -3769,14 +3769,14 @@ msgstr ""
 
 #: ../docs/framework.md:0
 msgid "VI.2.2. Supporting documentation on capital subsidies"
-msgstr "VI.2.2. Documentación de apoyo sobre subvenciones de capital"
+msgstr "VI.2.2. Documentación de apoyo sobre subsidios de capital"
 
 #: ../docs/framework.md:3183
 msgid ""
 "Capital subsidies paid during construction with periodicity of milestones"
 msgstr ""
-"Subvenciones de capital pagadas durante la construcción con la periodicidad "
-"de los hitos"
+"Subsidios de capital pagados durante la construcción con la periodicidad de "
+"los hitos"
 
 #: ../docs/framework.md:3185 ../docs/framework.md:3209
 #: ../docs/framework.md:3315 ../docs/framework.md:3339
@@ -4380,7 +4380,7 @@ msgid ""
 "```implementation``` section of an OCDS release. OCDS provides a [document "
 "building block](_static/reference/#document) for disclosure of documents."
 msgstr ""
-"Las tarifas y los cronogramas de precios definidas en el contrato también "
+"Las tarifas y los cronogramas de precios definidos en el contrato también "
 "pueden proporcionarse en un documento o documentos utilizando el campo "
 "```documents``` en la sección ```contract``` de una entrega de OCDS. Las "
 "revisiones posteriores de las tarifas y las tablas de precios pueden "
@@ -4670,8 +4670,8 @@ msgid ""
 "```parties``` section of an OCDS release."
 msgstr ""
 "Se debe proporcionar información estructurada sobre los cambios en las "
-"funciones y responsabilidades de las partes debido a la variación, "
-"actualizando la sección ```parties``` de una entrega de OCDS."
+"funciones y responsabilidades de las partes, actualizando la sección "
+"```parties``` de una entrega de OCDS."
 
 #: ../docs/framework.md:0
 msgid "IX.1.5. Risk allocation"

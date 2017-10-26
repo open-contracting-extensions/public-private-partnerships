@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 17:41+0100\n"
+"POT-Creation-Date: 2017-08-29 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
+"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,6 +58,14 @@ msgid ""
 "systems, only summary statistics on the number of bids received may be made "
 "public."
 msgstr ""
+"Los regímenes regulatorios varían en la medida en que permiten que la "
+"información sobre licitaciones se publique de forma proactiva y en qué "
+"momento del proceso de adquisición. En algunos sistemas y procesos, se "
+"publicará una lista de licitadores invitados al comienzo de la licitación, y"
+" todos los detalles y documentos sobre las ofertas recibidas podrán ser "
+"revelados cuando se complete la evaluación. En otros sistemas, pueden "
+"hacerse públicas sólo las estadísticas resumidas sobre el número de ofertas "
+"recibidas."
 
 #: ../docs/extensions/bids.md:12
 msgid ""
@@ -79,11 +87,11 @@ msgstr "Estadística de las ofertas"
 msgid ""
 "The ```bids/bidStatistics``` array can be used to represent key statistical "
 "information about the number of bids and bidders. Each entry in the array is"
-" a ```BidStatistic``` object containing at least:"
+" a ```BidsStatistic``` object containing at least:"
 msgstr ""
-"La matriz ```bids/bidStatistics``` puede utilizarse para representar "
-"información estadística clave sobre el número de ofertas y licitadores. Cada"
-" entrada en la matriz es un objeto ```BidStatistic``` que contiene al menos:"
+"La matriz ```bids/bidStatistics``` puede usarse para representar información"
+" estadística clave sobre el número de ofertas y licitadores. Cada entrada en"
+" la matriz es un objeto ```BidsStatistic``` que contiene al menos:"
 
 #: ../docs/extensions/bids.md:18
 msgid "An identifier;"
@@ -134,11 +142,14 @@ msgid ""
 "Where bid details are used, a cross reference to the entry in the bids array"
 " to which this award relates. Provide the bid identifier here."
 msgstr ""
+"Cuando se usan los detalles de la oferta, una referencia cruzada a la "
+"entrada en la lista de ofertas a la que se refiere esta adjudicación. "
+"Proporcione el identificador de oferta aquí."
 
 #: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
 #: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
 msgid "BidsStatistic"
-msgstr ""
+msgstr "BidsStatistic"
 
 #: ../docs/Extension bids:1
 msgid "An internal identifier for this statistical item."
@@ -149,6 +160,9 @@ msgid ""
 "An item from the bidStatistics codelist for the statistic reported in value."
 " This is an open codelist, and other statistics may also be included."
 msgstr ""
+"Un elemento de la lista de códigos bidStatistics para la estadística "
+"reportada en valor. Esta es una lista de códigos abierta, pueden incluirse "
+"otras estadísticas."
 
 #: ../docs/Extension bids:1
 msgid ""
@@ -158,6 +172,11 @@ msgid ""
 " a specific local requirement for the date when statistics were calculated "
 "to be provided."
 msgstr ""
+"La fecha en que se actualizó por última vez esta estadística. Esta es a "
+"menudo la fecha de cierre del proceso de licitación. Este campo se puede "
+"dejar en blanco a menos que (a) se proporcione la misma estadística desde "
+"múltiples puntos en el tiempo, o (b) exista un requisito local específico "
+"para los datos cuando se calculó la estadística."
 
 #: ../docs/Extension bids:1
 msgid ""
@@ -186,7 +205,7 @@ msgstr ""
 
 #: ../docs/extensions/bids.md:0
 msgid "Bid Statistics Codelist"
-msgstr ""
+msgstr "Listas de Códigos de Estadísticas de Ofertas"
 
 #: ../docs/extensions/bids.md:32
 msgid ""
@@ -234,7 +253,7 @@ msgstr ""
 "Estadísticas resumidas sobre el número y la naturaleza de las ofertas "
 "recibidas. Cuando se proporciona información sobre ofertas individuales, "
 "estas estadísticas deben coincidir con las que se pueden calcular a partir "
-"de la matriz de detalles de oferta."
+"de la lista de detalles de oferta."
 
 #: ../docs/Extension bids:1
 msgid ""
@@ -243,9 +262,9 @@ msgid ""
 "which this information can be disclosed varies from jurisdiction to "
 "jurisdiction."
 msgstr ""
-"Una cadena de ofertas, que proporciona información sobre los licitantes y, "
-"en su caso, el estado de las ofertas, los valores de las ofertas y los "
-"documentos relacionados. La medida en que esta información puede ser "
+"Una lista de ofertas, que proporciona información sobre los licitantes y, en"
+" su caso, el estado de las ofertas, los valores de las ofertas y los "
+"documentos relacionados. La medida en la que esta información puede ser "
 "revelada varía de jurisdicción a jurisdicción."
 
 #: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
@@ -272,9 +291,9 @@ msgid ""
 "and identifier, cross-referenced to an entry in the parties array at the top"
 " level of the release."
 msgstr ""
-"La parte o partes responsables por esta oferta. Esta debe de proveer un "
-"nombre e identificador, referenciado a una entrada en la cadena en el nivel "
-"más alto de la entrega."
+"La parte o partes responsables de esta oferta. Esto debe de proveer un "
+"nombre e identificador, referenciado a una entrada en la lista de partes en "
+"el nivel más alto de la entrega."
 
 #: ../docs/Extension bids:1
 msgid "The total value of the bid."
@@ -295,7 +314,7 @@ msgstr ""
 
 #: ../docs/extensions/bids.md:0
 msgid "Bid Status Codelist"
-msgstr ""
+msgstr "Listas de Códigos de Estado de Ofertas"
 
 #: ../docs/extensions/bids.md:0
 msgid "Example"
