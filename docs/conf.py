@@ -32,7 +32,7 @@ from recommonmark.parser import CommonMarkParser
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.jsonschema', 'ocds_sphinx_directives']
+extensions = ['sphinxcontrib.jsonschema', 'ocds_sphinx_directives', 'sphinxcontrib.opendataservices']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -353,154 +353,12 @@ locale_dirs = ['../locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 
-
-
-from sphinx.directives.code import LiteralInclude
-from docutils.parsers.rst import directives, Directive
-from docutils.parsers.rst.roles import set_classes
-from docutils.parsers.rst.directives.tables import CSVTable
-from docutils import nodes, statemachine
-import io
-import re
-import csv
-import json
-from jsonpointer import resolve_pointer
-from collections import OrderedDict
-import requests
-import collections
-from os.path import abspath, dirname, join
-
-
-class JSONInclude(LiteralInclude):
-    option_spec = {
-        'jsonpointer': directives.unchanged,
-        'expand': directives.unchanged,
-        'exclude': directives.unchanged,
-        'include_only':directives.unchanged,
-        'title': directives.unchanged,
-    }
-
-    def run(self):
-        with open(self.arguments[0]) as fp:
-            json_obj = json.load(fp, object_pairs_hook=OrderedDict)
-        filename = str(self.arguments[0]).split("/")[-1].replace(".json","")
-        try:
-            title = self.options['title']
-        except KeyError as e:
-            title = filename
-        pointed = resolve_pointer(json_obj, self.options['jsonpointer'])
-        # Remove the items mentioned in exclude
-        if(self.options.get('exclude')):
-            for item in self.options['exclude'].split(","):
-                try:
-                    del pointed[item.strip()]
-                except KeyError as e:
-                    pass
-
-        if(self.options.get('include_only')):
-            for node in list(pointed):
-                if not (node in self.options.get('include_only')):
-                    del pointed[node]
-
-        code = json.dumps(pointed, indent='    ')
-        # Ideally we would add the below to a data-expand element, but I can't see how to do this, so using classes for now...
-        class_list = self.options.get('class', [])
-        class_list.append('file-'+title)
-        expand = str(self.options.get("expand","")).split(",")
-        class_list = class_list + ['expandjson expand-{0}'.format(s.strip()) for s in expand]
-        literal = nodes.literal_block(code, code, classes=class_list)
-        literal['language'] = 'json' 
-        return [ literal ]
-
-def flatten_dict(obj, path, result, recursive=False):
-    if hasattr(obj, 'items'):
-        for key, value in obj.items():
-            if isinstance(value, dict):
-                if recursive:
-                    flatten_dict(value, path + '/' +key, result, recursive=recursive)
-            elif isinstance(value, list):
-                if isinstance(value[0], dict):
-                    if recursive:
-                        for num, sub_value in enumerate(value):
-                            flatten_dict(value, path + '/' + key + '/' + str(num), result, recursive=recursive)
-                else:
-                    result[path + '/' + key] = ", ".join(value)
-            else:
-                result[path + '/' + key] = value
-
-
-class JSONIncludeFlat(CSVTable):
-    option_spec = {
-        'jsonpointer': directives.unchanged,
-        'title': directives.unchanged,
-        'exclude': directives.unchanged,
-        'recursive': directives.flag,
-        'include_only': directives.unchanged,
-        'ignore_path': directives.unchanged,
-    }
-
-    def make_title(self):
-        return None, []
-
-    def get_csv_data(self):
-        file_path = self.arguments[0]
-        with open(file_path) as fp:
-            json_obj = json.load(fp, object_pairs_hook=OrderedDict)
-        filename = str(file_path).split("/")[-1].replace(".json","")
-        pointed = resolve_pointer(json_obj, self.options['jsonpointer'])
-        if(self.options.get('exclude')):
-            for item in self.options['exclude'].split(","):
-                try:
-                    del pointed[item.strip()]
-                except KeyError as e:
-                    pass
-        if(self.options.get('include_only')):
-            for node in list(pointed):
-                if not (node in self.options.get('include_only')):
-                    del pointed[node]
-        csv_data = []
-
-        ignore_path = self.options.get('ignore_path', ' ')
-
-        if isinstance(pointed, dict):
-            result = collections.OrderedDict()
-            flatten_dict(pointed, self.options['jsonpointer'], result, 'recursive' in self.options)
-            if ignore_path:
-                csv_data.append([heading.replace(ignore_path, "") for heading in result.keys()])
-            else:
-                csv_data.append(result.keys())
-            csv_data.append(list(result.values()))
-
-        if isinstance(pointed, list):
-            for row in pointed:
-                result = collections.OrderedDict()
-                flatten_dict(row, self.options['jsonpointer'], result, 'recursive' in self.options)
-                csv_data.append(list(result.values()))
-            if ignore_path:
-                csv_data.insert(0, [heading.replace(ignore_path, "") for heading in result.keys()])
-            else:
-                csv_data.insert(0, result.keys())
-
-
-        output = io.StringIO()
-        output_csv = csv.writer(output)
-        for line in csv_data:
-            output_csv.writerow(line)
-        self.options['header-rows'] = 1
-        return output.getvalue().splitlines(), file_path
-
-
-directives.register_directive('jsoninclude', JSONInclude)
-directives.register_directive('jsoninclude-flat', JSONIncludeFlat)
-
-
 import subprocess
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-codelists'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
 
 import gettext
-import sys
 import json
 import os
 import shutil
@@ -533,6 +391,8 @@ def translate_schema(language):
 
 
 import glob
+import csv
+from os.path import join
 
 # Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_codelists.py
 
