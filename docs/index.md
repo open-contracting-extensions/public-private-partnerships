@@ -13,6 +13,10 @@ Funding for this work was provided by the [Public-Private Infrastructure Advisor
 
 For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)
 
+```eval_rst
+.. image:: _assets/ppiaf_logo_rgb_final.png
+```
+
 ## Contents
 
 Contents:
