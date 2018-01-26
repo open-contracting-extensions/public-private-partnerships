@@ -11,11 +11,11 @@ OCDS for PPPs was developed between May 2016 and May 2017 through a partnership 
 
 Funding for this work was provided by the [Public-Private Infrastructure Advisory Facility (PPIAF) Multi-Donor Trust Fund](https://ppiaf.org/).
 
-For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)
-
 ```eval_rst
 .. image:: _assets/ppiaf_logo_rgb_final.png
 ```
+
+For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)
 
 ## Contents
 
