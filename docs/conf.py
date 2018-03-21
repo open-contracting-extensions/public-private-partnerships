@@ -20,19 +20,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import csv
-import gettext
-import glob
-import json
 import os
-import shutil
 import subprocess
-from collections import OrderedDict
 
 import standard_theme
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
-from sphinxcontrib.opendataservices import AutoStructifyLowPriority
+from sphinxcontrib.opendataservices import AutoStructifyLowPriority, translate_codelists, translate_schema
 
 # -- General configuration ------------------------------------------------
 
@@ -120,70 +114,11 @@ gettext_compact = False
 
 extension_registry_git_ref = 'master'
 
-# Compile catalogs 'codelists.po' to 'codelists.mo' and 'schema.po' to 'schema.mo', so that translate_codelists.py and
-# translate_schema.py can succeed for translations.
+# Compile catalogs 'codelists.po' to 'codelists.mo' and 'schema.po' to 'schema.mo', so that translate_codelists and
+# translate_schema can succeed for translations.
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-codelists'])
 subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
-
-
-# Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_schema.py
-def translate_schema(language):
-    name = 'ppp-release-schema.json'
-    directory_name = '_static'
-
-    if language == 'en':
-        shutil.copy('../schema/' + name, directory_name)
-        return
-
-    print("Translating schema to language " + language)
-    translator = gettext.translation('ppp-schema', '../locale/', languages=[language])
-
-    def translate_data(data):
-        for key, value in list(data.items()):
-            if key in ('title', 'description') and isinstance(value, str):
-                data[key] = translator.gettext(value)
-            if isinstance(value, dict):
-                translate_data(value)
-    data = json.load(open('../schema/' + name), object_pairs_hook=OrderedDict)
-    translate_data(data)
-    if not os.path.exists(directory_name):
-        os.makedirs(directory_name)
-    json.dump(data, open(os.path.join(directory_name, name), 'w+'), indent=4, ensure_ascii=False)
-
-
-# Derived from https://github.com/open-contracting/standard/blob/1.1-dev/standard/schema/utils/translate_codelists.py
-def translate_codelists(language, codelists_dir, codelists_output_dir):
-    fallback = (language == 'en')
-
-    translator = gettext.translation('ppp-codelists', '../locale', languages=[language], fallback=fallback)
-
-    if not os.path.exists(codelists_output_dir):
-        os.makedirs(codelists_output_dir)
-
-    def convert_fieldname(name):
-        for heading in ('Title', 'Description', 'Extension'):
-            if heading in name:
-                return translator.gettext(heading)
-        return translator.gettext(name)
-
-    for file in glob.glob(codelists_dir + '/*.csv'):
-        output_file = os.path.join(codelists_output_dir, file.split('/')[-1])
-        with open(file) as csv_file, open(output_file, 'w+') as out_csv_file:
-            dict_reader = csv.DictReader(csv_file)
-            fieldnames = [convert_fieldname(fieldname) for fieldname in dict_reader.fieldnames]
-            dict_writer = csv.DictWriter(out_csv_file, fieldnames)
-            dict_writer.writeheader()
-
-            for row in dict_reader:
-                new_row = {}
-                for key, value in row.items():
-                    lower = key.lower()
-                    if 'title' in lower or 'description' in lower or 'name' in lower or 'extension' in lower:
-                        if value:
-                            value = translator.gettext(value)
-                    new_row[convert_fieldname(key)] = value
-                dict_writer.writerow(new_row)
 
 
 def setup(app):
@@ -194,7 +129,15 @@ def setup(app):
     app.add_transform(AutoStructify)
     app.add_transform(AutoStructifyLowPriority)
 
+    basedir = os.path.join(os.path.dirname((os.path.realpath(__file__))), '..')
+    localedir = os.path.join(basedir, 'locale')
+
+    directories = (
+        ('compiledCodelists', 'docs/_static/codelists'),
+        ('docs/extensions/codelists', 'docs/extensions/codelists_translated'),
+    )
+
     language = app.config.overrides.get('language', 'en')
-    translate_schema(language)
-    translate_codelists(language, '../compiledCodelists', '_static/codelists')
-    translate_codelists(language, 'extensions/codelists', 'extensions/codelists_translated')
+    translate_schema('ppp-schema', ['ppp-release-schema.json'], os.path.join(basedir, 'schema'), os.path.join(basedir, 'docs', '_static'), localedir, language)  # noqa
+    for sourcedir, buildir in directories:
+        translate_codelists('ppp-codelists', os.path.join(basedir, sourcedir), os.path.join(basedir, buildir), localedir, language)  # noqa

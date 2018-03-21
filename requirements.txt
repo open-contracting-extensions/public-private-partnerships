@@ -35,5 +35,5 @@ json-merge-patch
 # Pull in a open contracting standard commit for some of the python utils
 -e git+https://github.com/open-contracting/standard.git@1.1#egg=standard
 -e git+https://github.com/open-contracting/ocds_sphinx_directives.git@d338b08453d5694d561563d9547c79268158ac0a#egg=ocds_sphinx_directives
--e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices.git@23ce17656feaa237584af8822bd57ac39b498f93#egg=sphinxcontrib-opendataservices
+-e git+https://github.com/jpmckinney/sphinxcontrib-opendataservices.git@e9b8fc0b7ad5e388dd9eb22816586ebff8b8a050#egg=sphinxcontrib-opendataservices
 -e git+https://github.com/open-contracting/standard_theme.git@open_contracting#egg=standard_theme
