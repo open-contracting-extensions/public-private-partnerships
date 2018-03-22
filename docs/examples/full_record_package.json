@@ -1877,7 +1877,7 @@
 						"status": "active",
 						"procurementMethod": "open",
 						"procurementMethodDetails": "The project will be awarded through an open competition, as provided for in Article X of the Law on Public Private Partnerships.",
-						"procurementMethodRationale": "An open procurement will deliver the highest competition amongst bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
+						"procurementMethodRationale": "An open procurement will deliver the highest competition among bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
 						"awardCriteria": "x_bestCoverage",
 						"awardCriteriaDetails": "Percentage of people aggregated nationwide contestants undertake to cover, as indicated in their Economic Bids. The evaluation of proposals will be conducted based on the provisions of Article Y of the law on public private partnerships, and the provisions of the tender rules, performing in a first stage an evaluation of the technical bids and subsequently an assessment of the financial offer of the participants.",
 						"submissionMethod": [
@@ -2128,7 +2128,7 @@
 						"status": "active",
 						"procurementMethod": "open",
 						"procurementMethodDetails": "The project will be awarded through an open competition, as provided for in Article X of the Law on Public Private Partnerships.",
-						"procurementMethodRationale": "An open procurement will deliver the highest competition amongst bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
+						"procurementMethodRationale": "An open procurement will deliver the highest competition among bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
 						"awardCriteria": "x_bestCoverage",
 						"awardCriteriaDetails": "Percentage of people aggregated nationwide contestants undertake to cover, as indicated in their Economic Bids. The evaluation of proposals will be conducted based on the provisions of Article Y of the law on public private partnerships, and the provisions of the tender rules, performing in a first stage an evaluation of the technical bids and subsequently an assessment of the financial offer of the participants.",
 						"submissionMethod": [
@@ -3161,7 +3161,7 @@
 									"type": "financial",
 									"code": "financialClose",
 									"title": "Financial close",
-									"description": "All the project and financing agreements must ne signed and all the required conditions contained in them must be met.",
+									"description": "All the project and financing agreements must be signed and all the required conditions contained in them must be met.",
 									"status": "scheduled",
 									"dueDate": "2017-03-08T23:59:59-06:00"
 								}
@@ -3188,7 +3188,7 @@
 								{
 									"id": "2.0",
 									"category": "operationPerformance",
-									"description": "Risks arising from the maintenance, use and operation of the pair of optic fiber strands (filaments) of the Backbone Network",
+									"description": "Risks arising from the maintenance, use and operation of the pair of optic fibre strands (filaments) of the Backbone Network",
 									"allocation": "privateParty"
 								},
 								{
@@ -3308,7 +3308,7 @@
 									},
 									{
 										"id": "4.0",
-										"title": "Wholesale sms price per message",
+										"title": "Wholesale SMS price per message",
 										"value": {
 											"amount": 0.0005,
 											"currency": "USD"
@@ -3327,7 +3327,7 @@
 								"charges": [
 									{
 										"id": "2016-user",
-										"title": "User charges for calendar year 2016 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2016 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1019100000,
 											"currency": "USD"
@@ -3340,7 +3340,7 @@
 									},
 									{
 										"id": "2017-user",
-										"title": "User charges for calendar year 2017 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2017 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1129206411.9632988,
 											"currency": "USD"
@@ -3353,7 +3353,7 @@
 									},
 									{
 										"id": "2018-user",
-										"title": "User charges for calendar year 2018 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2018 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1251851033.2999582,
 											"currency": "USD"
@@ -3366,7 +3366,7 @@
 									},
 									{
 										"id": "2019-user",
-										"title": "User charges for calendar year 2019 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2019 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1388531911.8291566,
 											"currency": "USD"
@@ -3379,7 +3379,7 @@
 									},
 									{
 										"id": "2020-user",
-										"title": "User charges for calendar year 2020 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2020 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1540934201.6221073,
 											"currency": "USD"
@@ -3392,7 +3392,7 @@
 									},
 									{
 										"id": "2021-user",
-										"title": "User charges for calendar year 2021 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2021 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1710954518.3508425,
 											"currency": "USD"
@@ -3405,7 +3405,7 @@
 									},
 									{
 										"id": "2022-user",
-										"title": "User charges for calendar year 2022 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2022 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 1900728590.0936043,
 											"currency": "USD"
@@ -3418,7 +3418,7 @@
 									},
 									{
 										"id": "2023-user",
-										"title": "User charges for calendar year 2023 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2023 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 2112662666.062946,
 											"currency": "USD"
@@ -3431,7 +3431,7 @@
 									},
 									{
 										"id": "2024-user",
-										"title": "User charges for calendar year 2024 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2024 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 2349469212.9025517,
 											"currency": "USD"
@@ -3444,7 +3444,7 @@
 									},
 									{
 										"id": "2025-user",
-										"title": "User charges for calendar year 2025 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2025 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 2614207505.463013,
 											"currency": "USD"
@@ -3457,7 +3457,7 @@
 									},
 									{
 										"id": "2026-user",
-										"title": "User charges for calendar year 2026 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2026 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 2910329807.877187,
 											"currency": "USD"
@@ -3470,7 +3470,7 @@
 									},
 									{
 										"id": "2027-user",
-										"title": "User charges for calendar year 2027 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2027 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 3241733943.1234097,
 											"currency": "USD"
@@ -3483,7 +3483,7 @@
 									},
 									{
 										"id": "2028-user",
-										"title": "User charges for calendar year 2028 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2028 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 3612823167.191009,
 											"currency": "USD"
@@ -3496,7 +3496,7 @@
 									},
 									{
 										"id": "2029-user",
-										"title": "User charges for calendar year 2029 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2029 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 4028574399.8864455,
 											"currency": "USD"
@@ -3509,7 +3509,7 @@
 									},
 									{
 										"id": "2030-user",
-										"title": "User charges for calendar year 2030 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2030 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 4494616021.073383,
 											"currency": "USD"
@@ -3522,7 +3522,7 @@
 									},
 									{
 										"id": "2031-user",
-										"title": "User charges for calendar year 2031 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2031 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 5017316622.018526,
 											"currency": "USD"
@@ -3535,7 +3535,7 @@
 									},
 									{
 										"id": "2032-user",
-										"title": "User charges for calendar year 2032 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2032 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 5603886310.34598,
 											"currency": "USD"
@@ -3548,7 +3548,7 @@
 									},
 									{
 										"id": "2033-user",
-										"title": "User charges for calendar year 2033 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2033 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 6262492408.340802,
 											"currency": "USD"
@@ -3561,7 +3561,7 @@
 									},
 									{
 										"id": "2034-user",
-										"title": "User charges for calendar year 2034 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2034 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 7002391663.172808,
 											"currency": "USD"
@@ -3574,7 +3574,7 @@
 									},
 									{
 										"id": "2035-user",
-										"title": "User charges for calendar year 2035 resulting from 4G, 3G, voice and sms tariffs",
+										"title": "User charges for calendar year 2035 resulting from 4G, 3G, voice and SMS tariffs",
 										"estimatedValue": {
 											"amount": 7834081410.075029,
 											"currency": "USD"
@@ -3883,7 +3883,7 @@
 									{
 										"id": "1.0",
 										"documentType": "physicalProcessReport",
-										"title": "Rollout progress update - January 2018",
+										"title": "Roll-out progress update - January 2018",
 										"description": "Report detailing progress to date on physical implementation of network infrastructure",
 										"url": "http://exampleppp.example/2018-01-progressUpdate.pdf",
 										"datePublished": "2018-01-01T00:00:00-06:00",

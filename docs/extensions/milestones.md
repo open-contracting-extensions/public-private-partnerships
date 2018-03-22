@@ -11,8 +11,8 @@ However, there are many other key dates that may be scheduled or monitored at va
 * **preProcurement** events, such as the preparation of key studies
 * **engagement** events, such as public hearings or consultations
 * **approval** events, such as project sign-off
-* **assessment** events, such as the meeting of a commmittee to review proposals, or the dates associated with a multi-step award process
-* **delivery** events, such as the predicated date for works to start, or to be finalised
+* **assessment** events, such as the meeting of a committee to review proposals, or the dates associated with a multi-step award process
+* **delivery** events, such as the predicated date for works to start, or to be finalized
 * **reporting** events, such as the deadline for performance reports
 * **financing** events, such as planned payments, or equity transfers
 
@@ -29,7 +29,7 @@ With this extension in use, a ```milestones``` building block is available in th
 * **Contract** - for any milestones relating to the signing of the contract itself. 
 * **Implementation** - for any milestones relating to delivery, reporting and financial progress. If these milestones are known at the time of award, but before a contract is signed, they can be indicated using a draft contract block (with ```contract/status``` of ```pending```)
 
-(When used alongside the proposed qualfication stage extension, milestones will also be available for the qualfication stage).
+(When used alongside the proposed qualification stage extension, milestones will also be available for the qualification stage).
 
 Consuming applications may wish to combine milestones from **planning** and **tender** sections together as these will apply to the whole contracting process.
 
@@ -42,8 +42,8 @@ A field for ```milestone/type``` with the following values is introduced.
 * **preProcurement** - for events such as the preparation of key studies
 * **engagement** for events such as public hearings or consultations
 * **approval** for events such as project sign-off
-* **assessment** for events such as the meeting of a commmittee to review proposals, or the dates associated with a multi-step award process
-* **delivery** for events such as the predicated date for works to start, or to be finalised
+* **assessment** for events such as the meeting of a committee to review proposals, or the dates associated with a multi-step award process
+* **delivery** for events such as the predicated date for works to start, or to be finalized
 * **reporting** for events such as the deadline for performance reports
 * **financial** for events such as planned payments, or equity transfers
 
@@ -143,7 +143,7 @@ Where no code is required, the code can be left blank.  More details are provide
                 "id": "0001",
                 "type":"assessment",
                 "title": "Bid Opening ",
-                "description": "The data when the bid will be openned.",
+                "description": "The data when the bid will be opened.",
                 "dueDate": "2010-04-01T18:00:00Z",
                 "status":"met",
                 "dateMet": "2010-04-01T18:00:00Z",
@@ -236,7 +236,7 @@ Where no code is required, the code can be left blank.  More details are provide
 
 ### Notes:
 
-Draft of milestones update for ODCS V1.1 upgrade. Staged as an extension for inclusion in draft ppp extension.
+Draft of milestones update for OCDS V1.1 upgrade. Staged as an extension for inclusion in draft ppp extension.
 
 See [#373](https://github.com/open-contracting/standard/issues/373) for more details.
 

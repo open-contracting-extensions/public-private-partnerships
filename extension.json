@@ -3,7 +3,7 @@
     "en": "OCDS for PPPs (Alpha)"
   },
   "description": {
-    "en": "This extension collects together a number of schema additions required by the OCDS for PPPs implementation profile. Some of these may later be factored out into their own extesions."
+    "en": "This extension collects together a number of schema additions required by the OCDS for PPPs implementation profile. Some of these may later be factored out into their own extensions."
   },
   "compatibility": [
     "1.0",
