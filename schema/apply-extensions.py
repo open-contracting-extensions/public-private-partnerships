@@ -147,12 +147,19 @@ for codelist in glob.glob('base-codelists/*.csv'):
 for extension in extension_json['extensions']:
     try:
         if extension['slug'] in extensions_to_merge:
+
             print("Merging " + extension['slug'])
-            extension_patch = requests.get(extension['url'].rstrip("/") + "/" + "release-schema.json").json()
+            extension_data = requests.get(extension['url'].rstrip("/") + "/" + "release-schema.json")
+            extension_patch = extension_data.json()
             schema = json_merge_patch.merge(schema, extension_patch)
-            ppp_extension = json_merge_patch.merge(ppp_extension, extension_patch)
+            
+
+            # We need to replace the nulls before merging for the PPP extension, else these get knocked out of the merged extension...
+            ppp_extension_patch = json.loads(extension_data.text.replace(":null",":\"REPLACE_WITH_NULL\"").replace(": null",":\"REPLACE_WITH_NULL\""))
+            ppp_extension = json_merge_patch.merge(ppp_extension, ppp_extension_patch)
 
             extension_readme = requests.get(extension['url'].rstrip("/") + "/" + "README.md")
+
             with open('../docs/extensions/' + extension['slug'] + '.md', 'w') as readme:
                 readme.write(extension_readme.text)
         else:
@@ -210,5 +217,5 @@ with open("../release-schema.json") as local_patch:
 with open('ppp-release-schema.json', 'w') as schema_file:
     json.dump(schema, schema_file, indent=4)
 
-with open('ppp-extension.json', 'w') as extension_file:
-    json.dump(ppp_extension, extension_file, indent=4)
+with open('ppp-extension.json','w') as extension_file:
+    extension_file.write(json.dumps(ppp_extension,indent=4).replace("\"REPLACE_WITH_NULL\"","null"))

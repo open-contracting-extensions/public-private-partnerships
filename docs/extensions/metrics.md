@@ -7,6 +7,8 @@ Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/wiki/OL
 
 Where the metrics extension is used to model targets for a contracting process, the ```description``` field can be used to start whether the target is a minimum or recommended target.
 
+Where the metrics extension is used to model targets for a contracting process, the ```description``` field can be used to start whether the target is a minimum or recommended target.
+
 
 ```json
 {
