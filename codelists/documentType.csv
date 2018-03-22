@@ -33,13 +33,13 @@ VI.3,"contract, implementation",servicePayments,Service payments,"Service paymen
 VI.4,"contract, implementation",landTransfer,Land transfer,"Details of land transferred on lease or other basis by government, including details of property numbers with the quantum of land transferred, zoning information and conditions of transfer.",Yes
 VI.4,"contract, implementation",assetTransfer,Asset Transfer,"Details of asset, human resource of personnel transfers, including documentation of the conditions of transfer.",Yes
 VI.5,"contract, implementation",revenueShare,Revenue Share,"Documentation of any revenue share arrangements, including revenue share on the base-case and upside for a public private partnership project.",Yes
-VI.5,contract,otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans. ",Yes
+VI.5,contract,otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans.",Yes
 VII.2,contract,tariffMethod,Tariff method,"For summarizing the method by which tariffs are set, and linking to detailed documentation of the methods for setting tariffs. This may include written documentation, and spreadsheets providing the models used to calculate tariffs. This should make clear who sets the tariff and on what basis.",Yes
 VII.3,contract,tariffReview,Tariff review,"For summarizing the arrangements for the review and regulation of tariffs, and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying, and the scope for changes to payment structures.",Yes
-VII.1,contract/implementation,tariffs,Tariffs,For providing tariff and pricing schedules.,No
-VII.4,contract/implementation,tariffIllustration,Tariff illustrations,"For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content. ",No
-VIII.1,contract/implementation,defaultEvents,Defaults,Information on events of default,No
-VIII.1,contract/implementation,termination,Termination,Information on contract termination,No
+VII.1,"contract, implementation",tariffs,Tariffs,For providing tariff and pricing schedules.,No
+VII.4,"contract, implementation",tariffIllustration,Tariff illustrations,"For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content.",No
+VIII.1,"contract, implementation",defaultEvents,Defaults,Information on events of default,No
+VIII.1,"contract, implementation",termination,Termination,Information on contract termination,No
 VIII.2,"contract, implementation",handover,Handover,"Contractual provisions for, or reporting on, handover of assets back to the state, including details of condition of assets and any other conditions of handover.",Yes
-X.2,contract/implementation,financialStatement,Financial statement,Audited financial statements of the project company,No
-X.6,contract/implementation,performanceReport,Performance report,Performance assessment reports,Yes
+X.2,"contract, implementation",financialStatement,Financial statement,Audited financial statements of the project company,No
+X.6,"contract, implementation",performanceReport,Performance report,Performance assessment reports,Yes
