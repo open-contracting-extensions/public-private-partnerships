@@ -24,9 +24,10 @@ import os
 import subprocess
 
 import standard_theme
+from ocds_documentation_support import translate_codelists, translate_schema
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
-from sphinxcontrib.opendataservices import AutoStructifyLowPriority, translate_codelists, translate_schema
+from sphinxcontrib.opendataservices import AutoStructifyLowPriority
 
 # -- General configuration ------------------------------------------------
 
@@ -114,23 +115,27 @@ gettext_compact = False
 
 extension_registry_git_ref = 'master'
 
-# Compile catalogs 'codelists.po' to 'codelists.mo' and 'schema.po' to 'schema.mo', so that translate_codelists and
-# translate_schema can succeed for translations.
-subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-schema'])
-subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'ppp-codelists'])
-subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', '../locale', '-D', 'reference/codelists'])
-
-
 def setup(app):
     app.add_config_value('recommonmark_config', {
         'auto_toc_tree_section': 'Contents',
         'enable_eval_rst': True
-        }, True)
+    }, True)
+
     app.add_transform(AutoStructify)
     app.add_transform(AutoStructifyLowPriority)
 
-    basedir = os.path.join(os.path.dirname((os.path.realpath(__file__))), '..')
+    basedir = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
     localedir = os.path.join(basedir, 'locale')
+
+    # Compile catalogs 'codelists.po' to 'codelists.mo' and 'schema.po' to 'schema.mo', so that translate_codelists and
+    # translate_schema can succeed for translations.
+    subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', localedir, '-D', 'ppp-codelists'])
+    subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', localedir, '-D', 'reference/codelists'])
+    subprocess.run(['pybabel', 'compile', '--use-fuzzy', '-d', localedir, '-D', 'ppp-schema'])
+
+    filenames = [
+        'ppp-release-schema.json',
+    ]
 
     directories = (
         ('compiledCodelists', 'docs/_static/codelists'),
@@ -138,6 +143,6 @@ def setup(app):
     )
 
     language = app.config.overrides.get('language', 'en')
-    translate_schema('ppp-schema', ['ppp-release-schema.json'], os.path.join(basedir, 'schema'), os.path.join(basedir, 'docs', '_static'), localedir, language)  # noqa
+    translate_schema('ppp-schema', filenames, os.path.join(basedir, 'schema'), os.path.join(basedir, 'docs', '_static'), localedir, language)  # noqa
     for sourcedir, buildir in directories:
         translate_codelists('ppp-codelists', os.path.join(basedir, sourcedir), os.path.join(basedir, buildir), localedir, language)  # noqa

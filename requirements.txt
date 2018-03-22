@@ -1,39 +1,14 @@
-.
-Sphinx==1.5.1
-Markdown==2.6.5
-sphinx-intl==0.9.9
-transifex-client==0.12.4
-# recommonmark commit pinned from master branch
+-e git+https://github.com/open-contracting/documentation-support.git@6d47375d493d3563327c062db83e1c79fea9f9b4#egg=ocds_documentation_support
+
+# Using `dependency_links` in `documentation-support` and running `pip install --process-dependency-links --upgrade
+# --force-reinstall -r requirements.txt` breaks the build (the paths for `csv-table-no-translate` are incorrect).
 -e git+https://github.com/rtfd/recommonmark.git@81d7c6f7b37981ac22571dd91a7cc9d24c3e66a1#egg=recommonmark
-## The following requirements were added by pip freeze:
-alabaster==0.7.10
-appdirs==1.4.3
-Babel==2.3.4
-click==6.7
-CommonMark==0.5.4
-docutils==0.13.1
-imagesize==0.7.1
-Jinja2==2.9.5
-MarkupSafe==1.0
-packaging==16.8
-Pygments==2.2.0
-pyparsing==2.2.0
-pytz==2016.10
-requests==2.13.0
-six==1.10.0
-snowballstemmer==1.2.1
-urllib3==1.20
-
-
-
-## Additional
-jsonpointer==1.10
-jsonschema==2.5.1
-json-merge-patch
--e git+https://github.com/OpenDataServices/flatten-tool.git@400336bfcfa0feeded14ce1e66f7c817ef2a7652#egg=flattentool
--e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@bfbd5bdfdea11c70f91dc7a40ffbc8722408aff4#egg=sphinxcontrib-jsonschema
-# Pull in a open contracting standard commit for some of the python utils
--e git+https://github.com/open-contracting/standard.git@1.1#egg=standard
--e git+https://github.com/open-contracting/ocds_sphinx_directives.git@d338b08453d5694d561563d9547c79268158ac0a#egg=ocds_sphinx_directives
--e git+https://github.com/jpmckinney/sphinxcontrib-opendataservices.git@e9b8fc0b7ad5e388dd9eb22816586ebff8b8a050#egg=sphinxcontrib-opendataservices
 -e git+https://github.com/open-contracting/standard_theme.git@open_contracting#egg=standard_theme
+-e git+https://github.com/open-contracting/ocds_sphinx_directives.git@41cb588bc2e1e7c929e3afbb8253dd7f87758831#egg=ocds_sphinx_directives
+-e git+https://github.com/jpmckinney/sphinxcontrib-jsonschema.git@9c26c6da2b4091f0306c1bd2e5e4baed891157b1#egg=sphinxcontrib-jsonschema
+-e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices.git@fab0ff0167d32ec243d42f272e0e50766299c078#egg=sphinxcontrib-opendataservices
+
+# Add your own requirements below.
+
+# Utils
+json-merge-patch

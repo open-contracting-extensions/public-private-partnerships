@@ -1,3 +1,2 @@
-[codelists_ppp_text: compiledCodelists/*.csv]
-
+[codelists_text: compiledCodelists/*.csv]
 [codelists_text: docs/extensions/codelists/*.csv]
