@@ -2,7 +2,7 @@
 
 OCDS for PPPs uses a combination of codes and codelists from OCDS core, individual extensions and the PPP extension itself. The 'extension' column in the table display below indicates where each code originates from.
 
-OCDS for PPPs uses two types of codelist, **open** and **closed**. An **open** codelist provides **suggested** codes which can be added to by publishers, whilst a **closed** codelist provides **mandatory** codes and publishers should only use values provided in the official list. Codes are case sensitive, and are generally provided as english language camelCase.
+OCDS for PPPs uses two types of codelist, **open** and **closed**. An **open** codelist provides **suggested** codes which can be added to by publishers, whilst a **closed** codelist provides **mandatory** codes and publishers should only use values provided in the official list. Codes are case sensitive, and are generally provided as English language camelCase.
 
 You can read more about using codelists in the [core OCDS documentation](http://standard.open-contracting.org/latest/en/) and further details on codelists in extensions can be found in the [extension reference](../extensions/index.md).
 
