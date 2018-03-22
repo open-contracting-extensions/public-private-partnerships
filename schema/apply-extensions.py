@@ -145,8 +145,17 @@ profile_extension = {}
 codelists_seen = {}
 
 # Start clean.
-for filename in glob.glob(os.path.join(compiled_codelists, '*.csv')):
-    os.remove(filename)
+paths = [
+    os.path.join(compiled_codelists, '*.csv'),
+    os.path.join('..', 'docs', 'extensions', '*.md'),
+    os.path.join('..', 'docs', 'extensions', 'codelists' '*.csv'),
+    os.path.join('ppp-extension.json'),
+    os.path.join('ppp-release-schema.json'),
+]
+for path in paths:
+    for filename in glob.glob(path):
+        if os.path.basename(filename) not in ('index.md', 'milestones.md'):
+            os.remove(filename)
 
 # Copy the base codelists to the compiled codelists, and add an Extension column.
 for filename in glob.glob(os.path.join('base-codelists', '*.csv')):
@@ -197,7 +206,7 @@ for extension in extension_json['extensions']:
                 with open(os.path.join('..', 'docs', 'extensions', 'codelists', basename), 'wb') as f:
                     f.write(content)
 
-                print('  Processing {}'.format(basename))
+                print('    Processing {}'.format(basename))
                 process_codelist(basename, content, extension['name']['en'])
     else:
         print('ERROR: Could not find release ZIP for {}'.format(slug))
