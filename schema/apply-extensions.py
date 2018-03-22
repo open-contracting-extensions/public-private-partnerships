@@ -2,13 +2,15 @@ import csv
 import glob
 import io
 import json
-import json_merge_patch
 import os
-import requests
+import re
 import shutil
 import sys
 from collections import OrderedDict
 from zipfile import ZipFile
+
+import json_merge_patch
+import requests
 
 docs_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'docs')
 sys.path.append(docs_path)
@@ -78,7 +80,10 @@ def process_codelist(basename, content, extension_name):
 
             if basename.startswith('+'):
                 added = csv.DictReader(g)
-                if pluck_fieldnames(reader.fieldnames, basename) != pluck_fieldnames(added.fieldnames, basename) + ['Extension']:
+                # Left side `pluck_fieldnames` is needed for `+documentType.csv` from tariffs extension.
+                reader_fieldnames = pluck_fieldnames(reader.fieldnames, basename)
+                # Right side `pluck_fieldnames` is needed for `+partyRole.csv` from this profile.
+                if reader_fieldnames != pluck_fieldnames(added.fieldnames, basename) + ['Extension']:
                     raise Exception('Codelist {} from {} has different fields than the base codelist'.format(
                         basename, extension_name))
                 rows.extend(reader)
@@ -174,11 +179,16 @@ for extension in extension_json['extensions']:
     if slug in extensions_in_profile:
         print('Merging {}'.format(slug))
         url = extension['url'].rstrip('/') + '/'
-        patch = requests.get(url + 'release-schema.json').json()
-        readme = requests.get(url + 'README.md').text
 
-        schema = json_merge_patch.merge(schema, patch)
+        response = requests.get(url + 'release-schema.json')
+        schema = json_merge_patch.merge(schema, response.json())
+
+        # We use a sentinel value to preserve the `"field": null` of all extensions, such that when users apply the
+        # final merged patch, it still removes those fields from their schema.
+        patch = json.loads(re.sub(r':\s*null\b',': "REPLACE_WITH_NULL"', response.text))
         profile_extension = json_merge_patch.merge(profile_extension, patch)
+
+        readme = requests.get(url + 'README.md').text
         with open(os.path.join('..', 'docs', 'extensions', '{}.md'.format(slug)), 'w') as f:
             f.write(readme)
     else:
@@ -229,4 +239,4 @@ with open('ppp-release-schema.json', 'w') as f:
     json.dump(schema, f, indent=2, separators=(',', ': '))
 
 with open('ppp-extension.json', 'w') as f:
-    json.dump(profile_extension, f, indent=2, separators=(',', ': '))
+    f.write(json.dumps(profile_extension, indent=2, separators=(',', ': ')).replace('"REPLACE_WITH_NULL"', 'null'))
