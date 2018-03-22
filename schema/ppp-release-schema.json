@@ -3825,7 +3825,7 @@
         },
         "netPresentValue": {
           "title": "Net present value",
-          "description": "The discounted value of an investment\u2019s cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
+          "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
           "type": "object",
           "$ref": "#/definitions/Value"
         },
