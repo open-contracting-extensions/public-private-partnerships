@@ -8,13 +8,11 @@ addons:
     packages:
     - lftp
 deploy:
-  skip_cleanup: true # don't remove stuff we've built
+  skip_cleanup: true
   provider: script
   script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-profile-deploy.sh | bash -
   on:
     all_branches: true
-install:
-  - pip install -r requirements.txt
 script:
   - |
     mkdir build
