@@ -28,7 +28,6 @@ Contents:
    example
 
    reference/index
-   documents
    extensions/index
 
    governance
