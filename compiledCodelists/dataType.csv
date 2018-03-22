@@ -1,6 +1,6 @@
-Code,Title_en,Description_en,Extension
+Code,Title,Description,Extension
 string,String,The requirement response must be of type string,Requirements
 date-time,Date-time,The requirement response must be of type date-time (ISO8601),Requirements
-number,Number,The requirement response must be of type number,Requirements
+number,Number,"The requirement response must be of type number, i.e. a floating point or whole number",Requirements
 integer,Integer,The requirement response must be of type integer,Requirements
 boolean,Boolean,The requirement response must be of type boolean,Requirements

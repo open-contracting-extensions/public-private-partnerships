@@ -2,7 +2,7 @@ Code,Title,Description,Extension
 enquirer,Enquirer,A party who has made an enquiry during the enquiry phase of a contracting process.,OCDS Core
 payer,Payer,A party making a payment from a transaction,OCDS Core
 payee,Payee,A party in receipt of a payment from a transaction,OCDS Core
-reviewBody,Review Body,A party responsible for the review of this procurement process. This party often has a role in any challenges made to the contract award. ,OCDS Core
+reviewBody,Review Body,A party responsible for the review of this procurement process. This party often has a role in any challenges made to the contract award.,OCDS Core
 publicAuthority,Public authority,The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.,Public Private Partnership
 bidder,Bidder,"The company or a group of companies, such as a consortium, that submits a bid in response to a RFP. A bidder could be a single party or a consortium of parties, each responsible for a specific element, such as constructing the infrastructure, supplying the equipment, or operating the business.",Public Private Partnership
 qualifiedBidder,Qualified bidder,Those parties invited to submit a proposal in response to a Request for Proposal (RFP) for a project in which the government only allows a limited number of pre-qualified bidders to proceed to the RFP phase.,Public Private Partnership
