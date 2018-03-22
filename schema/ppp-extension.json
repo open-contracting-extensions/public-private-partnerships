@@ -26,6 +26,7 @@
         "null"
       ]
     },
+    "buyer": null,
     "publicAuthority": {
       "title": "Public authority",
       "description": "The public authority is the unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.",
@@ -70,6 +71,8 @@
           "type": "object",
           "$ref": "#/definitions/EvaluationIndicators"
         },
+        "suppliers": null,
+        "amendment": null,
         "requirementResponses": {
           "type": "array",
           "items": {
@@ -298,7 +301,10 @@
           "items": {
             "$ref": "#/definitions/BudgetBreakdown"
           }
-        }
+        },
+        "source": null,
+        "project": null,
+        "projectID": null
       }
     },
     "Planning": {
@@ -553,6 +559,7 @@
           "type": "object",
           "$ref": "#/definitions/FinanceSummary"
         },
+        "amendment": null,
         "requirementResponses": {
           "type": "array",
           "items": {
@@ -862,6 +869,7 @@
             "$ref": "#/definitions/Metric"
           }
         },
+        "amendment": null,
         "criteria": {
           "description": "A list of criteria on which either bidders or items will be judged, evaluated or assessed.",
           "type": "array",
@@ -1029,7 +1037,9 @@
     },
     "Milestone": {
       "properties": {
-        "documents": {}
+        "documents": {
+          "deprecated": null
+        }
       }
     },
     "PerformanceFailure": {
@@ -1094,13 +1104,23 @@
       }
     },
     "OrganizationReference": {
-      "properties": {}
+      "properties": {
+        "address": null,
+        "identifier": null,
+        "additionalIdentifiers": null,
+        "contactPoint": null
+      }
     },
     "Amendment": {
-      "properties": {}
+      "properties": {
+        "changes": null
+      }
     },
     "Transaction": {
       "properties": {
+        "amount": null,
+        "providerOrganization": null,
+        "receiverOrganization": null,
         "relatedImplementationMilestone": {
           "title": "Related implementation milestone",
           "description": "A link to the milestone in the implementation section of OCDS to which this transaction relates.",
