@@ -1,3 +1,6 @@
+# Compare this file to:
+# https://github.com/open-contracting/standard_profile_template/blob/master/schema/apply-extensions.py
+
 import os
 import sys
 
