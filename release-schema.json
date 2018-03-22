@@ -1,5 +1,33 @@
 {
   "properties": {
+    "tag": {
+      "items": {
+        "enum": [
+          "planning",
+          "planningUpdate",
+          "tender",
+          "tenderAmendment",
+          "tenderUpdate",
+          "tenderCancellation",
+          "award",
+          "awardUpdate",
+          "awardCancellation",
+          "contract",
+          "contractUpdate",
+          "contractAmendment",
+          "implementation",
+          "implementationUpdate",
+          "contractTermination",
+          "compiled",
+          "qualification",
+          "qualificationUpdate",
+          "qualificationAmendment",
+          "qualificationCancellation",
+          "shortlist",
+          "shortlistUpdate"
+        ]
+      }
+    },
     "title": {
       "title": "Title",
       "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
