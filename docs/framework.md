@@ -22,7 +22,7 @@ The mapping for each requirement in the framework includes a guide to publicatio
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P    R   R   R   R   R 
+P   R   R   R   R   R 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -179,7 +179,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwners,parties/0/shareholders
+    :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership,parties/0/shareholders
     :nocrossref:
 ```
 
@@ -275,7 +275,7 @@ The value of a project can be specified at a number of points in time.
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   R   R   R      R 
+P   R   R   R       R 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -362,7 +362,7 @@ Project need: benefits provided, economic and social (including specific informa
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -419,7 +419,7 @@ Technical description of the physical infrastructure
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -459,7 +459,7 @@ High-level description of the services
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -499,7 +499,7 @@ Estimated demand to be served annually
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -588,7 +588,7 @@ Project additionality
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -633,7 +633,7 @@ Reason for selection of PPP mode and type in brief
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -673,7 +673,7 @@ Dates of various approvals
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P                
+P                     
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -749,7 +749,7 @@ Contract Milestones (Estimated and Actual) - Date of commercial close
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U   U   U       
+P   U   U   U         
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -778,7 +778,7 @@ Contract Milestones (Estimated and Actual) - Date of financial close
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U   U   U       
+P   U   U   U         
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1079,7 +1079,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/additionalIdentifiers,parties/shareholders,parties/beneficialOwnership
+    :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership
     :nocrossref:
 ```
 
@@ -1218,7 +1218,7 @@ The ```organization/roles``` field should be set to ```privateParty``` and the `
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/additionalIdentifiers
+    :collapse: parties/0/additionalIdentifiers
     :nocrossref:
 ```
 
@@ -1302,7 +1302,7 @@ The ```organization/roles``` field should be set to ```leadBank``` or ```lender`
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/additionalIdentifiers,parties/shareholders,parties/beneficialOwnership
+    :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership
     :nocrossref:
 ```
 
@@ -1391,7 +1391,7 @@ Dates and summary details, links to all procurement documents, final feasibility
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1443,7 +1443,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1495,7 +1495,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1547,7 +1547,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1601,7 +1601,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1713,7 +1713,7 @@ Pre-qualification or shortlist
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1765,7 +1765,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1822,7 +1822,7 @@ The above guidance should also be followed for processes with multiple enquiry p
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1927,7 +1927,7 @@ P   U   U   U   U   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -1981,7 +1981,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -2035,7 +2035,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -2089,7 +2089,7 @@ P   U
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
-P   U             
+P   U                 
 ==  ==  ==  ==  ==  ==
 
 ```
@@ -2234,7 +2234,7 @@ The ```organization/roles``` field should be set to ```preferredBidder``` and th
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/additionalIdentifiers
+    :collapse: parties/0/additionalIdentifiers
     :nocrossref:
 ```
 
@@ -2639,7 +2639,7 @@ The ```organization/roles``` field should be set to ```equityInvestor```.
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: parties
-    :collapse: parties/additionalIdentifiers,parties/shareholders
+    :collapse: parties/0/additionalIdentifiers,parties/0/shareholders
     :nocrossref:
 ```
 
@@ -3017,7 +3017,7 @@ Forecast IRR
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/financeSummary
-    :collapse: projectIRR,projectIRRDetails
+    :collapse: contracts/0/financeSummary/projectIRR,contracts/0/financeSummary/projectIRRDetails
     :nocrossref:
 ```
 
@@ -3072,7 +3072,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
 ```eval_rst
 .. jsonschema:: _static/ppp-release-schema.json
     :include: contracts/0/finance
-    :collapse: contract/finance/interestRate,contract/finance/repaymentFrequency
+    :collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
     :nocrossref:
 ```
 
