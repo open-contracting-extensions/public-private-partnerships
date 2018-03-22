@@ -1,10 +1,5 @@
 {
   "properties": {
-    "ocid": {},
-    "id": {},
-    "date": {},
-    "tag": {},
-    "initiationType": {},
     "title": {
       "title": "Title",
       "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
