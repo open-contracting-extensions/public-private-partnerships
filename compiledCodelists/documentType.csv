@@ -33,13 +33,13 @@ VI.3,"contract, implementation",servicePayments,Service payments,"Service paymen
 VI.4,"contract, implementation",landTransfer,Land transfer,"Details of land transferred on lease or other basis by government, including details of property numbers with the quantum of land transferred, zoning information and conditions of transfer.",Yes,Public Private Partnership
 VI.4,"contract, implementation",assetTransfer,Asset Transfer,"Details of asset, human resource of personnel transfers, including documentation of the conditions of transfer.",Yes,Public Private Partnership
 VI.5,"contract, implementation",revenueShare,Revenue Share,"Documentation of any revenue share arrangements, including revenue share on the base-case and upside for a public private partnership project.",Yes,Public Private Partnership
-VI.5,contract,otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans. ",Yes,Public Private Partnership
+VI.5,contract,otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans.",Yes,Public Private Partnership
 VII.2,contract,tariffMethod,Tariff method,"For summarizing the method by which tariffs are set, and linking to detailed documentation of the methods for setting tariffs. This may include written documentation, and spreadsheets providing the models used to calculate tariffs. This should make clear who sets the tariff and on what basis.",Yes,Public Private Partnership
 VII.3,contract,tariffReview,Tariff review,"For summarizing the arrangements for the review and regulation of tariffs, and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying, and the scope for changes to payment structures.",Yes,Public Private Partnership
-VII.1,contract/implementation,tariffs,Tariffs,For providing tariff and pricing schedules.,No,Public Private Partnership
-VII.4,contract/implementation,tariffIllustration,Tariff illustrations,"For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content. ",No,Public Private Partnership
-VIII.1,contract/implementation,defaultEvents,Defaults,Information on events of default,No,Public Private Partnership
-VIII.1,contract/implementation,termination,Termination,Information on contract termination,No,Public Private Partnership
+VII.1,"contract, implementation",tariffs,Tariffs,For providing tariff and pricing schedules.,No,Public Private Partnership
+VII.4,"contract, implementation",tariffIllustration,Tariff illustrations,"For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content.",No,Public Private Partnership
+VIII.1,"contract, implementation",defaultEvents,Defaults,Information on events of default,No,Public Private Partnership
+VIII.1,"contract, implementation",termination,Termination,Information on contract termination,No,Public Private Partnership
 VIII.2,"contract, implementation",handover,Handover,"Contractual provisions for, or reporting on, handover of assets back to the state, including details of condition of assets and any other conditions of handover.",Yes,Public Private Partnership
-X.2,contract/implementation,financialStatement,Financial statement,Audited financial statements of the project company,No,Public Private Partnership
-X.6,contract/implementation,performanceReport,Performance report,Performance assessment reports,Yes,Public Private Partnership
+X.2,"contract, implementation",financialStatement,Financial statement,Audited financial statements of the project company,No,Public Private Partnership
+X.6,"contract, implementation",performanceReport,Performance report,Performance assessment reports,Yes,Public Private Partnership

@@ -20,6 +20,34 @@
       "description": "The activities undertaken in order to qualify suppliers to participate in the tender.",
       "$ref": "#/definitions/PreQualification"
     },
+    "tag": {
+      "items": {
+        "enum": [
+          "planning",
+          "planningUpdate",
+          "tender",
+          "tenderAmendment",
+          "tenderUpdate",
+          "tenderCancellation",
+          "award",
+          "awardUpdate",
+          "awardCancellation",
+          "contract",
+          "contractUpdate",
+          "contractAmendment",
+          "implementation",
+          "implementationUpdate",
+          "contractTermination",
+          "compiled",
+          "qualification",
+          "qualificationUpdate",
+          "qualificationAmendment",
+          "qualificationCancellation",
+          "shortlist",
+          "shortlistUpdate"
+        ]
+      }
+    },
     "buyer": null,
     "publicAuthority": {
       "title": "Public authority",
