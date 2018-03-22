@@ -28,7 +28,6 @@ extensions_in_profile = [
     'metrics',
     'milestone_documents',
     'performance_failures',
-    'ppp',
     'process_title',
     'qualification',
     'requirements',
@@ -38,6 +37,22 @@ extensions_in_profile = [
     'tariffs',
     'transaction_milestones',
 ]
+
+basedir = os.path.dirname(os.path.realpath(__file__))
+
+
+def relative_path(*components):
+    """
+    Returns a path relative to this file.
+    """
+    return os.path.join(basedir, *components)
+
+
+def replace_nulls(content):
+    """
+    Replaces `null` values with a sentinel value, to preserve the null'ing of fields by extensions in the final patch.
+    """
+    return json.loads(re.sub(r':\s*null\b',': "REPLACE_WITH_NULL"', content))
 
 
 def pluck_fieldnames(fieldnames, basename):
@@ -70,7 +85,7 @@ def process_codelist(basename, content, extension_name):
     minus. Otherwise, copies the codelist and adds an Extension column.
     """
     if basename[0] in ('+', '-'):
-        path = os.path.join(compiled_codelists, basename[1:])
+        path = relative_path(compiled_codelists, basename[1:])
         if not os.path.isfile(path):
             raise Exception('Base codelist for {} is missing'.format(basename))
 
@@ -99,7 +114,7 @@ def process_codelist(basename, content, extension_name):
 
         write_csv_file(path, reader.fieldnames, rows)
     else:
-        path = os.path.join(compiled_codelists, basename)
+        path = relative_path(compiled_codelists, basename)
         with open(path, 'wb') as f:
             f.write(content)
 
@@ -140,7 +155,7 @@ def append_extension(path, extension_name, basename):
 compiled_codelists = os.path.join('..', 'compiledCodelists')
 
 # The base schema will be progressively merged with extensions' schema and this profile's schema.
-with open('base-release-schema.json') as f:
+with open(relative_path('base-release-schema.json')) as f:
     schema = json.load(f, object_pairs_hook=OrderedDict)
 
 # This profile's extension will be progressively merged, as well.
@@ -151,11 +166,11 @@ codelists_seen = {}
 
 # Start clean.
 paths = [
-    os.path.join(compiled_codelists, '*.csv'),
-    os.path.join('..', 'docs', 'extensions', '*.md'),
-    os.path.join('..', 'docs', 'extensions', 'codelists' '*.csv'),
-    os.path.join('ppp-extension.json'),
-    os.path.join('ppp-release-schema.json'),
+    relative_path(compiled_codelists, '*.csv'),
+    relative_path('..', 'docs', 'extensions', '*.md'),
+    relative_path('..', 'docs', 'extensions', 'codelists' '*.csv'),
+    relative_path('ppp-extension.json'),
+    relative_path('ppp-release-schema.json'),
 ]
 for path in paths:
     for filename in glob.glob(path):
@@ -163,9 +178,9 @@ for path in paths:
             os.remove(filename)
 
 # Copy the base codelists to the compiled codelists, and add an Extension column.
-for filename in glob.glob(os.path.join('base-codelists', '*.csv')):
+for filename in glob.glob(relative_path('base-codelists', '*.csv')):
     basename = os.path.basename(filename)
-    path = os.path.join(compiled_codelists, basename)
+    path = relative_path(compiled_codelists, basename)
     shutil.copy(filename, path)
     append_extension(path, 'OCDS Core', basename)
 
@@ -175,28 +190,22 @@ extension_json = requests.get(url).json()
 for extension in extension_json['extensions']:
     slug = extension['slug']
 
+    # Skip this profile, as we process it locally.
+    if slug == 'ppp':
+        continue
+
     # If the extension is part of the profile, merge the patch and write the readme.
     if slug in extensions_in_profile:
         print('Merging {}'.format(slug))
         url = extension['url'].rstrip('/') + '/'
-
         response = requests.get(url + 'release-schema.json')
-        schema = json_merge_patch.merge(schema, response.json())
-
-        # We use a sentinel value to preserve the `"field": null` of all extensions, such that when users apply the
-        # final merged patch, it still removes those fields from their schema.
-        patch = json.loads(re.sub(r':\s*null\b',': "REPLACE_WITH_NULL"', response.text))
-        profile_extension = json_merge_patch.merge(profile_extension, patch)
-
         readme = requests.get(url + 'README.md').text
-        with open(os.path.join('..', 'docs', 'extensions', '{}.md'.format(slug)), 'w') as f:
+        json_merge_patch.merge(schema, response.json())
+        json_merge_patch.merge(profile_extension, replace_nulls(response.text))
+        with open(relative_path('..', 'docs', 'extensions', '{}.md'.format(slug)), 'w') as f:
             f.write(readme)
     else:
         print('... skipping {}'.format(slug))
-        continue
-
-    # Skip this profile's codelist processing, as we process them locally.
-    if slug == 'ppp':
         continue
 
     parts = extension['url'].rsplit('/', 3)
@@ -213,7 +222,7 @@ for extension in extension_json['extensions']:
                 if basename in codelists_seen and codelists_seen[basename] != content:
                     raise Exception('codelist {} is different across extensions'.format(basename))
                 codelists_seen[basename] = content
-                with open(os.path.join('..', 'docs', 'extensions', 'codelists', basename), 'wb') as f:
+                with open(relative_path('..', 'docs', 'extensions', 'codelists', basename), 'wb') as f:
                     f.write(content)
 
                 print('    Processing {}'.format(basename))
@@ -224,7 +233,15 @@ for extension in extension_json['extensions']:
 # codelists belonging to ppp i.e this repo
 
 print('Merging ppp')
-for filename in glob.glob(os.path.join('..', 'codelists', '*.csv')):
+with open(relative_path('..', 'release-schema.json')) as f:
+    content = f.read()
+    json_merge_patch.merge(schema, json.loads(content))
+    json_merge_patch.merge(profile_extension, replace_nulls(content))
+
+with open(relative_path('..', 'README.md')) as f, open(relative_path('..', 'docs', 'extensions', 'ppp.md'), 'w') as g:
+    g.write(f.read())
+
+for filename in glob.glob(relative_path('..', 'codelists', '*.csv')):
     with open(filename, 'rb') as f:
         basename = os.path.basename(filename)
         content = f.read()
@@ -232,11 +249,11 @@ for filename in glob.glob(os.path.join('..', 'codelists', '*.csv')):
         print('Processing {}'.format(basename))
         process_codelist(basename, content, 'Public Private Partnership')
 
-with open(os.path.join('..', 'release-schema.json')) as f:
+with open(relative_path('..', 'release-schema.json')) as f:
     schema = json_merge_patch.merge(schema, json.load(f, object_pairs_hook=OrderedDict))
 
-with open('ppp-release-schema.json', 'w') as f:
+with open(relative_path('ppp-release-schema.json'), 'w') as f:
     json.dump(schema, f, indent=2, separators=(',', ': '))
 
-with open('ppp-extension.json', 'w') as f:
+with open(relative_path('ppp-extension.json'), 'w') as f:
     f.write(json.dumps(profile_extension, indent=2, separators=(',', ': ')).replace('"REPLACE_WITH_NULL"', 'null'))
