@@ -1,6 +1,5 @@
-Home
-==============================
-  
+# Home
+
 This site contains technical documentation for OCDS for PPPs. 
 
 This provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects.
@@ -42,12 +41,3 @@ Contents:
 ## Credits
 
 Developed by Open Data Services Co-operative for the World Bank and Open Contracting Partnership. 
-
-Indices and tables
-==================
-
-```eval_rst
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-```
