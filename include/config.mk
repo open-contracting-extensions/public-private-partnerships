@@ -31,3 +31,12 @@ compile:
 	pybabel compile --use-fuzzy -d $(CATALOGS_DIR) -D reference/codelists
 
 # Put local targets below.
+
+# Update OCDS Show for PPPs.
+.PHONY: ocds_show
+ocds_show:
+	curl -Ss -O https://codeload.github.com/open-contracting/ocds-show-ppp/zip/gh-pages
+	unzip -q gh-pages
+	rm -f gh-pages
+	rm -rf docs/_static/ocds-show
+	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
