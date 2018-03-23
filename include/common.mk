@@ -17,8 +17,8 @@ COMMA_SEPARATED_TRANSLATIONS=$(subst $(SPACE),$(COMMA),$(TRANSLATIONS:.%=%))
 clean:
 	rm -rf $(BUILD_DIR)
 	rm -rf $(EXTRA_BUILD_FILES)
-	rm -f $(CATALOGS_DIR)/*/LC_MESSAGES/*.mo
-	rm -f $(CATALOGS_DIR)/*/LC_MESSAGES/*/*.mo
+	rm -f $(LOCALE_DIR)/*/LC_MESSAGES/*.mo
+	rm -f $(LOCALE_DIR)/*/LC_MESSAGES/*/*.mo
 
 .PHONY: clean_dist
 clean_dist:
@@ -29,30 +29,34 @@ clean_dist:
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-$(LOCALE_DIR):
-	mkdir -p $(LOCALE_DIR)
+$(POT_DIR):
+	mkdir -p $(POT_DIR)
 
 ### Message catalogs
 
 .PHONY: extract_codelists
-extract_codelists: $(LOCALE_DIR)
-	pybabel -q extract -F .babel_codelists . -o $(LOCALE_DIR)/codelists.pot
+extract_codelists: $(POT_DIR)
+	pybabel -q extract -F .babel_codelists . -o $(POT_DIR)/codelists.pot
 
 .PHONY: extract_schema
-extract_schema: $(LOCALE_DIR)
-	pybabel -q extract -F .babel_schema . -o $(LOCALE_DIR)/schema.pot
+extract_schema: $(POT_DIR)
+	pybabel -q extract -F .babel_schema . -o $(POT_DIR)/schema.pot
 
 # The codelist CSV files and JSON Schema files must be present for the `csv-table-no-translate` and `jsonschema`
 # directives to succeed, but the contents of the files have no effect on the generated .pot files.
 # See http://www.sphinx-doc.org/en/stable/builders.html#sphinx.builders.gettext.MessageCatalogBuilder
 .PHONY: extract_markdown
 extract_markdown: current_lang.en
-	sphinx-build -q -b gettext $(DOCS_DIR) $(LOCALE_DIR)
+	sphinx-build -q -b gettext $(DOCS_DIR) $(POT_DIR)
 
 .PHONY: extract
 extract: extract_codelists extract_schema extract_markdown clean_current_lang
 
 ### Transifex
+
+.PHONY: update_txconfig
+update_txconfig:
+  sphinx-intl update-txconfig-resources --transifex-project-name $(TRANSIFEX_PROJECT) --pot-dir $(POT_DIR) --locale-dir $(LOCALE_DIR)
 
 # Builds and pushes the .pot files (`source_file` in .tx/config) to Transifex.
 .PHONY: push
