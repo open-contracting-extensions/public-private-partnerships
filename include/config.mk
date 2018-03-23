@@ -20,8 +20,12 @@ EXTRA_BUILD_FILES=docs/_build docs/_static/codelists docs/_static/ppp-release-sc
 DIST_FILES=compiledCodelists/*.csv docs/extensions/!(index|milestones).md docs/extensions/codelists/*.csv schema/ppp-extension.json schema/ppp-release-schema.json
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
+# The prefix, if any, to the schema and codelists domains.
+DOMAIN_PREFIX=ppp-
 # Directory containing assets to copy to the build directory (no trailing slash).
 ASSETS_DIR=
+# The Transifex project name.
+TRANSIFEX_PROJECT=ocds-for-ppps
 
 # Compile PO files for codelists and schema to MO files, so that translate_codelists and translate_schema succeed.
 .PHONY: compile

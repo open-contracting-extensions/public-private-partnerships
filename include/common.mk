@@ -36,11 +36,11 @@ $(POT_DIR):
 
 .PHONY: extract_codelists
 extract_codelists: $(POT_DIR)
-	pybabel -q extract -F .babel_codelists . -o $(POT_DIR)/codelists.pot
+	pybabel -q extract -F .babel_codelists . -o $(POT_DIR)/$(DOMAIN_PREFIX)codelists.pot
 
 .PHONY: extract_schema
 extract_schema: $(POT_DIR)
-	pybabel -q extract -F .babel_schema . -o $(POT_DIR)/schema.pot
+	pybabel -q extract -F .babel_schema . -o $(POT_DIR)/$(DOMAIN_PREFIX)schema.pot
 
 # The codelist CSV files and JSON Schema files must be present for the `csv-table-no-translate` and `jsonschema`
 # directives to succeed, but the contents of the files have no effect on the generated .pot files.
@@ -56,7 +56,7 @@ extract: extract_codelists extract_schema extract_markdown clean_current_lang
 
 .PHONY: update_txconfig
 update_txconfig:
-  sphinx-intl update-txconfig-resources --transifex-project-name $(TRANSIFEX_PROJECT) --pot-dir $(POT_DIR) --locale-dir $(LOCALE_DIR)
+	sphinx-intl update-txconfig-resources --transifex-project-name $(TRANSIFEX_PROJECT) --pot-dir $(POT_DIR) --locale-dir $(LOCALE_DIR)
 
 # Builds and pushes the .pot files (`source_file` in .tx/config) to Transifex.
 .PHONY: push
@@ -66,14 +66,14 @@ push: extract
 # Also pushes the translation .po files (`file_filter` in .tx/config) to Transifex.
 .PHONY: force_push_all
 force_push_all: extract
-	tx push -s -t -l $(COMMA_SEPARATED_TRANSLATIONS) -f --no-interactive
+	tx push -s -t -f -l $(COMMA_SEPARATED_TRANSLATIONS) --no-interactive
 
 pull.%: FORCE
-	tx pull -l $* -f
+	tx pull -f -l $*
 
 .PHONY: pull
 pull:
-	tx pull -l $(COMMA_SEPARATED_TRANSLATIONS) -f
+	tx pull -f -l $(COMMA_SEPARATED_TRANSLATIONS)
 
 ### Current language
 
