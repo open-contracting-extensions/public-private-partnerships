@@ -14,11 +14,4 @@ deploy:
   on:
     all_branches: true
 script:
-  - |
-    mkdir build
-    cd docs
-    for lang in en es; do
-        make -e SPHINXOPTS="-D language='$lang'" dirhtml
-        mv _build/dirhtml ../build/$lang
-    done
-    cd ..
+  - make
