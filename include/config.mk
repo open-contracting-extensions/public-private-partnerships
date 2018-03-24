@@ -45,6 +45,9 @@ update_ocds_show:
 	unzip -q gh-pages
 	rm -f gh-pages
 	rm -rf docs/_static/ocds-show
+	# Delete these files, which will otherwise be caught by `sphinx-build -b gettext`.
+	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
+	rm -f ocds-show-ppp-gh-pages/README.md
 	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
 
 # Update base schema and codelists.
