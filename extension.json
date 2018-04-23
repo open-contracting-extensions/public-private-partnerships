@@ -3,13 +3,21 @@
     "en": "OCDS for PPPs (Alpha)"
   },
   "description": {
-    "en": "This extension collects together a number of schema additions required by the OCDS for PPPs implementation profile. Some of these may later be factored out into their own extesions."
+    "en": "This extension collects together a number of schema additions required by the OCDS for PPPs implementation profile. Some of these may later be factored out into their own extensions."
   },
+  "documentationUrl": {
+    "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/"
+  },
+  "codelists": [
+    "+milestoneType.csv",
+    "+partyRole.csv",
+    "-partyRole.csv",
+    "documentType.csv",
+    "metricID.csv",
+    "milestoneCode.csv"
+  ],
   "compatibility": [
     "1.0",
     "1.1"
-  ],
-  "documentationUrl": {
-    "en": "https://github.com/open-contracting/public-private-partnerships"
-  }
+  ]
 }

@@ -129,7 +129,7 @@ A PPP process is likely to involve the stages below, the following release ident
 <td width="30%">Recommended release tag</td>
 </tr>
 <tr>
-<td>7.1 Contract rengotiation</td>
+<td>7.1 Contract renegotiation</td>
 <td>7.1.X</td>
 <td>contractUpdate</td>
 </tr>

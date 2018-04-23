@@ -1,9 +1,9 @@
-docs/_build
-.ve
-*.swp
-build
-build_locale
 *.mo
-docs/_static/ppp-release-schema.json
-docs/_static/codelists/
-docs/extensions/codelists_translated/
+*.swp
+.ve
+
+/build
+/docs/_build
+/docs/_static/codelists
+/docs/_static/ppp-release-schema.json
+/docs/extensions/codelists_translated

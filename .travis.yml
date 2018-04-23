@@ -10,15 +10,8 @@ addons:
 deploy:
   skip_cleanup: true
   provider: script
-  script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-profile-deploy.sh | bash -
+  script: curl -Ss https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-profile-deploy.sh | bash -
   on:
     all_branches: true
 script:
-  - |
-    mkdir build
-    cd docs
-    for lang in en es; do
-        make -e SPHINXOPTS="-D language='$lang'" dirhtml
-        mv _build/dirhtml ../build/$lang
-    done
-    cd ..
+  - make

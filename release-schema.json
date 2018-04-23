@@ -1,10 +1,33 @@
 {
   "properties": {
-    "ocid": {},
-    "id": {},
-    "date": {},
-    "tag": {},
-    "initiationType": {},
+    "tag": {
+      "items": {
+        "enum": [
+          "planning",
+          "planningUpdate",
+          "tender",
+          "tenderAmendment",
+          "tenderUpdate",
+          "tenderCancellation",
+          "award",
+          "awardUpdate",
+          "awardCancellation",
+          "contract",
+          "contractUpdate",
+          "contractAmendment",
+          "implementation",
+          "implementationUpdate",
+          "contractTermination",
+          "compiled",
+          "qualification",
+          "qualificationUpdate",
+          "qualificationAmendment",
+          "qualificationCancellation",
+          "shortlist",
+          "shortlistUpdate"
+        ]
+      }
+    },
     "title": {
       "title": "Title",
       "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
@@ -52,12 +75,12 @@
       "properties": {
         "sector": {
           "title": "Project sector",
-          "description": "A high-level categorisation of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+          "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
           "$ref": "#/definitions/Classification"
         },
         "additionalClassifications": {
           "title": "Additional sector classifications",
-          "description": "Additional project classification, by other sector classifications, or using other classificaiton schemes (e.g. against a strategic framework).",
+          "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Classification"
@@ -143,7 +166,7 @@
         },
         "netPresentValue": {
           "title": "Net present value",
-          "description": "The discounted value of an investment’s cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
+          "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
           "type": "object",
           "$ref": "#/definitions/Value"
         },

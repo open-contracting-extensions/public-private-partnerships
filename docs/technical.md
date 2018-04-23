@@ -24,9 +24,9 @@ A compiled OCDS for PPPs schema, with the extensions applied, is also  [availabl
 The OCDS for PPPs, and this documentation, is designed for systems designers, seeking to:
 
 * Build data collection processes for PPP disclosure;
-* Integrate existing PPP disclosures from existing sytems;
+* Integrate existing PPP disclosures from existing systems;
 * Export and publish PPP disclosures in a common format;
-* Present and visualise PPP disclosures;
+* Present and visualize PPP disclosures;
 
 OCDS for PPPs provide a data model. Additional design work will be required to develop interfaces and workflows appropriate to the collection and dissemination of data on a case-by-case basis. 
 
