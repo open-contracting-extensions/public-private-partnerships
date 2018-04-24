@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/bids.md:0
+#: ../../docs/extensions/bids.md:0
 msgid "Bid statistics and details"
 msgstr "Estadísticas y detalles de las ofertas"
 
-#: ../docs/extensions/bids.md:4
+#: ../../docs/extensions/bids.md:3
 msgid ""
 "Information on bids submitted as part of a contracting process is important "
 "for many forms of analysis, including:"
@@ -30,7 +30,7 @@ msgstr ""
 "La información sobre las ofertas presentadas como parte de un proceso de "
 "contratación es importante para varios análisis, incluyendo:"
 
-#: ../docs/extensions/bids.md:6
+#: ../../docs/extensions/bids.md:5
 msgid ""
 "Market analysis for understanding the competitiveness of a given "
 "marketplace;"
@@ -38,17 +38,17 @@ msgstr ""
 "Análisis de mercado para comprender la competitividad de un determinado "
 "mercado;"
 
-#: ../docs/extensions/bids.md:7
+#: ../../docs/extensions/bids.md:6
 msgid "Red flag analysis for understanding potential corruption risks; and"
 msgstr ""
 "Análisis de banderas rojas para comprender los posibles riesgos de "
 "corrupción; y"
 
-#: ../docs/extensions/bids.md:8
+#: ../../docs/extensions/bids.md:7
 msgid "Value for money analysis;"
 msgstr "Análisis de valor por dinero;"
 
-#: ../docs/extensions/bids.md:10
+#: ../../docs/extensions/bids.md:9
 msgid ""
 "Regulatory regimes vary on the extent to which they allow information on "
 "bidding to be proactively published, and at what point in the procurement "
@@ -67,7 +67,7 @@ msgstr ""
 "hacerse públicas sólo las estadísticas resumidas sobre el número de ofertas "
 "recibidas."
 
-#: ../docs/extensions/bids.md:12
+#: ../../docs/extensions/bids.md:11
 msgid ""
 "The OCDS bid extension introduces a new, flexible, top-level section to each"
 " contracting process to capture bidding information. Implementers will need "
@@ -79,83 +79,58 @@ msgstr ""
 "las ofertas. Los implementadores deberán evaluar qué campos son aplicables a"
 " su régimen regulatorio local y a los casos de uso locales."
 
-#: ../docs/extensions/bids.md:0
+#: ../../docs/extensions/bids.md:0
 msgid "Bid Statistics"
 msgstr "Estadística de las ofertas"
 
-#: ../docs/extensions/bids.md:16
+#: ../../docs/extensions/bids.md:15
 msgid ""
-"The ```bids/bidStatistics``` array can be used to represent key statistical "
+"The `bids/bidStatistics` array can be used to represent key statistical "
 "information about the number of bids and bidders. Each entry in the array is"
-" a ```BidsStatistic``` object containing at least:"
+" a `BidsStatistic` object containing at least:"
 msgstr ""
-"La matriz ```bids/bidStatistics``` puede usarse para representar información"
-" estadística clave sobre el número de ofertas y licitadores. Cada entrada en"
-" la matriz es un objeto ```BidsStatistic``` que contiene al menos:"
+"La matriz `bids/bidStatistics` puede usarse para representar información "
+"estadística clave sobre el número de ofertas y licitadores. Cada entrada en "
+"la matriz es un objeto `BidsStatistic` que contiene al menos:"
 
-#: ../docs/extensions/bids.md:18
+#: ../../docs/extensions/bids.md:17
 msgid "An identifier;"
 msgstr "Un identificador;"
 
-#: ../docs/extensions/bids.md:19
+#: ../../docs/extensions/bids.md:18
 msgid "A measure, from the bidStatistics codelist;"
 msgstr "Una medida, de la lista de códigos bidStatistics;"
 
-#: ../docs/extensions/bids.md:20
+#: ../../docs/extensions/bids.md:19
 msgid "A value for that measure;"
 msgstr "Un valor para esa medida;"
 
-#: ../docs/extensions/bids.md:0
-msgid "Bid Statistics Schema"
-msgstr "Esquema de estadísticas de las ofertas"
-
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1
 msgid "Field"
 msgstr "Campo"
 
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1
 msgid "Definition"
 msgstr "Definición"
 
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1
 msgid "Description"
 msgstr "Descripción"
 
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1
 msgid "Type"
 msgstr "Tipo"
 
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
-msgid ""
-"The bid section is used to publish summary statistics, and where applicable,"
-" individual bid information."
-msgstr ""
-"La sección de ofertas se utiliza para publicar un resumen de las "
-"estadísticas  y, en su caso, información de ofertas individuales."
-
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
-msgid "Award"
-msgstr "Adjudicación"
-
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
-msgid ""
-"Where bid details are used, a cross reference to the entry in the bids array"
-" to which this award relates. Provide the bid identifier here."
-msgstr ""
-"Cuando se usan los detalles de la oferta, una referencia cruzada a la "
-"entrada en la lista de ofertas a la que se refiere esta adjudicación. "
-"Proporcione el identificador de oferta aquí."
-
-#: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
-#: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1 ../../Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1 ../../Extension bids:1
 msgid "BidsStatistic"
 msgstr "BidsStatistic"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "An internal identifier for this statistical item."
 msgstr "Un identificador interno para este elemento estadístico."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid ""
 "An item from the bidStatistics codelist for the statistic reported in value."
 " This is an open codelist, and other statistics may also be included."
@@ -164,7 +139,7 @@ msgstr ""
 "reportada en valor. Esta es una lista de códigos abierta, pueden incluirse "
 "otras estadísticas."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid ""
 "The date when this statistic was last updated. This is often the closing "
 "date of the tender process. This field can be left blank unless either (a) "
@@ -178,7 +153,7 @@ msgstr ""
 "múltiples puntos en el tiempo, o (b) exista un requisito local específico "
 "para los datos cuando se calculó la estadística."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid ""
 "The value for the measure in question. Total counts should be provided as an"
 " integer. Percentages should be presented as a proportion of 1 (e.g. 10% = "
@@ -188,12 +163,12 @@ msgstr ""
 "proporcionarse como un entero. Los porcentajes deben presentarse como una "
 "proporción de 1 (por ejemplo, 10% = 0,1)"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "Any notes required to understand or interpret the given statistic."
 msgstr ""
 "Cualquier nota necesaria para entender o interpretar la estadística dada."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid ""
 "Where lots are in use, if this statistic relates to bids on a particular "
 "lot, provide the lot identifier here. If left blank, the statistic will be "
@@ -203,11 +178,11 @@ msgstr ""
 " lote determinado, proporcione el identificador de lote aquí. Si se deja en "
 "blanco, la estadística se interpretará como aplicable a toda la oferta."
 
-#: ../docs/extensions/bids.md:0
+#: ../../docs/extensions/bids.md:0
 msgid "Bid Statistics Codelist"
 msgstr "Listas de Códigos de Estadísticas de Ofertas"
 
-#: ../docs/extensions/bids.md:32
+#: ../../docs/extensions/bids.md:29
 msgid ""
 "This is an **open** codelist. Publishers can add their own codes to this "
 "list. When doing so, publishers are encouraged to engage with the open "
@@ -218,7 +193,7 @@ msgstr ""
 " la comunidad de contrataciones abiertas para acordar las definiciones de "
 "cada código."
 
-#: ../docs/extensions/bids.md:34
+#: ../../docs/extensions/bids.md:31
 msgid ""
 "For example, publishers may wish to add statistics on minority or women "
 "owned businesses, or bids that meet certain environmental standards and "
@@ -228,64 +203,36 @@ msgstr ""
 "negocios pertenecientes a minorías o a mujeres u ofertas que cumplan ciertos"
 " estándares y metas ambientales."
 
-#: ../docs/extensions/bids.md:0
-msgid "Bid details"
-msgstr "Detalles de las ofertas"
+#: ../../docs/extensions/bids.md:0
+msgid "Bid Details"
+msgstr "Detalles de la oferta"
 
-#: ../docs/extensions/bids.md:44
+#: ../../docs/extensions/bids.md:41
 msgid ""
-"The ```bids/details``` array is used to provide one or more ```Bid``` "
-"objects, each representing a unique bid received."
+"The `bids/details` array is used to provide one or more `Bid` objects, each "
+"representing a unique bid received."
 msgstr ""
-"La matriz ````bids/details``` se utiliza para proporcionar uno o más objetos"
-" ```Bid```, cada uno representando una única oferta recibida."
+"La matriz `bids/details` se utiliza para proporcionar uno o más objetos ` "
+"Bid`, cada uno de los cuales representa una única oferta recibida."
 
-#: ../docs/Extension bids:1 ../docs/Extension bids:1
-msgid "Bids"
-msgstr "Ofertas"
-
-#: ../docs/Extension bids:1
-msgid ""
-"Summary statistics on the number and nature of bids received. Where "
-"information is provided on individual bids, these statistics should match "
-"those that can be calculated from the bid details array."
-msgstr ""
-"Estadísticas resumidas sobre el número y la naturaleza de las ofertas "
-"recibidas. Cuando se proporciona información sobre ofertas individuales, "
-"estas estadísticas deben coincidir con las que se pueden calcular a partir "
-"de la lista de detalles de oferta."
-
-#: ../docs/Extension bids:1
-msgid ""
-"An array of bids, providing information on the bidders, and where "
-"applicable, bid status, bid values and related documents. The extent to "
-"which this information can be disclosed varies from jurisdiction to "
-"jurisdiction."
-msgstr ""
-"Una lista de ofertas, que proporciona información sobre los licitantes y, en"
-" su caso, el estado de las ofertas, los valores de las ofertas y los "
-"documentos relacionados. La medida en la que esta información puede ser "
-"revelada varía de jurisdicción a jurisdicción."
-
-#: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
-#: ../docs/Extension bids:1 ../docs/Extension bids:1 ../docs/Extension bids:1
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1 ../../Extension bids:1
+#: ../../Extension bids:1 ../../Extension bids:1 ../../Extension bids:1
 msgid "Bid"
 msgstr "Oferta"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "A local identifier for this bid"
 msgstr "Un identificador local para esta oferta"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "The date when this bid was received."
 msgstr "La fecha en que se recibió esta oferta"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "The status of the bid, drawn from the bidStatus codelist"
 msgstr "El estado de la oferta, tomado de la lista de códigos bidStatus"
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid ""
 "The party, or parties, responsible for this bid. This should provide a name "
 "and identifier, cross-referenced to an entry in the parties array at the top"
@@ -295,31 +242,86 @@ msgstr ""
 "nombre e identificador, referenciado a una entrada en la lista de partes en "
 "el nivel más alto de la entrega."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "The total value of the bid."
 msgstr "El valor total de la oferta."
 
-#: ../docs/Extension bids:1
+#: ../../Extension bids:1
 msgid "All documents and attachments related to the bid and its evaluation."
 msgstr ""
 "Todos los documentos y adjuntos relacionados con la oferta y su evaluación."
 
-#: ../docs/Extension bids:1
-msgid ""
-"If the requirements extension is also in use, the detailed responses of this"
-" bid to the tender requirements can be specified here."
-msgstr ""
-"Si se está utilizando la extensión de requisitos, las respuestas detalladas "
-"de esta oferta a los requisitos de la licitación se pueden especificar aquí."
-
-#: ../docs/extensions/bids.md:0
+#: ../../docs/extensions/bids.md:0
 msgid "Bid Status Codelist"
 msgstr "Listas de Códigos de Estado de Ofertas"
 
-#: ../docs/extensions/bids.md:0
+#: ../../docs/extensions/bids.md:0
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../docs/extensions/bids.md:62
-msgid "ToDo"
-msgstr "ToDo"
+#: ../../docs/extensions/bids.md:59
+msgid "Below is an example of a bids extension:"
+msgstr "A continuación se muestra un ejemplo de una extensión de ofertas:"
+
+#: ../../docs/extensions/bids.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/bids.md:139
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
+
+#: ../../docs/extensions/bids.md:0
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../../docs/extensions/bids.md:0
+msgid "v1.1.3"
+msgstr "v1.1.3"
+
+#: ../../docs/extensions/bids.md:145
+msgid ""
+"Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
+"`BidsStatistic.value` from being null"
+msgstr ""
+"No permitir que los campos requeridos `BidsStatistic.id`,` "
+"BidsStatistic.measure`, `BidsStatistic.value` sean null"
+
+#: ../../docs/extensions/bids.md:146
+msgid "Disallow `Bids.statistics` from having null in its array of objects"
+msgstr "No permitir que `Bids.statistics` tenga null en su lista de objetos"
+
+#: ../../docs/extensions/bids.md:147
+msgid "Allow `Bids.statistics` to be null"
+msgstr "Permitir que `Bids.statistics` sea null"
+
+#: ../../docs/extensions/bids.md:148
+msgid "Add enum to `BidsStatistic.status`"
+msgstr "Agregar enum a `BidsStatistic.status`"
+
+#: ../../docs/extensions/bids.md:149
+msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
+msgstr ""
+"Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
+
+#: ../../docs/extensions/bids.md:150
+msgid "Add descriptions to bidStatus.csv"
+msgstr "Agregar descripciones a bidStatus.csv"
+
+#: ../../docs/extensions/bids.md:151
+msgid "List codelists in extension.json"
+msgstr "Enlista listas de códigos en extension.json"
+
+#: ../../docs/extensions/bids.md:152
+msgid "Add example to documentation"
+msgstr "Enlista listas de códigos en extension.json"
+
+#: ../../docs/extensions/bids.md:153
+msgid "Add tests and tidy code"
+msgstr "Agregar pruebas y ordenar el código"

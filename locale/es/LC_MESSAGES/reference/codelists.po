@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "Codelists"
 msgstr "Listas de códigos"
 
-#: ../docs/reference/codelists.md:3
+#: ../../docs/reference/codelists.md:3
 msgid ""
 "OCDS for PPPs uses a combination of codes and codelists from OCDS core, "
 "individual extensions and the PPP extension itself. The 'extension' column "
@@ -33,13 +33,13 @@ msgstr ""
 "misma. La columna 'extensión' en la tabla a continuación indica de dónde "
 "proviene cada código."
 
-#: ../docs/reference/codelists.md:5
+#: ../../docs/reference/codelists.md:5
 msgid ""
 "OCDS for PPPs uses two types of codelist, **open** and **closed**. An "
 "**open** codelist provides **suggested** codes which can be added to by "
 "publishers, whilst a **closed** codelist provides **mandatory** codes and "
 "publishers should only use values provided in the official list. Codes are "
-"case sensitive, and are generally provided as english language camelCase."
+"case sensitive, and are generally provided as English language camelCase."
 msgstr ""
 "El OCDS para APPs utiliza dos tipos de lista de códigos, **abierta** y "
 "**cerrada**. Una lista de códigos **abierta** proporciona **códigos "
@@ -49,7 +49,7 @@ msgstr ""
 "oficial. Los códigos son sensibles a mayúsculas y minúsculas, y generalmente"
 " se proporcionan en idioma inglés camelCase."
 
-#: ../docs/reference/codelists.md:7
+#: ../../docs/reference/codelists.md:7
 msgid ""
 "You can read more about using codelists in the [core OCDS "
 "documentation](http://standard.open-contracting.org/latest/en/) and further "
@@ -61,114 +61,114 @@ msgstr ""
 "encontrar más detalles sobre las listas de códigos en las extensiones en la "
 "[referencia de extensiones](../extensions/index.md)."
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "Closed codelists"
 msgstr "Listas de Códigos Cerradas"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "awardStatus"
 msgstr "awardStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "bidStatus"
 msgstr "bidStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "contractStatus"
 msgstr "contractStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "currency"
 msgstr "currency"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "dataType"
 msgstr "dataType"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "financeCategory"
 msgstr "financeCategory"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "initiationType"
 msgstr "initiationType"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "method"
 msgstr "method"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "milestoneStatus"
 msgstr "milestoneStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "preQualificationStatus"
 msgstr "preQualificationStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "procurementCategory"
 msgstr "procurementCategory"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "relatesTo"
 msgstr "relatesTo"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "releaseTag"
 msgstr "releaseTag"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "responseSource"
 msgstr "responseSource"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "riskAllocation"
 msgstr "riskAllocation"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "tenderStatus"
 msgstr "tenderStatus"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "votingRights"
 msgstr "votingRights"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "Open codelists"
 msgstr "Listas de códigos abiertas"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "awardCriteria"
 msgstr "awardCriteria"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "bidStatistics"
 msgstr "bidStatistics"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "documentType"
 msgstr "documentType"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "extendedProcurementCategory"
 msgstr "extendedProcurementCategory"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "itemClassificationScheme"
 msgstr "itemClassificationScheme"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "partyRole"
 msgstr "partyRole"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "relatedProcessScheme"
 msgstr "relatedProcessScheme"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "riskCategory"
 msgstr "riskCategory"
 
-#: ../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:0
 msgid "submissionMethod"
 msgstr "submissionMethod"

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/documentation_details.md:0
+#: ../../docs/extensions/documentation_details.md:0
 msgid "Documentation details"
 msgstr "Detalles de la documentación"
 
-#: ../docs/extensions/documentation_details.md:3
+#: ../../docs/extensions/documentation_details.md:3
 msgid ""
 "Contracting processes involve many different documents. There should be a "
 "presumption of 'open by default' when it comes to publishing these documents"
@@ -32,7 +32,7 @@ msgstr ""
 "haber una presunción de \"abierto por default\" cuando se trata de publicar "
 "estos documentos como parte de un proceso de Contratación Abierta."
 
-#: ../docs/extensions/documentation_details.md:5
+#: ../../docs/extensions/documentation_details.md:5
 msgid ""
 "The OCDS documentation block, which is used widely through the different "
 "sections of the standard, provides a means to link out to externally hosted "
@@ -42,7 +42,7 @@ msgstr ""
 "las diferentes secciones del estándar, proporciona un medio para vincular a "
 "los documentos que se encuentran alojados externamente."
 
-#: ../docs/extensions/documentation_details.md:7
+#: ../../docs/extensions/documentation_details.md:7
 msgid ""
 "These should generally be provided at their own stable URL, without "
 "requirements to log-in or authenticate. Redactions should be kept to a "
@@ -52,23 +52,23 @@ msgstr ""
 "necesidad de iniciar sesión o autenticarse. Las redacciones deben ser "
 "mínimas."
 
-#: ../docs/extensions/documentation_details.md:0
+#: ../../docs/extensions/documentation_details.md:0
 msgid "Providing enhanced documentation and document links"
 msgstr "Proveer mejor documentación y enlaces de documentos"
 
-#: ../docs/extensions/documentation_details.md:11
+#: ../../docs/extensions/documentation_details.md:11
 msgid ""
 "A number of implementations of OCDS, notable OCDS for PPPs, explicitly "
 "require a number of key items of information to be disclosed. These items "
-"are articulated as an extended list of entries for the ```documentType``` "
+"are articulated as an extended list of entries for the `documentType` "
 "codelist."
 msgstr ""
 "Una serie de implementaciones de OCDS, en particular el OCDS para APP, "
 "explícitamente requieren una serie de elementos clave de la información que "
 "se divulgue. Estos elementos se articulan como una lista extensa de entradas"
-" para la lista de códigos ```documentType```."
+" para la lista de códigos `documentType`."
 
-#: ../docs/extensions/documentation_details.md:13
+#: ../../docs/extensions/documentation_details.md:13
 msgid ""
 "However, rather than just linking out to the entire document where the "
 "information is found, this extension describes a way to:"
@@ -76,19 +76,19 @@ msgstr ""
 "Sin embargo, en lugar de simplemente enlazar con el documento completo donde"
 " se encuentra la información, esta extensión describe una forma de:"
 
-#: ../docs/extensions/documentation_details.md:15
+#: ../../docs/extensions/documentation_details.md:15
 msgid ""
-"Summarise the information in the ```description``` field of the relevant "
+"Summarize the information in the `description` field of the relevant "
 "document block;"
 msgstr ""
-"Resumir la información en el campo ```description``` del bloque de "
-"documentos relevante;"
+"Resumir la información en el campo `description` del bloque de documentos "
+"relevante;"
 
-#: ../docs/extensions/documentation_details.md:16
+#: ../../docs/extensions/documentation_details.md:16
 msgid "Link to specific page numbers;"
 msgstr "Enlazar a números de página específicos;"
 
-#: ../docs/extensions/documentation_details.md:17
+#: ../../docs/extensions/documentation_details.md:17
 msgid ""
 "Describe any additional arrangements required to access the document or find"
 " the relevant information;"
@@ -96,11 +96,11 @@ msgstr ""
 "Describir las disposiciones adicionales necesarias para acceder al documento"
 " o encontrar la información pertinente;"
 
-#: ../docs/extensions/documentation_details.md:18
+#: ../../docs/extensions/documentation_details.md:18
 msgid "Record the author of the document;"
 msgstr "Registrar el autor del documento;"
 
-#: ../docs/extensions/documentation_details.md:20
+#: ../../docs/extensions/documentation_details.md:20
 msgid ""
 "Providing clear summaries allows applications to display this information in"
 " a user-interface, allowing users to access key facts and justifications "
@@ -112,7 +112,7 @@ msgstr ""
 "acceder a los hechos clave y las justificaciones clave sin hacer clic para "
 "descargar y buscar la información en un documento completo."
 
-#: ../docs/extensions/documentation_details.md:22
+#: ../../docs/extensions/documentation_details.md:22
 msgid ""
 "Linking to the specific page where information is found supports quality "
 "assurance of disclosure."
@@ -120,62 +120,58 @@ msgstr ""
 "Enlazar a la página específica donde se encuentra la información asegura la "
 "calidad de la divulgación."
 
-#: ../docs/extensions/documentation_details.md:24
+#: ../../docs/extensions/documentation_details.md:24
 msgid ""
-"Describing ```accessDetails``` for a document ensures that, even when "
-"documents are only accessible through attendance at a location (for "
-"example), that users can find how to discover them - and so that auditors "
-"can check documents have been made accessible in the appropriate ways."
+"Describing `accessDetails` for a document ensures that, even when documents "
+"are only accessible through attendance at a location (for example), that "
+"users can find how to discover them - and so that auditors can check "
+"documents have been made accessible in the appropriate ways."
 msgstr ""
-"Describir ```accessDetails``` para un documento asegura que, incluso cuando "
-"los documentos sólo son accesibles a través de la asistencia en persona a "
-"una ubicación (por ejemplo), los usuarios pueden encontrar cómo descubrirlos"
-" - y para que los auditores puedan comprobar que los documentos se han hecho"
-" accesibles en las formas apropiadas."
+"Describir `accessDetails` para un documento asegura que, incluso cuando los "
+"documentos sólo son accesibles a través de la asistencia en persona a una "
+"ubicación (por ejemplo), los usuarios pueden encontrar cómo descubrirlos - y"
+" para que los auditores puedan comprobar que los documentos se han hecho "
+"accesibles en las formas apropiadas."
 
-#: ../docs/extensions/documentation_details.md:26
+#: ../../docs/extensions/documentation_details.md:26
 msgid ""
 "Recording the author of a document is important for checking whether there "
 "are potential conflicts of interest to be aware of: for example, when the "
-"author of a feasbility study is later involved in the team submitting a bid."
+"author of a feasibility study is later involved in the team submitting a "
+"bid."
 msgstr ""
 "Registrar el autor de un documento es importante para comprobar si hay "
 "potenciales conflictos de interés que hay que tener en cuenta: por ejemplo, "
 "cuando el autor de un estudio de factibilidad se involucra más tarde en el "
 "equipo que presenta una oferta."
 
-#: ../docs/extensions/documentation_details.md:0
+#: ../../docs/extensions/documentation_details.md:0
 msgid "Extension fields"
 msgstr "Campos de extensión"
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid "Field"
 msgstr "Campo"
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid "Definition"
 msgstr "Definición"
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid "Description"
 msgstr "Descripción"
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid "Type"
 msgstr "Tipo"
 
-#: ../docs/Extension documentation_details:1 ../docs/Extension
-#: documentation_details:1 ../docs/Extension documentation_details:1
-#: ../docs/Extension documentation_details:1 ../docs/Extension
-#: documentation_details:1 ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1 ../../Extension
+#: documentation_details:1 ../../Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid "Document"
 msgstr "Documento"
 
-#: ../docs/Extension documentation_details:1
-msgid "A short summary of the document."
-msgstr "Un breve resumen del documento."
-
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid ""
 "When the information referenced exists within a large document, indicate the"
 " first page on which it can be found. This should refer to the printed page "
@@ -186,7 +182,7 @@ msgstr ""
 "referirse al número de página impreso, no al número de página reportado por "
 "software."
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid ""
 "When the information referenced exists within a large document, indicate the"
 " last page on which it can be found. This should refer to the printed page "
@@ -197,7 +193,7 @@ msgstr ""
 "referirse al número de página impreso, no al número de página reportado por "
 "software."
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid ""
 "A description of any special arrangements required to access this document. "
 "This may include a requirement to register for document access, a fee to be "
@@ -208,11 +204,11 @@ msgstr ""
 "documentos, una cuota o el lugar donde los documentos pueden ser "
 "inspeccionados."
 
-#: ../docs/Extension documentation_details:1
+#: ../../Extension documentation_details:1
 msgid ""
 "The name of the author of these documents. Include the name of individuals "
-"and/or organisations responsible. For example, when a technical "
-"specification was written by a consultant, include the name and organisation"
+"and/or organizations responsible. For example, when a technical "
+"specification was written by a consultant, include the name and organization"
 " of the consultant."
 msgstr ""
 "El nombre del autor de estos documentos. Incluye el nombre de los individuos"
@@ -220,18 +216,16 @@ msgstr ""
 "especificación técnica por un consultor, incluir el nombre de la "
 "organización y del consultor."
 
-#: ../docs/Extension documentation_details:1
+#: ../../docs/extensions/documentation_details.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/documentation_details.md:37
 msgid ""
-"A direct link to the documentation. The server providing access to this "
-"document should be configured to correctly report the document mime type. "
-"Where the information for this documentType is found within a larger "
-"document, the page number or section should be included `using a fragment "
-"identifier <https://helpx.adobe.com/acrobat/kb/link-html-pdf-page-"
-"acrobat.html>`__. E.g. #page=32."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
-"Un enlace directo a la documentación. El servidor que de acceso a este "
-"documento debe de estar configurado correctamente para reportar el mime type"
-" del documento. Cuando la información para este documentType se encuentre en"
-" un documento más grande, se debe incluir el número de página o sección "
-"[usando un identificador de fragmento](https://helpx.adobe.com/acrobat/kb"
-"/link-html-pdf-page-acrobat.html). P.ej. #pag=32."
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."

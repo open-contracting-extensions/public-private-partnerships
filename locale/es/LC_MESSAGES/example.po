@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/example.md:0
+#: ../../docs/example.md:0
 msgid "Worked Example"
 msgstr "Ejemplo Desarrollado"
 
-#: ../docs/example.md:3
+#: ../../docs/example.md:3
 msgid ""
 "OCDS for PPPs can be used to build up a clear record of all the stages of a "
 "Public Private Partnership project over time."
@@ -30,7 +30,7 @@ msgstr ""
 "El OCDS para APPs se puede utilizar para construir un registro claro de "
 "todas las etapas de un proyecto de asociación público-privada en el tiempo."
 
-#: ../docs/example.md:5
+#: ../../docs/example.md:5
 msgid ""
 "Fully implemented, it will bring together, in a structured form, key "
 "documents and data."
@@ -38,7 +38,7 @@ msgstr ""
 "Completamente implementado reunirá, de forma estructurada, documentos y "
 "datos clave."
 
-#: ../docs/example.md:7
+#: ../../docs/example.md:7
 msgid ""
 "This allows different stakeholders to understand how a project has "
 "developed."
@@ -46,11 +46,11 @@ msgstr ""
 "Esto permite a las diferentes partes interesadas comprender cómo se ha "
 "desarrollado un proyecto."
 
-#: ../docs/example.md:0
+#: ../../docs/example.md:0
 msgid "Details"
 msgstr "Detalles"
 
-#: ../docs/example.md:16
+#: ../../docs/example.md:16
 msgid ""
 "Based on our pilot work with the Red Compartida programme, we have created a"
 " fictional example PPP."
@@ -58,7 +58,7 @@ msgstr ""
 "Basado en nuestro trabajo piloto con el programa Red Compartida, hemos "
 "creado un ejemplo ficticio de APP."
 
-#: ../docs/example.md:18
+#: ../../docs/example.md:18
 msgid ""
 "We used the [spreadsheet template](spreadsheet.md) to prepare a series of "
 "releases of data, representing different stages of the procurement process."
@@ -67,7 +67,7 @@ msgstr ""
 "una serie de entregas de datos, que representan diferentes etapas del "
 "proceso de contratación."
 
-#: ../docs/example.md:20
+#: ../../docs/example.md:20
 msgid ""
 "This was exported as an Excel file, and converted into JSON using the [OCDS "
 "Convert, Validate and Explore tool](http://standard.open-"
@@ -77,7 +77,7 @@ msgstr ""
 "la herramienta [OCDS Convert, Validate and Explore](http://standard.open-"
 "contracting.org/validator/)"
 
-#: ../docs/example.md:22
+#: ../../docs/example.md:22
 msgid ""
 "The release were then compiled into a record, and are available to browse "
 "using the [open source OCDS Show framework](https://github.com/open-"
@@ -87,27 +87,27 @@ msgstr ""
 "revisarse usando el [marco OCDS Show](https://github.com/open-contracting"
 "/ocds-show/tree/ppp) que proporciona:"
 
-#: ../docs/example.md:24
+#: ../../docs/example.md:24
 msgid "A templating engine for displaying OCDS releases and records;"
 msgstr "Un motor de plantillas para mostrar las entregas y registros de OCDS;"
 
-#: ../docs/example.md:25
+#: ../../docs/example.md:25
 msgid "Alerts to changed fields between different releases;"
 msgstr "Alertas sobre campos modificados entre diferentes entregas;"
 
-#: ../docs/example.md:26
-msgid "Example visualisation of data;"
+#: ../../docs/example.md:26
+msgid "Example visualization of data;"
 msgstr "Ejemplo de visualización de datos;"
 
-#: ../docs/example.md:0
+#: ../../docs/example.md:0
 msgid "Explore the example"
 msgstr "Explora el ejemplo"
 
-#: ../docs/example.md:30
+#: ../../docs/example.md:30
 msgid "View the [OCDS releases in JSON format here](../_static/full.json)."
 msgstr "Ver las [entregas OCDS en formato JSON aquí](../_static/full.json)."
 
-#: ../docs/example.md:32
+#: ../../docs/example.md:32
 msgid ""
 "View the [OCDS record in JSON format "
 "here](../_static/full_record_package.json)."
@@ -115,7 +115,7 @@ msgstr ""
 "Ver el [registro de OCDS en formato JSON "
 "aquí](../_static/full_record_package.json)."
 
-#: ../docs/example.md:34
+#: ../../docs/example.md:34
 msgid ""
 "View the [data in OCDS show here](../_static/ocds-"
 "show/?load=../full_record_package.json)."
@@ -123,22 +123,22 @@ msgstr ""
 "Ver los [datos en OCDS show aquí](../_static/ocds-"
 "show/?load=../full_record_package.json)."
 
-#: ../docs/example.md:36
+#: ../../docs/example.md:36
 msgid "In the record within OCDS show:"
 msgstr "En el registro dentro de OCDS show:"
 
-#: ../docs/example.md:38
+#: ../../docs/example.md:38
 msgid "The circles along the top represent new 'releases' of information;"
 msgstr ""
 "Los círculos a lo largo de la parte superior representan nuevas \"entregas\""
 " de información;"
 
-#: ../docs/example.md:39
+#: ../../docs/example.md:39
 msgid "The sections down to side reflect stages of the contracting process;"
 msgstr ""
 "Las secciones hacia abajo reflejan las etapas del proceso de contratación;"
 
-#: ../docs/example.md:40
+#: ../../docs/example.md:40
 msgid ""
 "The record 'builds up' as information is provided, and highlights what has "
 "changed at each point;"
@@ -146,7 +146,7 @@ msgstr ""
 "El registro se \"crece\" a medida que se proporciona información, y destaca "
 "lo que ha cambiado en cada punto;"
 
-#: ../docs/example.md:42
+#: ../../docs/example.md:42
 msgid ""
 "Use the 'text input' button to see (and adapt) the JSON data which generates"
 " this view."
@@ -154,10 +154,10 @@ msgstr ""
 "Utiliza el botón \"entrada de texto\" para ver (y adaptar) los datos JSON "
 "que generan esta vista."
 
-#: ../docs/example.md:44
+#: ../../docs/example.md:44
 msgid ""
-"Use a web browser addon for a more user friendly preview of the JSON files. "
-"You can install [JSONView for "
+"Use a web browser add-on for a more user friendly preview of the JSON files."
+" You can install [JSONView for "
 "Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc),"
 " [JSONView for Firefox](https://addons.mozilla.org/en-"
 "us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-"
@@ -170,7 +170,7 @@ msgstr ""
 "us/firefox/addon/jsonview/) o [JSONView para Safari](https://safari-"
 "extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)"
 
-#: ../docs/example.md:46
+#: ../../docs/example.md:46
 msgid ""
 "Using the open source [OCDS Show framework](https://github.com/open-"
 "contracting/ocds-show/tree/ppp) alternative presentations of data can be "

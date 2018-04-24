@@ -2,9 +2,9 @@
 
 Many different events occur over the course of a contracting process. OCDS includes core fields for a number of key dates and periods, such as:
 
-* ```tenderPeriod``` 
-* ```awardPeriod```
-* ```contract/period```
+* `tenderPeriod` 
+* `awardPeriod`
+* `contract/period`
 
 However, there are many other key dates that may be scheduled or monitored at various stages of a contracting process. These include:
 
@@ -22,12 +22,12 @@ These can all be modelled using the milestones extension.
 
 #### Milestones by section
 
-With this extension in use, a ```milestones``` building block is available in the following sections:
+With this extension in use, a `milestones` building block is available in the following sections:
 
 * **Planning** - for any milestones relating to the planning process. This is likely to include planning, engagement and approval milestone types.
 * **Tender** - for any milestones relating to the tender process. This is likely to include assessment milestones, and in some cases will include engagement and approval milestones.
 * **Contract** - for any milestones relating to the signing of the contract itself. 
-* **Implementation** - for any milestones relating to delivery, reporting and financial progress. If these milestones are known at the time of award, but before a contract is signed, they can be indicated using a draft contract block (with ```contract/status``` of ```pending```)
+* **Implementation** - for any milestones relating to delivery, reporting and financial progress. If these milestones are known at the time of award, but before a contract is signed, they can be indicated using a draft contract block (with `contract/status` of `pending`)
 
 (When used alongside the proposed qualification stage extension, milestones will also be available for the qualification stage).
 
@@ -37,7 +37,7 @@ Applications may also wish to combine **contract** and **contract/implementation
 
 #### Milestone types 
 
-A field for ```milestone/type``` with the following values is introduced. 
+A field for `milestone/type` with the following values is introduced. 
 
 * **preProcurement** - for events such as the preparation of key studies
 * **engagement** for events such as public hearings or consultations
@@ -58,17 +58,17 @@ We will update the milestoneStatus code list to include an extra entry for **sch
 
 #### dateMet
 
-A field for ```milestone/dateMet``` is introduced to capture the date on which tile milestone was completed. 
+A field for `milestone/dateMet` is introduced to capture the date on which tile milestone was completed. 
 
 #### Milestone codes
 
-A field is included for ```milestone/code``` which can be used by applications to particular classify milestone events that may be important for analysis.
+A field is included for `milestone/code` which can be used by applications to particular classify milestone events that may be important for analysis.
 
-For example, some red flag analysis applications need to track approvals, and so may propose a code for ```projectApproval```. They can then look for projects which have a milestone with the code ```projectApproval``` and a status of 'Met'.
+For example, some red flag analysis applications need to track approvals, and so may propose a code for `projectApproval`. They can then look for projects which have a milestone with the code `projectApproval` and a status of 'Met'.
 
 ##### PPP Usage
 
-For PPP disclosures, the following ```milestone/code``` values can be used:
+For PPP disclosures, the following `milestone/code` values can be used:
 
 * **approval** 
 * **commercialClose**
@@ -78,7 +78,7 @@ Where no code is required, the code can be left blank.  More details are provide
 
 ### Example
 
-```json 
+```json
 
 {
 "uri":"http://standard.open-contracting.org/examples/releases/ocds-213czf-000-00001-04-award.json",
@@ -241,6 +241,6 @@ Draft of milestones update for OCDS V1.1 upgrade. Staged as an extension for inc
 See [#373](https://github.com/open-contracting/standard/issues/373) for more details.
 
 
-* This draft does not deprecate ```milestone/documents``` as discussed in [#355](https://github.com/open-contracting/standard/issues/355)
-* This draft does not include a ```report``` field for free-text reporting on milestone progress as discussed in [#373](https://github.com/open-contracting/standard/issues/373)
+* This draft does not deprecate `milestone/documents` as discussed in [#355](https://github.com/open-contracting/standard/issues/355)
+* This draft does not include a `report` field for free-text reporting on milestone progress as discussed in [#373](https://github.com/open-contracting/standard/issues/373)
 

@@ -6,7 +6,7 @@ The OCDS for PPPs documentType codelist includes a description of each document 
 
 ## Representation
 
-Each document can be represented using a ```Document``` object. This can contain:
+Each document can be represented using a `Document` object. This can contain:
 
 * A documentType code;
 * A short summary of the information required;

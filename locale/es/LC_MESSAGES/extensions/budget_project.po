@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,36 +18,35 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/budget_project.md:0
+#: ../../docs/extensions/budget_project.md:0
 msgid "Budget and projects extension"
 msgstr "Extensión de presupuesto y proyectos"
 
-#: ../docs/extensions/budget_project.md:4
+#: ../../docs/extensions/budget_project.md:3
 msgid ""
-"In the core OCDS, project information is nested within the ```budget``` "
-"building block. However, in some cases, budget management, and project "
-"management systems are separate, and it may be important to separately "
-"specify:"
+"In the core OCDS, project information is nested within the `budget` building"
+" block. However, in some cases, budget management, and project management "
+"systems are separate, and it may be important to separately specify:"
 msgstr ""
 "En el OCDS central, la información del proyecto está anidada dentro del "
-"bloque de ```budget```. Sin embargo, en algunos casos, la gestión "
-"presupuestaria y los sistemas de gestión de proyectos están separados y "
-"puede ser importante especificar por separado:"
+"bloque de `budget`. Sin embargo, en algunos casos, la gestión presupuestaria"
+" y los sistemas de gestión de proyectos están separados y puede ser "
+"importante especificar por separado:"
 
-#: ../docs/extensions/budget_project.md:6
+#: ../../docs/extensions/budget_project.md:5
 msgid "The amount reserved in the budget for a specific contracting process;"
 msgstr ""
 "La cantidad reservada en el presupuesto para un proceso de contratación "
 "específico;"
 
-#: ../docs/extensions/budget_project.md:8
+#: ../../docs/extensions/budget_project.md:7
 msgid ""
 "The project the contract relates to, and the total value of that project;"
 msgstr ""
 "El proyecto al que se refiere el contrato y el valor total de dicho "
 "proyecto;"
 
-#: ../docs/extensions/budget_project.md:10
+#: ../../docs/extensions/budget_project.md:9
 msgid ""
 "This is particularly important in cases of Public Private Partnership "
 "projects, or large infrastructure projects, where users may wish to track "
@@ -61,15 +60,13 @@ msgstr ""
 "proyecto a gran escala y entender los contratos individuales en el contexto "
 "de su proceso de contratación y los valores del proyecto."
 
-#: ../docs/extensions/budget_project.md:12
+#: ../../docs/extensions/budget_project.md:11
 msgid ""
-"This extension introduces a ```project``` object into the ```planning``` "
-"section."
+"This extension introduces a `project` object into the `planning` section."
 msgstr ""
-"Esta extensión introduce un objeto ```project``` en la sección "
-"```planning```."
+"Esta extensión introduce un objeto `project` en la sección `planning`."
 
-#: ../docs/extensions/budget_project.md:14
+#: ../../docs/extensions/budget_project.md:13
 msgid ""
 "In the OCDS for PPPs profile, this is further extended with sector and "
 "location classifications."
@@ -77,37 +74,37 @@ msgstr ""
 "En el perfil de OCDS para PPPs, esto se amplía con las clasificaciones de "
 "sector y ubicación."
 
-#: ../docs/extensions/budget_project.md:0
+#: ../../docs/extensions/budget_project.md:0
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../docs/extensions/budget_project.md:0
+#: ../../docs/extensions/budget_project.md:0
 msgid "Documentation"
 msgstr "Documentación"
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "Field"
 msgstr "Campo"
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "Definition"
 msgstr "Definición"
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "Description"
 msgstr "Descripción"
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "Type"
 msgstr "Tipo"
 
-#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
-#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1 ../../Extension budget_project:1
+#: ../../Extension budget_project:1 ../../Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "Project"
 msgstr "Proyecto"
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid ""
 "An externally provided identifier for the project. This might be drawn from "
 "a projects register, or may be based on the canonical version of a project "
@@ -118,7 +115,7 @@ msgstr ""
 "proyecto. Los IDs de proyecto deben de ser únicos para un publicador. Se "
 "pueden usar URIs."
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid ""
 "The name of the project to which this contracting process relates. Some "
 "organizations maintain a registry of projects, and the data should use the "
@@ -129,110 +126,52 @@ msgstr ""
 "los datos deben de usar el nombre por el cual se conoce al proyecto en dicho"
 " registro."
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "A short free text description of the project."
 msgstr "Una breve descripción en texto libre del proyecto."
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "The total anticipated value of the project over it's lifetime."
 msgstr "El monto total anticipado del proyecto a lo largo de su duración."
 
-#: ../docs/Extension budget_project:1
+#: ../../Extension budget_project:1
 msgid "A URI pointing to further information about this project."
 msgstr "Una URI que apunte a mayor información sobre este proyecto."
 
-#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
-#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
-#: ../docs/Extension budget_project:1 ../docs/Extension budget_project:1
-msgid "Budget"
-msgstr "Presupuesto"
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"An identifier for the budget line item which provides funds for this "
-"contracting process. Wherever possible, this identifier should be possible "
-"to cross-reference against formal budget documents."
-msgstr ""
-"Un identificador para la partida presupuestaria que provee fondos para este "
-"proceso de contratación. Cuando sea posible, este identificador debe "
-"permitir referenciarse con documentos formales de presupuesto."
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"A short free text description of the budget allocation for this contracting "
-"process. This may be used to provide human readable information on the "
-"budget category allocated to this contracting process, and/or, information "
-"about the nature and source of the allocation (e.g. conditional, confirmed; "
-"any official authorizations given to the budget allocation)."
-msgstr ""
-"Una descripción corta en texto libre de la asignación de presupuesto para "
-"este proceso de contratación. Esta puede usarse para proveer información "
-"legible por humanos sobre la categoría presupuestal asignada a este proceso "
-"de contratación y/o información sobre la naturaleza y fuente de la "
-"asignación (p.ej. condicional, confirmada o cualquier autorización oficial "
-"que se otorgue a la asignación de presupuesto)."
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"The total value of budget allocations for this contracting process. The "
-"budget breakdown extension can be used to provide data for multiple budget "
-"sources, or to split the budget by years or other periods."
-msgstr ""
-"El valor total de las asignaciones presupuestarias para este proceso de "
-"contratación. Se puede utilizar la extensión de desglose de presupuesto para"
-" proveer datos para múltiples fuentes presupuestarias o para separar el "
-"presupuesto por años u otros periodos."
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"The name of the project that through which this contracting process is "
-"funded. Detailed information should be provided in the extended "
-"projectDetail section."
-msgstr ""
-"El nombre del proyecto  a través del cual se financia este proceso de "
-"contratación. Se debe proporcionar información detallada en la sección "
-"extendida de projectDetail."
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"An external identifier for the project that this contracting process forms "
-"part of. Required for legacy compatibility with OCDS core."
-msgstr ""
-"Un identificador externo para el proyecto del cual forma parte este proceso "
-"de contratación. Se requiere para la compatibilidad heredada con el núcleo "
-"de OCDS."
-
-#: ../docs/Extension budget_project:1
-msgid ""
-"A URI pointing directly to records about the related budget for this "
-"contracting process. Where possible this URI should return machine and "
-"human-readable representations of the data."
-msgstr ""
-"Una URI que apunta directamente a los registros sobre el presupuesto "
-"relacionado para este proceso de contratación. Cuando sea posible, esta URI "
-"deberá devolver representaciones de los datos legibles por humanos y por "
-"computadora. "
-
-#: ../docs/extensions/budget_project.md:0
+#: ../../docs/extensions/budget_project.md:0
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../docs/extensions/budget_project.md:47
-msgid "**2017-07-08**"
-msgstr "**2017-07-08**"
+#: ../../docs/extensions/budget_project.md:0
+msgid "2017-07-08"
+msgstr "2017-07-08"
 
-#: ../docs/extensions/budget_project.md:49
+#: ../../docs/extensions/budget_project.md:46
 msgid ""
 "Updated version to maintain conformance with OCDS 1.1, removing the "
-"properties in the extension that deleted ```planning/budget/project``` and "
-"```planning/budget/projectID```."
+"properties in the extension that deleted `planning/budget/project` and "
+"`planning/budget/projectID`."
 msgstr ""
 "Versión actualizada para mantener la conformidad con OCDS 1.1, removiendo "
-"las propiedades en la extensión que eliminaron ```planning/budget/project```"
-" y ```planning/budget/projectID```."
+"las propiedades en la extensión que eliminaron `planning/budget/project` y "
+"`planning/budget/projectID`."
 
-#: ../docs/extensions/budget_project.md:51
+#: ../../docs/extensions/budget_project.md:48
 msgid ""
 "Removing unnecessary mergeStrategy and pattern property schema elements"
 msgstr ""
 "Eliminando  mergeStrategy y esquemas de patrones de propiedad innecesarios"
+
+#: ../../docs/extensions/budget_project.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/budget_project.md:52
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
