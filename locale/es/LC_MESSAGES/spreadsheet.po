@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/spreadsheet.md:0
+#: ../../docs/spreadsheet.md:0
 msgid "Spreadsheet template"
 msgstr "Plantilla de hoja de cálculo"
 
-#: ../docs/spreadsheet.md:3
+#: ../../docs/spreadsheet.md:3
 msgid ""
-"In most cases, OCDS for PPPs data will be created and analysed using "
-"customised tools."
+"In most cases, OCDS for PPPs data will be created and analyzed using "
+"customized tools."
 msgstr ""
 "En la mayoría de los casos, los datos de OCDS para APPs serán creados y "
 "analizados usando herramientas personalizadas."
 
-#: ../docs/spreadsheet.md:5
+#: ../../docs/spreadsheet.md:5
 msgid ""
 "However, as a proof-of-concept - and to demonstrate the flattened "
-"serialisation of the data model - we have prepared a spreadsheet template "
+"serialization of the data model - we have prepared a spreadsheet template "
 "that can be used to provide detailed disclosures for a PPP project."
 msgstr ""
 "Sin embargo, como prueba de concepto y para demostrar la serialización plana"
@@ -41,7 +41,7 @@ msgstr ""
 "se puede utilizar para proporcionar divulgación detallada para un proyecto "
 "de APP."
 
-#: ../docs/spreadsheet.md:7
+#: ../../docs/spreadsheet.md:7
 msgid ""
 "The template is [available to view via Google Sheets "
 "here](https://docs.google.com/spreadsheets/d"
@@ -55,7 +55,7 @@ msgstr ""
 "hacer su propia copia para editar](https://docs.google.com/spreadsheets/d"
 "/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/copy)."
 
-#: ../docs/spreadsheet.md:14
+#: ../../docs/spreadsheet.md:14
 msgid ""
 "Unlike the [framework reference](framework.md) which reflects the ordering "
 "of properties required by the World Bank PPP Disclosure Framework, the "
@@ -67,7 +67,7 @@ msgstr ""
 " Banco Mundial, la planilla de hoja de cálculo se estructura en torno a las "
 "etapas de un **proceso de contratación**."
 
-#: ../docs/spreadsheet.md:16
+#: ../../docs/spreadsheet.md:16
 msgid ""
 "This means it can also be a useful tool for implementers to think about the "
 "points in time at which information will become available."
@@ -76,7 +76,7 @@ msgstr ""
 "implementadores piensen en los puntos en el tiempo en los que la información"
 " estará disponible."
 
-#: ../docs/spreadsheet.md:18
+#: ../../docs/spreadsheet.md:18
 msgid ""
 "The table structures and validation in the template can also be used to "
 "construct smaller data collection tools: for example, monthly metrics "
@@ -86,7 +86,7 @@ msgstr ""
 "utilizar para construir herramientas de recopilación de datos más pequeñas: "
 "por ejemplo, hojas de informes de métricas mensuales."
 
-#: ../docs/spreadsheet.md:20
+#: ../../docs/spreadsheet.md:20
 msgid ""
 "Advanced users may wish to consult the [flatten tool spreadsheet designers "
 "guide](http://flatten-tool.readthedocs.io/en/latest/unflatten/) which "

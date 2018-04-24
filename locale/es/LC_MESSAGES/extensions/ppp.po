@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/ppp.md:0
+#: ../../docs/extensions/ppp.md:0
 msgid "OCDS for Public Private Partnerships"
 msgstr "OCDS para Asociaciones Público-Privadas"
 
-#: ../docs/extensions/ppp.md:3
+#: ../../docs/extensions/ppp.md:3
 msgid ""
 "The Open Contracting Data Standard for Public Private Partnerships release "
 "draws together a number of general extensions."
@@ -30,29 +30,28 @@ msgstr ""
 "La publicación del Estándar de datos para las Contrataciones Abiertas para "
 "las  Asociaciones Público-Privadas reúne una serie de extensiones generales."
 
-#: ../docs/extensions/ppp.md:5
+#: ../../docs/extensions/ppp.md:5
 msgid ""
-"Full documentation is available at [http://ocds-for-"
-"ppps.readthedocs.io/](http://ocds-for-ppps.readthedocs.io/)"
+"Full documentation is available at [http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/)"
 msgstr ""
-"La documentación completa está disponible en [http://ocds-for-"
-"ppps.readthedocs.io/](http://ocds-for-ppps.readthedocs.io/)"
 
-#: ../docs/extensions/ppp.md:7
+#: ../../docs/extensions/ppp.md:7
 msgid ""
 "This extension provides a number of fields and building blocks that are "
-"currenetly seen as specific to PPP disclosure against the World Bank PPP "
+"currently seen as specific to PPP disclosure against the World Bank PPP "
 "Disclosure Framework."
 msgstr ""
 "Esta extensión proporciona una serie de campos y bloques  que se consideran "
 "actualmente como específicos para la divulgación de APP contra el Marco de "
 "Divulgación de APP del Banco Mundial."
 
-#: ../docs/extensions/ppp.md:0
+#: ../../docs/extensions/ppp.md:0
 msgid "Project level information"
 msgstr "Información a nivel de proyecto"
 
-#: ../docs/extensions/ppp.md:11
+#: ../../docs/extensions/ppp.md:11
 msgid ""
 "Building on the [Budget and Projects extension](https://github.com/open-"
 "contracting/ocds_budget_projects_extension) this adds to project with:"
@@ -60,7 +59,7 @@ msgstr ""
 "Desarrollado de la extensión de [Budget and Projects](https://github.com"
 "/open-contracting/ocds_budget_projects_extension) este agrega al proyecto:"
 
-#: ../docs/extensions/ppp.md:13
+#: ../../docs/extensions/ppp.md:13
 msgid ""
 "Sector classifications - using the [UN Classifications of the Functions of "
 "Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
@@ -69,29 +68,29 @@ msgstr ""
 "Naciones Unidas de las Funciones del "
 "Gobierno](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
 
-#: ../docs/extensions/ppp.md:14
+#: ../../docs/extensions/ppp.md:14
 msgid ""
 "Additional classifications - allowing arbitrary additional project "
-"categorisation"
+"categorization"
 msgstr ""
 "Clasificaciones adicionales - permitiendo la categorización arbitraria de "
 "proyectos adicionales"
 
-#: ../docs/extensions/ppp.md:15
+#: ../../docs/extensions/ppp.md:15
 msgid "Project location - with options for gazetteer or point location"
 msgstr ""
 "Ubicación del proyecto - con opciones para la localización geográfica o de "
 "puntos"
 
-#: ../docs/extensions/ppp.md:17
+#: ../../docs/extensions/ppp.md:17
 msgid "An example is shown below:"
 msgstr "A continuación se muestra un ejemplo:"
 
-#: ../docs/extensions/ppp.md:0
+#: ../../docs/extensions/ppp.md:0
 msgid "Evaluation Indicators"
 msgstr "Indicadores de Evaluación"
 
-#: ../docs/extensions/ppp.md:50
+#: ../../docs/extensions/ppp.md:50
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators to "
 "be reported relating to governments evaluation of a PPP project."
@@ -100,7 +99,7 @@ msgstr ""
 "diferentes relacionados con la evaluación de los gobiernos de un proyecto de"
 " APP."
 
-#: ../docs/extensions/ppp.md:52
+#: ../../docs/extensions/ppp.md:52
 msgid ""
 "The ```award/evaluationIndicators``` section includes properties to express "
 "the **value** and supporting **free-text details** for each indicator:"
@@ -109,23 +108,23 @@ msgstr ""
 "expresar el **value** y apoyar **detalles de texto libre** para cada "
 "indicador:"
 
-#: ../docs/extensions/ppp.md:54
+#: ../../docs/extensions/ppp.md:54
 msgid "discountRate"
 msgstr "discountRate"
 
-#: ../docs/extensions/ppp.md:55
+#: ../../docs/extensions/ppp.md:55
 msgid "riskPremium"
 msgstr "riskPremium"
 
-#: ../docs/extensions/ppp.md:56
+#: ../../docs/extensions/ppp.md:56
 msgid "netPresentValue"
 msgstr "netPresentValue"
 
-#: ../docs/extensions/ppp.md:0
+#: ../../docs/extensions/ppp.md:0
 msgid "Finance Summary"
 msgstr "Resumen Financiero"
 
-#: ../docs/extensions/ppp.md:60
+#: ../../docs/extensions/ppp.md:60
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators "
 "relating to the financial model of a PPP project. Whilst some of these may "
@@ -136,7 +135,7 @@ msgstr ""
 "algunos de estos pueden ser reportados como métricas en forma continua, "
 "algunos son simples valores individuales."
 
-#: ../docs/extensions/ppp.md:62
+#: ../../docs/extensions/ppp.md:62
 msgid ""
 "The ```contract/financeSummary``` section includes properties to express the"
 " **value** and supporting **free-text details** for each indicator:"
@@ -144,18 +143,18 @@ msgstr ""
 "La sección ```contract/financeSummary``` incluye propiedades para expresar "
 "el **value** y soporta **detalles de texto libre** para cada indicador:"
 
-#: ../docs/extensions/ppp.md:64
+#: ../../docs/extensions/ppp.md:64
 msgid "debtEquityRatio"
 msgstr "debtEquityRatio"
 
-#: ../docs/extensions/ppp.md:65
+#: ../../docs/extensions/ppp.md:65
 msgid "shareCapital"
 msgstr "shareCapital"
 
-#: ../docs/extensions/ppp.md:66
+#: ../../docs/extensions/ppp.md:66
 msgid "subsidyRatio"
 msgstr "subsidyRatio"
 
-#: ../docs/extensions/ppp.md:67
+#: ../../docs/extensions/ppp.md:67
 msgid "projectIRR"
 msgstr "projectIRR"

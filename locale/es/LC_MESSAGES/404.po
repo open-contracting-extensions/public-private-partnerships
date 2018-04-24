@@ -18,19 +18,22 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/extensions/index.md:0
-msgid "Extension reference"
-msgstr "Referencia de extensión"
+#: ../../docs/404.md:0
+msgid "404 Not found"
+msgstr "404 Not Found"
 
-#: ../../docs/extensions/index.md:3
+#: ../../docs/404.md:7
 msgid ""
-"OCDS for PPPs is constructed using a number of re-usable extensions for the "
-"Open Contracting Data Standard."
+"We couldn't find the page you were looking for in this version of the "
+"documentation."
 msgstr ""
-"El OCDS para APPs se construye utilizando una serie de extensiones "
-"reutilizables para el Estándar de datos para las Contrataciones Abiertas "
-"(OCDS en inglés)."
+"No pudimos encontrar la página que buscabas en esta versión de la "
+"documentación"
 
-#: ../../docs/extensions/index.md:5
-msgid "This section contains detailed documentation for each extension."
-msgstr "Esta sección contiene documentación detallada para cada extensión."
+#: ../../docs/404.md:9
+msgid ""
+"Try looking from the [home page](index.md), or use the search or navigation "
+"on the left hand side of the page."
+msgstr ""
+"Intenta buscar en el [inicio](index.md) o utiliza la búsqueda o la "
+"navegación del lado izquierdo de la página"

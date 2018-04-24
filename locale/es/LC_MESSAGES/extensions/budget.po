@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,37 +18,37 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Budget Breakdown"
 msgstr "Desglose del presupuesto"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Background"
 msgstr "Antecedentes"
 
-#: ../docs/extensions/budget.md:6
+#: ../../docs/extensions/budget.md:5
 msgid ""
-"The ```planning``` section of OCDS can be used to describe the background to"
-" a contracting process, which may include details of the budget from which "
+"The `planning` section of OCDS can be used to describe the background to a "
+"contracting process, which may include details of the budget from which "
 "funds are drawn."
 msgstr ""
-"La sección ```planning``` del OCDS puede usarse para describir los "
-"antecedentes de un proceso de contratación, que puede incluir detalles del "
-"presupuesto del cual se extraen los fondos."
+"La sección `planning` del OCDS puede usarse para describir los antecedentes "
+"de un proceso de contratación, que puede incluir detalles del presupuesto "
+"del cual se extraen los fondos."
 
-#: ../docs/extensions/budget.md:8
+#: ../../docs/extensions/budget.md:7
 msgid ""
-"OCDS core includes a single ```budget.amount``` field to capture the total "
-"value of the budget for the contracting process."
+"OCDS core includes a single `budget.amount` field to capture the total value"
+" of the budget for the contracting process."
 msgstr ""
-"El núcleo de OCDS incluye un solo campo ```budget.amount``` para capturar el"
-" valor total del presupuesto para el proceso de contratación."
+"El núcleo de OCDS incluye un solo campo `budget.amount` para capturar el "
+"valor total del presupuesto para el proceso de contratación."
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Providing more detailed budget information"
 msgstr "Proporcionar información presupuestaria más detallada"
 
-#: ../docs/extensions/budget.md:12
+#: ../../docs/extensions/budget.md:11
 msgid ""
 "Some OCDS implementations require more detailed information on budgets to be"
 " disclosed, for example multi-year budgets or budgets sourced from multiple "
@@ -61,7 +61,7 @@ msgstr ""
 "diferentes. En el caso de las APP, los presupuestos pueden provenir del "
 "sector privado o de bancos multilaterales de desarrollo."
 
-#: ../docs/extensions/budget.md:14
+#: ../../docs/extensions/budget.md:13
 msgid ""
 "This extension provides a way to describe multi-year and multi-source "
 "budgets."
@@ -69,7 +69,7 @@ msgstr ""
 "Esta extensión proporciona una manera de describir los presupuestos multi-"
 "anuales y multi-fuente."
 
-#: ../docs/extensions/budget.md:16
+#: ../../docs/extensions/budget.md:15
 msgid ""
 "Disclosing structured data on multi-source budgets allows users to "
 "understand how much of the funds for a project come from government or from "
@@ -82,134 +82,149 @@ msgstr ""
 "datos estructurados sobre presupuestos multi-anuales permiten a los usuarios"
 " entender el perfil de gasto esperado de un contrato."
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Extension fields"
 msgstr "Campos de extensión"
 
-#: ../docs/extensions/budget.md:20
+#: ../../docs/extensions/budget.md:19
 msgid ""
-"This extension adds a ```budgetBreakdown``` property to the ```planning``` "
-"section of OCDS. ```budgetBreakdown``` is an array of ```budget``` blocks."
+"This extension adds a `budgetBreakdown` property to the `planning` section "
+"of OCDS. `budgetBreakdown` is an array of `budget` blocks."
 msgstr ""
-"Esta extensión agrega una propiedad ```budgetBreakdown``` a la sección "
-"```planning``` del OCDS. ```BudgetBreakdown``` es una matriz de bloques ``` "
-"budget```."
+"Esta extensión agrega una propiedad `budgetBreakdown` a la sección "
+"`planning` del OCDS. `BudgetBreakdown` es una matriz de bloques `budget`."
 
-#: ../docs/extensions/budget.md:22
+#: ../../docs/extensions/budget.md:21
 msgid ""
-"This extension also extends the ```budget``` block with the following "
-"additional properties for use in the ```budgetBreakdown``` section:"
+"This extension also extends the `budget` block with the following additional"
+" properties for use in the `budgetBreakdown` section:"
 msgstr ""
-"Esta extensión también extiende el bloque ```budget``` con las siguientes "
-"propiedades adicionales para su uso en la sección ``` budgetBreakdown```."
+"Esta extensión también extiende el bloque `budget` con las siguientes "
+"propiedades adicionales para su uso en la sección `budgetBreakdown`."
 
-#: ../docs/extensions/budget.md:24
+#: ../../docs/extensions/budget.md:23
 msgid ""
-"```budget.sourceEntity``` - an organization reference, linking to the entry "
-"in the ```parties``` section describing the organization providing the funds"
-" for this part of the budget"
+"`budget.sourceEntity` - an organization reference, linking to the entry in "
+"the `parties` section describing the organization providing the funds for "
+"this part of the budget"
 msgstr ""
-"```budget.sourceEntity``` - una referencia de organización, que esta "
-"enlazada con la entrada en la sección ```parties``` describiendo a  la "
-"organización que proporciona los fondos para esta parte del presupuesto"
+"`budget.sourceEntity` - una referencia de organización, que esta enlazada "
+"con la entrada en la sección `parties` describiendo a  la organización que "
+"proporciona los fondos para esta parte del presupuesto"
 
-#: ../docs/extensions/budget.md:25
+#: ../../docs/extensions/budget.md:24
 msgid ""
-"```budget.period``` - a period block, describing the period to which this "
-"part of the budget applies"
+"`budget.period` - a period block, describing the period to which this part "
+"of the budget applies"
 msgstr ""
-"```budget.period``` - un bloque de período, que describe el período al que "
-"se aplica esta parte del presupuesto"
+"`budget.period` - un bloque de período, que describe el período al que se "
+"aplica esta parte del presupuesto"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Guidance"
 msgstr "Guía"
 
-#: ../docs/extensions/budget.md:29
-msgid "In the core ```planning.budget``` block:"
-msgstr "En el núcleo del bloque ```planning.budget```:"
+#: ../../docs/extensions/budget.md:28
+msgid "In the core `planning.budget` block:"
+msgstr "En el núcleo del bloque `planning.budget`:"
 
-#: ../docs/extensions/budget.md:31
+#: ../../docs/extensions/budget.md:30
 msgid ""
-"```budget.amount``` should be used to capture the total value of the budget "
-"for the contracting process."
+"`budget.amount` should be used to capture the total value of the budget for "
+"the contracting process."
 msgstr ""
-"```budget.amount``` se debe usar para capturar el valor total del "
-"presupuesto para el proceso de contratación."
+"`budget.amount` se debe usar para capturar el valor total del presupuesto "
+"para el proceso de contratación."
 
-#: ../docs/extensions/budget.md:32
+#: ../../docs/extensions/budget.md:31
 msgid ""
-"```budget.period``` should be used to capture the total period over which "
-"the budget applies."
+"`budget.period` should be used to capture the total period over which the "
+"budget applies."
 msgstr ""
-"```budget.period``` debe utilizarse para capturar el período total sobre el "
-"que se aplica el presupuesto."
+"`budget.period` debe utilizarse para capturar el período total sobre el que "
+"se aplica el presupuesto."
 
-#: ../docs/extensions/budget.md:33
-msgid "```budget.sourceEntity``` should be omitted."
-msgstr "Debe omitirse ```budget.sourceEntity``` ."
+#: ../../docs/extensions/budget.md:32
+msgid "`budget.sourceEntity` should be omitted."
+msgstr "Debe omitirse `budget.sourceEntity`."
 
-#: ../docs/extensions/budget.md:35
+#: ../../docs/extensions/budget.md:34
 msgid ""
-"Where ```budget.budgetBreakdown``` is used to express a multi-source budget "
-"but the organization details are not known for one or more parts of the "
-"budget, for example in a PPP where part of the budget will be provided by "
-"the successful private sector bidder, the ```sourceEntity.name``` field "
-"should be used to provide a free text explanation of the source of the "
-"budget, e.g. \"Private sector investment from successful bidder\"."
+"Where `budget.budgetBreakdown` is used to express a multi-source budget but "
+"the organization details are not known for one or more parts of the budget, "
+"for example in a PPP where part of the budget will be provided by the "
+"successful private sector bidder, the `sourceEntity.name` field should be "
+"used to provide a free text explanation of the source of the budget, e.g. "
+"\"Private sector investment from successful bidder\"."
 msgstr ""
-"Cuando ```budget.budgetBreakdown``` se utiliza para expresar un presupuesto "
-"de múltiples fuentes, pero los detalles de la organización no se conocen "
-"para una o más partes del presupuesto, por ejemplo, en una APP donde parte "
-"del presupuesto será proporcionado por el licitador del sector privado "
-"ganador, el campo ```sourceEntity.name```  debe utilizarse para proporcionar"
-" una explicación de texto libre de la fuente del presupuesto, por ejemplo "
+"Cuando `budget.budgetBreakdown` se utiliza para expresar un presupuesto de "
+"múltiples fuentes, pero los detalles de la organización no se conocen para "
+"una o más partes del presupuesto, por ejemplo, en una APP donde parte del "
+"presupuesto será proporcionado por el licitador del sector privado ganador, "
+"el campo `sourceEntity.name` debe utilizarse para proporcionar una "
+"explicación de texto libre de la fuente del presupuesto, por ejemplo "
 "\"Inversión del sector privado por parte del adjudicatario\"."
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Examples"
 msgstr "Ejemplos"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Multi-source budgets"
 msgstr "Presupuestos de múltiples fuentes"
 
-#: ../docs/extensions/budget.md:41
+#: ../../docs/extensions/budget.md:40
 msgid "The following JSON snippet models a single year multi-source budget:"
 msgstr ""
 "El siguiente fragmento JSON modela un presupuesto multi-fuente de un solo "
 "año:"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "Multi-year budgets"
 msgstr "Presupuestos multi-anuales"
 
-#: ../docs/extensions/budget.md:96
+#: ../../docs/extensions/budget.md:91
 msgid "The following JSON snippet models a multi-year single source budget:"
 msgstr ""
 "El siguiente fragmento JSON modela un presupuesto multi-anual de fuente "
 "única:"
 
-#: ../docs/extensions/budget.md:0
+#: ../../docs/extensions/budget.md:0
 msgid "To do"
 msgstr "Por hacer"
 
-#: ../docs/extensions/budget.md:145
+#: ../../docs/extensions/budget.md:134
 msgid ""
-"Finalize guidance on use of extended fields in the core "
-"```planning.budget``` field."
+"Finalize guidance on use of extended fields in the core `planning.budget` "
+"field."
 msgstr ""
 "Finaliza la guía sobre el uso de campos extendidos en el campo central "
-"```planning.budget```."
+"`planning.budget`."
 
-#: ../docs/extensions/budget.md:146
+#: ../../docs/extensions/budget.md:135
 msgid ""
 "Finalize guidance where source entity is not known at time of budgeting"
 msgstr ""
 "Finaliza la guía cuando la entidad fuente no se conoce en el momento de la "
 "presupuestación"
 
-#: ../docs/extensions/budget.md:149
-msgid "See issue https://github.com/open-contracting/standard/issues/377"
+#: ../../docs/extensions/budget.md:137
+msgid ""
+"See issue [#377](https://github.com/open-contracting/standard/issues/377)."
 msgstr ""
-"Consulte el issue https://github.com/open-contracting/standard/issues/377"
+"Ver el issue [#377](https://github.com/open-"
+"contracting/standard/issues/377)."
+
+#: ../../docs/extensions/budget.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/budget.md:141
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."

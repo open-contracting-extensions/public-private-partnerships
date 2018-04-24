@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ben Webb <ben.webb@opendataservices.coop>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/reference/index.md:0
+#: ../../docs/reference/index.md:0
 msgid "Schema reference"
 msgstr "Referencia del esquema"
 
-#: ../docs/reference/index.md:3
+#: ../../docs/reference/index.md:3
 msgid ""
 "For information on publication practices for the Open Contracting Data "
 "Standard, data serialization and the releases and records model, please see "
@@ -33,7 +33,7 @@ msgstr ""
 "de entregas y registros, consulte la [documentación básica de "
 "OCDS](http://standard.open-contracting.org)."
 
-#: ../docs/reference/index.md:5
+#: ../../docs/reference/index.md:5
 msgid "This section contains OCDS for PPP specific reference materials."
 msgstr ""
 "Esta sección contiene materiales de referencia específicos de OCDS para APP."

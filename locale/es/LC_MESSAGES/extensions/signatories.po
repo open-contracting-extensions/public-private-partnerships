@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Oscar Montiel <oscar.montiel@okfn.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,87 +18,98 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/signatories.md:0
+#: ../../docs/extensions/signatories.md:0
 msgid "Contract signatories"
 msgstr "Firmantes del contrato"
 
-#: ../docs/extensions/signatories.md:0
+#: ../../docs/extensions/signatories.md:0
 msgid "Background"
 msgstr "Antecedentes"
 
-#: ../docs/extensions/signatories.md:5
+#: ../../docs/extensions/signatories.md:5
 msgid ""
 "In core OCDS the signatories to the contract are not explicitly declared in "
-"the ```contract``` section. Instead the contract signatories are implicitly "
-"assumed to be the ```buyer``` defined at release level (known as the "
-"```publicAuthority``` in the PPP extension) and the ```suppliers``` listed "
-"in the ```award``` associated with the contract (known as the "
-"```preferredBidders``` in the PPP extension)."
+"the `contract` section. Instead the contract signatories are implicitly "
+"assumed to be the `buyer` defined at release level (known as the "
+"`publicAuthority` in the PPP extension) and the `suppliers` listed in the "
+"`award` associated with the contract (known as the `preferredBidders` in the"
+" PPP extension)."
 msgstr ""
 "En el OCDS básico, los signatarios del contrato no están explícitamente "
-"declarados en la sección ```contract```. En su lugar, se supone "
-"implícitamente que los firmantes del contrato son el ```comprador``` "
-"definido en el nivel de entrega (conocido como ```publicAuthority``` en la "
-"extensión APP) y en la de ```suppliers```, enlistados en el ```award``` "
-"asociado con el contrato (conocido como ```preferredBidders``` en la "
-"extensión APP)"
+"declarados en la sección `contract`. En su lugar, se supone implícitamente "
+"que los firmantes del contrato son el `comprador` definido en el nivel de "
+"entrega (conocido como `publicAuthority` en la extensión APP) y en la de "
+"`suppliers`, enlistados en el `award` asociado con el contrato (conocido "
+"como `preferredBidders` en la extensión APP)"
 
-#: ../docs/extensions/signatories.md:7
+#: ../../docs/extensions/signatories.md:7
 msgid ""
 "In some types of contracting process there may be additional signatories to "
 "the contract or the signatories to the contract may differ from those "
-"specified in ```buyer```/```publicAuthority``` and "
-"```award/suppliers```/```award/preferredBidders```."
+"specified in `buyer` / `publicAuthority` and `award/suppliers` / "
+"`award/preferredBidders`."
 msgstr ""
 "En algunos tipos de procesos de contratación pueden existir signatarios "
 "adicionales del contrato o los firmantes del contrato pueden diferir de los "
-"especificados en ```buyer```/```publicAuthority``` y "
-"```award/suppliers```/```award/preferredBidders```."
+"especificados en `buyer`/`publicAuthority` y "
+"`award/suppliers`/`award/preferredBidders`."
 
-#: ../docs/extensions/signatories.md:0
+#: ../../docs/extensions/signatories.md:0
 msgid "Extension fields"
 msgstr "Campos de extensión"
 
-#: ../docs/extensions/signatories.md:11
+#: ../../docs/extensions/signatories.md:11
 msgid ""
-"This extension adds a ```signatories``` property to the ```contract``` "
-"section. The ```signatories``` property is an array of "
-"```OrganizationReference```'s."
+"This extension adds a `signatories` property to the `contract` section. The "
+"`signatories` property is an array of `OrganizationReference`'s."
 msgstr ""
-"Esta extensión agrega una propiedad ```signatories``` a la sección ``` "
-"contract```. La propiedad ```signatories``` es una lista de "
-"```OrganizationReference```."
+"Esta extensión agrega una propiedad `signatories` a la sección `contract`. "
+"La propiedad `signatories` es una lista de `OrganizationReference`."
 
-#: ../docs/extensions/signatories.md:0
+#: ../../docs/extensions/signatories.md:0
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../docs/extensions/signatories.md:15
+#: ../../docs/extensions/signatories.md:15
 msgid ""
 "The following JSON snippet models a PPP contracting process where there is "
 "an additional signatory to the contract beyond those defined in the "
-"```publicAuthority``` and ```award/preferredBidders``` fields."
+"`publicAuthority` and `award/preferredBidders` fields."
 msgstr ""
 "El siguiente fragmento de JSON modela un proceso de contratación de APP "
 "cuando hay un firmante adicional al contrato además de los definidos en los "
-"campos ```publicAuthority``` y ```award/preferredBidders```."
+"campos `publicAuthority` y `award/preferredBidders`."
 
-#: ../docs/extensions/signatories.md:0
+#: ../../docs/extensions/signatories.md:0
 msgid "Usage notes"
 msgstr "Notas de uso"
 
-#: ../docs/extensions/signatories.md:52
+#: ../../docs/extensions/signatories.md:52
 msgid ""
 "Each signatory to the contract should have an associated entry in the "
-"```parties``` section of OCDS."
+"`parties` section of OCDS."
 msgstr ""
 "Cada firmante del contrato debe tener una entrada asociada en la sección "
-"```parties``` de OCDS."
+"`parties` de OCDS."
 
-#: ../docs/extensions/signatories.md:54
+#: ../../docs/extensions/signatories.md:54
 msgid ""
 "This extension follows the approach to modelling organizations introduced in"
 " OCDS V1.1."
 msgstr ""
 "Esta extensión sigue el enfoque de modelización de organizaciones "
 "introducidas en OCDS V1.1."
+
+#: ../../docs/extensions/signatories.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/signatories.md:58
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."

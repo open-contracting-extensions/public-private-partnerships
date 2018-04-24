@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-29 14:31+0100\n"
+"POT-Creation-Date: 2018-04-23 19:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,17 +18,51 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../docs/extensions/qualification.md:0
-msgid "Qualification"
-msgstr "Calificación "
-
-#: ../docs/extensions/qualification.md:3
-msgid ""
-"Draft extension for PPPs to add a qualification section between planning and"
-" tender. Currently this is another tender object. See discussion in "
-"https://github.com/open-contracting/public-private-partnerships/issues/36"
+#: ../../docs/extensions/qualification.md:0
+msgid "Qualification (profile use only)"
 msgstr ""
-"Borrador de extensión para las APP para añadir una sección de calificación "
-"entre la planificación y la licitación. Actualmente este es otro objeto de "
-"la licitación. Ver discusión en https://github.com/open-contracting/public-"
-"private-partnerships/issues/36"
+
+#: ../../docs/extensions/qualification.md:3
+msgid ""
+"This extension forms part of the [OCDS for PPPs profile](http://standard"
+".open-contracting.org/profiles/ppp/) which adds a qualification section "
+"between planning and tender."
+msgstr ""
+
+#: ../../docs/extensions/qualification.md:5
+msgid ""
+"Profiles re-purpose elements of the OCDS data model, but are not backwards "
+"compatible with OCDS."
+msgstr ""
+
+#: ../../docs/extensions/qualification.md:7
+msgid ""
+"In particular, this extension adds a second initiation stage "
+"(`qualification`), which is incompatible with the OCDS 1.x definition of a "
+"Contracting Process."
+msgstr ""
+
+#: ../../docs/extensions/qualification.md:9
+msgid "This extension should not be used outside of the PPP Profile."
+msgstr ""
+
+#: ../../docs/extensions/qualification.md:11
+msgid ""
+"For more background on this extension, see discussion in "
+"[#36](https://github.com/open-contracting/public-private-"
+"partnerships/issues/36)."
+msgstr ""
+
+#: ../../docs/extensions/qualification.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../../docs/extensions/qualification.md:15
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Informe issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
