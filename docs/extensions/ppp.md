@@ -49,7 +49,7 @@ An example is shown below:
 
 The PPP disclosure framework calls for a number of different indicators to be reported relating to governments evaluation of a PPP project.
 
-The ```award/evaluationIndicators``` section includes properties to express the **value** and supporting **free-text details** for each indicator:
+The `award/evaluationIndicators` section includes properties to express the **value** and supporting **free-text details** for each indicator:
 
 * discountRate
 * riskPremium
@@ -59,7 +59,7 @@ The ```award/evaluationIndicators``` section includes properties to express the 
 
 The PPP disclosure framework calls for a number of different indicators relating to the financial model of a PPP project. Whilst some of these may be reported as metrics on an ongoing basis, some are simple single values.
 
-The ```contract/financeSummary``` section includes properties to express the **value** and supporting **free-text details** for each indicator:
+The `contract/financeSummary` section includes properties to express the **value** and supporting **free-text details** for each indicator:
 
 * debtEquityRatio
 * shareCapital

@@ -45,10 +45,10 @@ msgstr "Representación"
 
 #: ../../docs/reference/documents.md:9
 msgid ""
-"Each document can be represented using a ```Document``` object. This can "
+"Each document can be represented using a `Document` object. This can "
 "contain:"
 msgstr ""
-"Cada documento se puede representar usando un objeto ```Document``. Este "
+"Cada documento se puede representar usando un objeto `Document`. Este "
 "puede contener:"
 
 #: ../../docs/reference/documents.md:11

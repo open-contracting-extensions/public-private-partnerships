@@ -18,7 +18,7 @@ The mapping for each requirement in the framework includes a guide to publicatio
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -39,7 +39,7 @@ P   R   R   R   R   R
 
 Each project should have a name, location and sectoral classification.
 
- This information is included in the ```planning/project``` section of each release. A detailed breakdown of each field is given below. 
+ This information is included in the `planning/project` section of each release. A detailed breakdown of each field is given below. 
 
 **JSON Example**
 
@@ -157,7 +157,7 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -170,9 +170,9 @@ P   U   U   U   U   U
 
 
 
- Details of the sponsoring agency or department, including name and contact details, should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the sponsoring agency or department, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```publicAuthority``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
+The `organization/roles` field should be set to `publicAuthority` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -211,7 +211,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -224,7 +224,7 @@ P   U   U   U   U   U
 
 
 
- The ```publicAuthority``` section of an OCDS release should be used to reference the entry for the sponsoring agency or department in the ```parties``` section. 
+ The `publicAuthority` section of an OCDS release should be used to reference the entry for the sponsoring agency or department in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -271,7 +271,7 @@ The value of a project can be specified at a number of points in time.
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -358,7 +358,7 @@ Project need: benefits provided, economic and social (including specific informa
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -376,7 +376,7 @@ P
 * A short summary text
 * A link to one or more documents that provide additional information
 
-These documents should be tagged with a ```documentType``` value of 'needsAssessment' in the ```planning/documents``` array.  
+These documents should be tagged with a `documentType` value of 'needsAssessment' in the `planning/documents` array.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -415,7 +415,7 @@ Technical description of the physical infrastructure
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -433,7 +433,7 @@ P
 * A short summary text
 * A link to one or more documents that provide additional information
 
-These documents should be tagged with a ```documentType``` value of 'technicalSpecifications' in the ```tender/documents``` array.  
+These documents should be tagged with a `documentType` value of 'technicalSpecifications' in the `tender/documents` array.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -445,7 +445,7 @@ These documents should be tagged with a ```documentType``` value of 'technicalSp
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -455,7 +455,7 @@ High-level description of the services
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -473,7 +473,7 @@ P
 * A short summary text
 * A link to one or more documents that provide additional information
 
-These documents should be tagged with a ```documentType``` value of 'serviceDescription' in the ```tender/documents``` array.  
+These documents should be tagged with a `documentType` value of 'serviceDescription' in the `tender/documents` array.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -485,7 +485,7 @@ These documents should be tagged with a ```documentType``` value of 'serviceDesc
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -495,7 +495,7 @@ Estimated demand to be served annually
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -516,11 +516,11 @@ P
 
 
 
- Structured data about estimated demand should be provided in the ```planning/forecast``` section of an OCDS release, using an array of metrics building blocks.
+ Structured data about estimated demand should be provided in the `planning/forecast` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'demand' should be given, with a series of forecast ```observations``` that capture the estimated demand for a given period.
+A metric with the `id` 'demand' should be given, with a series of forecast `observations` that capture the estimated demand for a given period.
 
-These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
+These estimates can be disaggregated by any number of dimensions contained as simple fields within the `observation/dimensions` object. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -562,7 +562,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 * A short summary text
 * A link to one or more documents that provide additional information
 
-These documents should be tagged with a ```documentType``` value of 'estimatedDemand' in the ```planning/documents``` array. 
+These documents should be tagged with a `documentType` value of 'estimatedDemand' in the `planning/documents` array. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -574,7 +574,7 @@ These documents should be tagged with a ```documentType``` value of 'estimatedDe
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -584,7 +584,7 @@ Project additionality
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -607,7 +607,7 @@ Descriptions should be provided for both:
 * The additionality of the project;
 * The additionality of the finance method used;
 
-These documents should be tagged with a ```documentType``` value of 'projectAdditionality' or 'financeAdditionality' in the ```planning/documents``` array.  
+These documents should be tagged with a `documentType` value of 'projectAdditionality' or 'financeAdditionality' in the `planning/documents` array.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -619,7 +619,7 @@ These documents should be tagged with a ```documentType``` value of 'projectAddi
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -629,7 +629,7 @@ Reason for selection of PPP mode and type in brief
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -647,7 +647,7 @@ P
 * A short summary text
 * A link to one or more documents that provide additional information
 
-These documents should be tagged with a ```documentType``` value of 'pppModeRationale' in the ```planning/documents``` array.  
+These documents should be tagged with a `documentType` value of 'pppModeRationale' in the `planning/documents` array.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -659,7 +659,7 @@ These documents should be tagged with a ```documentType``` value of 'pppModeRati
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -669,7 +669,7 @@ Dates of various approvals
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -684,7 +684,7 @@ P
 
 This information can be provided using the [milestones extension](../extensions/milestones/).
 
-Each approval during the planning stage should be included in the ```planning/milestones``` array with a ```type``` of 'approval', the date the approval is scheduled for (```dueDate```), the status of the approval (```scheduled``` or ```met```) and the date the approval was given (```dateMet```).
+Each approval during the planning stage should be included in the `planning/milestones` array with a `type` of 'approval', the date the approval is scheduled for (`dueDate`), the status of the approval (`scheduled` or `met`) and the date the approval was given (`dateMet`).
 
 Documentation associated with the approval can be given in the associated milestones documents block. 
 
@@ -723,7 +723,7 @@ Documentation associated with the approval can be given in the associated milest
 
 Key events relating to commercial and financial close
 
- This information can be provided using entries in the appropriate milestones array, with each milestone having a ```type```, ```code``` and ```status``` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
+ This information can be provided using entries in the appropriate milestones array, with each milestone having a `type`, `code` and `status` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -745,7 +745,7 @@ Contract Milestones (Estimated and Actual) - Date of commercial close
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -758,11 +758,11 @@ P   U   U   U
 
 
 
- This milestone should have a ```type``` of 'financing', a ```code``` of 'commercialClose' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+ This milestone should have a `type` of 'financing', a `code` of 'commercialClose' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
 
 
-**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
  
 
@@ -774,7 +774,7 @@ Contract Milestones (Estimated and Actual) - Date of financial close
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -787,13 +787,13 @@ P   U   U   U
 
 
 
- To indicate the date of financial close, a milestone should be added to the ```contract/milestones``` (the contract may have a ```status``` of 'pending' up until it is signed). 
+ To indicate the date of financial close, a milestone should be added to the `contract/milestones` (the contract may have a `status` of 'pending' up until it is signed). 
 
-The milestone should have a ```type``` of 'financing', a ```code``` of 'financialClose' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+The milestone should have a `type` of 'financing', a `code` of 'financialClose' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
 
 
-**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
  
 
@@ -801,7 +801,7 @@ The milestone should have a ```type``` of 'financing', a ```code``` of 'financia
 
 Key events relating to the implementation of the project.
 
- This information can be provided using entries in the appropriate milestones array, with each milestone having a ```type```, ```code``` and ```status``` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
+ This information can be provided using entries in the appropriate milestones array, with each milestone having a `type`, `code` and `status` from the relevant codelists. Additional documentation, or links to documentation, can be provided using the documents block for the milestone. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -821,7 +821,7 @@ Contract Milestones (Estimated and Actual) - Date of commencement of constructio
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -834,10 +834,10 @@ P   U   U   U   U   U
 
 
 
- The milestone should have a ```type``` of 'delivery', a ```code``` of 'developmentStarted' or 'constructionStarted' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+ The milestone should have a `type` of 'delivery', a `code` of 'developmentStarted' or 'constructionStarted' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
 
-**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
  
 
@@ -847,7 +847,7 @@ Contract Milestones (Estimated and Actual) - Date of completion of construction 
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -860,9 +860,9 @@ P   U   U   U   U   U
 
 
 
- The milestone should have a ```type``` of 'delivery', a ```code``` of 'developmentComplete' or 'constructionComplete' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+ The milestone should have a `type` of 'delivery', a `code` of 'developmentComplete' or 'constructionComplete' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
-**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
  
 
@@ -874,7 +874,7 @@ Contract Milestones (Estimated and Actual) - Date of commissioning
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -887,9 +887,9 @@ P   U   U   U   U   U
 
 
 
- The milestone should have a ```type``` of 'delivery', a ```code``` of 'commissioning' and a status of either ```scheduled``` or ```met``` with either the date that this milestone was achieved in ```dateMet```, or the scheduled date in ```dueDate```.
+ The milestone should have a `type` of 'delivery', a `code` of 'commissioning' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
-**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the ```milestones``` building block.
+**Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
  
 
@@ -899,7 +899,7 @@ Contract Milestones (Estimated and Actual) - Date of contract expiry
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -912,13 +912,13 @@ P   U   U   U   U   U
 
 
 
- Information on the expected contract expiry date at the tender and award stages of a contracting process should be provided using ```contractPeriod``` field in the ```tender``` and ```award``` sections of an OCDS release respectively.
+ Information on the expected contract expiry date at the tender and award stages of a contracting process should be provided using `contractPeriod` field in the `tender` and `award` sections of an OCDS release respectively.
 
-This expected date of contract expiry should be entered into the ```contractPeriod/endDate``` field.
+This expected date of contract expiry should be entered into the `contractPeriod/endDate` field.
 
-Information on the actual contract expiry date should be provided using the ```period``` field in the ```contract``` section of an OCDS release.
+Information on the actual contract expiry date should be provided using the `period` field in the `contract` section of an OCDS release.
 
-The actual date of contract expiry should be entered into the ```period/endDate``` field.  
+The actual date of contract expiry should be entered into the `period/endDate` field.  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -958,7 +958,7 @@ Links to all contract documents
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -971,9 +971,9 @@ P   U   U   U   U   U
 
 
 
- Links to contract documents can be provided using the ```documents``` field in the ```contract``` section of an OCDS release (the contract may have a ```status``` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
+ Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
-A value from the [document type codelist](_static/codelists/#document-type) (```contractDraft```, ```contractSigned``` or ```contractSchedule``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -985,7 +985,7 @@ A value from the [document type codelist](_static/codelists/#document-type) (```
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -1005,7 +1005,7 @@ Public authority: name of authority, name of representative, address, telephone,
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1018,7 +1018,7 @@ P   U   U   U   U   U
 
 
 
- The ```contracts``` section of an OCDS release should be used to reference the entries in the ```parties``` section for all signatories to the contract, including the public authority. 
+ The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including the public authority. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1057,7 +1057,7 @@ P   U   U   U   U   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1070,9 +1070,9 @@ P   U   U   U   U   U
 
 
 
- Details of the public authority, including name and contact details, should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the public authority, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```publicAuthority``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
+The `organization/roles` field should be set to `publicAuthority` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1111,7 +1111,7 @@ The ```organization/roles``` field should be set to ```publicAuthority``` and th
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1124,7 +1124,7 @@ P   U   U   U   U   U
 
 
 
- The ```publicAuthority``` section of an OCDS release should be used to reference the entry for the public authority in the ```parties``` section. 
+ The `publicAuthority` section of an OCDS release should be used to reference the entry for the public authority in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1172,7 +1172,7 @@ Private party: name of company or consortium, name of representative, address, t
 
 
 
- The ```contracts``` section of an OCDS release should be used to reference the entries in the ```parties``` section for all signatories to the contract, including the private party. 
+ The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including the private party. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1209,9 +1209,9 @@ Private party: name of company or consortium, name of representative, address, t
 
 
 
- Details of the private party, including name and contact details, should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the private party, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```privateParty``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
+The `organization/roles` field should be set to `privateParty` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1248,7 +1248,7 @@ The ```organization/roles``` field should be set to ```privateParty``` and the `
 
 
 
- The ```awards``` section of an OCDS release should be used to reference the entry for the private party in the ```parties``` section. 
+ The `awards` section of an OCDS release should be used to reference the entry for the private party in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1293,9 +1293,9 @@ Financiers: name of Lead FI, other FIs, name of representative of lead FI, addre
 
 
 
- Details of the financiers, including name and contact details, should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the financiers, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```leadBank``` or ```lender``` as appropriate and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
+The `organization/roles` field should be set to `leadBank` or `lender` as appropriate and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1332,7 +1332,7 @@ The ```organization/roles``` field should be set to ```leadBank``` or ```lender`
 
 
 
- The ```contracts``` section of an OCDS release should be used to reference the entries in the ```parties``` section for all signatories to the contract, including any financiers which are signatories. 
+ The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including any financiers which are signatories. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1387,7 +1387,7 @@ Dates and summary details, links to all procurement documents, final feasibility
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1400,7 +1400,7 @@ P   U
 
 
 
- The ```preQualification/period``` field should be used to provide the period during which the pre-qualification stage is open for submissions, ```period.endDate``` should contain the closing date for submissions. 
+ The `preQualification/period` field should be used to provide the period during which the pre-qualification stage is open for submissions, `period.endDate` should contain the closing date for submissions. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1439,7 +1439,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1452,7 +1452,7 @@ P   U
 
 
 
- The ```preQualification/enquiryPeriod``` field should be used to provide the period during which enquiries may be made and answered. 
+ The `preQualification/enquiryPeriod` field should be used to provide the period during which enquiries may be made and answered. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1491,7 +1491,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1504,7 +1504,7 @@ P   U
 
 
 
- The ```preQualification/qualificationPeriod``` field should be used to provide the period during which candidates will be qualified or pre-selected (shortlisted).  
+ The `preQualification/qualificationPeriod` field should be used to provide the period during which candidates will be qualified or pre-selected (shortlisted).  
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1543,7 +1543,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1556,7 +1556,7 @@ P   U
 
 
 
- Information on the submission method for bids should be provided in the ```preQualification``` section of an OCDS release: 
+ Information on the submission method for bids should be provided in the `preQualification` section of an OCDS release: 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1597,7 +1597,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1610,7 +1610,7 @@ P   U
 
 
 
- Information on the eligibility criteria for participants in the pre-qualification stage can be provided using ```preQualification``` section of an OCDS release. 
+ Information on the eligibility criteria for participants in the pre-qualification stage can be provided using `preQualification` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1653,9 +1653,9 @@ RFQ documents
 
 
 
- Links to RFQ documents can be provided using the ```documents``` field in the ```preQualification``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Links to RFQ documents can be provided using the `documents` field in the `preQualification` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1667,7 +1667,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -1677,9 +1677,9 @@ Pre-qualification or shortlist
 
  OCDS provides an [organization building block](_static/reference/#organization) which can be used for disclosure of information about bidders and their roles:
 
-* Information about the bidders which have been shortlisted or invited to submit a proposal following the pre-qualification process should be provided using an entry in the ```parties``` section of an OCDS release with the ```organization/role``` field set to ```qualifiedBidder```.
+* Information about the bidders which have been shortlisted or invited to submit a proposal following the pre-qualification process should be provided using an entry in the `parties` section of an OCDS release with the `organization/role` field set to `qualifiedBidder`.
 
-* Information about the bidders which were not shortlisted or invited to submit a proposal follow the pre-qualification process can be provided using an entry in the ```parties``` section of an OCDS release with the ```organization/role``` field set to ```disqualifiedBidder```. 
+* Information about the bidders which were not shortlisted or invited to submit a proposal follow the pre-qualification process can be provided using an entry in the `parties` section of an OCDS release with the `organization/role` field set to `disqualifiedBidder`. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1691,7 +1691,7 @@ Pre-qualification or shortlist
 ```
 
 
-**Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the ```organization``` building block.
+**Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the `organization` building block.
 
  
 
@@ -1709,7 +1709,7 @@ Pre-qualification or shortlist
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1722,7 +1722,7 @@ P   U
 
 
 
- The ```tender/tenderPeriod``` field should be used to provide the period during which the tender is open for submissions, ```tenderPeriod.endDate``` should contain the closing date for tender submissions. 
+ The `tender/tenderPeriod` field should be used to provide the period during which the tender is open for submissions, `tenderPeriod.endDate` should contain the closing date for tender submissions. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1761,7 +1761,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1774,7 +1774,7 @@ P   U
 
 
 
- The ```tender/enquiryPeriod```field should be used to provide the period during which enquiries may be made and answered. 
+ The `tender/enquiryPeriod`field should be used to provide the period during which enquiries may be made and answered. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1807,10 +1807,10 @@ P   U
 
 Some PPP procurement processes have more than one enquiry period during the tender stage of the procurement. In such cases:
 
-* The ```tender/enquiryPeriod``` field should be used to provide the **next** period during which enquiries may be made and answered, if there are no further enquiry periods scheduled the field should be used to provide the **most recent** period during which enquiries may be made and answered. Where an OCDS release is published during an enquiry period the ```tender/enquiryPeriod``` field should be used to provide the start and end dates of the **current** enquiry period.
-* The ```tender/milestones``` block should be used to provide details of any subsequent enquiry periods beyond the next period during which enquiries may be made and answered.
+* The `tender/enquiryPeriod` field should be used to provide the **next** period during which enquiries may be made and answered, if there are no further enquiry periods scheduled the field should be used to provide the **most recent** period during which enquiries may be made and answered. Where an OCDS release is published during an enquiry period the `tender/enquiryPeriod` field should be used to provide the start and end dates of the **current** enquiry period.
+* The `tender/milestones` block should be used to provide details of any subsequent enquiry periods beyond the next period during which enquiries may be made and answered.
 
-The above guidance should also be followed for processes with multiple enquiry periods during the pre-qualification stage of the procurement, in such cases the same approach should be applied to the equivalent fields from the ```preQualification``` section of an OCDS release. 
+The above guidance should also be followed for processes with multiple enquiry periods during the pre-qualification stage of the procurement, in such cases the same approach should be applied to the equivalent fields from the `preQualification` section of an OCDS release. 
 
  #### II.3.3. Dates - Award period 
 
@@ -1818,7 +1818,7 @@ The above guidance should also be followed for processes with multiple enquiry p
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1831,7 +1831,7 @@ P   U
 
 
 
- The ```tender/awardPeriod``` field should be used to provide the period during which an award is expected to be made. 
+ The `tender/awardPeriod` field should be used to provide the period during which an award is expected to be made. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1870,7 +1870,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1883,7 +1883,7 @@ P   U   U   U   U   U
 
 
 
- The ```tender/contractPeriod``` field should be used to provide the expected start and end dates for the contract. 
+ The `tender/contractPeriod` field should be used to provide the expected start and end dates for the contract. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1923,7 +1923,7 @@ P   U   U   U   U   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1936,7 +1936,7 @@ P   U
 
 
 
- Information on the procurement method used should be provided in the ```tender``` section of an OCDS release: 
+ Information on the procurement method used should be provided in the `tender` section of an OCDS release: 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1977,7 +1977,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -1990,7 +1990,7 @@ P   U
 
 
 
- Information on the submission method for bids should be provided in the ```tender``` section of an OCDS release: 
+ Information on the submission method for bids should be provided in the `tender` section of an OCDS release: 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2031,7 +2031,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -2044,7 +2044,7 @@ P   U
 
 
 
- Information on the eligibility criteria for bidders can be provided using ```tender``` section of an OCDS release. 
+ Information on the eligibility criteria for bidders can be provided using `tender` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2085,7 +2085,7 @@ P   U
 
 <div class='disclosure-timing'>
 
-```eval_rst 
+```eval_rst
 ==  ==  ==  ==  ==  ==
 PP  P   A   CC  I   R 
 ==  ==  ==  ==  ==  ==
@@ -2098,9 +2098,9 @@ P   U
 
 
 
- Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](_static/reference/#document) in the ```tender/documents``` array. A short summary text for each document can also be provided using the ```document/description``` field.
+ Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](_static/reference/#document) in the `tender/documents` array. A short summary text for each document can also be provided using the `document/description` field.
 
-Each document should be tagged with an appropriate ```documentType``` value from the [document type codelist](_static/codelists/#document-type). 
+Each document should be tagged with an appropriate `documentType` value from the [document type codelist](_static/codelists/#document-type). 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2112,7 +2112,7 @@ Each document should be tagged with an appropriate ```documentType``` value from
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2120,11 +2120,11 @@ Each document should be tagged with an appropriate ```documentType``` value from
 
 Evaluation criteria: brief description with weightage
 
- This should be provided in a document, or documents, using the ```documents``` field in the ```tender``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This should be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-The ```document/documentType``` field should be set to ```evaluationCriteria``` (from the [document type codelist](_static/codelists/#document-type)) to identify the type of document being disclosed. 
+The `document/documentType` field should be set to `evaluationCriteria` (from the [document type codelist](_static/codelists/#document-type)) to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2136,7 +2136,7 @@ The ```document/documentType``` field should be set to ```evaluationCriteria``` 
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2144,11 +2144,11 @@ The ```document/documentType``` field should be set to ```evaluationCriteria``` 
 
 Brief information on constitution of the evaluation committees
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```tender``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value of ```evaluationCommittee``` from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value of `evaluationCommittee` from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2160,7 +2160,7 @@ A value of ```evaluationCommittee``` from the [document type codelist](_static/c
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2168,11 +2168,11 @@ A value of ```evaluationCommittee``` from the [document type codelist](_static/c
 
 Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```tender``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```negotiationParameters``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed.
+A value from the [document type codelist](_static/codelists/#document-type) of `negotiationParameters` should be entered into the `document/documentType` field to identify the type of document being disclosed.
  
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -2185,7 +2185,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2193,11 +2193,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Minutes of pre-bid meetings
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```tender``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```minutes``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `minutes` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2209,7 +2209,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2225,9 +2225,9 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 
 
- Details of the preferred bidder, including name and contact details, should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the preferred bidder, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```preferredBidder``` and the ```organization/contactPoint``` field can be used to provide details of a named representative. 
+The `organization/roles` field should be set to `preferredBidder` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2264,7 +2264,7 @@ The ```organization/roles``` field should be set to ```preferredBidder``` and th
 
 
 
- The ```award``` section of an OCDS release should be used to reference the entry for the preferred bidder in the ```parties``` section. 
+ The `award` section of an OCDS release should be used to reference the entry for the preferred bidder in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2319,7 +2319,7 @@ Listing of risks with information on who bears the risk. Countries, sectors, and
 
 
 
- Structured information on the risk allocation should be provided using the ```contract/riskAllocation``` section of an OCDS release.
+ Structured information on the risk allocation should be provided using the `contract/riskAllocation` section of an OCDS release.
 
 The following information should be provided for each risk:
 
@@ -2365,7 +2365,7 @@ Additional free text information on each risk allocation, for example the ration
 
 
 
- Additional financial modelling for risks can also be linked to or provided in a document, using a ```documentType``` of ```riskProvisions```. 
+ Additional financial modelling for risks can also be linked to or provided in a document, using a `documentType` of `riskProvisions`. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2377,7 +2377,7 @@ Additional free text information on each risk allocation, for example the ration
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2393,11 +2393,11 @@ Additional free text information on each risk allocation, for example the ration
 
 Link to evaluation report (value for money or other)
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```award``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```evaluationReports``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `evaluationReports` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2409,7 +2409,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2427,11 +2427,11 @@ State the rationale for doing the project as a PPP, including any qualitative or
 
 *Note: Choice of methodology affects the costs to the public and it is important to assure them that the PPP mode selected is the best possible in terms of cost, given equal standards of service in all modes tested.*
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```award``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```valueForMoneyAnalysis``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `valueForMoneyAnalysis` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2443,7 +2443,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2451,7 +2451,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The discount rates used should be specified in the disclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
 
- Structured information and supporting details about the discount rate and risk premium used by government to evaluate the PPP should be provided in the ```award/evaluationIndicators``` section of an OCDS release. 
+ Structured information and supporting details about the discount rate and risk premium used by government to evaluate the PPP should be provided in the `award/evaluationIndicators` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2488,11 +2488,11 @@ The discount rates used should be specified in the disclosure along with the ris
 
 
 
- Supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided in a document, or documents, using the ```documents``` field in the ```award``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```discountRate``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `discountRate` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2504,7 +2504,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2512,11 +2512,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Risk comparison of other financing mechanisms should be specified.
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```award``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```riskComparison``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `riskComparison` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2528,7 +2528,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2544,7 +2544,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Debt-equity ratio
 
- Structured information and supporting details about the debt-equity ratio for the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
+ Structured information and supporting details about the debt-equity ratio for the PPP should be provided in the `contract/financeSummary` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2583,7 +2583,7 @@ Debt-equity ratio
 
 Share capital
 
- Structured information and supporting details about the share capital of the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
+ Structured information and supporting details about the share capital of the PPP should be provided in the `contract/financeSummary` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2630,9 +2630,9 @@ Shareholders with proportion held and voting rights
 
 
 
- Details of the shareholders should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the shareholders should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```equityInvestor```. 
+The `organization/roles` field should be set to `equityInvestor`. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2669,7 +2669,7 @@ The ```organization/roles``` field should be set to ```equityInvestor```.
 
 
 
- Structured information about each shareholder on the proportion of shares held and voting rights should be provided in the entry in the ```parties/shareholders``` section of an OCDS release. 
+ Structured information about each shareholder on the proportion of shares held and voting rights should be provided in the entry in the `parties/shareholders` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2716,11 +2716,11 @@ Equity transfer caps
 
 
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```equityTransferCaps``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `equityTransferCaps` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2732,7 +2732,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -2740,7 +2740,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 
 
- Information on equity transfer caps or lock in arrangements applicable to a particular shareholder can be provided in the ```parties/shareholders/notes``` field. 
+ Information on equity transfer caps or lock in arrangements applicable to a particular shareholder can be provided in the `parties/shareholders/notes` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2785,9 +2785,9 @@ Commercial lenders, institutional investors, bilateral or multilateral lenders, 
 
 
 
- Details of lenders and investors should be provided in the ```parties``` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of lenders and investors should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
 
-The ```organization/roles``` field should be set to ```lender``` or ```equityInvestor``` as appropriate. 
+The `organization/roles` field should be set to `lender` or `equityInvestor` as appropriate. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2824,7 +2824,7 @@ The ```organization/roles``` field should be set to ```lender``` or ```equityInv
 
 
 
- Details of the type of finance provided by each lender or investor should be provided in the ```contract/finance``` section of an OCDS release. 
+ Details of the type of finance provided by each lender or investor should be provided in the `contract/finance` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2861,7 +2861,7 @@ The ```organization/roles``` field should be set to ```lender``` or ```equityInv
 
 Categorize senior debit, mezzanine debit, other
 
- Details of all debt financing should be provided in the ```contract/finance``` section of an OCDS release.
+ Details of all debt financing should be provided in the `contract/finance` section of an OCDS release.
 
 *Note: Not all fields are required or applicable to all types of financing arrangement* 
 
@@ -2902,7 +2902,7 @@ Categorize senior debit, mezzanine debit, other
 
 Amount and tenor of each, fixed or floating rate
 
- Details of interest rates relating to each finance arrangement should be provided in the ```contract/finance``` section of an OCDS release. 
+ Details of interest rates relating to each finance arrangement should be provided in the `contract/finance` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2947,7 +2947,7 @@ Security and step in arrangements
 
 
 
- Details of security and step in rights relating to each financing arrangement should be provided in the ```contract/finance/description``` field, whilst the ```contract/finance/stepInRights``` flag should be set for each financing arrangement to indicate whether step in rights apply. 
+ Details of security and step in rights relating to each financing arrangement should be provided in the `contract/finance/description` field, whilst the `contract/finance/stepInRights` flag should be set for each financing arrangement to indicate whether step in rights apply. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2986,11 +2986,11 @@ Security and step in arrangements
 
 
 
- This information can be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```financeArrangements``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `financeArrangements` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3002,7 +3002,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3010,7 +3010,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Forecast IRR
 
- Structured information and supporting details about the forecast IRR of the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
+ Structured information and supporting details about the forecast IRR of the PPP should be provided in the `contract/financeSummary` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3065,7 +3065,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
 
 
 
- Structured information about financial guarantees can be provided in the contract ```finance``` block, with a ```financeCategory``` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented. 
+ Structured information about financial guarantees can be provided in the contract `finance` block, with a `financeCategory` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3083,9 +3083,9 @@ Detail the type and exact details of the guarantees provided - both explicit and
 
 
 
- Documentation of each guarantee should be provided using one or more ```documentation``` blocks (one for each guarantee) in the ```contract``` section of an OCDS release, with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.
+ Documentation of each guarantee should be provided using one or more `documentation` blocks (one for each guarantee) in the `contract` section of an OCDS release, with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.
 
-A value of ```guarantee``` should be used in the ```documentType``` field. 
+A value of `guarantee` should be used in the `documentType` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3119,7 +3119,7 @@ Subsidy as a proportion of project value
 
 
 
- Structured information and supporting details about the subsidy ratio for the PPP should be provided in the ```contract/financeSummary``` section of an OCDS release. 
+ Structured information and supporting details about the subsidy ratio for the PPP should be provided in the `contract/financeSummary` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3158,11 +3158,11 @@ Subsidy as a proportion of project value
 
 
 
- Supporting documentation about the subsidy ratio can be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Supporting documentation about the subsidy ratio can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```grants``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3174,7 +3174,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3182,11 +3182,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Capital subsidies paid during construction with periodicity of milestones
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```grants``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3198,7 +3198,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3206,11 +3206,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Operating subsidies and their periodicity of milestones
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3222,7 +3222,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3238,7 +3238,7 @@ These are payments made by the public authority or purchaser to the private prov
 
 
 
- Structured information on actual individual service payments can be provided in the ```contract/implementation/transactions``` section of an OCDS release. 
+ Structured information on actual individual service payments can be provided in the `contract/implementation/transactions` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3275,7 +3275,7 @@ These are payments made by the public authority or purchaser to the private prov
 
 Total payments and periodicity
 
- Structured information on total service payments can be provided in the ```contract/implementation/charges``` sections of an OCDS release. 
+ Structured information on total service payments can be provided in the `contract/implementation/charges` sections of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3312,11 +3312,11 @@ Total payments and periodicity
 
 Methodology for calculating payments
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```servicePayments``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3328,7 +3328,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3336,11 +3336,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Indexation used
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```servicePayments``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3352,7 +3352,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3362,11 +3362,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 * Equipment transfers: details of equipment with conditions of transfer
 * Human resources/personnel transfers: details and conditions of transfer
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```lease``` or ```assetTransfer``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `lease` or `assetTransfer` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3378,7 +3378,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3387,11 +3387,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 * Non-complete clauses
 * Provision for revenue shortfall loan
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```otherGovernmentSupport``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `otherGovernmentSupport` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3403,7 +3403,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3421,11 +3421,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```revenueShare``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3437,7 +3437,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3445,11 +3445,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```implementation``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```revenueShare``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3461,7 +3461,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3487,9 +3487,9 @@ Structured information on the tariffs defined in the contract and subsequent rev
 
 
 
- Structured information on the tariffs defined in the contract should be provided in the ```contract/tariffs``` section of an OCDS release and subsequent revisions to tariffs can be provided in the ```implementation/tariffs``` section of an OCDS release. 
+ Structured information on the tariffs defined in the contract should be provided in the `contract/tariffs` section of an OCDS release and subsequent revisions to tariffs can be provided in the `implementation/tariffs` section of an OCDS release. 
 
-Information on who pays the tariff can be modelled using a ```dimension``` in cases where different charges apply to different parties. 
+Information on who pays the tariff can be modelled using a `dimension` in cases where different charges apply to different parties. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3526,11 +3526,11 @@ Information on who pays the tariff can be modelled using a ```dimension``` in ca
 
 
 
- Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the ```documents``` field of the ```implementation``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the `documents` field of the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```tariffs``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `tariffs` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3542,7 +3542,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3550,11 +3550,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Methodology for tariff setting/pricing
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```tariffMethod``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `tariffMethod` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3566,7 +3566,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3574,11 +3574,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3590,7 +3590,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3598,11 +3598,11 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```tariffIllustration``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `tariffIllustration` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3614,7 +3614,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3630,11 +3630,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
- Provision for contract termination should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Provision for contract termination should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```termination``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `termination` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3646,7 +3646,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3654,11 +3654,11 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of ```handover``` should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) of `handover` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3670,7 +3670,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3713,11 +3713,11 @@ State variations to contract, if any, after signing of the original contract det
 
 
 
- The amended contract should be provided using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ The amended contract should be provided using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the variations to the contract to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the variations to the contract to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3735,7 +3735,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 Nature of Variation
 
- A description of the nature of the variation should be provided in the ```amendment/description``` field. 
+ A description of the nature of the variation should be provided in the `amendment/description` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3753,7 +3753,7 @@ Nature of Variation
 
 Rationale for variation
 
- A rationale for the variation should be provided in the ```amendment/rationale``` field. 
+ A rationale for the variation should be provided in the `amendment/rationale` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3771,7 +3771,7 @@ Rationale for variation
 
 Change in roles and responsibilities of the parties due to the variation, if any
 
- Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the ```parties``` section of an OCDS release. 
+ Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the `parties` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3789,7 +3789,7 @@ Change in roles and responsibilities of the parties due to the variation, if any
 
 Change in original risk allocation due to the variation, if any
 
- Structured information on changes to the original risk allocation due to the variation should be provided by updating the ```contract/riskAllocation``` section of an OCDS release. 
+ Structured information on changes to the original risk allocation due to the variation should be provided by updating the `contract/riskAllocation` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3807,11 +3807,11 @@ Change in original risk allocation due to the variation, if any
 
 Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3823,7 +3823,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3831,11 +3831,11 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 Change in capital or operational costs due to the variation, if any
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```contract``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3847,7 +3847,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -3855,7 +3855,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 Change in tariffs or service levels due to the variation, if any
 
- Structured information on changes to the tariffs should be provided by updating the ```contract/implementation/tariffs``` section of an OCDS release. 
+ Structured information on changes to the tariffs should be provided by updating the `contract/implementation/tariffs` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3873,7 +3873,7 @@ Change in tariffs or service levels due to the variation, if any
 
 
 
- Structured information on changes to services levels should be provided by updating the ```contract/agreedMetrics``` section of an OCDS release. 
+ Structured information on changes to services levels should be provided by updating the `contract/agreedMetrics` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3891,7 +3891,7 @@ Change in tariffs or service levels due to the variation, if any
 
 Date of variation
 
- The date of the variation should be provided using the ```amendment/date``` field. 
+ The date of the variation should be provided using the `amendment/date` field. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3917,11 +3917,11 @@ Date of variation
 
 State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
- Structured data about estimated demand should be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
+ Structured data about estimated demand should be provided in the `contract/implementation/metrics` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'demand' should be given, with a series of actual ```observations``` that capture the actual demand for a given period.
+A metric with the `id` 'demand' should be given, with a series of actual `observations` that capture the actual demand for a given period.
 
-These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
+These estimates can be disaggregated by any number of dimensions contained as simple fields within the `observation/dimensions` object. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3968,11 +3968,11 @@ Recommended only where revenue share clauses or other related clauses such as MR
 
 State the actual annual total revenues reported in the financial statements and reports.
 
- Structured data about aggregated annual revenues can be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
+ Structured data about aggregated annual revenues can be provided in the `contract/implementation/metrics` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'revenue' should be given, with a series of actual ```observations``` that capture the revenue for a given period.
+A metric with the `id` 'revenue' should be given, with a series of actual `observations` that capture the revenue for a given period.
 
-These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
+These estimates can be disaggregated by any number of dimensions contained as simple fields within the `observation/dimensions` object. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3984,7 +3984,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
  
 
@@ -3992,9 +3992,9 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 Provide links to audited financial statements of the provider company.
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```implementation``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4006,7 +4006,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 
@@ -4014,11 +4014,11 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 Recommended only where there is government equity investment or other form of government support that is substantial
 
- Structured data about actual IRR can be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
+ Structured data about actual IRR can be provided in the `contract/implementation/metrics` section of an OCDS release, using an array of metrics building blocks.
 
-A metric with the ```id``` 'IRR' should be given, with a series of actual ```observations``` that capture the revenue for a given period.
+A metric with the `id` 'IRR' should be given, with a series of actual `observations` that capture the revenue for a given period.
 
-These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
+These estimates can be disaggregated by any number of dimensions contained as simple fields within the `observation/dimensions` object. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4030,7 +4030,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
  
 
@@ -4038,9 +4038,9 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 State actual year-wise performance here against each of 10-12 identified key performance indicators
 
- Structured data about actual performance against KPIs can be provided in the ```contract/implementation/metrics``` section of an OCDS release, using an array of metrics building blocks.
+ Structured data about actual performance against KPIs can be provided in the `contract/implementation/metrics` section of an OCDS release, using an array of metrics building blocks.
 
-These estimates can be disaggregated by any number of dimensions contained as simple fields within the ```observation/dimensions``` object. 
+These estimates can be disaggregated by any number of dimensions contained as simple fields within the `observation/dimensions` object. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4052,7 +4052,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 ```
 
 
-**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the ```metrics``` building block.
+**Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
  
 
@@ -4060,7 +4060,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed.
 
- Structured data about actual performance failures, penalties and abatements and those provided for in the contract can be provided in the ```contract/implementation/performanceFailures``` section of an OCDS release.
+ Structured data about actual performance failures, penalties and abatements and those provided for in the contract can be provided in the `contract/implementation/performanceFailures` section of an OCDS release.
  
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -4098,11 +4098,11 @@ State instances of performance failure during the year and the penalty or abatem
 
 Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
 
- This information should be provided in a document, or documents, using the ```documents``` field in the ```implementation``` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-The ```document/description``` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
+The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the ```document/documentType``` field to identify the type of document being disclosed. 
+A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4114,7 +4114,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 ```
 
 
-**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the ```documents``` building block.
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
  
 

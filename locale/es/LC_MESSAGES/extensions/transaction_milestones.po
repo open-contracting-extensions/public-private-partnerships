@@ -30,7 +30,7 @@ msgstr "Antecedentes"
 msgid ""
 "In core OCDS `transactions` are a property of the `implementation` object."
 msgstr ""
-"En OCDS  las ```transactions``` son propiedad del objeto `implementation`."
+"En OCDS  las `transactions` son propiedad del objeto `implementation`."
 
 #: ../../docs/extensions/transaction_milestones.md:7
 msgid ""

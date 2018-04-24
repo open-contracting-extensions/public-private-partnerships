@@ -32,16 +32,16 @@ msgstr ""
 "períodos clave, tales como:"
 
 #: ../../docs/extensions/milestones.md:5
-msgid "```tenderPeriod```"
-msgstr "```tenderPeriod```"
+msgid "`tenderPeriod`"
+msgstr "`tenderPeriod`"
 
 #: ../../docs/extensions/milestones.md:6
-msgid "```awardPeriod```"
-msgstr "```awardPeriod```"
+msgid "`awardPeriod`"
+msgstr "`awardPeriod`"
 
 #: ../../docs/extensions/milestones.md:7
-msgid "```contract/period```"
-msgstr "```contract/period```"
+msgid "`contract/period`"
+msgstr "`contract/period`"
 
 #: ../../docs/extensions/milestones.md:9
 msgid ""
@@ -107,10 +107,10 @@ msgstr "Hitos por sección"
 
 #: ../../docs/extensions/milestones.md:25
 msgid ""
-"With this extension in use, a ```milestones``` building block is available "
+"With this extension in use, a `milestones` building block is available "
 "in the following sections:"
 msgstr ""
-"Con esta extensión en uso, un bloque ```milestones``` está disponible en las"
+"Con esta extensión en uso, un bloque `milestones` está disponible en las"
 " siguientes secciones:"
 
 #: ../../docs/extensions/milestones.md:27
@@ -144,13 +144,13 @@ msgid ""
 "**Implementation** - for any milestones relating to delivery, reporting and "
 "financial progress. If these milestones are known at the time of award, but "
 "before a contract is signed, they can be indicated using a draft contract "
-"block (with ```contract/status``` of ```pending```)"
+"block (with `contract/status` of `pending`)"
 msgstr ""
 "**Implementation** - para cualquier hito relacionado con la entrega, la "
 "presentación de informes y el progreso financiero. Si se conocen estos hitos"
 " en el momento de la adjudicación, pero antes de firmar un contrato, pueden "
-"indicarse mediante un borrador de contrato (con ```contract/status``` `` "
-"`pending```)"
+"indicarse mediante un borrador de contrato (con `contract/status` "
+"`pending`)"
 
 #: ../../docs/extensions/milestones.md:32
 msgid ""
@@ -190,9 +190,9 @@ msgstr "Tipos de hitos"
 
 #: ../../docs/extensions/milestones.md:40
 msgid ""
-"A field for ```milestone/type``` with the following values is introduced."
+"A field for `milestone/type` with the following values is introduced."
 msgstr ""
-"Se introduce un campo para ```milestone/type``` con los siguientes valores."
+"Se introduce un campo para `milestone/type` con los siguientes valores."
 
 #: ../../docs/extensions/milestones.md:42
 msgid "**preProcurement** - for events such as the preparation of key studies"
@@ -291,10 +291,10 @@ msgstr "dateMet"
 
 #: ../../docs/extensions/milestones.md:61
 msgid ""
-"A field for ```milestone/dateMet``` is introduced to capture the date on "
+"A field for `milestone/dateMet` is introduced to capture the date on "
 "which tile milestone was completed."
 msgstr ""
-"Se introduce un campo para ```milestone/dateMet``` para capturar la fecha en"
+"Se introduce un campo para `milestone/dateMet` para capturar la fecha en"
 " la que se completó el hito."
 
 #: ../../docs/extensions/milestones.md:0
@@ -303,25 +303,25 @@ msgstr "Códigos de hitos"
 
 #: ../../docs/extensions/milestones.md:65
 msgid ""
-"A field is included for ```milestone/code``` which can be used by "
+"A field is included for `milestone/code` which can be used by "
 "applications to particular classify milestone events that may be important "
 "for analysis."
 msgstr ""
-"Se incluye un campo para ```milestone/code``` que puede ser usado por las "
+"Se incluye un campo para `milestone/code` que puede ser usado por las "
 "aplicaciones para clasificar eventos de hito  que pueden ser importantes "
 "para realizar análisis."
 
 #: ../../docs/extensions/milestones.md:67
 msgid ""
 "For example, some red flag analysis applications need to track approvals, "
-"and so may propose a code for ```projectApproval```. They can then look for "
-"projects which have a milestone with the code ```projectApproval``` and a "
+"and so may propose a code for `projectApproval`. They can then look for "
+"projects which have a milestone with the code `projectApproval` and a "
 "status of 'Met'."
 msgstr ""
 "Por ejemplo, algunas aplicaciones de análisis de banderas rojas necesitan "
 "rastrear las aprobaciones, por lo que pueden proponer un código para "
-"```projectApproval```. A continuación, pueden buscar proyectos que tengan un"
-" hito con el código ```projectApproval``` y un estado de 'Met'."
+"`projectApproval`. A continuación, pueden buscar proyectos que tengan un"
+" hito con el código `projectApproval` y un estado de 'Met'."
 
 #: ../../docs/extensions/milestones.md:0
 msgid "PPP Usage"
@@ -329,10 +329,10 @@ msgstr "Uso de APP"
 
 #: ../../docs/extensions/milestones.md:71
 msgid ""
-"For PPP disclosures, the following ```milestone/code``` values can be used:"
+"For PPP disclosures, the following `milestone/code` values can be used:"
 msgstr ""
 "Para las divulgaciones de APP, se pueden usar los siguientes valores de "
-"```milestone/code```:"
+"`milestone/code`:"
 
 #: ../../docs/extensions/milestones.md:73
 msgid "**approval**"
@@ -380,18 +380,18 @@ msgstr ""
 
 #: ../../docs/extensions/milestones.md:244
 msgid ""
-"This draft does not deprecate ```milestone/documents``` as discussed in "
+"This draft does not deprecate `milestone/documents` as discussed in "
 "[#355](https://github.com/open-contracting/standard/issues/355)"
 msgstr ""
-"Este borrador no deprecia ```milestone/documents``` como se discute en [# "
+"Este borrador no deprecia `milestone/documents` como se discute en [# "
 "355](https://github.com/open-contracting/standard/issues/355)"
 
 #: ../../docs/extensions/milestones.md:245
 msgid ""
-"This draft does not include a ```report``` field for free-text reporting on "
+"This draft does not include a `report` field for free-text reporting on "
 "milestone progress as discussed in [#373](https://github.com/open-"
 "contracting/standard/issues/373)"
 msgstr ""
-"Este borrador no incluye un campo ```report``` para reportes de texto libre "
+"Este borrador no incluye un campo `report` para reportes de texto libre "
 "sobre el progreso del hito como se discute en [#373](https://github.com"
 "/open-contracting/standard/issues/373)"

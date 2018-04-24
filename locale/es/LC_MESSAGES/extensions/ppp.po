@@ -101,10 +101,10 @@ msgstr ""
 
 #: ../../docs/extensions/ppp.md:52
 msgid ""
-"The ```award/evaluationIndicators``` section includes properties to express "
+"The `award/evaluationIndicators` section includes properties to express "
 "the **value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección ```award/evaluationIndicators``` incluye propiedades para "
+"La sección `award/evaluationIndicators` incluye propiedades para "
 "expresar el **value** y apoyar **detalles de texto libre** para cada "
 "indicador:"
 
@@ -137,10 +137,10 @@ msgstr ""
 
 #: ../../docs/extensions/ppp.md:62
 msgid ""
-"The ```contract/financeSummary``` section includes properties to express the"
+"The `contract/financeSummary` section includes properties to express the"
 " **value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección ```contract/financeSummary``` incluye propiedades para expresar "
+"La sección `contract/financeSummary` incluye propiedades para expresar "
 "el **value** y soporta **detalles de texto libre** para cada indicador:"
 
 #: ../../docs/extensions/ppp.md:64
