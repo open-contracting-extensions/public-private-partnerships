@@ -28,16 +28,6 @@
         ]
       }
     },
-    "title": {
-      "title": "Title",
-      "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces.",
-      "type": "string"
-    },
-    "description": {
-      "title": "Description",
-      "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces.",
-      "type": "string"
-    },
     "buyer": null,
     "publicAuthority": {
       "title": "Public authority",
