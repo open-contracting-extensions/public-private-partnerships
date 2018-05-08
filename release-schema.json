@@ -62,6 +62,7 @@
       }
     },
     "Project": {
+      "type": "object",
       "properties": {
         "sector": {
           "title": "Project sector",
@@ -99,7 +100,6 @@
         "evaluationIndicators": {
           "title": "Evaluation of PPP option",
           "description": "Key indicators that describe how the PPP option has been evaluated by government.",
-          "type": "object",
           "$ref": "#/definitions/EvaluationIndicators"
         },
         "suppliers": null,
@@ -111,7 +111,6 @@
         "financeSummary": {
           "title": "Finance summary",
           "description": "Key indicators that describe the financial model of the PPP.",
-          "type": "object",
           "$ref": "#/definitions/FinanceSummary"
         },
         "amendment": null
@@ -157,7 +156,6 @@
         "netPresentValue": {
           "title": "Net present value",
           "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
-          "type": "object",
           "$ref": "#/definitions/Value"
         },
         "netPresentValueDetails": {
@@ -194,7 +192,6 @@
         "shareCapital": {
           "title": "Share capital",
           "description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
-          "type": "object",
           "$ref": "#/definitions/Value"
         },
         "shareCapitalDetails": {
