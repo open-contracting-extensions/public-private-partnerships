@@ -7,13 +7,19 @@
     },
     "title": {
       "title": "Title",
-      "type": "string",
-      "description": "An optional title for the whole contracting process. If no process title is given, the tender, award or contract title field may be used in interfaces."
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "A overall title for this contracting process or release."
     },
     "description": {
       "title": "Description",
-      "type": "string",
-      "description": "An optional description for the whole contracting process. If no process description is given, the tender, award or contract description may be used in interfaces."
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "An overall description for this contracting process or release. This should not replace provision of a detailed breakdown of the objects of the contracting process in the planning, tender, award or contracts section."
     },
     "preQualification": {
       "title": "Pre-qualification",
