@@ -32,3 +32,7 @@ The 'financeCategory' codelist is used to indicate (a) the rights attached to fi
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+2018-05-08 - Make `finance/id` required and non-nullable to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists).
