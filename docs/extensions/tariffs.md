@@ -26,56 +26,58 @@ For example, if the toll for a road bridge varies based on (a) the type of vehic
 The example below shows a very simply tariff table, without periods or units, but with two dimensions. Tariffs which relate to a particular set of dates could have a `period` block. Those which relate to a particular unit (e.g. tonnes) could have this indicated using a `unit` block.
 
 ```json
-"tariffs": [
-          {
-            "id": "1.0",
-            "title": "Standard Toll",
-            "dimensions": {
-              "vehicleType": "Class 1",
-              "registration": "No registration"
-            },
-            "value": {
-              "amount": "0.0",
-              "currency": "GBP"
-            }
-          },
-          {
-            "id": "2.0",
-            "title": "Standard Toll",
-            "dimensions": {
-              "vehicleType": "Class 2",
-              "registration": "No registration"
-            },
-            "value": {
-              "amount": "2.0",
-              "currency": "GBP"
-            }
-          },
-          {
-            "id": "3.0",
-            "title": "Standard Toll",
-            "dimensions": {
-              "vehicleType": "Class 3",
-              "registration": "No registration"
-            },
-            "value": {
-              "amount": "6.0",
-              "currency": "GBP"
-            }
-          },
-          {
-            "id": "4.0",
-            "title": "Standard Toll",
-            "dimensions": {
-              "vehicleType": "Class 4",
-              "registration": "No registration"
-            },
-            "value": {
-              "amount": "8.0",
-              "currency": "GBP"
-            }
-          }
-      ]
+{
+  "tariffs": [
+    {
+      "id": "1.0",
+      "title": "Standard Toll",
+      "dimensions": {
+        "vehicleType": "Class 1",
+        "registration": "No registration"
+      },
+      "value": {
+        "amount": "0.0",
+        "currency": "GBP"
+      }
+    },
+    {
+      "id": "2.0",
+      "title": "Standard Toll",
+      "dimensions": {
+        "vehicleType": "Class 2",
+        "registration": "No registration"
+      },
+      "value": {
+        "amount": "2.0",
+        "currency": "GBP"
+      }
+    },
+    {
+      "id": "3.0",
+      "title": "Standard Toll",
+      "dimensions": {
+        "vehicleType": "Class 3",
+        "registration": "No registration"
+      },
+      "value": {
+        "amount": "6.0",
+        "currency": "GBP"
+      }
+    },
+    {
+      "id": "4.0",
+      "title": "Standard Toll",
+      "dimensions": {
+        "vehicleType": "Class 4",
+        "registration": "No registration"
+      },
+      "value": {
+        "amount": "8.0",
+        "currency": "GBP"
+      }
+    }
+  ]
+}
 ```
 
 ## Codelist entries

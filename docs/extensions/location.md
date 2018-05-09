@@ -1,6 +1,6 @@
 # Location Data
 
-Communicating the location of proposed or executed contract delivery is important to make users of contracting data.
+Communicating the location of proposed or executed contract delivery is important to many users of contracting data.
 
 This extension introduces two properties at the `items` level to describe location:
 
@@ -18,6 +18,8 @@ This extension introduces two properties at the `items` level to describe locati
 ## Gazetteer Codelist
 
 See locationGazetteers.csv
+
+The codelist's Category column indicates whether the gazetteer has identifiers for the whole world (Universal) or only some subset (Sub-National).
 
 ## Example
 

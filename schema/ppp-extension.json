@@ -81,6 +81,8 @@
           }
         },
         "requirementResponses": {
+          "title": "Requirement responses",
+          "description": "A list of the detailed responses of this award to the requirements of the tender.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/RequirementResponse"
@@ -98,7 +100,6 @@
         "evaluationIndicators": {
           "title": "Evaluation of PPP option",
           "description": "Key indicators that describe how the PPP option has been evaluated by government.",
-          "type": "object",
           "$ref": "#/definitions/EvaluationIndicators"
         },
         "suppliers": null,
@@ -562,6 +563,8 @@
           }
         },
         "requirementResponses": {
+          "title": "Requirement responses",
+          "description": "A list of the detailed responses of this contract to the requirements of the tender.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/RequirementResponse"
@@ -597,7 +600,6 @@
         "financeSummary": {
           "title": "Finance summary",
           "description": "Key indicators that describe the financial model of the PPP.",
-          "type": "object",
           "$ref": "#/definitions/FinanceSummary"
         },
         "amendment": null
@@ -795,7 +797,7 @@
           "properties": {
             "type": {
               "title": "Type",
-              "description": "The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects) being provided. To provide latitude and longitude use 'point', and enter an array of [latitude,longitude] as the value of coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type values - set in order to maintain compatibility with GeoJSON.",
+              "description": "The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects) being provided. To provide latitude and longitude use 'Point', and enter an array of [latitude,longitude] as the value of coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type values - set in order to maintain compatibility with GeoJSON.",
               "type": [
                 "string",
                 "null"
@@ -882,6 +884,7 @@
           }
         },
         "criteria": {
+          "title": "Criteria",
           "description": "A list of criteria on which either bidders or items will be judged, evaluated or assessed.",
           "type": "array",
           "items": {
@@ -1329,6 +1332,7 @@
       ],
       "properties": {
         "id": {
+          "title": "Identifier",
           "description": "The identifier for this criterion. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
           "type": [
             "string",
@@ -1336,20 +1340,23 @@
           ]
         },
         "title": {
-          "description": "Criterion title",
+          "title": "Title",
+          "description": "A title for this criterion.",
           "type": [
             "string",
             "null"
           ]
         },
         "description": {
-          "description": "Criterion description",
+          "title": "Description",
+          "description": "A description of this criterion. Structured information should be provided in its other fields.",
           "type": [
             "string",
             "null"
           ]
         },
         "source": {
+          "title": "Source",
           "description": "Source of response to the requirements specified in the criterion, for example responses may be submitted by tenderers or by an assessment committee at the procuringEntity.",
           "type": [
             "string",
@@ -1365,6 +1372,7 @@
           ]
         },
         "relatesTo": {
+          "title": "Related schema element",
           "description": "The schema element that the criterion judges, evaluates or assesses. For example criterion may be defined against items or against bidders.",
           "type": [
             "string",
@@ -1379,7 +1387,8 @@
           ]
         },
         "relatedItem": {
-          "description": "Where relatesTo = \"item\" this field must be populated with the id of the item in this tender section which the criterion relates to. Where relatesTo <> \"item\" this field should be omitted",
+          "title": "Related item",
+          "description": "Where relatesTo = \"item\" this field must be populated with the id of the item in this tender section which the criterion relates to. Where relatesTo <> \"item\" this field should be omitted.",
           "type": [
             "string",
             "null"
@@ -1405,11 +1414,13 @@
       ],
       "properties": {
         "id": {
+          "title": "Identifier",
           "description": "The identifier for this requirement group. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
           "type": "string"
         },
         "description": {
-          "description": "Requirement group description",
+          "title": "Description",
+          "description": "A description of this requirement group. Structured information should be provided in the requirements array.",
           "type": [
             "string",
             "null"
@@ -1429,7 +1440,7 @@
     "Requirement": {
       "type": "object",
       "title": "Requirement",
-      "description": "An atomic requirement. Requirements can specify the expected value that the response has to contain, or a range of threshold values within which the response has to fit in. The requirement may apply to a certain period of time",
+      "description": "An atomic requirement. Requirements can specify the expected value that the response has to contain, or a range of threshold values within which the response has to fit in. The requirement may apply to a certain period of time.",
       "required": [
         "id"
       ],
@@ -1474,14 +1485,16 @@
           ]
         },
         "pattern": {
-          "description": "A regular expression against which validate the requirement response",
+          "title": "Response validation pattern",
+          "description": "A regular expression against which validate the requirement response.",
           "type": [
             "string",
             "null"
           ]
         },
         "expectedValue": {
-          "description": "Used to state the requirement when the response must be particular value",
+          "title": "Expected value",
+          "description": "Used to state the requirement when the response must be particular value.",
           "type": [
             "string",
             "integer",
@@ -1490,7 +1503,8 @@
           ]
         },
         "minValue": {
-          "description": "Used to state the lower bound of the requirement when the response must be within a certain range",
+          "title": "Minimum value",
+          "description": "Used to state the lower bound of the requirement when the response must be within a certain range.",
           "type": [
             "integer",
             "number",
@@ -1498,7 +1512,8 @@
           ]
         },
         "maxValue": {
-          "description": "Used to state the upper bound of the requirement when the response must be within a certain range",
+          "title": "Maximum value",
+          "description": "Used to state the upper bound of the requirement when the response must be within a certain range.",
           "type": [
             "integer",
             "number",
@@ -1506,7 +1521,8 @@
           ]
         },
         "period": {
-          "description": "Used to specify a particular period the requirement applies to, for example the bidder's turnover in a given year",
+          "title": "Period",
+          "description": "Used to specify a particular period the requirement applies to, for example the bidder's turnover in a given year.",
           "$ref": "#/definitions/Period"
         }
       }
@@ -1521,25 +1537,29 @@
       ],
       "properties": {
         "id": {
+          "title": "Identifier",
           "description": "The identifier for this requirement response. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
           "type": "string"
         },
         "title": {
-          "description": "Requirement response title",
+          "title": "Title",
+          "description": "A title for this requirement response.",
           "type": [
             "string",
             "null"
           ]
         },
         "description": {
-          "description": "Requirement response description",
+          "title": "Description",
+          "description": "A description of this requirement response. Structured information should be provided in its other fields.",
           "type": [
             "string",
             "null"
           ]
         },
         "value": {
-          "description": "Requirement response value. The value must be of the type defined in the requirement.dataType field",
+          "title": "Value",
+          "description": "The value of this requirement response. The value must be of the type defined in the requirement.dataType field.",
           "type": [
             "string",
             "integer",
@@ -1548,12 +1568,13 @@
           ]
         },
         "period": {
-          "description": "The period which the requirement response is applicable to",
+          "title": "Period",
+          "description": "The period which the requirement response is applicable to.",
           "$ref": "#/definitions/Period"
         },
         "requirement": {
           "title": "Related requirement",
-          "description": "The id and title of the requirement which the response is applicable to",
+          "description": "The id and title of the requirement which the response is applicable to.",
           "$ref": "#/definitions/RequirementReference"
         },
         "relatedTenderer": {
@@ -1566,19 +1587,19 @@
     "RequirementReference": {
       "type": "object",
       "title": "Requirement reference",
-      "description": "Used to cross reference a requirement",
+      "description": "Used to cross reference a requirement.",
       "required": [
         "id"
       ],
       "properties": {
         "id": {
           "title": "Requirement ID",
-          "description": "The id of the requirement which the response is applicable to",
+          "description": "The id of the requirement which the response is applicable to.",
           "type": "string"
         },
         "title": {
           "title": "Requirement title",
-          "description": "The title of the requirement which the response is applicable to",
+          "description": "The title of the requirement which the response is applicable to.",
           "type": [
             "string",
             "null"
@@ -1886,6 +1907,7 @@
       }
     },
     "Project": {
+      "type": "object",
       "properties": {
         "sector": {
           "title": "Project sector",
@@ -1950,7 +1972,6 @@
         "netPresentValue": {
           "title": "Net present value",
           "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
-          "type": "object",
           "$ref": "#/definitions/Value"
         },
         "netPresentValueDetails": {
@@ -1987,7 +2008,6 @@
         "shareCapital": {
           "title": "Share capital",
           "description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
-          "type": "object",
           "$ref": "#/definitions/Value"
         },
         "shareCapitalDetails": {

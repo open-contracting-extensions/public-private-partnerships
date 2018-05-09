@@ -15,35 +15,37 @@ This extension adds a `signatories` property to the `contract` section. The `sig
 The following JSON snippet models a PPP contracting process where there is an additional signatory to the contract beyond those defined in the `publicAuthority` and `award/preferredBidders` fields.
 
 ```json
-"publicAuthority": {
-  "name": "Ministry of Communications",
-  "id": "GB-GOV-12345678"
-},
-"awards": [
-  {
-    "preferredBidders": [
+{
+  "publicAuthority": {
+    "name": "Ministry of Communications",
+    "id": "GB-GOV-12345678"
+  },
+  "awards": [
+    {
+      "preferredBidders": [
+        {
+          "name": "Example Consortium",
+          "id": "GB-COH-00000000"
+        },
+      ]
+    },
+  ],
+  "contract": {
+    "signatories": [
+      {
+        "name": "Ministry of Communications",
+        "id": "GB-GOV-12345678"
+      },
       {
         "name": "Example Consortium",
         "id": "GB-COH-00000000"
       },
+      {
+        "name": "Telecommunications UK",
+        "id": "GB-GOV-99999999"
+      }
     ]
-  },
-]
-"contract": {
-  "signatories": [
-    {
-      "name": "Ministry of Communications",
-      "id": "GB-GOV-12345678"
-    },
-    {
-      "name": "Example Consortium",
-      "id": "GB-COH-00000000"
-    },
-    {
-      "name": "Telecommunications UK",
-      "id": "GB-GOV-99999999"
-    }
-  ]
+  }
 }
 ```
 

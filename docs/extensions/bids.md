@@ -30,6 +30,8 @@ This is an **open** codelist. Publishers can add their own codes to this list. W
 
 For example, publishers may wish to add statistics on minority or women owned businesses, or bids that meet certain environmental standards and targets.
 
+The codelist's Category column indicates whether the statistic applies to bids or bidders or whether it is specified or required by a particular regulatory context (e.g. EU).
+
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1

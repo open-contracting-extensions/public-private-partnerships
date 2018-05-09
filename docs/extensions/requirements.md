@@ -44,133 +44,137 @@ There are number of scenarios in which structured information on requirements is
 Below is an example of requirements specified against both an item and a bidder which demonstrates both **AND** and **OR** conditions:
 
 ```json
-"tender": {
-  "criteria": [
-    {
-      "id": "0001",
-      "title": "Air intake",
-      "description": "The vacuum cleaner air intake must be at least 100W",
-      "source": "tenderer",
-      "code": "OCDS-123454-AIR",
-      "featureOf": "item",
-      "relatedItem": "0001",
-      "requirementGroups": [
-        {
-          "id": "0001-001",
-          "description": "The vacuum cleaner air intake must be at least 100W",
-          "requirements": [
-            {
-              "id": "0001-001-01",
-              "title": "Air intake",
-              "description": "Power of vacuum cleaner air intake in W",
-              "dataType": "integer",
-              "pattern": "[0-9]*",
-              "minValue": 100
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "0002",
-      "title": "Warranty",
-      "description": "The vacuum cleaner must have warranty support options for at least 36 months",
-      "source": "tenderer",
-      "code": "OCDS-123454-WARRANTY",
-      "featureOf": "item",
-      "relatedItem": "0001",
-      "requirementGroups": [
-        {
-          "id": "0002-001",
-          "description": "The standard warranty period for the vacuum cleaner must be at least 36 months",
-          "requirements": [
-            {
-              "id": "0002-001-01",
-              "title": "Standard warranty period",
-              "description": "Length of the vacuum cleaner standard warranty period in months",
-              "dataType": "integer",
-              "pattern": "[0-9]*",
-              "minValue": 36
-            }
-          ]
-        },
-        {
-          "id": "0002-002",
-          "description": "The standard warranty period for the vacuum cleaner must be at least 12 months with an option to extend to 36 months",
-          "requirements": [
-            {
-              "id": "0002-002-01",
-              "title": "Standard warranty period",
-              "description": "Length of the vacuum cleaner standard warranty period in months",
-              "dataType": "integer",
-              "pattern": "[0-9]*",
-              "minValue": 12
-            },
-            {
-              "id": "0002-002-02",
-              "title": "Extended warranty option",
-              "description": "There is an extended warranty option for at least 36 months",
-              "dataType": "boolean",
-              "expectedValue": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "0003",
-      "title": "Years trading",
-      "description": "Number of years the bidder has been trading",
-      "source": "tenderer",
-      "code": "OCDS-123454-YEARS",
-      "featureOf": "tenderer",
-      "requirementGroups": [
-        {
-          "id": "0003-001",
-          "description": "Number of years the bidder has been trading",
-          "requirements": [
-            {
-              "id": "0003-001-01",
-              "title": "Years trading",
-              "description": "Number of years the bidder has been trading",
-              "dataType": "integer",
-              "pattern": "[0-9]*",
-              "minValue": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
+{
+  "tender": {
+    "criteria": [
+      {
+        "id": "0001",
+        "title": "Air intake",
+        "description": "The vacuum cleaner air intake must be at least 100W",
+        "source": "tenderer",
+        "code": "OCDS-123454-AIR",
+        "featureOf": "item",
+        "relatedItem": "0001",
+        "requirementGroups": [
+          {
+            "id": "0001-001",
+            "description": "The vacuum cleaner air intake must be at least 100W",
+            "requirements": [
+              {
+                "id": "0001-001-01",
+                "title": "Air intake",
+                "description": "Power of vacuum cleaner air intake in W",
+                "dataType": "integer",
+                "pattern": "[0-9]*",
+                "minValue": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0002",
+        "title": "Warranty",
+        "description": "The vacuum cleaner must have warranty support options for at least 36 months",
+        "source": "tenderer",
+        "code": "OCDS-123454-WARRANTY",
+        "featureOf": "item",
+        "relatedItem": "0001",
+        "requirementGroups": [
+          {
+            "id": "0002-001",
+            "description": "The standard warranty period for the vacuum cleaner must be at least 36 months",
+            "requirements": [
+              {
+                "id": "0002-001-01",
+                "title": "Standard warranty period",
+                "description": "Length of the vacuum cleaner standard warranty period in months",
+                "dataType": "integer",
+                "pattern": "[0-9]*",
+                "minValue": 36
+              }
+            ]
+          },
+          {
+            "id": "0002-002",
+            "description": "The standard warranty period for the vacuum cleaner must be at least 12 months with an option to extend to 36 months",
+            "requirements": [
+              {
+                "id": "0002-002-01",
+                "title": "Standard warranty period",
+                "description": "Length of the vacuum cleaner standard warranty period in months",
+                "dataType": "integer",
+                "pattern": "[0-9]*",
+                "minValue": 12
+              },
+              {
+                "id": "0002-002-02",
+                "title": "Extended warranty option",
+                "description": "There is an extended warranty option for at least 36 months",
+                "dataType": "boolean",
+                "expectedValue": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0003",
+        "title": "Years trading",
+        "description": "Number of years the bidder has been trading",
+        "source": "tenderer",
+        "code": "OCDS-123454-YEARS",
+        "featureOf": "tenderer",
+        "requirementGroups": [
+          {
+            "id": "0003-001",
+            "description": "Number of years the bidder has been trading",
+            "requirements": [
+              {
+                "id": "0003-001-01",
+                "title": "Years trading",
+                "description": "Number of years the bidder has been trading",
+                "dataType": "integer",
+                "pattern": "[0-9]*",
+                "minValue": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
 ```
 
 Below is an example of responses which meet the above requirements:
 
 ```json
-"bids": [
-  {
-    "requirementResponses": [
-      {
-        "id": "air",
-        "value": 125,
-        "requirement": "0001-001-01",
-        "relatedItem": "0001"
-      },
-      {
-        "id": "warranty",
-        "value": 36,
-        "requirement": "0002-001-01",
-        "relatedItem": "0001"
-      },
-      {
-        "id": "years",
-        "value": 10,
-        "requirement": "0003-001-01"
-      }
-    ]
-  }
-]
+{
+  "bids": [
+    {
+      "requirementResponses": [
+        {
+          "id": "air",
+          "value": 125,
+          "requirement": "0001-001-01",
+          "relatedItem": "0001"
+        },
+        {
+          "id": "warranty",
+          "value": 36,
+          "requirement": "0002-001-01",
+          "relatedItem": "0001"
+        },
+        {
+          "id": "years",
+          "value": 10,
+          "requirement": "0003-001-01"
+        }
+      ]
+    }
+  ]
+}
 ```
 
 ## Further extensions
