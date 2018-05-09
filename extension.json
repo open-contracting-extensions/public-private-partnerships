@@ -19,5 +19,8 @@
   "compatibility": [
     "1.0",
     "1.1"
+  ],
+  "testDependencies": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/master/extension.json"
   ]
 }
