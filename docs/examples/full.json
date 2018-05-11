@@ -19,8 +19,7 @@
     "https://raw.githubusercontent.com/open-contracting/ocds_charges_extension/master/extension.json",
     "https://raw.githubusercontent.com/open-contracting/ocds_transactions_relatedMilestone_extension/master/extension.json",
     "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/extension.json",
-    ""
+    "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/extension.json"
   ],
   "releases": [
     {
