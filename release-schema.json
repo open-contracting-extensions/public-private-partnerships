@@ -61,28 +61,31 @@
         "receiverOrganization": null
       }
     },
-    "Project": {
-      "type": "object",
+    "Planning": {
       "properties": {
-        "sector": {
-          "title": "Project sector",
-          "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
-          "$ref": "#/definitions/Classification"
-        },
-        "additionalClassifications": {
-          "title": "Additional sector classifications",
-          "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Classification"
-          }
-        },
-        "locations": {
-          "title": "Project location",
-          "description": "Information about the location where a project is taking place.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Location"
+        "project": {
+          "properties": {
+            "sector": {
+              "title": "Project sector",
+              "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+              "$ref": "#/definitions/Classification"
+            },
+            "additionalClassifications": {
+              "title": "Additional sector classifications",
+              "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Classification"
+              }
+            },
+            "locations": {
+              "title": "Project location",
+              "description": "Information about the location where a project is taking place.",
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Location"
+              }
+            }
           }
         }
       }
@@ -241,6 +244,22 @@
         "source": null,
         "project": null,
         "projectID": null
+      }
+    },
+    "Metric": {
+      "properties": {
+        "id": {
+          "codelist": "metricID.csv",
+          "openCodelist": true
+        }
+      }
+    },
+    "Milestone": {
+      "properties": {
+        "code": {
+          "codelist": "milestoneCode.csv",
+          "openCodelist": true
+        }
       }
     }
   }
