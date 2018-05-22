@@ -259,6 +259,22 @@
         "project": null,
         "projectID": null
       }
+    },
+    "Metric": {
+      "properties": {
+        "id": {
+          "codelist": "metricID.csv",
+          "openCodelist": true
+        }
+      }
+    },
+    "Milestone": {
+      "properties": {
+        "code": {
+          "codelist": "milestoneCode.csv",
+          "openCodelist": true
+        }
+      }
     }
   }
 }
