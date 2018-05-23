@@ -76,7 +76,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Classification"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             },
             "locations": {
               "title": "Project location",
