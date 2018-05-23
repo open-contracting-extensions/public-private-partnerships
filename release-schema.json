@@ -86,7 +86,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Location"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             }
           }
         }
