@@ -45,9 +45,6 @@ Where the metrics extension is used to model targets for a contracting process, 
           "note":"Simple note"
         }
       ]
-    },
-    {
-
     }
   ]
 }
@@ -58,49 +55,51 @@ Where the metrics extension is used to model targets for a contracting process, 
 The metrics extension can also be used to report on the physical progress of a contract. The following JSON snippet shows how the metrics extension could be used to report on progress for the construction of a highway, both by percent completion and number of kilometres constructed:
 
 ```json
-"implementation": {
+{
+  "implementation": {
     "metrics": [
-        {
-            "id": "completionPercent",
-            "title": "Construction progress (percent)",
-            "description": "Percent completion of the construction of example highway",
-            "observations": [
-                {
-                    "id": "completionPercent-2016-Q1",
-                    "period": {
-                        "startDate": "2016-03-31T23:59:59Z",
-                        "endDate": "2016-03-31T23:59:59Z"
-                    },
-                    "measure": "25",
-                    "unit": {
-                        "name": "percent",
-                        "id": "P1",
-                        "scheme": "UNCEFACT"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "completionKilometres",
-            "title": "Construction progress (kilometres)",
-            "description": "Progress of construction of example highway measured in kilometres",
-            "observations": [
-                {
-                    "id": "completionKilometres-2016-Q1",
-                    "period": {
-                        "startDate": "2016-03-31T23:59:59Z",
-                        "endDate": "2016-03-31T23:59:59Z"
-                    },
-                    "measure": "15",
-                    "unit": {
-                        "name": "kilometre",
-                        "id": "KMT",
-                        "scheme": "UNCEFACT"
-                    }
-                }
-            ]
-        }
+      {
+        "id": "completionPercent",
+        "title": "Construction progress (percent)",
+        "description": "Percent completion of the construction of example highway",
+        "observations": [
+          {
+            "id": "completionPercent-2016-Q1",
+            "period": {
+              "startDate": "2016-03-31T23:59:59Z",
+              "endDate": "2016-03-31T23:59:59Z"
+            },
+            "measure": "25",
+            "unit": {
+              "name": "percent",
+              "id": "P1",
+              "scheme": "UNCEFACT"
+            }
+          }
+        ]
+      },
+      {
+        "id": "completionKilometres",
+        "title": "Construction progress (kilometres)",
+        "description": "Progress of construction of example highway measured in kilometres",
+        "observations": [
+          {
+            "id": "completionKilometres-2016-Q1",
+            "period": {
+              "startDate": "2016-03-31T23:59:59Z",
+              "endDate": "2016-03-31T23:59:59Z"
+            },
+            "measure": "15",
+            "unit": {
+              "name": "kilometre",
+              "id": "KMT",
+              "scheme": "UNCEFACT"
+            }
+          }
+        ]
+      }
     ]
+  }
 }
 ```
 

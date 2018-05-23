@@ -22,20 +22,22 @@ The new property is an array of `PerformanceFailure` objects. The `PerformanceFa
 The following JSON snippet models the performance failures reported for a single period and category.
 
 ```json
-"implementation": {
-  "performanceFailures": [
-    {
-      "period": {
-        "startDate": "2016-01-01T00:00:00Z",
-        "endDate": "2016-12-31T23:59:59Z"
-      },
-      "category": "Daily average journey time exceeds 10 minutes",
-      "events": 73,
-      "penaltyContracted": "If the daily average journey time exceeds 10 minutes on more than 52 days per calendar year the project company will be subject to a penalty charge equal to (days - 52) * avgToll. Where days is the total number of days where the average journey time exceeded 10 minutes and avgToll is the average daily toll revenue to the project company over the calendar year in which the failures occurred.",
-      "penaltyImposed": "A penalty of £3,360,000 was imposed",
-      "penaltyPaid": true
-    }
-  ]
+{
+  "implementation": {
+    "performanceFailures": [
+      {
+        "period": {
+          "startDate": "2016-01-01T00:00:00Z",
+          "endDate": "2016-12-31T23:59:59Z"
+        },
+        "category": "Daily average journey time exceeds 10 minutes",
+        "events": 73,
+        "penaltyContracted": "If the daily average journey time exceeds 10 minutes on more than 52 days per calendar year the project company will be subject to a penalty charge equal to (days - 52) * avgToll. Where days is the total number of days where the average journey time exceeded 10 minutes and avgToll is the average daily toll revenue to the project company over the calendar year in which the failures occurred.",
+        "penaltyImposed": "A penalty of £3,360,000 was imposed",
+        "penaltyPaid": true
+      }
+    ]
+  }
 }
 ```
 

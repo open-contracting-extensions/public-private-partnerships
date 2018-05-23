@@ -8,7 +8,7 @@ The risk allocation extension is used to provide structured data on the risk all
 
 Risk allocations can be represented using an array of [risk blocks](../../../schema/reference/#organization) in the `riskAllocation` field of the `contract` section of an OCDS release.
 
-The risk category can be represented using the `risk/category` field using values from the [risk category codelist](../schema/codelists/#risk-category) based on the APMG PPP Certification Program.
+The risk category can be represented using the `risk/category` field using values from the [risk category codelist](../schema/codelists/#risk-category) based on the APMG PPP Certification Program. The codelist's Category column indicates the stage or aspect of the contracting process to which the risk category applies.
 
 The party retaining each risk should be represented using the `risk/allocation` field using values from the [risk allocation codelist](../schema/codelists/#risk-allocation).
 

@@ -19,5 +19,10 @@
   "compatibility": [
     "1.0",
     "1.1"
+  ],
+  "testDependencies": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting/ocds_metrics_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/master/extension.json"
   ]
 }
