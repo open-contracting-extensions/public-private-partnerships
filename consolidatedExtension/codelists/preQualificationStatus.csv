@@ -1,0 +1,6 @@
+Code,Title,Description
+planned,Planned,"This pre-qualification has been proposed, but is not yet taking place."
+active,Active,A pre-qualification process is currently taking place.
+cancelled,Cancelled,The pre-qualification process has been cancelled.
+unsuccessful,Unsuccessful,The pre-qualification process was unsuccessful.
+complete,Complete,The pre-qualification process is complete.
