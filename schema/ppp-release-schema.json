@@ -256,7 +256,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Classification"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             },
             "locations": {
               "title": "Project location",
@@ -264,7 +266,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Location"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             }
           },
           "patternProperties": {
