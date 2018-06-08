@@ -973,7 +973,7 @@ P   U   U   U   U   U
 
  Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
-A value from the [document type codelist](_static/codelists/#document-type) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -1655,7 +1655,7 @@ RFQ documents
 
  Links to RFQ documents can be provided using the `documents` field in the `preQualification` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2100,7 +2100,7 @@ P   U
 
  Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](_static/reference/#document) in the `tender/documents` array. A short summary text for each document can also be provided using the `document/description` field.
 
-Each document should be tagged with an appropriate `documentType` value from the [document type codelist](_static/codelists/#document-type). 
+Each document should be tagged with an appropriate `documentType` value from the [document type codelist](../reference/codelists/#documenttype). 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2124,7 +2124,7 @@ Evaluation criteria: brief description with weightage
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-The `document/documentType` field should be set to `evaluationCriteria` (from the [document type codelist](_static/codelists/#document-type)) to identify the type of document being disclosed. 
+The `document/documentType` field should be set to `evaluationCriteria` (from the [document type codelist](../reference/codelists/#documenttype)) to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2148,7 +2148,7 @@ Brief information on constitution of the evaluation committees
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value of `evaluationCommittee` from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value of `evaluationCommittee` from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2172,7 +2172,7 @@ Negotiation parameters: brief description of the parameters for negotiation with
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `negotiationParameters` should be entered into the `document/documentType` field to identify the type of document being disclosed.
+A value from the [document type codelist](../reference/codelists/#documenttype) of `negotiationParameters` should be entered into the `document/documentType` field to identify the type of document being disclosed.
  
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -2197,7 +2197,7 @@ Minutes of pre-bid meetings
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `minutes` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `minutes` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2397,7 +2397,7 @@ Link to evaluation report (value for money or other)
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `evaluationReports` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `evaluationReports` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2431,7 +2431,7 @@ State the rationale for doing the project as a PPP, including any qualitative or
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `valueForMoneyAnalysis` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `valueForMoneyAnalysis` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2492,7 +2492,7 @@ The discount rates used should be specified in the disclosure along with the ris
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `discountRate` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `discountRate` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2516,7 +2516,7 @@ Risk comparison of other financing mechanisms should be specified.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `riskComparison` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `riskComparison` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2720,7 +2720,7 @@ Equity transfer caps
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `equityTransferCaps` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `equityTransferCaps` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2990,7 +2990,7 @@ Security and step in arrangements
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `financeArrangements` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `financeArrangements` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3162,7 +3162,7 @@ Subsidy as a proportion of project value
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3186,7 +3186,7 @@ Capital subsidies paid during construction with periodicity of milestones
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `grants` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3210,7 +3210,7 @@ Operating subsidies and their periodicity of milestones
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3316,7 +3316,7 @@ Methodology for calculating payments
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3340,7 +3340,7 @@ Indexation used
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `servicePayments` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3366,7 +3366,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `lease` or `assetTransfer` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `lease` or `assetTransfer` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3391,7 +3391,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `otherGovernmentSupport` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `otherGovernmentSupport` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3425,7 +3425,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3449,7 +3449,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `revenueShare` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3530,7 +3530,7 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `tariffs` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `tariffs` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3554,7 +3554,7 @@ Methodology for tariff setting/pricing
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `tariffMethod` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `tariffMethod` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3578,7 +3578,7 @@ A value from the [document type codelist](_static/codelists/#document-type) of `
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3602,7 +3602,7 @@ A value from the [document type codelist](_static/codelists/#document-type) shou
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `tariffIllustration` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `tariffIllustration` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3634,7 +3634,7 @@ Describe key events of default under two major categories: concessionaires event
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `termination` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `termination` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3658,7 +3658,7 @@ State details of hand over of assets back to state, condition of assets, and any
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) of `handover` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) of `handover` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3717,7 +3717,7 @@ State variations to contract, if any, after signing of the original contract det
 
 The `document/description` field should be used to provide a free text summary of the content of the variations to the contract to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3811,7 +3811,7 @@ Change in original fiscal commitments or contingent liabilities of government du
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3835,7 +3835,7 @@ Change in capital or operational costs due to the variation, if any
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -3994,7 +3994,7 @@ Provide links to audited financial statements of the provider company.
 
  This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4102,7 +4102,7 @@ Provide links to audit report, independent performance assessments of the the in
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
-A value from the [document type codelist](_static/codelists/#document-type) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
+A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
