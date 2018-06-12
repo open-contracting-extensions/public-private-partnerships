@@ -170,7 +170,7 @@ P   U   U   U   U   U
 
 
 
- Details of the sponsoring agency or department, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the sponsoring agency or department, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `publicAuthority` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
@@ -971,7 +971,7 @@ P   U   U   U   U   U
 
 
 
- Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](_static/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
+ Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
 A value from the [document type codelist](../reference/codelists/#documenttype) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
@@ -1070,7 +1070,7 @@ P   U   U   U   U   U
 
 
 
- Details of the public authority, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the public authority, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `publicAuthority` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
@@ -1209,7 +1209,7 @@ Private party: name of company or consortium, name of representative, address, t
 
 
 
- Details of the private party, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the private party, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `privateParty` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
@@ -1293,7 +1293,7 @@ Financiers: name of Lead FI, other FIs, name of representative of lead FI, addre
 
 
 
- Details of the financiers, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the financiers, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `leadBank` or `lender` as appropriate and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
@@ -1653,7 +1653,7 @@ RFQ documents
 
 
 
- Links to RFQ documents can be provided using the `documents` field in the `preQualification` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Links to RFQ documents can be provided using the `documents` field in the `preQualification` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
@@ -1675,7 +1675,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Pre-qualification or shortlist
 
- OCDS provides an [organization building block](_static/reference/#organization) which can be used for disclosure of information about bidders and their roles:
+ OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) which can be used for disclosure of information about bidders and their roles:
 
 * Information about the bidders which have been shortlisted or invited to submit a proposal following the pre-qualification process should be provided using an entry in the `parties` section of an OCDS release with the `organization/role` field set to `qualifiedBidder`.
 
@@ -2098,7 +2098,7 @@ P   U
 
 
 
- Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](_static/reference/#document) in the `tender/documents` array. A short summary text for each document can also be provided using the `document/description` field.
+ Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) in the `tender/documents` array. A short summary text for each document can also be provided using the `document/description` field.
 
 Each document should be tagged with an appropriate `documentType` value from the [document type codelist](../reference/codelists/#documenttype). 
 
@@ -2120,7 +2120,7 @@ Each document should be tagged with an appropriate `documentType` value from the
 
 Evaluation criteria: brief description with weightage
 
- This should be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This should be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2144,7 +2144,7 @@ The `document/documentType` field should be set to `evaluationCriteria` (from th
 
 Brief information on constitution of the evaluation committees
 
- This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2168,7 +2168,7 @@ A value of `evaluationCommittee` from the [document type codelist](../reference/
 
 Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
 
- This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2193,7 +2193,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Minutes of pre-bid meetings
 
- This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `tender` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2225,7 +2225,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 
 
- Details of the preferred bidder, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the preferred bidder, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `preferredBidder` and the `organization/contactPoint` field can be used to provide details of a named representative. 
 
@@ -2393,7 +2393,7 @@ Additional free text information on each risk allocation, for example the ration
 
 Link to evaluation report (value for money or other)
 
- This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2427,7 +2427,7 @@ State the rationale for doing the project as a PPP, including any qualitative or
 
 *Note: Choice of methodology affects the costs to the public and it is important to assure them that the PPP mode selected is the best possible in terms of cost, given equal standards of service in all modes tested.*
 
- This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2488,7 +2488,7 @@ The discount rates used should be specified in the disclosure along with the ris
 
 
 
- Supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2512,7 +2512,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Risk comparison of other financing mechanisms should be specified.
 
- This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2630,7 +2630,7 @@ Shareholders with proportion held and voting rights
 
 
 
- Details of the shareholders should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of the shareholders should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `equityInvestor`. 
 
@@ -2716,7 +2716,7 @@ Equity transfer caps
 
 
 
- This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -2785,7 +2785,7 @@ Commercial lenders, institutional investors, bilateral or multilateral lenders, 
 
 
 
- Details of lenders and investors should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](_static/reference/#organization) for disclosure of information about organizations and their roles.
+ Details of lenders and investors should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
 The `organization/roles` field should be set to `lender` or `equityInvestor` as appropriate. 
 
@@ -2986,7 +2986,7 @@ Security and step in arrangements
 
 
 
- This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3158,7 +3158,7 @@ Subsidy as a proportion of project value
 
 
 
- Supporting documentation about the subsidy ratio can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Supporting documentation about the subsidy ratio can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3182,7 +3182,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Capital subsidies paid during construction with periodicity of milestones
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3206,7 +3206,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Operating subsidies and their periodicity of milestones
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3312,7 +3312,7 @@ Total payments and periodicity
 
 Methodology for calculating payments
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3336,7 +3336,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Indexation used
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3362,7 +3362,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 * Equipment transfers: details of equipment with conditions of transfer
 * Human resources/personnel transfers: details and conditions of transfer
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3387,7 +3387,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 * Non-complete clauses
 * Provision for revenue shortfall loan
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3421,7 +3421,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3445,7 +3445,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 
 
- This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3526,7 +3526,7 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 
 
- Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the `documents` field of the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the `documents` field of the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3550,7 +3550,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Methodology for tariff setting/pricing
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3574,7 +3574,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3598,7 +3598,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3630,7 +3630,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
- Provision for contract termination should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ Provision for contract termination should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3654,7 +3654,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3713,7 +3713,7 @@ State variations to contract, if any, after signing of the original contract det
 
 
 
- The amended contract should be provided using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ The amended contract should be provided using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the variations to the contract to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3807,7 +3807,7 @@ Change in original risk allocation due to the variation, if any
 
 Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3831,7 +3831,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 Change in capital or operational costs due to the variation, if any
 
- This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
@@ -3992,7 +3992,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 Provide links to audited financial statements of the provider company.
 
- This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 A value from the [document type codelist](../reference/codelists/#documenttype) should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
@@ -4098,7 +4098,7 @@ State instances of performance failure during the year and the penalty or abatem
 
 Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
 
- This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](_static/reference/#document) for disclosure of documents.
+ This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
 The `document/description` field should be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
