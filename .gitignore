@@ -3,6 +3,7 @@
 .ve
 
 /build
+/cache.sqlite
 /docs/_build
 /docs/_static/codelists
 /docs/_static/ppp-release-schema.json

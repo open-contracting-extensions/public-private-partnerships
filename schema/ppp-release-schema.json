@@ -256,7 +256,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Classification"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             },
             "locations": {
               "title": "Project location",
@@ -264,7 +266,9 @@
               "type": "array",
               "items": {
                 "$ref": "#/definitions/Location"
-              }
+              },
+              "uniqueItems": true,
+              "wholeListMerge": true
             }
           },
           "patternProperties": {
@@ -2837,7 +2841,7 @@
           "properties": {
             "type": {
               "title": "Type",
-              "description": "The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects) being provided. To provide latitude and longitude use 'Point', and enter an array of [latitude,longitude] as the value of coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type values - set in order to maintain compatibility with GeoJSON.",
+              "description": "The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html#geometry-objects) being provided. To provide latitude and longitude use 'point', and enter an array of [latitude,longitude] as the value of coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type values - set in order to maintain compatibility with GeoJSON.",
               "type": [
                 "string",
                 "null"
