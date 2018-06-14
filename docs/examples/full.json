@@ -1,27 +1,7 @@
 {
   "version": "1.1",
   "license": "http://opendatacommons.org/licenses/pddl/1.0/",
-  "extensions": [
-    "https://raw.githubusercontent.com/open-contracting/public-private-partnerships/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_requirements_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_budget_breakdown_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_documentation_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_metrics_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds-riskAllocation-extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds-shareholders-extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_finance_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_qualification_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_tariffs_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_performance_failures/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_contract_signatories_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_charges_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_transactions_relatedMilestone_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/master/extension.json",
-    "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/extension.json"
-  ],
+  "extensions":["http://standard.open-contracting.org/profiles/ppp/latest/en/_static/consolidatedExtension/extension.json"],
   "releases": [
     {
       "ocid": "ocds-213czf-example-ppp",
