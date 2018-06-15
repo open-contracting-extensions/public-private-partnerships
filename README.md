@@ -65,3 +65,4 @@ The `contract/financeSummary` section includes properties to express the **value
 * shareCapital
 * subsidyRatio
 * projectIRR
+ 
