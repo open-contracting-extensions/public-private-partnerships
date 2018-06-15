@@ -1,10 +1,10 @@
 ## OCDS for Public Private Partnerships
 
-The Open Contracting Data Standard for Public Private Partnerships release draws together a number of general extensions.
+The Open Contracting Data Standard for Public Private Partnerships profile is constructed from a number of different extensions to OCDS.
 
-Full documentation is available at [http://standard.open-contracting.org/profiles/ppp/latest/en/](http://standard.open-contracting.org/profiles/ppp/latest/en/)
+Full documentation of the profile is available at [http://standard.open-contracting.org/profiles/ppp/latest/en/](http://standard.open-contracting.org/profiles/ppp/latest/en/)
 
-This extension provides a number of fields and building blocks that are currently seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
+The extension in this repository is one of the extensions which makes up the OCDS for PPPs profile and introduces a number of fields and building blocks that are currently seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
 
 ### Project level information
 
@@ -39,7 +39,7 @@ An example is shown below:
                                 }
                             }
                   }
-        
+
         ]
 }
 
