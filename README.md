@@ -4,7 +4,7 @@ The Open Contracting Data Standard for Public Private Partnerships profile is co
 
 Full documentation of the profile is available at [http://standard.open-contracting.org/profiles/ppp/latest/en/](http://standard.open-contracting.org/profiles/ppp/latest/en/)
 
-The extension in this repository is one of the extensions which makes up the OCDS for PPPs profile and introduces a number of fields and building blocks that are currently seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
+This extension is one of the extensions which makes up the OCDS for PPPs profile. It introduces a number of fields and building blocks that are currently seen as specific to PPP disclosure against the World Bank PPP Disclosure Framework.
 
 ### Project level information
 
@@ -65,4 +65,3 @@ The `contract/financeSummary` section includes properties to express the **value
 * shareCapital
 * subsidyRatio
 * projectIRR
- 
