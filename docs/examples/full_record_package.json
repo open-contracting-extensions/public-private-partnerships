@@ -6,10 +6,10 @@
   ],
   "publishedDate": "2020-01-24T00:00:00Z",
   "publisher": {
-      "name": "Open Data Services Co-operative Limited",
-      "scheme": "GB-COH",
-      "uid": "9506232.0",
-      "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
+    "name": "Open Data Services Co-operative Limited",
+    "scheme": "GB-COH",
+    "uid": "9506232.0",
+    "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
   },
   "uri": "http://standard.open-contracting.org/profiles/ppp/latest/en/_static/full_record_package.json",
   "records": [
