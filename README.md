@@ -21,7 +21,7 @@ OCDS for PPPs is constructed from [a number of different modular extensions to O
 
 This repository contains one additional extensions that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as a set of modifications that should only apply in an OCDS Profile (e.g. removing standard fields that are not required in the profile). 
 
-### Extension contents
+### PPP Specific extensions 
 
 #### Project level information
 
