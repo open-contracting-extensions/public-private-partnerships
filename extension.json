@@ -12,6 +12,7 @@
     "+milestoneType.csv",
     "+partyRole.csv",
     "-partyRole.csv",
+    "+releaseTag.csv",
     "documentType.csv",
     "metricID.csv",
     "milestoneCode.csv"

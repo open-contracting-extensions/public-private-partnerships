@@ -1,4 +1,17 @@
 {
+  "version": "1.1",
+  "license": "http://opendatacommons.org/licenses/pddl/1.0/",
+  "extensions": [
+    "http://standard.open-contracting.org/profiles/ppp/latest/en/_static/consolidatedExtension/extension.json"
+  ],
+  "publishedDate": "2020-01-24T00:00:00Z",
+  "publisher": {
+      "name": "Open Data Services Co-operative Limited",
+      "scheme": "GB-COH",
+      "uid": "9506232.0",
+      "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
+  },
+  "uri": "http://standard.open-contracting.org/profiles/ppp/latest/en/_static/full_record_package.json",
   "records": [
     {
       "ocid": "ocds-213czf-example-ppp",
@@ -3882,7 +3895,7 @@
                 "documents": [
                   {
                     "id": "1.0",
-                    "documentType": "physicalProcessReport",
+                    "documentType": "physicalProgressReport",
                     "title": "Roll-out progress update - January 2018",
                     "description": "Report detailing progress to date on physical implementation of network infrastructure",
                     "url": "http://exampleppp.example/2018-01-progressUpdate.pdf",
@@ -4164,126 +4177,7 @@
                     ]
                   }
                 ]
-              },
-              "agreedMetrics": [
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "observations": [
-                    {
-                      "unit": {
-                        "name": "percent"
-                      }
-                    }
-                  ]
-                }
-              ]
+              }
             }
           ]
         }

@@ -15,7 +15,14 @@ The extended OCDS for PPPs schema provides all the elements covered by the [Worl
 
 ## The OCDS for PPPs Schema
 
-To produce and validate OCDS for PPPs data, create an [OCDS 1.1 file](http://standard.open-contracting.org/latest/en/schema/), and declare the consolidated OCDS for PPPs extensions as part of a release or record package.
+To produce and validate OCDS for PPPs data, create an [OCDS 1.1 file](http://standard.open-contracting.org/latest/en/schema/), and declare the consolidated OCDS for PPPs extension as part of a release or record package, e.g.
+
+```json
+{
+  "extensions":["http://standard.open-contracting.org/profiles/ppp/latest/en/_static/consolidatedExtension/extension.json"],
+  "releases":[]
+}
+```
 
 A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](../_static/ppp-release-schema.json), and a [full reference table is provided](reference/schema.md).
 
