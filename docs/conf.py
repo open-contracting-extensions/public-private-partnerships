@@ -21,6 +21,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import os
+from collections import OrderedDict
 
 import standard_theme
 from ocds_documentation_support import translate_codelists, translate_schema
@@ -121,26 +122,26 @@ html_extra_path = ['../schema/consolidatedExtension']
 locale_dirs = ['../locale/', os.path.join(standard_theme.get_html_theme_path(), 'locale')]
 gettext_compact = False
 profile_identifier = 'ppp'
-extension_versions = {
-    'bids': 'v1.1.3',
-    'budget': 'master',
-    'budget_project': 'master',
-    'charges': 'master',
-    'documentation_details': 'master',
-    'finance': 'master',
-    'location': 'v1.1.3',
-    'metrics': 'master',
-    'milestone_documents': 'v1.1.3',
-    'performance_failures': 'master',
-    'process_title': 'v1.1.3',
-    'qualification': 'master',
-    'requirements': 'master',
-    'risk_allocation': 'master',
-    'shareholders': 'master',
-    'signatories': 'master',
-    'tariffs': 'master',
-    'transaction_milestones': 'master',
-}
+extension_versions = OrderedDict([
+    ('bids', 'v1.1.3'),
+    ('budget', 'master'),
+    ('budget_project', 'master'),
+    ('charges', 'master'),
+    ('documentation_details', 'master'),
+    ('finance', 'master'),
+    ('location', 'v1.1.3'),
+    ('metrics', 'master'),
+    ('milestone_documents', 'v1.1.3'),
+    ('performance_failures', 'master'),
+    ('process_title', 'v1.1.3'),
+    ('qualification', 'master'),
+    ('requirements', 'master'),
+    ('risk_allocation', 'master'),
+    ('shareholders', 'master'),
+    ('signatories', 'master'),
+    ('tariffs', 'master'),
+    ('transaction_milestones', 'master'),
+])
 
 
 def setup(app):
