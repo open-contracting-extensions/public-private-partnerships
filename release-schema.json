@@ -28,6 +28,12 @@
         ]
       }
     },
+    "initiationType": {
+      "description": "String specifying the type of initiation process used for this contract, taken from the initiationType codelist. In OCDS for PPPs, only ppp is supported.",
+      "enum": [
+        "ppp"
+      ]
+    },
     "buyer": null,
     "publicAuthority": {
       "title": "Public authority",
