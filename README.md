@@ -10,7 +10,7 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 
 ```json
 {
-    "extensions":["http://standard.open-contracting.org/profiles/ppp/latest/en/_static/consolidatedExtension/extension.json"],
+    "extensions":["http://standard.open-contracting.org/profiles/ppp/latest/en/extension.json"],
     "releases":[]
 }
 ```

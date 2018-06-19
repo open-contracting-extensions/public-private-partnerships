@@ -2,5 +2,5 @@
 
 For full documentation of OCDS for PPPs see http://standard.open-contracting.org/profiles/ppp/
 
-This extension should always be declared by referring to the deployed version at http://standard.open-contracting.org/profiles/ppp/consolidated-extension/en/_static/consolidatedExtension/extension.json
+This extension should always be declared by referring to the deployed version at http://standard.open-contracting.org/profiles/ppp/latest/en/extension.json
 
