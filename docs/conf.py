@@ -110,6 +110,11 @@ html_theme_path = [standard_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['../schema', '_static', 'examples']
 
+# Add any extra paths that contain custom files (such as robots.txt or
+# .htaccess) here, relative to this directory. These files are copied
+# directly to the root of the documentation.
+#
+html_extra_path = ['../schema/consolidatedExtension']
 
 # -- Local configuration --------------------------------------------------
 
