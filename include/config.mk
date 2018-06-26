@@ -36,8 +36,6 @@ compile:
 
 # Put local targets below.
 
-OCDS_TAG=1__1__2
-
 # Update OCDS Show for PPPs.
 .PHONY: update_ocds_show
 update_ocds_show:
@@ -49,15 +47,3 @@ update_ocds_show:
 	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
 	rm -f ocds-show-ppp-gh-pages/README.md
 	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
-
-# Update base schema and codelists.
-.PHONY: update_base_files
-update_base_files:
-	curl -Ss -o standard.zip https://codeload.github.com/open-contracting/standard/zip/$(OCDS_TAG)
-	unzip -q standard.zip
-	rm -f standard.zip
-	rm -f schema/base-release-schema.json
-	rm -f schema/base-codelists/*.csv
-	mv standard-$(OCDS_TAG)/standard/schema/release-schema.json schema/base-release-schema.json
-	mv standard-$(OCDS_TAG)/standard/schema/codelists/*.csv schema/base-codelists
-	rm -rf standard-$(OCDS_TAG)
