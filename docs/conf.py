@@ -133,6 +133,7 @@ extension_versions = OrderedDict([
     ('metrics', 'master'),
     ('milestone_documents', 'v1.1.3'),
     ('performance_failures', 'master'),
+    ('ppp', 'v1.1.3'),
     ('process_title', 'v1.1.3'),
     ('qualification', 'master'),
     ('requirements', 'master'),
