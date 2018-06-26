@@ -259,7 +259,7 @@ msgstr ""
 #: ../../docs/framework.md:3290 ../../docs/framework.md:3504
 #: ../../docs/framework.md:3691 ../../docs/framework.md:3936
 #: ../../docs/framework.md:4076
-msgid "**JSON Example**"
+msgid "**JSON example:**"
 msgstr "**Ejemplo de JSON**"
 
 #: ../../docs/framework.md:52 ../../docs/framework.md:195

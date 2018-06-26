@@ -14,8 +14,6 @@ The mapping for each requirement in the framework includes a guide to publicatio
 
 ## I. Basic Project Information 
 
-
-
 <div class='disclosure-timing'>
 
 ```eval_rst
@@ -29,19 +27,13 @@ P   R   R   R   R   R
 
 </div>
 
-
-
- 
-
- 
-
- ### I.1. Name, location and sector 
+### I.1. Name, location and sector 
 
 Each project should have a name, location and sectoral classification.
 
  This information is included in the `planning/project` section of each release. A detailed breakdown of each field is given below. 
 
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -51,20 +43,13 @@ Each project should have a name, location and sectoral classification.
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/project
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- #### I.1.1. Project name and description 
-
-
+#### I.1.1. Project name and description 
 
  These titles and descriptions can be used by applications in summary lists, so should be kept concise and jargon free.
 
@@ -79,12 +64,7 @@ We recommend keeping descriptions to one paragraph or less.
     :nocrossref:
 ```
 
-
- 
-
- #### I.1.2. Project sector 
-
-
+#### I.1.2. Project sector 
 
  Projects should be classified using the UN Classification of the Functions of Government Scheme (COFOG).
 
@@ -99,12 +79,7 @@ This can be cross-walked to most other PPP classification schemes in use, and so
     :nocrossref:
 ```
 
-
- 
-
- ##### I.1.2.1. Project sector (additional) 
-
-
+##### I.1.2.1. Project sector (additional) 
 
  One or more additional project classifications can be provided if required by a particular user of the data, or to relate the project to a national taxonomy. 
 
@@ -117,12 +92,9 @@ This can be cross-walked to most other PPP classification schemes in use, and so
     :nocrossref:
 ```
 
-
 Additional classification schemes can also be provided, such as project classification against the Sustainable Development Goals (SDGs), or against national frameworks. 
 
- #### I.1.3. Project location 
-
-
+#### I.1.3. Project location 
 
  The locations where a project is taking place can be specified using:
 
@@ -140,20 +112,9 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
     :nocrossref:
 ```
 
+### I.2. Sponsoring agency/department 
 
- 
-
- ### I.2. Sponsoring agency/department 
-
-
-
- 
-
- 
-
- #### I.2.1. Organization details 
-
-
+#### I.2.1. Organization details 
 
 <div class='disclosure-timing'>
 
@@ -167,8 +128,6 @@ P   U   U   U   U   U
 ```
 
 </div>
-
-
 
  Details of the sponsoring agency or department, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -183,8 +142,7 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -194,20 +152,13 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/parties/1
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- #### I.2.2. Organization reference 
-
-
+#### I.2.2. Organization reference 
 
 <div class='disclosure-timing'>
 
@@ -222,8 +173,6 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The `publicAuthority` section of an OCDS release should be used to reference the entry for the sponsoring agency or department in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -235,8 +184,7 @@ P   U   U   U   U   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -246,28 +194,17 @@ P   U   U   U   U   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/publicAuthority
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- ### I.3. Project value 
+### I.3. Project value 
 
 The value of a project can be specified at a number of points in time. 
 
- 
-
- 
-
- #### I.3.1. Planned value 
-
-
+#### I.3.1. Planned value 
 
 <div class='disclosure-timing'>
 
@@ -282,8 +219,6 @@ P   R   R   R       R
 
 </div>
 
-
-
  The value, or range of values, anticipated during the planning stage. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -295,12 +230,7 @@ P   R   R   R       R
     :nocrossref:
 ```
 
-
- 
-
- #### I.3.2. Tender value 
-
-
+#### I.3.2. Tender value 
 
  The value, or range of values, in a call for tenders for the project. 
 
@@ -313,12 +243,7 @@ P   R   R   R       R
     :nocrossref:
 ```
 
-
- 
-
- #### I.3.3. Award value 
-
-
+#### I.3.3. Award value 
 
  The value of the project at time of contract award. 
 
@@ -331,12 +256,7 @@ P   R   R   R       R
     :nocrossref:
 ```
 
-
- 
-
- #### I.3.4. Contract value 
-
-
+#### I.3.4. Contract value 
 
  The total value of the project agreed in the contract(s). 
 
@@ -349,10 +269,7 @@ P   R   R   R       R
     :nocrossref:
 ```
 
-
- 
-
- ### I.4. Project economic and social benefits 
+### I.4. Project economic and social benefits 
 
 Project need: benefits provided, economic and social (including specific information on the public interest aspect)
 
@@ -368,8 +285,6 @@ P
 ```
 
 </div>
-
-
 
  Information on the project need, benefits provided, and economic and social impact should be provided through:
 
@@ -387,8 +302,7 @@ These documents should be tagged with a `documentType` value of 'needsAssessment
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -398,18 +312,13 @@ These documents should be tagged with a `documentType` value of 'needsAssessment
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/documents/0
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- ### I.5. Project technical description 
+### I.5. Project technical description 
 
 Technical description of the physical infrastructure
 
@@ -425,8 +334,6 @@ P
 ```
 
 </div>
-
-
 
  A technical description of the physical infrastructure should be provided through:
 
@@ -444,12 +351,9 @@ These documents should be tagged with a `documentType` value of 'technicalSpecif
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### I.6. Project high level description 
+### I.6. Project high level description 
 
 High-level description of the services
 
@@ -465,8 +369,6 @@ P
 ```
 
 </div>
-
-
 
  A high-level description of the services should be provided through:
 
@@ -484,12 +386,9 @@ These documents should be tagged with a `documentType` value of 'serviceDescript
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### I.7. Estimated project demand 
+### I.7. Estimated project demand 
 
 Estimated demand to be served annually
 
@@ -506,15 +405,7 @@ P
 
 </div>
 
-
-
- 
-
- 
-
- #### I.7.1. Structured information on estimated demand 
-
-
+#### I.7.1. Structured information on estimated demand 
 
  Structured data about estimated demand should be provided in the `planning/forecast` section of an OCDS release, using an array of metrics building blocks.
 
@@ -531,8 +422,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -542,20 +432,13 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/forecasts
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- #### I.7.2. Estimated demand documentation 
-
-
+#### I.7.2. Estimated demand documentation 
 
  Non-structured data relating to estimated demand can be provided through:
 
@@ -573,12 +456,9 @@ These documents should be tagged with a `documentType` value of 'estimatedDemand
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### I.8. Project additionality 
+### I.8. Project additionality 
 
 Project additionality
 
@@ -594,8 +474,6 @@ P
 ```
 
 </div>
-
-
 
  Information on the project additionality should be provided through planning documents containing:
 
@@ -618,12 +496,9 @@ These documents should be tagged with a `documentType` value of 'projectAddition
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### I.9. Reasons for selection of PPP mode (general) 
+### I.9. Reasons for selection of PPP mode (general) 
 
 Reason for selection of PPP mode and type in brief
 
@@ -639,8 +514,6 @@ P
 ```
 
 </div>
-
-
 
  A short summary of the reason for the PPP selection mode should be provided through:
 
@@ -658,12 +531,9 @@ These documents should be tagged with a `documentType` value of 'pppModeRational
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
-  ### I.10. Project approval dates 
+### I.10. Project approval dates 
 
 Dates of various approvals
 
@@ -680,8 +550,6 @@ P
 
 </div>
 
-
-
 This information can be provided using the [milestones extension](../extensions/milestones/).
 
 Each approval during the planning stage should be included in the `planning/milestones` array with a `type` of 'approval', the date the approval is scheduled for (`dueDate`), the status of the approval (`scheduled` or `met`) and the date the approval was given (`dateMet`).
@@ -697,8 +565,7 @@ Documentation associated with the approval can be given in the associated milest
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -708,18 +575,13 @@ Documentation associated with the approval can be given in the associated milest
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/planning/milestones/1
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- ### I.11. Contract Milestones 
+### I.11. Contract Milestones 
 
 Key events relating to commercial and financial close
 
@@ -734,10 +596,7 @@ Key events relating to commercial and financial close
     :nocrossref:
 ```
 
-
- 
-
- #### I.11.1. Contract milestones - Date of commercial close 
+#### I.11.1. Contract milestones - Date of commercial close 
 
 Contract Milestones (Estimated and Actual) - Date of commercial close
 
@@ -756,17 +615,11 @@ P   U   U   U
 
 </div>
 
-
-
  This milestone should have a `type` of 'financing', a `code` of 'commercialClose' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
-
-
 
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
- 
-
- #### I.11.2. Contract milestones - Date of financial close 
+#### I.11.2. Contract milestones - Date of financial close 
 
 Contract Milestones (Estimated and Actual) - Date of financial close
 
@@ -785,19 +638,13 @@ P   U   U   U
 
 </div>
 
-
-
  To indicate the date of financial close, a milestone should be added to the `contract/milestones` (the contract may have a `status` of 'pending' up until it is signed). 
 
 The milestone should have a `type` of 'financing', a `code` of 'financialClose' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
-
-
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
- 
-
- ### I.12. Implementation milestones 
+### I.12. Implementation milestones 
 
 Key events relating to the implementation of the project.
 
@@ -812,10 +659,7 @@ Key events relating to the implementation of the project.
     :nocrossref:
 ```
 
-
- 
-
- #### I.12.1. Implementation milestones - Date of commencement of construction or development 
+#### I.12.1. Implementation milestones - Date of commencement of construction or development 
 
 Contract Milestones (Estimated and Actual) - Date of commencement of construction or development
 
@@ -832,16 +676,11 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The milestone should have a `type` of 'delivery', a `code` of 'developmentStarted' or 'constructionStarted' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
-
 
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
- 
-
- #### I.12.2. Implementation milestones - Date of completion of construction or development 
+#### I.12.2. Implementation milestones - Date of completion of construction or development 
 
 Contract Milestones (Estimated and Actual) - Date of completion of construction or development
 
@@ -858,15 +697,11 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The milestone should have a `type` of 'delivery', a `code` of 'developmentComplete' or 'constructionComplete' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
- 
-
- #### I.12.3. Implementation milestones - Date of commissioning 
+#### I.12.3. Implementation milestones - Date of commissioning 
 
 Contract Milestones (Estimated and Actual) - Date of commissioning
 
@@ -885,15 +720,11 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The milestone should have a `type` of 'delivery', a `code` of 'commissioning' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
 
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
- 
-
- #### I.12.4. Implementation milestones - Date of contract expiry 
+#### I.12.4. Implementation milestones - Date of contract expiry 
 
 Contract Milestones (Estimated and Actual) - Date of contract expiry
 
@@ -909,8 +740,6 @@ P   U   U   U   U   U
 ```
 
 </div>
-
-
 
  Information on the expected contract expiry date at the tender and award stages of a contracting process should be provided using `contractPeriod` field in the `tender` and `award` sections of an OCDS release respectively.
 
@@ -929,8 +758,7 @@ The actual date of contract expiry should be entered into the `period/endDate` f
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -941,18 +769,13 @@ The actual date of contract expiry should be entered into the `period/endDate` f
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/contractPeriod
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- ### I.13. Contract documents 
+### I.13. Contract documents 
 
 Links to all contract documents
 
@@ -969,8 +792,6 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
 
 A value from the [document type codelist](../reference/codelists/#documenttype) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
@@ -984,24 +805,15 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### I.14. Contract parties - public authority 
+### I.14. Contract parties - public authority 
 
 Public authority: name of authority, name of representative, address, telephone, fax, e-mail
 
 > The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
- 
-
- 
-
- #### I.14.1. Contract signatories 
-
-
+#### I.14.1. Contract signatories 
 
 <div class='disclosure-timing'>
 
@@ -1015,8 +827,6 @@ P   U   U   U   U   U
 ```
 
 </div>
-
-
 
  The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including the public authority. 
 
@@ -1029,8 +839,7 @@ P   U   U   U   U   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1040,20 +849,13 @@ P   U   U   U   U   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/signatories
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### I.14.2. Organization details 
-
-
+#### I.14.2. Organization details 
 
 <div class='disclosure-timing'>
 
@@ -1067,8 +869,6 @@ P   U   U   U   U   U
 ```
 
 </div>
-
-
 
  Details of the public authority, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -1083,8 +883,7 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1094,20 +893,13 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/parties/1
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- #### I.14.3. Organization reference 
-
-
+#### I.14.3. Organization reference 
 
 <div class='disclosure-timing'>
 
@@ -1122,8 +914,6 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The `publicAuthority` section of an OCDS release should be used to reference the entry for the public authority in the `parties` section. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -1135,8 +925,7 @@ P   U   U   U   U   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1146,31 +935,19 @@ P   U   U   U   U   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/0/publicAuthority
   :ignore_path: /releases/0/
 ```
 
-
-
- 
-
- ### I.15. Contract parties - private party 
+### I.15. Contract parties - private party 
 
 Private party: name of company or consortium, name of representative, address, telephone, fax, e-mail
 
 > The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
-
- 
-
- 
-
- #### I.15.1. Contract signatories 
-
-
+#### I.15.1. Contract signatories 
 
  The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including the private party. 
 
@@ -1183,8 +960,7 @@ Private party: name of company or consortium, name of representative, address, t
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1194,20 +970,13 @@ Private party: name of company or consortium, name of representative, address, t
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/signatories
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### I.15.2. Organization details 
-
-
+#### I.15.2. Organization details 
 
  Details of the private party, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -1222,8 +991,7 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1233,20 +1001,13 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/0
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### I.15.3. Organization reference 
-
-
+#### I.15.3. Organization reference 
 
  The `awards` section of an OCDS release should be used to reference the entry for the private party in the `parties` section. 
 
@@ -1259,8 +1020,7 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1270,28 +1030,17 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- ### I.16. Contract parties - financiers 
+### I.16. Contract parties - financiers 
 
 Financiers: name of Lead FI, other FIs, name of representative of lead FI, address, telephone, fax, e-mail
 
- 
-
- 
-
- #### I.16.1. Organization details 
-
-
+#### I.16.1. Organization details 
 
  Details of the financiers, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -1306,8 +1055,7 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1317,20 +1065,13 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/4
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### I.16.2. Contract signatories 
-
-
+#### I.16.2. Contract signatories 
 
  The `contracts` section of an OCDS release should be used to reference the entries in the `parties` section for all signatories to the contract, including any financiers which are signatories. 
 
@@ -1343,8 +1084,7 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1354,36 +1094,21 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/signatories
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ## II. Procurement Information 
+## II. Procurement Information 
 
 Dates and summary details, links to all procurement documents, final feasibility study, including land acquisition, social, environmental, and rehabilitation related information, reports of independent procurement auditors (if any)
 
- 
-
- 
-
- ### II.1. Pre qualification 
+### II.1. Pre qualification 
 
 > The act of testing prospective bidders to determine whether they meet the pass/fail qualification criteria in advance of issuing the request for proposals. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
- 
-
- 
-
- #### II.1.1. Dates - Submission period 
-
-
+#### II.1.1. Dates - Submission period 
 
 <div class='disclosure-timing'>
 
@@ -1397,8 +1122,6 @@ P   U
 ```
 
 </div>
-
-
 
  The `preQualification/period` field should be used to provide the period during which the pre-qualification stage is open for submissions, `period.endDate` should contain the closing date for submissions. 
 
@@ -1411,8 +1134,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1422,20 +1144,13 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/7/preQualification/period
   :ignore_path: /releases/7/
 ```
 
-
-
- 
-
- #### II.1.2. Dates - Enquiry period 
-
-
+#### II.1.2. Dates - Enquiry period 
 
 <div class='disclosure-timing'>
 
@@ -1449,8 +1164,6 @@ P   U
 ```
 
 </div>
-
-
 
  The `preQualification/enquiryPeriod` field should be used to provide the period during which enquiries may be made and answered. 
 
@@ -1463,8 +1176,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1474,20 +1186,13 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/7/preQualification/enquiryPeriod
   :ignore_path: /releases/7/
 ```
 
-
-
- 
-
- #### II.1.3. Dates - Qualification period 
-
-
+#### II.1.3. Dates - Qualification period 
 
 <div class='disclosure-timing'>
 
@@ -1501,8 +1206,6 @@ P   U
 ```
 
 </div>
-
-
 
  The `preQualification/qualificationPeriod` field should be used to provide the period during which candidates will be qualified or pre-selected (shortlisted).  
 
@@ -1515,8 +1218,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1526,20 +1228,13 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/7/preQualification/qualificationPeriod
   :ignore_path: /releases/7/
 ```
 
-
-
- 
-
- #### II.1.4. Summary details - Submission method 
-
-
+#### II.1.4. Summary details - Submission method 
 
 <div class='disclosure-timing'>
 
@@ -1553,8 +1248,6 @@ P   U
 ```
 
 </div>
-
-
 
  Information on the submission method for bids should be provided in the `preQualification` section of an OCDS release: 
 
@@ -1567,8 +1260,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1579,7 +1271,6 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/7/preQualification
@@ -1587,13 +1278,7 @@ P   U
   :ignore_path: /releases/7/
 ```
 
-
-
- 
-
- #### II.1.5. Summary details - Eligibility criteria 
-
-
+#### II.1.5. Summary details - Eligibility criteria 
 
 <div class='disclosure-timing'>
 
@@ -1608,8 +1293,6 @@ P   U
 
 </div>
 
-
-
  Information on the eligibility criteria for participants in the pre-qualification stage can be provided using `preQualification` section of an OCDS release. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -1621,8 +1304,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1633,7 +1315,6 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/7/preQualification
@@ -1641,17 +1322,11 @@ P   U
   :ignore_path: /releases/7/
 ```
 
-
-
- 
-
- #### II.1.6. RFQ documents 
+#### II.1.6. RFQ documents 
 
 RFQ documents
 
 > The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase). ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
-
-
 
  Links to RFQ documents can be provided using the `documents` field in the `preQualification` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -1666,12 +1341,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### II.2. List of pre-qualified suppliers 
+### II.2. List of pre-qualified suppliers 
 
 Pre-qualification or shortlist
 
@@ -1690,22 +1362,13 @@ Pre-qualification or shortlist
     :nocrossref:
 ```
 
-
 **Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the `organization` building block.
 
- 
-
- ### II.3. Tender 
+### II.3. Tender 
 
 > The process by which bids are invited from interested parties to carry out the project. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
- 
-
- 
-
- #### II.3.1. Dates - Tender period 
-
-
+#### II.3.1. Dates - Tender period 
 
 <div class='disclosure-timing'>
 
@@ -1719,8 +1382,6 @@ P   U
 ```
 
 </div>
-
-
 
  The `tender/tenderPeriod` field should be used to provide the period during which the tender is open for submissions, `tenderPeriod.endDate` should contain the closing date for tender submissions. 
 
@@ -1733,8 +1394,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1744,20 +1404,13 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/tenderPeriod
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- #### II.3.2. Dates - Enquiry period 
-
-
+#### II.3.2. Dates - Enquiry period 
 
 <div class='disclosure-timing'>
 
@@ -1771,8 +1424,6 @@ P   U
 ```
 
 </div>
-
-
 
  The `tender/enquiryPeriod`field should be used to provide the period during which enquiries may be made and answered. 
 
@@ -1785,8 +1436,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1796,14 +1446,11 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/enquiryPeriod
   :ignore_path: /releases/1/
 ```
-
-
 
 Some PPP procurement processes have more than one enquiry period during the tender stage of the procurement. In such cases:
 
@@ -1812,9 +1459,7 @@ Some PPP procurement processes have more than one enquiry period during the tend
 
 The above guidance should also be followed for processes with multiple enquiry periods during the pre-qualification stage of the procurement, in such cases the same approach should be applied to the equivalent fields from the `preQualification` section of an OCDS release. 
 
- #### II.3.3. Dates - Award period 
-
-
+#### II.3.3. Dates - Award period 
 
 <div class='disclosure-timing'>
 
@@ -1829,8 +1474,6 @@ P   U
 
 </div>
 
-
-
  The `tender/awardPeriod` field should be used to provide the period during which an award is expected to be made. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -1842,8 +1485,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1853,20 +1495,13 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/awardPeriod
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- #### II.3.4. Dates - Contract period 
-
-
+#### II.3.4. Dates - Contract period 
 
 <div class='disclosure-timing'>
 
@@ -1881,8 +1516,6 @@ P   U   U   U   U   U
 
 </div>
 
-
-
  The `tender/contractPeriod` field should be used to provide the expected start and end dates for the contract. 
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -1894,8 +1527,7 @@ P   U   U   U   U   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1906,20 +1538,13 @@ P   U   U   U   U   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender/contractPeriod
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- #### II.3.5. Summary details - Procurement method 
-
-
+#### II.3.5. Summary details - Procurement method 
 
 <div class='disclosure-timing'>
 
@@ -1933,8 +1558,6 @@ P   U
 ```
 
 </div>
-
-
 
  Information on the procurement method used should be provided in the `tender` section of an OCDS release: 
 
@@ -1947,8 +1570,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -1959,7 +1581,6 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender
@@ -1967,13 +1588,7 @@ P   U
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- #### II.3.6. Summary details - Submission method 
-
-
+#### II.3.6. Summary details - Submission method 
 
 <div class='disclosure-timing'>
 
@@ -1987,8 +1602,6 @@ P   U
 ```
 
 </div>
-
-
 
  Information on the submission method for bids should be provided in the `tender` section of an OCDS release: 
 
@@ -2001,8 +1614,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2013,7 +1625,6 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender
@@ -2021,13 +1632,7 @@ P   U
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
- #### II.3.7. Summary details - Eligibility criteria 
-
-
+#### II.3.7. Summary details - Eligibility criteria 
 
 <div class='disclosure-timing'>
 
@@ -2041,8 +1646,6 @@ P   U
 ```
 
 </div>
-
-
 
  Information on the eligibility criteria for bidders can be provided using `tender` section of an OCDS release. 
 
@@ -2055,8 +1658,7 @@ P   U
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2067,7 +1669,6 @@ P   U
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/1/tender
@@ -2075,13 +1676,7 @@ P   U
   :ignore_path: /releases/1/
 ```
 
-
-
- 
-
 #### II.3.9. Other Documents 
-
-
 
 <div class='disclosure-timing'>
 
@@ -2095,8 +1690,6 @@ P   U
 ```
 
 </div>
-
-
 
  Links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors should be provided using the [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) in the `tender/documents` array. A short summary text for each document can also be provided using the `document/description` field.
 
@@ -2111,12 +1704,9 @@ Each document should be tagged with an appropriate `documentType` value from the
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### II.4. Evaluation criteria 
+### II.4. Evaluation criteria 
 
 Evaluation criteria: brief description with weightage
 
@@ -2135,12 +1725,9 @@ The `document/documentType` field should be set to `evaluationCriteria` (from th
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### II.5. Evaluation committee information 
+### II.5. Evaluation committee information 
 
 Brief information on constitution of the evaluation committees
 
@@ -2159,12 +1746,9 @@ A value of `evaluationCommittee` from the [document type codelist](../reference/
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### II.6. Negotiation parameters 
+### II.6. Negotiation parameters 
 
 Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
 
@@ -2173,7 +1757,6 @@ Negotiation parameters: brief description of the parameters for negotiation with
 The `document/description` field can be used to provide a free text summary of the content of the document to enable this information to be displayed in applications consuming OCDS data.
 
 A value from the [document type codelist](../reference/codelists/#documenttype) of `negotiationParameters` should be entered into the `document/documentType` field to identify the type of document being disclosed.
- 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2184,12 +1767,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### II.7. Pre-bid meeting minutes 
+### II.7. Pre-bid meeting minutes 
 
 Minutes of pre-bid meetings
 
@@ -2208,22 +1788,11 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+### II.8. Contract award 
 
- ### II.8. Contract award 
-
-
-
- 
-
- 
-
- #### II.8.1. Organization details 
-
-
+#### II.8.1. Organization details 
 
  Details of the preferred bidder, including name and contact details, should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -2238,8 +1807,7 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2249,20 +1817,13 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- #### II.8.2. Organization reference 
-
-
+#### II.8.2. Organization reference 
 
  The `award` section of an OCDS release should be used to reference the entry for the preferred bidder in the `parties` section. 
 
@@ -2275,8 +1836,7 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2286,38 +1846,21 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/preferredBidders
   :ignore_path: /releases/3/
 ```
 
+## III. Risk 
 
-
- 
-
- ## III. Risk 
-
-
-
- 
-
- 
-
- ### III.1. Individual risk allocation information 
+### III.1. Individual risk allocation information 
 
 Listing of risks with information on who bears the risk. Countries, sectors, and individual projects may use different categorizations. Several risks can be further broken down into components or listed together. If within a large category of risk subcategories are allocated to different parties, it makes sense to show the subcategories clearly.
 
 > The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
- 
-
- 
-
- #### III.1.1. Structured risk allocation information 
-
-
+#### III.1.1. Structured risk allocation information 
 
  Structured information on the risk allocation should be provided using the `contract/riskAllocation` section of an OCDS release.
 
@@ -2328,7 +1871,6 @@ The following information should be provided for each risk:
 * Allocation
 
 Additional free text information on each risk allocation, for example the rationale for the allocation, can also be provided.
- 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2339,8 +1881,7 @@ Additional free text information on each risk allocation, for example the ration
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2350,20 +1891,13 @@ Additional free text information on each risk allocation, for example the ration
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/riskAllocation
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### III.1.2. Additional financial modelling for risks 
-
-
+#### III.1.2. Additional financial modelling for risks 
 
  Additional financial modelling for risks can also be linked to or provided in a document, using a `documentType` of `riskProvisions`. 
 
@@ -2376,20 +1910,11 @@ Additional free text information on each risk allocation, for example the ration
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+## IV. Evaluation of PPP option 
 
- ## IV. Evaluation of PPP option 
-
-
-
- 
-
- 
-
- ### IV.1. Evaluation report 
+### IV.1. Evaluation report 
 
 Link to evaluation report (value for money or other)
 
@@ -2408,20 +1933,11 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+### IV.2. Summary data 
 
- ### IV.2. Summary data 
-
-
-
- 
-
- 
-
- #### IV.2.1. Rationale for project as PPP (specific) 
+#### IV.2.1. Rationale for project as PPP (specific) 
 
 State the rationale for doing the project as a PPP, including any qualitative or quantitative value-for-money or other analysis that might have been used. If nonfinancial benefits have been quantified or considered, these could be stated
 
@@ -2442,12 +1958,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ##### IV.2.2.1. Discount rate and risk premium - structured data. 
+##### IV.2.2.1. Discount rate and risk premium - structured data
 
 The discount rates used should be specified in the disclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
 
@@ -2462,8 +1975,7 @@ The discount rates used should be specified in the disclosure along with the ris
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2473,20 +1985,13 @@ The discount rates used should be specified in the disclosure along with the ris
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/awards/0/evaluationIndicators
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- ##### IV.2.2.2. Discount rate and risk premium - supporting documentation 
-
-
+##### IV.2.2.2. Discount rate and risk premium - supporting documentation 
 
  Supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided in a document, or documents, using the `documents` field in the `award` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -2503,12 +2008,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### IV.2.3. Risk comparison 
+#### IV.2.3. Risk comparison 
 
 Risk comparison of other financing mechanisms should be specified.
 
@@ -2527,20 +2029,11 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+## V. Financial Information 
 
- ## V. Financial Information 
-
-
-
- 
-
- 
-
- ### V.1. Debt-equity ratio 
+### V.1. Debt-equity ratio 
 
 Debt-equity ratio
 
@@ -2555,8 +2048,7 @@ Debt-equity ratio
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2567,7 +2059,6 @@ Debt-equity ratio
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
@@ -2575,11 +2066,7 @@ Debt-equity ratio
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ### V.2. Share capital 
+### V.2. Share capital 
 
 Share capital
 
@@ -2594,8 +2081,7 @@ Share capital
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2606,7 +2092,6 @@ Share capital
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
@@ -2614,21 +2099,11 @@ Share capital
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ### V.3. Shareholders with proportion held and voting rights 
+### V.3. Shareholders with proportion held and voting rights 
 
 Shareholders with proportion held and voting rights
 
- 
-
- 
-
- #### V.3.1. Shareholder organization details 
-
-
+#### V.3.1. Shareholder organization details 
 
  Details of the shareholders should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -2643,8 +2118,7 @@ The `organization/roles` field should be set to `equityInvestor`.
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2654,20 +2128,13 @@ The `organization/roles` field should be set to `equityInvestor`.
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/4
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- #### V.3.1. Proportion held and voting rights 
-
-
+#### V.3.1. Proportion held and voting rights 
 
  Structured information about each shareholder on the proportion of shares held and voting rights should be provided in the entry in the `parties/shareholders` section of an OCDS release. 
 
@@ -2680,8 +2147,7 @@ The `organization/roles` field should be set to `equityInvestor`.
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2691,30 +2157,19 @@ The `organization/roles` field should be set to `equityInvestor`.
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- ### V.4. Equity transfer caps 
+### V.4. Equity transfer caps 
 
 Equity transfer caps
 
 *Note: Certain contracts provide for caps on equity transfer in different stages of the contract, especially during the construction stage and for a few years thereafter. Give details of any such provisions.*
 
- 
-
- 
-
- #### V.4.1. Documentation of equity transfer caps 
-
-
+#### V.4.1. Documentation of equity transfer caps 
 
  This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -2731,14 +2186,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### V.4.2. Individual shareholder lock in arrangements 
-
-
+#### V.4.2. Individual shareholder lock in arrangements 
 
  Information on equity transfer caps or lock in arrangements applicable to a particular shareholder can be provided in the `parties/shareholders/notes` field. 
 
@@ -2751,8 +2201,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2762,28 +2211,17 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/3/parties/0/shareholders/0
   :ignore_path: /releases/3/
 ```
 
-
-
- 
-
- ### V.5. Lender and investor information 
+### V.5. Lender and investor information 
 
 Commercial lenders, institutional investors, bilateral or multilateral lenders, public issue of bonds, supplier credit, other
 
- 
-
- 
-
- #### V.5.1. Organization information 
-
-
+#### V.5.1. Organization information 
 
  Details of lenders and investors should be provided in the `parties` section of an OCDS release. OCDS provides an [organization building block](http://standard.open-contracting.org/1.1/en/schema/reference/#organization) for disclosure of information about organizations and their roles.
 
@@ -2798,8 +2236,7 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2809,20 +2246,13 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/parties/4
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### V.5.2. Financing information 
-
-
+#### V.5.2. Financing information 
 
  Details of the type of finance provided by each lender or investor should be provided in the `contract/finance` section of an OCDS release. 
 
@@ -2835,8 +2265,7 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2846,24 +2275,19 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ### V.6. Debt information 
+### V.6. Debt information 
 
 Categorize senior debit, mezzanine debit, other
 
  Details of all debt financing should be provided in the `contract/finance` section of an OCDS release.
 
-*Note: Not all fields are required or applicable to all types of financing arrangement* 
+*Note: Not all fields are required or applicable to all types of financing arrangement.* 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -2874,8 +2298,7 @@ Categorize senior debit, mezzanine debit, other
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2886,7 +2309,6 @@ Categorize senior debit, mezzanine debit, other
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
@@ -2894,11 +2316,7 @@ Categorize senior debit, mezzanine debit, other
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ### V.7. Rate information 
+### V.7. Rate information 
 
 Amount and tenor of each, fixed or floating rate
 
@@ -2913,8 +2331,7 @@ Amount and tenor of each, fixed or floating rate
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2924,28 +2341,17 @@ Amount and tenor of each, fixed or floating rate
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- ### V.8. Security information 
+### V.8. Security information 
 
 Security and step in arrangements
 
- 
-
- 
-
- #### V.8.1. Structured security and step in information 
-
-
+#### V.8.1. Structured security and step in information 
 
  Details of security and step in rights relating to each financing arrangement should be provided in the `contract/finance/description` field, whilst the `contract/finance/stepInRights` flag should be set for each financing arrangement to indicate whether step in rights apply. 
 
@@ -2958,8 +2364,7 @@ Security and step in arrangements
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -2970,7 +2375,6 @@ Security and step in arrangements
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/finance/0
@@ -2978,13 +2382,7 @@ Security and step in arrangements
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### V.8.2. Security and step in documentation 
-
-
+#### V.8.2. Security and step in documentation 
 
  This information can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3001,12 +2399,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### V.9. Forecast IRR 
+### V.9. Forecast IRR 
 
 Forecast IRR
 
@@ -3021,8 +2416,7 @@ Forecast IRR
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3033,7 +2427,6 @@ Forecast IRR
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
@@ -3041,29 +2434,13 @@ Forecast IRR
   :ignore_path: /releases/4/
 ```
 
+## VI. Government Support 
 
-
- 
-
- ## VI. Government Support 
-
-
-
- 
-
- 
-
- ### VI.1. Guarantee information 
+### VI.1. Guarantee information 
 
 Detail the type and exact details of the guarantees provided - both explicit and contingent guarantees - such as minimum revenue guarantee, exchange rate guarantee, debit repayment guarantee and other guarantees. Provide links to fiscal commitments and contingent liabilities disclosure reports, if any.
 
- 
-
- 
-
- #### VI.1.1. Structured information on guarantees 
-
-
+#### VI.1.1. Structured information on guarantees 
 
  Structured information about financial guarantees can be provided in the contract `finance` block, with a `financeCategory` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented. 
 
@@ -3076,12 +2453,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
     :nocrossref:
 ```
 
-
- 
-
- #### VI.1.2.. Guarantee documentation 
-
-
+#### VI.1.2.. Guarantee documentation 
 
  Documentation of each guarantee should be provided using one or more `documentation` blocks (one for each guarantee) in the `contract` section of an OCDS release, with each one giving a clear title, description, and link out to further documentation or reports on the guarantee.
 
@@ -3096,28 +2468,13 @@ A value of `guarantee` should be used in the `documentType` field.
     :nocrossref:
 ```
 
+### VI.2. Grant/Subsidy information 
 
- 
-
- ### VI.2. Grant/Subsidy information 
-
-
-
- 
-
- 
-
- #### VI.2.1. Subsidy as a proportion of project value 
+#### VI.2.1. Subsidy as a proportion of project value 
 
 Subsidy as a proportion of project value
 
- 
-
- 
-
- #### VI.2.1. Structured information on subsidy as a proportion of project value 
-
-
+#### VI.2.1. Structured information on subsidy as a proportion of project value 
 
  Structured information and supporting details about the subsidy ratio for the PPP should be provided in the `contract/financeSummary` section of an OCDS release. 
 
@@ -3130,8 +2487,7 @@ Subsidy as a proportion of project value
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3142,7 +2498,6 @@ Subsidy as a proportion of project value
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/financeSummary
@@ -3150,13 +2505,7 @@ Subsidy as a proportion of project value
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### VI.2.1. Supporting documentation on subsidy as a proportion of project value 
-
-
+#### VI.2.1. Supporting documentation on subsidy as a proportion of project value 
 
  Supporting documentation about the subsidy ratio can be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3173,10 +2522,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
-
- 
 
 #### VI.2.2. Supporting documentation on capital subsidies 
 
@@ -3197,12 +2543,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### VI.2.3. Supporting documentation on operating subsidies 
+#### VI.2.3. Supporting documentation on operating subsidies 
 
 Operating subsidies and their periodicity of milestones
 
@@ -3221,22 +2564,13 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VI.3. Service payment information 
+### VI.3. Service payment information 
 
 These are payments made by the public authority or purchaser to the private provider for infrastructure services (applicable in PFI type projects)
 
- 
-
- 
-
- #### VI.3.1. Structured information on individual service payments 
-
-
+#### VI.3.1. Structured information on individual service payments 
 
  Structured information on actual individual service payments can be provided in the `contract/implementation/transactions` section of an OCDS release. 
 
@@ -3249,8 +2583,7 @@ These are payments made by the public authority or purchaser to the private prov
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3260,18 +2593,13 @@ These are payments made by the public authority or purchaser to the private prov
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
   :ignore_path: /releases/5/
 ```
 
-
-
- 
-
- #### VI.3.2. Structured information on total service payments 
+#### VI.3.2. Structured information on total service payments 
 
 Total payments and periodicity
 
@@ -3286,8 +2614,7 @@ Total payments and periodicity
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3297,18 +2624,13 @@ Total payments and periodicity
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/charges
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### VI.3.3. Service payment calculation methodology 
+#### VI.3.3. Service payment calculation methodology 
 
 Methodology for calculating payments
 
@@ -3327,12 +2649,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### VI.3.4. Service payment indexation 
+#### VI.3.4. Service payment indexation 
 
 Indexation used
 
@@ -3351,12 +2670,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VI.4. Land leases, asset transfers information 
+### VI.4. Land leases, asset transfers information 
 
 * Land transferred on lease or other basis by government: give details of property numbers with the quantum of land transferred, zoning information, conditions of transfer
 * Equipment transfers: details of equipment with conditions of transfer
@@ -3377,12 +2693,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VI.5. Other support 
+### VI.5. Other support 
 
 * Non-complete clauses
 * Provision for revenue shortfall loan
@@ -3402,24 +2715,15 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VI.6. Revenue share information 
+### VI.6. Revenue share information 
 
 * Revenue share on base case
 * Revenue share on upside
 * Links to graphs: annual concessionaire payments to government
 
- 
-
- 
-
- #### VI.6.1. Revenue share agreed in contract 
-
-
+#### VI.6.1. Revenue share agreed in contract 
 
  This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3436,14 +2740,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### VI.6.2. Revenue share in operation during contract 
-
-
+#### VI.6.2. Revenue share in operation during contract 
 
  This information should be provided in a document, or documents, using the `documents` field in the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3460,32 +2759,19 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+## VII. Tariffs 
 
- ## VII. Tariffs 
-
-
-
- 
-
- 
-
- ### VII.1. Tariffs and pricing 
+### VII.1. Tariffs and pricing 
 
 Tariffs and pricing
 
 This information will be required only where the infrastructure is financed partly or fully through the levy of user charges
 
- 
-
 Structured information on the tariffs defined in the contract and subsequent revisions to tariffs can be provided in the implementation section using the tariffs extension. Tariffs and pricing schedules can also be provided as documents. 
 
- #### VII.1.1. Structured tariff and pricing information 
-
-
+#### VII.1.1. Structured tariff and pricing information 
 
  Structured information on the tariffs defined in the contract should be provided in the `contract/tariffs` section of an OCDS release and subsequent revisions to tariffs can be provided in the `implementation/tariffs` section of an OCDS release. 
 
@@ -3500,8 +2786,7 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3511,20 +2796,13 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/4/contracts/0/implementation/tariffs
   :ignore_path: /releases/4/
 ```
 
-
-
- 
-
- #### VII.1.2. Tariff and pricing documentation 
-
-
+#### VII.1.2. Tariff and pricing documentation 
 
  Tariffs and pricing schedules defined in the contract can also be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. Subsequent revisions to tariffs and pricing schedules can be provided in the `documents` field of the `implementation` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3541,12 +2819,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VII.2. Tariff setting methodology 
+### VII.2. Tariff setting methodology 
 
 Methodology for tariff setting/pricing
 
@@ -3565,14 +2840,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VII.3. Tariff review mechanism 
-
-
+### VII.3. Tariff review mechanism 
 
  This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3589,14 +2859,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VII.4. Tariff change illustrations 
-
-
+### VII.4. Tariff change illustrations 
 
  This information should be provided in a document, or documents, using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3613,20 +2878,11 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+## VIII. Contract Termination 
 
- ## VIII. Contract Termination 
-
-
-
- 
-
- 
-
- ### VIII.1. Events of default and termination payments 
+### VIII.1. Events of default and termination payments 
 
 Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
@@ -3645,12 +2901,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### VIII.2. Handover information 
+### VIII.2. Handover information 
 
 State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
@@ -3669,26 +2922,15 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
+## IX. Renegotiations 
 
- ## IX. Renegotiations 
-
-
-
- 
-
- 
-
- ### IX.1. Contract variation details 
+### IX.1. Contract variation details 
 
 State variations to contract, if any, after signing of the original contract detailing each change against original provisions. State in addition the details of renegotiations and circumstances leading to renegotiations. State specifically any change due to the renegotiated clauses in the following: roles and responsibilities relating to the project, risk allocation, fiscal exposure, that is, any change in fiscal commitments and contingent liabilities with a rationale for agreeing to the change.
 
- 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3698,20 +2940,13 @@ State variations to contract, if any, after signing of the original contract det
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/8/contracts/0/amendments/0
   :ignore_path: /releases/8/
 ```
 
-
-
- 
-
- #### IX.1.1. Contract documents 
-
-
+#### IX.1.1. Contract documents 
 
  The amended contract should be provided using the `documents` field in the `contract` section of an OCDS release. OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents.
 
@@ -3728,10 +2963,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.2. Description 
+#### IX.1.2. Description 
 
 Nature of Variation
 
@@ -3746,10 +2978,7 @@ Nature of Variation
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.3. Rationale 
+#### IX.1.3. Rationale 
 
 Rationale for variation
 
@@ -3764,10 +2993,7 @@ Rationale for variation
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.4. Parties 
+#### IX.1.4. Parties 
 
 Change in roles and responsibilities of the parties due to the variation, if any
 
@@ -3782,10 +3008,7 @@ Change in roles and responsibilities of the parties due to the variation, if any
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.5. Risk allocation 
+#### IX.1.5. Risk allocation 
 
 Change in original risk allocation due to the variation, if any
 
@@ -3800,10 +3023,7 @@ Change in original risk allocation due to the variation, if any
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.6. Fiscal commitments 
+#### IX.1.6. Fiscal commitments 
 
 Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
 
@@ -3822,12 +3042,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### IX.1.6. Costs 
+#### IX.1.6. Costs 
 
 Change in capital or operational costs due to the variation, if any
 
@@ -3846,12 +3063,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- #### IX.1.7. Tariffs 
+#### IX.1.7. Tariffs 
 
 Change in tariffs or service levels due to the variation, if any
 
@@ -3866,12 +3080,7 @@ Change in tariffs or service levels due to the variation, if any
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.8. Service levels 
-
-
+#### IX.1.8. Service levels 
 
  Structured information on changes to services levels should be provided by updating the `contract/agreedMetrics` section of an OCDS release. 
 
@@ -3884,10 +3093,7 @@ Change in tariffs or service levels due to the variation, if any
     :nocrossref:
 ```
 
-
- 
-
- #### IX.1.9. Date 
+#### IX.1.9. Date 
 
 Date of variation
 
@@ -3902,18 +3108,9 @@ Date of variation
     :nocrossref:
 ```
 
+## X. Performance Information 
 
- 
-
- ## X. Performance Information 
-
-
-
- 
-
- 
-
- ### X.1. Actual annual demand 
+### X.1. Actual annual demand 
 
 State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
@@ -3932,8 +3129,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -3943,28 +3139,17 @@ These estimates can be disaggregated by any number of dimensions contained as si
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/metrics
   :ignore_path: /releases/6/
 ```
 
-
-
- 
-
- ### X.2. Actual annual revenue 
+### X.2. Actual annual revenue 
 
 Recommended only where revenue share clauses or other related clauses such as MRGs are present in the contract.
 
-
- 
-
- 
-
- #### X.2.1. Structured information on annual revenues 
-
+#### X.2.1. Structured information on annual revenues 
 
 State the actual annual total revenues reported in the financial statements and reports.
 
@@ -3983,12 +3168,9 @@ These estimates can be disaggregated by any number of dimensions contained as si
     :nocrossref:
 ```
 
-
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
- 
-
- #### X.2.2. Financial statements 
+#### X.2.2. Financial statements 
 
 Provide links to audited financial statements of the provider company.
 
@@ -4005,12 +3187,9 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
- ### X.3. Actual IRR 
+### X.3. Actual IRR 
 
 Recommended only where there is government equity investment or other form of government support that is substantial
 
@@ -4029,12 +3208,9 @@ These estimates can be disaggregated by any number of dimensions contained as si
     :nocrossref:
 ```
 
-
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
- 
-
- ### X.4. Actual KPI performance 
+### X.4. Actual KPI performance 
 
 State actual year-wise performance here against each of 10-12 identified key performance indicators
 
@@ -4051,17 +3227,13 @@ These estimates can be disaggregated by any number of dimensions contained as si
     :nocrossref:
 ```
 
-
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
- 
-
- ### X.5. Performance failure information 
+### X.5. Performance failure information 
 
 State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed.
 
  Structured data about actual performance failures, penalties and abatements and those provided for in the contract can be provided in the `contract/implementation/performanceFailures` section of an OCDS release.
- 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -4072,8 +3244,7 @@ State instances of performance failure during the year and the penalty or abatem
     :nocrossref:
 ```
 
-
-**JSON Example**
+**JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
@@ -4083,18 +3254,13 @@ State instances of performance failure during the year and the penalty or abatem
 
 **Flattened example** (showing top-level fields only)
 
-
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
   :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
   :ignore_path: /releases/6/
 ```
 
-
-
- 
-
- ### X.6. Performance assessment reports 
+### X.6. Performance assessment reports 
 
 Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
 
@@ -4113,9 +3279,5 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
     :nocrossref:
 ```
 
-
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
- 
-
-     
