@@ -24,7 +24,7 @@ To produce and validate OCDS for PPPs data, create an [OCDS 1.1 file](http://sta
 }
 ```
 
-A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](../_static/ppp-release-schema.json), and a [full reference table is provided](reference/schema.md).
+A compiled OCDS for PPPs schema, with the extensions applied, is also  [available to download](../_static/patched/release-schema.json), and a [full reference table is provided](reference/schema.md).
 
 ## Who is this for?
 
