@@ -17,7 +17,7 @@ BUILD_DIR=build
 # Extra build files or directories.
 EXTRA_BUILD_FILES=docs/_build docs/_static/codelists docs/_static/ppp-release-schema.json docs/extensions/codelists_translated locale/es/LC_MESSAGES/*.mo locale/es/LC_MESSAGES/reference/*.mo
 # Files that are built and distributed (you may use Bash extended globbing).
-DIST_FILES=compiledCodelists/*.csv docs/extensions/!(index|milestones).md docs/extensions/codelists/*.csv schema/ppp-release-schema.json schema/consolidatedExtension/codelists/*.csv schema/consolidatedExtension/release-schema.json
+DIST_FILES=compiledCodelists/*.csv docs/extensions/!(index|milestones).md docs/extensions/codelists/*.csv schema/ppp-release-schema.json
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
 # The prefix, if any, to the schema and codelists domains.
