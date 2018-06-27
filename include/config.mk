@@ -14,10 +14,10 @@ DOCS_DIR=docs
 LOCALE_DIR=locale
 # Directory in which to build documentation files.
 BUILD_DIR=build
-# Extra build files or directories.
-EXTRA_BUILD_FILES=docs/_build docs/_static/codelists docs/_static/ppp-release-schema.json docs/extensions/codelists_translated locale/es/LC_MESSAGES/*.mo locale/es/LC_MESSAGES/reference/*.mo
+# Extra build files or directories. (These should match paths in .gitignore.)
+EXTRA_BUILD_FILES=docs/_build /docs/_static/release-schema.json docs/_static/patched docs/extensions/codelists_translated locale/es/LC_MESSAGES/*.mo locale/es/LC_MESSAGES/reference/*.mo
 # Files that are built and distributed (you may use Bash extended globbing).
-DIST_FILES=compiledCodelists/*.csv docs/extensions/!(index|milestones).md docs/extensions/codelists/*.csv schema/ppp-release-schema.json
+DIST_FILES=release-schema.json codelists/ patched/ docs/extensions/!(index|milestones).md
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
 # The prefix, if any, to the schema and codelists domains.

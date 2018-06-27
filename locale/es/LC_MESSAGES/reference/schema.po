@@ -25,10 +25,10 @@ msgstr "Referencia completa del esquema"
 #: ../../docs/reference/schema.md:3
 msgid ""
 "The table below contains all possible fields provided by the [OCDS for PPPs "
-"schema](../../../_static/ppp-release-schema.json)"
+"schema](../../../_static/patched/release-schema.json)"
 msgstr ""
 "La siguiente tabla contiene todos los campos posibles proporcionados por el "
-"esquema de [OCDS para APPs](../../../_static/ppp-release-schema.json)"
+"esquema de [OCDS para APPs](../../../_static/patched/release-schema.json)"
 
 #: ../../sphinxcontrib-jsonschema:1
 msgid "Title"
