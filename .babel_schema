@@ -1,3 +1,2 @@
-[jsonschema_text: schema/*.json]
-
-
+[jsonschema_text: *-schema.json]
+[jsonschema_text: patched/*.json]

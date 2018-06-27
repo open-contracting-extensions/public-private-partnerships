@@ -1,2 +1,2 @@
-[codelists_text: compiledCodelists/*.csv]
-[codelists_text: docs/extensions/codelists/*.csv]
+[codelists_text: codelists/*.csv]
+[codelists_text: patched/codelists/*.csv]
