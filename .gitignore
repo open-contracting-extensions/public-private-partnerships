@@ -5,6 +5,6 @@
 /build
 /cache.sqlite
 /docs/_build
-/docs/_static/codelists
-/docs/_static/ppp-release-schema.json
+/docs/_static/release-schema.json
+/docs/_static/patched
 /docs/extensions/codelists_translated
