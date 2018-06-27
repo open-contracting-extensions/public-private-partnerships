@@ -1,2 +1,1 @@
-[codelists_text: codelists/*.csv]
-[codelists_text: patched/codelists/*.csv]
+[codelists_text: schema/*/codelists/*.csv]
