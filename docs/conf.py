@@ -117,6 +117,7 @@ html_static_path = ['../schema', '_static', 'examples']
 #
 html_extra_path = ['../schema/profile']
 
+
 # -- Local configuration --------------------------------------------------
 
 locale_dirs = ['../locale/', os.path.join(standard_theme.get_html_theme_path(), 'locale')]
