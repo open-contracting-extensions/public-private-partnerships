@@ -1,5 +1,5 @@
 # Compare this file to:
-# https://github.com/open-contracting/standard_profile_template/blob/master/config.mk
+# https://github.com/open-contracting/standard_profile_template/blob/master/include/config.mk
 
 # Edit these variables as appropriate.
 
@@ -15,7 +15,7 @@ LOCALE_DIR=locale
 # Directory in which to build documentation files.
 BUILD_DIR=build
 # Extra build files or directories. (These should match paths in .gitignore.)
-EXTRA_BUILD_FILES=docs/_build docs/_static/profile docs/_static/patched docs/extensions/codelists_translated locale/es/LC_MESSAGES/*.mo locale/es/LC_MESSAGES/reference/*.mo
+EXTRA_BUILD_FILES=docs/_static/patched docs/extensions/codelists_translated
 # Files that are built and distributed (you may use Bash extended globbing).
 DIST_FILES=schema/profile/release-schema.json schema/profile/codelists schema/patched docs/extensions/!(index|milestones).md
 # Directory in which to build .pot files.
@@ -30,8 +30,8 @@ TRANSIFEX_PROJECT=ocds-for-ppps
 # Compile PO files for codelists and schema to MO files, so that translate_codelists and translate_schema succeed.
 .PHONY: compile
 compile:
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D ppp-schema
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D ppp-codelists
+	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)schema
+	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)codelists
 	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D reference/codelists
 
 # Put local targets below.
