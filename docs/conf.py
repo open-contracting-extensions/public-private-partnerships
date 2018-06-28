@@ -164,13 +164,15 @@ def setup(app):
     app.add_transform(AutoStructify)
     app.add_transform(AutoStructifyLowPriority)
 
+    # The root of the repository.
     basedir = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+    # The `LOCALE_DIR` from `config.mk`.
     localedir = os.path.join(basedir, 'locale')
 
     language = app.config.overrides.get('language', 'en')
 
     translate_schema(
-        # The gettext domain for the schema translations.
+        # The gettext domain for schema translations. Should match the domain in the `pybabel compile` command.
         domain='{}schema'.format(gettext_domain_prefix),
         # The filenames of schema files within the `sourcedir` that will be translated into the `builddir`. The
         # glob pattern in `.babel_schema` should match the filenames.
@@ -182,18 +184,18 @@ def setup(app):
         localedir=localedir,
         language=language)
 
-    # Each tuple has a `sourcedir` directory containing source codelist files and a `builddir` directory into which
-    # they will be translated. The glob patterns in `.babel_codelists` should match the source codelist files.
     directories = (
-        ('schema/profile/codelists', 'docs/extensions/codelists_translated'),
-        ('schema/patched/codelists', 'docs/_static/patched/codelists'),
+        ('schema/profile', 'docs/extensions/codelists_translated'),
+        ('schema/patched', 'docs/_static/patched/codelists'),
     )
 
     for sourcedir, builddir in directories:
         translate_codelists(
-            # The gettext domain for the codelist translations.
+            # The gettext domain for codelist translations. Should match the domain in the `pybabel compile` command.
             domain='{}codelists'.format(gettext_domain_prefix),
-            sourcedir=os.path.join(basedir, sourcedir),
+            # The directory containing source codelist files. Should match the glob patterns in `.babel_codelists`.
+            sourcedir=os.path.join(basedir, sourcedir, 'codelists'),
+            # The directory into which codelist files will be translated.
             builddir=os.path.join(basedir, builddir),
             localedir=localedir,
             language=language)
