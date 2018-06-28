@@ -32,7 +32,6 @@ TRANSIFEX_PROJECT=ocds-for-ppps
 compile:
 	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)schema
 	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)codelists
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D reference/codelists
 
 # Put local targets below.
 
