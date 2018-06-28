@@ -1,5 +1,5 @@
 # Update this file from a profile with:
-# curl -O https://github.com/open-contracting/standard_profile_template/blob/master/build-profile.py
+# curl https://raw.githubusercontent.com/open-contracting/standard_profile_template/master/schema/build-profile.py -o schema/build-profile.py  # noqa
 
 import os
 import sys
