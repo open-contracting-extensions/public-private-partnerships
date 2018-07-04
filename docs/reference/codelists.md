@@ -13,7 +13,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/awardStatus.csv
+   :file: ../_static/patched/codelists/awardStatus.csv
 ```
 
 ### bidStatus
@@ -21,7 +21,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/bidStatus.csv
+   :file: ../_static/patched/codelists/bidStatus.csv
 ```
 
 ### contractStatus
@@ -29,7 +29,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/contractStatus.csv
+   :file: ../_static/patched/codelists/contractStatus.csv
 ```
 
 ### currency
@@ -37,7 +37,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/currency.csv
+   :file: ../_static/patched/codelists/currency.csv
 ```
 
 ### dataType
@@ -45,7 +45,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/dataType.csv
+   :file: ../_static/patched/codelists/dataType.csv
 ```
 
 ### financeCategory
@@ -53,7 +53,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/financeCategory.csv
+   :file: ../_static/patched/codelists/financeCategory.csv
 ```
 
 ### initiationType
@@ -61,7 +61,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/initiationType.csv
+   :file: ../_static/patched/codelists/initiationType.csv
 ```
 
 ### method
@@ -69,7 +69,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/method.csv
+   :file: ../_static/patched/codelists/method.csv
 ```
 
 ### milestoneStatus
@@ -77,7 +77,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/milestoneStatus.csv
+   :file: ../_static/patched/codelists/milestoneStatus.csv
 ```
 
 ### preQualificationStatus
@@ -85,7 +85,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/preQualificationStatus.csv
+   :file: ../_static/patched/codelists/preQualificationStatus.csv
 ```
 
 ### procurementCategory
@@ -93,7 +93,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/procurementCategory.csv
+   :file: ../_static/patched/codelists/procurementCategory.csv
 ```
 
 ### relatesTo
@@ -101,7 +101,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/relatesTo.csv
+   :file: ../_static/patched/codelists/relatesTo.csv
 ```
 
 ### releaseTag
@@ -109,7 +109,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/releaseTag.csv
+   :file: ../_static/patched/codelists/releaseTag.csv
 ```
 
 ### responseSource
@@ -117,7 +117,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/responseSource.csv
+   :file: ../_static/patched/codelists/responseSource.csv
 ```
 
 ### riskAllocation
@@ -125,7 +125,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/riskAllocation.csv
+   :file: ../_static/patched/codelists/riskAllocation.csv
 ```
 
 ### tenderStatus
@@ -133,7 +133,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/tenderStatus.csv
+   :file: ../_static/patched/codelists/tenderStatus.csv
 ```
 
 ### votingRights
@@ -141,7 +141,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/votingRights.csv
+   :file: ../_static/patched/codelists/votingRights.csv
 ```
 
 ## Open codelists
@@ -151,7 +151,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/awardCriteria.csv
+   :file: ../_static/patched/codelists/awardCriteria.csv
 ```
 
 ### bidStatistics
@@ -159,7 +159,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/bidStatistics.csv
+   :file: ../_static/patched/codelists/bidStatistics.csv
 ```
 
 ### documentType
@@ -167,7 +167,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/documentType.csv
+   :file: ../_static/patched/codelists/documentType.csv
 ```
 
 ### extendedProcurementCategory
@@ -175,7 +175,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/extendedProcurementCategory.csv
+   :file: ../_static/patched/codelists/extendedProcurementCategory.csv
 ```
 
 ### itemClassificationScheme
@@ -183,7 +183,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/itemClassificationScheme.csv
+   :file: ../_static/patched/codelists/itemClassificationScheme.csv
 ```
 
 ### partyRole
@@ -191,7 +191,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/partyRole.csv
+   :file: ../_static/patched/codelists/partyRole.csv
 ```
 
 ### relatedProcessScheme
@@ -199,7 +199,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/relatedProcessScheme.csv
+   :file: ../_static/patched/codelists/relatedProcessScheme.csv
 ```
 
 ### riskCategory
@@ -207,7 +207,7 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/riskCategory.csv
+   :file: ../_static/patched/codelists/riskCategory.csv
 ```
 
 ### submissionMethod
@@ -215,6 +215,6 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/submissionMethod.csv
+   :file: ../_static/patched/codelists/submissionMethod.csv
 ```
 

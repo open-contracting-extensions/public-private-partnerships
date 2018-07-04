@@ -1,5 +1,5 @@
 # Compare this file to:
-# https://github.com/open-contracting/standard_profile_template/blob/master/config.mk
+# https://github.com/open-contracting/standard_profile_template/blob/master/include/config.mk
 
 # Edit these variables as appropriate.
 
@@ -14,10 +14,10 @@ DOCS_DIR=docs
 LOCALE_DIR=locale
 # Directory in which to build documentation files.
 BUILD_DIR=build
-# Extra build files or directories.
-EXTRA_BUILD_FILES=docs/_build docs/_static/codelists docs/_static/ppp-release-schema.json docs/extensions/codelists_translated locale/es/LC_MESSAGES/*.mo locale/es/LC_MESSAGES/reference/*.mo
+# Extra build files or directories. (These should match paths in .gitignore.)
+EXTRA_BUILD_FILES=docs/_static/patched docs/extensions/codelists_translated
 # Files that are built and distributed (you may use Bash extended globbing).
-DIST_FILES=compiledCodelists/*.csv docs/extensions/!(index|milestones).md docs/extensions/codelists/*.csv schema/ppp-release-schema.json schema/consolidatedExtension/codelists/*.csv schema/consolidatedExtension/release-schema.json
+DIST_FILES=schema/profile/release-schema.json schema/profile/codelists schema/patched docs/extensions/!(index|milestones).md
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
 # The prefix, if any, to the schema and codelists domains.
@@ -30,13 +30,10 @@ TRANSIFEX_PROJECT=ocds-for-ppps
 # Compile PO files for codelists and schema to MO files, so that translate_codelists and translate_schema succeed.
 .PHONY: compile
 compile:
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D ppp-schema
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D ppp-codelists
-	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D reference/codelists
+	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)schema
+	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)codelists
 
 # Put local targets below.
-
-OCDS_TAG=1__1__2
 
 # Update OCDS Show for PPPs.
 .PHONY: update_ocds_show
@@ -49,15 +46,3 @@ update_ocds_show:
 	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
 	rm -f ocds-show-ppp-gh-pages/README.md
 	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
-
-# Update base schema and codelists.
-.PHONY: update_base_files
-update_base_files:
-	curl -Ss -o standard.zip https://codeload.github.com/open-contracting/standard/zip/$(OCDS_TAG)
-	unzip -q standard.zip
-	rm -f standard.zip
-	rm -f schema/base-release-schema.json
-	rm -f schema/base-codelists/*.csv
-	mv standard-$(OCDS_TAG)/standard/schema/release-schema.json schema/base-release-schema.json
-	mv standard-$(OCDS_TAG)/standard/schema/codelists/*.csv schema/base-codelists
-	rm -rf standard-$(OCDS_TAG)

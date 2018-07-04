@@ -58,7 +58,7 @@ We recommend keeping descriptions to one paragraph or less.
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/project/title,planning/project/description
     :collapse: 
     :nocrossref:
@@ -73,7 +73,7 @@ This can be cross-walked to most other PPP classification schemes in use, and so
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/project/sector
     :collapse: 
     :nocrossref:
@@ -86,7 +86,7 @@ This can be cross-walked to most other PPP classification schemes in use, and so
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/project/additionalClassifications
     :collapse: 
     :nocrossref:
@@ -106,7 +106,7 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/project/locations
     :collapse: 
     :nocrossref:
@@ -136,7 +136,7 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership,parties/0/shareholders
     :nocrossref:
@@ -178,7 +178,7 @@ P   U   U   U   U   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: publicAuthority
     :collapse: 
     :nocrossref:
@@ -224,7 +224,7 @@ P   R   R   R       R
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/project/totalValue
     :collapse: 
     :nocrossref:
@@ -237,7 +237,7 @@ P   R   R   R       R
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/value
     :collapse: 
     :nocrossref:
@@ -250,7 +250,7 @@ P   R   R   R       R
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/value
     :collapse: 
     :nocrossref:
@@ -263,7 +263,7 @@ P   R   R   R       R
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/value
     :collapse: 
     :nocrossref:
@@ -296,7 +296,7 @@ These documents should be tagged with a `documentType` value of 'needsAssessment
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/documents
     :collapse: 
     :nocrossref:
@@ -345,7 +345,7 @@ These documents should be tagged with a `documentType` value of 'technicalSpecif
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -380,7 +380,7 @@ These documents should be tagged with a `documentType` value of 'serviceDescript
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -416,7 +416,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/forecasts
     :collapse: 
     :nocrossref:
@@ -450,7 +450,7 @@ These documents should be tagged with a `documentType` value of 'estimatedDemand
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/documents
     :collapse: 
     :nocrossref:
@@ -490,7 +490,7 @@ These documents should be tagged with a `documentType` value of 'projectAddition
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/documents
     :collapse: 
     :nocrossref:
@@ -525,7 +525,7 @@ These documents should be tagged with a `documentType` value of 'pppModeRational
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/documents
     :collapse: 
     :nocrossref:
@@ -559,7 +559,7 @@ Documentation associated with the approval can be given in the associated milest
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: planning/milestones
     :collapse: 
     :nocrossref:
@@ -590,7 +590,7 @@ Key events relating to commercial and financial close
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/milestones
     :collapse: 
     :nocrossref:
@@ -653,7 +653,7 @@ Key events relating to the implementation of the project.
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/milestones
     :collapse: 
     :nocrossref:
@@ -752,7 +752,7 @@ The actual date of contract expiry should be entered into the `period/endDate` f
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/contractPeriod
     :collapse: 
     :nocrossref:
@@ -799,7 +799,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -833,7 +833,7 @@ P   U   U   U   U   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/signatories
     :collapse: 
     :nocrossref:
@@ -877,7 +877,7 @@ The `organization/roles` field should be set to `publicAuthority` and the `organ
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership
     :nocrossref:
@@ -919,7 +919,7 @@ P   U   U   U   U   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: publicAuthority
     :collapse: 
     :nocrossref:
@@ -954,7 +954,7 @@ Private party: name of company or consortium, name of representative, address, t
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/signatories
     :collapse: 
     :nocrossref:
@@ -985,7 +985,7 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers
     :nocrossref:
@@ -1014,7 +1014,7 @@ The `organization/roles` field should be set to `privateParty` and the `organiza
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/preferredBidders
     :collapse: 
     :nocrossref:
@@ -1049,7 +1049,7 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers,parties/0/shareholders,parties/0/beneficialOwnership
     :nocrossref:
@@ -1078,7 +1078,7 @@ The `organization/roles` field should be set to `leadBank` or `lender` as approp
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/signatories
     :collapse: 
     :nocrossref:
@@ -1128,7 +1128,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/period
     :collapse: 
     :nocrossref:
@@ -1170,7 +1170,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/enquiryPeriod
     :collapse: 
     :nocrossref:
@@ -1212,7 +1212,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/qualificationPeriod
     :collapse: 
     :nocrossref:
@@ -1254,7 +1254,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/submissionMethod,preQualification/submissionMethodDetails
     :collapse: 
     :nocrossref:
@@ -1298,7 +1298,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/eligibilityCriteria
     :collapse: 
     :nocrossref:
@@ -1335,7 +1335,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: preQualification/documents
     :collapse: 
     :nocrossref:
@@ -1356,7 +1356,7 @@ Pre-qualification or shortlist
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: 
     :nocrossref:
@@ -1388,7 +1388,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/tenderPeriod
     :collapse: 
     :nocrossref:
@@ -1430,7 +1430,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/enquiryPeriod
     :collapse: 
     :nocrossref:
@@ -1479,7 +1479,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/awardPeriod
     :collapse: 
     :nocrossref:
@@ -1521,7 +1521,7 @@ P   U   U   U   U   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/contractPeriod
     :collapse: 
     :nocrossref:
@@ -1564,7 +1564,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/procurementMethod,tender/procurementMethodDetails,tender/procurementMethodRationale
     :collapse: 
     :nocrossref:
@@ -1608,7 +1608,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/submissionMethod,tender/submissionMethodDetails
     :collapse: 
     :nocrossref:
@@ -1652,7 +1652,7 @@ P   U
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/eligibilityCriteria
     :collapse: 
     :nocrossref:
@@ -1698,7 +1698,7 @@ Each document should be tagged with an appropriate `documentType` value from the
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -1719,7 +1719,7 @@ The `document/documentType` field should be set to `evaluationCriteria` (from th
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -1740,7 +1740,7 @@ A value of `evaluationCommittee` from the [document type codelist](../reference/
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -1761,7 +1761,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -1782,7 +1782,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: tender/documents
     :collapse: 
     :nocrossref:
@@ -1801,7 +1801,7 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers
     :nocrossref:
@@ -1830,7 +1830,7 @@ The `organization/roles` field should be set to `preferredBidder` and the `organ
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/preferredBidders
     :collapse: 
     :nocrossref:
@@ -1875,7 +1875,7 @@ Additional free text information on each risk allocation, for example the ration
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/riskAllocation
     :collapse: 
     :nocrossref:
@@ -1904,7 +1904,7 @@ Additional free text information on each risk allocation, for example the ration
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -1927,7 +1927,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/documents
     :collapse: 
     :nocrossref:
@@ -1952,7 +1952,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/documents
     :collapse: 
     :nocrossref:
@@ -1969,7 +1969,7 @@ The discount rates used should be specified in the disclosure along with the ris
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/evaluationIndicators
     :collapse: 
     :nocrossref:
@@ -2002,7 +2002,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/documents
     :collapse: 
     :nocrossref:
@@ -2023,7 +2023,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: awards/0/documents
     :collapse: 
     :nocrossref:
@@ -2042,7 +2042,7 @@ Debt-equity ratio
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/financeSummary
     :collapse: 
     :nocrossref:
@@ -2075,7 +2075,7 @@ Share capital
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/financeSummary
     :collapse: 
     :nocrossref:
@@ -2112,7 +2112,7 @@ The `organization/roles` field should be set to `equityInvestor`.
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: parties/0/additionalIdentifiers,parties/0/shareholders
     :nocrossref:
@@ -2141,7 +2141,7 @@ The `organization/roles` field should be set to `equityInvestor`.
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties/0/shareholders
     :collapse: 
     :nocrossref:
@@ -2180,7 +2180,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2195,7 +2195,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties/0/shareholders/0/notes
     :collapse: 
     :nocrossref:
@@ -2230,7 +2230,7 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: 
     :nocrossref:
@@ -2259,7 +2259,7 @@ The `organization/roles` field should be set to `lender` or `equityInvestor` as 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/finance
     :collapse: 
     :nocrossref:
@@ -2292,7 +2292,7 @@ Categorize senior debit, mezzanine debit, other
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/finance/financeType,contracts/0/finance/financeCategory
     :collapse: 
     :nocrossref:
@@ -2325,7 +2325,7 @@ Amount and tenor of each, fixed or floating rate
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/finance/interestRate
     :collapse: 
     :nocrossref:
@@ -2358,7 +2358,7 @@ Security and step in arrangements
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/finance/description,contracts/0/finance/stepInRights
     :collapse: 
     :nocrossref:
@@ -2393,7 +2393,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2410,7 +2410,7 @@ Forecast IRR
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/financeSummary
     :collapse: contracts/0/financeSummary/projectIRR,contracts/0/financeSummary/projectIRRDetails
     :nocrossref:
@@ -2447,7 +2447,7 @@ Detail the type and exact details of the guarantees provided - both explicit and
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/finance
     :collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
     :nocrossref:
@@ -2462,7 +2462,7 @@ A value of `guarantee` should be used in the `documentType` field.
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2481,7 +2481,7 @@ Subsidy as a proportion of project value
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/financeSummary/subsidyRatio,contracts/0/financeSummary/subsidyRatioDetails
     :collapse: 
     :nocrossref:
@@ -2516,7 +2516,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2537,7 +2537,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2558,7 +2558,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2577,7 +2577,7 @@ These are payments made by the public authority or purchaser to the private prov
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/transactions
     :collapse: 
     :nocrossref:
@@ -2608,7 +2608,7 @@ Total payments and periodicity
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/charges
     :collapse: 
     :nocrossref:
@@ -2643,7 +2643,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2664,7 +2664,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2687,7 +2687,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2709,7 +2709,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2734,7 +2734,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2753,7 +2753,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
     :nocrossref:
@@ -2780,7 +2780,7 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/tariffs
     :collapse: 
     :nocrossref:
@@ -2813,7 +2813,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2834,7 +2834,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2853,7 +2853,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2872,7 +2872,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2895,7 +2895,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2916,7 +2916,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2957,7 +2957,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -2972,7 +2972,7 @@ Nature of Variation
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/amendments/0/description
     :collapse: 
     :nocrossref:
@@ -2987,7 +2987,7 @@ Rationale for variation
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/amendments/0/rationale
     :collapse: 
     :nocrossref:
@@ -3002,7 +3002,7 @@ Change in roles and responsibilities of the parties due to the variation, if any
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: parties
     :collapse: 
     :nocrossref:
@@ -3017,7 +3017,7 @@ Change in original risk allocation due to the variation, if any
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/riskAllocation
     :collapse: 
     :nocrossref:
@@ -3036,7 +3036,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -3057,7 +3057,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/documents
     :collapse: 
     :nocrossref:
@@ -3074,7 +3074,7 @@ Change in tariffs or service levels due to the variation, if any
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/tariffs
     :collapse: 
     :nocrossref:
@@ -3087,7 +3087,7 @@ Change in tariffs or service levels due to the variation, if any
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/agreedMetrics
     :collapse: 
     :nocrossref:
@@ -3102,7 +3102,7 @@ Date of variation
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/amendments/0/date
     :collapse: 
     :nocrossref:
@@ -3123,7 +3123,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
     :nocrossref:
@@ -3162,7 +3162,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
     :nocrossref:
@@ -3181,7 +3181,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
     :nocrossref:
@@ -3202,7 +3202,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
     :nocrossref:
@@ -3221,7 +3221,7 @@ These estimates can be disaggregated by any number of dimensions contained as si
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/metrics
     :collapse: 
     :nocrossref:
@@ -3238,7 +3238,7 @@ State instances of performance failure during the year and the penalty or abatem
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/performanceFailures
     :collapse: 
     :nocrossref:
@@ -3273,7 +3273,7 @@ A value from the [document type codelist](../reference/codelists/#documenttype) 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```eval_rst
-.. jsonschema:: _static/ppp-release-schema.json
+.. jsonschema:: _static/patched/release-schema.json
     :include: contracts/0/implementation/documents
     :collapse: 
     :nocrossref:
