@@ -2869,7 +2869,7 @@ Categorize senior debit, mezzanine debit, other
 
 ```eval_rst
 .. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/financeType,contracts/0/finance/financeCategory
+    :include: contracts/0/finance/0/financeType,contracts/0/finance/0/financeCategory
     :collapse: 
     :nocrossref:
 ```
@@ -2908,7 +2908,7 @@ Amount and tenor of each, fixed or floating rate
 
 ```eval_rst
 .. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/interestRate
+    :include: contracts/0/finance/0/interestRate
     :collapse: 
     :nocrossref:
 ```
@@ -2953,7 +2953,7 @@ Security and step in arrangements
 
 ```eval_rst
 .. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/description,contracts/0/finance/stepInRights
+    :include: contracts/0/finance/0/description,contracts/0/finance/0/stepInRights
     :collapse: 
     :nocrossref:
 ```
