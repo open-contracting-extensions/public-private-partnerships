@@ -12,119 +12,119 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/awardStatus.csv
+   :file: ../_static/patched/codelists/awardStatus.csv
 ```
 
 ### bidStatus
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/bidStatus.csv
+   :file: ../_static/patched/codelists/bidStatus.csv
 ```
 
 ### contractStatus
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/contractStatus.csv
+   :file: ../_static/patched/codelists/contractStatus.csv
 ```
 
 ### currency
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/currency.csv
+   :file: ../_static/patched/codelists/currency.csv
 ```
 
 ### dataType
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/dataType.csv
+   :file: ../_static/patched/codelists/dataType.csv
 ```
 
 ### financeCategory
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/financeCategory.csv
+   :file: ../_static/patched/codelists/financeCategory.csv
 ```
 
 ### initiationType
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/initiationType.csv
+   :file: ../_static/patched/codelists/initiationType.csv
 ```
 
 ### method
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/method.csv
+   :file: ../_static/patched/codelists/method.csv
 ```
 
 ### milestoneStatus
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/milestoneStatus.csv
+   :file: ../_static/patched/codelists/milestoneStatus.csv
 ```
 
 ### preQualificationStatus
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/preQualificationStatus.csv
+   :file: ../_static/patched/codelists/preQualificationStatus.csv
 ```
 
 ### procurementCategory
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/procurementCategory.csv
+   :file: ../_static/patched/codelists/procurementCategory.csv
 ```
 
 ### relatesTo
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/relatesTo.csv
+   :file: ../_static/patched/codelists/relatesTo.csv
 ```
 
 ### releaseTag
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/releaseTag.csv
+   :file: ../_static/patched/codelists/releaseTag.csv
 ```
 
 ### responseSource
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/responseSource.csv
+   :file: ../_static/patched/codelists/responseSource.csv
 ```
 
 ### riskAllocation
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/riskAllocation.csv
+   :file: ../_static/patched/codelists/riskAllocation.csv
 ```
 
 ### tenderStatus
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/tenderStatus.csv
+   :file: ../_static/patched/codelists/tenderStatus.csv
 ```
 
 ### votingRights
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/votingRights.csv
+   :file: ../_static/patched/codelists/votingRights.csv
 ```
 
 ## Open codelists
@@ -133,62 +133,62 @@ You can read more about using codelists in the [core OCDS documentation](http://
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/awardCriteria.csv
+   :file: ../_static/patched/codelists/awardCriteria.csv
 ```
 
 ### bidStatistics
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/bidStatistics.csv
+   :file: ../_static/patched/codelists/bidStatistics.csv
 ```
 
 ### documentType
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/documentType.csv
+   :file: ../_static/patched/codelists/documentType.csv
 ```
 
 ### extendedProcurementCategory
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/extendedProcurementCategory.csv
+   :file: ../_static/patched/codelists/extendedProcurementCategory.csv
 ```
 
 ### itemClassificationScheme
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/itemClassificationScheme.csv
+   :file: ../_static/patched/codelists/itemClassificationScheme.csv
 ```
 
 ### partyRole
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/partyRole.csv
+   :file: ../_static/patched/codelists/partyRole.csv
 ```
 
 ### relatedProcessScheme
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/relatedProcessScheme.csv
+   :file: ../_static/patched/codelists/relatedProcessScheme.csv
 ```
 
 ### riskCategory
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/riskCategory.csv
+   :file: ../_static/patched/codelists/riskCategory.csv
 ```
 
 ### submissionMethod
 ```eval_rst
 .. csv-table-no-translate::
    :header-rows: 1
-   :file: ../_static/codelists/submissionMethod.csv
+   :file: ../_static/patched/codelists/submissionMethod.csv
 ```
 
