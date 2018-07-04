@@ -6,5 +6,5 @@ assessment,Assessment milestones,"For assessment and adjudication milestones, su
 delivery,Delivery milestones,"For delivery milestones, such as the date when a good or service should be provided.",OCDS Core
 reporting,Reporting milestones,"For reporting milestones, such as when key reports should be provided.",OCDS Core
 financing,Financing milestones,"For events such as planned payments, or equity transfers in public private partnership projects.",OCDS Core
-procurement,Procurement,"Events taking place during the procurement which are not captured by fields in core OCDS, such as additional enquiry periods or draft tender submissions in a competitive dialogue process",Public Private Partnership
-contractClose,Contract close,Events such as commercial and financial close,Public Private Partnership
+procurement,Procurement,"Events taking place during the procurement which are not captured by fields in core OCDS, such as additional enquiry periods or draft tender submissions in a competitive dialogue process",OCDS for PPPs Extension
+contractClose,Contract close,Events such as commercial and financial close,OCDS for PPPs Extension
