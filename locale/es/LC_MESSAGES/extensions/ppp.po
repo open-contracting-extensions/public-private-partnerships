@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-07-06 22:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
+"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,34 +24,100 @@ msgstr "OCDS para Asociaciones Público-Privadas"
 
 #: ../../docs/extensions/ppp.md:3
 msgid ""
-"The Open Contracting Data Standard for Public Private Partnerships release "
-"draws together a number of general extensions."
+"The Open Contracting Data Standard for Public Private Partnerships profile "
+"provides an extended Open Contracting Data Standard schema, offering a "
+"structured data model for presenting information on Public Private "
+"Partnership Projects."
 msgstr ""
-"La publicación del Estándar de datos para las Contrataciones Abiertas para "
-"las  Asociaciones Público-Privadas reúne una serie de extensiones generales."
+"El Estándar de Datos de Contrataciones Abiertas para el perfil de "
+"Asociaciones Público Privadas provee un esquema extendido del esquema de "
+"Datos de Contrataciones Abiertas, ofreciendo un modelo de datos "
+"estructurados para presentar información en proyectos de  Asociaciones "
+"Público Privadas."
 
 #: ../../docs/extensions/ppp.md:5
 msgid ""
-"Full documentation is available at [http://standard.open-"
-"contracting.org/profiles/ppp/latest/en/](http://standard.open-"
-"contracting.org/profiles/ppp/latest/en/)"
+"It is based on the [World Bank Framework for Disclosure in Public Private "
+"Patnership "
+"Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
+"/ppp-tools#T1) and was developed between May 2016 and May 2017 through a "
+"partnership between the [World Bank Open Contracting "
+"team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP "
+"team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
+"Contracting Partnership](http://open-contracting.org), and [Open Data "
+"Services Co-operative](http://www.opendataservices.coop)."
 msgstr ""
+"Esta basado en el  [World Bank Framework for Disclosure in Public Private "
+"Patnership "
+"Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
+"/ppp-tools#T1) y fue desarrollado entre Mayo 2016 y Mayo 2017 a través de "
+"una asociación entre [World Bank Open Contracting "
+"team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP "
+"team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
+"Contracting Partnership](http://open-contracting.org), y  [Open Data "
+"Services Co-operative](http://www.opendataservices.coop)."
 
 #: ../../docs/extensions/ppp.md:7
 msgid ""
-"This extension provides a number of fields and building blocks that are "
-"currently seen as specific to PPP disclosure against the World Bank PPP "
-"Disclosure Framework."
+"Full documentation of the profile is available at [http://standard.open-"
+"contracting.org/profiles/ppp/](http://standard.open-"
+"contracting.org/profiles/ppp/)"
 msgstr ""
-"Esta extensión proporciona una serie de campos y bloques  que se consideran "
-"actualmente como específicos para la divulgación de APP contra el Marco de "
-"Divulgación de APP del Banco Mundial."
+"La documentación completa del perfil esta disponible en:  [http://standard"
+".open-contracting.org/profiles/ppp/](http://standard.open-"
+"contracting.org/profiles/ppp/)"
+
+#: ../../docs/extensions/ppp.md:9
+msgid ""
+"The consolidated OCDS for PPPs extension can be declared in [OCDS package "
+"metadata](http://standard.open-"
+"contracting.org/latest/en/schema/release_package/) using:"
+msgstr ""
+"La consolidación de la extensión OCDS para APPs puede ser declarada en OCDS "
+"package metadata](http://standard.open-"
+"contracting.org/latest/en/schema/release_package/) usando:"
+
+#: ../../docs/extensions/ppp.md:0
+msgid "About PPP extensions"
+msgstr "Sobre extensiones APP"
+
+#: ../../docs/extensions/ppp.md:20
+msgid ""
+"OCDS for PPPs is constructed from [a number of different modular extensions "
+"to OCDS](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/extensions/), most of which can be "
+"used independently from the profile."
+msgstr ""
+"OCDS para APPS esta construida a partir de [un numero de diferentes "
+"extensiones modulares de OCDS](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/extensions/),, de los cuales la "
+"mayoría puede ser usadas independientemente del perfil."
+
+#: ../../docs/extensions/ppp.md:22
+msgid ""
+"This repository contains one additional extensions that forms part of the "
+"OCDS for PPPs profile. This extension introduces a number of fields and "
+"building blocks that are specific to PPP disclosure against the World Bank "
+"Framework, as well as a set of modifications that should only apply in an "
+"OCDS Profile (e.g. removing standard fields that are not required in the "
+"profile)."
+msgstr ""
+"Este repositorio contiene una extensión adicional que forma parte del perfil"
+" OCDS para APPs. Esta extensión introduce un número de campos y bloques de "
+"construcción que son específicos para dla ivulgación de APP contra el Marco "
+"del Banco Mundial, así como una serie de modificaciones que solo deben "
+"aplicarse al Perfil OCDS (e.j, quitar los campos del estándar que no se "
+"requieren en el perfil)."
+
+#: ../../docs/extensions/ppp.md:0
+msgid "PPP Specific extensions"
+msgstr "Extensiones específicas de APP"
 
 #: ../../docs/extensions/ppp.md:0
 msgid "Project level information"
 msgstr "Información a nivel de proyecto"
 
-#: ../../docs/extensions/ppp.md:11
+#: ../../docs/extensions/ppp.md:28
 msgid ""
 "Building on the [Budget and Projects extension](https://github.com/open-"
 "contracting/ocds_budget_projects_extension) this adds to project with:"
@@ -59,7 +125,7 @@ msgstr ""
 "Desarrollado de la extensión de [Budget and Projects](https://github.com"
 "/open-contracting/ocds_budget_projects_extension) este agrega al proyecto:"
 
-#: ../../docs/extensions/ppp.md:13
+#: ../../docs/extensions/ppp.md:30
 msgid ""
 "Sector classifications - using the [UN Classifications of the Functions of "
 "Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
@@ -68,7 +134,7 @@ msgstr ""
 "Naciones Unidas de las Funciones del "
 "Gobierno](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
 
-#: ../../docs/extensions/ppp.md:14
+#: ../../docs/extensions/ppp.md:31
 msgid ""
 "Additional classifications - allowing arbitrary additional project "
 "categorization"
@@ -76,13 +142,13 @@ msgstr ""
 "Clasificaciones adicionales - permitiendo la categorización arbitraria de "
 "proyectos adicionales"
 
-#: ../../docs/extensions/ppp.md:15
+#: ../../docs/extensions/ppp.md:32
 msgid "Project location - with options for gazetteer or point location"
 msgstr ""
 "Ubicación del proyecto - con opciones para la localización geográfica o de "
 "puntos"
 
-#: ../../docs/extensions/ppp.md:17
+#: ../../docs/extensions/ppp.md:34
 msgid "An example is shown below:"
 msgstr "A continuación se muestra un ejemplo:"
 
@@ -90,7 +156,7 @@ msgstr "A continuación se muestra un ejemplo:"
 msgid "Evaluation Indicators"
 msgstr "Indicadores de Evaluación"
 
-#: ../../docs/extensions/ppp.md:50
+#: ../../docs/extensions/ppp.md:66
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators to "
 "be reported relating to governments evaluation of a PPP project."
@@ -99,24 +165,23 @@ msgstr ""
 "diferentes relacionados con la evaluación de los gobiernos de un proyecto de"
 " APP."
 
-#: ../../docs/extensions/ppp.md:52
+#: ../../docs/extensions/ppp.md:68
 msgid ""
-"The `award/evaluationIndicators` section includes properties to express "
-"the **value** and supporting **free-text details** for each indicator:"
+"The `award/evaluationIndicators` section includes properties to express the "
+"**value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección `award/evaluationIndicators` incluye propiedades para "
-"expresar el **value** y apoyar **detalles de texto libre** para cada "
-"indicador:"
+"La sección `award/evaluationIndicators` incluye propiedades para expresar el"
+" **value** y apoyar **detalles de texto libre** para cada indicador:"
 
-#: ../../docs/extensions/ppp.md:54
+#: ../../docs/extensions/ppp.md:70
 msgid "discountRate"
 msgstr "discountRate"
 
-#: ../../docs/extensions/ppp.md:55
+#: ../../docs/extensions/ppp.md:71
 msgid "riskPremium"
 msgstr "riskPremium"
 
-#: ../../docs/extensions/ppp.md:56
+#: ../../docs/extensions/ppp.md:72
 msgid "netPresentValue"
 msgstr "netPresentValue"
 
@@ -124,7 +189,7 @@ msgstr "netPresentValue"
 msgid "Finance Summary"
 msgstr "Resumen Financiero"
 
-#: ../../docs/extensions/ppp.md:60
+#: ../../docs/extensions/ppp.md:76
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators "
 "relating to the financial model of a PPP project. Whilst some of these may "
@@ -135,26 +200,53 @@ msgstr ""
 "algunos de estos pueden ser reportados como métricas en forma continua, "
 "algunos son simples valores individuales."
 
-#: ../../docs/extensions/ppp.md:62
+#: ../../docs/extensions/ppp.md:78
 msgid ""
-"The `contract/financeSummary` section includes properties to express the"
-" **value** and supporting **free-text details** for each indicator:"
+"The `contract/financeSummary` section includes properties to express the "
+"**value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección `contract/financeSummary` incluye propiedades para expresar "
-"el **value** y soporta **detalles de texto libre** para cada indicador:"
+"La sección `contract/financeSummary` incluye propiedades para expresar el "
+"**value** y soporta **detalles de texto libre** para cada indicador:"
 
-#: ../../docs/extensions/ppp.md:64
+#: ../../docs/extensions/ppp.md:80
 msgid "debtEquityRatio"
 msgstr "debtEquityRatio"
 
-#: ../../docs/extensions/ppp.md:65
+#: ../../docs/extensions/ppp.md:81
 msgid "shareCapital"
 msgstr "shareCapital"
 
-#: ../../docs/extensions/ppp.md:66
+#: ../../docs/extensions/ppp.md:82
 msgid "subsidyRatio"
 msgstr "subsidyRatio"
 
-#: ../../docs/extensions/ppp.md:67
+#: ../../docs/extensions/ppp.md:83
 msgid "projectIRR"
 msgstr "projectIRR"
+
+#: ../../docs/extensions/ppp.md:0
+msgid "Removals"
+msgstr "Eliminaciones"
+
+#: ../../docs/extensions/ppp.md:87
+msgid ""
+"A standard OCDS extension should not remove content from the OCDS schema. "
+"However, to allow us to generate a profile schema and reference pages that "
+"contain **only** fields that should be considered when publishing OCDS for "
+"PPPs data, the release-schema.json for this extension contains a number of "
+"`null` fields, which remove schema elements not used by OCDS for PPPs."
+msgstr ""
+"Una extensión del estándar OCDS no debe de quitar contenido del esquema "
+"OCDS. De cualquier forma, para permitir que se genere un perfil del esquema,"
+" y páginas de referencia que tengan **solo* campos que se deben considerar "
+"cuando se publican datos de OCDS para APPs, la entrega release-schema.json "
+"para esta extensión contiene una variedad de campos `null`, que quitan "
+"elementos del esquema que no se utilizan por OCDS para APPs."
+
+#: ../../docs/extensions/ppp.md:89
+msgid ""
+"This includes elements deprecated in OCDS 1.0, or procurement specific "
+"elements that don't apply in a PPP context."
+msgstr ""
+"Esto incluye elementos descontinuados en OCDS 1.0, o elementos específicos "
+"de presupuesto que no aplican en un contexto de APP"

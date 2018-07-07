@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-07-06 22:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -129,17 +129,17 @@ msgstr ""
 msgid "Codelist entries"
 msgstr "Entradas de lista de códigos"
 
-#: ../../docs/extensions/tariffs.md:83
+#: ../../docs/extensions/tariffs.md:85
 msgid "The following document types are introduced by the tariff extension"
 msgstr ""
 "Los siguientes tipos de documentos son introducidos por la extensión de "
 "tarifa"
 
-#: ../../docs/extensions/tariffs.md:85
+#: ../../docs/extensions/tariffs.md:87
 msgid "tariffs - For providing tariff and pricing schedules."
 msgstr "tariffs - Para proporcionar tarifas y horarios de precios."
 
-#: ../../docs/extensions/tariffs.md:86
+#: ../../docs/extensions/tariffs.md:88
 msgid ""
 "tariffMethod - For summarizing the method by which tariffs are set, and "
 "linking to detailed documentation of the methods for setting tariffs. This "
@@ -151,7 +151,7 @@ msgstr ""
 " puede incluir documentación escrita y hojas de cálculo con los modelos "
 "utilizados para calcular las tarifas."
 
-#: ../../docs/extensions/tariffs.md:87
+#: ../../docs/extensions/tariffs.md:89
 msgid ""
 "tariffReview - For summarizing the arrangements for the review and "
 "regulation of tariffs, and linking to detailed documentation that covers how"
@@ -165,7 +165,7 @@ msgstr ""
 "usuarios por qué están pagando lo que están pagando, y el alcance de los "
 "cambios en las estructuras de pago."
 
-#: ../../docs/extensions/tariffs.md:88
+#: ../../docs/extensions/tariffs.md:90
 msgid ""
 "tariffIllustration - For linking to graphs and reports on the change over "
 "time in tariff prices. Use the relevant image media type when linking to "
@@ -181,12 +181,26 @@ msgstr ""
 msgid "Issues"
 msgstr "Issues"
 
-#: ../../docs/extensions/tariffs.md:92
+#: ../../docs/extensions/tariffs.md:94
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
-"Informe issues para esta extensión en el [repositorio de extensiones "
+"Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
+
+#: ../../docs/extensions/tariffs.md:0
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../../docs/extensions/tariffs.md:98
+msgid ""
+"2018-05-08 - Make `tariff/id` required to support revision tracking and "
+"[list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
+msgstr ""
+"2018-05-08 - Hacer ``tariff/id` ` requerido para soportar el seguimiento de "
+"revisiones y [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."

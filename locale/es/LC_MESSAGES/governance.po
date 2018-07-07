@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-07-06 22:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Governance"
 msgstr "Gobernanza"
 
-#: ../../docs/governance.md:12
+#: ../../docs/governance.md:13
 msgid ""
 "As an implementation profile, extending OCDS 1.1, updates to the core schema"
 " will be subject to the [OCDS Governance Process](http://standard.open-"
@@ -76,7 +76,7 @@ msgstr ""
 " esquema básico estarán sujetas al [Proceso de Gobernanza de "
 "OCDS](http://standard.open-contracting.org/latest/en/support/governance/)."
 
-#: ../../docs/governance.md:14
+#: ../../docs/governance.md:15
 msgid ""
 "It draws upon the following extensions from the [OCDS extension "
 "registry](http://standard.open-contracting.org/latest/en/extensions/)."
@@ -84,83 +84,83 @@ msgstr ""
 "Se basa en las siguientes extensiones del [registro de extensión "
 "OCDS](http://standard.open-contracting.org/latest/en/extensions/)."
 
-#: ../../docs/governance.md:16
+#: ../../docs/governance.md:17
 msgid "ppp"
 msgstr "ppp"
 
-#: ../../docs/governance.md:17
+#: ../../docs/governance.md:18
 msgid "process_title"
 msgstr "process_title"
 
-#: ../../docs/governance.md:18
+#: ../../docs/governance.md:19
 msgid "location"
 msgstr "location"
 
-#: ../../docs/governance.md:19
+#: ../../docs/governance.md:20
 msgid "requirements"
 msgstr "requirements"
 
-#: ../../docs/governance.md:20
+#: ../../docs/governance.md:21
 msgid "budget"
 msgstr "budget"
 
-#: ../../docs/governance.md:21
+#: ../../docs/governance.md:22
 msgid "budget_project"
 msgstr "budget_project"
 
-#: ../../docs/governance.md:22
+#: ../../docs/governance.md:23
 msgid "documentation_details"
 msgstr "documentation_details"
 
-#: ../../docs/governance.md:23
+#: ../../docs/governance.md:24
 msgid "metrics"
 msgstr "metrics"
 
-#: ../../docs/governance.md:24
+#: ../../docs/governance.md:25
 msgid "risk_allocation"
 msgstr "risk_allocation"
 
-#: ../../docs/governance.md:25
+#: ../../docs/governance.md:26
 msgid "shareholders"
 msgstr "shareholders"
 
-#: ../../docs/governance.md:26
+#: ../../docs/governance.md:27
 msgid "finance"
 msgstr "finance"
 
-#: ../../docs/governance.md:27
+#: ../../docs/governance.md:28
 msgid "qualification"
 msgstr "qualification"
 
-#: ../../docs/governance.md:28
+#: ../../docs/governance.md:29
 msgid "tariffs"
 msgstr "tariffs"
 
-#: ../../docs/governance.md:29
+#: ../../docs/governance.md:30
 msgid "performance_failures"
 msgstr "performance_failures"
 
-#: ../../docs/governance.md:30
+#: ../../docs/governance.md:31
 msgid "signatories"
 msgstr "signatories"
 
-#: ../../docs/governance.md:31
+#: ../../docs/governance.md:32
 msgid "charges"
 msgstr "charges"
 
-#: ../../docs/governance.md:32
+#: ../../docs/governance.md:33
 msgid "transaction_milestones"
 msgstr "transaction_milestones"
 
-#: ../../docs/governance.md:33
+#: ../../docs/governance.md:34
 msgid "bids"
 msgstr "bids"
 
-#: ../../docs/governance.md:34
+#: ../../docs/governance.md:35
 msgid "milestone_documents"
 msgstr "milestone_documents"
 
-#: ../../docs/governance.md:36
+#: ../../docs/governance.md:37
 msgid ""
 "Issues related to the individual extensions that make up the implementation "
 "profile can be raised on their respective GitHub projects."
@@ -169,7 +169,7 @@ msgstr ""
 "perfil de implementación pueden levantarse en sus respectivos proyectos de "
 "GitHub."
 
-#: ../../docs/governance.md:38
+#: ../../docs/governance.md:39
 msgid ""
 "General issues relating to their combination in this implementation profile "
 "can be raised [in the project issue tracker](https://github.com/open-"
@@ -180,7 +180,7 @@ msgstr ""
 "proyecto](https://github.com/open-contracting/public-private-"
 "partnerships/issues)."
 
-#: ../../docs/governance.md:40
+#: ../../docs/governance.md:41
 msgid ""
 "Ongoing maintenance of OCDS for PPPs will be supported by the OCDS Global "
 "Helpdesk, for enquiries please contact [data@open-contracting.org](data"

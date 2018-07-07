@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-07-06 22:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -41,8 +41,8 @@ msgid ""
 "OCDS core includes a single `budget.amount` field to capture the total value"
 " of the budget for the contracting process."
 msgstr ""
-"El núcleo de OCDS incluye un solo campo `budget.amount` para capturar el "
-"valor total del presupuesto para el proceso de contratación."
+"La estructura principal OCDS incluye un solo campo `budget.amount` para "
+"capturar el monto total del presupuesto para el proceso de contratación."
 
 #: ../../docs/extensions/budget.md:0
 msgid "Providing more detailed budget information"
@@ -92,7 +92,7 @@ msgid ""
 "of OCDS. `budgetBreakdown` is an array of `budget` blocks."
 msgstr ""
 "Esta extensión agrega una propiedad `budgetBreakdown` a la sección "
-"`planning` del OCDS. `BudgetBreakdown` es una matriz de bloques `budget`."
+"`planning` del OCDS. `BudgetBreakdown` es una lista de bloques `budget`."
 
 #: ../../docs/extensions/budget.md:21
 msgid ""
@@ -126,7 +126,7 @@ msgstr "Guía"
 
 #: ../../docs/extensions/budget.md:28
 msgid "In the core `planning.budget` block:"
-msgstr "En el núcleo del bloque `planning.budget`:"
+msgstr "En la parte principal del bloque `planning.budget`:"
 
 #: ../../docs/extensions/budget.md:30
 msgid ""
@@ -160,10 +160,10 @@ msgstr ""
 "Cuando `budget.budgetBreakdown` se utiliza para expresar un presupuesto de "
 "múltiples fuentes, pero los detalles de la organización no se conocen para "
 "una o más partes del presupuesto, por ejemplo, en una APP donde parte del "
-"presupuesto será proporcionado por el licitador del sector privado ganador, "
+"presupuesto será proporcionado por el licitante del sector privado ganador, "
 "el campo `sourceEntity.name` debe utilizarse para proporcionar una "
 "explicación de texto libre de la fuente del presupuesto, por ejemplo "
-"\"Inversión del sector privado por parte del adjudicatario\"."
+"\"Inversión del sector privado por parte del licitante\"."
 
 #: ../../docs/extensions/budget.md:0
 msgid "Examples"
@@ -183,7 +183,7 @@ msgstr ""
 msgid "Multi-year budgets"
 msgstr "Presupuestos multi-anuales"
 
-#: ../../docs/extensions/budget.md:91
+#: ../../docs/extensions/budget.md:93
 msgid "The following JSON snippet models a multi-year single source budget:"
 msgstr ""
 "El siguiente fragmento JSON modela un presupuesto multi-anual de fuente "
@@ -193,22 +193,22 @@ msgstr ""
 msgid "To do"
 msgstr "Por hacer"
 
-#: ../../docs/extensions/budget.md:134
+#: ../../docs/extensions/budget.md:138
 msgid ""
 "Finalize guidance on use of extended fields in the core `planning.budget` "
 "field."
 msgstr ""
-"Finaliza la guía sobre el uso de campos extendidos en el campo central "
+"Finaliza la guía sobre el uso de campos extendidos en el campo principal "
 "`planning.budget`."
 
-#: ../../docs/extensions/budget.md:135
+#: ../../docs/extensions/budget.md:139
 msgid ""
 "Finalize guidance where source entity is not known at time of budgeting"
 msgstr ""
 "Finaliza la guía cuando la entidad fuente no se conoce en el momento de la "
 "presupuestación"
 
-#: ../../docs/extensions/budget.md:137
+#: ../../docs/extensions/budget.md:141
 msgid ""
 "See issue [#377](https://github.com/open-contracting/standard/issues/377)."
 msgstr ""
@@ -219,12 +219,26 @@ msgstr ""
 msgid "Issues"
 msgstr "Issues"
 
-#: ../../docs/extensions/budget.md:141
+#: ../../docs/extensions/budget.md:145
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
-"Informe issues para esta extensión en el [repositorio de extensiones "
+"Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
+
+#: ../../docs/extensions/budget.md:0
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../../docs/extensions/budget.md:149
+msgid ""
+"2018-05-08 - Make `budgetBreakdown/id` required and non-nullable to support "
+"revision tracking and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
+msgstr ""
+"2018-05-08 - Hacer obligatorio y no nullable `budgetBreakdown/id`  para "
+"apoyar el seguimiento de revisión y [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
