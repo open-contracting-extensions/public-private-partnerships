@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-06-22 14:42+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
+"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,31 +44,40 @@ msgstr ""
 
 #: ../../docs/extensions/metrics.md:7
 msgid "The metrics extension can be used at:"
-msgstr ""
+msgstr "La extensión de métricas se puede usar en:"
 
 #: ../../docs/extensions/metrics.md:9
 msgid ""
 "The `planning` stage for forecasts for the contracting process (e.g. "
 "forecast demand levels)"
 msgstr ""
+"La etapa `planning` para predicciones sobre el proceso de contratación "
+"(ejemplo: predicciones de los niveles de demanda)"
 
 #: ../../docs/extensions/metrics.md:10
 msgid ""
 "The `tender` stage for targets for the contracting process (e.g. target "
 "availability levels or KPIs)"
 msgstr ""
+"La etapa `tender` para objetivos del proceso de contrataciones (por ejemplo:"
+" niveles de disponibilidad objetivo o indicadores clave de rendimiento)"
 
 #: ../../docs/extensions/metrics.md:11
 msgid ""
 "The `award` and `contract` stages for targets agreed with the successful "
 "supplier (e.g. availability levels or KPIs)"
 msgstr ""
+"Las etapas `award` y `contract` para objetivos que se acuerden con el "
+"proveedor ganador (ejemplo: niveles de disponibilidad o indicadores claves "
+"de rendimiento)"
 
 #: ../../docs/extensions/metrics.md:12
 msgid ""
 "The `implementation` stage for actual performance information (e.g. actual "
 "demand, availability, KPIs etc.)"
 msgstr ""
+"La etapa  `implementation`  para la información de desempeño actual (por "
+"ejemplo: demanda actual, disponibilidad o indicadores claves de rendimiento)"
 
 #: ../../docs/extensions/metrics.md:14
 msgid ""
@@ -82,25 +91,30 @@ msgstr ""
 
 #: ../../docs/extensions/metrics.md:0
 msgid "Example - Forecasts"
-msgstr ""
+msgstr "Ejemplo - Predicciones"
 
 #: ../../docs/extensions/metrics.md:0
 msgid "Example - Physical progress"
-msgstr ""
+msgstr "Ejemplo - Progreso físico"
 
-#: ../../docs/extensions/metrics.md:58
+#: ../../docs/extensions/metrics.md:55
 msgid ""
 "The metrics extension can also be used to report on the physical progress of"
 " a contract. The following JSON snippet shows how the metrics extension "
 "could be used to report on progress for the construction of a highway, both "
 "by percent completion and number of kilometres constructed:"
 msgstr ""
+"La extensión de métricas también puede ser utilizada para reportar el "
+"progreso físico de un contrato. El siguiente fragmento de JSON muestra como "
+"la extensión de métrica puede ser utilizada para reportar el progreso en la "
+"construcción de una carretera, tanto por porcentaje completado como por "
+"número de kilómetros construidos:"
 
 #: ../../docs/extensions/metrics.md:0
 msgid "Use with requirements"
 msgstr "Uso con requerimientos "
 
-#: ../../docs/extensions/metrics.md:109
+#: ../../docs/extensions/metrics.md:108
 msgid ""
 "Metrics can be used along with the **requirements extension** which will add"
 " a 'relatedRequirementID' property to metrics."
@@ -108,7 +122,7 @@ msgstr ""
 "Las métricas se pueden utilizar junto con la **extensión de requisitos** que"
 " agregará una propiedad 'relatedRequirementID' a las métricas."
 
-#: ../../docs/extensions/metrics.md:111
+#: ../../docs/extensions/metrics.md:110
 msgid ""
 "With the requirements extension, bids, awards and contracts can include a "
 "`RequirementResponse` indicating the values against each metric that a "
@@ -118,7 +132,7 @@ msgstr ""
 "pueden incluir un `RequirementResponse` indicando los valores contra cada "
 "métrica que un proveedor desea cumplir."
 
-#: ../../docs/extensions/metrics.md:113
+#: ../../docs/extensions/metrics.md:112
 msgid ""
 "This can allow a degree of comparison between performance anticipated at "
 "bid, award, contract and implementation phases."
@@ -130,15 +144,15 @@ msgstr ""
 msgid "To Do"
 msgstr "Por hacer"
 
-#: ../../docs/extensions/metrics.md:117
+#: ../../docs/extensions/metrics.md:116
 msgid "[ ] Check oneOf schema syntax for value **or** quantity"
 msgstr "[ ] Compruebe la sintaxis del esquema oneOf para value **o**quantity"
 
-#: ../../docs/extensions/metrics.md:118
+#: ../../docs/extensions/metrics.md:117
 msgid "[ ] Add relatedRequirementID to requirements extension"
 msgstr "[ ] Agregue relatedRequirementID a la extensión de requisitos"
 
-#: ../../docs/extensions/metrics.md:119
+#: ../../docs/extensions/metrics.md:118
 msgid "[ ] Validate schema updates"
 msgstr "[ ] Validar actualizaciones de esquema"
 
@@ -146,12 +160,12 @@ msgstr "[ ] Validar actualizaciones de esquema"
 msgid "Issues"
 msgstr "Issues"
 
-#: ../../docs/extensions/metrics.md:123
+#: ../../docs/extensions/metrics.md:122
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
-"Informe issues para esta extensión en el [repositorio de extensiones "
+"Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."

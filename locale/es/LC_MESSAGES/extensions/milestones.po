@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-06-22 14:42+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,11 +107,11 @@ msgstr "Hitos por sección"
 
 #: ../../docs/extensions/milestones.md:25
 msgid ""
-"With this extension in use, a `milestones` building block is available "
-"in the following sections:"
+"With this extension in use, a `milestones` building block is available in "
+"the following sections:"
 msgstr ""
-"Con esta extensión en uso, un bloque `milestones` está disponible en las"
-" siguientes secciones:"
+"Con esta extensión en uso, un bloque `milestones` está disponible en las "
+"siguientes secciones:"
 
 #: ../../docs/extensions/milestones.md:27
 msgid ""
@@ -149,8 +149,7 @@ msgstr ""
 "**Implementation** - para cualquier hito relacionado con la entrega, la "
 "presentación de informes y el progreso financiero. Si se conocen estos hitos"
 " en el momento de la adjudicación, pero antes de firmar un contrato, pueden "
-"indicarse mediante un borrador de contrato (con `contract/status` "
-"`pending`)"
+"indicarse mediante un borrador de contrato (con `contract/status` `pending`)"
 
 #: ../../docs/extensions/milestones.md:32
 msgid ""
@@ -189,8 +188,7 @@ msgid "Milestone types"
 msgstr "Tipos de hitos"
 
 #: ../../docs/extensions/milestones.md:40
-msgid ""
-"A field for `milestone/type` with the following values is introduced."
+msgid "A field for `milestone/type` with the following values is introduced."
 msgstr ""
 "Se introduce un campo para `milestone/type` con los siguientes valores."
 
@@ -291,11 +289,11 @@ msgstr "dateMet"
 
 #: ../../docs/extensions/milestones.md:61
 msgid ""
-"A field for `milestone/dateMet` is introduced to capture the date on "
-"which tile milestone was completed."
+"A field for `milestone/dateMet` is introduced to capture the date on which "
+"tile milestone was completed."
 msgstr ""
-"Se introduce un campo para `milestone/dateMet` para capturar la fecha en"
-" la que se completó el hito."
+"Se introduce un campo para `milestone/dateMet` para capturar la fecha en la "
+"que se completó el hito."
 
 #: ../../docs/extensions/milestones.md:0
 msgid "Milestone codes"
@@ -303,25 +301,24 @@ msgstr "Códigos de hitos"
 
 #: ../../docs/extensions/milestones.md:65
 msgid ""
-"A field is included for `milestone/code` which can be used by "
-"applications to particular classify milestone events that may be important "
-"for analysis."
+"A field is included for `milestone/code` which can be used by applications "
+"to particular classify milestone events that may be important for analysis."
 msgstr ""
 "Se incluye un campo para `milestone/code` que puede ser usado por las "
-"aplicaciones para clasificar eventos de hito  que pueden ser importantes "
+"aplicaciones para clasificar eventos del hito  que pueden ser importantes "
 "para realizar análisis."
 
 #: ../../docs/extensions/milestones.md:67
 msgid ""
 "For example, some red flag analysis applications need to track approvals, "
 "and so may propose a code for `projectApproval`. They can then look for "
-"projects which have a milestone with the code `projectApproval` and a "
-"status of 'Met'."
+"projects which have a milestone with the code `projectApproval` and a status"
+" of 'Met'."
 msgstr ""
 "Por ejemplo, algunas aplicaciones de análisis de banderas rojas necesitan "
 "rastrear las aprobaciones, por lo que pueden proponer un código para "
-"`projectApproval`. A continuación, pueden buscar proyectos que tengan un"
-" hito con el código `projectApproval` y un estado de 'Met'."
+"`projectApproval`. A continuación, pueden buscar proyectos que tengan un "
+"hito con el código `projectApproval` y un estado de 'Met'."
 
 #: ../../docs/extensions/milestones.md:0
 msgid "PPP Usage"
@@ -367,8 +364,8 @@ msgid ""
 "Draft of milestones update for OCDS V1.1 upgrade. Staged as an extension for"
 " inclusion in draft ppp extension."
 msgstr ""
-"Proyecto de actualización de hitos para la actualización de ODCS V1.1. "
-"Establecido como una extensión para incluir en la extensión ppp."
+"Borrador de actualización de hitos para la actualización de ODCS V1.1. "
+"Establecido como una extensión para incluir en la extensión app."
 
 #: ../../docs/extensions/milestones.md:241
 msgid ""
@@ -383,8 +380,8 @@ msgid ""
 "This draft does not deprecate `milestone/documents` as discussed in "
 "[#355](https://github.com/open-contracting/standard/issues/355)"
 msgstr ""
-"Este borrador no deprecia `milestone/documents` como se discute en [# "
-"355](https://github.com/open-contracting/standard/issues/355)"
+"Este borrador no marca como obsoleto a `milestone/documents` como se discute"
+" en [# 355](https://github.com/open-contracting/standard/issues/355)"
 
 #: ../../docs/extensions/milestones.md:245
 msgid ""

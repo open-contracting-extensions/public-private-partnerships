@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 19:49-0400\n"
+"POT-Creation-Date: 2018-06-22 14:42+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -89,9 +89,9 @@ msgid ""
 "information about the number of bids and bidders. Each entry in the array is"
 " a `BidsStatistic` object containing at least:"
 msgstr ""
-"La matriz `bids/bidStatistics` puede usarse para representar información "
+"La lista `bids/bidStatistics` puede usarse para representar información "
 "estadística clave sobre el número de ofertas y licitadores. Cada entrada en "
-"la matriz es un objeto `BidsStatistic` que contiene al menos:"
+"la lista es un objeto `BidsStatistic` que contiene al menos:"
 
 #: ../../docs/extensions/bids.md:17
 msgid "An identifier;"
@@ -212,7 +212,7 @@ msgid ""
 "The `bids/details` array is used to provide one or more `Bid` objects, each "
 "representing a unique bid received."
 msgstr ""
-"La matriz `bids/details` se utiliza para proporcionar uno o más objetos ` "
+"La lista `bids/details` se utiliza para proporcionar uno o más objetos ` "
 "Bid`, cada uno de los cuales representa una única oferta recibida."
 
 #: ../../Extension bids:1 ../../Extension bids:1 ../../Extension bids:1
@@ -261,7 +261,7 @@ msgstr "Ejemplo"
 
 #: ../../docs/extensions/bids.md:59
 msgid "Below is an example of a bids extension:"
-msgstr "A continuación se muestra un ejemplo de una extensión de ofertas:"
+msgstr "A continuación se muestra un ejemplo de la extensión de ofertas:"
 
 #: ../../docs/extensions/bids.md:0
 msgid "Issues"
@@ -273,7 +273,7 @@ msgid ""
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
-"Informe issues para esta extensión en el [repositorio de extensiones "
+"Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
@@ -316,11 +316,11 @@ msgstr "Agregar descripciones a bidStatus.csv"
 
 #: ../../docs/extensions/bids.md:151
 msgid "List codelists in extension.json"
-msgstr "Enlista listas de códigos en extension.json"
+msgstr "Listar listas de códigos en extension.json"
 
 #: ../../docs/extensions/bids.md:152
 msgid "Add example to documentation"
-msgstr "Enlista listas de códigos en extension.json"
+msgstr "Agregar ejemplos a la documentación"
 
 #: ../../docs/extensions/bids.md:153
 msgid "Add tests and tidy code"
