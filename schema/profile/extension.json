@@ -31,10 +31,10 @@
     "votingRights.csv",
     "+milestoneType.csv",
     "+partyRole.csv",
-    "-partyRole.csv",
     "+releaseTag.csv",
-    "initiationType.csv",
+    "-partyRole.csv",
     "documentType.csv",
+    "initiationType.csv",
     "metricID.csv",
     "milestoneCode.csv"
   ],
