@@ -11,6 +11,9 @@
     "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/",
     "es": "http://standard.open-contracting.org/profiles/ppp/latest/es/"
   },
+  "schemas": [
+    "release-schema.json"
+  ],
   "codelists": [
     "bidStatistics.csv",
     "bidStatus.csv",
