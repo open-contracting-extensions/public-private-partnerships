@@ -1,12 +1,15 @@
 {
   "name": {
-    "en": "OCDS for PPPs Consolidated Extension"
+    "en": "OCDS for PPPs Consolidated Extension",
+    "es": "Extensi\u00f3n consolidada EDCA para APPs"
   },
   "description": {
-    "en": "Collects together all the extensions which make up the OCDS for PPPs profile into a single extension"
+    "en": "Collects together all the extensions which make up the OCDS for PPPs profile into a single extension.",
+    "es": "Re\u00fane todas las extensiones que forman el perfil EDCA para APPs en una sola extensi\u00f3n."
   },
   "documentationUrl": {
-    "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/"
+    "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/",
+    "es": "http://standard.open-contracting.org/profiles/ppp/latest/es/"
   },
   "codelists": [
     "bidStatistics.csv",
