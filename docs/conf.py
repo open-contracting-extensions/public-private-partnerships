@@ -147,7 +147,7 @@ extension_versions = OrderedDict([
     ('signatories', 'master'),
     ('tariffs', 'master'),
     ('transaction_milestones', 'master'),
-    ('ppp', 'v1.1.3'),
+    ('ppp', 'master'),
 ])
 
 
