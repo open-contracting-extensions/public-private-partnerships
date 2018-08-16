@@ -111,12 +111,6 @@ html_theme_path = [standard_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static', 'examples']
 
-# Add any extra paths that contain custom files (such as robots.txt or
-# .htaccess) here, relative to this directory. These files are copied
-# directly to the root of the documentation.
-#
-html_extra_path = ['../schema/profile']
-
 
 # -- Local configuration --------------------------------------------------
 
@@ -129,7 +123,8 @@ gettext_compact = False
 gettext_domain_prefix = 'ppp-'
 
 # The version of OCDS to patch.
-standard_version = '1__1__3'
+standard_tag = '1__1__3'
+standard_version = '1.1'
 
 # List the extension identifiers and versions that should be part of this profile. The extensions must be available in
 # the extension registry: https://github.com/open-contracting/extension_registry/blob/master/extension_versions.csv
@@ -152,7 +147,7 @@ extension_versions = OrderedDict([
     ('signatories', 'master'),
     ('tariffs', 'master'),
     ('transaction_milestones', 'master'),
-    ('ppp', 'v1.1.3'),
+    ('ppp', 'master'),
 ])
 
 
@@ -173,22 +168,26 @@ def setup(app):
 
     language = app.config.overrides.get('language', 'en')
 
-    translate_schema(
-        # The gettext domain for schema translations. Should match the domain in the `pybabel compile` command.
-        domain='{}schema'.format(gettext_domain_prefix),
-        # The filenames of schema files within the `sourcedir` that will be translated into the `builddir`. The
-        # glob pattern in `.babel_schema` should match the filenames.
-        filenames=[
-            'patched/release-schema.json',
-        ],
-        sourcedir=os.path.join(basedir, 'schema'),
-        builddir=os.path.join(basedir, 'docs', '_static'),
-        localedir=localedir,
-        language=language)
+    arguments = (
+        (['patched/release-schema.json'], 'schema', os.path.join('docs', '_static')),
+        (['release-schema.json'], 'schema/profile', os.path.join('build', language)),
+    )
+
+    for filenames, sourcedir, builddir in arguments:
+        translate_schema(
+            # The gettext domain for schema translations. Should match the domain in the `pybabel compile` command.
+            domain='{}schema'.format(gettext_domain_prefix),
+            # The filenames of schema files within the `sourcedir` that will be translated into the `builddir`. The
+            # glob pattern in `.babel_schema` should match the filenames.
+            filenames=filenames,
+            sourcedir=os.path.join(basedir, sourcedir),
+            builddir=os.path.join(basedir, builddir),
+            localedir=localedir,
+            language=language)
 
     directories = (
-        ('schema/profile', 'docs/extensions/codelists_translated'),
-        ('schema/patched', 'docs/_static/patched/codelists'),
+        ('schema/patched', os.path.join('docs', '_static', 'patched', 'codelists')),
+        ('schema/profile', os.path.join('build', language, 'codelists')),
     )
 
     for sourcedir, builddir in directories:
@@ -201,3 +200,9 @@ def setup(app):
             builddir=os.path.join(basedir, builddir),
             localedir=localedir,
             language=language)
+
+    # Copy the untranslated extension.json file.
+    with open(os.path.join(basedir, 'schema', 'profile', 'extension.json')) as f:
+        extension_json = f.read()
+    with open(os.path.join(basedir, 'build', language, 'extension.json'), 'w') as f:
+        f.write(extension_json)
