@@ -126,6 +126,10 @@ gettext_domain_prefix = 'ppp-'
 standard_tag = '1__1__3'
 standard_version = '1.1'
 
+# Where the patched schemas will be deployed.
+schema_base_url = 'http://standard.open-contracting.org/profiles/ppp/schema/1__0__0__beta/'
+
+
 # List the extension identifiers and versions that should be part of this profile. The extensions must be available in
 # the extension registry: https://github.com/open-contracting/extension_registry/blob/master/extension_versions.csv
 extension_versions = OrderedDict([
@@ -170,6 +174,7 @@ def setup(app):
 
     arguments = (
         (['patched/release-schema.json'], 'schema', os.path.join('docs', '_static')),
+        (['patched/release-package-schema.json'], 'schema', os.path.join('docs', '_static')),
         (['release-schema.json'], 'schema/profile', os.path.join('build', language)),
     )
 
