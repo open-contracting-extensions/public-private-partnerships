@@ -57,11 +57,11 @@ msgstr "Esta extensión no debe ser utilizada fuera de un perfil APP."
 #: ../../docs/extensions/qualification.md:11
 msgid ""
 "For more background on this extension, see discussion in "
-"[#36](https://github.com/open-contracting/public-private-"
+"[#36](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/issues/36)."
 msgstr ""
 "Para más información sobre esta extensión, vea la discusión en:  "
-"[#36](https://github.com/open-contracting/public-private-"
+"[#36](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/issues/36)."
 
 #: ../../docs/extensions/qualification.md:0

@@ -12,7 +12,7 @@ This extension adds a `relatedImplementationMilestone` property to the `transact
 
 The `relatedImplementationMilestone` property is a `MilestoneReference` object.
 
-The `MilestoneReference` object is introduced by the [metrics extension](https://github.com/open-contracting/ocds_metrics_extension).
+The `MilestoneReference` object is introduced by the [metrics extension](https://github.com/open-contracting-extensions/ocds_metrics_extension).
 
 ## Example
 

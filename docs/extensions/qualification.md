@@ -8,7 +8,7 @@ In particular, this extension adds a second initiation stage (`qualification`), 
 
 This extension should not be used outside of the PPP Profile. 
 
-For more background on this extension, see discussion in [#36](https://github.com/open-contracting/public-private-partnerships/issues/36).
+For more background on this extension, see discussion in [#36](https://github.com/open-contracting-extensions/public-private-partnerships/issues/36).
 
 ## Issues
 

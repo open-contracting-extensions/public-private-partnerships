@@ -63,10 +63,10 @@ msgstr ""
 #: ../../docs/extensions/transaction_milestones.md:15
 msgid ""
 "The `MilestoneReference` object is introduced by the [metrics "
-"extension](https://github.com/open-contracting/ocds_metrics_extension)."
+"extension](https://github.com/open-contracting-extensions/ocds_metrics_extension)."
 msgstr ""
 "El objeto `MilestoneReference` es introducido por la [extensión de "
-"métricas](https://github.com/open-contracting/ocds_metrics_extension)."
+"métricas](https://github.com/open-contracting-extensions/ocds_metrics_extension)."
 
 #: ../../docs/extensions/transaction_milestones.md:0
 msgid "Example"

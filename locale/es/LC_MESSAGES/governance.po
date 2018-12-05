@@ -173,11 +173,11 @@ msgstr ""
 msgid ""
 "General issues relating to their combination in this implementation profile "
 "can be raised [in the project issue tracker](https://github.com/open-"
-"contracting/public-private-partnerships/issues)."
+"contracting-extensions/public-private-partnerships/issues)."
 msgstr ""
 "Pueden plantearse issues generales relacionados con su combinación en este "
 "perfil de implementación [en el rastreador de issues del "
-"proyecto](https://github.com/open-contracting/public-private-"
+"proyecto](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/issues)."
 
 #: ../../docs/governance.md:41

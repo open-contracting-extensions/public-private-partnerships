@@ -120,10 +120,10 @@ msgstr "Información a nivel de proyecto"
 #: ../../docs/extensions/ppp.md:28
 msgid ""
 "Building on the [Budget and Projects extension](https://github.com/open-"
-"contracting/ocds_budget_projects_extension) this adds to project with:"
+"contracting-extensions/ocds_budget_projects_extension) this adds to project with:"
 msgstr ""
 "Desarrollado de la extensión de [Budget and Projects](https://github.com"
-"/open-contracting/ocds_budget_projects_extension) este agrega al proyecto:"
+"/open-contracting-extensions/ocds_budget_projects_extension) este agrega al proyecto:"
 
 #: ../../docs/extensions/ppp.md:30
 msgid ""

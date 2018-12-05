@@ -25,7 +25,7 @@ This repository contains one additional extensions that forms part of the OCDS f
 
 #### Project level information
 
-Building on the [Budget and Projects extension](https://github.com/open-contracting/ocds_budget_projects_extension) this adds to project with:
+Building on the [Budget and Projects extension](https://github.com/open-contracting-extensions/ocds_budget_projects_extension) this adds to project with:
 
 * Sector classifications - using the [UN Classifications of the Functions of Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)
 * Additional classifications - allowing arbitrary additional project categorization
