@@ -3219,13 +3219,13 @@
                 {
                   "id": "5.0",
                   "category": "construction",
-                  "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project\u2019s development",
+                  "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project’s development",
                   "allocation": "privateParty"
                 },
                 {
                   "id": "6.0",
                   "category": "construction",
-                  "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project\u2019s development",
+                  "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project’s development",
                   "allocation": "privateParty"
                 },
                 {
@@ -3243,7 +3243,7 @@
                 {
                   "id": "9.0",
                   "category": "financial",
-                  "description": "Risks due to variations or increase in the cost of the Project\u2019s execution",
+                  "description": "Risks due to variations or increase in the cost of the Project’s execution",
                   "allocation": "privateParty"
                 },
                 {

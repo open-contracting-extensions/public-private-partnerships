@@ -2802,7 +2802,7 @@
         },
         "stepInRights": {
           "title": "Step in rights",
-          "description": "Does provision of this finance confer any step in rights on the financing party? Step in rights are the lender\u2019s option to assume certain contractual responsibilities of a project party through managing their contract in cases when that party is not meeting its obligations under such a contract. This is a true/false field to indicate when step in rights exist. If there are step in rights, details should be provided in the description field, and in additional contract documents.",
+          "description": "Does provision of this finance confer any step in rights on the financing party? Step in rights are the lender’s option to assume certain contractual responsibilities of a project party through managing their contract in cases when that party is not meeting its obligations under such a contract. This is a true/false field to indicate when step in rights exist. If there are step in rights, details should be provided in the description field, and in additional contract documents.",
           "type": [
             "boolean",
             "null"
@@ -3157,7 +3157,7 @@
     },
     "PreQualification": {
       "title": "Pre-qualification",
-      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder\u2019s qualifications against a set of criteria.",
+      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder’s qualifications against a set of criteria.",
       "type": "object",
       "required": [
         "id"
