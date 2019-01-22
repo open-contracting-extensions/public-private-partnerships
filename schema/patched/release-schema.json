@@ -200,91 +200,9 @@
           }
         },
         "project": {
-          "type": [
-            "object",
-            "null"
-          ],
           "title": "Project information",
           "description": "The project section can be used to describe the relationship between this contracting process and a project or programme of work.",
-          "properties": {
-            "id": {
-              "title": "Project identifier",
-              "description": "An externally provided identifier for the project. This might be drawn from a projects register, or may be based on the canonical version of a project name. Project IDs should be unique to a publisher. URIs can be used. ",
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "title": {
-              "title": "Project title",
-              "description": "The name of the project to which this contracting process relates. Some organizations maintain a registry of projects, and the data should use the name by which the project is known in that registry. ",
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "description": {
-              "title": "Project description",
-              "description": "A short free text description of the project.",
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "totalValue": {
-              "title": "Total project value",
-              "description": "The total anticipated value of the project over it's lifetime. ",
-              "$ref": "#/definitions/Value"
-            },
-            "uri": {
-              "title": "Linked project information",
-              "description": "A URI pointing to further information about this project.",
-              "type": [
-                "string",
-                "null"
-              ],
-              "format": "uri"
-            },
-            "sector": {
-              "title": "Project sector",
-              "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
-              "$ref": "#/definitions/Classification"
-            },
-            "additionalClassifications": {
-              "title": "Additional sector classifications",
-              "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/Classification"
-              },
-              "uniqueItems": true,
-              "wholeListMerge": true
-            },
-            "locations": {
-              "title": "Project location",
-              "description": "Information about the location where a project is taking place.",
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/Location"
-              },
-              "uniqueItems": true,
-              "wholeListMerge": true
-            }
-          },
-          "patternProperties": {
-            "^(description_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "^(title_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
-              "type": [
-                "string",
-                "null"
-              ]
-            }
-          }
+          "$ref": "#/definitions/Project"
         },
         "forecasts": {
           "type": "array",
@@ -2602,6 +2520,90 @@
         }
       }
     },
+    "Project": {
+      "title": "Project information",
+      "description": "A project or programme of work.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Project identifier",
+          "description": "An externally provided identifier for the project. This might be drawn from a projects register, or may be based on the canonical version of a project name. Project IDs should be unique to a publisher. URIs can be used. ",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "title": "Project title",
+          "description": "The name of the project to which this contracting process relates. Some organizations maintain a registry of projects, and the data should use the name by which the project is known in that registry. ",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "title": "Project description",
+          "description": "A short free text description of the project.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "totalValue": {
+          "title": "Total project value",
+          "description": "The total anticipated value of the project over it's lifetime. ",
+          "$ref": "#/definitions/Value"
+        },
+        "uri": {
+          "title": "Linked project information",
+          "description": "A URI pointing to further information about this project.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "sector": {
+          "title": "Project sector",
+          "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+          "$ref": "#/definitions/Classification"
+        },
+        "additionalClassifications": {
+          "title": "Additional sector classifications",
+          "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Classification"
+          },
+          "uniqueItems": true,
+          "wholeListMerge": true
+        },
+        "locations": {
+          "title": "Project location",
+          "description": "Information about the location where a project is taking place.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          },
+          "uniqueItems": true,
+          "wholeListMerge": true
+        }
+      },
+      "patternProperties": {
+        "^(description_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "^(title_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
     "Charge": {
       "type": "object",
       "title": "Charge",
@@ -2802,7 +2804,7 @@
         },
         "stepInRights": {
           "title": "Step in rights",
-          "description": "Does provision of this finance confer any step in rights on the financing party? Step in rights are the lender’s option to assume certain contractual responsibilities of a project party through managing their contract in cases when that party is not meeting its obligations under such a contract. This is a true/false field to indicate when step in rights exist. If there are step in rights, details should be provided in the description field, and in additional contract documents.",
+          "description": "Does provision of this finance confer any step in rights on the financing party? Step in rights are the lender's option to assume certain contractual responsibilities of a project party through managing their contract in cases when that party is not meeting its obligations under such a contract. This is a true/false field to indicate when step in rights exist. If there are step in rights, details should be provided in the description field, and in additional contract documents.",
           "type": [
             "boolean",
             "null"
@@ -3157,7 +3159,7 @@
     },
     "PreQualification": {
       "title": "Pre-qualification",
-      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder’s qualifications against a set of criteria.",
+      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder's qualifications against a set of criteria.",
       "type": "object",
       "required": [
         "id"
@@ -3517,6 +3519,7 @@
             "string",
             "integer",
             "number",
+            "boolean",
             "null"
           ]
         },
@@ -3582,6 +3585,7 @@
             "string",
             "integer",
             "number",
+            "boolean",
             "null"
           ]
         },

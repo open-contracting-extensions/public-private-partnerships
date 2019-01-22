@@ -20,7 +20,7 @@ This extension adds a `budgetBreakdown` property to the `planning` section of OC
 
 This extension also extends the `budget` block with the following additional properties for use in the `budgetBreakdown` section:
 
-* `budget.sourceEntity` - an organization reference, linking to the entry in the `parties` section describing the organization providing the funds for this part of the budget
+* `budget.sourceParty` - an organization reference, linking to the entry in the `parties` section describing the organization providing the funds for this part of the budget
 * `budget.period` - a period block, describing the period to which this part of the budget applies
 
 ## Guidance
@@ -29,9 +29,9 @@ In the core `planning.budget` block:
 
 * `budget.amount` should be used to capture the total value of the budget for the contracting process.
 * `budget.period` should be used to capture the total period over which the budget applies.
-* `budget.sourceEntity` should be omitted.
+* `budget.sourceParty` should be omitted.
 
-Where `budget.budgetBreakdown` is used to express a multi-source budget but the organization details are not known for one or more parts of the budget, for example in a PPP where part of the budget will be provided by the successful private sector bidder, the `sourceEntity.name` field should be used to provide a free text explanation of the source of the budget, e.g. "Private sector investment from successful bidder".
+Where `budget.budgetBreakdown` is used to express a multi-source budget but the organization details are not known for one or more parts of the budget, for example in a PPP where part of the budget will be provided by the successful private sector bidder, the `sourceParty.name` field should be used to provide a free text explanation of the source of the budget, e.g. "Private sector investment from successful bidder".
 
 ## Examples
 
@@ -57,7 +57,7 @@ The following JSON snippet models a single year multi-source budget:
           },
           "period": {
             "startDate": "2016-01-01T00:00:00Z",
-            "endDate": "2016-12-31T00:00:00Z"
+            "endDate": "2016-12-31T23:59:59Z"
           },
           "id": "001",
           "description": "Budget contribution from the local government",
@@ -73,7 +73,7 @@ The following JSON snippet models a single year multi-source budget:
           },
           "period": {
             "startDate": "2016-01-01T00:00:00Z",
-            "endDate": "2016-12-31T00:00:00Z"
+            "endDate": "2016-12-31T23:59:59Z"
           },
           "id": "002",
           "description": "Budget contribution from the national government",
