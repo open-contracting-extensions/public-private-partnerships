@@ -792,7 +792,7 @@ P   U   U   U   U   U
 
 </div>
 
- Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](../extensions/documentation_details/)
+ Links to contract documents can be provided using the `documents` field in the `contract` section of an OCDS release (the contract may have a `status` of 'pending' up until it is signed). OCDS provides a [document building block](http://standard.open-contracting.org/1.1/en/schema/reference/#document) for disclosure of documents which has [a number of available extensions for PPP use cases](https://extensions.open-contracting.org/en/extensions/documentation_details/master/)
 
 A value from the [document type codelist](../reference/codelists/#documenttype) (`contractDraft`, `contractSigned` or `contractSchedule` should be entered into the `document/documentType` field to identify the type of document being disclosed. 
 
