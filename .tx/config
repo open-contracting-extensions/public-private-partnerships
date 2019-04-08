@@ -73,12 +73,6 @@ source_file = build/locale/extensions/index.pot
 source_lang = en
 type = PO
 
-[ocds-for-ppps.extensions--milestones]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/milestones.po
-source_file = build/locale/extensions/milestones.pot
-source_lang = en
-type = PO
-
 [ocds-for-ppps.reference--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
 source_file = build/locale/reference/codelists.pot
