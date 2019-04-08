@@ -11,7 +11,7 @@ I.17,planning,contractDraft,Contract draft,A draft or pro-forma copy of the cont
 I.17,"planning, contract",contractMilestones,Milestones and schedules,Documentation setting out key milestones and schedules. Structured versions of this information may be modelled using the milestones block.,No
 I.17,contract,contractSigned,Signed Contract,"A copy of the signed contract. Consider providing both machine-readable (e.g. original PDF, Word or Open Document format files), and a separate document entry for scanned-signed pages where this is required.",No
 II.1,tender,feasibilityStudy,Feasibility study,"Documentation of feasibility studies carried out for this contracting process, providing information on net benefits or costs of the proposed goods, works or services.",No
-II.1,tender,environmentalImpact,Environmental Impact,"Documentation of environmental impact assessments carried out before, during or after the contracting process.",No
+II.1,tender,environmentalImpact,Environmental Impact,"Documentation of assessments of the environmental impacts (e.g. impacts on flora, fauna & woodlands, areas of natural beauty, carbon emissions etc.) and mitigation measures (e.g. pollution control, low carbon solutions, sustainable timber etc.) for this contracting process or project.",No
 II.1,tender,finalAudit,Final Audit,Documentation of a final audit carried out at the end of contract implementation.,No
 II.1,tender,tenderNotice,Tender Notice,"The formal notice that gives details of a tender. This may be a link to a downloadable document, to a web page, or to an official gazette in which the notice is contained.",No
 II.2,tender,evaluationCommittee,Evaluation Committee Details,Information on the constitution of the evaluation committee,Yes
