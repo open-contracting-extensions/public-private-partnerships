@@ -8,7 +8,7 @@ I.8,planning,projectAdditionality,Project additionality,A description of the add
 I.8,planning,financeAdditionality,Finance additionality,A description of the additionality provided by the finance method,Yes
 I.9,planning,pppModeRationale,Rationale for PPP modality,A description of the reasons for choosing to conduct this project as a PPP,Yes
 I.17,planning,contractDraft,Contract draft,A draft or pro-forma copy of the contract.,No
-I.17,"planning, contract",contractSchedule,Schedules and milestones,Documentation setting out key milestones and schedules. Structured versions of this information may be modelled using the milestones block.,No
+I.17,"planning, contract",contractMilestones,Milestones and schedules,Documentation setting out key milestones and schedules. Structured versions of this information may be modelled using the milestones block.,No
 I.17,contract,contractSigned,Signed Contract,"A copy of the signed contract. Consider providing both machine-readable (e.g. original PDF, Word or Open Document format files), and a separate document entry for scanned-signed pages where this is required.",No
 II.1,tender,feasibilityStudy,Feasibility study,"Documentation of feasibility studies carried out for this contracting process, providing information on net benefits or costs of the proposed goods, works or services.",No
 II.1,tender,environmentalImpact,Environmental Impact,"Documentation of environmental impact assessments carried out before, during or after the contracting process.",No
