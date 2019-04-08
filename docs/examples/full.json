@@ -2249,7 +2249,7 @@
             {
               "id": "2",
               "shareholder": {
-                "id": "BET",
+                "id": "XX-XXX-22222222",
                 "name": "Beta Investment Company Ltd"
               },
               "shareholding": 0.2336,
@@ -2258,7 +2258,7 @@
             {
               "id": "3",
               "shareholder": {
-                "id": "GAM",
+                "id": "XX-XXX-33333333",
                 "name": "Gamma Finance Corporation"
               },
               "shareholding": 0.0334,
@@ -2267,7 +2267,7 @@
             {
               "id": "4",
               "shareholder": {
-                "id": "DEL",
+                "id": "XX-XXX-44444444",
                 "name": "Delta Investments"
               },
               "shareholding": 0.0334,
@@ -2276,7 +2276,7 @@
             {
               "id": "5",
               "shareholder": {
-                "id": "EPS",
+                "id": "XX-XXX-55555555",
                 "name": "Epsilon"
               },
               "shareholding": 0.0935,
@@ -2285,7 +2285,7 @@
             {
               "id": "6",
               "shareholder": {
-                "id": "ZET",
+                "id": "XX-XXX-66666666",
                 "name": "Zeta Joint Investments"
               },
               "shareholding": 0.1268,
@@ -2294,7 +2294,7 @@
             {
               "id": "7",
               "shareholder": {
-                "id": "ETA",
+                "id": "XX-XXX-77777777",
                 "name": "Eta Fund"
               },
               "shareholding": 0.0654,
@@ -2303,7 +2303,7 @@
             {
               "id": "8",
               "shareholder": {
-                "id": "THE",
+                "id": "XX-XXX-88888888",
                 "name": "Theta Cable"
               },
               "shareholding": 0.0401,
@@ -2312,7 +2312,7 @@
             {
               "id": "9",
               "shareholder": {
-                "id": "IOT",
+                "id": "XX-XXX-99999999",
                 "name": "Iota Telecoms"
               },
               "shareholding": 0.0401,
@@ -2408,10 +2408,10 @@
             "equityInvestor"
           ],
           "identifier": {
-            "scheme": "XX-XXX",
             "id": "11111111",
+            "scheme": "XX-XXX",
             "legalName": "Alpha Holdings Ltd",
-            "uri": "http://alphaholdings.example"
+            "uri": "https://opencorporates.com/companies/xx/11111111"
           },
           "address": {
             "streetAddress": "1 Bank Street",
@@ -2429,6 +2429,222 @@
           },
           "beneficialOwnership": {
             "description": "Alpha Holdings is wholly controlled by Alpha Trust"
+          }
+        },
+        {
+          "id": "XX-XXX-22222222",
+          "name": "Beta Investment Company Ltd",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "22222222",
+            "scheme": "XX-XXX",
+            "legalName": "Beta Investment Company Ltd",
+            "uri": "https://opencorporates.com/companies/xx/22222222"
+          },
+          "address": {
+            "streetAddress": "1 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 222222",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@betainvestment.example",
+            "telephone": "22 22 22 22",
+            "faxNumber": "22 22 22 23",
+            "url": "http://bids.betainvestment.example"
+          }
+        },
+        {
+          "id": "XX-XXX-33333333",
+          "name": "Gamma Finance Corporation",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "33333333",
+            "scheme": "XX-XXX",
+            "legalName": "Gamma Finance Corporation",
+            "uri": "https://opencorporates.com/companies/xx/33333333"
+          },
+          "address": {
+            "streetAddress": "2 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 333333",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@gammafinance.example",
+            "telephone": "33 33 33 33",
+            "faxNumber": "33 33 33 34",
+            "url": "http://bids.gammafinance.example"
+          }
+        },
+        {
+          "id": "XX-XXX-44444444",
+          "name": "Delta Investments",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "44444444",
+            "scheme": "XX-XXX",
+            "legalName": "Delta Investments",
+            "uri": "https://opencorporates.com/companies/xx/44444444"
+          },
+          "address": {
+            "streetAddress": "3 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 444444",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@deltainvestments.example",
+            "telephone": "44 44 44 44",
+            "faxNumber": "44 44 44 45",
+            "url": "http://bids.deltainvestments.example"
+          }
+        },
+        {
+          "id": "XX-XXX-55555555",
+          "name": "Epsilon",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "55555555",
+            "scheme": "XX-XXX",
+            "legalName": "Epsilon",
+            "uri": "https://opencorporates.com/companies/xx/55555555"
+          },
+          "address": {
+            "streetAddress": "4 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 555555",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@epsilon.example",
+            "telephone": "55 55 55 55",
+            "faxNumber": "55 55 55 56",
+            "url": "http://bids.epsilon.example"
+          }
+        },
+        {
+          "id": "XX-XXX-66666666",
+          "name": "Zeta Joint Investments",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "66666666",
+            "scheme": "XX-XXX",
+            "legalName": "Zeta Joint Investments",
+            "uri": "https://opencorporates.com/companies/xx/66666666"
+          },
+          "address": {
+            "streetAddress": "5 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 666666",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@zetajoint.example",
+            "telephone": "66 66 66 66",
+            "faxNumber": "66 66 66 67",
+            "url": "http://bids.zetajoint.example"
+          }
+        },
+        {
+          "id": "XX-XXX-77777777",
+          "name": "Eta Fund",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "77777777",
+            "scheme": "XX-XXX",
+            "legalName": "Eta Fund",
+            "uri": "https://opencorporates.com/companies/xx/77777777"
+          },
+          "address": {
+            "streetAddress": "6 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 777777",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@etafund.example",
+            "telephone": "77 77 77 77",
+            "faxNumber": "77 77 77 78",
+            "url": "http://bids.etafund.example"
+          }
+        },
+        {
+          "id": "XX-XXX-88888888",
+          "name": "Theta Cable",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "88888888",
+            "scheme": "XX-XXX",
+            "legalName": "Theta Cable",
+            "uri": "https://opencorporates.com/companies/xx/88888888"
+          },
+          "address": {
+            "streetAddress": "7 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 888888",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@thetacable.example",
+            "telephone": "88 88 88 88",
+            "faxNumber": "88 88 88 89",
+            "url": "http://bids.thetacable.example"
+          }
+        },
+        {
+          "id": "XX-XXX-99999999",
+          "name": "Iota Telecoms",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "99999999",
+            "scheme": "XX-XXX",
+            "legalName": "Iota Telecoms",
+            "uri": "https://opencorporates.com/companies/xx/99999999"
+          },
+          "address": {
+            "streetAddress": "8 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 999999",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@iotatelecoms.example",
+            "telephone": "99 99 99 99",
+            "faxNumber": "99 99 99 90",
+            "url": "http://bids.iotatelecoms.example"
           }
         }
       ],
