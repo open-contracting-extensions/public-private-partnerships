@@ -1,5 +1,5 @@
-{"records":
-  [
+{
+  "records": [
     {
       "ocid": "ocds-213czf-000-00001",
       "releases": [
@@ -86,7 +86,8 @@
               }
             ]
           }
-        },{
+        },
+        {
           "ocid": "ocds-213czf-000-00001",
           "id": "ocds-213czf-000-00001-02-tender",
           "date": "2009-03-15T14:45:00Z",
@@ -320,7 +321,8 @@
               }
             ]
           }
-        },{
+        },
+        {
           "ocid": "ocds-213czf-000-00001",
           "id": "ocds-213czf-000-00001-03-awards",
           "date": "2009-03-15T14:45:00Z",
@@ -520,7 +522,8 @@
               }
             }
           ]
-        },{
+        },
+        {
           "ocid": "ocds-213czf-000-00001",
           "id": "ocds-213czf-000-00001-03-awards",
           "date": "2009-03-15T14:45:00Z",
@@ -537,7 +540,8 @@
               "contractPeriod": {
                 "startDate": "2010-08-01T00:00:00Z"
               }
-            },{
+            },
+            {
               "id": "ocds-213czf-000-00001-award-02",
               "title": "Award of contract to build new cycle lanes in the centre of town.",
               "value": {
@@ -674,7 +678,8 @@
               }
             ]
           }
-        },{
+        },
+        {
           "ocid": "ocds-new-000-00001",
           "id": "ocds-new-000-00001-02-tender",
           "date": "2009-03-15T14:45:00Z",
@@ -908,7 +913,8 @@
               }
             ]
           }
-        },{
+        },
+        {
           "ocid": "ocds-new-000-00001",
           "id": "ocds-new-000-00001-03-awards",
           "date": "2009-03-15T14:45:00Z",
