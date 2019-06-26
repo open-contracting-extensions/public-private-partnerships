@@ -2,7 +2,7 @@
   "version": "1.1",
   "license": "http://opendatacommons.org/licenses/pddl/1.0/",
   "extensions": [
-    "http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
+    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
   ],
   "publishedDate": "2020-01-24T00:00:00Z",
   "publisher": {
@@ -11,7 +11,7 @@
     "uid": "9506232",
     "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
   },
-  "uri": "http://standard.open-contracting.org/profiles/ppp/latest/en/_static/full_record_package.json",
+  "uri": "https://standard.open-contracting.org/profiles/ppp/latest/en/_static/full_record_package.json",
   "records": [
     {
       "ocid": "ocds-213czf-example-ppp",
@@ -118,10 +118,6 @@
             "budget": {
               "id": "123456789",
               "description": "Predicted public and private sector investment over the duration of the project",
-              "amount": {
-                "amount": 600000000,
-                "currency": "USD"
-              },
               "uri": "http://finance.gov.example/budget/123456789",
               "budgetBreakdown": [
                 {
