@@ -441,8 +441,8 @@ msgid ""
 "The bid section is used to publish summary statistics, and where "
 "applicable, individual bid information."
 msgstr ""
-"La sección de ofertas se utiliza para publicar un resumen de las "
-"estadísticas  y, en su caso, información de ofertas individuales."
+"La sección de ofertas se utiliza para publicar resúmenes estadísticos y, si "
+"aplica, información de ofertas individuales."
 
 #. /properties/title/title
 #. /definitions/Award/properties/title/title
@@ -1319,8 +1319,8 @@ msgid ""
 "Key indicators that describe how the PPP option has been evaluated by "
 "government."
 msgstr ""
-"Indicadores clave que describen cómo la opción PPP ha sido evaluada por el "
-"gobierno."
+"Indicadores clave que describen cómo la opción de APP ha sido evaluada por "
+"el gobierno."
 
 #. /definitions/Contract/title
 #: schema/patched/release-schema.json:1
@@ -1518,7 +1518,7 @@ msgid ""
 "An array with details of each source of finance arranged for this "
 "contract."
 msgstr ""
-"Una matriz con los detalles de cada fuente de financiamiento acordada para "
+"Una lista con los detalles de cada fuente de financiamiento acordada para "
 "este contrato."
 
 #. /definitions/Contract/properties/agreedMetrics/description
@@ -1541,7 +1541,7 @@ msgstr ""
 #. /definitions/Risk/properties/allocation/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Risk allocation"
-msgstr "Asignación de riesgo"
+msgstr "Asignación de riesgos"
 
 #. /definitions/Contract/properties/riskAllocation/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1560,8 +1560,8 @@ msgid ""
 "The signatories to the contract. Each signatory should have an associated"
 " entry in the parties section of OCDS."
 msgstr ""
-"Los firmantes del contrato. Cada signatario debe tener una entrada asociada "
-"en la sección de partes de OCDS."
+"Los firmantes del contrato. Cada firmante debe tener una entrada asociada en "
+"la sección de partes de OCDS."
 
 #. /definitions/Contract/properties/tariffs/title
 #. /definitions/Implementation/properties/tariffs/title
@@ -1591,7 +1591,7 @@ msgstr "Resumen financiero"
 #. /definitions/FinanceSummary/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Key indicators that describe the financial model of the PPP."
-msgstr "Indicadores clave que describen el modelo financiero del PPP."
+msgstr "Indicadores clave que describen el modelo financiero de la APP."
 
 #. /definitions/Implementation/description
 #: schema/patched/release-schema.json:1
@@ -1637,9 +1637,9 @@ msgid ""
 "Information on the revenue to be raised through charges, as set out in "
 "the contract or as subsequently revised during the life of the project."
 msgstr ""
-"Información sobre los ingresos que se recaudarán a través de cobros, según "
-"lo estipulado en el contrato o revisado posteriormente durante la vida del "
-"proyecto."
+"Información sobre los ingresos que se recaudarán a través de los cargos, "
+"según lo estipulado en el contrato o revisado posteriormente durante la vida "
+"del proyecto."
 
 #. /definitions/Implementation/properties/metrics/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2493,7 +2493,7 @@ msgstr ""
 #. /definitions/Organization/properties/beneficialOwnership/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Beneficial ownership"
-msgstr "Propiedad efectiva"
+msgstr "Propiedad beneficiaria "
 
 #. /definitions/Organization/properties/beneficialOwnership/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3194,8 +3194,8 @@ msgid ""
 "included."
 msgstr ""
 "Un elemento de la lista de códigos bidStatistics para la estadística "
-"reportada en valor. Esta es una lista de códigos abierta, también pueden "
-"incluirse otras estadísticas."
+"informada en valor. Esta es una lista de códigos abierta, también se pueden "
+"incluir otras estadísticas."
 
 #. /definitions/BidsStatistic/properties/date/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3207,10 +3207,10 @@ msgid ""
 "calculated to be provided."
 msgstr ""
 "La fecha en que se actualizó por última vez esta estadística. Esta es a "
-"menudo la fecha de cierre del proceso de licitación. Este campo se puede "
-"dejar en blanco a menos que (a) se proporcione la misma estadística desde "
+"menudo la fecha de cierre del proceso de licitación. Este campo puede "
+"dejarse en blanco a menos que (a) se proporcione la misma estadística desde "
 "múltiples puntos en el tiempo, o (b) exista un requisito local específico "
-"para los datos cuando se calculó la estadística."
+"para los datos cuando se calculen estadísticas para que estén disponibles."
 
 #. /definitions/BidsStatistic/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3221,7 +3221,7 @@ msgid ""
 msgstr ""
 "El valor de la medida en cuestión. Los recuentos totales deben "
 "proporcionarse como un entero. Los porcentajes deben presentarse como una "
-"proporción de 1 (por ejemplo, 10% = 0,1)"
+"proporción de 1 (por ejemplo, 10% = 0.1)"
 
 #. /definitions/BidsStatistic/properties/notes/title
 #. /definitions/Charge/properties/notes/title
@@ -3234,8 +3234,7 @@ msgstr "Notas"
 #. /definitions/BidsStatistic/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Any notes required to understand or interpret the given statistic."
-msgstr ""
-"Cualquier nota necesaria para entender o interpretar la estadística dada."
+msgstr "Cualquier nota requerida para entender o interpretar la estadística."
 
 #. /definitions/BidsStatistic/properties/relatedLot/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3249,7 +3248,7 @@ msgid ""
 "lot, provide the lot identifier here. If left blank, the statistic will "
 "be interpreted as applying to the whole tender."
 msgstr ""
-"Donde estén en uso lotes, si esta estadística se relaciona con ofertas en un "
+"Cuando se usen lotes, si esta estadística se relaciona con ofertas en un "
 "lote determinado, proporcione el identificador de lote aquí. Si se deja en "
 "blanco, la estadística se interpretará como aplicable a toda la oferta."
 
@@ -3292,10 +3291,10 @@ msgid ""
 "which this information can be disclosed varies from jurisdiction to "
 "jurisdiction."
 msgstr ""
-"Una cadena de ofertas, que proporciona información sobre los licitantes y, "
-"en su caso, el estado de las ofertas, los valores de las ofertas y los "
+"Una lista de ofertas que proporciona información sobre los licitantes y, en "
+"su caso, el estado de las ofertas, los valores de las ofertas y los "
 "documentos relacionados. La medida en que esta información puede ser "
-"revelada varía de jurisdicción a jurisdicción."
+"revelada varía de jurisdicción en jurisdicción."
 
 #. /definitions/Bid/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3319,12 +3318,12 @@ msgstr "Un identificador local para esta oferta"
 #. /definitions/Bid/properties/date/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The date when this bid was received."
-msgstr "La fecha en que se recibió esta oferta"
+msgstr "La fecha en que se recibió esta oferta."
 
 #. /definitions/Bid/properties/status/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The status of the bid, drawn from the bidStatus codelist"
-msgstr "El estado de la oferta, tomado de la lista de códigos bidStatus"
+msgstr "El estado de la oferta, extraído de la lista de códigos bidStatus"
 
 #. /definitions/Bid/properties/tenderers/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3338,9 +3337,9 @@ msgid ""
 "name and identifier, cross-referenced to an entry in the parties array at"
 " the top level of the release."
 msgstr ""
-"La parte o partes responsables por esta oferta. Esta debe de proveer un "
-"nombre e identificador, referenciado a una entrada en la cadena en el nivel "
-"más alto de la entrega."
+"La parte o partes responsables de esta oferta. Esto debe proporcionar un "
+"nombre y un identificador, con referencias cruzadas a una entrada en la "
+"matriz de partes en el nivel superior de la entrega."
 
 #. /definitions/Bid/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3351,7 +3350,7 @@ msgstr "El valor total de la oferta."
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "All documents and attachments related to the bid and its evaluation."
 msgstr ""
-"Todos los documentos y adjuntos relacionados con la oferta y su evaluación."
+"Todos los documentos y anexos relacionados con la oferta y su evaluación."
 
 #. /definitions/Bid/properties/requirementResponses/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3359,8 +3358,8 @@ msgid ""
 "If the requirements extension is also in use, the detailed responses of "
 "this bid to the tender requirements can be specified here."
 msgstr ""
-"Si se está utilizando la extensión de requisitos, las respuestas detalladas "
-"de esta oferta a los requisitos de la licitación se pueden especificar aquí."
+"Si también se usa la extensión de requisitos, aquí se pueden especificar las "
+"respuestas detalladas de esta oferta a los requisitos de la licitación."
 
 #. /definitions/BudgetBreakdown/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3431,7 +3430,7 @@ msgstr ""
 #. /definitions/Project/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "A project or programme of work."
-msgstr ""
+msgstr "Un proyecto o programa de trabajo."
 
 #. /definitions/Project/properties/id/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3659,7 +3658,7 @@ msgstr ""
 "Este bloque puede usarse para modelar detalles de cada una de las partes que "
 "financian un contrato o proyecto. Nota: Si el financiamiento es "
 "sindicalizado y se conocen todas las partes de la sindicación, esta sección "
-"podrá ampliarse con una matriz de socios sindicados. Actualmente, no se "
+"podrá ampliarse con una lista de socios sindicados. Actualmente, no se "
 "proporciona ningún esquema para esto."
 
 #. /definitions/Finance/properties/id/description
@@ -3836,6 +3835,14 @@ msgid ""
 "rights exist. If there are step in rights, details should be provided in "
 "the description field, and in additional contract documents."
 msgstr ""
+"¿La provisión de esta financiación provee algún derecho de intervención a la "
+"parte financiadora? Los derechos de intervención son la opción del "
+"prestamista para asumir ciertas responsabilidades contractuales de una parte "
+"del proyecto a través de la gestión de su contrato en los casos en que esa "
+"parte no cumple con sus obligaciones en virtud de dicho contrato. Este es un "
+"campo true/false para indicar cuándo existen derechos de intervención. Si "
+"hay derechos de intervención. los detalles se deben proporcionar en el campo "
+"de descripción y en los documentos adicionales del contrato."
 
 #. /definitions/Finance/properties/exchangeRateGuarantee/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3875,10 +3882,10 @@ msgid ""
 " the location(s), or might provide a human readable description of the "
 "location to be covered. This description may be used in a user-interface."
 msgstr ""
-"Un nombre o descripción de esta ubicación. Esto podría incluir el nombre o "
-"nombres de la (s) ubicación (es), o podría proporcionar una descripción "
-"legible por el usuario de la ubicación a cubrir. Esta descripción se puede "
-"utilizar en una interfaz de usuario."
+"Un nombre o descripción de esta ubicación. Esto podría incluir el nombre de "
+"la(s) ubicación(es), o podría proporcionar una descripción legible por el "
+"usuario de la ubicación a cubrir. Esta descripción se puede utilizar en una "
+"interfaz de usuario."
 
 #. /definitions/Location/properties/geometry/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3897,6 +3904,14 @@ msgid ""
 "location which is not contained in a known gazetteer, polygon and multi-"
 "polygon can be used."
 msgstr ""
+"Seguimos el estándar  [GeoJSON] (http://geojson.org/) para expresar "
+"información básica de ubicación, usando los valores de longitud, latitud y "
+"(opcionalmente) elevación en [WGS84] (https://en.wikipedia.org/wiki/"
+"World_Geodetic_System) (EPSG: 4326). Una ubicación de punto se puede "
+"identificar geocodificando una dirección de entrega. Para licencias de "
+"concesión, u otros contratos que cubran una ubicación de polígono que no "
+"esté contenida en un diccionario geográfico conocido, se pueden usar "
+"polígonos y polígonos múltiples."
 
 #. /definitions/Location/properties/geometry/properties/type/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3913,6 +3928,13 @@ msgid ""
 " the coordinates field: e.g. [-122.085, 37.42]. Note the capitalization "
 "of type values, in order to maintain compatibility with GeoJSON."
 msgstr ""
+"El tipo de  [GeoJSON Geometry Objects] (http://geojson.org/geojson-spec.html"
+"#geometry-objects) que se proporciona. Para proporcionar longitud, latitud y "
+"(opcionalmente) elevación, use 'Point', e ingrese una matriz de [longitude, "
+"latitude] o [longitude, latitude, elevation] como el valor del campo de "
+"coordenadas: por ejemplo, [-122.085, 37.42]. Tenga en cuenta la "
+"capitalización de los valores de tipo, a fin de mantener la compatibilidad "
+"con GeoJSON."
 
 #. /definitions/Location/properties/geometry/properties/coordinates/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3927,6 +3949,10 @@ msgid ""
 "geometry being described. The longitude and latitude MUST be expressed in"
 " decimal degrees in the WGS84 (EPSG:4326) projection."
 msgstr ""
+"El conjunto relevante de puntos, por ejemplo,  [longitude, latitude] o ["
+"longitude, latitude, elevation], o una matriz anidada de puntos, para la "
+"geometría GeoJSON que se describe. La longitud y la latitud DEBEN expresarse "
+"en grados decimales en la proyección WGS84 (EPSG: 4326)."
 
 #. /definitions/Location/properties/gazetteer/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3982,9 +4008,9 @@ msgid ""
 "human readable document with information on the location, or a machine-"
 "readable description of the location."
 msgstr ""
-"Una URI para una descripción más detallada de la ubicación de la actividad. "
-"Esto puede ser un documento legible por humanos o una descripción legible "
-"por máquina con información sobre la ubicación."
+"Un URI para una descripción más detallada de la ubicación de la actividad. "
+"Esto puede ser un documento legible por el usuario con información sobre la "
+"ubicación o una descripción legible por computadora de la ubicación."
 
 #. /definitions/Metric/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4040,7 +4066,7 @@ msgstr "Observaciones"
 #. /definitions/Metric/properties/observations/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "An array of target or actual values for this metric."
-msgstr "Una matriz de valores objetivo o reales para esta métrica."
+msgstr "Una lista de valores objetivo o reales para esta métrica."
 
 #. /definitions/Observation/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4320,6 +4346,9 @@ msgid ""
 "qualified bidders by reviewing each bidder's qualifications against a set"
 " of criteria."
 msgstr ""
+"Datos sobre el proceso de precalificación- limitar el número de licitantes "
+"calificados al revisar las calificaciones de cada licitante en función de un "
+"conjunto de criterios."
 
 #. /definitions/PreQualification/properties/id/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4386,7 +4415,7 @@ msgid ""
 msgstr ""
 "Cualquier detalle o información adicional sobre el método de presentación. "
 "Esto puede incluir la dirección, dirección de correo o servicio en línea en "
-"la cual se debe de enviar la propuesta y cualquier requisito especial a "
+"la cual se debe de enviar la propuesta y cualquier requerimiento especial a "
 "seguir para entregar propuestas."
 
 #. /definitions/PreQualification/properties/period/title
@@ -4461,8 +4490,8 @@ msgid ""
 "The entity managing the procurement, which may be different from the "
 "buyer who is paying / using the items being procured."
 msgstr ""
-"La entidad que maneja la compra, que puede ser distinto al comprador que "
-"paga/usará los artículos que se comprarán."
+"La entidad gestionando la adquisición, que puede ser distinta del comprador "
+"que paga/usa los artículos adquiridos."
 
 #. /definitions/PreQualification/properties/documents/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4579,8 +4608,8 @@ msgid ""
 "relatesTo <> \"item\" this field should be omitted."
 msgstr ""
 "Donde relatesTo = \"item\" este campo debe de ser llenado con el id del "
-"artículo en esta sección de la licitación donde se relaciona con criterio. "
-"Se debe omitir el campo cuando  relatesTo <> \"item\"."
+"artículo en esta sección de la licitación con el que se relaciona el "
+"criterio. Se debe omitir el campo cuando  relatesTo <> \"item\"."
 
 #. /definitions/Criterion/properties/requirementGroups/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4694,7 +4723,7 @@ msgstr "Título de requisito"
 #. /definitions/Requirement/properties/title/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The title of this atomic requirement."
-msgstr "El título de esta exigencia indispensable."
+msgstr "El título de este requisito atómico."
 
 #. /definitions/Requirement/properties/description/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4704,18 +4733,18 @@ msgstr "Descripción del requisito"
 #. /definitions/Requirement/properties/description/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "A free text description for this atomic requirement."
-msgstr "Una descripción de texto libre para este requisito indispensable"
+msgstr "Una descripción de texto libre para este requisito atómico"
 
 #. /definitions/Requirement/properties/dataType/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Requirement datatype"
-msgstr "Tipo de datos de requisito"
+msgstr "Tipo de dato de Requisito"
 
 #. /definitions/Requirement/properties/dataType/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The data type in which the requirement response must be provided."
 msgstr ""
-"El tipo de datos en el que se debe proporcionar la respuesta del requisito."
+"El tipo de dato en el que se debe proporcionar la respuesta del requisito."
 
 #. /definitions/Requirement/properties/pattern/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -5172,7 +5201,7 @@ msgid ""
 "expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of "
 "the risk premium used should be provided in the riskPremiumDetails field."
 msgstr ""
-"La prima de riesgo utilizada por el gobierno al evaluar la opción PPP "
+"La prima de riesgo utilizada por el gobierno al evaluar la opción APP "
 "expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se debe "
 "proporcionar una explicación de la prima de riesgo utilizada en el campo "
 "riskPremiumDetails."
@@ -5203,7 +5232,7 @@ msgid ""
 "expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can "
 "be provided in the discountRateDetails field."
 msgstr ""
-"La tasa de descuento utilizada por el gobierno al evaluar la opción PPP "
+"La tasa de descuento utilizada por el gobierno al evaluar la opción APP "
 "expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se pueden "
 "proporcionar más detalles en el campo discountRateDetails."
 

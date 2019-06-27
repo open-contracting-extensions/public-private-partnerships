@@ -1528,7 +1528,7 @@ msgstr "needsAssessment"
 
 #: ../../docs/examples/full.json:1
 msgid "Needs Assessment"
-msgstr "Valoración de las necesidades"
+msgstr "Evaluación de Necesidad"
 
 #: ../../docs/examples/full.json:1
 msgid "The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards."

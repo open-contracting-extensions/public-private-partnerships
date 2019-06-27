@@ -522,7 +522,7 @@ msgstr ""
 #: schema/patched/codelists/bidStatistics.csv:4
 #: schema/profile/codelists/bidStatistics.csv:4
 msgid "Bidders"
-msgstr "Licitadores"
+msgstr "Licitantes"
 
 #. Description
 #: schema/patched/codelists/bidStatistics.csv:4
@@ -588,7 +588,7 @@ msgstr "Ofertas de PYMES"
 #: schema/patched/codelists/bidStatistics.csv:8
 #: schema/profile/codelists/bidStatistics.csv:8
 msgid "The number of bids received from small and medium-sized enterprises."
-msgstr "El número de ofertas recibidas de pequeñas y medianas empresas."
+msgstr "El número de ofertas recibidas de pequeñas o medianas empresas."
 
 #. Title
 #: schema/patched/codelists/bidStatistics.csv:9
@@ -638,7 +638,7 @@ msgstr ""
 #: schema/patched/codelists/bidStatistics.csv:12
 #: schema/profile/codelists/bidStatistics.csv:12
 msgid "Tenders excluded because they were abnormally low"
-msgstr "Se excluyeron las ofertas porque eran anormalmente bajas"
+msgstr "Ofertas excluídas porque eran anormalmente bajas"
 
 #. Description
 #: schema/patched/codelists/bidStatistics.csv:12
@@ -665,7 +665,7 @@ msgstr "Invitado"
 #: schema/patched/codelists/bidStatus.csv:1
 #: schema/profile/codelists/bidStatus.csv:1
 msgid "A bid has been invited from the listed tenderer(s)."
-msgstr "Se ha invitado una oferta de la lista de licitadores."
+msgstr "Se ha invitado una oferta de los licitadores listados."
 
 #. Description
 #: schema/patched/codelists/bidStatus.csv:2
@@ -677,7 +677,7 @@ msgstr "Se ha enviado una oferta pero aún no se ha evaluado."
 #: schema/patched/codelists/bidStatus.csv:3
 #: schema/profile/codelists/bidStatus.csv:3
 msgid "Valid"
-msgstr "Válido"
+msgstr "Válida"
 
 #. Description
 #: schema/patched/codelists/bidStatus.csv:3
@@ -693,7 +693,7 @@ msgstr ""
 #: schema/patched/codelists/bidStatus.csv:4
 #: schema/profile/codelists/bidStatus.csv:4
 msgid "Disqualified"
-msgstr "Descalificado"
+msgstr "Descalificada"
 
 #. Description
 #: schema/patched/codelists/bidStatus.csv:4
@@ -873,7 +873,7 @@ msgstr "La respuesta de requisito debe ser de tipo booleano"
 #: schema/patched/codelists/documentType.csv:1
 #: schema/profile/codelists/documentType.csv:1
 msgid "Needs Assessment"
-msgstr "Valoración de las necesidades"
+msgstr "Evaluación de Necesidad"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:1
@@ -988,15 +988,13 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:3
 #: schema/profile/codelists/documentType.csv:3
 msgid "Technical Specifications"
-msgstr "Especificaciones técnicas"
+msgstr "Especificaciones Técnicas"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:3
 #: schema/profile/codelists/documentType.csv:3
 msgid "Detailed technical information about goods or services to be provided."
-msgstr ""
-"Información técnica detallada sobre los bienes o servicios que se deben "
-"proporcionar."
+msgstr "Información técnica detallada sobre los bienes o servicios a proveer."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:4
@@ -1081,7 +1079,7 @@ msgstr "Un borrador o copia pro-forma del contrato."
 #: schema/patched/codelists/documentType.csv:10
 #: schema/profile/codelists/documentType.csv:10
 msgid "Schedules and milestones"
-msgstr "Cronograma e hitos"
+msgstr "Calendarios e hitos"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:10
@@ -1090,15 +1088,14 @@ msgid ""
 "Documentation setting out key milestones and schedules. Structured "
 "versions of this information may be modelled using the milestones block."
 msgstr ""
-"Documentación que establece hitos y cronogramas clave. Las versiones "
-"estructuradas de esta información pueden ser modeladas utilizando el bloque "
-"de hitos."
+"Documentación que muestra calendarios e hitos clave. Se pueden modelar "
+"versiones estructuradas de esta información usando el bloque de hitos."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:11
 #: schema/profile/codelists/documentType.csv:11
 msgid "Signed Contract"
-msgstr "Contrato firmado"
+msgstr "Contrato Firmado"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:11
@@ -1108,10 +1105,10 @@ msgid ""
 "(e.g. original PDF, Word or Open Document format files), and a separate "
 "document entry for scanned-signed pages where this is required."
 msgstr ""
-"Una copia del contrato firmado. Considere la posibilidad de proporcionar "
-"archivos legibles por máquina (por ejemplo, archivos PDF en formato "
-"original, Word o formatos abiertos) y una entrada de documento separada para "
-"las páginas con firmas digitalizadas donde sea necesario."
+"Una copia del contrato firmado. Considera proveer tanto un documento legible "
+"por computadora (p.ej. PDF original, o formato de Word u Open Document) como "
+"un documento separado para páginas firmadas digitalizadas donde sea "
+"requerido."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:12
@@ -1135,7 +1132,7 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:13
 #: schema/profile/codelists/documentType.csv:13
 msgid "Environmental Impact"
-msgstr "Impacto medioambiental"
+msgstr "Impacto Ambiental"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:13
@@ -1144,7 +1141,7 @@ msgid ""
 "Documentation of environmental impact assessments carried out before, "
 "during or after the contracting process."
 msgstr ""
-"Documentación de las evaluaciones de impacto ambiental realizadas antes, "
+"Documentación de evaluaciones de impacto ambiental llevadas a cabo antes, "
 "durante o después del proceso de contratación."
 
 #. Title
@@ -1167,7 +1164,7 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:15
 #: schema/profile/codelists/documentType.csv:15
 msgid "Tender Notice"
-msgstr "Aviso de licitación"
+msgstr "Aviso de Licitación"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:15
@@ -1177,9 +1174,9 @@ msgid ""
 " downloadable document, to a web page, or to an official gazette in which"
 " the notice is contained."
 msgstr ""
-"El aviso formal que da los detalles de una licitación. Puede tratarse de un "
-"enlace a un documento descargable, a una página web o a un boletín oficial "
-"en el que figura el aviso."
+"El aviso formal que da los detalles de una licitación. Este puede ser un "
+"enlace a un documento descargable, a un sitio web o a una gaceta oficial en "
+"la cual se contiene el aviso. "
 
 #. Title
 #: schema/patched/codelists/documentType.csv:16
@@ -1220,7 +1217,7 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:18
 #: schema/profile/codelists/documentType.csv:18
 msgid "Evaluation Criteria"
-msgstr "Criterios de evaluación"
+msgstr "Criterios de Evaluación"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:18
@@ -1246,7 +1243,7 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:20
 #: schema/profile/codelists/documentType.csv:20
 msgid "Shortlisted Firms"
-msgstr "Firmas preseleccionadas"
+msgstr "Firmas Preseleccionadas"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:20
@@ -1305,7 +1302,7 @@ msgid ""
 "evaluation criteria, including the justification for the award"
 msgstr ""
 "Documentación sobre la evaluación de las ofertas y la aplicación de los "
-"criterios de evaluación, incluyendo la justificación de la adjudicación"
+"criterios de evaluación, incluyendo la justificación para la adjudicación"
 
 #. Title
 #: schema/patched/codelists/documentType.csv:24
@@ -2755,7 +2752,7 @@ msgstr ""
 "Los acontecimientos que se producen durante la contratación y que no son "
 "capturados por los campos del OCDS básico, tales como periodos de consulta "
 "adicionales o  presentación de borradores de ofertas en un proceso de "
-"diálogo competitivoa"
+"diálogo competitivo"
 
 #. Title
 #: schema/patched/codelists/milestoneType.csv:9
@@ -3740,7 +3737,7 @@ msgstr "Asignación de Riesgo"
 #: schema/patched/codelists/riskAllocation.csv:2
 #: schema/profile/codelists/riskAllocation.csv:2
 msgid "The risk is wholly or mostly retained by the private party"
-msgstr "El riesgo es total o mayoritariamente retenido por el privado"
+msgstr "El riesgo es total o mayoritariamente retenido por la parte privada"
 
 #. Title
 #: schema/patched/codelists/riskAllocation.csv:3
