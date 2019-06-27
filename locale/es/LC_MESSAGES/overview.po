@@ -1,76 +1,63 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2017 Open Contracting Partnership
+# Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 11:55-0400\n"
+"POT-Creation-Date: 2019-06-27 16:19-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/overview.md:0
 msgid "Overview"
 msgstr "Resumen"
 
 #: ../../docs/overview.md:8
-msgid ""
-"The [World Bank PPP Disclosure "
-"Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
-"/ppp-tools#T1) sets out **what** should be disclosed as part of a Public "
-"Private Partnership process."
+msgid "The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process."
 msgstr ""
-"El [Marco de divulgación de APP del Banco "
-"Mundial](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
-"/ppp-tools#T1) establece **qué** se debe divulgar como parte de una "
-"Asociación Público Privada."
+"El [Marco de divulgación de APP del Banco Mundial](http://www.worldbank.org/"
+"en/topic/publicprivatepartnerships/brief/ppp-tools#T1) establece **qué** se "
+"debe divulgar como parte de una Asociación Público Privada."
 
 #: ../../docs/overview.md:10
-msgid ""
-"OCDS for PPPs provides a framework for **how** to publish the requested "
-"information, with clear separation of:"
+msgid "OCDS for PPPs provides a framework for **how** to publish the requested information, with clear separation of:"
 msgstr ""
-"El OCDS para APP proporciona un marco sobre **cómo** publicar la información"
-" solicitada, con clara separación de:"
+"El OCDS para APP proporciona un marco sobre **cómo** publicar la información "
+"solicitada, con clara separación de:"
 
-#: ../../docs/overview.md:12 ../../docs/overview.md:0
+#: ../../docs/overview.md:12
+#: ../../docs/overview.md:0
 msgid "Data"
 msgstr "Datos"
 
-#: ../../docs/overview.md:13 ../../docs/overview.md:0
+#: ../../docs/overview.md:13
+#: ../../docs/overview.md:0
 msgid "Documents"
 msgstr "Documentos"
 
-#: ../../docs/overview.md:14 ../../docs/overview.md:0
+#: ../../docs/overview.md:14
+#: ../../docs/overview.md:0
 msgid "Presentation"
 msgstr "Presentación"
 
 #: ../../docs/overview.md:16
-msgid ""
-"The [OCDS releases and records model](http://standard.open-"
-"contracting.org/latest/en/getting_started/releases_and_records/) is designed"
-" to support **real time** updates, with data and documents on each stage of "
-"a process published and updated on an ongoing basis."
+msgid "The [OCDS releases and records model](http://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis."
 msgstr ""
-"El [modelo de entregas y registros de OCDS](http://standard.open-"
-"contracting.org/latest/en/getting_started/releases_and_records/) está "
-"diseñado para soportar **actualizaciones en tiempo real**, con datos y "
-"documentos en cada etapa de un proceso publicado y actualizado de manera "
-"continua."
+"El [modelo de entregas y registros de OCDS](http://standard.open-contracting."
+"org/latest/en/getting_started/releases_and_records/) está diseñado para "
+"soportar **actualizaciones en tiempo real**, con datos y documentos en cada "
+"etapa de un proceso publicado y actualizado de manera continua."
 
 #: ../../docs/overview.md:27
-msgid ""
-"Many elements of the PPP framework call for **structured data**. For "
-"example:"
+msgid "Many elements of the PPP framework call for **structured data**. For example:"
 msgstr ""
 "Muchos elementos del marco de APP requieren **datos estructurados**. Por "
 "ejemplo:"
@@ -96,19 +83,14 @@ msgid "A list of shareholders, and shares held;"
 msgstr "Una lista de los accionistas y las acciones poseídas;"
 
 #: ../../docs/overview.md:35
-msgid ""
-"OCDS for PPPs provides structured data elements to represent this "
-"information, using existing OCDS building blocks, or [selected "
-"extensions](extensions/index.md)."
+msgid "OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions/index.md)."
 msgstr ""
 "El OCDS para PPP proporciona elementos de datos estructurados para "
-"representar esta información, utilizando bloques  OCDS existentes o "
-"[extensiones seleccionadas](extensions/index.md)."
+"representar esta información, utilizando bloques  OCDS existentes o ["
+"extensiones seleccionadas](extensions/index.md)."
 
 #: ../../docs/overview.md:37
-msgid ""
-"These structured data elements can be represented using JSON data, or via "
-"simple spreadsheet templates."
+msgid "These structured data elements can be represented using JSON data, or via simple spreadsheet templates."
 msgstr ""
 "Estos elementos de datos estructurados pueden representarse mediante datos "
 "JSON o mediante plantillas de hoja de cálculo simples."
@@ -128,8 +110,7 @@ msgstr "Divulgación de documentos clave;"
 
 #: ../../docs/overview.md:46
 msgid "Presentation of summary information for easy public consumption;"
-msgstr ""
-"Presentación de información resumida para facilitar el consumo público;"
+msgstr "Presentación de información resumida para facilitar el consumo público;"
 
 #: ../../docs/overview.md:48
 msgid "Use OCDS to:"
@@ -140,29 +121,21 @@ msgid "Provide summary text for each framework element;"
 msgstr "Proporcionar un texto de resumen para cada elemento del marco;"
 
 #: ../../docs/overview.md:51
-msgid ""
-"Link directly to the page in attached documents where more information can "
-"be found **or** describe where documents can be accessed;"
+msgid "Link directly to the page in attached documents where more information can be found **or** describe where documents can be accessed;"
 msgstr ""
 "Enlace directo a la página en los documentos adjuntos donde se puede "
 "encontrar más información **o** describir dónde se puede acceder a los "
 "documentos;"
 
 #: ../../docs/overview.md:53
-msgid ""
-"This way, stakeholders can more easily find the information they need to "
-"understand a project: and compliance with the framework can be more easily "
-"assessed."
+msgid "This way, stakeholders can more easily find the information they need to understand a project: and compliance with the framework can be more easily assessed."
 msgstr ""
 "De esta manera, las partes interesadas pueden encontrar fácilmente la "
-"información que necesitan para entender un proyecto y el cumplimiento con el"
-" marco puede ser evaluado más fácilmente."
+"información que necesitan para entender un proyecto y el cumplimiento con el "
+"marco puede ser evaluado más fácilmente."
 
 #: ../../docs/overview.md:1
-msgid ""
-"Make sure that documents are directly accessible at a persistent web "
-"address. Avoid placing documents behind a log-in or CAPTCHA, or moving the "
-"location of documents once they have been published."
+msgid "Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published."
 msgstr ""
 "Asegúrese de que los documentos estén directamente accesibles en una "
 "dirección web persistente. Evite colocar documentos detrás de un registro o "
@@ -182,9 +155,7 @@ msgid "Online documents;"
 msgstr "Documentos en línea;"
 
 #: ../../docs/overview.md:74
-msgid ""
-"It is possible to build custom interfaces onto PPP disclosures: tailored to "
-"different audiences."
+msgid "It is possible to build custom interfaces onto PPP disclosures: tailored to different audiences."
 msgstr ""
 "Es posible crear interfaces personalizadas en las divulgaciones de APP: "
 "adaptadas a diferentes públicos."
@@ -194,32 +165,25 @@ msgid "In particular:"
 msgstr "En particular:"
 
 #: ../../docs/overview.md:78
-msgid ""
-"OCDS Show is a prototype interface that can be used to browse all the "
-"information in OCDS for PPPs releases and records;"
+msgid "OCDS Show is a prototype interface that can be used to browse all the information in OCDS for PPPs releases and records;"
 msgstr ""
 "OCDS Show es un prototipo de interfaz que se puede utilizar para examinar "
 "toda la información en OCDS para las entregas y registros de APPs;"
 
 #: ../../docs/overview.md:79
-msgid ""
-"OCDS for PPP data can be converted into spreadsheet formats for detailed "
-"analysis;"
+msgid "OCDS for PPP data can be converted into spreadsheet formats for detailed analysis;"
 msgstr ""
-"El OCDS para datos APP puede convertirse en formatos de hoja de cálculo para"
-" un análisis detallado;"
+"El OCDS para datos APP puede convertirse en formatos de hoja de cálculo para "
+"un análisis detallado;"
 
 #: ../../docs/overview.md:80
-msgid ""
-"Any third-party can build an interface using the OCDS for PPPs standard;"
+msgid "Any third-party can build an interface using the OCDS for PPPs standard;"
 msgstr ""
 "Cualquier tercero puede construir una interfaz utilizando el estándar OCDS "
 "para APPs;"
 
 #: ../../docs/overview.md:82
-msgid ""
-"You can explore a [preview of OCDS show with example data](../_static/ocds-"
-"show/?load=../full.json)."
+msgid "You can explore a [preview of OCDS show with example data](../_static/ocds-show/?load=../full.json)."
 msgstr ""
-"Puede explorar una [vista previa de OCDS show con datos de "
-"ejemplo](../_static/ocds-show/?load=../full.json)."
+"Puede explorar una [vista previa de OCDS show con datos de ejemplo](../"
+"_static/ocds-show/?load=../full.json)."
