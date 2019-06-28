@@ -57,7 +57,7 @@ msgstr ""
 #: ../../docs/index.md:17
 msgid "For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)"
 msgstr ""
-"Para mayor información, comuníquese con [Lindsey Marchessault](lmarchessault"
+"Para mayor información, comuníquese con [Lindsey Marchessault](mailto:lmarchessault"
 "@open-contracting.org)"
 
 #: ../../docs/index.md:0
