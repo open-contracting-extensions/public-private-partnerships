@@ -1,65 +1,51 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2017 Open Contracting Partnership
+# Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 11:55-0400\n"
+"POT-Creation-Date: 2019-06-27 16:19-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/reference/codelists.md:0
 msgid "Codelists"
 msgstr "Listas de códigos"
 
 #: ../../docs/reference/codelists.md:3
-msgid ""
-"OCDS for PPPs uses a combination of codes and codelists from OCDS core, "
-"individual extensions and the PPP extension itself. The 'extension' column "
-"in the table display below indicates where each code originates from."
+msgid "OCDS for PPPs uses a combination of codes and codelists from OCDS core, individual extensions and the PPP extension itself. The 'extension' column in the table display below indicates where each code originates from."
 msgstr ""
-"El OCDS para APPs utiliza una combinación de códigos y listas de códigos del"
-" OCDS central, de las extensiones individuales y de la extensión del APP "
+"El OCDS para APPs utiliza una combinación de códigos y listas de códigos del "
+"OCDS central, de las extensiones individuales y de la extensión del APP "
 "misma. La columna 'extensión' en la tabla a continuación indica de dónde "
 "proviene cada código."
 
 #: ../../docs/reference/codelists.md:5
-msgid ""
-"OCDS for PPPs uses two types of codelist, **open** and **closed**. An "
-"**open** codelist provides **suggested** codes which can be added to by "
-"publishers, whilst a **closed** codelist provides **mandatory** codes and "
-"publishers should only use values provided in the official list. Codes are "
-"case sensitive, and are generally provided as English language camelCase."
+msgid "OCDS for PPPs uses two types of codelist, **open** and **closed**. An **open** codelist provides **suggested** codes which can be added to by publishers, whilst a **closed** codelist provides **mandatory** codes and publishers should only use values provided in the official list. Codes are case sensitive, and are generally provided as English language camelCase."
 msgstr ""
 "El OCDS para APPs utiliza dos tipos de lista de códigos, **abierta** y "
 "**cerrada**. Una lista de códigos **abierta** proporciona **códigos "
 "sugeridos** que pueden ser agregados por los publicadores, mientras que una "
 "lista de códigos **cerrada** proporciona ** códigos obligatorios y los "
 "publicadores deben usar solamente los valores proporcionados en la lista "
-"oficial. Los códigos son sensibles a mayúsculas y minúsculas, y generalmente"
-" se proporcionan en idioma inglés camelCase."
+"oficial. Los códigos son sensibles a mayúsculas y minúsculas, y generalmente "
+"se proporcionan en idioma inglés camelCase."
 
 #: ../../docs/reference/codelists.md:7
-msgid ""
-"You can read more about using codelists in the [core OCDS "
-"documentation](http://standard.open-contracting.org/latest/en/) and further "
-"details on codelists in extensions can be found in the [extension "
-"reference](../extensions/index.md)."
+msgid "You can read more about using codelists in the [core OCDS documentation](http://standard.open-contracting.org/latest/en/) and further details on codelists in extensions can be found in the [extension reference](../extensions/index.md)."
 msgstr ""
 "Puede leer más sobre el uso de las listas de códigos en la [documentación "
 "básica de OCDS](http://standard.open-contracting.org/latest/en/), se pueden "
-"encontrar más detalles sobre las listas de códigos en las extensiones en la "
-"[referencia de extensiones](../extensions/index.md)."
+"encontrar más detalles sobre las listas de códigos en las extensiones en la ["
+"referencia de extensiones](../extensions/index.md)."
 
 #: ../../docs/reference/codelists.md:0
 msgid "Closed codelists"

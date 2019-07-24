@@ -83,7 +83,7 @@
 					<tbody>
 						{% if organization.identifier %}
 							<tr>
-								<td><a href="http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ organization.identifier.scheme }}</a>{{change_label(organization.identifier, "scheme")}}</td>
+								<td><a href="https://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ organization.identifier.scheme }}</a>{{change_label(organization.identifier, "scheme")}}</td>
 								<td>{{ organization.identifier.id }} {{change_label(organization.identifier, "id")}}</td>
 								<td>
                   {% if organization.identifier.uri %}
@@ -97,7 +97,7 @@
 						{% if organization.additionalIdentifiers %}
 							{% for identifier in organization.additionalIdentifiers %}
 								<tr>
-									<td><a href="http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ identifier.scheme }}</a> {{change_label(identifier, "legalName")}} </td>
+									<td><a href="https://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ identifier.scheme }}</a> {{change_label(identifier, "legalName")}} </td>
 									<td>{{ identifier.id }} {{ change_label(identifier, "id") }}</td>
 									<td>
                     {% if identifier.uri %}

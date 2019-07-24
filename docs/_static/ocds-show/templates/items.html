@@ -27,7 +27,7 @@
 							<td>
 								{{change_label(item, "classification")}} {{ item.classification.description }} {{change_label(item.classification, "description")}}
 								<small>
-									(<a href="http://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme">{{ item.classification.scheme }}</a> -
+									(<a href="https://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme">{{ item.classification.scheme }}</a> -
                   {{change_label(item.classification, "scheme")}}
 									{% if item.classification.uri %}
 										<a href="{{ item.classification.uri }}">{{ item.classification.id }}</a>)
@@ -42,7 +42,7 @@
 									{% for classification in item.additionalClassifications %}
 										<br>{{ classification.description }}
 										<small>
-											(<a href="http://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme">{{ classification.scheme }}</a> -
+											(<a href="https://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme">{{ classification.scheme }}</a> -
 											{% if classification.uri %}
 												<a href="{{ item.classification.uri }}">{{ classification.id }}</a>)
 											{% else %}

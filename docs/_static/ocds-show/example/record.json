@@ -83,7 +83,8 @@ example_record = {
           }
         ]
       }
-    },{
+    },
+    {
       "ocid": "ocds-213czf-000-00001",
       "id": "ocds-213czf-000-00001-02-tender",
       "date": "2009-03-15T14:45:00Z",
@@ -317,7 +318,8 @@ example_record = {
           }
         ]
       }
-    },{
+    },
+    {
       "ocid": "ocds-213czf-000-00001",
       "id": "ocds-213czf-000-00001-03-awards",
       "date": "2009-03-15T14:45:00Z",

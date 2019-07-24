@@ -8,11 +8,3 @@ Please refer to their documentation in the Extension Explorer:
 .. extensionexplorerlinklist::
 
 ```
-
-```eval_rst
-.. toctree::
-   :hidden:
-   :glob: 
-
-   *
-```

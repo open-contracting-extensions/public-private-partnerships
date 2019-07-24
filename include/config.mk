@@ -46,3 +46,6 @@ update_ocds_show:
 	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
 	rm -f ocds-show-ppp-gh-pages/README.md
 	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
+	# Copy files to example directory.
+	cp docs/_static/ocds-show/example/full.json docs/examples/full.json
+	cp docs/_static/ocds-show/example/full_record_package.json docs/examples/full_record_package.json

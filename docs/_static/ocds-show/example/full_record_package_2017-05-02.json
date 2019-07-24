@@ -1,17 +1,4 @@
 {
-  "version": "1.1",
-  "license": "http://opendatacommons.org/licenses/pddl/1.0/",
-  "extensions": [
-    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
-  ],
-  "publishedDate": "2020-01-24T00:00:00Z",
-  "publisher": {
-    "name": "Open Data Services Co-operative Limited",
-    "scheme": "GB-COH",
-    "uid": "9506232",
-    "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
-  },
-  "uri": "https://standard.open-contracting.org/profiles/ppp/latest/en/_static/full_record_package.json",
   "records": [
     {
       "ocid": "ocds-213czf-example-ppp",
@@ -36,7 +23,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "12345678",
+                "id": "12345678.0",
                 "legalName": "Ministry of Communications",
                 "uri": "http://ministries.example.gov/012345678"
               },
@@ -63,7 +50,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "0",
+                "id": "0.0",
                 "legalName": "Telecoms Promoter",
                 "uri": "http://ministries.gov.example/00000000"
               },
@@ -90,7 +77,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "99999999",
+                "id": "99999999.0",
                 "legalName": "National Fibre Infrastructure",
                 "uri": "http://statecompanies.gov.example/99999999"
               },
@@ -116,7 +103,7 @@
           },
           "planning": {
             "budget": {
-              "id": "123456789",
+              "id": "123456789.0",
               "description": "Predicted public and private sector investment over the duration of the project",
               "uri": "http://finance.gov.example/budget/123456789",
               "budgetBreakdown": [
@@ -817,7 +804,7 @@
                 "description": "Annual 4G traffic measured in gigabytes",
                 "observations": [
                   {
-                    "id": "2016",
+                    "id": "2016.0",
                     "measure": "815280000.0",
                     "unit": {
                       "name": "gigabytes",
@@ -830,7 +817,7 @@
                     }
                   },
                   {
-                    "id": "2017",
+                    "id": "2017.0",
                     "measure": "903365129.5706391",
                     "unit": {
                       "name": "gigabytes",
@@ -843,7 +830,7 @@
                     }
                   },
                   {
-                    "id": "2018",
+                    "id": "2018.0",
                     "measure": "1001480826.6399665",
                     "unit": {
                       "name": "gigabytes",
@@ -856,7 +843,7 @@
                     }
                   },
                   {
-                    "id": "2019",
+                    "id": "2019.0",
                     "measure": "1110825529.4633253",
                     "unit": {
                       "name": "gigabytes",
@@ -869,7 +856,7 @@
                     }
                   },
                   {
-                    "id": "2020",
+                    "id": "2020.0",
                     "measure": "1232747361.2976859",
                     "unit": {
                       "name": "gigabytes",
@@ -882,7 +869,7 @@
                     }
                   },
                   {
-                    "id": "2021",
+                    "id": "2021.0",
                     "measure": "1368763614.680674",
                     "unit": {
                       "name": "gigabytes",
@@ -895,7 +882,7 @@
                     }
                   },
                   {
-                    "id": "2022",
+                    "id": "2022.0",
                     "measure": "1520582872.0748835",
                     "unit": {
                       "name": "gigabytes",
@@ -908,7 +895,7 @@
                     }
                   },
                   {
-                    "id": "2023",
+                    "id": "2023.0",
                     "measure": "1690130132.8503568",
                     "unit": {
                       "name": "gigabytes",
@@ -921,7 +908,7 @@
                     }
                   },
                   {
-                    "id": "2024",
+                    "id": "2024.0",
                     "measure": "1879575370.3220415",
                     "unit": {
                       "name": "gigabytes",
@@ -934,7 +921,7 @@
                     }
                   },
                   {
-                    "id": "2025",
+                    "id": "2025.0",
                     "measure": "2091366004.3704107",
                     "unit": {
                       "name": "gigabytes",
@@ -947,7 +934,7 @@
                     }
                   },
                   {
-                    "id": "2026",
+                    "id": "2026.0",
                     "measure": "2328263846.301749",
                     "unit": {
                       "name": "gigabytes",
@@ -960,7 +947,7 @@
                     }
                   },
                   {
-                    "id": "2027",
+                    "id": "2027.0",
                     "measure": "2593387154.498728",
                     "unit": {
                       "name": "gigabytes",
@@ -973,7 +960,7 @@
                     }
                   },
                   {
-                    "id": "2028",
+                    "id": "2028.0",
                     "measure": "2890258533.752807",
                     "unit": {
                       "name": "gigabytes",
@@ -986,7 +973,7 @@
                     }
                   },
                   {
-                    "id": "2029",
+                    "id": "2029.0",
                     "measure": "3222859519.9091563",
                     "unit": {
                       "name": "gigabytes",
@@ -999,7 +986,7 @@
                     }
                   },
                   {
-                    "id": "2030",
+                    "id": "2030.0",
                     "measure": "3595692816.858707",
                     "unit": {
                       "name": "gigabytes",
@@ -1012,7 +999,7 @@
                     }
                   },
                   {
-                    "id": "2031",
+                    "id": "2031.0",
                     "measure": "4013853297.6148205",
                     "unit": {
                       "name": "gigabytes",
@@ -1025,7 +1012,7 @@
                     }
                   },
                   {
-                    "id": "2032",
+                    "id": "2032.0",
                     "measure": "4483109048.276784",
                     "unit": {
                       "name": "gigabytes",
@@ -1038,7 +1025,7 @@
                     }
                   },
                   {
-                    "id": "2033",
+                    "id": "2033.0",
                     "measure": "5009993926.672642",
                     "unit": {
                       "name": "gigabytes",
@@ -1051,7 +1038,7 @@
                     }
                   },
                   {
-                    "id": "2034",
+                    "id": "2034.0",
                     "measure": "5601913330.538246",
                     "unit": {
                       "name": "gigabytes",
@@ -1064,7 +1051,7 @@
                     }
                   },
                   {
-                    "id": "2035",
+                    "id": "2035.0",
                     "measure": "6267265128.060023",
                     "unit": {
                       "name": "gigabytes",
@@ -1081,7 +1068,7 @@
             ],
             "documents": [
               {
-                "id": "1",
+                "id": "1.0",
                 "documentType": "needsAssessment",
                 "title": "Needs Assessment",
                 "description": "The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards. ",
@@ -1094,7 +1081,7 @@
             ],
             "milestones": [
               {
-                "id": "1",
+                "id": "1.0",
                 "type": "preProcurement",
                 "title": "Public consultation",
                 "description": "A public consultation will be held at the offices of the Ministry of Communications on 1st December 2015.",
@@ -1102,7 +1089,7 @@
                 "dueDate": "2015-12-01T00:00:00-06:00"
               },
               {
-                "id": "2",
+                "id": "2.0",
                 "type": "approval",
                 "title": "Strategic outline case approval",
                 "description": "Ministry of Finance approved the strategic outline business case for the project",
@@ -1112,7 +1099,7 @@
                 "dateModified": "2015-01-01T00:00:00-06:00",
                 "documents": [
                   {
-                    "id": "1"
+                    "id": "1.0"
                   }
                 ]
               }
@@ -1139,7 +1126,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "12345678",
+                "id": "12345678.0",
                 "legalName": "Ministry of Communications",
                 "uri": "http://ministries.example.gov/012345678"
               },
@@ -1166,7 +1153,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "0",
+                "id": "0.0",
                 "legalName": "Telecoms Promoter",
                 "uri": "http://ministries.gov.example/00000000"
               },
@@ -1193,7 +1180,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "99999999",
+                "id": "99999999.0",
                 "legalName": "National Fibre Infrastructure",
                 "uri": "http://statecompanies.gov.example/99999999"
               },
@@ -1880,13 +1867,13 @@
             }
           },
           "tender": {
-            "id": "123456",
+            "id": "123456.0",
             "title": "Example PPP public tender",
             "description": "Bidders are invited to submit proposals to participate in the Example PPP.",
             "status": "active",
             "procurementMethod": "open",
             "procurementMethodDetails": "The project will be awarded through an open competition, as provided for in Article X of the Law on Public Private Partnerships.",
-            "procurementMethodRationale": "An open procurement will deliver the highest competition among bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
+            "procurementMethodRationale": "An open procurement will deliver the highest competition amongst bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
             "awardCriteria": "x_bestCoverage",
             "awardCriteriaDetails": "Percentage of people aggregated nationwide contestants undertake to cover, as indicated in their Economic Bids. The evaluation of proposals will be conducted based on the provisions of Article Y of the law on public private partnerships, and the provisions of the tender rules, performing in a first stage an evaluation of the technical bids and subsequently an assessment of the financial offer of the participants.",
             "submissionMethod": [
@@ -1916,7 +1903,7 @@
             },
             "documents": [
               {
-                "id": "1",
+                "id": "1.0",
                 "documentType": "tenderNotice",
                 "title": "Example PPP tender notice",
                 "description": "Bidders are invited to participate in the public tender for the Example PPP",
@@ -2040,7 +2027,7 @@
             ],
             "milestones": [
               {
-                "id": "1",
+                "id": "1.0",
                 "type": "assessment",
                 "title": "Bid opening",
                 "description": "The bid opening event will be held at the offices of the Ministry of Communications",
@@ -2050,19 +2037,19 @@
             ],
             "criteria": [
               {
-                "id": "1",
+                "id": "1.0",
                 "relatesTo": "item",
                 "description": "Proposals must be for a minimum coverage level of 85%",
                 "source": "tenderer",
                 "title": "Minimum coverage level",
-                "relatedItem": "1",
+                "relatedItem": "1.0",
                 "requirementGroups": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "description": "Proposals must be for a minimum coverage level of 85%",
                     "requirements": [
                       {
-                        "id": "1",
+                        "id": "1.0",
                         "description": "Proposals must be for a minimum coverage level of 85%",
                         "minValue": 0.85,
                         "dataType": "number",
@@ -2073,18 +2060,18 @@
                 ]
               },
               {
-                "id": "2",
+                "id": "2.0",
                 "relatesTo": "tenderer",
                 "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
                 "source": "procuringEntity",
                 "title": "Regulatory approval",
                 "requirementGroups": [
                   {
-                    "id": "2",
+                    "id": "2.0",
                     "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
                     "requirements": [
                       {
-                        "id": "2",
+                        "id": "2.0",
                         "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
                         "dataType": "boolean",
                         "expectedValue": "True",
@@ -2097,11 +2084,11 @@
             ],
             "items": [
               {
-                "id": "1",
+                "id": "1.0",
                 "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
                 "classification": {
                   "scheme": "CPV",
-                  "id": "32412100",
+                  "id": "32412100.0",
                   "description": "Telecommunications network",
                   "uri": "http://purl.org/cpv/2008/code-32412100"
                 },
@@ -2131,13 +2118,13 @@
           "title": "Example PPP",
           "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
           "tender": {
-            "id": "123456",
+            "id": "123456.0",
             "title": "Example PPP public tender",
             "description": "Bidders are invited to submit proposals to participate in the Example PPP.",
             "status": "active",
             "procurementMethod": "open",
             "procurementMethodDetails": "The project will be awarded through an open competition, as provided for in Article X of the Law on Public Private Partnerships.",
-            "procurementMethodRationale": "An open procurement will deliver the highest competition among bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
+            "procurementMethodRationale": "An open procurement will deliver the highest competition amongst bidders. The evaluation process will eliminate bidders not meeting the technical or financial requirements for the project.",
             "awardCriteria": "x_bestCoverage",
             "awardCriteriaDetails": "Percentage of people aggregated nationwide contestants undertake to cover, as indicated in their Economic Bids. The evaluation of proposals will be conducted based on the provisions of Article Y of the law on public private partnerships, and the provisions of the tender rules, performing in a first stage an evaluation of the technical bids and subsequently an assessment of the financial offer of the participants.",
             "submissionMethod": [
@@ -2175,11 +2162,11 @@
             ],
             "items": [
               {
-                "id": "1",
+                "id": "1.0",
                 "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
                 "classification": {
                   "scheme": "CPV",
-                  "id": "32412100",
+                  "id": "32412100.0",
                   "description": "Telecommunications network",
                   "uri": "http://purl.org/cpv/2008/code-32412100"
                 },
@@ -2223,7 +2210,7 @@
               },
               "shareholders": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "shareholder": {
                     "id": "XX-XXX-11111111",
                     "name": "Alpha Holdings Ltd"
@@ -2234,7 +2221,7 @@
                   "notes": "Alpha Holdings Ltd. must maintain a minimum shareholding of 30% in the project company until 10 years from the date of commissioning have elapsed."
                 },
                 {
-                  "id": "2",
+                  "id": "2.0",
                   "shareholder": {
                     "id": "BET",
                     "name": "Beta Investment Company Ltd"
@@ -2243,7 +2230,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "3",
+                  "id": "3.0",
                   "shareholder": {
                     "id": "GAM",
                     "name": "Gamma Finance Corporation"
@@ -2252,7 +2239,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "4",
+                  "id": "4.0",
                   "shareholder": {
                     "id": "DEL",
                     "name": "Delta Investments"
@@ -2261,7 +2248,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "5",
+                  "id": "5.0",
                   "shareholder": {
                     "id": "EPS",
                     "name": "Epsilon"
@@ -2270,7 +2257,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "6",
+                  "id": "6.0",
                   "shareholder": {
                     "id": "ZET",
                     "name": "Zeta Joint Investments"
@@ -2279,7 +2266,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "7",
+                  "id": "7.0",
                   "shareholder": {
                     "id": "ETA",
                     "name": "Eta Fund"
@@ -2288,7 +2275,7 @@
                   "votingRights": "ordinary"
                 },
                 {
-                  "id": "8",
+                  "id": "8.0",
                   "shareholder": {
                     "id": "THE",
                     "name": "Theta Cable"
@@ -2297,7 +2284,7 @@
                   "votingRights": "none"
                 },
                 {
-                  "id": "9",
+                  "id": "9.0",
                   "shareholder": {
                     "id": "IOT",
                     "name": "Iota Telecoms"
@@ -2315,7 +2302,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "12345678",
+                "id": "12345678.0",
                 "legalName": "Ministry of Communications",
                 "uri": "http://ministries.example.gov/012345678"
               },
@@ -2342,7 +2329,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "0",
+                "id": "0.0",
                 "legalName": "Telecoms Promoter",
                 "uri": "http://ministries.gov.example/00000000"
               },
@@ -2369,7 +2356,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "99999999",
+                "id": "99999999.0",
                 "legalName": "National Fibre Infrastructure",
                 "uri": "http://statecompanies.gov.example/99999999"
               },
@@ -2396,7 +2383,7 @@
               ],
               "identifier": {
                 "scheme": "XX-XXX",
-                "id": "11111111",
+                "id": "11111111.0",
                 "legalName": "Alpha Holdings Ltd",
                 "uri": "http://alphaholdings.example"
               },
@@ -2422,12 +2409,12 @@
           "bids": {
             "details": [
               {
-                "id": "1",
+                "id": "1.0",
                 "date": "2016-12-09T01:00:00+01:00",
                 "status": "valid",
                 "documents": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "documentType": "evaluationReports",
                     "title": "Mega Consortium Bid Evaluation Report",
                     "description": "This document provides details of the evaluation of the bid submitted by Mega Consortium",
@@ -2446,9 +2433,9 @@
                 ],
                 "requirementResponses": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "requirement": {
-                      "id": "1",
+                      "id": "1.0",
                       "title": "Minimum Coverage"
                     },
                     "title": "Bid Coverage",
@@ -2460,22 +2447,22 @@
             ],
             "statistics": [
               {
-                "id": "1",
+                "id": "1.0",
                 "measure": "validBids",
                 "value": 1
               },
               {
-                "id": "2",
+                "id": "2.0",
                 "measure": "bidders",
                 "value": 1
               },
               {
-                "id": "3",
+                "id": "3.0",
                 "measure": "qualifiedBidders",
                 "value": 1
               },
               {
-                "id": "4",
+                "id": "4.0",
                 "measure": "disqualifiedBidders",
                 "value": 1
               }
@@ -2483,7 +2470,7 @@
           },
           "awards": [
             {
-              "id": "1",
+              "id": "1.0",
               "title": "Example PPP contract award",
               "description": "Award of Example PPP contract to Mega Consortium",
               "status": "active",
@@ -2511,11 +2498,11 @@
               },
               "items": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
                   "classification": {
                     "scheme": "CPV",
-                    "id": "32412100",
+                    "id": "32412100.0",
                     "description": "Telecommunications network",
                     "uri": "http://purl.org/cpv/2008/code-32412100"
                   },
@@ -2533,7 +2520,7 @@
               ],
               "documents": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "documentType": "minutes",
                   "title": "Contract Award Minutes",
                   "description": "Minutes of the award of the Example PPP contract to Mega Consortium",
@@ -2656,10 +2643,10 @@
               ],
               "requirementResponses": [
                 {
-                  "id": "2",
+                  "id": "2.0",
                   "value": "True",
                   "requirement": {
-                    "id": "2",
+                    "id": "2.0",
                     "title": "Regulatory approval"
                   },
                   "title": "Mega Consortium Regulatory Approval",
@@ -2693,7 +2680,7 @@
               ],
               "identifier": {
                 "scheme": "XX-XXX",
-                "id": "12345678",
+                "id": "12345678.0",
                 "legalName": "Mega Consortium Ltd",
                 "uri": "https://opencorporates.com/companies/xx/12345678"
               },
@@ -2720,7 +2707,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "12345678",
+                "id": "12345678.0",
                 "legalName": "Ministry of Communications",
                 "uri": "http://ministries.example.gov/012345678"
               },
@@ -2747,7 +2734,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "0",
+                "id": "0.0",
                 "legalName": "Telecoms Promoter",
                 "uri": "http://ministries.gov.example/00000000"
               },
@@ -2774,7 +2761,7 @@
               ],
               "identifier": {
                 "scheme": "XX-GOV",
-                "id": "99999999",
+                "id": "99999999.0",
                 "legalName": "National Fibre Infrastructure",
                 "uri": "http://statecompanies.gov.example/99999999"
               },
@@ -2801,7 +2788,7 @@
               ],
               "identifier": {
                 "scheme": "XX-FI",
-                "id": "22222222",
+                "id": "22222222.0",
                 "legalName": "Big Bank Corp",
                 "uri": "http://bigbank.example"
               },
@@ -2823,8 +2810,8 @@
           ],
           "contracts": [
             {
-              "id": "1",
-              "awardID": "1",
+              "id": "1.0",
+              "awardID": "1.0",
               "title": "Public Private Partnership Agreement",
               "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with national fibre infrastructure and the special purpose vehicle mega consortium ltd.",
               "status": "active",
@@ -2848,11 +2835,11 @@
               },
               "items": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
                   "classification": {
                     "scheme": "CPV",
-                    "id": "32412100",
+                    "id": "32412100.0",
                     "description": "Telecommunications network",
                     "uri": "http://purl.org/cpv/2008/code-32412100"
                   },
@@ -2870,7 +2857,7 @@
               ],
               "documents": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "documentType": "contractSigned",
                   "title": "Example PPP signed contract",
                   "url": "http://communications.gov.example/example_ppp/signedContract.pdf",
@@ -2880,7 +2867,7 @@
                   "language": "en"
                 },
                 {
-                  "id": "2",
+                  "id": "2.0",
                   "documentType": "minutes",
                   "title": "Minutes of the signing of the contract for Example",
                   "url": "http://communications.gov.example/example_ppp/contractMinutes.pdf",
@@ -2910,7 +2897,7 @@
               ],
               "finance": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "title": "Primary senior debt financing agreement",
                   "description": "Big Bank Corp retains the right to step in should Mega Consortium fail to comply with the repayment schedule for a period of 3 consecutive months.",
                   "financingParty": {
@@ -2936,7 +2923,7 @@
                   "repaymentFrequency": 30.4
                 },
                 {
-                  "id": "2",
+                  "id": "2.0",
                   "title": "Alpha Holdings equity investment",
                   "financingParty": {
                     "id": "XX-XXX-11111111",
@@ -2949,7 +2936,7 @@
                   }
                 },
                 {
-                  "id": "3",
+                  "id": "3.0",
                   "title": "Beta Investment Company Ltd equity investment",
                   "financingParty": {
                     "id": "BET",
@@ -2962,7 +2949,7 @@
                   }
                 },
                 {
-                  "id": "4",
+                  "id": "4.0",
                   "title": "Gamma Finance Corporation equity investment",
                   "financingParty": {
                     "id": "GAM",
@@ -2975,7 +2962,7 @@
                   }
                 },
                 {
-                  "id": "5",
+                  "id": "5.0",
                   "title": "Delta Investments equity investment",
                   "financingParty": {
                     "id": "DEL",
@@ -2988,7 +2975,7 @@
                   }
                 },
                 {
-                  "id": "6",
+                  "id": "6.0",
                   "title": "Epsilon equity investment",
                   "financingParty": {
                     "id": "EPS",
@@ -3001,7 +2988,7 @@
                   }
                 },
                 {
-                  "id": "7",
+                  "id": "7.0",
                   "title": "Zeta Joint Investments equity investment",
                   "financingParty": {
                     "id": "ZET",
@@ -3014,7 +3001,7 @@
                   }
                 },
                 {
-                  "id": "8",
+                  "id": "8.0",
                   "title": "Eta Fund equity investment",
                   "financingParty": {
                     "id": "ETA",
@@ -3027,7 +3014,7 @@
                   }
                 },
                 {
-                  "id": "9",
+                  "id": "9.0",
                   "title": "Theta Cable equity investment",
                   "financingParty": {
                     "id": "THE",
@@ -3040,7 +3027,7 @@
                   }
                 },
                 {
-                  "id": "10",
+                  "id": "10.0",
                   "title": "Iota Telecoms equity investment",
                   "financingParty": {
                     "id": "IOT",
@@ -3166,20 +3153,20 @@
               ],
               "milestones": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "type": "financial",
                   "code": "financialClose",
                   "title": "Financial close",
-                  "description": "All the project and financing agreements must be signed and all the required conditions contained in them must be met.",
+                  "description": "All the project and financing agreements must ne signed and all the required conditions contained in them must be met.",
                   "status": "scheduled",
                   "dueDate": "2017-03-08T23:59:59-06:00"
                 }
               ],
               "requirementResponses": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "requirement": {
-                    "id": "1",
+                    "id": "1.0",
                     "title": "Minimum Coverage"
                   },
                   "title": "Bid Coverage",
@@ -3189,73 +3176,73 @@
               ],
               "riskAllocation": [
                 {
-                  "id": "1",
+                  "id": "1.0",
                   "category": "all",
                   "description": "Risks arising from the Project",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "2",
+                  "id": "2.0",
                   "category": "operationPerformance",
-                  "description": "Risks arising from the maintenance, use and operation of the pair of optic fibre strands (filaments) of the Backbone Network",
+                  "description": "Risks arising from the maintenance, use and operation of the pair of optic fiber strands (filaments) of the Backbone Network",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "3",
+                  "id": "3.0",
                   "category": "environmental",
                   "description": "Environmental risks",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "4",
+                  "id": "4.0",
                   "category": "compliance",
                   "description": "Risks deriving from the compliance or lack thereof of regulatory obligations related to the development of the Project",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "5",
+                  "id": "5.0",
                   "category": "construction",
                   "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project’s development",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "6",
+                  "id": "6.0",
                   "category": "construction",
                   "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project’s development",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "7",
+                  "id": "7.0",
                   "category": "financial",
                   "description": "Financial risks including interest rate risk, exchange rate risk and bankability risk",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "8",
+                  "id": "8.0",
                   "category": "financial",
                   "description": "Risks related to the financing of the Project",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "9",
+                  "id": "9.0",
                   "category": "financial",
                   "description": "Risks due to variations or increase in the cost of the Project’s execution",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "10",
+                  "id": "10.0",
                   "category": "forceMajeure",
                   "description": "Risks due to fortuitous or force majeure events",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "11",
+                  "id": "11.0",
                   "category": "governance",
                   "description": "Risks deriving from the breach of any obligations assumed by subcontractors",
                   "allocation": "privateParty"
                 },
                 {
-                  "id": "12",
+                  "id": "12.0",
                   "category": "all",
                   "description": "Others set forth in, or arising from the execution of, this Agreement",
                   "allocation": "privateParty",
@@ -3265,7 +3252,7 @@
               "implementation": {
                 "tariffs": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "title": "Wholesale 4G price per gigabyte",
                     "value": {
                       "amount": 1.25,
@@ -3282,7 +3269,7 @@
                     }
                   },
                   {
-                    "id": "2",
+                    "id": "2.0",
                     "title": "Wholesale 3G price per gigabyte",
                     "value": {
                       "amount": 0.75,
@@ -3299,7 +3286,7 @@
                     }
                   },
                   {
-                    "id": "3",
+                    "id": "3.0",
                     "title": "Wholesale call price per minute",
                     "value": {
                       "amount": 0.001,
@@ -3316,8 +3303,8 @@
                     }
                   },
                   {
-                    "id": "4",
-                    "title": "Wholesale SMS price per message",
+                    "id": "4.0",
+                    "title": "Wholesale sms price per message",
                     "value": {
                       "amount": 0.0005,
                       "currency": "USD"
@@ -3336,7 +3323,7 @@
                 "charges": [
                   {
                     "id": "2016-user",
-                    "title": "User charges for calendar year 2016 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2016 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1019100000,
                       "currency": "USD"
@@ -3349,7 +3336,7 @@
                   },
                   {
                     "id": "2017-user",
-                    "title": "User charges for calendar year 2017 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2017 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1129206411.9632988,
                       "currency": "USD"
@@ -3362,7 +3349,7 @@
                   },
                   {
                     "id": "2018-user",
-                    "title": "User charges for calendar year 2018 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2018 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1251851033.2999582,
                       "currency": "USD"
@@ -3375,7 +3362,7 @@
                   },
                   {
                     "id": "2019-user",
-                    "title": "User charges for calendar year 2019 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2019 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1388531911.8291566,
                       "currency": "USD"
@@ -3388,7 +3375,7 @@
                   },
                   {
                     "id": "2020-user",
-                    "title": "User charges for calendar year 2020 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2020 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1540934201.6221073,
                       "currency": "USD"
@@ -3401,7 +3388,7 @@
                   },
                   {
                     "id": "2021-user",
-                    "title": "User charges for calendar year 2021 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2021 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1710954518.3508425,
                       "currency": "USD"
@@ -3414,7 +3401,7 @@
                   },
                   {
                     "id": "2022-user",
-                    "title": "User charges for calendar year 2022 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2022 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 1900728590.0936043,
                       "currency": "USD"
@@ -3427,7 +3414,7 @@
                   },
                   {
                     "id": "2023-user",
-                    "title": "User charges for calendar year 2023 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2023 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 2112662666.062946,
                       "currency": "USD"
@@ -3440,7 +3427,7 @@
                   },
                   {
                     "id": "2024-user",
-                    "title": "User charges for calendar year 2024 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2024 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 2349469212.9025517,
                       "currency": "USD"
@@ -3453,7 +3440,7 @@
                   },
                   {
                     "id": "2025-user",
-                    "title": "User charges for calendar year 2025 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2025 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 2614207505.463013,
                       "currency": "USD"
@@ -3466,7 +3453,7 @@
                   },
                   {
                     "id": "2026-user",
-                    "title": "User charges for calendar year 2026 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2026 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 2910329807.877187,
                       "currency": "USD"
@@ -3479,7 +3466,7 @@
                   },
                   {
                     "id": "2027-user",
-                    "title": "User charges for calendar year 2027 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2027 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 3241733943.1234097,
                       "currency": "USD"
@@ -3492,7 +3479,7 @@
                   },
                   {
                     "id": "2028-user",
-                    "title": "User charges for calendar year 2028 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2028 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 3612823167.191009,
                       "currency": "USD"
@@ -3505,7 +3492,7 @@
                   },
                   {
                     "id": "2029-user",
-                    "title": "User charges for calendar year 2029 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2029 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 4028574399.8864455,
                       "currency": "USD"
@@ -3518,7 +3505,7 @@
                   },
                   {
                     "id": "2030-user",
-                    "title": "User charges for calendar year 2030 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2030 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 4494616021.073383,
                       "currency": "USD"
@@ -3531,7 +3518,7 @@
                   },
                   {
                     "id": "2031-user",
-                    "title": "User charges for calendar year 2031 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2031 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 5017316622.018526,
                       "currency": "USD"
@@ -3544,7 +3531,7 @@
                   },
                   {
                     "id": "2032-user",
-                    "title": "User charges for calendar year 2032 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2032 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 5603886310.34598,
                       "currency": "USD"
@@ -3557,7 +3544,7 @@
                   },
                   {
                     "id": "2033-user",
-                    "title": "User charges for calendar year 2033 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2033 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 6262492408.340802,
                       "currency": "USD"
@@ -3570,7 +3557,7 @@
                   },
                   {
                     "id": "2034-user",
-                    "title": "User charges for calendar year 2034 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2034 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 7002391663.172808,
                       "currency": "USD"
@@ -3583,7 +3570,7 @@
                   },
                   {
                     "id": "2035-user",
-                    "title": "User charges for calendar year 2035 resulting from 4G, 3G, voice and SMS tariffs",
+                    "title": "User charges for calendar year 2035 resulting from 4G, 3G, voice and sms tariffs",
                     "estimatedValue": {
                       "amount": 7834081410.075029,
                       "currency": "USD"
@@ -3597,7 +3584,7 @@
                 ],
                 "milestones": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "type": "delivery",
                     "title": "Initial coverage milestone",
                     "description": "Achieve 30% national coverage",
@@ -3605,7 +3592,7 @@
                     "dueDate": "2018-03-31T23:59:59-06:00"
                   },
                   {
-                    "id": "2",
+                    "id": "2.0",
                     "type": "delivery",
                     "title": "3rd anniversary coverage milestone ",
                     "description": "Achieve 50% national coverage",
@@ -3613,7 +3600,7 @@
                     "dueDate": "2020-01-24T23:59:59-06:00"
                   },
                   {
-                    "id": "3",
+                    "id": "3.0",
                     "type": "delivery",
                     "title": "4th anniversary coverage milestone",
                     "description": "Achieve 70% national coverage",
@@ -3621,7 +3608,7 @@
                     "dueDate": "2021-01-24T23:59:59-06:00"
                   },
                   {
-                    "id": "4",
+                    "id": "4.0",
                     "type": "delivery",
                     "title": "5th anniversary coverage milestone ",
                     "description": "Achieve 85% national coverage",
@@ -3629,7 +3616,7 @@
                     "dueDate": "2022-01-24T23:59:59-06:00"
                   },
                   {
-                    "id": "5",
+                    "id": "5.0",
                     "type": "delivery",
                     "title": "6th anniversary coverage milestone ",
                     "description": "Achieve 88.6% national coverage",
@@ -3637,7 +3624,7 @@
                     "dueDate": "2023-01-24T23:59:59-06:00"
                   },
                   {
-                    "id": "6",
+                    "id": "6.0",
                     "type": "delivery",
                     "title": "7th anniversary coverage milestone ",
                     "description": "Achieve 92.2% national coverage",
@@ -3645,7 +3632,7 @@
                     "dueDate": "2024-01-24T23:59:59-06:00"
                   },
                   {
-                    "id": "7",
+                    "id": "7.0",
                     "type": "delivery",
                     "title": "Fibre Network Access",
                     "description": "The private party will be granted access to the national fibre network upon payment of the first monthly payment of $100,000 USD to National Fibre Infrastructure.",
@@ -3670,8 +3657,8 @@
           "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
           "contracts": [
             {
-              "id": "1",
-              "awardID": "1",
+              "id": "1.0",
+              "awardID": "1.0",
               "implementation": {
                 "transactions": [
                   {
@@ -3692,7 +3679,7 @@
                     },
                     "uri": "http://finance.example.gov/spending/a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
                     "relatedImplementationMilestone": {
-                      "id": "7",
+                      "id": "7.0",
                       "title": "Fibre Network Access"
                     }
                   },
@@ -3879,7 +3866,7 @@
                 ],
                 "milestones": [
                   {
-                    "id": "7",
+                    "id": "7.0",
                     "type": "delivery",
                     "title": "Fibre Network Access",
                     "description": "The private party will be granted access to the national fibre network upon payment of the first monthly payment of $100,000 USD to National Fibre Infrastructure.",
@@ -3890,9 +3877,9 @@
                 ],
                 "documents": [
                   {
-                    "id": "1",
-                    "documentType": "physicalProgressReport",
-                    "title": "Roll-out progress update - January 2018",
+                    "id": "1.0",
+                    "documentType": "physicalProcessReport",
+                    "title": "Rollout progress update - January 2018",
                     "description": "Report detailing progress to date on physical implementation of network infrastructure",
                     "url": "http://exampleppp.example/2018-01-progressUpdate.pdf",
                     "datePublished": "2018-01-01T00:00:00-06:00",
@@ -3918,12 +3905,12 @@
           "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
           "contracts": [
             {
-              "id": "1",
-              "awardID": "1",
+              "id": "1.0",
+              "awardID": "1.0",
               "implementation": {
                 "milestones": [
                   {
-                    "id": "1",
+                    "id": "1.0",
                     "type": "delivery",
                     "title": "Initial coverage milestone",
                     "description": "Achieve 30% national coverage",
@@ -3933,7 +3920,7 @@
                     "dateModified": "2019-01-24T00:00:00-06:00"
                   },
                   {
-                    "id": "2",
+                    "id": "2.0",
                     "type": "delivery",
                     "title": "3rd anniversary coverage milestone ",
                     "description": "Achieve 50% national coverage",
@@ -3942,7 +3929,7 @@
                     "dateModified": "2019-01-24T00:00:00-06:00"
                   },
                   {
-                    "id": "3",
+                    "id": "3.0",
                     "type": "delivery",
                     "title": "4th anniversary coverage milestone",
                     "description": "Achieve 70% national coverage",
@@ -3951,7 +3938,7 @@
                     "dateModified": "2019-01-24T00:00:00-06:00"
                   },
                   {
-                    "id": "4",
+                    "id": "4.0",
                     "type": "delivery",
                     "title": "5th anniversary coverage milestone ",
                     "description": "Achieve 85% national coverage",
@@ -3960,7 +3947,7 @@
                     "dateModified": "2019-01-24T00:00:00-06:00"
                   },
                   {
-                    "id": "5",
+                    "id": "5.0",
                     "type": "delivery",
                     "title": "6th anniversary coverage milestone ",
                     "description": "Achieve 88.6% national coverage",
@@ -4173,7 +4160,126 @@
                     ]
                   }
                 ]
-              }
+              },
+              "agreedMetrics": [
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "observations": [
+                    {
+                      "unit": {
+                        "name": "percent"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

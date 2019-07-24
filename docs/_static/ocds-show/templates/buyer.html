@@ -102,14 +102,14 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td><a href="http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ buyer.identifier.scheme }}</a></td>
+											<td><a href="https://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ buyer.identifier.scheme }}</a></td>
 											<td>{{ buyer.identifier.id }}</td>
 											<td><a href="{{ buyer.identifier.uri }}" target="_blank">{{ buyer.identifier.legalName }}</a></td>
 										</tr>
 										{% if buyer.additionalIdentifiers %}
 											{% for identifier in buyer.additionalIdentifiers %}
 												<tr>
-													<td><a href="http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ identifier.scheme }}</a></td>
+													<td><a href="https://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme" target="_blank">{{ identifier.scheme }}</a></td>
 													<td>{{ identifier.id }}</td>
 													<td><a href="{{ identifier.uri }}" target="_blank">{{ identifier.legalName }}</a></td>
 												</tr>
