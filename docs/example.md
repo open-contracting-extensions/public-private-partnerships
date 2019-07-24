@@ -1,8 +1,8 @@
 # Worked Example
 
-OCDS for PPPs can be used to build up a clear record of all the stages of a Public Private Partnership project over time. 
+OCDS for PPPs can be used to build up a clear record of all the stages of a Public Private Partnership project over time.
 
-Fully implemented, it will bring together, in a structured form, key documents and data. 
+Fully implemented, it will bring together, in a structured form, key documents and data.
 
 This allows different stakeholders to understand how a project has developed.
 
@@ -19,11 +19,11 @@ We used the [spreadsheet template](spreadsheet.md) to prepare a series of releas
 
 This was exported as an Excel file, and converted into JSON using the [OCDS Convert, Validate and Explore tool](http://standard.open-contracting.org/validator/)
 
-The release were then compiled into a record, and are available to browse using the [open source OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) which provides:
+The release were then compiled into a record, and are available to browse using the [open source OCDS Show framework](https://github.com/open-contracting/ocds-show/) which provides:
 
 * A templating engine for displaying OCDS releases and records;
 * Alerts to changed fields between different releases;
-* Example visualization of data; 
+* Example visualization of data;
 
 ## Explore the example
 
@@ -41,7 +41,6 @@ In the record within OCDS show:
 
 Use the 'text input' button to see (and adapt) the JSON data which generates this view.
 
-Use a web browser add-on for a more user friendly preview of the JSON files. You can install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), [JSONView for Firefox](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9) 
+Use a web browser add-on for a more user friendly preview of the JSON files. You can install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), [JSONView for Firefox](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)
 
-Using the open source [OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) alternative presentations of data can be prepared.
-
+Using the open source [OCDS Show framework](https://github.com/open-contracting/ocds-show/) alternative presentations of data can be prepared.
