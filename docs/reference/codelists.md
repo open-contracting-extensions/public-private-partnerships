@@ -57,6 +57,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/bidStatus.csv
 ```
 
+For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
+
 #### dataType
 
 ```eval_rst
@@ -64,6 +66,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/dataType.csv
 ```
+
+For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
 
 #### financeCategory
 
@@ -73,6 +77,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/financeCategory.csv
 ```
 
+For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
 #### initiationType
 
 ```eval_rst
@@ -80,6 +86,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/initiationType.csv
 ```
+
+For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
 
 #### preQualificationStatus
 
@@ -89,6 +97,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/preQualificationStatus.csv
 ```
 
+For additional guidance on using this codelist, refer to the [Qualification extension documentation](https://extensions.open-contracting.org/en/extensions/qualification/master/).
+
 #### relatesTo
 
 ```eval_rst
@@ -96,6 +106,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/relatesTo.csv
 ```
+
+For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
 
 #### releaseTag
 
@@ -105,6 +117,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/releaseTag.csv
 ```
 
+For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+
 #### responseSource
 
 ```eval_rst
@@ -112,6 +126,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/responseSource.csv
 ```
+
+For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
 
 #### riskAllocation
 
@@ -121,6 +137,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/riskAllocation.csv
 ```
 
+For additional guidance on using this codelist, refer to the [Risk allocation extension documentation](https://extensions.open-contracting.org/en/extensions/risk_allocation/master/).
+
 #### votingRights
 
 ```eval_rst
@@ -128,6 +146,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/votingRights.csv
 ```
+
+For additional guidance on using this codelist, refer to the [Shareholders extension documentation](https://extensions.open-contracting.org/en/extensions/shareholders/master/).
 
 ### Open codelists
 
@@ -139,6 +159,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/bidStatistics.csv
 ```
 
+For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
+
 #### documentType
 
 ```eval_rst
@@ -146,6 +168,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/documentType.csv
 ```
+
+For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
 
 #### milestoneCode
 
@@ -155,6 +179,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/milestoneCode.csv
 ```
 
+For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+
 #### milestoneType
 
 ```eval_rst
@@ -162,6 +188,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/milestoneType.csv
 ```
+
+For additional guidance on using this codelist, refer to the [OCDS milestone type codelist documentation](http://standard.open-contracting.org/latest/en/schema/codelists/#milestone-type).
 
 #### partyRole
 
@@ -171,6 +199,8 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :file: ../_static/patched/codelists/partyRole.csv
 ```
 
+For additional guidance on using this codelist, refer to the [OCDS party role codelist documentation](http://standard.open-contracting.org/latest/en/schema/codelists/#party-role).
+
 #### riskCategory
 
 ```eval_rst
@@ -178,3 +208,5 @@ OCDS for PPPs also modifies some codelists from OCDS core and uses codelists fro
    :header-rows: 1
    :file: ../_static/patched/codelists/riskCategory.csv
 ```
+
+For additional guidance on using this codelist, refer to the [Risk allocation extension documentation](https://extensions.open-contracting.org/en/extensions/risk_allocation/master/).
