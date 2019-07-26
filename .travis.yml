@@ -1,3 +1,5 @@
+# Update this file from a profile with:
+# curl -O https://raw.githubusercontent.com/open-contracting/standard_profile_template/master/.travis.yml
 sudo: false
 language: python
 cache: pip
@@ -7,6 +9,7 @@ addons:
   apt:
     packages:
     - lftp
+  chrome: stable
 deploy:
   skip_cleanup: true
   provider: script
@@ -14,10 +17,15 @@ deploy:
   on:
     all_branches: true
 env:
-  - BASEDIR="https://raw.githubusercontent.com/open-contracting/standard-maintenance-scripts/master" OCDS_TEST_VERSION=1.1.3
+  - BASEDIR="https://raw.githubusercontent.com/open-contracting/standard-maintenance-scripts/master"
 install:
   - curl -s -S --retry 3 $BASEDIR/tests/install.sh | bash -
+  - curl -O https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip -d chromedriver
+  - export PATH=$PATH:`pwd`/chromedriver
   - pip install -r requirements.txt
 script:
   - curl -s -S --retry 3 $BASEDIR/tests/script.sh | bash -
+  - if [ $TRAVIS_REPO_SLUG = 'open-contracting/standard_profile_template' ]; then python schema/build-profile.py; make extract; fi
   - make
+  - py.test -rs --tb=line

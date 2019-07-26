@@ -1215,7 +1215,10 @@
               {
                 "id": "cillum qui nisianim dolor aliqua aute",
                 "notes": "proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla proident nulla ",
-                "dimensions": {"dim1": "value1", "dim2": "value1"},
+                "dimensions": {
+                  "dim1": "value1",
+                  "dim2": "value1"
+                },
                 "value": {
                   "currency": "in do deserunt labore",
                   "amount": 32124595
@@ -1522,10 +1525,6 @@
           "id": "consequat eudoloreest conse",
           "description_x-sYeIoB-1KmDc-OY0TK618": "exe",
           "source_x-TyBTWM-5azKU4-MA9V-Lpl-j2j-KNDEIi": "ut et do cupidatat",
-          "amount": {
-            "amount": 67441896,
-            "currency": "adipisicing culpa"
-          },
           "description": "ut eu",
           "budgetBreakdown": [
             {
@@ -2413,7 +2412,7 @@
             "shareholders": [
               {
                 "id": "in laborum tempor id pariatur",
-                "shareholding": 0.60,
+                "shareholding": 0.6,
                 "shareholder": {
                   "id": "sint quis reprehenderit",
                   "name": "non"
@@ -2422,7 +2421,7 @@
                 "votingRightsDetails": "sed dolor"
               },
               {
-                "shareholding": 0.40,
+                "shareholding": 0.4,
                 "shareholder": {
                   "id": "sed et voluptate laboris",
                   "name": "dolor velit do ipsum"
@@ -2726,7 +2725,7 @@
                 "id": "temporcillum fugiat dolor esse",
                 "name": "ex"
               },
-              "shareholding": 0.50,
+              "shareholding": 0.5,
               "votingRights": "restricted",
               "votingRightsDetails": "nulla enim dolor commodo",
               "id": "minimullamcoqui ea Ut proident sed"
@@ -2919,7 +2918,10 @@
                     },
                     "id": "laboresint aute excillum",
                     "notes": "laborum pariatur mollit labore",
-                    "dimensions": {"dim1": "value1", "dim2": "value1"},
+                    "dimensions": {
+                      "dim1": "value1",
+                      "dim2": "value1"
+                    },
                     "period": {
                       "startDate": "3016-09-12T18:37:36.859Z",
                       "endDate": "3327-08-05T20:23:28.348Z"
@@ -4362,7 +4364,6 @@
               "shareholding": 0.38,
               "votingRights": "additional"
             }
-
           ],
           "additionalIdentifiers": [
             {
@@ -4712,7 +4713,7 @@
         "id": "ex eliteiusmod in amet in aute",
         "eligibilityCriteria_x-yhW0lF-6H9": "veniam",
         "submissionMethodDetails": "qui id sunt labore veniam",
-        "procurementMethod": "open", 
+        "procurementMethod": "open",
         "procuringEntity": {
           "id": "org4",
           "name": "nulla elit enim"
