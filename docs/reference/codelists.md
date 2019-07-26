@@ -1,8 +1,22 @@
 # Codelists
 
-OCDS for PPPs uses two types of codelist, **open** and **closed**. An **open** codelist provides **suggested** codes which can be added to by publishers, whilst a **closed** codelist provides **mandatory** codes and publishers should only use values provided in the official list. Codes are case sensitive, and are generally provided as English language camelCase.
+Some schema fields refer to codelists, to limit and standardize the possible values of the fields, in order to promote data interoperability.
 
-You can read more about using codelists in the [core OCDS documentation](http://standard.open-contracting.org/latest/en/) and further details on codelists in extensions can be found in the [extension reference](../extensions/index.md).
+Codelists can either be open or closed. **Closed codelists** are intended to be comprehensive; for example, the [currency](http://standard.open-contracting.org/latest/en/schema/codelists/#currency) codelist covers all currencies in the world. **Open codelists** are intended to be representative, but not comprehensive.
+
+Publishers must use the codes in the codelists, unless no code is appropriate. If no code is appropriate and the codelist is **open**, then a publisher may use a new code outside those in the codelist. If no code is appropriate and the codelist is **closed**, then a publisher should instead create an issue in the [OCDS for PPPs GitHub repository](https://github.com/open-contracting-extensions/public-private-partnerships/issues).
+
+```eval_rst
+.. admonition:: Extending open codelists
+    :class: Tip
+
+    .. markdown::
+
+      If you use new codes outside those in an open codelist, please create an issue in the [OCDS for PPPs GitHub repository](https://github.com/open-contracting-extensions/public-private-partnerships/issues), so that the codes can be considered for inclusion in the codelist.
+
+```
+
+For more information on open and closed codelists, refer to the Open Contracting Data Standard [codelists documentation](http://standard.open-contracting.org/latest/en/schema/codelists/).
 
 ## OCDS codelists
 
