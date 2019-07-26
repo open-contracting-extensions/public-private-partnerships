@@ -39,13 +39,13 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 * [Item classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme)
 * [Organization identifier scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme)
 * [Related process](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
-* [Related process scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
+* [Related process scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process-scheme)
 * [Submission method](http://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)
 * [Unit classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#unit-classification-scheme)
 
 ## OCDS for PPPs codelists
 
-OCDS for PPPs also modifies some codelists from OCDS core and uses codelists from individual extensions and the PPP extension itself. The 'extension' column in the table display below indicates where each code originates from.
+OCDS for PPPs also modifies some codelists from OCDS core and uses codelists from individual extensions, including the OCDS for PPPs extension. The 'extension' column in the table display below indicates where each code originates from.
 
 ### Closed codelists
 
