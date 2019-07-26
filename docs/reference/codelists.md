@@ -23,8 +23,11 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 * [Award criteria](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)
 * [Extended procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#extended-procurement-category)
 * [Item classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme)
+* [Organization identifier scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme)
+* [Related process](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
 * [Related process scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
 * [Submission method](http://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)
+* [Unit classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#unit-classification-scheme)
 
 ## OCDS for PPPs codelists
 
