@@ -186,6 +186,22 @@ You can read more about using codelists in the [core OCDS documentation](http://
    :file: ../_static/patched/codelists/itemClassificationScheme.csv
 ```
 
+### milestoneCode
+
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/patched/codelists/milestoneCode.csv
+```
+
+### milestoneType
+
+```eval_rst
+.. csv-table-no-translate::
+   :header-rows: 1
+   :file: ../_static/patched/codelists/milestoneType.csv
+```
+
 ### partyRole
 
 ```eval_rst
@@ -217,4 +233,3 @@ You can read more about using codelists in the [core OCDS documentation](http://
    :header-rows: 1
    :file: ../_static/patched/codelists/submissionMethod.csv
 ```
-
