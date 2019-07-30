@@ -19,7 +19,7 @@ We used the [spreadsheet template](spreadsheet.md) to prepare a series of releas
 
 This was exported as an Excel file, and converted into JSON using the [OCDS Convert, Validate and Explore tool](http://standard.open-contracting.org/validator/)
 
-The releases were then compiled into a record, and are available to browse using [OCDS Show](https://github.com/open-contracting/ocds-show/), an open source tool which provides:
+The releases were then compiled into a record, and are available to browse using [OCDS Show](https://github.com/open-contracting/ocds-show-ppp), an open source tool which provides:
 
 * A templating engine for displaying OCDS releases and records;
 * Alerts to changed fields between different releases;
@@ -43,4 +43,4 @@ Use the 'text input' button to see (and adapt) the JSON data which generates thi
 
 Use a web browser add-on for a more user friendly preview of the JSON files. You can install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), [JSONView for Firefox](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)
 
-Alternative presentations of data can be prepared using the open source [OCDS Show](https://github.com/open-contracting/ocds-show/) tool.
+Alternative presentations of data can be prepared using the open source [OCDS Show](https://github.com/open-contracting/ocds-show-ppp) tool.
