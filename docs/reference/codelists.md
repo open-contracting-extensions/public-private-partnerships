@@ -20,7 +20,7 @@ For more information on open and closed codelists, refer to the Open Contracting
 
 ## OCDS codelists
 
-OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, without modification. Refer to the core OCDS documentation for details of these codelists:
+OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, without modification. Refer to the OCDS documentation for details of these codelists:
 
 ### Closed codelists
 
@@ -32,7 +32,7 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 * [Procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#procurement-category)
 * [Tender status](http://standard.open-contracting.org/latest/en/schema/codelists/#tender-status)
 
-### Open Codelists
+### Open codelists
 
 * [Award criteria](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)
 * [Extended procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#extended-procurement-category)
@@ -45,7 +45,7 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 
 ## OCDS for PPPs codelists
 
-OCDS for PPPs also modifies some codelists from OCDS core and uses codelists from individual extensions, including the OCDS for PPPs extension. The 'extension' column in the table display below indicates where each code originates from.
+OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extensions, without modification. The 'Extension' column in the tables below indicates where each code originates from.
 
 ### Closed codelists
 
