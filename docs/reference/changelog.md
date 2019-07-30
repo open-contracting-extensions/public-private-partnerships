@@ -19,11 +19,11 @@
   * Add codelists which were present in the profile but missing from the documentation.
   * Add links to additional codelist documentation in the OCDS documentation and the Extension Explorer.
 * [#209](https://github.com/open-contracting-extensions/public-private-partnerships/pull/209) A schema browser has been added.
-* The build process for the documentation has been improved ([#182](https://github.com/open-contracting-extensions/public-private-partnerships/pull/182), [#183](https://github.com/open-contracting-extensions/public-private-partnerships/pull/183), [#183](https://github.com/open-contracting-extensions/public-private-partnerships/pull/184), [#185](https://github.com/open-contracting-extensions/public-private-partnerships/pull/185), [#190](https://github.com/open-contracting-extensions/public-private-partnerships/pull/190)).
+* The build process for the documentation has been improved ([#182](https://github.com/open-contracting-extensions/public-private-partnerships/pull/182), [#183](https://github.com/open-contracting-extensions/public-private-partnerships/pull/183), [#184](https://github.com/open-contracting-extensions/public-private-partnerships/pull/184), [#185](https://github.com/open-contracting-extensions/public-private-partnerships/pull/185), [#190](https://github.com/open-contracting-extensions/public-private-partnerships/pull/190)).
 
 ### Fixes
 
-* [#204](https://github.com/open-contracting-extensions/public-private-partnerships/pull/204), [#202](https://github.com/open-contracting-extensions/public-private-partnerships/pull/202/files) The worked example JSON files have been updated:
+* [#202](https://github.com/open-contracting-extensions/public-private-partnerships/pull/202), [#204](https://github.com/open-contracting-extensions/public-private-partnerships/pull/204) The worked example JSON files have been updated:
   * Remove the `planning.budget.amount` field which is not referenced in the framework reference.
   * Remove trailing '.0' from strings comprised entirely of numeric characters.
   * Fix unresolvable organization references for shareholders.
