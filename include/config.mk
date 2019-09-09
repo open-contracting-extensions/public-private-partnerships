@@ -35,17 +35,8 @@ compile:
 
 # Put local targets below.
 
-# Update OCDS Show for PPPs.
-.PHONY: update_ocds_show
-update_ocds_show:
-	curl -Ss -O https://codeload.github.com/open-contracting/ocds-show-ppp/zip/gh-pages
-	unzip -q gh-pages
-	rm -f gh-pages
-	rm -rf docs/_static/ocds-show
-	# Delete these files, which will otherwise be caught by `sphinx-build -b gettext`.
-	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
-	rm -f ocds-show-ppp-gh-pages/README.md
-	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
-	# Copy files to example directory.
-	cp docs/_static/ocds-show/example/full.json docs/examples/full.json
-	cp docs/_static/ocds-show/example/full_record_package.json docs/examples/full_record_package.json
+# Update example files.
+.PHONY: update_examples
+update_examples:
+	curl -Ss -o docs/examples/full.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full.json
+	curl -Ss -o docs/examples/full_record_package.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full_record_package.json
