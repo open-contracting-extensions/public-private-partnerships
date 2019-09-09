@@ -56,11 +56,11 @@ msgstr ""
 "proceso de contratación."
 
 #: ../../docs/example.md:20
-msgid "This was exported as an Excel file, and converted into JSON using the [OCDS Convert, Validate and Explore tool](http://standard.open-contracting.org/validator/)"
+msgid "This was exported as an Excel file, and converted into JSON using the [OCDS Data Review Tool](https://standard.open-contracting.org/review/)"
 msgstr ""
 "Esto se exportó como un archivo de Excel y se convirtió en JSON utilizando "
-"la herramienta [OCDS Convert, Validate and Explore](http://standard.open-"
-"contracting.org/validator/)"
+"la [Herramienta de revisión de datos](https://standard.open-"
+"contracting.org/review/)"
 
 #: ../../docs/example.md:22
 msgid "The release were then compiled into a record, and are available to browse using the [open source OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) which provides:"
