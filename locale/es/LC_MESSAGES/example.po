@@ -63,11 +63,10 @@ msgstr ""
 "contracting.org/validator/)"
 
 #: ../../docs/example.md:22
-msgid "The release were then compiled into a record, and are available to browse using the [open source OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) which provides:"
+msgid "The release were then compiled into a record, and are available to browse using the [open source OCDS Show framework](https://github.com/open-contracting/ocds-show-ppp) which provides:"
 msgstr ""
 "Después la entrega fue compilada en un registro, y está disponible para "
-"revisarse usando el [marco OCDS Show](https://github.com/open-contracting/"
-"ocds-show/tree/ppp) que proporciona:"
+"revisarse usando el [marco OCDS Show](https://github.com/open-contracting/ocds-show-ppp) que proporciona:"
 
 #: ../../docs/example.md:24
 msgid "A templating engine for displaying OCDS releases and records;"
@@ -96,10 +95,10 @@ msgstr ""
 "full_record_package.json)."
 
 #: ../../docs/example.md:34
-msgid "View the [data in OCDS show here](../_static/ocds-show/?load=../full_record_package.json)."
+msgid "View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full_record_package.json)."
 msgstr ""
-"Ver los [datos en OCDS show aquí](../_static/ocds-show/"
-"?load=../full_record_package.json)."
+"Ver los [datos en OCDS show aquí](https://open-contracting.github.io/ocds-show-ppp/"
+"?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full_record_package.json)."
 
 #: ../../docs/example.md:36
 msgid "In the record within OCDS show:"
@@ -140,7 +139,6 @@ msgstr ""
 "?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)"
 
 #: ../../docs/example.md:46
-msgid "Using the open source [OCDS Show framework](https://github.com/open-contracting/ocds-show/tree/ppp) alternative presentations of data can be prepared."
+msgid "Using the open source [OCDS Show framework](https://github.com/open-contracting/ocds-show-ppp) alternative presentations of data can be prepared."
 msgstr ""
-"Utilizando el marco [OCDS Show](https://github.com/open-contracting/"
-"ocds-show/tree/ppp) se pueden preparar presentaciones alternativas de datos."
+"Utilizando el marco [OCDS Show](https://github.com/open-contracting/ocds-show-ppp) se pueden preparar presentaciones alternativas de datos."

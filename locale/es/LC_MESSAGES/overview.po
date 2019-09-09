@@ -183,7 +183,7 @@ msgstr ""
 "para APPs;"
 
 #: ../../docs/overview.md:82
-msgid "You can explore a [preview of OCDS show with example data](../_static/ocds-show/?load=../full.json)."
+msgid "You can explore a [preview of OCDS show with example data](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full.json)."
 msgstr ""
-"Puede explorar una [vista previa de OCDS show con datos de ejemplo](../"
-"_static/ocds-show/?load=../full.json)."
+"Puede explorar una [vista previa de OCDS show con datos de ejemplo]("
+"https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full.json)."
