@@ -17,7 +17,7 @@ Based on our pilot work with the Red Compartida programme, we have created a fic
 
 We used the [spreadsheet template](spreadsheet.md) to prepare a series of releases of data, representing different stages of the procurement process.
 
-This was exported as an Excel file, and converted into JSON using the [OCDS Convert, Validate and Explore tool](http://standard.open-contracting.org/validator/)
+This was exported as an Excel file, and converted into JSON using the [OCDS Data Review Tool](https://standard.open-contracting.org/review/)
 
 The releases were then compiled into a record, and are available to browse using [OCDS Show](https://github.com/open-contracting/ocds-show-ppp), an open source tool which provides:
 
