@@ -4,7 +4,7 @@
 
 ### Normative changes
 
-* [#203](https://github.com/open-contracting-extensions/public-private-partnerships/pull/203) The core extensions have been upgraded to v1.1.4: Bid statistics and details, Location, Milestone documents, Process level title and description.
+* [#203](https://github.com/open-contracting-extensions/public-private-partnerships/pull/203) The profile has been upgraded to OCDS 1.1.4. All core extensions have been upgraded to v1.1.4: Bid statistics and details, Location, Milestone documents, Process level title and description. All community extensions have been upgraded to their latest versions.
 * [#205](https://github.com/open-contracting-extensions/public-private-partnerships/pull/205) The documentType codelist has been updated:
   * 'contractSchedules' has been renamed to 'contractMilestones'.
   * The description of 'needsAssessment' has been updated to match the description from OC4IDS.
@@ -13,17 +13,19 @@
 ## Non-normative changes
 
 * [#195](https://github.com/open-contracting-extensions/public-private-partnerships/pull/195) The documentation pages of all extensions have been moved to the new [Extension Explorer](https://extensions.open-contracting.org/).
-* [#206](https://github.com/open-contracting-extensions/public-private-partnerships/pull/206) Links to the milestones extension documentation have been replaced with links to the OCDS milestones documentation.
+* [#206](https://github.com/open-contracting-extensions/public-private-partnerships/pull/206) Links to the milestones extension documentation have been replaced with links to the standard documentation.
 * [#212](https://github.com/open-contracting-extensions/public-private-partnerships/pull/212) The codelist reference page has been updated to:
   * Separate out codelists from OCDS which are reused without modification and those which are modified.
   * Add codelists which were present in the profile but missing from the documentation.
   * Add links to additional codelist documentation in the OCDS documentation and the Extension Explorer.
+* [#214](https://github.com/open-contracting-extensions/public-private-partnerships/pull/214) Replace mentions of 'OCDS core' with 'OCDS'.
 * [#209](https://github.com/open-contracting-extensions/public-private-partnerships/pull/209) A schema browser has been added.
-* The build process for the documentation has been improved ([#182](https://github.com/open-contracting-extensions/public-private-partnerships/pull/182), [#183](https://github.com/open-contracting-extensions/public-private-partnerships/pull/183), [#184](https://github.com/open-contracting-extensions/public-private-partnerships/pull/184), [#185](https://github.com/open-contracting-extensions/public-private-partnerships/pull/185), [#190](https://github.com/open-contracting-extensions/public-private-partnerships/pull/190)).
+* [#210](https://github.com/open-contracting-extensions/public-private-partnerships/pull/10) This changelog has been added.
+* The build process for the documentation has been improved ([#182](https://github.com/open-contracting-extensions/public-private-partnerships/pull/182), [#183](https://github.com/open-contracting-extensions/public-private-partnerships/pull/183), [#184](https://github.com/open-contracting-extensions/public-private-partnerships/pull/184), [#185](https://github.com/open-contracting-extensions/public-private-partnerships/pull/185), [#190](https://github.com/open-contracting-extensions/public-private-partnerships/pull/190), [#219](https://github.com/open-contracting-extensions/public-private-partnerships/pull/219), [#220](https://github.com/open-contracting-extensions/public-private-partnerships/pull/220)).
 
 ### Fixes
 
-* [#202](https://github.com/open-contracting-extensions/public-private-partnerships/pull/202), [#204](https://github.com/open-contracting-extensions/public-private-partnerships/pull/204) The worked example JSON files have been updated:
+* [#202](https://github.com/open-contracting-extensions/public-private-partnerships/pull/202), [#203](https://github.com/open-contracting-extensions/public-private-partnerships/pull/203), [#204](https://github.com/open-contracting-extensions/public-private-partnerships/pull/204) The worked example JSON files have been updated:
   * Remove the `planning.budget.amount` field which is not referenced in the framework reference.
   * Remove trailing '.0' from strings comprised entirely of numeric characters.
   * Fix unresolvable organization references for shareholders.
