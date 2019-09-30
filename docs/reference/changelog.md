@@ -12,6 +12,7 @@
 
 ## Non-normative changes
 
+* [#222](https://github.com/open-contracting-extensions/public-private-partnerships/pull/222) Clarify the one-to-one correspondence between a PPP project and a contracting process.
 * [#195](https://github.com/open-contracting-extensions/public-private-partnerships/pull/195) The documentation pages of all extensions have been moved to the new [Extension Explorer](https://extensions.open-contracting.org/).
 * [#206](https://github.com/open-contracting-extensions/public-private-partnerships/pull/206) Links to the milestones extension documentation have been replaced with links to the standard documentation.
 * [#212](https://github.com/open-contracting-extensions/public-private-partnerships/pull/212) The codelist reference page has been updated to:
