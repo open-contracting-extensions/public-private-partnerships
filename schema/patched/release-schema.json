@@ -27,7 +27,7 @@
     },
     "tag": {
       "title": "Release Tag",
-      "description": "One or more values from the closed [releaseTag](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#release-tag) codelist. Tags can be used to filter releases and to understand the kind of information that releases might contain.",
+      "description": "One or more values from the closed [releaseTag](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#releasetag) codelist. Tags can be used to filter releases and to understand the kind of information that releases might contain.",
       "type": "array",
       "items": {
         "type": "string",
@@ -63,7 +63,7 @@
     },
     "initiationType": {
       "title": "Initiation type",
-      "description": "String specifying the type of initiation process used for this contract, taken from the initiationType codelist. In OCDS for PPPs, only ppp is supported.",
+      "description": "The type of initiation process used for this contract, from the closed [initiationType](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#initiationtype) codelist.",
       "type": "string",
       "enum": [
         "ppp"
@@ -458,7 +458,7 @@
         },
         "documents": {
           "title": "Documents",
-          "description": "All documents and attachments related to the tender, including any notices. See the [documentType](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type) codelist for details of potential documents to include. Common documents include official legal notices of tender, technical specifications, evaluation criteria, and, as a tender process progresses, clarifications and replies to queries.",
+          "description": "All documents and attachments related to the tender, including any notices. See the [documentType](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#documenttype) codelist for details of potential documents to include. Common documents include official legal notices of tender, technical specifications, evaluation criteria, and, as a tender process progresses, clarifications and replies to queries.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Document"
@@ -990,7 +990,7 @@
         },
         "type": {
           "title": "Milestone type",
-          "description": "The nature of the milestone, using the open [milestoneType](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#milestone-type) codelist.",
+          "description": "The nature of the milestone, using the open [milestoneType](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#milestonetype) codelist.",
           "type": [
             "string",
             "null"
@@ -1104,7 +1104,7 @@
         },
         "documentType": {
           "title": "Document type",
-          "description": "A classification of the document described, using the open [documentType](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type) codelist.",
+          "description": "A classification of the document described, using the open [documentType](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#documenttype) codelist.",
           "type": [
             "string",
             "null"
@@ -1421,7 +1421,7 @@
         },
         "roles": {
           "title": "Party roles",
-          "description": "The party's role(s) in the contracting process, using the open [partyRole](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#party-role) codelist.",
+          "description": "The party's role(s) in the contracting process, using the open [partyRole](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#partyrole) codelist.",
           "type": [
             "array",
             "null"
@@ -3089,7 +3089,6 @@
         "period": {
           "title": "Performance failure period",
           "description": "The reporting period for these performance failures.",
-          "type": "object",
           "$ref": "#/definitions/Period"
         },
         "category": {
@@ -3260,7 +3259,7 @@
         },
         "documents": {
           "title": "Documents",
-          "description": "All documents and attachments related to the pre-qualification, including any notices. See the [documentType codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#document-type) for details of potential documents to include.",
+          "description": "All documents and attachments related to the pre-qualification, including any notices. See the [documentType codelist](http://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#documenttype) for details of potential documents to include.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Document"
@@ -3698,7 +3697,7 @@
         },
         "votingRights": {
           "title": "Shareholder voting rights",
-          "description": "Specify the type of voting rights associated with the shares held by the shareholder against the [voting rights codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#voting-rights).",
+          "description": "Specify the type of voting rights associated with the shares held by the shareholder against the voting rights codelist.",
           "type": [
             "string",
             "null"

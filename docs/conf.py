@@ -21,6 +21,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import os
+import re
 from collections import OrderedDict
 from glob import glob
 from pathlib import Path
@@ -115,6 +116,16 @@ html_static_path = ['_static', 'examples']
 
 
 # -- Local configuration --------------------------------------------------
+
+def update_codelist_urls(text, codelists):
+    def replace(match):
+        codelist = match.group(2).replace('-', '')
+        if any(name for name in codelists if name.lower()[:-4] == codelist):
+            return match.group(1) + 'profiles/ppp/latest/{{lang}}/reference/codelists/#' + codelist
+        return match.group()
+
+    return re.sub(r'(://standard\.open-contracting\.org/)[^/]+/[^/]+/schema/codelists/#([a-z-]+)', replace, text)
+
 
 profile_identifier = 'ppp'
 repository_url = 'https://github.com/open-contracting-extensions/public-private-partnerships'
