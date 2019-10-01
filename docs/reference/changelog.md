@@ -10,7 +10,7 @@
   * The description of 'needsAssessment' has been updated to match the description from OC4IDS.
   * The description of 'environmentalImpact' has been updated to match the description from OC4IDS.
 
-## Non-normative changes
+### Non-normative changes
 
 * [#222](https://github.com/open-contracting-extensions/public-private-partnerships/pull/222) Clarify the one-to-one correspondence between a PPP project and a contracting process.
 * [#195](https://github.com/open-contracting-extensions/public-private-partnerships/pull/195) The documentation pages of all extensions have been moved to the new [Extension Explorer](https://extensions.open-contracting.org/).
