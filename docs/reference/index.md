@@ -9,6 +9,10 @@ This section contains OCDS for PPP specific reference materials.
    :maxdepth: 1
    :glob:
 
-   *
+   browser
+   schema
+   codelists
+   documents
+   changelog
 
 ```
