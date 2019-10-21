@@ -21,7 +21,7 @@ To produce and validate OCDS for PPPs data, create an [OCDS 1.1 file](http://sta
 
 ```json
 {
-  "extensions":["http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"],
+  "extensions":["http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta2/extension.json"],
   "releases":[]
 }
 ```
