@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0.beta2] - yyyy-mm-dd
+## [1.0.0.beta2] - 2019-10-21
 
 ### Normative changes
 
@@ -12,6 +12,7 @@
 
 ### Non-normative changes
 
+* [#223](https://github.com/open-contracting-extensions/public-private-partnerships/pull/223) In the descriptions of fields in the profile's release schema, link to the profile's codelists documentation page, instead of OCDS' codelists documentation page, if the codelist is modified by the profile.
 * [#222](https://github.com/open-contracting-extensions/public-private-partnerships/pull/222) Clarify the one-to-one correspondence between a PPP project and a contracting process.
 * [#195](https://github.com/open-contracting-extensions/public-private-partnerships/pull/195) The documentation pages of all extensions have been moved to the new [Extension Explorer](https://extensions.open-contracting.org/).
 * [#206](https://github.com/open-contracting-extensions/public-private-partnerships/pull/206) Links to the milestones extension documentation have been replaced with links to the standard documentation.
