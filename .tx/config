@@ -67,6 +67,12 @@ source_file = build/locale/ppp-schema.pot
 source_lang = en
 type = PO
 
+[ocds-for-ppps._static--docson--README]
+file_filter = locale/<lang>/LC_MESSAGES/_static/docson/README.po
+source_file = build/locale/_static/docson/README.pot
+source_lang = en
+type = PO
+
 [ocds-for-ppps.extensions--index]
 file_filter = locale/<lang>/LC_MESSAGES/extensions/index.po
 source_file = build/locale/extensions/index.pot
@@ -76,6 +82,18 @@ type = PO
 [ocds-for-ppps.reference--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
 source_file = build/locale/reference/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-for-ppps.reference--changelog]
+file_filter = locale/<lang>/LC_MESSAGES/reference/changelog.po
+source_file = build/locale/reference/changelog.pot
+source_lang = en
+type = PO
+
+[ocds-for-ppps.reference--browser]
+file_filter = locale/<lang>/LC_MESSAGES/reference/browser.po
+source_file = build/locale/reference/browser.pot
 source_lang = en
 type = PO
 
