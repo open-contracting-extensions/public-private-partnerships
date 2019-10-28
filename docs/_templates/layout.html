@@ -1,20 +1,6 @@
-{% set css_files = css_files + ["_static/simplemodal.css","_static/basic.css"] %}
-{% set script_files = script_files + ["_static/jquery.simplemodal.1.4.4.min.js","_static/show-shower.js"] %}
-
+{% set css_files = css_files + ["_static/simplemodal.css", "_static/basic.css"] %}
+{% set script_files = script_files + ["_static/jquery.simplemodal.1.4.4.min.js", "_static/show-shower.js"] %}
 {% extends "!layout.html" %}
-
-{% block sidebartitle %}
-<a href="{{ pathto(master_doc) }}">{{ project }}</a>
-<!--<div class="version">Release {{ version }}</div>-->
-{% endblock %}
-
-{% block mobile_nav %}
-  <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-  <a href="{{ pathto(master_doc) }}">{{ project }}</a>
-{% endblock %}
-
-{% block extra_links %}
-{% endblock %}
 
 {% block developed_by %}
   {{ super() }}
@@ -37,5 +23,3 @@
 {% block version_options %}
 <!--#include virtual="/includes/version-options-profiles-ppp.html" -->
 {% endblock %}
-
-{% block root %}/profiles/ppp{% endblock %}

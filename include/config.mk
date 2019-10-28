@@ -17,7 +17,7 @@ BUILD_DIR=build
 # Extra build files or directories. (These should match paths in .gitignore.)
 EXTRA_BUILD_FILES=docs/_static/patched
 # Files that are built and distributed (you may use Bash extended globbing).
-DIST_FILES=schema/profile/release-schema.json schema/profile/codelists schema/patched docs/extensions/!(index|milestones).md
+DIST_FILES=schema/profile/release-schema.json schema/profile/codelists schema/patched docs/extensions/!(index).md
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
 # The prefix, if any, to the schema and codelists domains.
@@ -27,7 +27,7 @@ ASSETS_DIR=
 # The Transifex project name.
 TRANSIFEX_PROJECT=ocds-for-ppps
 
-# Compile PO files for codelists and schema to MO files, so that translate_codelists and translate_schema succeed.
+# Compile PO files for codelists and schema to MO files, so that `translate` succeeds.
 .PHONY: compile
 compile:
 	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)schema
@@ -35,14 +35,8 @@ compile:
 
 # Put local targets below.
 
-# Update OCDS Show for PPPs.
-.PHONY: update_ocds_show
-update_ocds_show:
-	curl -Ss -O https://codeload.github.com/open-contracting/ocds-show-ppp/zip/gh-pages
-	unzip -q gh-pages
-	rm -f gh-pages
-	rm -rf docs/_static/ocds-show
-	# Delete these files, which will otherwise be caught by `sphinx-build -b gettext`.
-	rm -f ocds-show-ppp-gh-pages/CONTRIBUTING.md
-	rm -f ocds-show-ppp-gh-pages/README.md
-	mv ocds-show-ppp-gh-pages docs/_static/ocds-show
+# Update example files.
+.PHONY: update_examples
+update_examples:
+	curl -Ss -o docs/examples/full.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full.json
+	curl -Ss -o docs/examples/full_record_package.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full_record_package.json

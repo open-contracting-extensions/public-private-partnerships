@@ -2,16 +2,16 @@
   "version": "1.1",
   "license": "http://opendatacommons.org/licenses/pddl/1.0/",
   "extensions": [
-    "http://standard.open-contracting.org/profiles/ppp/schema/1__0__0__beta/extension.json"
+    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta2/extension.json"
   ],
   "publishedDate": "2020-01-24T00:00:00Z",
   "publisher": {
     "name": "Open Data Services Co-operative Limited",
     "scheme": "GB-COH",
-    "uid": "9506232.0",
+    "uid": "9506232",
     "uri": "http://data.companieshouse.gov.uk/doc/company/09506232"
   },
-  "uri": "http://standard.open-contracting.org/profiles/ppp/latest/en/_static/full.json",
+  "uri": "https://standard.open-contracting.org/profiles/ppp/latest/en/_static/full.json",
   "releases": [
     {
       "ocid": "ocds-213czf-example-ppp",
@@ -33,7 +33,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "12345678.0",
+            "id": "12345678",
             "legalName": "Ministry of Communications",
             "uri": "http://ministries.example.gov/012345678"
           },
@@ -60,7 +60,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "0.0",
+            "id": "0",
             "legalName": "Telecoms Promoter",
             "uri": "http://ministries.gov.example/00000000"
           },
@@ -87,7 +87,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "99999999.0",
+            "id": "99999999",
             "legalName": "National Fibre Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
@@ -113,7 +113,7 @@
       },
       "relatedProcesses": [
         {
-          "id": "1.0",
+          "id": "1",
           "title": "Tender for financial advisor",
           "relationship": [
             "advisor"
@@ -125,12 +125,8 @@
       ],
       "planning": {
         "budget": {
-          "id": "123456789.0",
+          "id": "123456789",
           "description": "Predicted public and private sector investment over the duration of the project",
-          "amount": {
-            "amount": 600000000,
-            "currency": "USD"
-          },
           "uri": "http://finance.gov.example/budget/123456789",
           "budgetBreakdown": [
             {
@@ -830,7 +826,7 @@
             "description": "Annual 4G traffic measured in gigabytes",
             "observations": [
               {
-                "id": "2016.0",
+                "id": "2016",
                 "measure": "815280000.0",
                 "unit": {
                   "name": "gigabytes",
@@ -843,7 +839,7 @@
                 }
               },
               {
-                "id": "2017.0",
+                "id": "2017",
                 "measure": "903365129.5706391",
                 "unit": {
                   "name": "gigabytes",
@@ -856,7 +852,7 @@
                 }
               },
               {
-                "id": "2018.0",
+                "id": "2018",
                 "measure": "1001480826.6399665",
                 "unit": {
                   "name": "gigabytes",
@@ -869,7 +865,7 @@
                 }
               },
               {
-                "id": "2019.0",
+                "id": "2019",
                 "measure": "1110825529.4633253",
                 "unit": {
                   "name": "gigabytes",
@@ -882,7 +878,7 @@
                 }
               },
               {
-                "id": "2020.0",
+                "id": "2020",
                 "measure": "1232747361.2976859",
                 "unit": {
                   "name": "gigabytes",
@@ -895,7 +891,7 @@
                 }
               },
               {
-                "id": "2021.0",
+                "id": "2021",
                 "measure": "1368763614.680674",
                 "unit": {
                   "name": "gigabytes",
@@ -908,7 +904,7 @@
                 }
               },
               {
-                "id": "2022.0",
+                "id": "2022",
                 "measure": "1520582872.0748835",
                 "unit": {
                   "name": "gigabytes",
@@ -921,7 +917,7 @@
                 }
               },
               {
-                "id": "2023.0",
+                "id": "2023",
                 "measure": "1690130132.8503568",
                 "unit": {
                   "name": "gigabytes",
@@ -934,7 +930,7 @@
                 }
               },
               {
-                "id": "2024.0",
+                "id": "2024",
                 "measure": "1879575370.3220415",
                 "unit": {
                   "name": "gigabytes",
@@ -947,7 +943,7 @@
                 }
               },
               {
-                "id": "2025.0",
+                "id": "2025",
                 "measure": "2091366004.3704107",
                 "unit": {
                   "name": "gigabytes",
@@ -960,7 +956,7 @@
                 }
               },
               {
-                "id": "2026.0",
+                "id": "2026",
                 "measure": "2328263846.301749",
                 "unit": {
                   "name": "gigabytes",
@@ -973,7 +969,7 @@
                 }
               },
               {
-                "id": "2027.0",
+                "id": "2027",
                 "measure": "2593387154.498728",
                 "unit": {
                   "name": "gigabytes",
@@ -986,7 +982,7 @@
                 }
               },
               {
-                "id": "2028.0",
+                "id": "2028",
                 "measure": "2890258533.752807",
                 "unit": {
                   "name": "gigabytes",
@@ -999,7 +995,7 @@
                 }
               },
               {
-                "id": "2029.0",
+                "id": "2029",
                 "measure": "3222859519.9091563",
                 "unit": {
                   "name": "gigabytes",
@@ -1012,7 +1008,7 @@
                 }
               },
               {
-                "id": "2030.0",
+                "id": "2030",
                 "measure": "3595692816.858707",
                 "unit": {
                   "name": "gigabytes",
@@ -1025,7 +1021,7 @@
                 }
               },
               {
-                "id": "2031.0",
+                "id": "2031",
                 "measure": "4013853297.6148205",
                 "unit": {
                   "name": "gigabytes",
@@ -1038,7 +1034,7 @@
                 }
               },
               {
-                "id": "2032.0",
+                "id": "2032",
                 "measure": "4483109048.276784",
                 "unit": {
                   "name": "gigabytes",
@@ -1051,7 +1047,7 @@
                 }
               },
               {
-                "id": "2033.0",
+                "id": "2033",
                 "measure": "5009993926.672642",
                 "unit": {
                   "name": "gigabytes",
@@ -1064,7 +1060,7 @@
                 }
               },
               {
-                "id": "2034.0",
+                "id": "2034",
                 "measure": "5601913330.538246",
                 "unit": {
                   "name": "gigabytes",
@@ -1077,7 +1073,7 @@
                 }
               },
               {
-                "id": "2035.0",
+                "id": "2035",
                 "measure": "6267265128.060023",
                 "unit": {
                   "name": "gigabytes",
@@ -1094,7 +1090,7 @@
         ],
         "documents": [
           {
-            "id": "1.0",
+            "id": "1",
             "documentType": "needsAssessment",
             "title": "Needs Assessment",
             "description": "The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards. ",
@@ -1107,7 +1103,7 @@
         ],
         "milestones": [
           {
-            "id": "1.0",
+            "id": "1",
             "type": "preProcurement",
             "title": "Public consultation",
             "description": "A public consultation will be held at the offices of the Ministry of Communications on 1st December 2015.",
@@ -1115,7 +1111,7 @@
             "dueDate": "2015-12-01T00:00:00-06:00"
           },
           {
-            "id": "2.0",
+            "id": "2",
             "type": "approval",
             "title": "Strategic outline case approval",
             "description": "Ministry of Finance approved the strategic outline business case for the project",
@@ -1125,7 +1121,7 @@
             "dateModified": "2015-01-01T00:00:00-06:00",
             "documents": [
               {
-                "id": "1.0"
+                "id": "1"
               }
             ]
           }
@@ -1152,7 +1148,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "12345678.0",
+            "id": "12345678",
             "legalName": "Ministry of Communications",
             "uri": "http://ministries.example.gov/012345678"
           },
@@ -1179,7 +1175,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "0.0",
+            "id": "0",
             "legalName": "Telecoms Promoter",
             "uri": "http://ministries.gov.example/00000000"
           },
@@ -1206,7 +1202,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "99999999.0",
+            "id": "99999999",
             "legalName": "National Fibre Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
@@ -1893,7 +1889,7 @@
         }
       },
       "tender": {
-        "id": "123456.0",
+        "id": "123456",
         "title": "Example PPP public tender",
         "description": "Bidders are invited to submit proposals to participate in the Example PPP.",
         "status": "active",
@@ -1929,7 +1925,7 @@
         },
         "documents": [
           {
-            "id": "1.0",
+            "id": "1",
             "documentType": "tenderNotice",
             "title": "Example PPP tender notice",
             "description": "Bidders are invited to participate in the public tender for the Example PPP",
@@ -2053,7 +2049,7 @@
         ],
         "milestones": [
           {
-            "id": "1.0",
+            "id": "1",
             "type": "assessment",
             "title": "Bid opening",
             "description": "The bid opening event will be held at the offices of the Ministry of Communications",
@@ -2063,19 +2059,19 @@
         ],
         "criteria": [
           {
-            "id": "1.0",
+            "id": "1",
             "relatesTo": "item",
             "description": "Proposals must be for a minimum coverage level of 85%",
             "source": "tenderer",
             "title": "Minimum coverage level",
-            "relatedItem": "1.0",
+            "relatedItem": "1",
             "requirementGroups": [
               {
-                "id": "1.0",
+                "id": "1",
                 "description": "Proposals must be for a minimum coverage level of 85%",
                 "requirements": [
                   {
-                    "id": "1.0",
+                    "id": "1",
                     "description": "Proposals must be for a minimum coverage level of 85%",
                     "minValue": 0.85,
                     "dataType": "number",
@@ -2086,18 +2082,18 @@
             ]
           },
           {
-            "id": "2.0",
+            "id": "2",
             "relatesTo": "tenderer",
             "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
             "source": "procuringEntity",
             "title": "Regulatory approval",
             "requirementGroups": [
               {
-                "id": "2.0",
+                "id": "2",
                 "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
                 "requirements": [
                   {
-                    "id": "2.0",
+                    "id": "2",
                     "description": "The bidder, or partners in a bidding consortium, must be be approved by the Telecoms regulator",
                     "dataType": "boolean",
                     "expectedValue": "True",
@@ -2110,11 +2106,11 @@
         ],
         "items": [
           {
-            "id": "1.0",
+            "id": "1",
             "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
             "classification": {
               "scheme": "CPV",
-              "id": "32412100.0",
+              "id": "32412100",
               "description": "Telecommunications network",
               "uri": "http://purl.org/cpv/2008/code-32412100"
             },
@@ -2144,7 +2140,7 @@
       "title": "Example PPP",
       "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
       "tender": {
-        "id": "123456.0",
+        "id": "123456",
         "title": "Example PPP public tender",
         "description": "Bidders are invited to submit proposals to participate in the Example PPP.",
         "status": "active",
@@ -2188,11 +2184,11 @@
         ],
         "items": [
           {
-            "id": "1.0",
+            "id": "1",
             "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
             "classification": {
               "scheme": "CPV",
-              "id": "32412100.0",
+              "id": "32412100",
               "description": "Telecommunications network",
               "uri": "http://purl.org/cpv/2008/code-32412100"
             },
@@ -2236,7 +2232,7 @@
           },
           "shareholders": [
             {
-              "id": "1.0",
+              "id": "1",
               "shareholder": {
                 "id": "XX-XXX-11111111",
                 "name": "Alpha Holdings Ltd"
@@ -2247,72 +2243,72 @@
               "notes": "Alpha Holdings Ltd. must maintain a minimum shareholding of 30% in the project company until 10 years from the date of commissioning have elapsed."
             },
             {
-              "id": "2.0",
+              "id": "2",
               "shareholder": {
-                "id": "BET",
+                "id": "XX-XXX-22222222",
                 "name": "Beta Investment Company Ltd"
               },
               "shareholding": 0.2336,
               "votingRights": "ordinary"
             },
             {
-              "id": "3.0",
+              "id": "3",
               "shareholder": {
-                "id": "GAM",
+                "id": "XX-XXX-33333333",
                 "name": "Gamma Finance Corporation"
               },
               "shareholding": 0.0334,
               "votingRights": "ordinary"
             },
             {
-              "id": "4.0",
+              "id": "4",
               "shareholder": {
-                "id": "DEL",
+                "id": "XX-XXX-44444444",
                 "name": "Delta Investments"
               },
               "shareholding": 0.0334,
               "votingRights": "ordinary"
             },
             {
-              "id": "5.0",
+              "id": "5",
               "shareholder": {
-                "id": "EPS",
+                "id": "XX-XXX-55555555",
                 "name": "Epsilon"
               },
               "shareholding": 0.0935,
               "votingRights": "ordinary"
             },
             {
-              "id": "6.0",
+              "id": "6",
               "shareholder": {
-                "id": "ZET",
+                "id": "XX-XXX-66666666",
                 "name": "Zeta Joint Investments"
               },
               "shareholding": 0.1268,
               "votingRights": "ordinary"
             },
             {
-              "id": "7.0",
+              "id": "7",
               "shareholder": {
-                "id": "ETA",
+                "id": "XX-XXX-77777777",
                 "name": "Eta Fund"
               },
               "shareholding": 0.0654,
               "votingRights": "ordinary"
             },
             {
-              "id": "8.0",
+              "id": "8",
               "shareholder": {
-                "id": "THE",
+                "id": "XX-XXX-88888888",
                 "name": "Theta Cable"
               },
               "shareholding": 0.0401,
               "votingRights": "none"
             },
             {
-              "id": "9.0",
+              "id": "9",
               "shareholder": {
-                "id": "IOT",
+                "id": "XX-XXX-99999999",
                 "name": "Iota Telecoms"
               },
               "shareholding": 0.0401,
@@ -2328,7 +2324,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "12345678.0",
+            "id": "12345678",
             "legalName": "Ministry of Communications",
             "uri": "http://ministries.example.gov/012345678"
           },
@@ -2355,7 +2351,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "0.0",
+            "id": "0",
             "legalName": "Telecoms Promoter",
             "uri": "http://ministries.gov.example/00000000"
           },
@@ -2382,7 +2378,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "99999999.0",
+            "id": "99999999",
             "legalName": "National Fibre Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
@@ -2408,10 +2404,10 @@
             "equityInvestor"
           ],
           "identifier": {
+            "id": "11111111",
             "scheme": "XX-XXX",
-            "id": "11111111.0",
             "legalName": "Alpha Holdings Ltd",
-            "uri": "http://alphaholdings.example"
+            "uri": "https://opencorporates.com/companies/xx/11111111"
           },
           "address": {
             "streetAddress": "1 Bank Street",
@@ -2430,17 +2426,233 @@
           "beneficialOwnership": {
             "description": "Alpha Holdings is wholly controlled by Alpha Trust"
           }
+        },
+        {
+          "id": "XX-XXX-22222222",
+          "name": "Beta Investment Company Ltd",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "22222222",
+            "scheme": "XX-XXX",
+            "legalName": "Beta Investment Company Ltd",
+            "uri": "https://opencorporates.com/companies/xx/22222222"
+          },
+          "address": {
+            "streetAddress": "1 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 222222",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@betainvestment.example",
+            "telephone": "22 22 22 22",
+            "faxNumber": "22 22 22 23",
+            "url": "http://bids.betainvestment.example"
+          }
+        },
+        {
+          "id": "XX-XXX-33333333",
+          "name": "Gamma Finance Corporation",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "33333333",
+            "scheme": "XX-XXX",
+            "legalName": "Gamma Finance Corporation",
+            "uri": "https://opencorporates.com/companies/xx/33333333"
+          },
+          "address": {
+            "streetAddress": "2 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 333333",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@gammafinance.example",
+            "telephone": "33 33 33 33",
+            "faxNumber": "33 33 33 34",
+            "url": "http://bids.gammafinance.example"
+          }
+        },
+        {
+          "id": "XX-XXX-44444444",
+          "name": "Delta Investments",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "44444444",
+            "scheme": "XX-XXX",
+            "legalName": "Delta Investments",
+            "uri": "https://opencorporates.com/companies/xx/44444444"
+          },
+          "address": {
+            "streetAddress": "3 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 444444",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@deltainvestments.example",
+            "telephone": "44 44 44 44",
+            "faxNumber": "44 44 44 45",
+            "url": "http://bids.deltainvestments.example"
+          }
+        },
+        {
+          "id": "XX-XXX-55555555",
+          "name": "Epsilon",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "55555555",
+            "scheme": "XX-XXX",
+            "legalName": "Epsilon",
+            "uri": "https://opencorporates.com/companies/xx/55555555"
+          },
+          "address": {
+            "streetAddress": "4 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 555555",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@epsilon.example",
+            "telephone": "55 55 55 55",
+            "faxNumber": "55 55 55 56",
+            "url": "http://bids.epsilon.example"
+          }
+        },
+        {
+          "id": "XX-XXX-66666666",
+          "name": "Zeta Joint Investments",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "66666666",
+            "scheme": "XX-XXX",
+            "legalName": "Zeta Joint Investments",
+            "uri": "https://opencorporates.com/companies/xx/66666666"
+          },
+          "address": {
+            "streetAddress": "5 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 666666",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@zetajoint.example",
+            "telephone": "66 66 66 66",
+            "faxNumber": "66 66 66 67",
+            "url": "http://bids.zetajoint.example"
+          }
+        },
+        {
+          "id": "XX-XXX-77777777",
+          "name": "Eta Fund",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "77777777",
+            "scheme": "XX-XXX",
+            "legalName": "Eta Fund",
+            "uri": "https://opencorporates.com/companies/xx/77777777"
+          },
+          "address": {
+            "streetAddress": "6 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 777777",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@etafund.example",
+            "telephone": "77 77 77 77",
+            "faxNumber": "77 77 77 78",
+            "url": "http://bids.etafund.example"
+          }
+        },
+        {
+          "id": "XX-XXX-88888888",
+          "name": "Theta Cable",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "88888888",
+            "scheme": "XX-XXX",
+            "legalName": "Theta Cable",
+            "uri": "https://opencorporates.com/companies/xx/88888888"
+          },
+          "address": {
+            "streetAddress": "7 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 888888",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@thetacable.example",
+            "telephone": "88 88 88 88",
+            "faxNumber": "88 88 88 89",
+            "url": "http://bids.thetacable.example"
+          }
+        },
+        {
+          "id": "XX-XXX-99999999",
+          "name": "Iota Telecoms",
+          "roles": [
+            "equityInvestor"
+          ],
+          "identifier": {
+            "id": "99999999",
+            "scheme": "XX-XXX",
+            "legalName": "Iota Telecoms",
+            "uri": "https://opencorporates.com/companies/xx/99999999"
+          },
+          "address": {
+            "streetAddress": "8 Investor place",
+            "locality": "Capital City",
+            "region": "Capital State",
+            "postalCode": "CS 999999",
+            "countryName": "Example Country"
+          },
+          "contactPoint": {
+            "name": "Bid team",
+            "email": "bids@iotatelecoms.example",
+            "telephone": "99 99 99 99",
+            "faxNumber": "99 99 99 90",
+            "url": "http://bids.iotatelecoms.example"
+          }
         }
       ],
       "bids": {
         "details": [
           {
-            "id": "1.0",
+            "id": "1",
             "date": "2016-12-09T01:00:00+01:00",
             "status": "valid",
             "documents": [
               {
-                "id": "1.0",
+                "id": "1",
                 "documentType": "evaluationReports",
                 "title": "Mega Consortium Bid Evaluation Report",
                 "description": "This document provides details of the evaluation of the bid submitted by Mega Consortium",
@@ -2459,9 +2671,9 @@
             ],
             "requirementResponses": [
               {
-                "id": "1.0",
+                "id": "1",
                 "requirement": {
-                  "id": "1.0",
+                  "id": "1",
                   "title": "Minimum Coverage"
                 },
                 "title": "Bid Coverage",
@@ -2473,22 +2685,22 @@
         ],
         "statistics": [
           {
-            "id": "1.0",
+            "id": "1",
             "measure": "validBids",
             "value": 1
           },
           {
-            "id": "2.0",
+            "id": "2",
             "measure": "bidders",
             "value": 1
           },
           {
-            "id": "3.0",
+            "id": "3",
             "measure": "qualifiedBidders",
             "value": 1
           },
           {
-            "id": "4.0",
+            "id": "4",
             "measure": "disqualifiedBidders",
             "value": 1
           }
@@ -2496,7 +2708,7 @@
       },
       "awards": [
         {
-          "id": "1.0",
+          "id": "1",
           "title": "Example PPP contract award",
           "description": "Award of Example PPP contract to Mega Consortium",
           "status": "active",
@@ -2524,11 +2736,11 @@
           },
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
               "classification": {
                 "scheme": "CPV",
-                "id": "32412100.0",
+                "id": "32412100",
                 "description": "Telecommunications network",
                 "uri": "http://purl.org/cpv/2008/code-32412100"
               },
@@ -2546,7 +2758,7 @@
           ],
           "documents": [
             {
-              "id": "1.0",
+              "id": "1",
               "documentType": "minutes",
               "title": "Contract Award Minutes",
               "description": "Minutes of the award of the Example PPP contract to Mega Consortium",
@@ -2669,10 +2881,10 @@
           ],
           "requirementResponses": [
             {
-              "id": "2.0",
+              "id": "2",
               "value": "True",
               "requirement": {
-                "id": "2.0",
+                "id": "2",
                 "title": "Regulatory approval"
               },
               "title": "Mega Consortium Regulatory Approval",
@@ -2706,7 +2918,7 @@
           ],
           "identifier": {
             "scheme": "XX-XXX",
-            "id": "12345678.0",
+            "id": "12345678",
             "legalName": "Mega Consortium Ltd",
             "uri": "https://opencorporates.com/companies/xx/12345678"
           },
@@ -2733,7 +2945,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "12345678.0",
+            "id": "12345678",
             "legalName": "Ministry of Communications",
             "uri": "http://ministries.example.gov/012345678"
           },
@@ -2760,7 +2972,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "0.0",
+            "id": "0",
             "legalName": "Telecoms Promoter",
             "uri": "http://ministries.gov.example/00000000"
           },
@@ -2787,7 +2999,7 @@
           ],
           "identifier": {
             "scheme": "XX-GOV",
-            "id": "99999999.0",
+            "id": "99999999",
             "legalName": "National Fibre Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
@@ -2814,7 +3026,7 @@
           ],
           "identifier": {
             "scheme": "XX-FI",
-            "id": "22222222.0",
+            "id": "22222222",
             "legalName": "Big Bank Corp",
             "uri": "http://bigbank.example"
           },
@@ -2836,8 +3048,8 @@
       ],
       "contracts": [
         {
-          "id": "1.0",
-          "awardID": "1.0",
+          "id": "1",
+          "awardID": "1",
           "title": "Public Private Partnership Agreement",
           "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with national fibre infrastructure and the special purpose vehicle mega consortium ltd.",
           "status": "active",
@@ -2861,11 +3073,11 @@
           },
           "items": [
             {
-              "id": "1.0",
+              "id": "1",
               "description": "Public Private Partnership Project for the installation and operation of the Shared Public Telecommunications Network",
               "classification": {
                 "scheme": "CPV",
-                "id": "32412100.0",
+                "id": "32412100",
                 "description": "Telecommunications network",
                 "uri": "http://purl.org/cpv/2008/code-32412100"
               },
@@ -2883,7 +3095,7 @@
           ],
           "documents": [
             {
-              "id": "1.0",
+              "id": "1",
               "documentType": "contractSigned",
               "title": "Example PPP signed contract",
               "url": "http://communications.gov.example/example_ppp/signedContract.pdf",
@@ -2893,7 +3105,7 @@
               "language": "en"
             },
             {
-              "id": "2.0",
+              "id": "2",
               "documentType": "minutes",
               "title": "Minutes of the signing of the contract for Example",
               "url": "http://communications.gov.example/example_ppp/contractMinutes.pdf",
@@ -2923,7 +3135,7 @@
           ],
           "finance": [
             {
-              "id": "1.0",
+              "id": "1",
               "title": "Primary senior debt financing agreement",
               "description": "Big Bank Corp retains the right to step in should Mega Consortium fail to comply with the repayment schedule for a period of 3 consecutive months.",
               "financingParty": {
@@ -2949,7 +3161,7 @@
               "repaymentFrequency": 30.4
             },
             {
-              "id": "2.0",
+              "id": "2",
               "title": "Alpha Holdings equity investment",
               "financingParty": {
                 "id": "XX-XXX-11111111",
@@ -2962,7 +3174,7 @@
               }
             },
             {
-              "id": "3.0",
+              "id": "3",
               "title": "Beta Investment Company Ltd equity investment",
               "financingParty": {
                 "id": "BET",
@@ -2975,7 +3187,7 @@
               }
             },
             {
-              "id": "4.0",
+              "id": "4",
               "title": "Gamma Finance Corporation equity investment",
               "financingParty": {
                 "id": "GAM",
@@ -2988,7 +3200,7 @@
               }
             },
             {
-              "id": "5.0",
+              "id": "5",
               "title": "Delta Investments equity investment",
               "financingParty": {
                 "id": "DEL",
@@ -3001,7 +3213,7 @@
               }
             },
             {
-              "id": "6.0",
+              "id": "6",
               "title": "Epsilon equity investment",
               "financingParty": {
                 "id": "EPS",
@@ -3014,7 +3226,7 @@
               }
             },
             {
-              "id": "7.0",
+              "id": "7",
               "title": "Zeta Joint Investments equity investment",
               "financingParty": {
                 "id": "ZET",
@@ -3027,7 +3239,7 @@
               }
             },
             {
-              "id": "8.0",
+              "id": "8",
               "title": "Eta Fund equity investment",
               "financingParty": {
                 "id": "ETA",
@@ -3040,7 +3252,7 @@
               }
             },
             {
-              "id": "9.0",
+              "id": "9",
               "title": "Theta Cable equity investment",
               "financingParty": {
                 "id": "THE",
@@ -3053,7 +3265,7 @@
               }
             },
             {
-              "id": "10.0",
+              "id": "10",
               "title": "Iota Telecoms equity investment",
               "financingParty": {
                 "id": "IOT",
@@ -3179,7 +3391,7 @@
           ],
           "milestones": [
             {
-              "id": "1.0",
+              "id": "1",
               "type": "financial",
               "code": "financialClose",
               "title": "Financial close",
@@ -3190,9 +3402,9 @@
           ],
           "requirementResponses": [
             {
-              "id": "1.0",
+              "id": "1",
               "requirement": {
-                "id": "1.0",
+                "id": "1",
                 "title": "Minimum Coverage"
               },
               "title": "Bid Coverage",
@@ -3202,73 +3414,73 @@
           ],
           "riskAllocation": [
             {
-              "id": "1.0",
+              "id": "1",
               "category": "all",
               "description": "Risks arising from the Project",
               "allocation": "privateParty"
             },
             {
-              "id": "2.0",
+              "id": "2",
               "category": "operationPerformance",
               "description": "Risks arising from the maintenance, use and operation of the pair of optic fibre strands (filaments) of the Backbone Network",
               "allocation": "privateParty"
             },
             {
-              "id": "3.0",
+              "id": "3",
               "category": "environmental",
               "description": "Environmental risks",
               "allocation": "privateParty"
             },
             {
-              "id": "4.0",
+              "id": "4",
               "category": "compliance",
               "description": "Risks deriving from the compliance or lack thereof of regulatory obligations related to the development of the Project",
               "allocation": "privateParty"
             },
             {
-              "id": "5.0",
+              "id": "5",
               "category": "construction",
-              "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project\u2019s development",
+              "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project’s development",
               "allocation": "privateParty"
             },
             {
-              "id": "6.0",
+              "id": "6",
               "category": "construction",
-              "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project\u2019s development",
+              "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project’s development",
               "allocation": "privateParty"
             },
             {
-              "id": "7.0",
+              "id": "7",
               "category": "financial",
               "description": "Financial risks including interest rate risk, exchange rate risk and bankability risk",
               "allocation": "privateParty"
             },
             {
-              "id": "8.0",
+              "id": "8",
               "category": "financial",
               "description": "Risks related to the financing of the Project",
               "allocation": "privateParty"
             },
             {
-              "id": "9.0",
+              "id": "9",
               "category": "financial",
-              "description": "Risks due to variations or increase in the cost of the Project\u2019s execution",
+              "description": "Risks due to variations or increase in the cost of the Project’s execution",
               "allocation": "privateParty"
             },
             {
-              "id": "10.0",
+              "id": "10",
               "category": "forceMajeure",
               "description": "Risks due to fortuitous or force majeure events",
               "allocation": "privateParty"
             },
             {
-              "id": "11.0",
+              "id": "11",
               "category": "governance",
               "description": "Risks deriving from the breach of any obligations assumed by subcontractors",
               "allocation": "privateParty"
             },
             {
-              "id": "12.0",
+              "id": "12",
               "category": "all",
               "description": "Others set forth in, or arising from the execution of, this Agreement",
               "allocation": "privateParty",
@@ -3278,7 +3490,7 @@
           "implementation": {
             "tariffs": [
               {
-                "id": "1.0",
+                "id": "1",
                 "title": "Wholesale 4G price per gigabyte",
                 "value": {
                   "amount": 1.25,
@@ -3295,7 +3507,7 @@
                 }
               },
               {
-                "id": "2.0",
+                "id": "2",
                 "title": "Wholesale 3G price per gigabyte",
                 "value": {
                   "amount": 0.75,
@@ -3312,7 +3524,7 @@
                 }
               },
               {
-                "id": "3.0",
+                "id": "3",
                 "title": "Wholesale call price per minute",
                 "value": {
                   "amount": 0.001,
@@ -3329,7 +3541,7 @@
                 }
               },
               {
-                "id": "4.0",
+                "id": "4",
                 "title": "Wholesale SMS price per message",
                 "value": {
                   "amount": 0.0005,
@@ -3610,7 +3822,7 @@
             ],
             "milestones": [
               {
-                "id": "1.0",
+                "id": "1",
                 "type": "delivery",
                 "title": "Initial coverage milestone",
                 "description": "Achieve 30% national coverage",
@@ -3618,7 +3830,7 @@
                 "dueDate": "2018-03-31T23:59:59-06:00"
               },
               {
-                "id": "2.0",
+                "id": "2",
                 "type": "delivery",
                 "title": "3rd anniversary coverage milestone ",
                 "description": "Achieve 50% national coverage",
@@ -3626,7 +3838,7 @@
                 "dueDate": "2020-01-24T23:59:59-06:00"
               },
               {
-                "id": "3.0",
+                "id": "3",
                 "type": "delivery",
                 "title": "4th anniversary coverage milestone",
                 "description": "Achieve 70% national coverage",
@@ -3634,7 +3846,7 @@
                 "dueDate": "2021-01-24T23:59:59-06:00"
               },
               {
-                "id": "4.0",
+                "id": "4",
                 "type": "delivery",
                 "title": "5th anniversary coverage milestone ",
                 "description": "Achieve 85% national coverage",
@@ -3642,7 +3854,7 @@
                 "dueDate": "2022-01-24T23:59:59-06:00"
               },
               {
-                "id": "5.0",
+                "id": "5",
                 "type": "delivery",
                 "title": "6th anniversary coverage milestone ",
                 "description": "Achieve 88.6% national coverage",
@@ -3650,7 +3862,7 @@
                 "dueDate": "2023-01-24T23:59:59-06:00"
               },
               {
-                "id": "6.0",
+                "id": "6",
                 "type": "delivery",
                 "title": "7th anniversary coverage milestone ",
                 "description": "Achieve 92.2% national coverage",
@@ -3658,7 +3870,7 @@
                 "dueDate": "2024-01-24T23:59:59-06:00"
               },
               {
-                "id": "7.0",
+                "id": "7",
                 "type": "delivery",
                 "title": "Fibre Network Access",
                 "description": "The private party will be granted access to the national fibre network upon payment of the first monthly payment of $100,000 USD to National Fibre Infrastructure.",
@@ -3683,8 +3895,8 @@
       "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
       "contracts": [
         {
-          "id": "1.0",
-          "awardID": "1.0",
+          "id": "1",
+          "awardID": "1",
           "implementation": {
             "transactions": [
               {
@@ -3705,7 +3917,7 @@
                 },
                 "uri": "http://finance.example.gov/spending/a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
                 "relatedImplementationMilestone": {
-                  "id": "7.0",
+                  "id": "7",
                   "title": "Fibre Network Access"
                 }
               },
@@ -3892,7 +4104,7 @@
             ],
             "milestones": [
               {
-                "id": "7.0",
+                "id": "7",
                 "type": "delivery",
                 "title": "Fibre Network Access",
                 "description": "The private party will be granted access to the national fibre network upon payment of the first monthly payment of $100,000 USD to National Fibre Infrastructure.",
@@ -3903,7 +4115,7 @@
             ],
             "documents": [
               {
-                "id": "1.0",
+                "id": "1",
                 "documentType": "physicalProgressReport",
                 "title": "Roll-out progress update - January 2018",
                 "description": "Report detailing progress to date on physical implementation of network infrastructure",
@@ -3931,12 +4143,12 @@
       "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
       "contracts": [
         {
-          "id": "1.0",
-          "awardID": "1.0",
+          "id": "1",
+          "awardID": "1",
           "implementation": {
             "milestones": [
               {
-                "id": "1.0",
+                "id": "1",
                 "type": "delivery",
                 "title": "Initial coverage milestone",
                 "description": "Achieve 30% national coverage",
@@ -3946,7 +4158,7 @@
                 "dateModified": "2019-01-24T00:00:00-06:00"
               },
               {
-                "id": "2.0",
+                "id": "2",
                 "type": "delivery",
                 "title": "3rd anniversary coverage milestone ",
                 "description": "Achieve 50% national coverage",
@@ -3955,7 +4167,7 @@
                 "dateModified": "2019-01-24T00:00:00-06:00"
               },
               {
-                "id": "3.0",
+                "id": "3",
                 "type": "delivery",
                 "title": "4th anniversary coverage milestone",
                 "description": "Achieve 70% national coverage",
@@ -3964,7 +4176,7 @@
                 "dateModified": "2019-01-24T00:00:00-06:00"
               },
               {
-                "id": "4.0",
+                "id": "4",
                 "type": "delivery",
                 "title": "5th anniversary coverage milestone ",
                 "description": "Achieve 85% national coverage",
@@ -3973,7 +4185,7 @@
                 "dateModified": "2019-01-24T00:00:00-06:00"
               },
               {
-                "id": "5.0",
+                "id": "5",
                 "type": "delivery",
                 "title": "6th anniversary coverage milestone ",
                 "description": "Achieve 88.6% national coverage",
@@ -4188,7 +4400,7 @@
             ],
             "performanceFailures": [
               {
-                "id": "1.0",
+                "id": "1",
                 "period": {
                   "startDate": "2018-01-01T00:00:00Z",
                   "endDate": "2018-12-31T23:59:59Z"
@@ -4216,7 +4428,7 @@
       "title": "Example PPP",
       "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
       "preQualification": {
-        "id": "1.0",
+        "id": "1",
         "title": "Example PPP pre-qualification",
         "status": "active",
         "submissionMethod": [
@@ -4255,8 +4467,8 @@
       "description": "The Example PPP project will guarantee the installation of a wholesale shared network that allows the provision of telecommunications services by current and future operators. The project will increase the telecommunication services coverage, promote competitive prices and enhance the quality of services according to international standards.  ",
       "contracts": [
         {
-          "id": "1.0",
-          "awardID": "1.0",
+          "id": "1",
+          "awardID": "1",
           "period": {
             "endDate": "2046-01-23T00:00:00Z"
           },
@@ -4264,7 +4476,7 @@
             {
               "date": "2020-01-24T00:00:00Z",
               "rationale": "The contract was extended in accordance with the provisions in section X.",
-              "id": "1.0",
+              "id": "1",
               "description": "This amendment extends the Example PPP contract to 2046-01-23.",
               "amendsReleaseID": "5.1.1",
               "releaseID": "7.1.1"

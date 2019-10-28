@@ -67,81 +67,9 @@ source_file = build/locale/ppp-schema.pot
 source_lang = en
 type = PO
 
-[ocds-for-ppps.extensions--risk_allocation]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/risk_allocation.po
-source_file = build/locale/extensions/risk_allocation.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--budget]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/budget.po
-source_file = build/locale/extensions/budget.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--ppp]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/ppp.po
-source_file = build/locale/extensions/ppp.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--finance]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/finance.po
-source_file = build/locale/extensions/finance.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--signatories]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/signatories.po
-source_file = build/locale/extensions/signatories.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--performance_failures]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/performance_failures.po
-source_file = build/locale/extensions/performance_failures.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--charges]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/charges.po
-source_file = build/locale/extensions/charges.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--bids]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/bids.po
-source_file = build/locale/extensions/bids.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--metrics]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/metrics.po
-source_file = build/locale/extensions/metrics.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--location]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/location.po
-source_file = build/locale/extensions/location.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--qualification]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/qualification.po
-source_file = build/locale/extensions/qualification.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--requirements]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/requirements.po
-source_file = build/locale/extensions/requirements.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--process_title]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/process_title.po
-source_file = build/locale/extensions/process_title.pot
+[ocds-for-ppps._static--docson--README]
+file_filter = locale/<lang>/LC_MESSAGES/_static/docson/README.po
+source_file = build/locale/_static/docson/README.pot
 source_lang = en
 type = PO
 
@@ -151,51 +79,21 @@ source_file = build/locale/extensions/index.pot
 source_lang = en
 type = PO
 
-[ocds-for-ppps.extensions--tariffs]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/tariffs.po
-source_file = build/locale/extensions/tariffs.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--documentation_details]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/documentation_details.po
-source_file = build/locale/extensions/documentation_details.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--milestone_documents]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/milestone_documents.po
-source_file = build/locale/extensions/milestone_documents.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--shareholders]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/shareholders.po
-source_file = build/locale/extensions/shareholders.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--milestones]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/milestones.po
-source_file = build/locale/extensions/milestones.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--budget_project]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/budget_project.po
-source_file = build/locale/extensions/budget_project.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.extensions--transaction_milestones]
-file_filter = locale/<lang>/LC_MESSAGES/extensions/transaction_milestones.po
-source_file = build/locale/extensions/transaction_milestones.pot
-source_lang = en
-type = PO
-
 [ocds-for-ppps.reference--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/reference/codelists.po
 source_file = build/locale/reference/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-for-ppps.reference--changelog]
+file_filter = locale/<lang>/LC_MESSAGES/reference/changelog.po
+source_file = build/locale/reference/changelog.pot
+source_lang = en
+type = PO
+
+[ocds-for-ppps.reference--browser]
+file_filter = locale/<lang>/LC_MESSAGES/reference/browser.po
+source_file = build/locale/reference/browser.pot
 source_lang = en
 type = PO
 

@@ -1,9 +1,0 @@
-{% macro change_label(change, gettext, class="") %}
-
-{% if change == "new" %}
-<span class="label label-success {{class}}">{{gettext("new")}}</span>
-{% elif change == "changed" %}
-<span class="label label-primary {{class}}">{{gettext("changed")}}</span>
-{% endif %}
-
-{% endmacro %}
