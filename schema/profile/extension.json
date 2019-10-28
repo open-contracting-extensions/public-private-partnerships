@@ -1,11 +1,11 @@
 {
   "name": {
     "en": "OCDS for PPPs Consolidated Extension",
-    "es": "Extensi\u00f3n consolidada EDCA para APPs"
+    "es": "Extensión consolidada EDCA para APPs"
   },
   "description": {
     "en": "Collects together all the extensions which make up the OCDS for PPPs profile into a single extension.",
-    "es": "Re\u00fane todas las extensiones que forman el perfil EDCA para APPs en una sola extensi\u00f3n."
+    "es": "Reúne todas las extensiones que forman el perfil EDCA para APPs en una sola extensión."
   },
   "documentationUrl": {
     "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/",
@@ -22,6 +22,7 @@
     "financeType.csv",
     "locationGazetteers.csv",
     "geometryType.csv",
+    "+partyRole.csv",
     "preQualificationStatus.csv",
     "dataType.csv",
     "relatesTo.csv",
@@ -30,7 +31,6 @@
     "riskCategory.csv",
     "votingRights.csv",
     "+milestoneType.csv",
-    "+partyRole.csv",
     "+releaseTag.csv",
     "-partyRole.csv",
     "documentType.csv",

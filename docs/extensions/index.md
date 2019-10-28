@@ -2,12 +2,9 @@
 
 OCDS for PPPs is constructed using a number of re-usable extensions for the Open Contracting Data Standard.
 
-This section contains detailed documentation for each extension. 
+Please refer to their documentation in the Extension Explorer:
 
 ```eval_rst
-.. toctree::
-   :maxdepth: 2
-   :glob: 
+.. extensionexplorerlinklist::
 
-   *
 ```

@@ -1,16 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2017 Open Contracting Partnership
+# Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ben Webb <ben.webb@opendataservices.coop>, 2017
+# Oscar Montiel <oscar.montiel@okfn.org>, 2017
+# Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2018
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018
+# Sebastian Oliva <sebastian.o@idatosabiertos.org>, 2018
+# Romina Fernandez <rfernandez@cds.com.py>, 2019
+# James McKinney <jmckinney@open-contracting.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 11:55-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2018\n"
+"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"PO-Revision-Date: 2017-05-10 17:01+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -288,7 +298,7 @@ msgstr "**Ejemplo de JSON:**"
 #: ../../docs/framework.md:2941 ../../docs/framework.md:3140
 #: ../../docs/framework.md:3255
 msgid "**Flattened example** (showing top-level fields only)"
-msgstr "**Ejemplo plano** (mostrando sólo los campos de nivel superior"
+msgstr "**Ejemplo plano** (mostrando sólo los campos de nivel superior)"
 
 #: ../../docs/examples/full.json:1
 msgid "planning/project/title"
@@ -1025,8 +1035,8 @@ msgstr "planning/documents/0/author"
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "1.0"
-msgstr "1.0"
+msgid "1"
+msgstr "1"
 
 #: ../../docs/examples/full.json:1
 msgid "needsAssessment"
@@ -1034,7 +1044,7 @@ msgstr "needsAssessment"
 
 #: ../../docs/examples/full.json:1
 msgid "Needs Assessment"
-msgstr "Valoración de las necesidades"
+msgstr "Evaluación de Necesidades"
 
 #: ../../docs/examples/full.json:1
 msgid ""
@@ -1287,7 +1297,7 @@ msgstr ""
 
 #: ../../docs/framework.md:0
 msgid "I.10. Project approval dates"
-msgstr "I 10. Fechas de aprobación de proyectos"
+msgstr "I.10. Fechas de aprobación de proyectos"
 
 #: ../../docs/framework.md:538
 msgid "Dates of various approvals"
@@ -1295,11 +1305,12 @@ msgstr "Fechas de varias aprobaciones"
 
 #: ../../docs/framework.md:553
 msgid ""
-"This information can be provided using the [milestones "
-"extension](../extensions/milestones/)."
+"This information can be provided using the [Milestone building "
+"block](http://standard.open-"
+"contracting.org/1.1/en/schema/reference/#milestone)."
 msgstr ""
-"Esta información puede ser proporcionada usando la [extensión de "
-"hitos](../extensions/milestones/)."
+"Esta información puede proveerse usando el [bloque de Hito] (http://standard"
+".open-contracting.org/1.1/es/schema/reference/#milestone)."
 
 #: ../../docs/framework.md:555
 msgid ""
@@ -1355,8 +1366,8 @@ msgstr "planning/milestones/1/dateModified"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "2.0"
-msgstr "2.0"
+msgid "2"
+msgstr "2"
 
 #: ../../docs/examples/full.json:1
 msgid "approval"
@@ -1654,15 +1665,17 @@ msgid ""
 "block](http://standard.open-"
 "contracting.org/1.1/en/schema/reference/#document) for disclosure of "
 "documents which has [a number of available extensions for PPP use "
-"cases](../extensions/documentation_details/)"
+"cases](https://extensions.open-"
+"contracting.org/en/extensions/documentation_details/master/)"
 msgstr ""
-"Los vínculos a los documentos de contrato se pueden proporcionadas usando el"
-" campo `documents en la sección `contract` de una entrega OCDS (el contrato "
-"puede tener un `status` de `pending` hasta que este firmado.) OCDS provee "
-"una [sección base de documentos] (http://standard.open-"
-"contracting.org/1.1/es/schema/reference/#document) para la divulgación de "
-"documentos que tiene disponible una serie de extensiones para casos de uso "
-"APP] (../extensions/documentation_details/)"
+"Pueden proveerse enlaces a los documentos de contratación utilizando el "
+"campo  `documents` en la sección `contracts` de una entrega OCDS (el "
+"contrato puede tener un estado (`status`) de 'pendiente' ('pending') hasta "
+"que sea firmado). El OCDS provee un [bloque de documento](http://standard"
+".open-contracting.org/1.1/es/schema/reference/#document) para la difusión de"
+" documentos que tienen [un número disponible de extensiones para casos de "
+"uso de APP](https://extensions.open-"
+"contracting.org/es/extensions/documentation_details/master/)"
 
 #: ../../docs/framework.md:797
 msgid ""
@@ -2852,8 +2865,8 @@ msgstr ""
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1
-msgid "3.0"
-msgstr "3.0"
+msgid "3"
+msgstr "3"
 
 #: ../../docs/examples/full.json:1
 msgid "environmental"
@@ -2865,8 +2878,8 @@ msgstr "Riesgos ambientales"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1
-msgid "4.0"
-msgstr "4.0"
+msgid "4"
+msgstr "4"
 
 #: ../../docs/examples/full.json:1
 msgid "compliance"
@@ -2881,8 +2894,8 @@ msgstr ""
 "reglamentarias relacionadas con el desarrollo del Proyecto"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "5.0"
-msgstr "5.0"
+msgid "5"
+msgstr "5"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 msgid "construction"
@@ -2897,8 +2910,9 @@ msgstr ""
 "necesarios para el desarrollo del Proyecto"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "6.0"
-msgstr "6.0"
+#: ../../docs/examples/full.json:1
+msgid "6"
+msgstr "6"
 
 #: ../../docs/examples/full.json:1
 msgid ""
@@ -2909,8 +2923,8 @@ msgstr ""
 "necesarios para el desarrollo del Proyecto"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "7.0"
-msgstr "7.0"
+msgid "7"
+msgstr "7"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
 #: ../../docs/examples/full.json:1
@@ -2926,16 +2940,16 @@ msgstr ""
 "cambio y riesgo bancario"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "8.0"
-msgstr "8.0"
+msgid "8"
+msgstr "8"
 
 #: ../../docs/examples/full.json:1
 msgid "Risks related to the financing of the Project"
 msgstr "Riesgos relacionados con la financiación del Proyecto"
 
 #: ../../docs/examples/full.json:1 ../../docs/examples/full.json:1
-msgid "9.0"
-msgstr "9.0"
+msgid "9"
+msgstr "9"
 
 #: ../../docs/examples/full.json:1
 msgid ""
@@ -2945,8 +2959,8 @@ msgstr ""
 "Proyecto"
 
 #: ../../docs/examples/full.json:1
-msgid "10.0"
-msgstr "10.0"
+msgid "10"
+msgstr "10"
 
 #: ../../docs/examples/full.json:1
 msgid "forceMajeure"
@@ -2957,8 +2971,8 @@ msgid "Risks due to fortuitous or force majeure events"
 msgstr "Riesgos debidos a acontecimientos fortuitos o de fuerza mayor"
 
 #: ../../docs/examples/full.json:1
-msgid "11.0"
-msgstr "11.0"
+msgid "11"
+msgstr "11"
 
 #: ../../docs/examples/full.json:1
 msgid "governance"
@@ -2972,8 +2986,8 @@ msgstr ""
 "subcontratistas"
 
 #: ../../docs/examples/full.json:1
-msgid "12.0"
-msgstr "12.0"
+msgid "12"
+msgstr "12"
 
 #: ../../docs/examples/full.json:1
 msgid "Others set forth in, or arising from the execution of, this Agreement"
@@ -5082,10 +5096,6 @@ msgstr "contracts/0/implementation/performanceFailures/penaltyPaid"
 #: ../../docs/examples/full.json:1
 msgid "Service outages outside of scheduled maintenance"
 msgstr "Interrupciones de servicio fuera del mantenimiento programado"
-
-#: ../../docs/examples/full.json:1
-msgid "6"
-msgstr "6"
 
 #: ../../docs/examples/full.json:1
 msgid ""

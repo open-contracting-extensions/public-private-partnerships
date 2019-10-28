@@ -1,16 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2017 Open Contracting Partnership
+# Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ben Webb <ben.webb@opendataservices.coop>, 2017
+# Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018
+# James McKinney <jmckinney@open-contracting.org>, 2018
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Romina Fernandez <rfernandez@cds.com.py>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 11:55-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018\n"
+"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"PO-Revision-Date: 2017-05-10 17:02+0000\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,11 +80,19 @@ msgstr ""
 "Mundial](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
 "/ppp-tools#T1)."
 
+#: ../../docs/technical.md:16
+msgid ""
+"In OCDS for PPPs, there is a one-to-one correspondence between a PPP project"
+" and a contracting process."
+msgstr ""
+"En OCDS para APPs, hay una correspondencia uno-a-uno entre un proyecto APP y"
+" un proceso de contratación."
+
 #: ../../docs/technical.md:0
 msgid "The OCDS for PPPs Schema"
 msgstr "El esquema OCDS para APPs"
 
-#: ../../docs/technical.md:18
+#: ../../docs/technical.md:20
 msgid ""
 "To produce and validate OCDS for PPPs data, create an [OCDS 1.1 "
 "file](http://standard.open-contracting.org/latest/en/schema/), and declare "
@@ -88,7 +104,7 @@ msgstr ""
 "extensión consolidada OCDS para APPs como parte de un entrega o paquete de "
 "records."
 
-#: ../../docs/technical.md:27
+#: ../../docs/technical.md:29
 msgid ""
 "A compiled OCDS for PPPs schema, with the extensions applied, is also  "
 "[available to download](../_static/patched/release-schema.json), and a [full"
@@ -103,7 +119,7 @@ msgstr ""
 msgid "Who is this for?"
 msgstr "¿Para quien es esto?"
 
-#: ../../docs/technical.md:31
+#: ../../docs/technical.md:33
 msgid ""
 "The OCDS for PPPs, and this documentation, is designed for systems "
 "designers, seeking to:"
@@ -111,24 +127,24 @@ msgstr ""
 "El OCDS para APPs, y esta documentación, están diseñados para diseñadores de"
 " sistemas, buscando:"
 
-#: ../../docs/technical.md:33
+#: ../../docs/technical.md:35
 msgid "Build data collection processes for PPP disclosure;"
 msgstr "Crear procesos de recolección de datos para la divulgación de APP;"
 
-#: ../../docs/technical.md:34
+#: ../../docs/technical.md:36
 msgid "Integrate existing PPP disclosures from existing systems;"
 msgstr ""
 "Integrar las divulgaciones existentes de APP de los sistemas actuales;"
 
-#: ../../docs/technical.md:35
+#: ../../docs/technical.md:37
 msgid "Export and publish PPP disclosures in a common format;"
 msgstr "Exportar y publicar divulgaciones de APP en un formato común;"
 
-#: ../../docs/technical.md:36
+#: ../../docs/technical.md:38
 msgid "Present and visualize PPP disclosures;"
 msgstr "Presentar y visualizar las divulgaciones de APP;"
 
-#: ../../docs/technical.md:38
+#: ../../docs/technical.md:40
 msgid ""
 "OCDS for PPPs provide a data model. Additional design work will be required "
 "to develop interfaces and workflows appropriate to the collection and "
@@ -138,7 +154,7 @@ msgstr ""
 "diseño adicional para desarrollar interfaces y flujos de trabajo apropiados "
 "para la recolección y diseminación de datos caso por caso."
 
-#: ../../docs/technical.md:40
+#: ../../docs/technical.md:42
 msgid ""
 "The extended OCDS for PPPs schema and [reference "
 "documentation](framework.md) can be used as a 'checklist' to ensure that "
@@ -150,7 +166,7 @@ msgstr ""
 "para asegurar que la información se está capturando en todos los aspectos "
 "requeridos del marco y en los momentos apropiados."
 
-#: ../../docs/technical.md:42
+#: ../../docs/technical.md:44
 msgid ""
 "This documentation is **not** designed for individual PPP project managers. "
 "If you want to directly publish data on a PPP project to meet with World "
@@ -170,19 +186,19 @@ msgstr ""
 msgid "How to use this documentation"
 msgstr "Cómo utilizar esta documentación"
 
-#: ../../docs/technical.md:46
+#: ../../docs/technical.md:48
 msgid "First review:"
 msgstr "Primera revisión:"
 
-#: ../../docs/technical.md:48
+#: ../../docs/technical.md:50
 msgid ""
-"The [core Open Contracting Data Standard documentation](http://standard"
-".open-contracting.org/latest/en/getting_started/);"
+"The [Open Contracting Data Standard documentation](http://standard.open-"
+"contracting.org/latest/en/getting_started/);"
 msgstr ""
-"La [documentación básica del Estándar de Datos de Contrataciones "
-"Abiertas](http://standard.open-contracting.org/latest/en/getting_started/);"
+"La [documentación del Estándar de Datos de Contrataciones "
+"Abiertas](http://standard.open-contracting.org/latest/es/getting_started/);"
 
-#: ../../docs/technical.md:49
+#: ../../docs/technical.md:51
 msgid ""
 "The [World Bank Framework for Disclosure in Public Private "
 "Partnerships](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a"
@@ -193,7 +209,7 @@ msgstr ""
 "Mundial](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a"
 "-framework-for-disclosure-in-public-private-partnership-projects)"
 
-#: ../../docs/technical.md:51
+#: ../../docs/technical.md:53
 msgid ""
 "Then consult the [reference](framework.md) pages to see how each element "
 "from the PPP Disclosure Framework template can be captured using OCDS."

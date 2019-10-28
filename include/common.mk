@@ -1,5 +1,5 @@
 # Update this file from a profile with:
-# curl -O https://raw.githubusercontent.com/open-contracting/standard_profile_template/master/include/common.mk
+# curl https://raw.githubusercontent.com/open-contracting/standard_profile_template/master/include/common.mk -o include/common.mk
 
 # See https://github.com/datamade/data-making-guidelines
 
@@ -36,11 +36,11 @@ $(POT_DIR):
 
 .PHONY: extract_codelists
 extract_codelists: $(POT_DIR)
-	pybabel extract -F .babel_codelists . -o $(POT_DIR)/$(DOMAIN_PREFIX)codelists.pot
+	pybabel extract -F babel_ocds_codelist.cfg . -o $(POT_DIR)/$(DOMAIN_PREFIX)codelists.pot
 
 .PHONY: extract_schema
 extract_schema: $(POT_DIR)
-	pybabel extract -F .babel_schema . -o $(POT_DIR)/$(DOMAIN_PREFIX)schema.pot
+	pybabel extract -F babel_ocds_schema.cfg . -o $(POT_DIR)/$(DOMAIN_PREFIX)schema.pot
 
 # The codelist CSV files and JSON Schema files must be present for the `csv-table-no-translate` and `jsonschema`
 # directives to succeed, but the contents of the files have no effect on the generated .pot files.
@@ -86,16 +86,12 @@ pull:
 # (Don't use clean_current_lang as a prerequisite, as then it won't run as a prerequisite later.)
 $(LANGUAGES:.%=current_lang.%): current_lang.%: FORCE
 	rm -f $(BUILD_DIR)/current_lang
-	rm -f $(BUILD_DIR)/codelists/current_lang
-	mkdir -p $(BUILD_DIR)/codelists
 	ln -s $* $(BUILD_DIR)/current_lang
-	ln -s $* $(BUILD_DIR)/codelists/current_lang
 
 # Deploy script complains if current_lang is present.
 .PHONY: clean_current_lang
 clean_current_lang:
 	rm $(BUILD_DIR)/current_lang
-	rm $(BUILD_DIR)/codelists/current_lang
 
 ### Build
 

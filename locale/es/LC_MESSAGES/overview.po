@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2017 Open Contracting Partnership
+# Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ben Webb <ben.webb@opendataservices.coop>, 2017
+# James McKinney <jmckinney@open-contracting.org>, 2018
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 11:55-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
+"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"PO-Revision-Date: 2017-05-10 17:01+0000\n"
+"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -218,8 +223,11 @@ msgstr ""
 
 #: ../../docs/overview.md:82
 msgid ""
-"You can explore a [preview of OCDS show with example data](../_static/ocds-"
-"show/?load=../full.json)."
+"You can explore a [preview of OCDS Show with example data](https://open-"
+"contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com"
+"/open-contracting/ocds-show-ppp/gh-pages/example/full.json)."
 msgstr ""
-"Puede explorar una [vista previa de OCDS show con datos de "
-"ejemplo](../_static/ocds-show/?load=../full.json)."
+"Puede explorar una [vista previa de OCDS Show con datos de ejemplo](https"
+"://open-contracting.github.io/ocds-show-"
+"ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp"
+"/gh-pages/example/full.json)."
