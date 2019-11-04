@@ -10,7 +10,7 @@ This allows different stakeholders to understand how a project has developed.
 
 ```eval_rst
 .. image:: _assets/ocds_show.png
-   :target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/gh-pages/example/full.json
+   :target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
 ```
 
 Based on our pilot work with the Red Compartida programme, we have created a fictional example PPP.
