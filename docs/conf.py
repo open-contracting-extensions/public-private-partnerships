@@ -22,7 +22,6 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import os
 import re
-from collections import OrderedDict
 from glob import glob
 from pathlib import Path
 
@@ -153,27 +152,27 @@ gettext_domain_prefix = '{}-'.format(profile_identifier)
 
 # List the extension identifiers and versions that should be part of this profile. The extensions must be available in
 # the extension registry: https://github.com/open-contracting/extension_registry/blob/master/extension_versions.csv
-extension_versions = OrderedDict([
-    ('bids', 'v1.1.4'),
-    ('budget', 'master'),
-    ('budget_project', 'master'),
-    ('charges', 'master'),
-    ('documentation_details', 'master'),
-    ('finance', 'master'),
-    ('location', 'v1.1.4'),
-    ('metrics', 'master'),
-    ('milestone_documents', 'v1.1.4'),
-    ('performance_failures', 'master'),
-    ('process_title', 'v1.1.4'),
-    ('qualification', 'master'),
-    ('requirements', 'master'),
-    ('risk_allocation', 'master'),
-    ('shareholders', 'master'),
-    ('signatories', 'master'),
-    ('tariffs', 'master'),
-    ('transaction_milestones', 'master'),
-    ('ppp', 'master'),
-])
+extension_versions = {
+    'bids': 'v1.1.4',
+    'budget': 'master',
+    'budget_project': 'master',
+    'charges': 'master',
+    'documentation_details': 'master',
+    'finance': 'master',
+    'location': 'v1.1.4',
+    'metrics': 'master',
+    'milestone_documents': 'v1.1.4',
+    'performance_failures': 'master',
+    'process_title': 'v1.1.4',
+    'qualification': 'master',
+    'requirements': 'master',
+    'risk_allocation': 'master',
+    'shareholders': 'master',
+    'signatories': 'master',
+    'tariffs': 'master',
+    'transaction_milestones': 'master',
+    'ppp': 'master',
+}
 
 
 def setup(app):
