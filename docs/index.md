@@ -32,7 +32,7 @@ Contents:
    example
 
    reference/index
-   extensions/index
+   extensions
 
    governance
 ```
