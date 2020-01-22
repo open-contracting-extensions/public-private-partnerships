@@ -1,7 +1,7 @@
 # Framework reference
 
 ```eval_rst
-.. image:: _assets/disclosure-framework.png
+.. image:: _static/images/disclosure-framework.png
 ```
 
 [The World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects. 
