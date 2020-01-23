@@ -6,17 +6,17 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018
-# James McKinney <jmckinney@open-contracting.org>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
+# James McKinney <jmckinney@open-contracting.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2019\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/example.md:0
+#: ../../docs/example.md:1
 msgid "Worked Example"
 msgstr "Ejemplo Desarrollado"
 
@@ -52,7 +52,7 @@ msgstr ""
 "Esto permite a las diferentes partes interesadas comprender cómo se ha "
 "desarrollado un proyecto."
 
-#: ../../docs/example.md:0
+#: ../../docs/example.md:9
 msgid "Details"
 msgstr "Detalles"
 
@@ -104,7 +104,7 @@ msgstr "Alertas sobre campos modificados entre diferentes entregas;"
 msgid "Example visualization of data;"
 msgstr "Ejemplo de visualización de datos;"
 
-#: ../../docs/example.md:0
+#: ../../docs/example.md:28
 msgid "Explore the example"
 msgstr "Explora el ejemplo"
 

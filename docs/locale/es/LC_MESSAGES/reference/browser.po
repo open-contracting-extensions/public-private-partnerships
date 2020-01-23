@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2019-10-25 17:35+0000\n"
 "Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/reference/browser.md:0
+#: ../../docs/reference/browser.md:1
 msgid "Schema browser"
 msgstr "Navegador de esquema"
 

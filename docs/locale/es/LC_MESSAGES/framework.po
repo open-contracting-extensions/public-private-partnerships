@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1
 msgid "Framework reference"
 msgstr "Referencia del marco de referencia"
 
@@ -81,7 +81,7 @@ msgstr ""
 "contratación se puede encontrar en la [sección de calendario de "
 "publicación](timing.md)."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:15
 msgid "I. Basic Project Information"
 msgstr "I. Información Básica del Proyecto"
 
@@ -227,7 +227,7 @@ msgstr "I"
 msgid "R"
 msgstr "R"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:30
 msgid "I.1. Name, location and sector"
 msgstr "I.1. Nombre, localización y sector"
 
@@ -338,7 +338,7 @@ msgstr "example_ppp"
 msgid "http://communications.gov.example/projects/example_ppp"
 msgstr "http://communications.gov.example/projects/example_ppp"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:52
 msgid "I.1.1. Project name and description"
 msgstr "I.1.1. Nombre y descripción del proyecto"
 
@@ -705,7 +705,7 @@ msgstr "Formato"
 msgid "Required"
 msgstr "Requerido"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:67
 msgid "I.1.2. Project sector"
 msgstr "I.1.2. Sector del proyecto"
 
@@ -727,7 +727,7 @@ msgstr ""
 "en uso, y por lo tanto proporciona un marco común para comprender el enfoque"
 " sectorial de las inversiones."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:82
 msgid "I.1.2.1. Project sector (additional)"
 msgstr "I.1.2.1. Sector del proyecto (adicional)"
 
@@ -751,7 +751,7 @@ msgstr ""
 "la clasificación de proyectos en relación con los Objetivos de Desarrollo "
 "Sostenible (SDG), o contra marcos nacionales."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:97
 msgid "I.1.3. Project location"
 msgstr "I.1.3. Localización del proyecto"
 
@@ -784,11 +784,11 @@ msgstr ""
 "Hay una gama de herramientas disponibles para generar datos GeoJSON, como "
 "[http://geojson.io/](http://geojson.io)"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:115
 msgid "I.2. Sponsoring agency/department"
 msgstr "I.2. Agencia/departamento patrocinador"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:117
 msgid "I.2.1. Organization details"
 msgstr "I.2.1. Detalles de la organización"
 
@@ -887,7 +887,7 @@ msgstr "Promotor de Telecomunicaciones"
 msgid "publicAuthority"
 msgstr "publicAuthority"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:161
 msgid "I.2.2. Organization reference"
 msgstr "I.2.2. Referencia de la organización"
 
@@ -908,7 +908,7 @@ msgstr "publicAuthority/id"
 msgid "publicAuthority/name"
 msgstr "publicAuthority/name"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:203
 msgid "I.3. Project value"
 msgstr "I.3. Valor del proyecto"
 
@@ -918,7 +918,7 @@ msgstr ""
 "Se puede especificar el valor de un proyecto en un número de puntos en el "
 "tiempo."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:207
 msgid "I.3.1. Planned value"
 msgstr "I.3.1. Valor planeado"
 
@@ -927,7 +927,7 @@ msgid "The value, or range of values, anticipated during the planning stage."
 msgstr ""
 "El valor, o rango de valores que se anticipó durante la etapa de planeación."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:233
 msgid "I.3.2. Tender value"
 msgstr "I.3.2. Valor de licitación"
 
@@ -937,7 +937,7 @@ msgstr ""
 "El valor, o rango de valores, en el anuncio de una licitación para el "
 "proyecto."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:246
 msgid "I.3.3. Award value"
 msgstr "I.3.3. Valor de la adjudicación"
 
@@ -945,7 +945,7 @@ msgstr "I.3.3. Valor de la adjudicación"
 msgid "The value of the project at time of contract award."
 msgstr "El valor del proyecto en el momento de la adjudicación del contrato."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:259
 msgid "I.3.4. Contract value"
 msgstr "I.3.4. Valor del contrato"
 
@@ -953,7 +953,7 @@ msgstr "I.3.4. Valor del contrato"
 msgid "The total value of the project agreed in the contract(s)."
 msgstr "El valor total del proyecto acordado en el o los contrato(s)."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:272
 msgid "I.4. Project economic and social benefits"
 msgstr "I.4. Beneficios económicos y sociales del proyecto"
 
@@ -1078,7 +1078,7 @@ msgstr "en"
 msgid "Example Consultancy Services Ltd"
 msgstr "Example Consultancy Services Ltd"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:321
 msgid "I.5. Project technical description"
 msgstr "I.5. Descripción técnica del proyecto"
 
@@ -1128,7 +1128,7 @@ msgstr ""
 "**Ejemplo**: Ver [sección I.4](#i-4-project-economic-and-social-benefits) "
 "para JSON y ejemplos planos del bloque `documents`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:356
 msgid "I.6. Project high level description"
 msgstr "I.6. Descripción general del proyecto"
 
@@ -1149,7 +1149,7 @@ msgstr ""
 "Estos documentos deben estar etiquetados con el valor `documentType` de "
 "'serviceDescription' en la matriz de ` tender/documents`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:391
 msgid "I.7. Estimated project demand"
 msgstr "I.7. Demanda estimada del proyecto"
 
@@ -1157,7 +1157,7 @@ msgstr "I.7. Demanda estimada del proyecto"
 msgid "Estimated demand to be served annually"
 msgstr "Demanda estimada a ser servida anualmente"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:408
 msgid "I.7.1. Structured information on estimated demand"
 msgstr "I.7.1. Información estructurada sobre la demanda estimada"
 
@@ -1214,7 +1214,7 @@ msgstr "Demanda anual"
 msgid "Annual 4G traffic measured in gigabytes"
 msgstr "El tráfico anual 4G medido en gigabytes"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:441
 msgid "I.7.2. Estimated demand documentation"
 msgstr "I.7.2. Documentación de la demanda estimada"
 
@@ -1233,7 +1233,7 @@ msgstr ""
 "Estos documentos deben estar etiquetados con un valor `documentType` de "
 "'estimatedDemand' en la matriz `planning/documents`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:461
 msgid "I.8. Project additionality"
 msgstr "I.8. Adicionalidad del proyecto"
 
@@ -1271,7 +1271,7 @@ msgstr ""
 "'projectAdditionality' o 'financeAdditionality' en la matriz "
 "`planning/documents`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:501
 msgid "I.9. Reasons for selection of PPP mode (general)"
 msgstr "I.9. Razones para la selección de la forma APP (general)"
 
@@ -1295,7 +1295,7 @@ msgstr ""
 "Estos documentos deben ser etiquetados con un valor `documentType` de "
 "'pppModeRationale' en la matriz `planning/documents`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:536
 msgid "I.10. Project approval dates"
 msgstr "I.10. Fechas de aprobación de proyectos"
 
@@ -1392,7 +1392,7 @@ msgstr "met"
 msgid "2015-01-01T00:00:00-06:00"
 msgstr "2015-01-01T00:00:00-06:00"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:584
 msgid "I.11. Contract Milestones"
 msgstr "I.11. Hitos del Contrato"
 
@@ -1413,7 +1413,7 @@ msgstr ""
 " o enlaces a la documentación, utilizando el bloque de documentos para "
 "hitos."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:599
 msgid "I.11.1. Contract milestones - Date of commercial close"
 msgstr "I.11.1. Hitos del contrato - Fecha de cierre comercial"
 
@@ -1454,7 +1454,7 @@ msgstr ""
 "**Ejemplo**: Consulte [sección I.10](#i-10-project-approval-dates) para ver "
 "ejemplos planos y JSON del bloque de `milestones`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:622
 msgid "I.11.2. Contract milestones - Date of financial close"
 msgstr "I.11.2. Hitos del contrato - Fecha del cierre financiero"
 
@@ -1495,7 +1495,7 @@ msgstr ""
 "y un estado` scheduled` o `met` ya sea con la fecha en que se alcanzó este "
 "hito en `dateMet`, o la fecha programada en `dueDate`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:647
 msgid "I.12. Implementation milestones"
 msgstr "I.12. Hitos de implementación"
 
@@ -1503,7 +1503,7 @@ msgstr "I.12. Hitos de implementación"
 msgid "Key events relating to the implementation of the project."
 msgstr "Eventos claves relacionados con la implementación del proyecto."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:662
 msgid ""
 "I.12.1. Implementation milestones - Date of commencement of construction or "
 "development"
@@ -1531,7 +1531,7 @@ msgstr ""
 " con la fecha en que se alcanzó este hito en `dateMet`, o la fecha "
 "programada en `dueDate`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:683
 msgid ""
 "I.12.2. Implementation milestones - Date of completion of construction or "
 "development"
@@ -1559,7 +1559,7 @@ msgstr ""
 "`met` con la fecha en que se alcanzó este hito en `dateMet`, o la fecha "
 "programada en `dueDate`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:704
 msgid "I.12.3. Implementation milestones - Date of commissioning"
 msgstr "I.12.3. Hitos de implementación - Fecha de puesta en marcha"
 
@@ -1588,7 +1588,7 @@ msgstr ""
 " un estado `scheduled` o `met` ya sea con la fecha en que se alcanzó este "
 "hito en `dateMet`, o la fecha programada en `dueDate`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:727
 msgid "I.12.4. Implementation milestones - Date of contract expiry"
 msgstr "I.12.4. Hitos de implementación - Fecha de vencimiento del contrato"
 
@@ -1649,7 +1649,7 @@ msgstr "2016-01-24T00:00:00Z"
 msgid "2036-01-23T00:00:00Z"
 msgstr "2036-01-23T00:00:00Z"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:778
 msgid "I.13. Contract documents"
 msgstr "I.13. Documentos del contrato"
 
@@ -1691,7 +1691,7 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se esta "
 "presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:810
 msgid "I.14. Contract parties - public authority"
 msgstr "I.14. Partes del contrato - autoridad pública"
 
@@ -1713,7 +1713,7 @@ msgstr ""
 "contratando el proyecto. La contraparte pública en el contrato de APP. "
 "([Fuente](https://ppp-certification.com/ppp-certification-guide/glossary))"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:816
 msgid "I.14.1. Contract signatories"
 msgstr "I.14.1. Firmantes del contrato"
 
@@ -1769,7 +1769,7 @@ msgstr "MEGA"
 msgid "Mega Consortium Ltd"
 msgstr "Mega Consortium Ltd"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:858
 msgid "I.14.2. Organization details"
 msgstr "I.14.2. Detalles de la organización"
 
@@ -1787,7 +1787,7 @@ msgstr ""
 "contracting.org/1.1/es/schema/reference/#organization) para revelar "
 "información sobre las organizaciones y sus roles."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:902
 msgid "I.14.3. Organization reference"
 msgstr "I.14.3. Referencia de la organización"
 
@@ -1799,7 +1799,7 @@ msgstr ""
 "La sección `publicAuthority` de una entrega de OCDS debe usarse para hacer "
 "referencia a la entrada de la autoridad pública en la sección `partes`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:944
 msgid "I.15. Contract parties - private party"
 msgstr "I.15. Partes del contrato - parte privada"
 
@@ -1825,7 +1825,7 @@ msgstr ""
 "de Propósito Especial o SPV. ([Fuente](https://ppp-certification.com/ppp-"
 "certification-guide/glossary))"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:950
 msgid "I.15.1. Contract signatories"
 msgstr "I.15.1. Firmantes del contrato"
 
@@ -1839,7 +1839,7 @@ msgstr ""
 "a las entradas en la sección ` parties` para todos los signatarios del "
 "contrato, incluida la parte privada."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:979
 msgid "I.15.2. Organization details"
 msgstr "I.15.2. Detalles de la organización"
 
@@ -1889,7 +1889,7 @@ msgstr "parties/0/roles"
 msgid "privateParty"
 msgstr "privateParty"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1010
 msgid "I.15.3. Organization reference"
 msgstr "I.15.3. Referencia de la organización"
 
@@ -1914,7 +1914,7 @@ msgstr "awards/0/preferredBidders/name"
 msgid "Mega Consortium"
 msgstr "Mega Consorcio"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1039
 msgid "I.16. Contract parties - financiers"
 msgstr "I.16. Partes del contrato - Financieros"
 
@@ -1927,7 +1927,7 @@ msgstr ""
 "financieras, nombre del representante de la oficina principal, dirección, "
 "teléfono, fax, correo electrónico"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1043
 msgid "I.16.1. Organization details"
 msgstr "I.16.1. Detalles de la organización"
 
@@ -1982,7 +1982,7 @@ msgstr "Big Bank Corp"
 msgid "leadBank"
 msgstr "leadBank"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1074
 msgid "I.16.2. Contract signatories"
 msgstr "I.16.2. Firmantes de contratos"
 
@@ -1996,7 +1996,7 @@ msgstr ""
 "referencia a las entradas en la sección `parties` para todos los signatarios"
 " del contrato, incluyendo a los financieros que firmen."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1103
 msgid "II. Procurement Information"
 msgstr "II. Información de Adquisiciones"
 
@@ -2012,7 +2012,7 @@ msgstr ""
 "terrenos, información social, ambiental y de rehabilitación, informes de "
 "auditores independientes de adquisiciones (si los hay)"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1107
 msgid "II.1. Pre qualification"
 msgstr "II.1. Pre-calificación"
 
@@ -2028,7 +2028,7 @@ msgstr ""
 "solicitud de propuestas. ([Fuente](https://ppp-certification.com/ppp-"
 "certification-guide/glossary))"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1111
 msgid "II.1.1. Dates - Submission period"
 msgstr "II.1.1. Fechas - Periodo de sumisión"
 
@@ -2059,7 +2059,7 @@ msgstr "2015-10-31T00:00:00Z"
 msgid "2015-11-30T00:00:00Z"
 msgstr "2015-11-30T00:00:00Z"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1153
 msgid "II.1.2. Dates - Enquiry period"
 msgstr "II.1.2. Fechas - Período de consulta"
 
@@ -2083,7 +2083,7 @@ msgstr "preQualification/enquiryPeriod/endDate"
 msgid "2015-11-06T23:59:59Z"
 msgstr "2015-11-06T23:59:59Z"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1195
 msgid "II.1.3. Dates - Qualification period"
 msgstr "II.1.3. Fechas - Periodo de calificación"
 
@@ -2113,7 +2113,7 @@ msgstr "2015-12-01T00:00:00Z"
 msgid "2015-12-01T23:59:59Z"
 msgstr "2015-12-01T23:59:59Z"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1237
 msgid "II.1.4. Summary details - Submission method"
 msgstr "II.1.4. Resumen de detalles - Método de sumisión"
 
@@ -2146,7 +2146,7 @@ msgstr ""
 "correo electrónico en el portal electrónico en "
 "http://eprocurement.example.gov"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1281
 msgid "II.1.5. Summary details - Eligibility criteria"
 msgstr "II.1.5. Resumen de detalles - Criterios de elegibilidad"
 
@@ -2170,7 +2170,7 @@ msgstr ""
 "Todas las partes interesadas pueden presentar una respuesta a la solicitud "
 "de oferta"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1325
 msgid "II.1.6. RFQ documents"
 msgstr "II.1.6. Documentos de solicitud de oferta"
 
@@ -2223,7 +2223,7 @@ msgstr ""
 " deberá ser ingresado al campo `document/documentType` para identificar el "
 "tipo de documento que se esta presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1346
 msgid "II.2. List of pre-qualified suppliers"
 msgstr "II.2. Lista de proveedores pre-calificados"
 
@@ -2274,7 +2274,7 @@ msgstr ""
 "**Ejemplo**: Consulte [sección I.14.2](#i-14-2-organization-details) para "
 "ejemplos JSON y planos del bloque `organization`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1367
 msgid "II.3. Tender"
 msgstr "II.3. Licitación"
 
@@ -2288,7 +2288,7 @@ msgstr ""
 " proyecto. ([Fuente](https://ppp-certification.com/ppp-certification-"
 "guide/glossary))"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1371
 msgid "II.3.1. Dates - Tender period"
 msgstr "II.3.1. Fechas - Período de licitación"
 
@@ -2319,7 +2319,7 @@ msgstr "2016-01-29T01:00:00+02:00"
 msgid "2016-08-08T01:00:00+02:00"
 msgstr "2016-08-08T01:00:00+02:00"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1413
 msgid "II.3.2. Dates - Enquiry period"
 msgstr "II.3.2. Fechas - Período de consulta"
 
@@ -2396,7 +2396,7 @@ msgstr ""
 "en estos casos el mismo enfoque debería aplicarse a los campos equivalentes "
 "de la sección `prequalification` de una entrega de OCDS ."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1462
 msgid "II.3.3. Dates - Award period"
 msgstr "II.3.2. Fechas - Período de adjudicación"
 
@@ -2420,7 +2420,7 @@ msgstr "tender/awardPeriod/endDate"
 msgid "2016-12-09T01:00:00+01:00"
 msgstr "2016-12-09T01:00:00+01:00"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1504
 msgid "II.3.4. Dates - Contract period"
 msgstr "II.3.4. Fechas - Período de contratación"
 
@@ -2432,7 +2432,7 @@ msgstr ""
 "El campo `tender/contractPeriod` debe utilizarse para proporcionar las "
 "fechas de inicio y de finalización previstas para el contrato."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1547
 msgid "II.3.5. Summary details - Procurement method"
 msgstr "II.3.5. Resumen de detalles - Método de adquisición"
 
@@ -2478,7 +2478,7 @@ msgstr ""
 "licitadores. El proceso de evaluación eliminará a los licitadores que no "
 "cumplan con los requisitos técnicos o financieros para el proyecto."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1591
 msgid "II.3.6. Summary details - Submission method"
 msgstr "II.3.6. Resumen de detalles - Método de sumisión"
 
@@ -2520,7 +2520,7 @@ msgstr ""
 "de la propuesta es: Ministerio de Comunicaciones, 1 Calle Principal, "
 "Capital, EStado Capital, CS 123456"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1635
 msgid "II.3.7. Summary details - Eligibility criteria"
 msgstr "II.3.7. Resumen de detalles - Criterios de elegibilidad"
 
@@ -2545,7 +2545,7 @@ msgstr ""
 "financiera y técnica con diversos documentos establecidos en las bases de "
 "licitación."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1679
 msgid "II.3.9. Other Documents"
 msgstr "II.3.9. Otros documentos"
 
@@ -2576,7 +2576,7 @@ msgstr ""
 "Cada documento deberá ser etiquetado con un valor `documentType` apropiado "
 "de la lista de codigo [document type](../reference/codelists/#documenttype)."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1709
 msgid "II.4. Evaluation criteria"
 msgstr "II.4. Criterios de evaluación"
 
@@ -2630,7 +2630,7 @@ msgstr ""
 "type](../reference/codelists/#documenttype)) para identificar el tipo de "
 "documento que se esta presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1730
 msgid "II.5. Evaluation committee information"
 msgstr "II.5. Información del comité de evaluación"
 
@@ -2665,7 +2665,7 @@ msgstr ""
 "campo `document/documentType` para identificar el tipo de documento que se "
 "esta presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1751
 msgid "II.6. Negotiation parameters"
 msgstr "II.6. Parámetros de negociación"
 
@@ -2689,7 +2689,7 @@ msgstr ""
 "deberá  ser ingresado al campo `document/documentType` para identificar el "
 "tipo de documento que se esta presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1772
 msgid "II.7. Pre-bid meeting minutes"
 msgstr "II.7. Minutas de la reunión previa a la oferta"
 
@@ -2708,11 +2708,11 @@ msgstr ""
 "de  `minutes` deberá ser ingresado al campo `document/documentType` para "
 "identificar el tipo de documento que se esta presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1793
 msgid "II.8. Contract award"
 msgstr "II.8. Adjudicación del contrato"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1795
 msgid "II.8.1. Organization details"
 msgstr "II.8.1. Detalles de la organización"
 
@@ -2744,7 +2744,7 @@ msgstr ""
 msgid "preferredBidder"
 msgstr "preferredBidder"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1826
 msgid "II.8.2. Organization reference"
 msgstr "II.8.2. Referencia de la organización"
 
@@ -2756,11 +2756,11 @@ msgstr ""
 "La sección `award` de una entrega de OCDS debe usarse para hacer referencia "
 "a la entrada para el licitador preferido en la sección `parties`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1855
 msgid "III. Risk"
 msgstr "III. Riesgo"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1857
 msgid "III.1. Individual risk allocation information"
 msgstr "III.1. Información de asignación de riesgos individuales"
 
@@ -2791,7 +2791,7 @@ msgstr ""
 "específico que puede implicar compartir el riesgo. ([Fuente](https://ppp-"
 "certification.com/ppp-certification-guide/glossary))"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1863
 msgid "III.1.1. Structured risk allocation information"
 msgstr "III.1.1. Información estructurada sobre la asignación de riesgos"
 
@@ -2998,7 +2998,7 @@ msgid "The private party assumes all risks relating to the project."
 msgstr ""
 "La parte privada asume todos los riesgos relacionados con el proyecto."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1900
 msgid "III.1.2. Additional financial modelling for risks"
 msgstr "III.1.2. Modelación financiera adicional de riegos"
 
@@ -3011,11 +3011,11 @@ msgstr ""
 "vincularse o proporcionarse en un documento, utilizando un `documentType` de"
 " `riskProvisions`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1915
 msgid "IV. Evaluation of PPP option"
 msgstr "IV. Evaluación de la opción APP"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1917
 msgid "IV.1. Evaluation report"
 msgstr "IV.1. Reporte de evaluación"
 
@@ -3050,11 +3050,11 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se esta "
 "presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1938
 msgid "IV.2. Summary data"
 msgstr "IV.2. Datos resumidos"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1940
 msgid "IV.2.1. Rationale for project as PPP (specific)"
 msgstr "IV.2.1. Justificación del proyecto como APP (específico)"
 
@@ -3093,7 +3093,7 @@ msgstr ""
 "`document/documentType`  para identificar el tipo de documento que se esta "
 "presentando."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1963
 msgid "IV.2.2.1. Discount rate and risk premium - structured data"
 msgstr "IV.2.2.1. Tasa de descuento y prima de riesgo - datos estructurados"
 
@@ -3160,7 +3160,7 @@ msgstr "0.03"
 msgid "Based on the current long term public sector bond rate"
 msgstr "Basado en la actual tasa de bonos del sector público a largo plazo"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:1994
 msgid "IV.2.2.2. Discount rate and risk premium - supporting documentation"
 msgstr ""
 "IV.2.2.2. Tasa de descuento y prima de riesgo - documentación de apoyo"
@@ -3193,7 +3193,7 @@ msgstr ""
 "de `discountRate` se deberá de ingresar en el campo `document/documentType` "
 "para identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2013
 msgid "IV.2.3. Risk comparison"
 msgstr "IV.2.3. Comparación de riesgos"
 
@@ -3215,11 +3215,11 @@ msgstr ""
 "deberá de ingresar en el campo `document/documentType` para identificar el "
 "tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2034
 msgid "V. Financial Information"
 msgstr "V. Información Financiera"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2036
 msgid "V.1. Debt-equity ratio"
 msgstr "V.1. Proporción de capital de la deuda"
 
@@ -3259,7 +3259,7 @@ msgstr ""
 "cumplir con una aportación de capital de al menos 30% del valor total de la "
 "empresa"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2069
 msgid "V.2. Share capital"
 msgstr "V.2. Capital accionario"
 
@@ -3288,7 +3288,7 @@ msgstr ""
 "Consulta las secciones contract.financing  y shareholders para obtener más "
 "detalles."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2102
 msgid "V.3. Shareholders with proportion held and voting rights"
 msgstr "V.3. Accionistas con proporción mantenida y derechos de voto"
 
@@ -3296,7 +3296,7 @@ msgstr "V.3. Accionistas con proporción mantenida y derechos de voto"
 msgid "Shareholders with proportion held and voting rights"
 msgstr "Accionistas con proporción mantenida y derechos de voto"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2106
 msgid "V.3.1. Shareholder organization details"
 msgstr "V.3.1. Detalles de organización de accionistas"
 
@@ -3330,7 +3330,7 @@ msgstr "Alpha Holdings Ltd"
 msgid "equityInvestor"
 msgstr "equityInvestor"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2137
 msgid "V.3.1. Proportion held and voting rights"
 msgstr "V.3.1. Proporción mantenida y derechos de voto"
 
@@ -3411,7 +3411,7 @@ msgstr "0.0401"
 msgid "none"
 msgstr "ninguna"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2166
 msgid "V.4. Equity transfer caps"
 msgstr "V.4. Topes de transferencia de capital"
 
@@ -3430,7 +3430,7 @@ msgstr ""
 "construcción y durante algunos años después. Detalle las disposiciones de "
 "este tipo.*"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2172
 msgid "V.4.1. Documentation of equity transfer caps"
 msgstr "V.4.1. Documentación de los topes de transferencia de capital"
 
@@ -3460,7 +3460,7 @@ msgstr ""
 "deberá de ingresar en el campo `document/documentType` para identificar el "
 "tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2191
 msgid "V.4.2. Individual shareholder lock in arrangements"
 msgstr "V.4.2. Bloqueo individual de los accionistas en los acuerdos"
 
@@ -3494,7 +3494,7 @@ msgstr "parties/0/shareholders/0/votingRightsDetails"
 msgid "parties/0/shareholders/0/notes"
 msgstr "parties/0/shareholders/0/notes"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2220
 msgid "V.5. Lender and investor information"
 msgstr "V.5. Información de prestamistas e inversores"
 
@@ -3507,7 +3507,7 @@ msgstr ""
 "bilaterales o multilaterales, emisión pública de bonos, crédito de "
 "proveedores, otros"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2224
 msgid "V.5.1. Organization information"
 msgstr "V.5.1. Información de la organización"
 
@@ -3533,7 +3533,7 @@ msgstr ""
 "El campo `organization/roles` debe establecerse en `lender` o "
 "`equityInvestor` según corresponda."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2255
 msgid "V.5.2. Financing information"
 msgstr "V.5.2. Información Financiera"
 
@@ -3604,7 +3604,7 @@ msgstr "False"
 msgid "30.4"
 msgstr "30.4"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2284
 msgid "V.6. Debt information"
 msgstr "V.6. Información de la deuda"
 
@@ -3628,7 +3628,7 @@ msgstr ""
 "*Nota: No todos los campos son obligatorios o aplicables a todos los tipos "
 "de acuerdo de financiamiento.*"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2319
 msgid "V.7. Rate information"
 msgstr "V.7. Información de Tasas"
 
@@ -3661,7 +3661,7 @@ msgstr "contracts/0/finance/0/interestRate/fixed"
 msgid "LIBOR"
 msgstr "LIBOR"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2350
 msgid "V.8. Security information"
 msgstr "V.8. Informacion de seguridad"
 
@@ -3669,7 +3669,7 @@ msgstr "V.8. Informacion de seguridad"
 msgid "Security and step in arrangements"
 msgstr "Seguridad y pasos en los arreglos"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2354
 msgid "V.8.1. Structured security and step in information"
 msgstr "V.8.1. Seguridad estructurada e información de intervención"
 
@@ -3686,7 +3686,7 @@ msgstr ""
 " fijarse para cada arreglo de financiamiento para indicar si se aplican "
 "derechos de intervención."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2385
 msgid "V.8.2. Security and step in documentation"
 msgstr "V.8.2. Seguridad y documentación de intervención"
 
@@ -3702,7 +3702,7 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se "
 "divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2404
 msgid "V.9. Forecast IRR"
 msgstr "V.9. Pronóstico  de TIR "
 
@@ -3728,11 +3728,11 @@ msgstr "contracts/0/financeSummary/projectIRR"
 msgid "0.043"
 msgstr "0.043"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2437
 msgid "VI. Government Support"
 msgstr "VI. Apoyo gubernamental"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2439
 msgid "VI.1. Guarantee information"
 msgstr "VI.1. Información de la garantía"
 
@@ -3750,7 +3750,7 @@ msgstr ""
 "Proporciona vínculos a los compromisos fiscales y los informes de "
 "divulgación de los pasivos contingentes, si los hubiere."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2443
 msgid "VI.1.1. Structured information on guarantees"
 msgstr "VI.1.1. Información estructurada sobre garantías"
 
@@ -3766,7 +3766,7 @@ msgstr ""
 "'guarantee'. Esto permite que se represente la información sobre la parte "
 "que proporciona la garantía, el valor total y cualquier período que cubra."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2456
 msgid "VI.1.2.. Guarantee documentation"
 msgstr "VI.1.2. Documentación de la garantía"
 
@@ -3787,11 +3787,11 @@ msgstr ""
 msgid "A value of `guarantee` should be used in the `documentType` field."
 msgstr "Debe utilizarse un valor `guarantee` en el campo `documentType`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2471
 msgid "VI.2. Grant/Subsidy information"
 msgstr "VI.2. Información de subvención/subsidio"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2473
 msgid "VI.2.1. Subsidy as a proportion of project value"
 msgstr "VI.2.1. Subsidio como proporción del valor del proyecto"
 
@@ -3799,7 +3799,7 @@ msgstr "VI.2.1. Subsidio como proporción del valor del proyecto"
 msgid "Subsidy as a proportion of project value"
 msgstr "Subvención como proporción del valor del proyecto"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2477
 msgid ""
 "VI.2.1. Structured information on subsidy as a proportion of project value"
 msgstr ""
@@ -3832,7 +3832,7 @@ msgstr "0"
 msgid "No government subsidy is provided for the project"
 msgstr "No se otorgó ningún subsidio gubernamental para este proyecto"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2508
 msgid ""
 "VI.2.1. Supporting documentation on subsidy as a proportion of project value"
 msgstr ""
@@ -3865,7 +3865,7 @@ msgstr ""
 "de `grants` se deberá de ingresar en el campo `document/documentType` para "
 "identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2527
 msgid "VI.2.2. Supporting documentation on capital subsidies"
 msgstr "VI.2.2. Documentación de apoyo sobre subsidios de capital"
 
@@ -3896,7 +3896,7 @@ msgstr ""
 "contracting.org/1.1/es/schema/reference/#document) para la divulgación de "
 "documentos."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2548
 msgid "VI.2.3. Supporting documentation on operating subsidies"
 msgstr "VI.2.3. Documentación de apoyo sobre subsidios de funcionamiento"
 
@@ -3904,7 +3904,7 @@ msgstr "VI.2.3. Documentación de apoyo sobre subsidios de funcionamiento"
 msgid "Operating subsidies and their periodicity of milestones"
 msgstr "Subsidios de explotación y periodicidad de los hitos"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2569
 msgid "VI.3. Service payment information"
 msgstr "VI.3. Información sobre pago del servicio"
 
@@ -3917,7 +3917,7 @@ msgstr ""
 "proveedor privado para servicios de infraestructura (aplicable a proyectos "
 "de tipo IFP)"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2573
 msgid "VI.3.1. Structured information on individual service payments"
 msgstr ""
 "VI.3.1. Información estructurada sobre pagos de servicios individuales"
@@ -3961,7 +3961,7 @@ msgstr ""
 msgid "2017-04-01T00:00:00-06:00"
 msgstr "2017-04-01T00:00:00-06:00"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2602
 msgid "VI.3.2. Structured information on total service payments"
 msgstr "VI.3.2. Información estructurada sobre los pagos totales del servicio"
 
@@ -4243,7 +4243,7 @@ msgstr ""
 "Cargos al usuario para el año natural 2035 resultantes de tarifas de 4G, 3G,"
 " voz y sms"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2633
 msgid "VI.3.3. Service payment calculation methodology"
 msgstr "VI.3.3. Metodología de cálculo del pago de servicios"
 
@@ -4263,7 +4263,7 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se "
 "divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2654
 msgid "VI.3.4. Service payment indexation"
 msgstr "VI.3.4. Indización de pagos por servicios"
 
@@ -4271,7 +4271,7 @@ msgstr "VI.3.4. Indización de pagos por servicios"
 msgid "Indexation used"
 msgstr "Indexación utilizada"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2675
 msgid "VI.4. Land leases, asset transfers information"
 msgstr ""
 "VI.4. Arrendamientos de tierras, información de transferencias de activos"
@@ -4310,7 +4310,7 @@ msgstr ""
 "de `lease` se deberá de ingresar en el campo `document/documentType` para "
 "identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2698
 msgid "VI.5. Other support"
 msgstr "VI.5. Otro apoyo"
 
@@ -4334,7 +4334,7 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se "
 "divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2720
 msgid "VI.6. Revenue share information"
 msgstr "VI.6. Información sobre la participación en los ingresos"
 
@@ -4350,7 +4350,7 @@ msgstr "Participación de los ingresos en incremento"
 msgid "Links to graphs: annual concessionaire payments to government"
 msgstr "Enlaces a gráficas: pagos anuales del concesionario al gobierno"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2726
 msgid "VI.6.1. Revenue share agreed in contract"
 msgstr "VI.6.1. Participación de ingresos acordada en contrato"
 
@@ -4365,7 +4365,7 @@ msgstr ""
 "de `revenueShare` se deberá de ingresar en el campo `document/documentType` "
 "para identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2745
 msgid "VI.6.2. Revenue share in operation during contract"
 msgstr ""
 "VI.6.2. Participación de los ingresos en operación durante el contrato"
@@ -4385,11 +4385,11 @@ msgstr ""
 "contracting.org/1.1/es/schema/reference/#document) para la divulgación de "
 "documentos."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2764
 msgid "VII. Tariffs"
 msgstr "VII. Tarifas"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2766
 msgid "VII.1. Tariffs and pricing"
 msgstr "VII.1. Tarifas y precios"
 
@@ -4418,7 +4418,7 @@ msgstr ""
 "sección de implementación usando la extensión de tarifas. Las tarifas y los "
 "cronogramas de precios también pueden proporcionarse como documentos."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2774
 msgid "VII.1.1. Structured tariff and pricing information"
 msgstr "VII.1.1. Información estructurada de tarifas y precios"
 
@@ -4467,7 +4467,7 @@ msgstr "Precio al por mayor de llamada por minuto"
 msgid "Wholesale SMS price per message"
 msgstr "Precio al por mayor de SMS por mensaje"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2805
 msgid "VII.1.2. Tariff and pricing documentation"
 msgstr "VII.1.2. Documentación de tarifas y precios"
 
@@ -4502,7 +4502,7 @@ msgstr ""
 "de `tariffs` se deberá de ingresar en el campo `document/documentType` para "
 "identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2824
 msgid "VII.2. Tariff setting methodology"
 msgstr "VII.2. Metodología de fijación de tarifas"
 
@@ -4521,11 +4521,11 @@ msgstr ""
 "de `tariffMethod` se deberá de ingresar en el campo `document/documentType` "
 "para identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2845
 msgid "VII.3. Tariff review mechanism"
 msgstr "VII.3. Mecanismo de revisión de tarifas"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2864
 msgid "VII.4. Tariff change illustrations"
 msgstr "VII.4. Ilustraciones de cambio de tarifas"
 
@@ -4541,11 +4541,11 @@ msgstr ""
 "`document/documentType` para identificar el tipo de documento que se "
 "divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2883
 msgid "VIII. Contract Termination"
 msgstr "VIII. Terminación de contrato"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2885
 msgid "VIII.1. Events of default and termination payments"
 msgstr "VIII.1. Eventos de pagos por incumplimiento y terminación"
 
@@ -4600,7 +4600,7 @@ msgstr ""
 "de `termination` se deberá de ingresar en el campo `document/documentType` "
 "para identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2906
 msgid "VIII.2. Handover information"
 msgstr "VIII.2. Información de entrega"
 
@@ -4625,11 +4625,11 @@ msgstr ""
 "de `handover` se deberá de ingresar en el campo `document/documentType` para"
 " identificar el tipo de documento que se divulga."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2927
 msgid "IX. Renegotiations"
 msgstr "IX. Renegociaciones"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2929
 msgid "IX.1. Contract variation details"
 msgstr "IX.1. Detalles de variación en el contrato"
 
@@ -4699,7 +4699,7 @@ msgstr "5.1.1"
 msgid "7.1.1"
 msgstr "7.1.1"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2949
 msgid "IX.1.1. Contract documents"
 msgstr "IX.1.1. Documentos contractuales"
 
@@ -4727,7 +4727,7 @@ msgstr ""
 " de texto libre del contenido de las variaciones del contrato para permitir "
 "que esta información se muestre en aplicaciones que consumen datos de OCDS."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2966
 msgid "IX.1.2. Description"
 msgstr "IX.1.2. Descripción"
 
@@ -4743,7 +4743,7 @@ msgstr ""
 "Se debe proporcionar una descripción de la naturaleza de la variación en el "
 "campo `amendment/description`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2981
 msgid "IX.1.3. Rationale"
 msgstr "IX.1.3. Justificación"
 
@@ -4757,7 +4757,7 @@ msgid ""
 "`amendment/rationale` field."
 msgstr "Se debe justificar la variación en el campo `amendment/rationale`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:2996
 msgid "IX.1.4. Parties"
 msgstr "IX.1.4. Partes"
 
@@ -4779,7 +4779,7 @@ msgstr ""
 "funciones y responsabilidades de las partes, actualizando la sección "
 "`parties` de una entrega de OCDS."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3011
 msgid "IX.1.5. Risk allocation"
 msgstr "IX.1.5. Asignación de riesgos"
 
@@ -4799,7 +4799,7 @@ msgstr ""
 "asignación de riesgos original debido a la variación, actualizando la "
 "sección `contract/riskAllocation` de una entrega de OCDS."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3026
 msgid "IX.1.6. Fiscal commitments"
 msgstr "IX.1.6. Compromisos fiscales"
 
@@ -4811,7 +4811,7 @@ msgstr ""
 "Cambio en los compromisos fiscales originales o en los contingentes pasivos "
 "del gobierno debido a la variación, si lo hubiere"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3047
 msgid "IX.1.6. Costs"
 msgstr "IX.1.6. Costos"
 
@@ -4821,7 +4821,7 @@ msgstr ""
 "Variación en los costos de capital o de operación debido a la variación, si "
 "lo hubiere"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3068
 msgid "IX.1.7. Tariffs"
 msgstr "IX.1.7. Tarifas"
 
@@ -4839,7 +4839,7 @@ msgstr ""
 "las tarifas, actualizando la sección `contract/implementation/tariffs` de "
 "una entrega de OCDS."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3083
 msgid "IX.1.8. Service levels"
 msgstr "IX.1.8. Niveles de servicio"
 
@@ -4852,7 +4852,7 @@ msgstr ""
 "niveles de servicios  actualizando la sección `contract/agreedMetrics` de "
 "una entrega de OCDS."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3096
 msgid "IX.1.9. Date"
 msgstr "IX.1.9. Fecha"
 
@@ -4868,11 +4868,11 @@ msgstr ""
 "Se debe proporcionar la fecha de la variación usando el campo "
 "`amendment/date`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3111
 msgid "X. Performance Information"
 msgstr "X. Información de rendimiento"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3113
 msgid "X.1. Actual annual demand"
 msgstr "X.1. Demanda anual real"
 
@@ -4931,7 +4931,7 @@ msgstr ""
 "Porcentaje de cobertura nacional. Se debe proporcionar 4 MB/s de bajada y 1 "
 "MB/s de subida."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3148
 msgid "X.2. Actual annual revenue"
 msgstr "X.2. Ingresos anuales reales"
 
@@ -4943,7 +4943,7 @@ msgstr ""
 "Sólo se recomienda cuando las cláusulas de participación en los ingresos u "
 "otras clasificaciones relacionadas como MRGs están presentes en el contrato."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3152
 msgid "X.2.1. Structured information on annual revenues"
 msgstr "X.2.1. Información estructurada sobre los ingresos anuales"
 
@@ -4982,7 +4982,7 @@ msgstr ""
 "**Ejemplo**: Consulte la [sección X.1](#x-1-actual-annual-demand) para ver "
 "ejemplos de JSON y planos del bloque `metrics`."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3173
 msgid "X.2.2. Financial statements"
 msgstr "X.2.2. Estados financieros"
 
@@ -4992,7 +4992,7 @@ msgstr ""
 "Proporciona enlaces a los estados financieros auditados de la compañía "
 "proveedora."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3192
 msgid "X.3. Actual IRR"
 msgstr "X.3. TIR real"
 
@@ -5022,7 +5022,7 @@ msgstr ""
 "Debe darse una métrica con la `id` 'TIR', con una serie de `observations` "
 "reales que capturen los ingresos para un período dado."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3213
 msgid "X.4. Actual KPI performance"
 msgstr "X.4. Rendimiento real de KPI"
 
@@ -5044,7 +5044,7 @@ msgstr ""
 "los KPI en la sección `contract/implementation/metrics` de una entrega de "
 "OCDS, usando una matriz del bloques de métricas."
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3232
 msgid "X.5. Performance failure information"
 msgstr "X.5. Información de fallos de desempeño"
 
@@ -5109,7 +5109,7 @@ msgstr ""
 msgid "300000.0"
 msgstr "300000.0"
 
-#: ../../docs/framework.md:0
+#: ../../docs/framework.md:3263
 msgid "X.6. Performance assessment reports"
 msgstr "X.6. Informes de evaluación de rendimiento"
 

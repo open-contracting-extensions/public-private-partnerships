@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
 "Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/reference/documents.md:0
+#: ../../docs/reference/documents.md:1
 msgid "Documents"
 msgstr "Documentos"
 
@@ -43,7 +43,7 @@ msgstr ""
 " cada documento o elemento de información referenciado en el Marco de "
 "divulgación de APP del Banco Mundial."
 
-#: ../../docs/reference/documents.md:0
+#: ../../docs/reference/documents.md:7
 msgid "Representation"
 msgstr "Representación"
 
@@ -96,7 +96,7 @@ msgstr "Formato"
 msgid "Required"
 msgstr "Requerido"
 
-#: ../../docs/reference/documents.md:0
+#: ../../docs/reference/documents.md:24
 msgid "Types"
 msgstr "Tipos"
 

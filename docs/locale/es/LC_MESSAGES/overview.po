@@ -5,17 +5,16 @@
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
-# James McKinney <jmckinney@open-contracting.org>, 2018
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney <jmckinney@open-contracting.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +22,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/overview.md:0
+#: ../../docs/overview.md:1
 msgid "Overview"
 msgstr "Resumen"
 
@@ -47,15 +46,15 @@ msgstr ""
 "El OCDS para APP proporciona un marco sobre **cómo** publicar la información"
 " solicitada, con clara separación de:"
 
-#: ../../docs/overview.md:12 ../../docs/overview.md:0
+#: ../../docs/overview.md:12 ../../docs/overview.md:18
 msgid "Data"
 msgstr "Datos"
 
-#: ../../docs/overview.md:13 ../../docs/overview.md:0
+#: ../../docs/overview.md:13 ../../docs/overview.md:39
 msgid "Documents"
 msgstr "Documentos"
 
-#: ../../docs/overview.md:14 ../../docs/overview.md:0
+#: ../../docs/overview.md:14 ../../docs/overview.md:60
 msgid "Presentation"
 msgstr "Presentación"
 
@@ -104,11 +103,11 @@ msgstr "Una lista de los accionistas y las acciones poseídas;"
 msgid ""
 "OCDS for PPPs provides structured data elements to represent this "
 "information, using existing OCDS building blocks, or [selected "
-"extensions](extensions/index.md)."
+"extensions](extensions)."
 msgstr ""
 "El OCDS para PPP proporciona elementos de datos estructurados para "
 "representar esta información, utilizando bloques  OCDS existentes o "
-"[extensiones seleccionadas](extensions/index.md)."
+"[extensiones seleccionadas](extensions)."
 
 #: ../../docs/overview.md:37
 msgid ""
@@ -229,5 +228,5 @@ msgid ""
 msgstr ""
 "Puede explorar una [vista previa de OCDS Show con datos de ejemplo](https"
 "://open-contracting.github.io/ocds-show-"
-"ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp"
-"/master/example/full.json)."
+"ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-"
+"ppp/master/example/full.json)."

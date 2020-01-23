@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-25 13:33-0400\n"
+"POT-Creation-Date: 2020-01-23 14:33-0500\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
 "Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:1
 msgid "Codelists"
 msgstr "Listas de códigos"
 
@@ -97,7 +97,7 @@ msgstr ""
 "contracting.org/latest/en/schema/codelists/) del Estándar de Datos de "
 "Contrataciones Abiertas."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:21
 msgid "OCDS codelists"
 msgstr "Listas de código OCDS"
 
@@ -111,7 +111,7 @@ msgstr ""
 "Contrataciones Abiertas, sin modificación. Puede ver la documentación OCDS "
 "para los detalles de estas listas de código:"
 
-#: ../../docs/reference/codelists.md:0 ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:25 ../../docs/reference/codelists.md:50
 msgid "Closed codelists"
 msgstr "Listas de Códigos Cerradas"
 
@@ -171,7 +171,7 @@ msgstr ""
 "[Estatus de licitación](http://standard.open-"
 "contracting.org/latest/es/schema/codelists/#tender-status)"
 
-#: ../../docs/reference/codelists.md:0 ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:35 ../../docs/reference/codelists.md:152
 msgid "Open codelists"
 msgstr "Listas de códigos abiertas"
 
@@ -239,7 +239,7 @@ msgstr ""
 "[Esquema de clasificación de unidades] (http://standard.open-"
 "contracting.org/latest/es/schema/codelists/#unit-classification-scheme)"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:46
 msgid "OCDS for PPPs codelists"
 msgstr "Listas de código OCDS para APPs"
 
@@ -253,7 +253,7 @@ msgstr ""
 "listas de código de extensiones, sin ninguna modificación. La columna "
 "\"Extensión\" en las tablas abajo indica de dónde surge cada código."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:52
 msgid "bidStatus"
 msgstr "bidStatus"
 
@@ -268,7 +268,7 @@ msgstr ""
 "ofertas](https://extensions.open-"
 "contracting.org/es/extensions/bids/v1.1.4/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:62
 msgid "dataType"
 msgstr "dataType"
 
@@ -283,7 +283,7 @@ msgstr ""
 "[documentación de la extensión de Requisitos](https://extensions.open-"
 "contracting.org/es/extensions/requirements/master/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:72
 msgid "financeCategory"
 msgstr "financeCategory"
 
@@ -297,7 +297,7 @@ msgstr ""
 "de extensión de Financiamiento](https://extensions.open-"
 "contracting.org/es/extensions/finance/master/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:82
 msgid "initiationType"
 msgstr "initiationType"
 
@@ -312,7 +312,7 @@ msgstr ""
 "para la extensión OCDS para APPs](https://extensions.open-"
 "contracting.org/es/extensions/ppp/master/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:92
 msgid "preQualificationStatus"
 msgstr "preQualificationStatus"
 
@@ -326,19 +326,19 @@ msgstr ""
 "de la extensión de Calificación](https://extensions.open-"
 "contracting.org/es/extensions/qualification/master/). "
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:102
 msgid "relatesTo"
 msgstr "relatesTo"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:112
 msgid "releaseTag"
 msgstr "releaseTag"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:122
 msgid "responseSource"
 msgstr "responseSource"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:132
 msgid "riskAllocation"
 msgstr "riskAllocation"
 
@@ -352,7 +352,7 @@ msgstr ""
 "de la extensión de Asignación de riesgos](https://extensions.open-"
 "contracting.org/es/extensions/risk_allocation/master/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:142
 msgid "votingRights"
 msgstr "votingRights"
 
@@ -366,19 +366,19 @@ msgstr ""
 "la extensión de Accionistas](https://extensions.open-"
 "contracting.org/es/extensions/shareholders/master/)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:154
 msgid "bidStatistics"
 msgstr "bidStatistics"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:164
 msgid "documentType"
 msgstr "documentType"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:174
 msgid "milestoneCode"
 msgstr "milestoneCode"
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:184
 msgid "milestoneType"
 msgstr "milestoneType"
 
@@ -392,7 +392,7 @@ msgstr ""
 "de la lista de código de Tipo de hito OCDS](http://standard.open-"
 "contracting.org/latest/es/schema/codelists/#milestone-type)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:194
 msgid "partyRole"
 msgstr "partyRole"
 
@@ -406,6 +406,6 @@ msgstr ""
 "de la lista de código Rol de la parte OCDS](http://standard.open-"
 "contracting.org/latest/es/schema/codelists/#party-role)."
 
-#: ../../docs/reference/codelists.md:0
+#: ../../docs/reference/codelists.md:204
 msgid "riskCategory"
 msgstr "riskCategory"
