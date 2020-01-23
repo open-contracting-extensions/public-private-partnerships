@@ -9,7 +9,7 @@ This provides a foundational model for:
 * Publishing real-time releases from a contracting process;
 * Publishing compiled records of a contracting process;
 
-The basic OCDS schema has been [extended](extensions/index.md) with a range of additional building blocks and codelist values.
+The basic OCDS schema has been [extended](extensions) with a range of additional building blocks and codelist values.
 
 The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1).
 

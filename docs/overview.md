@@ -32,7 +32,7 @@ Many elements of the PPP framework call for **structured data**. For example:
 * Details of project finance;
 * A list of shareholders, and shares held;
 
-OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions/index.md). 
+OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions). 
 
 These structured data elements can be represented using JSON data, or via simple spreadsheet templates. 
 
