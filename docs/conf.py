@@ -13,6 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import json
 import os
 import re
 from glob import glob
@@ -111,27 +112,8 @@ gettext_domain_prefix = '{}-'.format(profile_identifier)
 
 # List the extension identifiers and versions that should be part of this profile. The extensions must be available in
 # the extension registry: https://github.com/open-contracting/extension_registry/blob/master/extension_versions.csv
-extension_versions = {
-    'bids': 'v1.1.4',
-    'budget': 'master',
-    'budget_project': 'master',
-    'charges': 'master',
-    'documentation_details': 'master',
-    'finance': 'master',
-    'location': 'v1.1.4',
-    'metrics': 'master',
-    'milestone_documents': 'v1.1.4',
-    'performance_failures': 'master',
-    'process_title': 'v1.1.4',
-    'qualification': 'master',
-    'requirements': 'master',
-    'risk_allocation': 'master',
-    'shareholders': 'master',
-    'signatories': 'master',
-    'tariffs': 'master',
-    'transaction_milestones': 'master',
-    'ppp': 'master',
-}
+with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'extension_versions.json')) as f:
+    extension_versions = json.load(f)
 
 
 def setup(app):
