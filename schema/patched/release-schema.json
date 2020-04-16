@@ -200,11 +200,6 @@
             "$ref": "#/definitions/Milestone"
           }
         },
-        "project": {
-          "title": "Project information",
-          "description": "The project section can be used to describe the relationship between this contracting process and a project or programme of work.",
-          "$ref": "#/definitions/Project"
-        },
         "forecasts": {
           "type": "array",
           "title": "Forecasts",
@@ -213,6 +208,11 @@
             "$ref": "#/definitions/Metric"
           },
           "uniqueItems": true
+        },
+        "project": {
+          "title": "Project information",
+          "description": "The project section can be used to describe the relationship between this contracting process and a project or programme of work.",
+          "$ref": "#/definitions/Project"
         }
       },
       "patternProperties": {
@@ -1173,7 +1173,7 @@
         },
         "pageStart": {
           "title": "Page start",
-          "description": "When the information referenced exists within a large document, indicate the first page on which it can be found. This should refer to the printed page number, not the page number reported by software applications. ",
+          "description": "When the information referenced exists within a large document, indicate the first page on which it can be found. This should refer to the printed page number, not the page number reported by software applications.",
           "type": [
             "string",
             "null"
@@ -1181,7 +1181,7 @@
         },
         "pageEnd": {
           "title": "Page end",
-          "description": "When the information referenced exists within a large document, indicate the last page on which it can be found. This should refer to the printed page number, not the page number reported by software applications. ",
+          "description": "When the information referenced exists within a large document, indicate the last page on which it can be found. This should refer to the printed page number, not the page number reported by software applications.",
           "type": [
             "string",
             "null"
@@ -1189,7 +1189,7 @@
         },
         "accessDetails": {
           "title": "Access details",
-          "description": "A description of any special arrangements required to access this document. This may include a requirement to register for document access, a fee to be paid, or the location where documents can be inspected. ",
+          "description": "A description of any special arrangements needed to access this document, for example: registering for access, paying a fee, or visiting a location to inspect the document.",
           "type": [
             "string",
             "null"
@@ -1197,7 +1197,7 @@
         },
         "author": {
           "title": "Author",
-          "description": "The name of the author of these documents. Include the name of individuals and/or organizations responsible. For example, when a technical specification was written by a consultant, include the name and organization of the consultant. ",
+          "description": "The names of the authors of the document.",
           "type": [
             "string",
             "null"
@@ -2506,91 +2506,7 @@
         "sourceParty": {
           "$ref": "#/definitions/OrganizationReference",
           "title": "Source party",
-          "description": "The organization or other party related to this budget entry. If the budget amount is positive, this indicates a flow of resources from the party to the contracting process. If the budget amount is negative, it indicates a payment from the contracting process to this party."
-        }
-      }
-    },
-    "Project": {
-      "title": "Project information",
-      "description": "A project or programme of work.",
-      "type": "object",
-      "properties": {
-        "id": {
-          "title": "Project identifier",
-          "description": "An externally provided identifier for the project. This might be drawn from a projects register, or may be based on the canonical version of a project name. Project IDs should be unique to a publisher. URIs can be used. ",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "title": {
-          "title": "Project title",
-          "description": "The name of the project to which this contracting process relates. Some organizations maintain a registry of projects, and the data should use the name by which the project is known in that registry. ",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "description": {
-          "title": "Project description",
-          "description": "A short free text description of the project.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "totalValue": {
-          "title": "Total project value",
-          "description": "The total anticipated value of the project over it's lifetime. ",
-          "$ref": "#/definitions/Value"
-        },
-        "uri": {
-          "title": "Linked project information",
-          "description": "A URI pointing to further information about this project.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "uri"
-        },
-        "sector": {
-          "title": "Project sector",
-          "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
-          "$ref": "#/definitions/Classification"
-        },
-        "additionalClassifications": {
-          "title": "Additional sector classifications",
-          "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Classification"
-          },
-          "uniqueItems": true,
-          "wholeListMerge": true
-        },
-        "locations": {
-          "title": "Project location",
-          "description": "Information about the location where a project is taking place.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Location"
-          },
-          "uniqueItems": true,
-          "wholeListMerge": true
-        }
-      },
-      "patternProperties": {
-        "^(description_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "^(title_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "An organization reference, linking to the entry in the `parties` section describing the organization providing the funds for this part of the budget. The party must have the 'funder' role. If the budget amount is positive, this indicates a flow of resources from the party to the contracting process. If the budget amount is negative, it indicates a payment from the contracting process to this party."
         }
       }
     },
@@ -3128,6 +3044,90 @@
           "description": "A yes/no field indicating whether the penalty imposed for this period, category and number of performance failures has been paid.",
           "type": [
             "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "Project": {
+      "title": "Project information",
+      "description": "A project or programme of work.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Project identifier",
+          "description": "An externally provided identifier for the project. This might be drawn from a projects register, or may be based on the canonical version of a project name. Project IDs should be unique to a publisher. URIs can be used. ",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "title": "Project title",
+          "description": "The name of the project to which this contracting process relates. Some organizations maintain a registry of projects, and the data should use the name by which the project is known in that registry. ",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "title": "Project description",
+          "description": "A short free text description of the project.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "totalValue": {
+          "title": "Total project value",
+          "description": "The total anticipated value of the project over it's lifetime. ",
+          "$ref": "#/definitions/Value"
+        },
+        "uri": {
+          "title": "Linked project information",
+          "description": "A URI pointing to further information about this project.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "sector": {
+          "title": "Project sector",
+          "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
+          "$ref": "#/definitions/Classification"
+        },
+        "additionalClassifications": {
+          "title": "Additional sector classifications",
+          "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Classification"
+          },
+          "uniqueItems": true,
+          "wholeListMerge": true
+        },
+        "locations": {
+          "title": "Project location",
+          "description": "Information about the location where a project is taking place.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          },
+          "uniqueItems": true,
+          "wholeListMerge": true
+        }
+      },
+      "patternProperties": {
+        "^(description_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "^(title_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
+          "type": [
+            "string",
             "null"
           ]
         }
