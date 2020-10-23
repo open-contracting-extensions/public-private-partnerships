@@ -1,5 +1,15 @@
-.disclosure-timing {
-    float:right;
+.wy-nav-content {
+  max-width: none;
+}
+.rst-content table.docutils {
+  width: 100%;
+  table-layout: fixed;
+}
+.rst-content table.docutils td {
+  vertical-align: top;
+}
+.rst-content code {
+  font-size: 10px;
 }
 
 .wy-table-responsive table td {
@@ -17,4 +27,8 @@
 }
 .wy-menu-vertical a:hover {
     background: #001b16;
+}
+
+.disclosure-timing {
+    float:right;
 }
