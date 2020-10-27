@@ -13,7 +13,7 @@
 }
 
 .wy-table-responsive table td {
-    white-space: normal !important;
+  white-space: normal !important;
 }
 
 .wy-nav-side {
@@ -30,5 +30,13 @@
 }
 
 .disclosure-timing {
-    float:right;
+    float: right;
+}
+.rst-content .disclosure-timing table.docutils {
+  width: auto;
+  table-layout: auto;
+}
+.rst-content .flattened-example table.docutils {
+  width: auto;
+  table-layout: auto;
 }
