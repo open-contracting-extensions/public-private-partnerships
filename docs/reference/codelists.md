@@ -2,7 +2,7 @@
 
 Some schema fields refer to codelists, to limit and standardize the possible values of the fields, in order to promote data interoperability.
 
-Codelists can either be open or closed. **Closed codelists** are intended to be comprehensive; for example, the [currency](http://standard.open-contracting.org/latest/en/schema/codelists/#currency) codelist covers all currencies in the world. **Open codelists** are intended to be representative, but not comprehensive.
+Codelists can either be open or closed. **Closed codelists** are intended to be comprehensive; for example, the [currency](https://standard.open-contracting.org/latest/en/schema/codelists/#currency) codelist covers all currencies in the world. **Open codelists** are intended to be representative, but not comprehensive.
 
 Publishers must use the codes in the codelists, unless no code is appropriate. If no code is appropriate and the codelist is **open**, then a publisher may use a new code outside those in the codelist. If no code is appropriate and the codelist is **closed**, then a publisher should instead create an issue in the [OCDS for PPPs GitHub repository](https://github.com/open-contracting-extensions/public-private-partnerships/issues).
 
@@ -16,7 +16,7 @@ Publishers must use the codes in the codelists, unless no code is appropriate. I
 
 ```
 
-For more information on open and closed codelists, refer to the Open Contracting Data Standard [codelists documentation](http://standard.open-contracting.org/latest/en/schema/codelists/).
+For more information on open and closed codelists, refer to the Open Contracting Data Standard [codelists documentation](https://standard.open-contracting.org/latest/en/schema/codelists/).
 
 ## OCDS codelists
 
@@ -24,24 +24,23 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 
 ### Closed codelists
 
-* [Award status](http://standard.open-contracting.org/latest/en/schema/codelists/#award-status)
-* [Contract status](http://standard.open-contracting.org/latest/en/schema/codelists/#contract-status)
-* [Currency](http://standard.open-contracting.org/latest/en/schema/codelists/#currency)
-* [Procurement method](http://standard.open-contracting.org/latest/en/schema/codelists/#method)
-* [Milestone status](http://standard.open-contracting.org/latest/en/schema/codelists/#milestone-status)
-* [Procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#procurement-category)
-* [Tender status](http://standard.open-contracting.org/latest/en/schema/codelists/#tender-status)
+* [Award status](https://standard.open-contracting.org/latest/en/schema/codelists/#award-status)
+* [Contract status](https://standard.open-contracting.org/latest/en/schema/codelists/#contract-status)
+* [Currency](https://standard.open-contracting.org/latest/en/schema/codelists/#currency)
+* [Procurement method](https://standard.open-contracting.org/latest/en/schema/codelists/#method)
+* [Milestone status](https://standard.open-contracting.org/latest/en/schema/codelists/#milestone-status)
+* [Procurement category](https://standard.open-contracting.org/latest/en/schema/codelists/#procurement-category)
+* [Tender status](https://standard.open-contracting.org/latest/en/schema/codelists/#tender-status)
 
 ### Open codelists
 
-* [Award criteria](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)
-* [Extended procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#extended-procurement-category)
-* [Item classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme)
-* [Organization identifier scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#organization-identifier-scheme)
-* [Related process](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
-* [Related process scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#related-process-scheme)
-* [Submission method](http://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)
-* [Unit classification scheme](http://standard.open-contracting.org/latest/en/schema/codelists/#unit-classification-scheme)
+* [Award criteria](https://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)
+* [Extended procurement category](https://standard.open-contracting.org/latest/en/schema/codelists/#extended-procurement-category)
+* [Item classification scheme](https://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme)
+* [Related process](https://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
+* [Related process scheme](https://standard.open-contracting.org/latest/en/schema/codelists/#related-process-scheme)
+* [Submission method](https://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)
+* [Unit classification scheme](https://standard.open-contracting.org/latest/en/schema/codelists/#unit-classification-scheme)
 
 ## OCDS for PPPs codelists
 
@@ -57,7 +56,7 @@ OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extens
    :file: ../_static/patched/codelists/bidStatus.csv
 ```
 
-For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
+For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.5/).
 
 #### dataType
 
@@ -87,7 +86,7 @@ For additional guidance on using this codelist, refer to the [Financing extensio
    :file: ../_static/patched/codelists/initiationType.csv
 ```
 
-For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+For additional guidance on using this codelist, refer to the [OCDS initiation type codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#initiation-type).
 
 #### preQualificationStatus
 
@@ -117,7 +116,7 @@ For additional guidance on using this codelist, refer to the [Requirements exten
    :file: ../_static/patched/codelists/releaseTag.csv
 ```
 
-For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+For additional guidance on using this codelist, refer to the [OCDS release tag codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#release-tag).
 
 #### responseSource
 
@@ -159,7 +158,7 @@ For additional guidance on using this codelist, refer to the [Shareholders exten
    :file: ../_static/patched/codelists/bidStatistics.csv
 ```
 
-For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
+For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.5/).
 
 #### documentType
 
@@ -169,7 +168,7 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
    :file: ../_static/patched/codelists/documentType.csv
 ```
 
-For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+For additional guidance on using this codelist, refer to the [OCDS document type codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#document-type).
 
 #### milestoneCode
 
@@ -189,7 +188,7 @@ For additional guidance on using this codelist, refer to the [OCDS for PPPs exte
    :file: ../_static/patched/codelists/milestoneType.csv
 ```
 
-For additional guidance on using this codelist, refer to the [OCDS milestone type codelist documentation](http://standard.open-contracting.org/latest/en/schema/codelists/#milestone-type).
+For additional guidance on using this codelist, refer to the [OCDS milestone type codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#milestone-type).
 
 #### partyRole
 
@@ -199,7 +198,7 @@ For additional guidance on using this codelist, refer to the [OCDS milestone typ
    :file: ../_static/patched/codelists/partyRole.csv
 ```
 
-For additional guidance on using this codelist, refer to the [OCDS party role codelist documentation](http://standard.open-contracting.org/latest/en/schema/codelists/#party-role).
+For additional guidance on using this codelist, refer to the [OCDS party role codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#party-role).
 
 #### riskCategory
 
