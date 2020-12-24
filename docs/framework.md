@@ -496,7 +496,7 @@ Each approval during the planning stage should be provided as a [Milestone](http
 
 </div>
 
-### I.11. Contract Milestones 
+### I.11. Contract milestones
 
 Key events relating to commercial and financial close
 
@@ -1491,7 +1491,7 @@ Information on the eligibility criteria for bidders can be provided using `tende
 
 </div>
 
-#### II.3.9. Other Documents 
+#### II.3.9. Other documents
 
 <div class="disclosure-timing">
 

@@ -112,8 +112,7 @@
           "description": "Key indicators that describe how the PPP option has been evaluated by government.",
           "$ref": "#/definitions/EvaluationIndicators"
         },
-        "suppliers": null,
-        "amendment": null
+        "suppliers": null
       }
     },
     "BidsStatistic": {
@@ -343,10 +342,7 @@
           },
           "uniqueItems": true,
           "minItems": 1
-        },
-        "source": null,
-        "project": null,
-        "projectID": null
+        }
       }
     },
     "Implementation": {
@@ -564,8 +560,7 @@
           "title": "Finance summary",
           "description": "Key indicators that describe the financial model of the PPP.",
           "$ref": "#/definitions/FinanceSummary"
-        },
-        "amendment": null
+        }
       }
     },
     "Finance": {
@@ -872,8 +867,7 @@
           },
           "uniqueItems": true,
           "minItems": 1
-        },
-        "amendment": null
+        }
       }
     },
     "Metric": {
@@ -2030,23 +2024,7 @@
           "title": "Related implementation milestone",
           "description": "A link to the milestone in the implementation section of OCDS to which this transaction relates.",
           "$ref": "#/definitions/MilestoneReference"
-        },
-        "amount": null,
-        "providerOrganization": null,
-        "receiverOrganization": null
-      }
-    },
-    "OrganizationReference": {
-      "properties": {
-        "address": null,
-        "identifier": null,
-        "additionalIdentifiers": null,
-        "contactPoint": null
-      }
-    },
-    "Amendment": {
-      "properties": {
-        "changes": null
+        }
       }
     },
     "EvaluationIndicators": {
