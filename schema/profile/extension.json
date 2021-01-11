@@ -23,7 +23,6 @@
     "locationGazetteers.csv",
     "geometryType.csv",
     "+partyRole.csv",
-    "preQualificationStatus.csv",
     "dataType.csv",
     "relatesTo.csv",
     "responseSource.csv",

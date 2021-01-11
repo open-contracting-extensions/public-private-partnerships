@@ -89,16 +89,6 @@ For additional guidance on using this codelist, refer to the [Financing extensio
 
 For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
 
-#### preQualificationStatus
-
-```eval_rst
-.. csv-table-no-translate::
-   :header-rows: 1
-   :file: ../_static/patched/codelists/preQualificationStatus.csv
-```
-
-For additional guidance on using this codelist, refer to the [Qualification extension documentation](https://extensions.open-contracting.org/en/extensions/qualification/master/).
-
 #### relatesTo
 
 ```eval_rst
