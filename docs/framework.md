@@ -1546,7 +1546,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 #### II.8.1. Organization details
 
-Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'preferredBidder' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'supplier' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 

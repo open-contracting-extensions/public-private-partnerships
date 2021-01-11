@@ -2222,7 +2222,7 @@
           "id": "MEGA",
           "name": "Mega Consortium",
           "roles": [
-            "preferredBidder"
+            "supplier"
           ],
           "contactPoint": {
             "name": "Enquiries team",
