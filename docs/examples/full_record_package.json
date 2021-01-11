@@ -2488,7 +2488,7 @@
               "description": "Award of Example PPP contract to Mega Consortium",
               "status": "active",
               "date": "2016-11-17T10:00:00-06:00",
-              "preferredBidders": [
+              "suppliers": [
                 {
                   "id": "MEGA",
                   "name": "Mega Consortium"
