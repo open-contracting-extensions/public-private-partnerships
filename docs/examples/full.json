@@ -56,7 +56,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -107,7 +107,7 @@
           }
         }
       ],
-      "publicAuthority": {
+      "buyer": {
         "id": "XX-GOV-00000000",
         "name": "Telecoms Promoter"
       },
@@ -1171,7 +1171,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2347,7 +2347,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2968,7 +2968,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",

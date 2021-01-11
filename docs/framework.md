@@ -133,7 +133,7 @@ P   U   U   U   U   U
 
 </div>
 
-Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'publicAuthority' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -170,13 +170,13 @@ P   U   U   U   U   U
 
 </div>
 
-A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [publicAuthority](../reference/schema/#release-schema.json,,publicAuthority) field, referencing the relevant entry in the `parties` section.
+A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
 
 ```
 
@@ -186,7 +186,7 @@ A reference to the sponsoring agency or department should be provided using an [
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
   :ignore_path: /releases/0/
 ```
 
@@ -748,7 +748,7 @@ P   U   U   U   U   U
 
 </div>
 
-Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'publicAuthority' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -785,13 +785,13 @@ P   U   U   U   U   U
 
 </div>
 
-A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [publicAuthority](../reference/schema/#release-schema.json,,publicAuthority) field, referencing the relevant entry in the `parties` section.
+A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
 
 ```
 
@@ -801,7 +801,7 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
   :ignore_path: /releases/0/
 ```
 
