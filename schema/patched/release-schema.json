@@ -63,10 +63,10 @@
     },
     "initiationType": {
       "title": "Initiation type",
-      "description": "The type of initiation process used for this contract, from the closed [initiationType](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#initiationtype) codelist.",
+      "description": "The type of initiation process used for this contract, from the closed [initiationType](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#initiation-type) codelist.",
       "type": "string",
       "enum": [
-        "ppp"
+        "tender"
       ],
       "codelist": "initiationType.csv",
       "openCodelist": false
@@ -79,6 +79,11 @@
         "$ref": "#/definitions/Organization"
       },
       "uniqueItems": true
+    },
+    "buyer": {
+      "title": "Buyer",
+      "description": "A buyer is an entity whose budget will be used to pay for goods, works or services related to a contract. This may be different from the procuring entity who may be specified in the tender data.",
+      "$ref": "#/definitions/OrganizationReference"
     },
     "planning": {
       "title": "Planning",
@@ -151,11 +156,6 @@
       "title": "Pre-qualification",
       "description": "The activities undertaken in order to qualify suppliers to participate in the tender.",
       "$ref": "#/definitions/PreQualification"
-    },
-    "publicAuthority": {
-      "title": "Public authority",
-      "description": "The public authority is the unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.",
-      "$ref": "#/definitions/OrganizationReference"
     }
   },
   "required": [
@@ -614,6 +614,15 @@
           "description": "The total value of this award. In the case of a framework contract this may be the total estimated lifetime value, or maximum value, of the agreement. There may be more than one award per procurement. A negative value indicates that the award may involve payments from the supplier to the buyer (commonly used in concession contracts).",
           "$ref": "#/definitions/Value"
         },
+        "suppliers": {
+          "title": "Suppliers",
+          "description": "The suppliers awarded this award. If different suppliers have been awarded different items or values, these should be split into separate award blocks.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          },
+          "uniqueItems": true
+        },
         "items": {
           "title": "Items awarded",
           "description": "The goods and services awarded in this award, broken into line items wherever possible. Items should not be duplicated, but the quantity specified instead.",
@@ -679,16 +688,6 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/RequirementResponse"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "preferredBidders": {
-          "title": "Preferred bidders",
-          "description": "The bidder or bidders awarded this award, the preferred bidder(s) will become the counter party or parties of the procuring authority in the PPP contract when the contract is signed.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/OrganizationReference"
           },
           "uniqueItems": true,
           "minItems": 1

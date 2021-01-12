@@ -56,7 +56,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -107,7 +107,7 @@
           }
         }
       ],
-      "publicAuthority": {
+      "buyer": {
         "id": "XX-GOV-00000000",
         "name": "Telecoms Promoter"
       },
@@ -1171,7 +1171,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2222,7 +2222,7 @@
           "id": "MEGA",
           "name": "Mega Consortium",
           "roles": [
-            "preferredBidder"
+            "supplier"
           ],
           "contactPoint": {
             "name": "Enquiries team",
@@ -2347,7 +2347,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2713,7 +2713,7 @@
           "description": "Award of Example PPP contract to Mega Consortium",
           "status": "active",
           "date": "2016-11-17T10:00:00-06:00",
-          "preferredBidders": [
+          "suppliers": [
             {
               "id": "MEGA",
               "name": "Mega Consortium"
@@ -2968,7 +2968,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
