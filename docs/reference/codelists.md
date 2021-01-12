@@ -79,16 +79,6 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 
 For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
 
-#### initiationType
-
-```eval_rst
-.. csv-table-no-translate::
-   :header-rows: 1
-   :file: ../_static/patched/codelists/initiationType.csv
-```
-
-For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
-
 #### preQualificationStatus
 
 ```eval_rst
