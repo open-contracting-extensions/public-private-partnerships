@@ -2,9 +2,9 @@
 
 ## Stages
 
-Information about a Public Private Partnership project will become available at many different stages. 
+Information about a Public Private Partnership project will become available at many different stages.
 
-The reference page includes information about the stage at which certain information should be made available. 
+The reference page includes information about the stage at which certain information should be made available.
 
 OCDS is designed to support real-time publication of information, so within each stage there may be multiple points where new or updated information is available. Each time information is provided, we call this an OCDS 'release'.
 
@@ -44,17 +44,17 @@ A PPP process is likely to involve the stages below, the following release ident
 <td width="30%">Recommended release tag</td>
 </tr>
 <tr>
-<td>2.1 RfQ</td>
+<td>2.1 First stage (all procedures)</td>
 <td>2.1.X</td>
-<td>qualification</td>
+<td>tender</td>
 </tr>
 <tr>
 <td>2.2 Shortlist</td>
 <td>2.2.X</td>
-<td>shortlist</td>
+<td>tenderUpdate</td>
 </tr>
 <tr>
-<td>3.1 Tender</td>
+<td>3.1 Second stage (multi-stage procedures)</td>
 <td>3.1.X</td>
 <td>tender</td>
 </tr>
