@@ -969,7 +969,7 @@ P   U
 
 </div>
 
-Use the `tender/period` field to provide the period during which the first stage is open for submissions, `period/endDate` should contain the closing date for submissions.
+Use the `tender/period` field to provide the period during which the first stage is open for submissions. `period/endDate` should contain the closing date for submissions.
 
 **Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/period](../reference/schema/#release-schema.json,,tender/period) field.
 
