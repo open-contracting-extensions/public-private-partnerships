@@ -1297,6 +1297,22 @@ Details of the bidders should be provided using [Organization](https://standard.
 
 **Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the `organization` building block.
 
+### II.3. Request for Proposal
+
+Request for Proposal (RFP):
+
+> The set of documents issued by the procuring authority that set out:
+> * The basis or requirements for submitting the proposal (which documents and in which format and contents the bidder has to submit)
+> * The basis of the evaluation criteria  for selecting the preferred bidder or awardee
+> * The PPP contract that will be signed with the successful bidder and other annexed information such as forms, templates, complementary information for reference purposes, and so on.
+([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+
+In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the same set of documents.
+
+Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+
+**Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
+
 ### II.4. Evaluation criteria
 
 Evaluation criteria: brief description with weightage
