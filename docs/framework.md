@@ -1288,12 +1288,17 @@ Use [Document](reference/documents) objects in the [tender/documents](../referen
 
 ### II.2. List of pre-qualified suppliers
 
-Pre-qualification or shortlist
+Pre-qualification or shortlist.
 
-Details of the bidders should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
+Details of suppliers that submit a request to participate should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
 
-* If the bidder is shortlisted or invited to submit a proposal following the pre-qualification process, the party's `roles` array should include the 'qualifiedBidder' code.
-* If the bidder is **neither** shortlisted **nor** invited to submit a proposal following the pre-qualification process, the party's `roles` array should include the 'disqualifiedBidder' code.
+For each request to participate:
+
+* Add a `Bid` object to the `bids/details` array
+* Set its `id` incrementally
+* Add an `OrganizationReference` to its `tenderers` array and set `id` and `name` to the supplier's `id` and `name` from the `parties` array
+* Set its `date` to the date the request was received
+* If the bidder is shortlisted or invited to submit a proposal following the pre-qualification process, set its `status` to 'valid'. Otherwise, set its `status` to 'disqualified'.
 
 **Example**: See [section I.14.2](#i-14-2-organization-details) for JSON and flattened examples of the `organization` building block.
 
