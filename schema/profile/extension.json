@@ -30,7 +30,6 @@
     "riskCategory.csv",
     "votingRights.csv",
     "+milestoneType.csv",
-    "+releaseTag.csv",
     "-partyRole.csv",
     "documentType.csv",
     "initiationType.csv",
