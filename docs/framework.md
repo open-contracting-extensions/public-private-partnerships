@@ -1128,13 +1128,13 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 </div>
 
-#### II.1.6. Request for Qualification documents
+#### II.1.6. Request for Qualification
 
 Request for Qualification (RFQ):
 
 > The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase). ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
-In a single-stage procedure, the RFQ documents are embedded in the Request for Proposal documents.
+In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the Request for Proposal.
 
 Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
