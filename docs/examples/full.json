@@ -18,7 +18,7 @@
       "id": "1.2.1",
       "language": "en",
       "date": "2015-09-30T12:09:30-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "planning"
       ],
@@ -56,7 +56,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -107,7 +107,7 @@
           }
         }
       ],
-      "publicAuthority": {
+      "buyer": {
         "id": "XX-GOV-00000000",
         "name": "Telecoms Promoter"
       },
@@ -1133,7 +1133,7 @@
       "id": "3.1.1",
       "language": "en",
       "date": "2016-01-29T18:00:00-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "tender"
       ],
@@ -1171,7 +1171,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2133,7 +2133,7 @@
       "id": "3.2.1",
       "language": "en",
       "date": "2016-04-19T01:00:00+02:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "tenderUpdate"
       ],
@@ -2211,7 +2211,7 @@
       "id": "4.1.1",
       "language": "en",
       "date": "2016-11-17T00:00:00-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "award"
       ],
@@ -2222,7 +2222,7 @@
           "id": "MEGA",
           "name": "Mega Consortium",
           "roles": [
-            "preferredBidder"
+            "supplier"
           ],
           "contactPoint": {
             "name": "Enquiries team",
@@ -2347,7 +2347,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -2713,7 +2713,7 @@
           "description": "Award of Example PPP contract to Mega Consortium",
           "status": "active",
           "date": "2016-11-17T10:00:00-06:00",
-          "preferredBidders": [
+          "suppliers": [
             {
               "id": "MEGA",
               "name": "Mega Consortium"
@@ -2903,7 +2903,7 @@
       "id": "5.1.1",
       "language": "en",
       "date": "2017-01-25T00:00:00-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "contract"
       ],
@@ -2968,7 +2968,7 @@
           "id": "XX-GOV-00000000",
           "name": "Telecoms Promoter",
           "roles": [
-            "publicAuthority"
+            "buyer"
           ],
           "identifier": {
             "scheme": "XX-GOV",
@@ -3887,7 +3887,7 @@
       "id": "6.1.1",
       "language": "en",
       "date": "2018-01-24T00:00:00-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "implementation"
       ],
@@ -4135,7 +4135,7 @@
       "id": "6.1.2",
       "language": "en",
       "date": "2019-01-24T00:00:00-06:00",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "implementation"
       ],
@@ -4421,7 +4421,7 @@
       "id": "2.1.1",
       "language": "en",
       "date": "2015-10-31T00:00:00Z",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "qualification"
       ],
@@ -4459,7 +4459,7 @@
       "id": "7.1.1",
       "language": "en",
       "date": "2020-01-24T00:00:00Z",
-      "initiationType": "ppp",
+      "initiationType": "tender",
       "tag": [
         "contractAmendment"
       ],

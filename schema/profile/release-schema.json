@@ -53,17 +53,6 @@
           "shortlistUpdate"
         ]
       }
-    },
-    "initiationType": {
-      "enum": [
-        "ppp"
-      ]
-    },
-    "buyer": null,
-    "publicAuthority": {
-      "title": "Public authority",
-      "description": "The public authority is the unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.",
-      "$ref": "#/definitions/OrganizationReference"
     }
   },
   "definitions": {
@@ -97,22 +86,11 @@
           "uniqueItems": true,
           "minItems": 1
         },
-        "preferredBidders": {
-          "title": "Preferred bidders",
-          "description": "The bidder or bidders awarded this award, the preferred bidder(s) will become the counter party or parties of the procuring authority in the PPP contract when the contract is signed.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/OrganizationReference"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
         "evaluationIndicators": {
           "title": "Evaluation of PPP option",
           "description": "Key indicators that describe how the PPP option has been evaluated by government.",
           "$ref": "#/definitions/EvaluationIndicators"
-        },
-        "suppliers": null
+        }
       }
     },
     "BidsStatistic": {

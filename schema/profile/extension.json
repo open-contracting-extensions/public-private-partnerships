@@ -32,7 +32,6 @@
     "+milestoneType.csv",
     "-partyRole.csv",
     "documentType.csv",
-    "initiationType.csv",
     "metricID.csv",
     "milestoneCode.csv"
   ],

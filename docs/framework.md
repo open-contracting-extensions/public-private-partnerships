@@ -133,7 +133,7 @@ P   U   U   U   U   U
 
 </div>
 
-Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'publicAuthority' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -170,14 +170,13 @@ P   U   U   U   U   U
 
 </div>
 
-A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [publicAuthority](../reference/schema/#release-schema.json,,publicAuthority) field, referencing the relevant entry in the `parties` section.
+A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
-
+  :jsonpointer: /releases/0/buyer
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -186,7 +185,7 @@ A reference to the sponsoring agency or department should be provided using an [
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
   :ignore_path: /releases/0/
 ```
 
@@ -748,7 +747,7 @@ P   U   U   U   U   U
 
 </div>
 
-Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'publicAuthority' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -785,14 +784,13 @@ P   U   U   U   U   U
 
 </div>
 
-A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [publicAuthority](../reference/schema/#release-schema.json,,publicAuthority) field, referencing the relevant entry in the `parties` section.
+A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
-
+  :jsonpointer: /releases/0/buyer
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -801,7 +799,7 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/publicAuthority
+  :jsonpointer: /releases/0/buyer
   :ignore_path: /releases/0/
 ```
 
@@ -863,14 +861,13 @@ Details of the private party, including name and contact details, should be prov
 
 #### I.15.3. Organization reference
 
-A reference to the private party should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/preferredBidders](../reference/schema/#release-schema.json,,awards/0/preferredBidders) field, referencing the relevant entry in the `parties` section.
+A reference to the private party should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](../reference/schema/#release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/preferredBidders
-
+  :jsonpointer: /releases/3/awards/0/suppliers
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -879,7 +876,7 @@ A reference to the private party should be provided using an [OrganizationRefere
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/preferredBidders
+  :jsonpointer: /releases/3/awards/0/suppliers
   :ignore_path: /releases/3/
 ```
 
@@ -978,7 +975,6 @@ Use the `tender/period` field to provide the period during which the first stage
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/7/tender/period
-
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1017,7 +1013,6 @@ Use the `tender/enquiryPeriod` field to provide the period during which enquirie
 ```eval_rst
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/7/tender/enquiryPeriod
-
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1251,7 +1246,6 @@ Use the `tender` section to provide information on the procurement method.
 .. jsoninclude:: examples/full.json
   :jsonpointer: /releases/1/tender
   :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
-
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1354,7 +1348,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 #### II.8.1. Organization details
 
-Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'preferredBidder' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'supplier' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -1378,13 +1372,13 @@ Details of the preferred bidder, including name and contact details, should be p
 
 #### II.8.2. Organization reference
 
-A reference to the preferred bidder should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/preferredBidders](../reference/schema/#release-schema.json,,awards/0/preferredBidders) field, referencing the relevant entry in the `parties` section.
+A reference to the preferred bidder should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](../reference/schema/#release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/preferredBidders
+  :jsonpointer: /releases/3/awards/0/suppliers
 
 ```
 
@@ -1394,7 +1388,7 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/preferredBidders
+  :jsonpointer: /releases/3/awards/0/suppliers
   :ignore_path: /releases/3/
 ```
 
