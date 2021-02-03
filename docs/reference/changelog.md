@@ -5,6 +5,14 @@
 * [#230](https://github.com/open-contracting-extensions/public-private-partnerships/pull/230) Reduce the degree of repetition on the Frameworks reference page.
 * [#231](https://github.com/open-contracting-extensions/public-private-partnerships/pull/231) Add a link to the release schema as a CSV spreadsheet.
 
+## [X.X.X.x] - YYYY-MM-DD
+
+### Normative changes
+
+Update the profile to align with OCDS:
+
+* [#245](https://github.com/open-contracting-extensions/public-private-partnerships/pull/245) Remove the preQualification extension and update framework reference accordingly.
+
 ## [1.0.0.beta2] - 2019-10-21
 
 ### Normative changes
