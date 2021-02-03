@@ -5,6 +5,15 @@
 * [#230](https://github.com/open-contracting-extensions/public-private-partnerships/pull/230) Reduce the degree of repetition on the Frameworks reference page.
 * [#231](https://github.com/open-contracting-extensions/public-private-partnerships/pull/231) Add a link to the release schema as a CSV spreadsheet.
 
+## [X.X.X.x] - YYYY-MM-DD
+
+### Normative changes
+
+Update the profile to align with OCDS:
+
+* [#243](https://github.com/open-contracting-extensions/public-private-partnerships/pull/243) Restore `buyer` and `awards/supplier` fields and associated codes. Remove `publicAuthority` and `awards/preferredBidders` fields and associated codes. Update the framework reference accordingly.
+* [#244](https://github.com/open-contracting-extensions/public-private-partnerships/pull/244) Restore 'tender' code and remove 'ppp' code from `initiationType.csv`.
+
 ## [1.0.0.beta2] - 2019-10-21
 
 ### Normative changes
