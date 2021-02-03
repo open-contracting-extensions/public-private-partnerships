@@ -966,7 +966,7 @@ P   U
 
 </div>
 
-Use the `tender/period` field to provide the period during which the first stage is open for submissions. `period/endDate` should contain the closing date for submissions.
+Use the `tender/tenderPeriod` field to provide the period during which the first stage is open for submissions. `tenderPeriod/endDate` should contain the closing date for submissions.
 
 **Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/period](../reference/schema/#release-schema.json,,tender/period) field.
 
@@ -974,7 +974,7 @@ Use the `tender/period` field to provide the period during which the first stage
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/7/tender/period
+  :jsonpointer: /releases/1/tender/tenderPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -983,8 +983,8 @@ Use the `tender/period` field to provide the period during which the first stage
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/7/tender/period
-  :ignore_path: /releases/7/
+  :jsonpointer: /releases/1/tender/tenderPeriod
+  :ignore_path: /releases/1/
 ```
 
 </div>
@@ -1012,7 +1012,7 @@ Use the `tender/enquiryPeriod` field to provide the period during which enquirie
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/7/tender/enquiryPeriod
+  :jsonpointer: /releases/1/tender/enquiryPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1021,8 +1021,8 @@ Use the `tender/enquiryPeriod` field to provide the period during which enquirie
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/7/tender/enquiryPeriod
-  :ignore_path: /releases/7/
+  :jsonpointer: /releases/1/tender/enquiryPeriod
+  :ignore_path: /releases/1/
 ```
 
 </div>
@@ -1057,7 +1057,7 @@ Use the following fields in the `tender` section to provide information on the s
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/7/tender
+  :jsonpointer: /releases/1/tender
   :include_only: submissionMethod, submissionMethodDetails
 
 ```
@@ -1068,9 +1068,9 @@ Use the following fields in the `tender` section to provide information on the s
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/7/tender
+  :jsonpointer: /releases/1/tender
   :include_only: submissionMethod, submissionMethodDetails
-  :ignore_path: /releases/7/
+  :ignore_path: /releases/1/
 ```
 
 </div>
@@ -1105,7 +1105,7 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/7/tender
+  :jsonpointer: /releases/1/tender
   :include_only: eligibilityCriteria
 
 ```
@@ -1116,9 +1116,9 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/7/tender
+  :jsonpointer: /releases/1/tender
   :include_only: eligibilityCriteria
-  :ignore_path: /releases/7/
+  :ignore_path: /releases/1/
 ```
 
 </div>
@@ -2224,7 +2224,7 @@ State variations to contract, if any, after signing of the original contract det
 
 ```eval_rst
 .. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/8/contracts/0/amendments/0
+  :jsonpointer: /releases/7/contracts/0/amendments/0
 
 ```
 
@@ -2234,8 +2234,8 @@ State variations to contract, if any, after signing of the original contract det
 
 ```eval_rst
 .. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/8/contracts/0/amendments/0
-  :ignore_path: /releases/8/
+  :jsonpointer: /releases/7/contracts/0/amendments/0
+  :ignore_path: /releases/7/
 ```
 
 </div>
