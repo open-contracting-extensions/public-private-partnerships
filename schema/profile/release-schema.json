@@ -20,28 +20,6 @@
         "null"
       ],
       "description": "An overall description for this contracting process or release. This should not replace provision of a detailed breakdown of the objects of the contracting process in the planning, tender, award or contracts section."
-    },
-    "tag": {
-      "items": {
-        "enum": [
-          "planning",
-          "planningUpdate",
-          "tender",
-          "tenderAmendment",
-          "tenderUpdate",
-          "tenderCancellation",
-          "award",
-          "awardUpdate",
-          "awardCancellation",
-          "contract",
-          "contractUpdate",
-          "contractAmendment",
-          "implementation",
-          "implementationUpdate",
-          "contractTermination",
-          "compiled"
-        ]
-      }
     }
   },
   "definitions": {
