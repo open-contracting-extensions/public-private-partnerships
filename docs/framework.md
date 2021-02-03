@@ -1189,9 +1189,9 @@ P   U   U   U   U   U
 
 </div>
 
-Use the `tender/contractPeriod` field to provide the expected start and end dates for the contract.
+Use the `tender/contractPeriod` field to provide the expected start and end dates for the contract. Use the `awards/contractPeriod` field to provide the actual start and end dates of the contract at the time of the contract award. Update the `contracts/period` field with any changes to the contract period after the award.
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](../reference/schema/#release-schema.json,,tender/contractPeriod) field.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](../reference/schema/#release-schema.json,,tender/contractPeriod), [awards/contractPeriod](../reference/schema/#release-schema.json,,awards/contractPeriod) and [contracts/period](../reference/schema/#release-schema.json,,contracts/period) fields.
 
 **JSON example:**
 
