@@ -943,7 +943,7 @@ Procurement procedures can involve one or more competitive stages:
 * In a single-stage procedure, the procuring entity invites suppliers to submit bids, without submitting any prior information.
 * In a multi-stage procedure, the procuring entity invites suppliers to submit requests to participate in a first stage (pre-qualification). The procuring entity assesses the requests, and establishes a list of qualified suppliers to invite to submit bids. Qualified suppliers then submit bids in a second stage. The procuring entity assesses the bids, and awards a contract to the winning bidder.
 
-In OCDS, the `tender` section represents the invitation to participate and is also used to describe the procedure as a whole.
+In OCDS, the `tender` section represents the invitation to participate (whether to submit bids, or to submit requests to participate) and is also used to describe the procedure as a whole.
 
 ### II.1. First stage
 
