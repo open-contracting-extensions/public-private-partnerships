@@ -949,7 +949,7 @@ In OCDS, the `tender` section represents the invitation to participate (whether 
 
 > The act of testing prospective bidders to determine whether they meet the pass/fail qualification criteria in advance of issuing the request for proposals. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
-Use the `tender` section to describe the first stage of the contracting process, whether that is the tender itself, or a pre-qualification stage.
+Use the `tender` section to describe the first stage of the contracting process, whether it involves the submission of bids, or requests to participate.
 
 #### II.1.1. Dates - Submission period
 
