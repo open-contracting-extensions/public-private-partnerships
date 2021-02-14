@@ -81,14 +81,14 @@
         },
         {
           "id": "XX-GOV-99999999",
-          "name": "National fiber Infrastructure",
+          "name": "National Fiber Infrastructure",
           "roles": [
             "assetProvider"
           ],
           "identifier": {
             "scheme": "XX-GOV",
             "id": "99999999",
-            "legalName": "National fiber Infrastructure",
+            "legalName": "National Fiber Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
           "address": {
@@ -2150,14 +2150,14 @@
         },
         {
           "id": "XX-GOV-99999999",
-          "name": "National fiber Infrastructure",
+          "name": "National Fiber Infrastructure",
           "roles": [
             "assetProvider"
           ],
           "identifier": {
             "scheme": "XX-GOV",
             "id": "99999999",
-            "legalName": "National fiber Infrastructure",
+            "legalName": "National Fiber Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
           "address": {
@@ -2368,14 +2368,14 @@
         },
         {
           "id": "XX-GOV-99999999",
-          "name": "National fiber Infrastructure",
+          "name": "National Fiber Infrastructure",
           "roles": [
             "assetProvider"
           ],
           "identifier": {
             "scheme": "XX-GOV",
             "id": "99999999",
-            "legalName": "National fiber Infrastructure",
+            "legalName": "National Fiber Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
           "address": {
@@ -2980,14 +2980,14 @@
         },
         {
           "id": "XX-GOV-99999999",
-          "name": "National fiber Infrastructure",
+          "name": "National Fiber Infrastructure",
           "roles": [
             "assetProvider"
           ],
           "identifier": {
             "scheme": "XX-GOV",
             "id": "99999999",
-            "legalName": "National fiber Infrastructure",
+            "legalName": "National Fiber Infrastructure",
             "uri": "http://statecompanies.gov.example/99999999"
           },
           "address": {
@@ -3038,7 +3038,7 @@
           "id": "1",
           "awardID": "1",
           "title": "Public Private Partnership Agreement",
-          "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with national fiber infrastructure and the special purpose vehicle mega consortium ltd.",
+          "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with National Fiber Infrastructure and the special purpose vehicle mega consortium ltd.",
           "status": "active",
           "period": {
             "startDate": "2016-01-24T00:00:00Z",
@@ -3113,7 +3113,7 @@
             },
             {
               "id": "XX-GOV-99999999",
-              "name": "National fiber Infrastructure"
+              "name": "National Fiber Infrastructure"
             },
             {
               "id": "MEGA",
@@ -3859,8 +3859,8 @@
               {
                 "id": "7",
                 "type": "delivery",
-                "title": "fiber Network Access",
-                "description": "The private party will be granted access to the national fiber network upon payment of the first monthly payment of $100,000 USD to National fiber Infrastructure.",
+                "title": "Fiber Network Access",
+                "description": "The private party will be granted access to the national fiber network upon payment of the first monthly payment of $100,000 USD to National Fiber Infrastructure.",
                 "status": "scheduled",
                 "dueDate": "2017-04-01T00:00:00-06:00"
               }
@@ -3900,12 +3900,12 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
                 "relatedImplementationMilestone": {
                   "id": "7",
-                  "title": "fiber Network Access"
+                  "title": "Fiber Network Access"
                 }
               },
               {
@@ -3922,7 +3922,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/109f4b3c50d7b0df729d299bc6f8e9ef9066971f"
               },
@@ -3940,7 +3940,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/3ebfa301dc59196f18593c45e519287a23297589"
               },
@@ -3958,7 +3958,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/1ff2b3704aede04eecb51e50ca698efd50a1379b"
               },
@@ -3976,7 +3976,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/911ddc3b8f9a13b5499b6bc4638a2b4f3f68bf23"
               },
@@ -3994,7 +3994,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/a66df261120b6c2311c6ef0b1bab4e583afcbcc0"
               },
@@ -4012,7 +4012,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/ea3243132d653b39025a944e70f3ecdf70ee3994"
               },
@@ -4030,7 +4030,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/d03f9d34194393019e6d12d7c942827ebd694443"
               },
@@ -4048,7 +4048,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/53d525836cc96d089a5a4218b464fda532f7debe"
               },
@@ -4066,7 +4066,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/168f4029f416ee06565f12e697dfc1534ae69d32"
               },
@@ -4084,7 +4084,7 @@
                 },
                 "payee": {
                   "id": "XX-GOV-99999999",
-                  "name": "National fiber Infrastructure"
+                  "name": "National Fiber Infrastructure"
                 },
                 "uri": "http://finance.example.gov/spending/100c4e57374fc998e57164d4c0453bd3a4876a58"
               }
@@ -4093,8 +4093,8 @@
               {
                 "id": "7",
                 "type": "delivery",
-                "title": "fiber Network Access",
-                "description": "The private party will be granted access to the national fiber network upon payment of the first monthly payment of $100,000 USD to National fiber Infrastructure.",
+                "title": "Fiber Network Access",
+                "description": "The private party will be granted access to the national fiber network upon payment of the first monthly payment of $100,000 USD to National Fiber Infrastructure.",
                 "status": "met",
                 "dueDate": "2017-04-01T00:00:00-06:00",
                 "dateMet": "2017-04-01T00:00:00-06:00"
