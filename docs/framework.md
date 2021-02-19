@@ -234,7 +234,7 @@ The total value of the project agreed in the contract(s).
 
 ### I.4. Project economic and social benefits
 
-Project need: benefits provided, economic and social (including specific information on the public interest aspect)
+> Project need: benefits provided, economic and social (including specific information on the public interest aspect)
 
 <div class="disclosure-timing">
 
@@ -278,7 +278,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.5. Project technical description
 
-Technical description of the physical infrastructure
+> Technical description of the physical infrastructure
 
 <div class="disclosure-timing">
 
@@ -304,7 +304,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.6. Project high level description
 
-High-level description of the services
+> High-level description of the services
 
 <div class="disclosure-timing">
 
@@ -330,7 +330,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.7. Estimated project demand
 
-Estimated demand to be served annually
+> Estimated demand to be served annually
 
 <div class="disclosure-timing">
 
@@ -395,8 +395,6 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.8. Project additionality
 
-Project additionality
-
 <div class="disclosure-timing">
 
 ```eval_rst
@@ -426,7 +424,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.9. Reasons for selection of PPP mode (general)
 
-Reason for selection of PPP mode and type in brief
+> Reason for selection of PPP mode and type in brief
 
 <div class="disclosure-timing">
 
@@ -452,7 +450,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### I.10. Project approval dates
 
-Dates of various approvals
+> Dates of various approvals
 
 <div class="disclosure-timing">
 
@@ -503,8 +501,6 @@ This information can be provided as [Milestone](https://standard.open-contractin
 
 #### I.11.1. Contract milestones - Date of commercial close
 
-Contract Milestones (Estimated and Actual) - Date of commercial close
-
 > In a financing, the point at which the commercial documentation has been executed but before conditions precedent have been satisfied or waived; before financial close. ([Source](https://pppknowledgelab.org/glossary#Commercial_Close))
 
 <div class="disclosure-timing">
@@ -525,8 +521,6 @@ This milestone should have a `type` of 'financing', a `code` of 'commercialClose
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
 #### I.11.2. Contract milestones - Date of financial close
-
-Contract Milestones (Estimated and Actual) - Date of financial close
 
 > In a financing, the point at which the documentation has been executed and conditions precedent have been satisfied or waived. Drawdowns become permissible after this point. ([Source](https://pppknowledgelab.org/glossary#Financial_Close))
 
@@ -557,8 +551,6 @@ This information can be provided as [Milestone](https://standard.open-contractin
 
 #### I.12.1. Implementation milestones - Date of commencement of construction or development
 
-Contract Milestones (Estimated and Actual) - Date of commencement of construction or development
-
 <div class="disclosure-timing">
 
 ```eval_rst
@@ -578,8 +570,6 @@ The milestone should have a `type` of 'delivery', a `code` of 'developmentStarte
 
 #### I.12.2. Implementation milestones - Date of completion of construction or development
 
-Contract Milestones (Estimated and Actual) - Date of completion of construction or development
-
 <div class="disclosure-timing">
 
 ```eval_rst
@@ -598,8 +588,6 @@ The milestone should have a `type` of 'delivery', a `code` of 'developmentComple
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
 #### I.12.3. Implementation milestones - Date of commissioning
-
-Contract Milestones (Estimated and Actual) - Date of commissioning
 
 > The testing and inspection of the completed works to verify that the works are ready for commercial operation. ([Source](https://pppknowledgelab.org/glossary#Commissioning))
 
@@ -621,8 +609,6 @@ The milestone should have a `type` of 'delivery', a `code` of 'commissioning' an
 **Example**: See [section I.10](#i-10-project-approval-dates) for JSON and flattened examples of the `milestones` building block.
 
 #### I.12.4. Implementation milestones - Date of contract expiry
-
-Contract Milestones (Estimated and Actual) - Date of contract expiry
 
 <div class="disclosure-timing">
 
@@ -691,7 +677,7 @@ Links to contract documents can be provided using [Document](reference/documents
 
 ### I.14. Contract parties - public authority
 
-Public authority: name of authority, name of representative, address, telephone, fax, e-mail
+> Public authority: name of authority, name of representative, address, telephone, fax, e-mail
 
 > The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
@@ -807,7 +793,7 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 ### I.15. Contract parties - private party
 
-Private party: name of company or consortium, name of representative, address, telephone, fax, e-mail
+> Private party: name of company or consortium, name of representative, address, telephone, fax, e-mail
 
 > The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
@@ -884,7 +870,7 @@ A reference to the private party should be provided using an [OrganizationRefere
 
 ### I.16. Contract parties - financiers
 
-Financiers: name of Lead FI, other FIs, name of representative of lead FI, address, telephone, fax, e-mail
+> Financiers: name of Lead FI, other FIs, name of representative of lead FI, address, telephone, fax, e-mail
 
 #### I.16.1. Organization details
 
@@ -1125,8 +1111,6 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 #### II.1.6. Request for Qualification
 
-Request for Qualification (RFQ):
-
 > The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase). ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
 In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the Request for Proposal.
@@ -1276,7 +1260,16 @@ P   U
 
 </div>
 
-Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to procurement documents, feasibility studies, including land acquisition, social, environmental, and rehabilitation related information and reports of independent procurement auditors. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to documents.
+
+You should provide links to:
+
+* all procurement documents
+* feasibility studies, including cost-benefit analyses, if available
+* land acquisition, rehabilitation, social, human rights, and environmental assessments
+* reports of independent procurement auditors
+
+A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1298,8 +1291,6 @@ For each request to participate:
 
 ### II.3. Request for Proposal
 
-Request for Proposal (RFP):
-
 > The set of documents issued by the procuring authority that set out:
 > * The basis or requirements for submitting the proposal (which documents and in which format and contents the bidder has to submit)
 > * The basis of the evaluation criteria  for selecting the preferred bidder or awardee
@@ -1314,7 +1305,7 @@ Use [Document](reference/documents) objects in the [tender/documents](../referen
 
 ### II.4. Evaluation criteria
 
-Evaluation criteria: brief description with weightage
+> Evaluation criteria: brief description with weightage
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCriteria'.
 
@@ -1322,7 +1313,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### II.5. Evaluation committee information
 
-Brief information on constitution of the evaluation committees
+> Brief information on constitution of the evaluation committees
 
 Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCommittee'.
 
@@ -1330,7 +1321,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 ### II.6. Negotiation parameters
 
-Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
+> Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
 
 Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'negotiationParameters'.
 
@@ -1338,7 +1329,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 ### II.7. Pre-bid meeting minutes
 
-Minutes of pre-bid meetings
+> Minutes of pre-bid meetings
 
 Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'minutes'.
 
@@ -1398,7 +1389,7 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 ### III.1. Individual risk allocation information
 
-Listing of risks with information on who bears the risk. Countries, sectors, and individual projects may use different categorizations. Several risks can be further broken down into components or listed together. If within a large category of risk subcategories are allocated to different parties, it makes sense to show the subcategories clearly.
+> Listing of risks with information on who bears the risk. Countries, sectors, and individual projects may use different categorizations. Several risks can be further broken down into components or listed together. If within a large category of risk subcategories are allocated to different parties, it makes sense to show the subcategories clearly.
 
 > The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
@@ -1453,7 +1444,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 ### IV.1. Evaluation report
 
-Link to evaluation report (value for money or other)
+> Link to evaluation report (value for money or other)
 
 Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationReports'.
 
@@ -1463,7 +1454,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 #### IV.2.1. Rationale for project as PPP (specific)
 
-State the rationale for doing the project as a PPP, including any qualitative or quantitative value-for-money or other analysis that might have been used. If nonfinancial benefits have been quantified or considered, these could be stated
+> State the rationale for doing the project as a PPP, including any qualitative or quantitative value-for-money or other analysis that might have been used. If nonfinancial benefits have been quantified or considered, these could be stated
 
 *Note: Choice of methodology affects the costs to the public and it is important to assure them that the PPP mode selected is the best possible in terms of cost, given equal standards of service in all modes tested.*
 
@@ -1473,7 +1464,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 ##### IV.2.2.1. Discount rate and risk premium - structured data
 
-The discount rates used should be specified in the disclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
+> The discount rates used should be specified in the disclosure along with the risk premium used, if any, and an explanation for the rate of risk premium used, referring to guidance, if any available in this regard or describing project-specific circumstances that justify the risk premium rate used.
 
 Structured information and supporting details about the discount rate and risk premium used by government to evaluate the PPP should be provided in the `award/evaluationIndicators` section.
 
@@ -1514,7 +1505,7 @@ Links to supporting documentation about the discount rate and risk premium used 
 
 #### IV.2.3. Risk comparison
 
-Risk comparison of other financing mechanisms should be specified.
+> Risk comparison of other financing mechanisms should be specified.
 
 Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'riskComparison'.
 
@@ -1523,8 +1514,6 @@ Links to these documents can be provided using [Document](reference/documents) o
 ## V. Financial Information
 
 ### V.1. Debt-equity ratio
-
-Debt-equity ratio
 
 Structured information and supporting details about the debt-equity ratio for the PPP should be provided in the `contract/financeSummary` section.
 
@@ -1561,8 +1550,6 @@ Structured information and supporting details about the debt-equity ratio for th
 
 ### V.2. Share capital
 
-Share capital
-
 Structured information and supporting details about the share capital of the PPP should be provided in the `contract/financeSummary` section.
 
 **Schema**: See above
@@ -1590,8 +1577,6 @@ Structured information and supporting details about the share capital of the PPP
 </div>
 
 ### V.3. Shareholders with proportion held and voting rights
-
-Shareholders with proportion held and voting rights
 
 #### V.3.1. Shareholder organization details
 
@@ -1652,9 +1637,7 @@ Structured information about each shareholder on the proportion of shares held a
 
 ### V.4. Equity transfer caps
 
-Equity transfer caps
-
-*Note: Certain contracts provide for caps on equity transfer in different stages of the contract, especially during the construction stage and for a few years thereafter. Give details of any such provisions.*
+> Certain contracts provide for caps on equity transfer in different stages of the contract, especially during the construction stage and for a few years thereafter. Give details of any such provisions.
 
 #### V.4.1. Documentation of equity transfer caps
 
@@ -1697,7 +1680,7 @@ Information on equity transfer caps or lock in arrangements applicable to a part
 
 ### V.5. Lender and investor information
 
-Commercial lenders, institutional investors, bilateral or multilateral lenders, public issue of bonds, supplier credit, other
+> Commercial lenders, institutional investors, bilateral or multilateral lenders, public issue of bonds, supplier credit, other
 
 #### V.5.1. Organization information
 
@@ -1758,7 +1741,7 @@ Details of the type of finance provided by each lender or investor should be pro
 
 ### V.6. Debt information
 
-Categorize senior debit, mezzanine debit, other
+> Categorize senior debit, mezzanine debit, other
 
 Details of all debt financing should be provided in the `contract/finance` section.
 
@@ -1797,7 +1780,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 
 ### V.7. Rate information
 
-Amount and tenor of each, fixed or floating rate
+> Amount and tenor of each, fixed or floating rate
 
 Details of interest rates relating to each finance arrangement should be provided in the `contract/finance` section.
 
@@ -1832,7 +1815,7 @@ Details of interest rates relating to each finance arrangement should be provide
 
 ### V.8. Security information
 
-Security and step in arrangements
+> Security and step in arrangements
 
 #### V.8.1. Structured security and step in information
 
@@ -1877,8 +1860,6 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 ### V.9. Forecast IRR
 
-Forecast IRR
-
 Structured information and supporting details about the forecast IRR of the PPP should be provided in the `contract/financeSummary` section.
 
 **Schema**: Information can be provided using the following OCDS fields.
@@ -1916,7 +1897,7 @@ Structured information and supporting details about the forecast IRR of the PPP 
 
 ### VI.1. Guarantee information
 
-Detail the type and exact details of the guarantees provided - both explicit and contingent guarantees - such as minimum revenue guarantee, exchange rate guarantee, debit repayment guarantee and other guarantees. Provide links to fiscal commitments and contingent liabilities disclosure reports, if any.
+> Detail the type and exact details of the guarantees provided - both explicit and contingent guarantees - such as minimum revenue guarantee, exchange rate guarantee, debit repayment guarantee and other guarantees. Provide links to fiscal commitments and contingent liabilities disclosure reports, if any.
 
 #### VI.1.1. Structured information on guarantees
 
@@ -1938,8 +1919,6 @@ Links to documentation or reports on each guarantee should be provided using [Do
 ### VI.2. Grant/Subsidy information
 
 #### VI.2.1. Subsidy as a proportion of project value
-
-Subsidy as a proportion of project value
 
 #### VI.2.1. Structured information on subsidy as a proportion of project value
 
@@ -1984,7 +1963,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 #### VI.2.2. Supporting documentation on capital subsidies
 
-Capital subsidies paid during construction with periodicity of milestones
+> Capital subsidies paid during construction with periodicity or milestones
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'grants'.
 
@@ -1992,7 +1971,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### VI.2.3. Supporting documentation on operating subsidies
 
-Operating subsidies and their periodicity of milestones
+> Operating subsidies and their periodicity or milestones
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
@@ -2000,7 +1979,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VI.3. Service payment information
 
-These are payments made by the public authority or purchaser to the private provider for infrastructure services (applicable in PFI type projects)
+> These are payments made by the public authority or purchaser to the private provider for infrastructure services (applicable in PFI type projects)
 
 #### VI.3.1. Structured information on individual service payments
 
@@ -2037,7 +2016,7 @@ Structured information on actual individual service payments can be provided in 
 
 #### VI.3.2. Structured information on total service payments
 
-Total payments and periodicity
+> Total payments and periodicity
 
 Structured information on total service payments can be provided in the `contract/implementation/charges` section.
 
@@ -2072,7 +2051,7 @@ Structured information on total service payments can be provided in the `contrac
 
 #### VI.3.3. Service payment calculation methodology
 
-Methodology for calculating payments
+> Methodology for calculating payments
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
 
@@ -2080,7 +2059,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### VI.3.4. Service payment indexation
 
-Indexation used
+> Indexation used
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
 
@@ -2088,9 +2067,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VI.4. Land leases, asset transfers information
 
-* Land transferred on lease or other basis by government: give details of property numbers with the quantum of land transferred, zoning information, conditions of transfer
-* Equipment transfers: details of equipment with conditions of transfer
-* Human resources/personnel transfers: details and conditions of transfer
+> * Land transferred on lease or other basis by government: give details of property numbers with the quantum of land transferred, zoning information, conditions of transfer
+> * Equipment transfers: details of equipment with conditions of transfer
+> * Human resources/personnel transfers: details and conditions of transfer
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'lease' or 'assetTransfer'.
 
@@ -2098,8 +2077,8 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VI.5. Other support
 
-* Non-complete clauses
-* Provision for revenue shortfall loan
+> * Non-complete clauses
+> * Provision for revenue shortfall loan
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'otherGovernmentSupport'.
 
@@ -2107,9 +2086,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VI.6. Revenue share information
 
-* Revenue share on base case
-* Revenue share on upside
-* Links to graphs: annual concessionaire payments to government
+> * Revenue share on base case
+> * Revenue share on upside
+> * Links to graphs: annual concessionaire payments to government
 
 #### VI.6.1. Revenue share agreed in contract
 
@@ -2127,9 +2106,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VII.1. Tariffs and pricing
 
-Tariffs and pricing
-
-This information will be required only where the infrastructure is financed partly or fully through the levy of user charges
+> This information will be required only where the infrastructure is financed partly or fully through the levy of user charges
 
 Structured information on the tariffs defined in the contract and subsequent revisions to tariffs can be provided in the implementation section using the tariffs extension. Tariffs and pricing schedules can also be provided as documents.
 
@@ -2178,7 +2155,7 @@ Subsequent revisions to tariffs and pricing schedules can similarly be provided 
 
 ### VII.2. Tariff setting methodology
 
-Methodology for tariff setting/pricing
+> Methodology for tariff setting/pricing
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffMethod'.
 
@@ -2200,7 +2177,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### VIII.1. Events of default and termination payments
 
-Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
+> Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
 Provision for contract termination should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'termination'.
 
@@ -2208,7 +2185,7 @@ Provision for contract termination should be provided using [Document](reference
 
 ### VIII.2. Handover information
 
-State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
+> State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'handover'.
 
@@ -2218,7 +2195,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### IX.1. Contract variation details
 
-State variations to contract, if any, after signing of the original contract detailing each change against original provisions. State in addition the details of renegotiations and circumstances leading to renegotiations. State specifically any change due to the renegotiated clauses in the following: roles and responsibilities relating to the project, risk allocation, fiscal exposure, that is, any change in fiscal commitments and contingent liabilities with a rationale for agreeing to the change.
+> State variations to contract, if any, after signing of the original contract detailing each change against original provisions. State in addition the details of renegotiations and circumstances leading to renegotiations. State specifically any change due to the renegotiated clauses in the following: roles and responsibilities relating to the project, risk allocation, fiscal exposure, that is, any change in fiscal commitments and contingent liabilities with a rationale for agreeing to the change.
 
 **JSON example:**
 
@@ -2246,7 +2223,7 @@ The amended contract should be provided using a [Document](reference/documents) 
 
 #### IX.1.2. Description
 
-Nature of Variation
+> Nature of Variation
 
 A description of the nature of the variation should be provided in the `amendment/description` field.
 
@@ -2261,7 +2238,7 @@ A description of the nature of the variation should be provided in the `amendmen
 
 #### IX.1.3. Rationale
 
-Rationale for variation
+> Rationale for variation
 
 A rationale for the variation should be provided in the `amendment/rationale` field.
 
@@ -2276,13 +2253,13 @@ A rationale for the variation should be provided in the `amendment/rationale` fi
 
 #### IX.1.4. Parties
 
-Change in roles and responsibilities of the parties due to the variation, if any
+> Change in roles and responsibilities of the parties due to the variation, if any
 
 Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the relevant [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
 
 #### IX.1.5. Risk allocation
 
-Change in original risk allocation due to the variation, if any
+> Change in original risk allocation due to the variation, if any
 
 Structured information on changes to the original risk allocation due to the variation should be provided by updating the `contract/riskAllocation` section.
 
@@ -2297,7 +2274,7 @@ Structured information on changes to the original risk allocation due to the var
 
 #### IX.1.6. Fiscal commitments
 
-Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
+> Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
@@ -2305,7 +2282,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### IX.1.6. Costs
 
-Change in capital or operational costs due to the variation, if any
+> Change in capital or operational costs due to the variation, if any
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
@@ -2313,7 +2290,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### IX.1.7. Tariffs
 
-Change in tariffs or service levels due to the variation, if any
+> Change in tariffs or service levels due to the variation, if any
 
 Structured information on changes to the tariffs should be provided by updating the `contract/implementation/tariffs` section.
 
@@ -2332,7 +2309,7 @@ Structured information on changes to services levels should be provided by updat
 
 #### IX.1.9. Date
 
-Date of variation
+> Date of variation
 
 The date of the variation should be provided using the `amendment/date` field.
 
@@ -2349,7 +2326,7 @@ The date of the variation should be provided using the `amendment/date` field.
 
 ### X.1. Actual annual demand
 
-State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
+> State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
 Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
 
@@ -2377,11 +2354,11 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 ### X.2. Actual annual revenue
 
-Recommended only where revenue share clauses or other related clauses such as MRGs are present in the contract.
+> Recommended only where revenue share clauses or other related clauses such as MRGs are present in the contract.
 
 #### X.2.1. Structured information on annual revenues
 
-State the actual annual total revenues reported in the financial statements and reports.
+> State the actual annual total revenues reported in the financial statements and reports.
 
 Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
 
@@ -2391,7 +2368,7 @@ A metric with an `id` of 'revenue' should be given, with a series of [observatio
 
 #### X.2.2. Financial statements
 
-Provide links to audited financial statements of the provider company.
+> Provide links to audited financial statements of the provider company.
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
@@ -2399,7 +2376,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 ### X.3. Actual IRR
 
-Recommended only where there is government equity investment or other form of government support that is substantial
+> Recommended only where there is government equity investment or other form of government support that is substantial
 
 Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
 
@@ -2409,7 +2386,7 @@ A metric with an `id` of 'IRR' should be given, with a series of [observations](
 
 ### X.4. Actual KPI performance
 
-State actual year-wise performance here against each of 10-12 identified key performance indicators
+> State actual year-wise performance here against each of 10-12 identified key performance indicators
 
 Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
 
@@ -2419,7 +2396,7 @@ These estimates can be disaggregated by any number of dimensions contained as ke
 
 ### X.5. Performance failure information
 
-State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed.
+> State instances of performance failure during the year and the penalty or abatement. Provide information on the provision of the contract as well as the actual penalties imposed.
 
 Structured data about actual performance failures, penalties and abatements and those provided for in the contract can be provided in the `contract/implementation/performanceFailures` section.
 
@@ -2454,7 +2431,7 @@ Structured data about actual performance failures, penalties and abatements and 
 
 ### X.6. Performance assessment reports
 
-Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
+> Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
 
 Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
 
