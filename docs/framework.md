@@ -1275,7 +1275,7 @@ A short summary of each document can be provided using its `description` field. 
 
 ### II.2. List of pre-qualified suppliers
 
-Pre-qualification or shortlist.
+> Pre-qualification or shortlist.
 
 Details of suppliers that submit a request to participate should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
 
