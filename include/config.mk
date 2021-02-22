@@ -42,9 +42,3 @@ compile:
 	pybabel compile --use-fuzzy -d $(LOCALE_DIR) -D $(DOMAIN_PREFIX)codelists
 
 # Put local targets below.
-
-# Update example files.
-.PHONY: update_examples
-update_examples:
-	curl -Ss -o docs/examples/full.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
-	curl -Ss -o docs/examples/full_record_package.json https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full_record_package.json
