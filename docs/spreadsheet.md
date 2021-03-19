@@ -6,9 +6,8 @@ However, as a proof-of-concept - and to demonstrate the flattened serialization 
 
 The template is [available to view via Google Sheets here](https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/edit#gid=159397949) or [you can take your own copy to edit](https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/copy). 
 
-```eval_rst
-.. image:: _static/images/spreadsheet_template.png
-   :target: https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/edit#gid=159397949
+```{image} _static/images/spreadsheet_template.png
+:target: https://docs.google.com/spreadsheets/d/1kQSit3fUcyuCN48C9HeIEnrBzbO9sPDj2NUS-8c8VRk/edit#gid=159397949
 ```
 
 Unlike the [framework reference](framework.md) which reflects the ordering of properties required by the World Bank PPP Disclosure Framework, the spreadsheet template is structured around the stages of a **contracting process**. 

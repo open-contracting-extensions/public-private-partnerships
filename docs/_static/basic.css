@@ -32,11 +32,8 @@
 .disclosure-timing {
     float: right;
 }
-.rst-content .disclosure-timing table.docutils {
-  width: auto;
-  table-layout: auto;
-}
-.rst-content .flattened-example table.docutils {
+.rst-content .disclosure-timing table.docutils,
+.rst-content table.docutils.flattened-example {
   width: auto;
   table-layout: auto;
 }

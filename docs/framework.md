@@ -1,7 +1,6 @@
 # Framework reference
 
-```eval_rst
-.. image:: _static/images/disclosure-framework.png
+```{image} _static/images/disclosure-framework.png
 ```
 
 [The World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects.
@@ -16,15 +15,9 @@ The mapping for each requirement in the framework includes a guide to publicatio
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   R   R   R   R   R
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | R | R | R  | R | R
 </div>
 
 ### I.1. Name, location and sector
@@ -35,23 +28,17 @@ This information is included in the `planning/project` section of each release. 
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/planning/project
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/planning/project
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/planning/project
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/planning/project
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.1.1. Project name and description
 
@@ -61,11 +48,10 @@ We recommend keeping descriptions to one paragraph or less.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: planning/project/title,planning/project/description
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: planning/project/title,planning/project/description
+:collapse:
+:nocrossref:
 ```
 
 #### I.1.2. Project sector
@@ -76,11 +62,10 @@ This can be cross-walked to most other PPP classification schemes in use, and so
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: planning/project/sector
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: planning/project/sector
+:collapse:
+:nocrossref:
 ```
 
 ##### I.1.2.1. Project sector (additional)
@@ -89,11 +74,10 @@ One or more additional project classifications can be provided if required by a 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: planning/project/additionalClassifications
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: planning/project/additionalClassifications
+:collapse:
+:nocrossref:
 ```
 
 Additional classification schemes can also be provided, such as project classification against the Sustainable Development Goals (SDGs), or against national frameworks.
@@ -109,11 +93,10 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: planning/project/locations
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: planning/project/locations
+:collapse:
+:nocrossref:
 ```
 
 ### I.2. Sponsoring agency/department
@@ -122,74 +105,51 @@ There are a range of tools available to generate GeoJSON data, such as [http://g
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/parties/1
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/parties/1
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/parties/1
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/parties/1
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.2.2. Organization reference
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/buyer
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/buyer
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/buyer
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/buyer
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.3. Project value
 
@@ -199,15 +159,9 @@ The value of a project can be specified at a number of points in time.
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   R   R   R       R
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | R | R | R  |   | R
 </div>
 
 The value, or range of values, anticipated during the planning stage.
@@ -238,15 +192,9 @@ The total value of the project agreed in the contract(s).
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 Information on the project need, benefits provided, and economic and social impact should be provided through:
@@ -258,23 +206,17 @@ Links to these documents should be provided using [Document](reference/documents
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/planning/documents/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/planning/documents/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/planning/documents/0
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/planning/documents/0
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.5. Project technical description
 
@@ -282,15 +224,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 A technical description of the physical infrastructure should be provided through:
@@ -308,15 +244,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 A high-level description of the services should be provided through:
@@ -334,15 +264,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 #### I.7.1. Structured information on estimated demand
@@ -355,32 +279,25 @@ These estimates can be disaggregated by any number of dimensions contained as ke
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: planning/forecasts
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: planning/forecasts
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/planning/forecasts
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/planning/forecasts
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/planning/forecasts
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/planning/forecasts
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.7.2. Estimated demand documentation
 
@@ -397,15 +314,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 Information on the project additionality should be provided through planning documents containing:
@@ -428,15 +339,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 A short summary of the reason for the PPP selection mode should be provided through:
@@ -454,15 +359,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P                     
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  |   |   |    |   |
 </div>
 
 Each approval during the planning stage should be provided as a [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) object in the [planning/milestones](../reference/schema/#release-schema.json,,planning/milestones) array with:
@@ -475,23 +374,17 @@ Each approval during the planning stage should be provided as a [Milestone](http
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/planning/milestones/1
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/planning/milestones/1
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/planning/milestones/1
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/planning/milestones/1
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.11. Contract milestones
 
@@ -505,15 +398,9 @@ This information can be provided as [Milestone](https://standard.open-contractin
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U         
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  |   |
 </div>
 
 This milestone should have a `type` of 'financing', a `code` of 'commercialClose' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
@@ -526,15 +413,9 @@ This milestone should have a `type` of 'financing', a `code` of 'commercialClose
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U         
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  |   |
 </div>
 
 To indicate the date of financial close, a milestone should be added to the `contract/milestones` (the contract may have a `status` of 'pending' up until it is signed).
@@ -553,15 +434,9 @@ This information can be provided as [Milestone](https://standard.open-contractin
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 The milestone should have a `type` of 'delivery', a `code` of 'developmentStarted' or 'constructionStarted' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
@@ -572,15 +447,9 @@ The milestone should have a `type` of 'delivery', a `code` of 'developmentStarte
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 The milestone should have a `type` of 'delivery', a `code` of 'developmentComplete' or 'constructionComplete' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
@@ -593,15 +462,9 @@ The milestone should have a `type` of 'delivery', a `code` of 'developmentComple
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 The milestone should have a `type` of 'delivery', a `code` of 'commissioning' and a status of either `scheduled` or `met` with either the date that this milestone was achieved in `dateMet`, or the scheduled date in `dueDate`.
@@ -612,15 +475,9 @@ The milestone should have a `type` of 'delivery', a `code` of 'commissioning' an
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 Information on the expected contract expiry date at the tender and award stages of a contracting process should be provided using `contractPeriod` field in the `tender` and `award` sections respectively.
@@ -635,24 +492,18 @@ The actual date of contract expiry should be entered into the `period/endDate` f
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: contractPeriod
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender
+:include_only: contractPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/contractPeriod
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender/contractPeriod
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 ### I.13. Contract documents
 
@@ -660,15 +511,9 @@ Links to all contract documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 Links to contract documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array.  Each document's `documentType` field should be set to one of 'contractDraft', 'contractSigned' or 'contractSchedule'. (The contract may have a `status` of 'pending' up until it is signed.)
@@ -685,111 +530,76 @@ Links to contract documents can be provided using [Document](reference/documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 References to all signatories to the contract (including the public authority) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](../reference/schema/#release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/signatories
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/signatories
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.14.2. Organization details
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/parties/1
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/parties/1
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/parties/1
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/parties/1
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.14.3. Organization reference
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/0/buyer
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/0/buyer
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/0/buyer
-  :ignore_path: /releases/0/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/0/buyer
+:ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.15. Contract parties - private party
 
@@ -803,23 +613,17 @@ References to all signatories to the contract (including the private party) shou
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/signatories
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/signatories
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.15.2. Organization details
 
@@ -827,23 +631,17 @@ Details of the private party, including name and contact details, should be prov
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/parties/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/parties/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/parties/0
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/parties/0
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.15.3. Organization reference
 
@@ -851,22 +649,17 @@ A reference to the private party should be provided using an [OrganizationRefere
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/suppliers
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/awards/0/suppliers
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/suppliers
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/awards/0/suppliers
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 ### I.16. Contract parties - financiers
 
@@ -878,23 +671,17 @@ Details of the financiers, including name and contact details, should be provide
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/parties/4
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/parties/4
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/parties/4
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/parties/4
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.16.2. Contract signatories
 
@@ -902,23 +689,17 @@ References to all signatories to the contract (including any financiers that are
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/signatories
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/signatories
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/signatories
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ## II. Procurement Information
 
@@ -941,15 +722,9 @@ Use the `tender` section to describe the first stage of the contracting process,
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the `tender/tenderPeriod` field to provide the period during which the first stage is open for submissions. `tenderPeriod/endDate` should contain the closing date for submissions.
@@ -958,36 +733,25 @@ Use the `tender/tenderPeriod` field to provide the period during which the first
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/tenderPeriod
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender/tenderPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/tenderPeriod
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender/tenderPeriod
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.2. Dates - Enquiry period
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the `tender/enquiryPeriod` field to provide the period during which enquiries may be made and answered.
@@ -996,118 +760,87 @@ Use the `tender/enquiryPeriod` field to provide the period during which enquirie
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/enquiryPeriod
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender/enquiryPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/enquiryPeriod
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender/enquiryPeriod
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.4. Summary details - Submission method
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the following fields in the `tender` section to provide information on the submission method for responses:
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: tender/submissionMethod,tender/submissionMethodDetails
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: tender/submissionMethod,tender/submissionMethodDetails
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: submissionMethod, submissionMethodDetails
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender
+:include_only: submissionMethod, submissionMethodDetails
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: submissionMethod, submissionMethodDetails
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender
+:include_only: submissionMethod, submissionMethodDetails
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.5. Summary details - Eligibility criteria
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the `tender` section to provide information on the eligibility criteria for participants.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: tender/eligibilityCriteria
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: tender/eligibilityCriteria
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: eligibilityCriteria
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender
+:include_only: eligibilityCriteria
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: eligibilityCriteria
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender
+:include_only: eligibilityCriteria
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.6. Request for Qualification
 
@@ -1123,15 +856,9 @@ Use [Document](reference/documents) objects in the [tender/documents](../referen
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the `tender/awardPeriod` field to provide the period during which an award is expected to be made.
@@ -1140,37 +867,25 @@ Use the `tender/awardPeriod` field to provide the period during which an award i
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender/awardPeriod
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender/awardPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/awardPeriod
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender/awardPeriod
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.8. Dates - Contract period
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U   U   U   U   U
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U | U | U  | U | U
 </div>
 
 Use the `tender/contractPeriod` field to provide the expected start and end dates for the contract. Use the `awards/contractPeriod` field to provide the actual start and end dates of the contract at the time of the contract award. Update the `contracts/period` field with any changes to the contract period after the award.
@@ -1179,85 +894,61 @@ Use the `tender/contractPeriod` field to provide the expected start and end date
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: contractPeriod
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender
+:include_only: contractPeriod
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender/contractPeriod
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender/contractPeriod
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.9. Summary details - Procurement method
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use the `tender` section to provide information on the procurement method.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: tender/procurementMethod,tender/procurementMethodDetails,tender/procurementMethodRationale
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: tender/procurementMethod,tender/procurementMethodDetails,tender/procurementMethodRationale
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/1/tender
+:include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/1/tender
-  :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
-  :ignore_path: /releases/1/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/1/tender
+:include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
+:ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.10. Other documents
 
 <div class="disclosure-timing">
 
-```eval_rst
-==  ==  ==  ==  ==  ==
-PP  P   A   CC  I   R
-==  ==  ==  ==  ==  ==
-P   U                 
-==  ==  ==  ==  ==  ==
-
-```
-
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | U |   |    |   |
 </div>
 
 Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to documents.
@@ -1343,23 +1034,17 @@ Details of the preferred bidder, including name and contact details, should be p
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/parties/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/parties/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/parties/0
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/parties/0
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 #### II.8.2. Organization reference
 
@@ -1367,23 +1052,17 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/suppliers
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/awards/0/suppliers
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/suppliers
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/awards/0/suppliers
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 ## III. Risk
 
@@ -1407,32 +1086,25 @@ Additional free text information on each risk allocation, for example the ration
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/riskAllocation
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/riskAllocation
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/riskAllocation
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/riskAllocation
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/riskAllocation
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/riskAllocation
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### III.1.2. Additional financial modelling for risks
 
@@ -1470,32 +1142,25 @@ Structured information and supporting details about the discount rate and risk p
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: awards/0/evaluationIndicators
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: awards/0/evaluationIndicators
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/evaluationIndicators
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/awards/0/evaluationIndicators
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/awards/0/evaluationIndicators
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/awards/0/evaluationIndicators
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 ##### IV.2.2.2. Discount rate and risk premium - supporting documentation
 
@@ -1519,34 +1184,27 @@ Structured information and supporting details about the debt-equity ratio for th
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/financeSummary
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/financeSummary
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: debtEquityRatio, debtEquityRatioDetails
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: debtEquityRatio, debtEquityRatioDetails
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: debtEquityRatio, debtEquityRatioDetails
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: debtEquityRatio, debtEquityRatioDetails
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.2. Share capital
 
@@ -1556,25 +1214,19 @@ Structured information and supporting details about the share capital of the PPP
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: shareCapital, shareCapitalDetails
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: shareCapital, shareCapitalDetails
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: shareCapital, shareCapitalDetails
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: shareCapital, shareCapitalDetails
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.3. Shareholders with proportion held and voting rights
 
@@ -1584,23 +1236,17 @@ Details of the shareholders should be provided using [Organization](https://stan
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/parties/4
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/parties/4
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/parties/4
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/parties/4
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 #### V.3.1. Proportion held and voting rights
 
@@ -1608,32 +1254,25 @@ Structured information about each shareholder on the proportion of shares held a
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: parties/0/shareholders
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: parties/0/shareholders
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/parties/0/shareholders
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/parties/0/shareholders
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 ### V.4. Equity transfer caps
 
@@ -1651,32 +1290,25 @@ Information on equity transfer caps or lock in arrangements applicable to a part
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: parties/0/shareholders/0/notes
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: parties/0/shareholders/0/notes
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/3/parties/0/shareholders/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/3/parties/0/shareholders/0
-  :ignore_path: /releases/3/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/3/parties/0/shareholders/0
+:ignore_path: /releases/3/
 ```
-
-</div>
 
 ### V.5. Lender and investor information
 
@@ -1688,23 +1320,17 @@ Details of the lenders and investors should be provided using [Organization](htt
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/parties/4
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/parties/4
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/parties/4
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/parties/4
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### V.5.2. Financing information
 
@@ -1712,32 +1338,25 @@ Details of the type of finance provided by each lender or investor should be pro
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/finance
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/finance/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/finance/0
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.6. Debt information
 
@@ -1749,34 +1368,27 @@ Details of all debt financing should be provided in the `contract/finance` secti
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/0/financeType,contracts/0/finance/0/financeCategory
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/finance/0/financeType,contracts/0/finance/0/financeCategory
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-  :include_only: financeType, financeCategory
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/finance/0
+:include_only: financeType, financeCategory
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-  :include_only: financeType, financeCategory
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/finance/0
+:include_only: financeType, financeCategory
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.7. Rate information
 
@@ -1786,32 +1398,25 @@ Details of interest rates relating to each finance arrangement should be provide
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/0/interestRate
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/finance/0/interestRate
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/finance/0/interestRate
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/finance/0/interestRate
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.8. Security information
 
@@ -1823,34 +1428,27 @@ Details of security and step in rights relating to each financing arrangement sh
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance/0/description,contracts/0/finance/0/stepInRights
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/finance/0/description,contracts/0/finance/0/stepInRights
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-  :include_only: description, stepInRights
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/finance/0
+:include_only: description, stepInRights
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/finance/0
-  :include_only: description, stepInRights
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/finance/0
+:include_only: description, stepInRights
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### V.8.2. Security and step in documentation
 
@@ -1864,34 +1462,27 @@ Structured information and supporting details about the forecast IRR of the PPP 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/financeSummary
-    :collapse: contracts/0/financeSummary/projectIRR,contracts/0/financeSummary/projectIRRDetails
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/financeSummary
+:collapse: contracts/0/financeSummary/projectIRR,contracts/0/financeSummary/projectIRRDetails
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: projectIRR, projectIRRDetails
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: projectIRR, projectIRRDetails
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: projectIRR, projectIRRDetails
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: projectIRR, projectIRRDetails
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 ## VI. Government Support
 
@@ -1905,11 +1496,10 @@ Structured information about financial guarantees can be provided in the contrac
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/finance
-    :collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/finance
+:collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
+:nocrossref:
 ```
 
 #### VI.1.2. Guarantee documentation
@@ -1926,34 +1516,27 @@ Structured information and supporting details about the subsidy ratio for the PP
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/financeSummary/subsidyRatio,contracts/0/financeSummary/subsidyRatioDetails
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/financeSummary/subsidyRatio,contracts/0/financeSummary/subsidyRatioDetails
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: subsidyRatio, subsidyRatioDetails
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: subsidyRatio, subsidyRatioDetails
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/financeSummary
-  :include_only: subsidyRatio, subsidyRatioDetails
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/financeSummary
+:include_only: subsidyRatio, subsidyRatioDetails
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VI.2.1. Supporting documentation on subsidy as a proportion of project value
 
@@ -1987,32 +1570,25 @@ Structured information on actual individual service payments can be provided in 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/implementation/transactions
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/implementation/transactions
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/5/contracts/0/implementation/transactions/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
-  :ignore_path: /releases/5/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/5/contracts/0/implementation/transactions/0
+:ignore_path: /releases/5/
 ```
-
-</div>
 
 #### VI.3.2. Structured information on total service payments
 
@@ -2022,32 +1598,25 @@ Structured information on total service payments can be provided in the `contrac
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/implementation/charges
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/implementation/charges
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/implementation/charges
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/implementation/charges
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/implementation/charges
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/implementation/charges
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VI.3.3. Service payment calculation methodology
 
@@ -2118,32 +1687,25 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/implementation/tariffs
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/implementation/tariffs
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/implementation/tariffs
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/4/contracts/0/implementation/tariffs
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/4/contracts/0/implementation/tariffs
-  :ignore_path: /releases/4/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/4/contracts/0/implementation/tariffs
+:ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VII.1.2. Tariff and pricing documentation
 
@@ -2199,23 +1761,17 @@ Links to these documents should be provided using [Document](reference/documents
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/7/contracts/0/amendments/0
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/7/contracts/0/amendments/0
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/7/contracts/0/amendments/0
-  :ignore_path: /releases/7/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/7/contracts/0/amendments/0
+:ignore_path: /releases/7/
 ```
-
-</div>
 
 #### IX.1.1. Contract documents
 
@@ -2229,11 +1785,10 @@ A description of the nature of the variation should be provided in the `amendmen
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/amendments/0/description
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/amendments/0/description
+:collapse:
+:nocrossref:
 ```
 
 #### IX.1.3. Rationale
@@ -2244,11 +1799,10 @@ A rationale for the variation should be provided in the `amendment/rationale` fi
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/amendments/0/rationale
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/amendments/0/rationale
+:collapse:
+:nocrossref:
 ```
 
 #### IX.1.4. Parties
@@ -2265,11 +1819,10 @@ Structured information on changes to the original risk allocation due to the var
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/riskAllocation
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/riskAllocation
+:collapse:
+:nocrossref:
 ```
 
 #### IX.1.6. Fiscal commitments
@@ -2296,11 +1849,10 @@ Structured information on changes to the tariffs should be provided by updating 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/implementation/tariffs
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/implementation/tariffs
+:collapse:
+:nocrossref:
 ```
 
 #### IX.1.8. Service levels
@@ -2315,11 +1867,10 @@ The date of the variation should be provided using the `amendment/date` field.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/amendments/0/date
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/amendments/0/date
+:collapse:
+:nocrossref:
 ```
 
 ## X. Performance Information
@@ -2334,23 +1885,17 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/6/contracts/0/implementation/metrics
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/metrics
-  :ignore_path: /releases/6/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/6/contracts/0/implementation/metrics
+:ignore_path: /releases/6/
 ```
-
-</div>
 
 ### X.2. Actual annual revenue
 
@@ -2402,32 +1947,25 @@ Structured data about actual performance failures, penalties and abatements and 
 
 **Schema**: Information can be provided using the following OCDS fields.
 
-```eval_rst
-.. jsonschema:: _static/patched/release-schema.json
-    :include: contracts/0/implementation/performanceFailures
-    :collapse:
-    :nocrossref:
+```{jsonschema} _static/patched/release-schema.json
+:include: contracts/0/implementation/performanceFailures
+:collapse:
+:nocrossref:
 ```
 
 **JSON example:**
 
-```eval_rst
-.. jsoninclude:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
-
+```{jsoninclude} examples/full.json
+:jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
 ```
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
-```eval_rst
-.. jsoninclude-flat:: examples/full.json
-  :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
-  :ignore_path: /releases/6/
+```{jsoninclude-flat} examples/full.json
+:class: flattened-example
+:jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
+:ignore_path: /releases/6/
 ```
-
-</div>
 
 ### X.6. Performance assessment reports
 

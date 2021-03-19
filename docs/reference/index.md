@@ -4,15 +4,13 @@ For information on publication practices for the Open Contracting Data Standard,
 
 This section contains OCDS for PPP specific reference materials.
 
-```eval_rst
-.. toctree::
-   :maxdepth: 1
-   :glob:
+```{toctree}
+:maxdepth: 1
+:glob:
 
-   browser
-   schema
-   codelists
-   documents
-   changelog
-
+browser
+schema
+codelists
+documents
+changelog
 ```
