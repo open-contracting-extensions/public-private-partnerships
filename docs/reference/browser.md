@@ -6,13 +6,10 @@ For this version of OCDS for PPPs, the canonical URL of the release schema is: <
 
 Click on schema elements to expand the tree, or use the '+' icon to expand all elements. Use { } to view the underlying schema for any section. Required fields are indicated in **bold**.
 
-```eval_rst
-.. admonition:: Browsing the schema
-   :class: note
+```{admonition} Browsing the schema
+:class: note
 
-   .. markdown::
-
-      This page presents the release schema in an interactive browser. You can also download the canonical version of the release schema as [JSON Schema](../../_static/patched/release-schema.json), download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or view it as a [table](schema).
+This page presents the release schema in an interactive browser. You can also download the canonical version of the release schema as {download}`JSON Schema <../_static/patched/release-schema.json>`, download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or view it as a [table](schema).
 ```
 
 <script src="../../_static/docson/public/js/widget.js" data-schema="../../../_static/patched/release-schema.json"></script>

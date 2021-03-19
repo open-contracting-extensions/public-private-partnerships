@@ -1,8 +1,7 @@
 # Overview
 
-```eval_rst
-.. image:: _static/images/documents_data_presentation.png
-   :align: right
+```{image} _static/images/documents_data_presentation.png
+:align: right
 ```
 
 The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process.
@@ -17,11 +16,10 @@ The [OCDS releases and records model](http://standard.open-contracting.org/lates
 
 ## Data
 
-```eval_rst
-.. image:: _static/images/structured_shareholding.png
-   :align: right
-   :width: 400
-   :target: ../spreadsheet/index.html
+```{image} _static/images/structured_shareholding.png
+:align: right
+:width: 400
+:target: ../spreadsheet/index.html
 ```
 
 Many elements of the PPP framework call for **structured data**. For example:
@@ -52,18 +50,16 @@ Use OCDS to:
 
 This way, stakeholders can more easily find the information they need to understand a project: and compliance with the framework can be more easily assessed. 
 
-```eval_rst
-.. note:: Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published.
-
+```{note}
+Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published.
 ```
 
 ## Presentation 
 
-```eval_rst
-.. image:: _static/images/ocds_show.png
-   :align: right
-   :width: 400
-   :target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
+```{image} _static/images/ocds_show.png
+:align: right
+:width: 400
+:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
 ```
 
 With the combination of:
