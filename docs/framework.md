@@ -34,14 +34,11 @@ This information is included in the `planning/project` section of each release. 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/planning/project
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.1.1. Project name and description
 
@@ -123,14 +120,11 @@ Details of the sponsoring agency or department, including name and contact detai
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/parties/1
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.2.2. Organization reference
 
@@ -151,14 +145,11 @@ A reference to the sponsoring agency or department should be provided using an [
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/buyer
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.3. Project value
 
@@ -221,14 +212,11 @@ Links to these documents should be provided using [Document](reference/documents
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/planning/documents/0
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.5. Project technical description
 
@@ -305,14 +293,11 @@ These estimates can be disaggregated by any number of dimensions contained as ke
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/planning/forecasts
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.7.2. Estimated demand documentation
 
@@ -395,14 +380,11 @@ Each approval during the planning stage should be provided as a [Milestone](http
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/planning/milestones/1
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.11. Contract milestones
 
@@ -517,14 +499,11 @@ The actual date of contract expiry should be entered into the `period/endDate` f
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender/contractPeriod
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 ### I.13. Contract documents
 
@@ -566,14 +545,11 @@ References to all signatories to the contract (including the public authority) s
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/signatories
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.14.2. Organization details
 
@@ -594,14 +570,11 @@ Details of the public authority, including name and contact details, should be p
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/parties/1
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 #### I.14.3. Organization reference
 
@@ -622,14 +595,11 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/0/buyer
 :ignore_path: /releases/0/
 ```
-
-</div>
 
 ### I.15. Contract parties - private party
 
@@ -649,14 +619,11 @@ References to all signatories to the contract (including the private party) shou
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/signatories
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.15.2. Organization details
 
@@ -670,14 +637,11 @@ Details of the private party, including name and contact details, should be prov
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/parties/0
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.15.3. Organization reference
 
@@ -691,14 +655,11 @@ A reference to the private party should be provided using an [OrganizationRefere
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/awards/0/suppliers
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 ### I.16. Contract parties - financiers
 
@@ -716,14 +677,11 @@ Details of the financiers, including name and contact details, should be provide
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/parties/4
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### I.16.2. Contract signatories
 
@@ -737,14 +695,11 @@ References to all signatories to the contract (including any financiers that are
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/signatories
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ## II. Procurement Information
 
@@ -784,14 +739,11 @@ Use the `tender/tenderPeriod` field to provide the period during which the first
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender/tenderPeriod
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.2. Dates - Enquiry period
 
@@ -814,14 +766,11 @@ Use the `tender/enquiryPeriod` field to provide the period during which enquirie
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender/enquiryPeriod
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.4. Summary details - Submission method
 
@@ -851,15 +800,12 @@ Use the following fields in the `tender` section to provide information on the s
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender
 :include_only: submissionMethod, submissionMethodDetails
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.5. Summary details - Eligibility criteria
 
@@ -889,15 +835,12 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender
 :include_only: eligibilityCriteria
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.6. Request for Qualification
 
@@ -930,14 +873,11 @@ Use the `tender/awardPeriod` field to provide the period during which an award i
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender/awardPeriod
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.8. Dates - Contract period
 
@@ -961,14 +901,11 @@ Use the `tender/contractPeriod` field to provide the expected start and end date
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender/contractPeriod
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.9. Summary details - Procurement method
 
@@ -998,15 +935,12 @@ Use the `tender` section to provide information on the procurement method.
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/1/tender
 :include_only: procurementMethod, procurementMethodDetails, procurementMethodRationale
 :ignore_path: /releases/1/
 ```
-
-</div>
 
 #### II.1.10. Other documents
 
@@ -1106,14 +1040,11 @@ Details of the preferred bidder, including name and contact details, should be p
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/parties/0
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 #### II.8.2. Organization reference
 
@@ -1127,14 +1058,11 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/awards/0/suppliers
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 ## III. Risk
 
@@ -1172,14 +1100,11 @@ Additional free text information on each risk allocation, for example the ration
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/riskAllocation
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### III.1.2. Additional financial modelling for risks
 
@@ -1231,14 +1156,11 @@ Structured information and supporting details about the discount rate and risk p
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/awards/0/evaluationIndicators
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 ##### IV.2.2.2. Discount rate and risk premium - supporting documentation
 
@@ -1277,15 +1199,12 @@ Structured information and supporting details about the debt-equity ratio for th
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/financeSummary
 :include_only: debtEquityRatio, debtEquityRatioDetails
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.2. Share capital
 
@@ -1302,15 +1221,12 @@ Structured information and supporting details about the share capital of the PPP
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/financeSummary
 :include_only: shareCapital, shareCapitalDetails
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.3. Shareholders with proportion held and voting rights
 
@@ -1326,14 +1242,11 @@ Details of the shareholders should be provided using [Organization](https://stan
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/parties/4
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 #### V.3.1. Proportion held and voting rights
 
@@ -1355,14 +1268,11 @@ Structured information about each shareholder on the proportion of shares held a
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/parties/0/shareholders
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 ### V.4. Equity transfer caps
 
@@ -1394,14 +1304,11 @@ Information on equity transfer caps or lock in arrangements applicable to a part
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/3/parties/0/shareholders/0
 :ignore_path: /releases/3/
 ```
-
-</div>
 
 ### V.5. Lender and investor information
 
@@ -1419,14 +1326,11 @@ Details of the lenders and investors should be provided using [Organization](htt
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/parties/4
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### V.5.2. Financing information
 
@@ -1448,14 +1352,11 @@ Details of the type of finance provided by each lender or investor should be pro
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.6. Debt information
 
@@ -1482,15 +1383,12 @@ Details of all debt financing should be provided in the `contract/finance` secti
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0
 :include_only: financeType, financeCategory
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.7. Rate information
 
@@ -1514,14 +1412,11 @@ Details of interest rates relating to each finance arrangement should be provide
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0/interestRate
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ### V.8. Security information
 
@@ -1548,15 +1443,12 @@ Details of security and step in rights relating to each financing arrangement sh
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0
 :include_only: description, stepInRights
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### V.8.2. Security and step in documentation
 
@@ -1585,15 +1477,12 @@ Structured information and supporting details about the forecast IRR of the PPP 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/financeSummary
 :include_only: projectIRR, projectIRRDetails
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 ## VI. Government Support
 
@@ -1642,15 +1531,12 @@ Structured information and supporting details about the subsidy ratio for the PP
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/financeSummary
 :include_only: subsidyRatio, subsidyRatioDetails
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VI.2.1. Supporting documentation on subsidy as a proportion of project value
 
@@ -1698,14 +1584,11 @@ Structured information on actual individual service payments can be provided in 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/5/contracts/0/implementation/transactions/0
 :ignore_path: /releases/5/
 ```
-
-</div>
 
 #### VI.3.2. Structured information on total service payments
 
@@ -1729,14 +1612,11 @@ Structured information on total service payments can be provided in the `contrac
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/implementation/charges
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VI.3.3. Service payment calculation methodology
 
@@ -1821,14 +1701,11 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/4/contracts/0/implementation/tariffs
 :ignore_path: /releases/4/
 ```
-
-</div>
 
 #### VII.1.2. Tariff and pricing documentation
 
@@ -1890,14 +1767,11 @@ Links to these documents should be provided using [Document](reference/documents
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/7/contracts/0/amendments/0
 :ignore_path: /releases/7/
 ```
-
-</div>
 
 #### IX.1.1. Contract documents
 
@@ -2017,14 +1891,11 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/6/contracts/0/implementation/metrics
 :ignore_path: /releases/6/
 ```
-
-</div>
 
 ### X.2. Actual annual revenue
 
@@ -2090,14 +1961,11 @@ Structured data about actual performance failures, penalties and abatements and 
 
 **Flattened example** (showing top-level fields only)
 
-<div class="flattened-example">
-
 ```{jsoninclude-flat} examples/full.json
+:class: flattened-example
 :jsonpointer: /releases/6/contracts/0/implementation/performanceFailures
 :ignore_path: /releases/6/
 ```
-
-</div>
 
 ### X.6. Performance assessment reports
 
