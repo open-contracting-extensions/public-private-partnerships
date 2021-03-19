@@ -49,6 +49,7 @@ OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extens
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/bidStatus.csv
 ```
 
@@ -58,6 +59,7 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/dataType.csv
 ```
 
@@ -67,6 +69,7 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/financeCategory.csv
 ```
 
@@ -76,6 +79,7 @@ For additional guidance on using this codelist, refer to the [Financing extensio
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/relatesTo.csv
 ```
 
@@ -85,6 +89,7 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/releaseTag.csv
 ```
 
@@ -94,6 +99,7 @@ For additional guidance on using this codelist, refer to the [OCDS for PPPs exte
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/responseSource.csv
 ```
 
@@ -103,6 +109,7 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/riskAllocation.csv
 ```
 
@@ -112,6 +119,7 @@ For additional guidance on using this codelist, refer to the [Risk allocation ex
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/votingRights.csv
 ```
 
@@ -123,6 +131,7 @@ For additional guidance on using this codelist, refer to the [Shareholders exten
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/bidStatistics.csv
 ```
 
@@ -132,6 +141,7 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/documentType.csv
 ```
 
@@ -141,6 +151,7 @@ For additional guidance on using this codelist, refer to the [OCDS for PPPs exte
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/milestoneCode.csv
 ```
 
@@ -150,6 +161,7 @@ For additional guidance on using this codelist, refer to the [OCDS for PPPs exte
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/milestoneType.csv
 ```
 
@@ -159,6 +171,7 @@ For additional guidance on using this codelist, refer to the [OCDS milestone typ
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/partyRole.csv
 ```
 
@@ -168,6 +181,7 @@ For additional guidance on using this codelist, refer to the [OCDS party role co
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/riskCategory.csv
 ```
 

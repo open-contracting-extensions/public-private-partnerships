@@ -26,6 +26,7 @@ The full list of document types, and where they should appear, is given below.
 
 ```{csv-table-no-translate}
 :header-rows: 1
+:widths: auto
 :file: ../_static/patched/codelists/documentType.csv
 ```
 
