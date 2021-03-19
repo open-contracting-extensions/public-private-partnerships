@@ -25,7 +25,6 @@ It draws upon the following extensions from the [OCDS extension registry](http:/
 * risk_allocation
 * shareholders
 * finance
-* qualification
 * tariffs
 * performance_failures
 * signatories

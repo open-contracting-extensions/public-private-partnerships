@@ -11,6 +11,7 @@
 
 Update the profile to align with OCDS:
 
+* [#245](https://github.com/open-contracting-extensions/public-private-partnerships/pull/245) Remove the preQualification extension and update framework reference accordingly.
 * [#243](https://github.com/open-contracting-extensions/public-private-partnerships/pull/243) Restore `buyer` and `awards/supplier` fields and associated codes. Remove `publicAuthority` and `awards/preferredBidders` fields and associated codes. Update the framework reference accordingly.
 * [#244](https://github.com/open-contracting-extensions/public-private-partnerships/pull/244) Restore 'tender' code and remove 'ppp' code from `initiationType.csv`.
 
