@@ -14,7 +14,7 @@
   "risk_allocation": "master",
   "shareholders": "master",
   "signatories": "master",
-  "tariffs": "master",
+  "tariffs": "1.1",
   "transaction_milestones": "master",
   "ppp": "master"
 }
