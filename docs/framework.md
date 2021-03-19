@@ -15,9 +15,9 @@ The mapping for each requirement in the framework includes a guide to publicatio
 
 <div class="disclosure-timing">
 
-| PP | P | A | CC | I | R |
-| -- | - | - | -- | - | - |
-| P  | R | R | R  | R | R |
+PP | P | A | CC | I | R
+-- | - | - | -- | - | -
+P  | R | R | R  | R | R
 </div>
 
 ### I.1. Name, location and sector
