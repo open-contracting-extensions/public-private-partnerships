@@ -83,6 +83,7 @@ profile_identifier = 'ppp'
 repository_url = 'https://github.com/open-contracting-extensions/public-private-partnerships'
 
 html_theme_options = {
+    'analytics_id': 'HTWZHRIZ',
     'display_version': True,
     'root_url': '/profiles/{}'.format(profile_identifier),
     'short_project': 'OCDS for PPPs',
