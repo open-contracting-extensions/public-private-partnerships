@@ -1,6 +1,5 @@
 {
   "bids": "v1.1.4",
-  "budget": "master",
   "charges": "master",
   "documentation_details": "master",
   "finance": "master",
@@ -8,13 +7,10 @@
   "metrics": "master",
   "milestone_documents": "v1.1.4",
   "performance_failures": "master",
-  "process_title": "v1.1.4",
   "project": "master",
-  "requirements": "master",
   "risk_allocation": "master",
   "shareholders": "master",
   "signatories": "master",
   "tariffs": "1.1",
-  "transaction_milestones": "master",
   "ppp": "master"
 }

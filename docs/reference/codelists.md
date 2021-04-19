@@ -55,16 +55,6 @@ OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extens
 
 For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
 
-#### dataType
-
-```{csv-table-no-translate}
-:header-rows: 1
-:widths: auto
-:file: ../_static/patched/codelists/dataType.csv
-```
-
-For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
-
 #### financeCategory
 
 ```{csv-table-no-translate}
@@ -75,16 +65,6 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 
 For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
 
-#### relatesTo
-
-```{csv-table-no-translate}
-:header-rows: 1
-:widths: auto
-:file: ../_static/patched/codelists/relatesTo.csv
-```
-
-For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
-
 #### releaseTag
 
 ```{csv-table-no-translate}
@@ -94,16 +74,6 @@ For additional guidance on using this codelist, refer to the [Requirements exten
 ```
 
 For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
-
-#### responseSource
-
-```{csv-table-no-translate}
-:header-rows: 1
-:widths: auto
-:file: ../_static/patched/codelists/responseSource.csv
-```
-
-For additional guidance on using this codelist, refer to the [Requirements extension documentation](https://extensions.open-contracting.org/en/extensions/requirements/master/).
 
 #### riskAllocation
 
