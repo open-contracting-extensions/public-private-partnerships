@@ -1,0 +1,31 @@
+Code,Title,Description,Section
+tariffs,Tariffs,For providing tariff and pricing schedules.,contract
+tariffMethod,Tariff method,For summarizing the method by which tariffs are set and linking to detailed documentation of the methods for setting tariffs. This might include written documentation and spreadsheets providing the models used to calculate tariffs.,contract
+tariffReview,Tariff review,For summarizing the arrangements for the review and regulation of tariffs and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying and the scope for changes to payment structures.,contract
+tariffIllustration,Tariff illustration,For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG or JPEG or GIF graphs to allow applications to directly display this content.,contract
+valueForMoneyAnalysis,Value for money analysis,"A summary of the value for money analysis carried out for the project, along with supporting figures, calculations and business case, based on projected or actual procurement outcomes.","planning, award"
+serviceDescription,Service descriptions,A high-level description of the services,planning
+estimatedDemand,Estimated demand,A narrative describing the estimated demand to be served (annually) by the project.,planning
+projectAdditionality,Project additionality,A description of the additionality provided by the project,planning
+financeAdditionality,Finance additionality,A description of the additionality provided by the finance method,planning
+pppModeRationale,Rationale for PPP modality,A description of the reasons for choosing to conduct this project as a PPP,planning
+evaluationCommittee,Evaluation committee details,Information on the constitution of the evaluation committee,tender
+requestForQualification,Request for qualification,"The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase).",preQualification
+minutes,Minutes,"Minutes of pre-bid meetings, or other relevant meetings.",tender
+negotiationParameters,Negotiation parameters,A description of the parameters for negotiation with the preferred proponent,tender
+riskComparison,Risk comparison,Risk comparison of other financing methods,award
+discountRate,Discount rate and risk premium,"An explanation of the discount rate, and any risk premium used, including information on project-specific circumstances that justify the risk premium rate used.",award
+equityTransferCaps,Equity transfer caps,"Details of any restrictions on the transfer of equity by shareholders or other relevant participants in the project. Certain contracts provide for caps on equity transfer in different stages of the contract, especially during the construction stage and for a few years thereafter.",contract
+financeArrangements,Security and step in arrangements,"Details of any rights granted to a lender to access value in the event of default by a borrower and any rights granted to a party to ""step in"" to the shoes of another party, for example, a right granted to a lender or public authority to take over temporarily the operation of a project in case of failure to perform by a private party.",contract
+guaranteeReports,Fiscal commitments and contingent liabilities disclosure reports,"Reports detailing the fiscal commitments of the public authority to the PPP, for example known payments that need to be made if the PPP proceeds or payment commitments whose occurrence, timing and magnitude depend on some uncertain future event, outside the control of the public authority.",contract
+grants,Grants,"Information on grants given to support the project. Grant information ought to detail the total value of subsidy, and/or the value of subsidy as a proportion of the overall project value, as well as providing information on the nature of the grant. For capital subsidies paid during construction of a project, or operating subsidies paid during operation, details of periodicity of grant payments, and particular grant milestones, ought to be provided.","contract, implementation"
+servicePayments,Service payments,"Service payments are payments made by the public authority or purchaser to the private provider for infrastructure services (applicable in some types of Public Private Partnership projects). The documentation ought to cover the total number of payments and their periodicity, as well as the methodology used for calculating payments and the indexation used.","contract, implementation"
+landTransfer,Land transfer,"Details of land transferred on lease or other basis by government, including details of property numbers with the quantum of land transferred, zoning information and conditions of transfer.","contract, implementation"
+assetTransfer,Asset transfer,"Details of asset, human resource of personnel transfers, including documentation of the conditions of transfer.","contract, implementation"
+revenueShare,Revenue share,"Documentation of any revenue share arrangements, including revenue share on the base-case and upside for a public private partnership project.","contract, implementation"
+otherGovernmentSupport,Other government support,"Documentation of any other government support, including non-complete clauses or provision for revenue shortfall loans.",contract
+defaultEvents,Defaults,Information on events of default,"contract, implementation"
+termination,Termination,Information on contract termination,"contract, implementation"
+handover,Handover,"Contractual provisions for, or reporting on, handover of assets back to the state, including details of condition of assets and any other conditions of handover.","contract, implementation"
+financialStatement,Financial statement,Audited financial statements of the project company,"contract, implementation"
+performanceReport,Performance report,Performance assessment reports,"contract, implementation"

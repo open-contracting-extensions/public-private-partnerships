@@ -1,12 +1,14 @@
 Code,Title,Description,Extension
 buyer,Buyer,"A buyer is an entity whose budget will be used to pay for goods, works or services related to a contract.",OCDS Core
+procuringEntity,Procuring entity,"The entity managing the procurement. This can be different from the buyer who pays for, or uses, the items being procured.",OCDS Core
 supplier,Supplier,"An entity awarded or contracted to provide goods, works or services.",OCDS Core
+tenderer,Tenderer,All entities who submit a tender.,OCDS Core
+funder,Funder,The funder is an entity providing money or finance for this contracting process.,OCDS Core
 enquirer,Enquirer,A party who has made an enquiry during the enquiry phase of a contracting process.,OCDS Core
 payer,Payer,A party making a payment from a transaction.,OCDS Core
 payee,Payee,A party in receipt of a payment from a transaction.,OCDS Core
 reviewBody,Review body,A party responsible for the review of this procurement process. This party often has a role in any challenges made to the contract award.,OCDS Core
 interestedParty,Interested party,"A party that has expressed an interest in the contracting process: for example, by purchasing tender documents or submitting clarification questions.",OCDS Core
-bidder,Bidder,"The company or a group of companies, such as a consortium, that submits a bid in response to a RFP. A bidder could be a single party or a consortium of parties, each responsible for a specific element, such as constructing the infrastructure, supplying the equipment, or operating the business.",OCDS for PPPs Extension
 privateParty,Private party,"The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV.",OCDS for PPPs Extension
 leadBank,Lead bank,A lead bank is a bank that oversees the arrangement of a loan syndication,OCDS for PPPs Extension
 lender,Lender,"The APMG PPP Certification Program defines lenders as ""Institutions that provide lending to the project: mainly banks and institutional investors through project bonds""",OCDS for PPPs Extension
