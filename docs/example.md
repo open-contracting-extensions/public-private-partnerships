@@ -9,7 +9,7 @@ This allows different stakeholders to understand how a project has developed.
 ## Details
 
 ```{image} _static/images/ocds_show.png
-:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
+:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/
 ```
 
 Based on our pilot work with the Red Compartida programme, we have created a fictional example PPP.
@@ -30,7 +30,7 @@ View the {download}`OCDS releases in JSON format here <examples/full.json>`.
 
 View the {download}`OCDS record in JSON format here <examples/full_record_package.json>`.
 
-View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full_record_package.json).
+View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/).
 
 In the record within OCDS show:
 
