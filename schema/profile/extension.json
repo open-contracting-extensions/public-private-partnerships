@@ -28,10 +28,9 @@
     "riskAllocation.csv",
     "riskCategory.csv",
     "votingRights.csv",
+    "+documentType.csv",
     "+milestoneType.csv",
     "+partyRole.csv",
-    "-partyRole.csv",
-    "documentType.csv",
     "metricID.csv",
     "milestoneCode.csv"
   ],
