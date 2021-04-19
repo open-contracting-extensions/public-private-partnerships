@@ -55,6 +55,16 @@ OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extens
 
 For additional guidance on using this codelist, refer to the [Bid statistics and details extension documentation](https://extensions.open-contracting.org/en/extensions/bids/v1.1.4/).
 
+#### chargePaidBy
+
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/chargePaidBy.csv
+```
+
+For additional guidance on using this codelist, refer to the [Charges extension documentation](https://extensions.open-contracting.org/en/extensions/charges/) and the [Tariffs extension documentation](https://extensions.open-contracting.org/en/extensions/tariffs/master/).
+
 #### financeCategory
 
 ```{csv-table-no-translate}
@@ -64,6 +74,26 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 ```
 
 For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
+#### financeType
+
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/financeType.csv
+```
+
+For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
+#### geometryType
+
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/geometryType.csv
+```
+
+For additional guidance on using this codelist, refer to the [Location extension documentation](https://extensions.open-contracting.org/en/extensions/location/).
 
 #### releaseTag
 
@@ -113,6 +143,26 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 :header-rows: 1
 :widths: auto
 :file: ../_static/patched/codelists/documentType.csv
+```
+
+For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
+
+#### locationGazetteers
+
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/locationGazetteers.csv
+```
+
+For additional guidance on using this codelist, refer to the [Location extension documentation](https://extensions.open-contracting.org/en/extensions/location/).
+
+#### metricID
+
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/metricID.csv
 ```
 
 For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
