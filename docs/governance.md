@@ -1,7 +1,5 @@
 # Governance
 
-## Governance
-
 As an implementation profile, extending OCDS 1.1, updates to the OCDS schema will be subject to the [OCDS Governance Process](http://standard.open-contracting.org/latest/en/support/governance/).
 
 It draws upon the following extensions from the [OCDS extension registry](http://standard.open-contracting.org/latest/en/extensions/).
