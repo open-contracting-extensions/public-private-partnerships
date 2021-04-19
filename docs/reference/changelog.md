@@ -9,11 +9,11 @@
 
 ### Normative changes
 
-Update the profile to align with OCDS:
-
-* [#245](https://github.com/open-contracting-extensions/public-private-partnerships/pull/245) Remove the preQualification extension and update framework reference accordingly.
-* [#243](https://github.com/open-contracting-extensions/public-private-partnerships/pull/243) Restore `buyer` and `awards/supplier` fields and associated codes. Remove `publicAuthority` and `awards/preferredBidders` fields and associated codes. Update the framework reference accordingly.
-* [#244](https://github.com/open-contracting-extensions/public-private-partnerships/pull/244) Restore 'tender' code and remove 'ppp' code from `initiationType.csv`.
+* Update the profile to align with OCDS:
+  * [#245](https://github.com/open-contracting-extensions/public-private-partnerships/pull/245) Remove the preQualification extension and update framework reference accordingly.
+  * [#243](https://github.com/open-contracting-extensions/public-private-partnerships/pull/243) Restore `buyer` and `awards/supplier` fields and associated codes. Remove `publicAuthority` and `awards/preferredBidders` fields and associated codes. Update the framework reference accordingly.
+  * [#244](https://github.com/open-contracting-extensions/public-private-partnerships/pull/244) Restore 'tender' code and remove 'ppp' code from `initiationType.csv`.
+* [#260](https://github.com/open-contracting-extensions/public-private-partnerships/pull/260) Remove extensions that were not referenced in the framework guidance from the profile (budget, requirements and transaction milestones).
 
 ## [1.0.0.beta2] - 2019-10-21
 
