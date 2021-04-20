@@ -83,7 +83,7 @@ For additional guidance on using this codelist, refer to the [Financing extensio
 :file: ../_static/patched/codelists/financeType.csv
 ```
 
-For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
 
 #### geometryType
 
