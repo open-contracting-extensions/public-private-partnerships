@@ -26,6 +26,7 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 * [Procurement method](http://standard.open-contracting.org/latest/en/schema/codelists/#method)
 * [Milestone status](http://standard.open-contracting.org/latest/en/schema/codelists/#milestone-status)
 * [Procurement category](http://standard.open-contracting.org/latest/en/schema/codelists/#procurement-category)
+* [Release tag](https://standard.open-contracting.org/latest/en/schema/codelists/#release-tag)
 * [Tender status](http://standard.open-contracting.org/latest/en/schema/codelists/#tender-status)
 
 ### Open codelists
@@ -94,16 +95,6 @@ For additional guidance on using this codelist, refer to the [Finance extension 
 ```
 
 For additional guidance on using this codelist, refer to the [Location extension documentation](https://extensions.open-contracting.org/en/extensions/location/).
-
-#### releaseTag
-
-```{csv-table-no-translate}
-:header-rows: 1
-:widths: auto
-:file: ../_static/patched/codelists/releaseTag.csv
-```
-
-For additional guidance on using this codelist, refer to the [OCDS for PPPs extension documentation](https://extensions.open-contracting.org/en/extensions/ppp/master/).
 
 #### riskAllocation
 
