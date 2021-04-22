@@ -4,22 +4,6 @@
       "title": "Bids",
       "description": "The bid section is used to publish summary statistics, and where applicable, individual bid information.",
       "$ref": "#/definitions/Bids"
-    },
-    "title": {
-      "title": "Title",
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "A overall title for this contracting process or release."
-    },
-    "description": {
-      "title": "Description",
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "An overall description for this contracting process or release. This should not replace provision of a detailed breakdown of the objects of the contracting process in the planning, tender, award or contracts section."
     }
   },
   "definitions": {
@@ -39,16 +23,6 @@
           "description": "Any target metrics set out as part of the contract award.",
           "items": {
             "$ref": "#/definitions/Metric"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "requirementResponses": {
-          "title": "Requirement responses",
-          "description": "A list of the detailed responses of this award to the requirements of the tender.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RequirementResponse"
           },
           "uniqueItems": true,
           "minItems": 1
@@ -200,93 +174,6 @@
             "$ref": "#/definitions/Document"
           },
           "uniqueItems": true
-        },
-        "requirementResponses": {
-          "title": "Requirement responses",
-          "description": "If the requirements extension is also in use, the detailed responses of this bid to the tender requirements can be specified here.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RequirementResponse"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        }
-      }
-    },
-    "BudgetBreakdown": {
-      "type": "object",
-      "title": "Detailed budget breakdown",
-      "description": "This section allows a detailed budget breakdown to be expressed, covering multiple budget sources and multiple periods",
-      "required": [
-        "id"
-      ],
-      "properties": {
-        "id": {
-          "title": "Identifier",
-          "description": "An identifier for this particular budget entry.",
-          "type": [
-            "string",
-            "integer"
-          ],
-          "minLength": 1
-        },
-        "description": {
-          "title": "Description",
-          "description": "A short free text description of this budget entry.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "amount": {
-          "title": "Amount",
-          "description": "The value of the budget line item.",
-          "$ref": "#/definitions/Value"
-        },
-        "uri": {
-          "title": "Linked budget information",
-          "description": "A URI pointing directly to a machine-readable information about this budget entry.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "uri"
-        },
-        "period": {
-          "$ref": "#/definitions/Period",
-          "title": "Budget period",
-          "description": "The period covered by this budget entry."
-        },
-        "sourceParty": {
-          "$ref": "#/definitions/OrganizationReference",
-          "title": "Source party",
-          "description": "An organization reference, linking to the entry in the `parties` section describing the organization providing the funds for this part of the budget. The party must have the 'funder' role. If the budget amount is positive, this indicates a flow of resources from the party to the contracting process. If the budget amount is negative, it indicates a payment from the contracting process to this party."
-        }
-      },
-      "minProperties": 1
-    },
-    "Budget": {
-      "properties": {
-        "budgetBreakdown": {
-          "type": "array",
-          "title": "Budget breakdown",
-          "description": "A detailed breakdown of the budget by period and/or participating funders.",
-          "items": {
-            "$ref": "#/definitions/BudgetBreakdown"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "finance": {
-          "title": "Finance",
-          "description": "An array with details of each source of finance planned for this procedure.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Finance"
-          },
-          "uniqueItems": true,
-          "minItems": 1
         }
       }
     },
@@ -461,16 +348,6 @@
           "uniqueItems": true,
           "minItems": 1
         },
-        "requirementResponses": {
-          "title": "Requirement responses",
-          "description": "A list of the detailed responses of this contract to the requirements of the tender.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RequirementResponse"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
         "riskAllocation": {
           "title": "Risk allocation",
           "description": "Information on the allocation of risks relating to the contract.",
@@ -505,6 +382,20 @@
           "title": "Finance summary",
           "description": "Key indicators that describe the financial model of the PPP.",
           "$ref": "#/definitions/FinanceSummary"
+        }
+      }
+    },
+    "Budget": {
+      "properties": {
+        "finance": {
+          "title": "Finance",
+          "description": "An array with details of each source of finance planned for this procedure.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Finance"
+          },
+          "uniqueItems": true,
+          "minItems": 1
         }
       }
     },
@@ -799,16 +690,6 @@
           "description": "Any target metrics for this results of this contracting process.",
           "items": {
             "$ref": "#/definitions/Metric"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "criteria": {
-          "title": "Criteria",
-          "description": "A list of criteria on which either bidders or items will be judged, evaluated or assessed.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Criterion"
           },
           "uniqueItems": true,
           "minItems": 1
@@ -1170,316 +1051,6 @@
       },
       "minProperties": 1
     },
-    "Criterion": {
-      "type": "object",
-      "title": "Criterion",
-      "description": "A criterion on which either bidders or items will be judged, evaluated or assessed.",
-      "required": [
-        "id"
-      ],
-      "properties": {
-        "id": {
-          "title": "Identifier",
-          "description": "The identifier for this criterion. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
-          "type": [
-            "string",
-            "integer"
-          ],
-          "minLength": 1
-        },
-        "title": {
-          "title": "Title",
-          "description": "A title for this criterion.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "description": {
-          "title": "Description",
-          "description": "A description of this criterion. Structured information should be provided in its other fields.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "source": {
-          "title": "Source",
-          "description": "Source of response to the requirements specified in the criterion. For example, responses might be submitted by tenderers or by an assessment committee at the procuringEntity.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "codelist": "responseSource.csv",
-          "openCodelist": false,
-          "enum": [
-            "tenderer",
-            "buyer",
-            "procuringEntity",
-            null
-          ]
-        },
-        "relatesTo": {
-          "title": "Related schema element",
-          "description": "The schema element that the criterion judges, evaluates or assesses. For example, the criterion might be defined against items or against bidders.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "codelist": "relatesTo.csv",
-          "openCodelist": false,
-          "enum": [
-            "tenderer",
-            "item",
-            null
-          ]
-        },
-        "relatedItem": {
-          "title": "Related item",
-          "description": "Where relatesTo = \"item\" this field must be populated with the id of the item in this tender section which the criterion relates to. Where relatesTo <> \"item\" this field should be omitted.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "requirementGroups": {
-          "title": "Requirement groups",
-          "description": "A list of requirement groups for this Criterion. A criterion is satisfied by one or more requirement groups being met. A requirement group is met when all requirements in the group are satisfied.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RequirementGroup"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        }
-      },
-      "minProperties": 1
-    },
-    "RequirementGroup": {
-      "type": "object",
-      "title": "Requirement group",
-      "description": "A requirement group is a set of requirements that must be fulfilled together to validate a criterion.",
-      "required": [
-        "id"
-      ],
-      "properties": {
-        "id": {
-          "title": "Identifier",
-          "description": "The identifier for this requirement group. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
-          "type": "string",
-          "minLength": 1
-        },
-        "description": {
-          "title": "Description",
-          "description": "A description of this requirement group. Structured information should be provided in the requirements array.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "requirements": {
-          "title": "Requirements",
-          "description": "A list requirements which must all be satisfied for the requirement group to be met.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Requirement"
-          },
-          "uniqueItems": true,
-          "minItems": 1
-        }
-      },
-      "minProperties": 1
-    },
-    "Requirement": {
-      "type": "object",
-      "title": "Requirement",
-      "description": "An atomic requirement. Requirements can specify the expected value that the response has to contain, or a range of threshold values within which the response has to fit in. The requirement may apply to a certain period of time.",
-      "required": [
-        "id"
-      ],
-      "properties": {
-        "id": {
-          "title": "Requirement identifier",
-          "description": "The identifier for this requirement. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
-          "type": "string",
-          "minLength": 1
-        },
-        "title": {
-          "title": "Requirement title",
-          "description": "The title of this atomic requirement.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "description": {
-          "title": "Requirement description",
-          "description": "A free text description for this atomic requirement.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "dataType": {
-          "title": "Requirement datatype",
-          "description": "The data type in which the requirement response must be provided.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "codelist": "dataType.csv",
-          "openCodelist": false,
-          "enum": [
-            "string",
-            "date-time",
-            "number",
-            "integer",
-            "boolean",
-            null
-          ]
-        },
-        "pattern": {
-          "title": "Response validation pattern",
-          "description": "A regular expression against which validate the requirement response.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "expectedValue": {
-          "title": "Expected value",
-          "description": "Used to state the requirement when the response must be particular value.",
-          "type": [
-            "string",
-            "integer",
-            "number",
-            "boolean",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "minValue": {
-          "title": "Minimum value",
-          "description": "Used to state the lower bound of the requirement when the response must be within a certain range.",
-          "type": [
-            "integer",
-            "number",
-            "null"
-          ]
-        },
-        "maxValue": {
-          "title": "Maximum value",
-          "description": "Used to state the upper bound of the requirement when the response must be within a certain range.",
-          "type": [
-            "integer",
-            "number",
-            "null"
-          ]
-        },
-        "period": {
-          "title": "Period",
-          "description": "Used to specify a particular period the requirement applies to, for example the bidder's turnover in a given year.",
-          "$ref": "#/definitions/Period"
-        }
-      },
-      "minProperties": 1
-    },
-    "RequirementResponse": {
-      "type": "object",
-      "title": "Requirement Response",
-      "description": "An assertion that responds to a single requirement. A requirement response provides the value for the requirement and may provide the period to which it applies.",
-      "required": [
-        "id",
-        "requirement"
-      ],
-      "properties": {
-        "id": {
-          "title": "Identifier",
-          "description": "The identifier for this requirement response. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/latest/en/schema/identifiers/) for further details.",
-          "type": "string",
-          "minLength": 1
-        },
-        "title": {
-          "title": "Title",
-          "description": "A title for this requirement response.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "description": {
-          "title": "Description",
-          "description": "A description of this requirement response. Structured information should be provided in its other fields.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "value": {
-          "title": "Value",
-          "description": "The value of this requirement response. The value must be of the type defined in the requirement.dataType field.",
-          "type": [
-            "string",
-            "integer",
-            "number",
-            "boolean",
-            "null"
-          ],
-          "minLength": 1
-        },
-        "period": {
-          "title": "Period",
-          "description": "The period which the requirement response is applicable to.",
-          "$ref": "#/definitions/Period"
-        },
-        "requirement": {
-          "title": "Related requirement",
-          "description": "The id and title of the requirement which the response is applicable to.",
-          "$ref": "#/definitions/RequirementReference"
-        },
-        "relatedTenderer": {
-          "title": "Related tenderer",
-          "description": "Where this requirement response relates to a tenderer and is provided by the buyer or procuring entity this field should be used to reference the entry in the parties section for the tenderer the response relates to.",
-          "$ref": "#/definitions/OrganizationReference"
-        }
-      },
-      "minProperties": 1
-    },
-    "RequirementReference": {
-      "type": "object",
-      "title": "Requirement reference",
-      "description": "Used to cross reference a requirement.",
-      "required": [
-        "id"
-      ],
-      "properties": {
-        "id": {
-          "title": "Requirement ID",
-          "description": "The id of the requirement which the response is applicable to.",
-          "type": "string",
-          "minLength": 1
-        },
-        "title": {
-          "title": "Requirement title",
-          "description": "The title of the requirement which the response is applicable to.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        }
-      },
-      "minProperties": 1
-    },
     "Risk": {
       "title": "Risk",
       "description": "A risk relating to the project.",
@@ -1766,15 +1337,6 @@
         }
       },
       "minProperties": 1
-    },
-    "Transaction": {
-      "properties": {
-        "relatedImplementationMilestone": {
-          "title": "Related implementation milestone",
-          "description": "A link to the milestone in the implementation section of OCDS to which this transaction relates.",
-          "$ref": "#/definitions/MilestoneReference"
-        }
-      }
     },
     "EvaluationIndicators": {
       "type": "object",
