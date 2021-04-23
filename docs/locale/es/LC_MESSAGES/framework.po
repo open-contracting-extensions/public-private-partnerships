@@ -5,12 +5,8 @@
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
-# Oscar Montiel <oscar.montiel@okfn.org>, 2017
 # Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2018
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Sebastian Oliva <sebastian.o@idatosabiertos.org>, 2018
-# Romina Fernandez <rfernandez@cds.com.py>, 2019
 # James McKinney, 2019
 # 
 #, fuzzy
@@ -18,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-22 22:23-0400\n"
+"POT-Creation-Date: 2021-04-23 14:47-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
 "Last-Translator: James McKinney, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -277,44 +273,6 @@ msgstr "**Ejemplo de JSON:**"
 #: ../../docs/framework.md:1892 ../../docs/framework.md:1962
 msgid "**Flattened example** (showing top-level fields only)"
 msgstr "**Ejemplo plano** (mostrando sólo los campos de nivel superior)"
-
-#: ../../docs/framework.md:37
-msgid "planning/project/title"
-msgstr "planning/project/title"
-
-#: ../../docs/framework.md:37
-msgid "planning/project/description"
-msgstr "planning/project/description"
-
-#: ../../docs/framework.md:37
-msgid "planning/project/id"
-msgstr "planning/project/id"
-
-#: ../../docs/framework.md:37
-msgid "planning/project/uri"
-msgstr "planning/project/uri"
-
-#: ../../docs/framework.md:37
-msgid "Example PPP"
-msgstr "Ejemplo de APP"
-
-#: ../../docs/framework.md:37
-msgid ""
-"The Example PPP project will guarantee the installation of a wholesale "
-"shared network that allows the provision of telecommunications services by "
-"current and future operators."
-msgstr ""
-"El proyecto APP Ejemplo garantizará la instalación de una red compartida "
-"mayorista que permita la prestación de servicios de telecomunicaciones por "
-"parte de operadores actuales y futuros."
-
-#: ../../docs/framework.md:37
-msgid "example_ppp"
-msgstr "example_ppp"
-
-#: ../../docs/framework.md:37
-msgid "http://communications.gov.example/projects/example_ppp"
-msgstr "http://communications.gov.example/projects/example_ppp"
 
 #: ../../docs/framework.md:43
 msgid "I.1.1. Project name and description"
@@ -578,36 +536,6 @@ msgid ""
 "representative."
 msgstr ""
 
-#: ../../docs/framework.md:123 ../../docs/framework.md:573
-msgid "parties/1/id"
-msgstr "parties/1/id"
-
-#: ../../docs/framework.md:123 ../../docs/framework.md:573
-msgid "parties/1/name"
-msgstr "parties/1/name"
-
-#: ../../docs/framework.md:123 ../../docs/framework.md:573
-msgid "parties/1/roles"
-msgstr "parties/1/roles"
-
-#: ../../docs/framework.md:123 ../../docs/framework.md:148
-#: ../../docs/framework.md:548 ../../docs/framework.md:573
-#: ../../docs/framework.md:598 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "XX-GOV-00000000"
-msgstr "XX-GOV-00000000"
-
-#: ../../docs/framework.md:123 ../../docs/framework.md:148
-#: ../../docs/framework.md:548 ../../docs/framework.md:573
-#: ../../docs/framework.md:598 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "Telecoms Promoter"
-msgstr "Promotor de Telecomunicaciones"
-
-#: ../../docs/framework.md:123 ../../docs/framework.md:573
-msgid "buyer"
-msgstr ""
-
 #: ../../docs/framework.md:129
 msgid "I.2.2. Organization reference"
 msgstr "I.2.2. Referencia de la organización"
@@ -619,14 +547,6 @@ msgid ""
 "contracting.org/1.1/en/schema/reference/#organizationreference) object in "
 "the [buyer](../reference/schema/#release-schema.json,,buyer) field, "
 "referencing the relevant entry in the `parties` section."
-msgstr ""
-
-#: ../../docs/framework.md:148 ../../docs/framework.md:598
-msgid "buyer/id"
-msgstr ""
-
-#: ../../docs/framework.md:148 ../../docs/framework.md:598
-msgid "buyer/name"
 msgstr ""
 
 #: ../../docs/framework.md:154
@@ -749,89 +669,6 @@ msgid ""
 " should be set to 'needsAssessment'."
 msgstr ""
 
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/id"
-msgstr "planning/documents/0/id"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/documentType"
-msgstr "planning/documents/0/documentType"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/title"
-msgstr "planning/documents/0/title"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/description"
-msgstr "planning/documents/0/description"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/url"
-msgstr "planning/documents/0/url"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/datePublished"
-msgstr "planning/documents/0/datePublished"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/format"
-msgstr "planning/documents/0/format"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/language"
-msgstr "planning/documents/0/language"
-
-#: ../../docs/framework.md:215
-msgid "planning/documents/0/author"
-msgstr "planning/documents/0/author"
-
-#: ../../docs/framework.md:215 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1307
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1704
-#: ../../docs/framework.md:1770 ../../docs/framework.md:1964
-msgid "1"
-msgstr "1"
-
-#: ../../docs/framework.md:215
-msgid "needsAssessment"
-msgstr "needsAssessment"
-
-#: ../../docs/framework.md:215
-msgid "Needs Assessment"
-msgstr "Evaluación de Necesidades"
-
-#: ../../docs/framework.md:215
-msgid ""
-"The project will increase the telecommunication services coverage, promote "
-"competitive prices and enhance the quality of services according to "
-"international standards."
-msgstr ""
-"El proyecto aumentará la cobertura de los servicios de telecomunicaciones, "
-"promoverá precios competitivos y mejorará la calidad de los servicios de "
-"acuerdo con las normas internacionales."
-
-#: ../../docs/framework.md:215
-msgid ""
-"http://communications.gov.example/example_ppp/example_ppp_needs_assessment.pdf"
-msgstr ""
-"http://communications.gov.example/example_ppp/example_ppp_needs_assessment.pdf"
-
-#: ../../docs/framework.md:215
-msgid "2015-09-30T12:09:30-06:00"
-msgstr "2015-09-30T12:09:30-06:00"
-
-#: ../../docs/framework.md:215
-msgid "application/pdf"
-msgstr "application/pdf"
-
-#: ../../docs/framework.md:215
-msgid "en"
-msgstr "en"
-
-#: ../../docs/framework.md:215
-msgid "Example Consultancy Services Ltd"
-msgstr "Example Consultancy Services Ltd"
-
 #: ../../docs/framework.md:221
 msgid "I.5. Project technical description"
 msgstr "I.5. Descripción técnica del proyecto"
@@ -938,30 +775,6 @@ msgid ""
 "These estimates can be disaggregated by any number of dimensions contained "
 "as key-value pairs within the `observation/dimensions` object."
 msgstr ""
-
-#: ../../docs/framework.md:296
-msgid "planning/forecasts/id"
-msgstr "planning/forecasts/id"
-
-#: ../../docs/framework.md:296
-msgid "planning/forecasts/title"
-msgstr "planning/forecasts/title"
-
-#: ../../docs/framework.md:296
-msgid "planning/forecasts/description"
-msgstr "planning/forecasts/description"
-
-#: ../../docs/framework.md:296
-msgid "demand"
-msgstr "demanda"
-
-#: ../../docs/framework.md:296
-msgid "Annual demand"
-msgstr "Demanda anual"
-
-#: ../../docs/framework.md:296
-msgid "Annual 4G traffic measured in gigabytes"
-msgstr "El tráfico anual 4G medido en gigabytes"
 
 #: ../../docs/framework.md:302
 msgid "I.7.2. Estimated demand documentation"
@@ -1079,66 +892,6 @@ msgstr ""
 msgid ""
 "its `documents` array set to any documentation associated with the approval"
 msgstr ""
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/id"
-msgstr "planning/milestones/1/id"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/type"
-msgstr "planning/milestones/1/type"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/title"
-msgstr "planning/milestones/1/title"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/description"
-msgstr "planning/milestones/1/description"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/status"
-msgstr "planning/milestones/1/status"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/dueDate"
-msgstr "planning/milestones/1/dueDate"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/dateMet"
-msgstr "planning/milestones/1/dateMet"
-
-#: ../../docs/framework.md:383
-msgid "planning/milestones/1/dateModified"
-msgstr "planning/milestones/1/dateModified"
-
-#: ../../docs/framework.md:383 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1704
-msgid "2"
-msgstr "2"
-
-#: ../../docs/framework.md:383
-msgid "approval"
-msgstr "approval"
-
-#: ../../docs/framework.md:383
-msgid "Strategic outline case approval"
-msgstr "Aprobación del caso de bosquejo estratégico"
-
-#: ../../docs/framework.md:383
-msgid ""
-"Ministry of Finance approved the strategic outline business case for the "
-"project"
-msgstr "El Ministerio de Hacienda aprobó el plan estratégico para el proyecto"
-
-#: ../../docs/framework.md:383
-msgid "met"
-msgstr "met"
-
-#: ../../docs/framework.md:383 ../../docs/framework.md:383
-#: ../../docs/framework.md:383
-msgid "2015-01-01T00:00:00-06:00"
-msgstr "2015-01-01T00:00:00-06:00"
 
 #: ../../docs/framework.md:389
 msgid "I.11. Contract milestones"
@@ -1346,22 +1099,6 @@ msgid ""
 "schema.json,,tender/contractPeriod) field."
 msgstr ""
 
-#: ../../docs/framework.md:502 ../../docs/framework.md:904
-msgid "tender/contractPeriod/startDate"
-msgstr "tender/contractPeriod/startDate"
-
-#: ../../docs/framework.md:502 ../../docs/framework.md:904
-msgid "tender/contractPeriod/endDate"
-msgstr "tender/contractPeriod/endDate"
-
-#: ../../docs/framework.md:502 ../../docs/framework.md:904
-msgid "2016-01-24T00:00:00Z"
-msgstr "2016-01-24T00:00:00Z"
-
-#: ../../docs/framework.md:502 ../../docs/framework.md:904
-msgid "2036-01-23T00:00:00Z"
-msgstr "2036-01-23T00:00:00Z"
-
 #: ../../docs/framework.md:508
 msgid "I.13. Contract documents"
 msgstr "I.13. Documentos del contrato"
@@ -1416,48 +1153,6 @@ msgid ""
 "schema.json,,contracts/0/signatories) array, referencing the relevant "
 "entries in the `parties` section."
 msgstr ""
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "contracts/0/signatories/id"
-msgstr "contracts/0/signatories/id"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "contracts/0/signatories/name"
-msgstr "contracts/0/signatories/name"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "XX-GOV-12345678"
-msgstr "XX-GOV-12345678"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "Ministry of Communications"
-msgstr "Ministerio de Comunicaciones"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "XX-GOV-99999999"
-msgstr "XX-GOV-99999999"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:698
-msgid "National Fiber Infrastructure"
-msgstr ""
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:640 ../../docs/framework.md:658
-#: ../../docs/framework.md:698 ../../docs/framework.md:1043
-#: ../../docs/framework.md:1061
-msgid "MEGA"
-msgstr "MEGA"
-
-#: ../../docs/framework.md:548 ../../docs/framework.md:622
-#: ../../docs/framework.md:640 ../../docs/framework.md:698
-msgid "Mega Consortium Ltd"
-msgstr "Mega Consortium Ltd"
 
 #: ../../docs/framework.md:554
 msgid "I.14.2. Organization details"
@@ -1542,28 +1237,6 @@ msgid ""
 "representative."
 msgstr ""
 
-#: ../../docs/framework.md:640 ../../docs/framework.md:1043
-msgid "parties/0/id"
-msgstr "parties/0/id"
-
-#: ../../docs/framework.md:640 ../../docs/framework.md:1043
-msgid "parties/0/name"
-msgstr "parties/0/name"
-
-#: ../../docs/framework.md:640 ../../docs/framework.md:1043
-msgid "parties/0/roles"
-msgstr "parties/0/roles"
-
-#: ../../docs/framework.md:640 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103
-msgid "privateParty"
-msgstr "privateParty"
-
 #: ../../docs/framework.md:646
 msgid "I.15.3. Organization reference"
 msgstr "I.15.3. Referencia de la organización"
@@ -1577,19 +1250,6 @@ msgid ""
 "schema.json,,awards/0/suppliers) field, referencing the relevant entry in "
 "the `parties` section."
 msgstr ""
-
-#: ../../docs/framework.md:658 ../../docs/framework.md:1061
-msgid "awards/0/suppliers/id"
-msgstr ""
-
-#: ../../docs/framework.md:658 ../../docs/framework.md:1061
-msgid "awards/0/suppliers/name"
-msgstr ""
-
-#: ../../docs/framework.md:658 ../../docs/framework.md:1043
-#: ../../docs/framework.md:1061
-msgid "Mega Consortium"
-msgstr "Mega Consorcio"
 
 #: ../../docs/framework.md:664
 msgid "I.16. Contract parties - financiers"
@@ -1618,33 +1278,6 @@ msgid ""
 "appropriate, and each party's `contactPoint` field can be used to provide "
 "details of a named representative."
 msgstr ""
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1245
-#: ../../docs/framework.md:1329
-msgid "parties/4/id"
-msgstr "parties/4/id"
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1245
-#: ../../docs/framework.md:1329
-msgid "parties/4/name"
-msgstr "parties/4/name"
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1245
-#: ../../docs/framework.md:1329
-msgid "parties/4/roles"
-msgstr "parties/4/roles"
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1329
-msgid "XX-FI-22222222"
-msgstr "XX-FI-22222222"
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1329
-msgid "Big Bank Corp"
-msgstr "Big Bank Corp"
-
-#: ../../docs/framework.md:680 ../../docs/framework.md:1329
-msgid "leadBank"
-msgstr "leadBank"
 
 #: ../../docs/framework.md:686
 msgid "I.16.2. Contract signatories"
@@ -1746,22 +1379,6 @@ msgid ""
 "schema.json,,tender/tenderPeriod) field."
 msgstr ""
 
-#: ../../docs/framework.md:742
-msgid "tender/tenderPeriod/startDate"
-msgstr "tender/tenderPeriod/startDate"
-
-#: ../../docs/framework.md:742
-msgid "tender/tenderPeriod/endDate"
-msgstr "tender/tenderPeriod/endDate"
-
-#: ../../docs/framework.md:742
-msgid "2015-10-31T00:00:00-06:00"
-msgstr ""
-
-#: ../../docs/framework.md:742
-msgid "2015-11-30T00:00:00-06:00"
-msgstr ""
-
 #: ../../docs/framework.md:748
 msgid "II.1.2. Dates - Enquiry period"
 msgstr "II.1.2. Fechas - Período de consulta"
@@ -1780,22 +1397,6 @@ msgid ""
 "schema.json,,tender/enquiryPeriod) field."
 msgstr ""
 
-#: ../../docs/framework.md:769
-msgid "tender/enquiryPeriod/startDate"
-msgstr "tender/enquiryPeriod/startDate"
-
-#: ../../docs/framework.md:769
-msgid "tender/enquiryPeriod/endDate"
-msgstr "tender/enquiryPeriod/endDate"
-
-#: ../../docs/framework.md:769
-msgid "2016-03-01T01:00:00+01:00"
-msgstr "2016-03-01T01:00:00+01:00"
-
-#: ../../docs/framework.md:769
-msgid "2016-04-19T01:00:00+02:00"
-msgstr "2016-04-19T01:00:00+02:00"
-
 #: ../../docs/framework.md:775
 msgid "II.1.4. Summary details - Submission method"
 msgstr "II.1.4. Resumen de detalles - Método de sumisión"
@@ -1804,25 +1405,6 @@ msgstr "II.1.4. Resumen de detalles - Método de sumisión"
 msgid ""
 "Use the following fields in the `tender` section to provide information on "
 "the submission method for responses:"
-msgstr ""
-
-#: ../../docs/framework.md:803
-msgid "tender/submissionMethod"
-msgstr "tender/submissionMethod"
-
-#: ../../docs/framework.md:803
-msgid "tender/submissionMethodDetails"
-msgstr "tender/submissionMethodDetails"
-
-#: ../../docs/framework.md:803
-msgid "inPerson"
-msgstr "inPerson"
-
-#: ../../docs/framework.md:803
-msgid ""
-"Each contestant may submit only one request. The address for delivery of the"
-" request is: Ministry of Communications, 1 Main Street, Capital City, "
-"Capital State, CS 123456"
 msgstr ""
 
 #: ../../docs/framework.md:810
@@ -1834,19 +1416,6 @@ msgid ""
 "Use the `tender` section to provide information on the eligibility criteria "
 "for participants."
 msgstr ""
-
-#: ../../docs/framework.md:838
-msgid "tender/eligibilityCriteria"
-msgstr "tender/eligibilityCriteria"
-
-#: ../../docs/framework.md:838
-msgid ""
-"Contestants must prove their administrative, economic, financial and "
-"technical capacity with various documents established in tender rules."
-msgstr ""
-"Los concursantes deben demostrar su capacidad administrativa, económica, "
-"financiera y técnica con diversos documentos establecidos en las bases de "
-"licitación."
 
 #: ../../docs/framework.md:845
 msgid "II.1.6. Request for Qualification"
@@ -1903,18 +1472,6 @@ msgid ""
 "schema.json,,tender/awardPeriod) field."
 msgstr ""
 
-#: ../../docs/framework.md:876
-msgid "tender/awardPeriod/startDate"
-msgstr "tender/awardPeriod/startDate"
-
-#: ../../docs/framework.md:876
-msgid "tender/awardPeriod/endDate"
-msgstr "tender/awardPeriod/endDate"
-
-#: ../../docs/framework.md:876 ../../docs/framework.md:876
-msgid "2016-12-09T01:00:00+01:00"
-msgstr "2016-12-09T01:00:00+01:00"
-
 #: ../../docs/framework.md:882
 msgid "II.1.8. Dates - Contract period"
 msgstr ""
@@ -1947,22 +1504,6 @@ msgstr ""
 #: ../../docs/framework.md:919
 msgid ""
 "Use the `tender` section to provide information on the procurement method."
-msgstr ""
-
-#: ../../docs/framework.md:938
-msgid "tender/procurementMethod"
-msgstr "tender/procurementMethod"
-
-#: ../../docs/framework.md:938
-msgid "tender/procurementMethodDetails"
-msgstr "tender/procurementMethodDetails"
-
-#: ../../docs/framework.md:938
-msgid "selective"
-msgstr ""
-
-#: ../../docs/framework.md:938
-msgid "The project will be awarded through a two-stage process"
 msgstr ""
 
 #: ../../docs/framework.md:945
@@ -2188,10 +1729,6 @@ msgid ""
 "representative."
 msgstr ""
 
-#: ../../docs/framework.md:1043
-msgid "supplier"
-msgstr ""
-
 #: ../../docs/framework.md:1049
 msgid "II.8.2. Organization reference"
 msgstr "II.8.2. Referencia de la organización"
@@ -2270,179 +1807,6 @@ msgid ""
 msgstr ""
 "También se puede proporcionar información adicional en texto libre sobre "
 "cada asignación de riesgos, por ejemplo la justificación de la asignación."
-
-#: ../../docs/framework.md:1103
-msgid "contracts/0/riskAllocation/id"
-msgstr "contracts/0/riskAllocation/id"
-
-#: ../../docs/framework.md:1103
-msgid "contracts/0/riskAllocation/category"
-msgstr "contracts/0/riskAllocation/category"
-
-#: ../../docs/framework.md:1103
-msgid "contracts/0/riskAllocation/description"
-msgstr "contracts/0/riskAllocation/description"
-
-#: ../../docs/framework.md:1103
-msgid "contracts/0/riskAllocation/allocation"
-msgstr "contracts/0/riskAllocation/allocation"
-
-#: ../../docs/framework.md:1103
-msgid "contracts/0/riskAllocation/notes"
-msgstr "contracts/0/riskAllocation/notes"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-msgid "all"
-msgstr "todos"
-
-#: ../../docs/framework.md:1103
-msgid "Risks arising from the Project"
-msgstr "Riesgos derivados del Proyecto"
-
-#: ../../docs/framework.md:1103
-msgid "operationPerformance"
-msgstr "operationPerformance"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks arising from the maintenance, use and operation of the pair of optic "
-"fiber strands (filaments) of the Backbone Network"
-msgstr ""
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-#: ../../docs/framework.md:1704
-msgid "3"
-msgstr "3"
-
-#: ../../docs/framework.md:1103
-msgid "environmental"
-msgstr "ambiental"
-
-#: ../../docs/framework.md:1103
-msgid "Environmental risks"
-msgstr "Riesgos ambientales"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-#: ../../docs/framework.md:1704
-msgid "4"
-msgstr "4"
-
-#: ../../docs/framework.md:1103
-msgid "compliance"
-msgstr "conformidad"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks deriving from the compliance or lack thereof of regulatory obligations"
-" related to the development of the Project"
-msgstr ""
-"Riesgos derivados del cumplimiento o de la ausencia de obligaciones "
-"reglamentarias relacionadas con el desarrollo del Proyecto"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-msgid "5"
-msgstr "5"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-msgid "construction"
-msgstr "construcción"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks deriving from procurement or lack thereof of the necessary licenses "
-"and permits for the Project’s development"
-msgstr ""
-"Riesgos derivados de la adquisición o ausencia de las licencias y permisos "
-"necesarios para el desarrollo del Proyecto"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-#: ../../docs/framework.md:1964
-msgid "6"
-msgstr "6"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks arising from the procurement or lack thereof of rights of way required"
-" for the Project’s development"
-msgstr ""
-"Riesgos derivados de la adquisición o falta de derechos de intervención "
-"necesarios para el desarrollo del Proyecto"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-msgid "7"
-msgstr "7"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1103
-#: ../../docs/framework.md:1103
-msgid "financial"
-msgstr "financiero"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Financial risks including interest rate risk, exchange rate risk and "
-"bankability risk"
-msgstr ""
-"Riesgos financieros incluyendo riesgo de tipo de interés, riesgo de tipo de "
-"cambio y riesgo bancario"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-msgid "8"
-msgstr "8"
-
-#: ../../docs/framework.md:1103
-msgid "Risks related to the financing of the Project"
-msgstr "Riesgos relacionados con la financiación del Proyecto"
-
-#: ../../docs/framework.md:1103 ../../docs/framework.md:1271
-msgid "9"
-msgstr "9"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks due to variations or increase in the cost of the Project’s execution"
-msgstr ""
-"Riesgos derivados de variaciones o aumento en el costo de ejecución del "
-"Proyecto"
-
-#: ../../docs/framework.md:1103
-msgid "10"
-msgstr "10"
-
-#: ../../docs/framework.md:1103
-msgid "forceMajeure"
-msgstr "forceMajeure"
-
-#: ../../docs/framework.md:1103
-msgid "Risks due to fortuitous or force majeure events"
-msgstr "Riesgos debidos a acontecimientos fortuitos o de fuerza mayor"
-
-#: ../../docs/framework.md:1103
-msgid "11"
-msgstr "11"
-
-#: ../../docs/framework.md:1103
-msgid "governance"
-msgstr "gobernanza"
-
-#: ../../docs/framework.md:1103
-msgid ""
-"Risks deriving from the breach of any obligations assumed by subcontractors"
-msgstr ""
-"Riesgos derivados del incumplimiento de las obligaciones asumidas por los "
-"subcontratistas"
-
-#: ../../docs/framework.md:1103
-msgid "12"
-msgstr "12"
-
-#: ../../docs/framework.md:1103
-msgid "Others set forth in, or arising from the execution of, this Agreement"
-msgstr "Otros establecidos en, o derivados de la ejecución de este Acuerdo"
-
-#: ../../docs/framework.md:1103
-msgid "The private party assumes all risks relating to the project."
-msgstr ""
-"La parte privada asume todos los riesgos relacionados con el proyecto."
 
 #: ../../docs/framework.md:1109
 msgid "III.1.2. Additional financial modelling for risks"
@@ -2544,45 +1908,6 @@ msgid ""
 "the `award/evaluationIndicators` section."
 msgstr ""
 
-#: ../../docs/framework.md:1159
-msgid "awards/0/evaluationIndicators/riskPremium"
-msgstr "awards/0/evaluationIndicators/riskPremium"
-
-#: ../../docs/framework.md:1159
-msgid "awards/0/evaluationIndicators/riskPremiumDetails"
-msgstr "awards/0/evaluationIndicators/riskPremiumDetails"
-
-#: ../../docs/framework.md:1159
-msgid "awards/0/evaluationIndicators/discountRate"
-msgstr "awards/0/evaluationIndicators/discountRate"
-
-#: ../../docs/framework.md:1159
-msgid "awards/0/evaluationIndicators/discountRateDetails"
-msgstr "awards/0/evaluationIndicators/discountRateDetails"
-
-#: ../../docs/framework.md:1159
-msgid "0.0092"
-msgstr "0.0092"
-
-#: ../../docs/framework.md:1159
-msgid ""
-"Based on a market risk premium of 6.0% (per government guidelines) and an "
-"asset beta of 0.45 (per a sample of listed telecommunication network "
-"providers) the project risk allocation gives rise to a risk premium of 0.92%"
-msgstr ""
-"Basada en una prima de riesgo de mercado del 6,0% (según las directrices del"
-" gobierno) y un activo beta de 0,45 (tomado de una muestra de proveedores de"
-" redes de telecomunicaciones listados), la asignación del riesgo del "
-"proyecto da lugar a una prima de riesgo del 0,92%"
-
-#: ../../docs/framework.md:1159 ../../docs/framework.md:1415
-msgid "0.03"
-msgstr "0.03"
-
-#: ../../docs/framework.md:1159
-msgid "Based on the current long term public sector bond rate"
-msgstr "Basado en la actual tasa de bonos del sector público a largo plazo"
-
 #: ../../docs/framework.md:1165
 msgid "IV.2.2.2. Discount rate and risk premium - supporting documentation"
 msgstr ""
@@ -2633,28 +1958,6 @@ msgid ""
 "for the PPP should be provided in the `contract/financeSummary` section."
 msgstr ""
 
-#: ../../docs/framework.md:1202
-msgid "contracts/0/financeSummary/debtEquityRatio"
-msgstr "contracts/0/financeSummary/debtEquityRatio"
-
-#: ../../docs/framework.md:1202
-msgid "contracts/0/financeSummary/debtEquityRatioDetails"
-msgstr "contracts/0/financeSummary/debtEquityRatioDetails"
-
-#: ../../docs/framework.md:1202
-msgid "2.05"
-msgstr "2.05"
-
-#: ../../docs/framework.md:1202
-msgid ""
-"Until the target population coverage is reached mega Consortium must comply "
-"with a contribution of capital of at least 30% of the total value of the "
-"company"
-msgstr ""
-"Hasta que alcance la cobertura de población meta, el mega Consorcio deberá "
-"cumplir con una aportación de capital de al menos 30% del valor total de la "
-"empresa"
-
 #: ../../docs/framework.md:1209
 msgid "V.2. Share capital"
 msgstr "V.2. Capital accionario"
@@ -2668,17 +1971,6 @@ msgstr ""
 #: ../../docs/framework.md:1213
 msgid "**Schema**: See above"
 msgstr ""
-
-#: ../../docs/framework.md:1224
-msgid "contracts/0/financeSummary/shareCapitalDetails"
-msgstr "contracts/0/financeSummary/shareCapitalDetails"
-
-#: ../../docs/framework.md:1224
-msgid ""
-"See the contract.financing and shareholders sections for further details."
-msgstr ""
-"Consulta las secciones contract.financing  y shareholders para obtener más "
-"detalles."
 
 #: ../../docs/framework.md:1231
 msgid "V.3. Shareholders with proportion held and voting rights"
@@ -2697,18 +1989,6 @@ msgid ""
 "party's `roles` array should include the 'equityInvestor' code."
 msgstr ""
 
-#: ../../docs/framework.md:1245
-msgid "XX-XXX-11111111"
-msgstr "XX-XXX-11111111"
-
-#: ../../docs/framework.md:1245
-msgid "Alpha Holdings Ltd"
-msgstr "Alpha Holdings Ltd"
-
-#: ../../docs/framework.md:1245
-msgid "equityInvestor"
-msgstr "equityInvestor"
-
 #: ../../docs/framework.md:1251
 msgid "V.3.1. Proportion held and voting rights"
 msgstr "V.3.1. Proporción mantenida y derechos de voto"
@@ -2719,73 +1999,6 @@ msgid ""
 "held and voting rights should be provided in the entry in the "
 "`parties/shareholders` section."
 msgstr ""
-
-#: ../../docs/framework.md:1271
-msgid "parties/0/shareholders/id"
-msgstr "parties/0/shareholders/id"
-
-#: ../../docs/framework.md:1271
-msgid "parties/0/shareholders/shareholding"
-msgstr "parties/0/shareholders/shareholding"
-
-#: ../../docs/framework.md:1271
-msgid "parties/0/shareholders/votingRights"
-msgstr "parties/0/shareholders/votingRights"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1307
-msgid "0.3337"
-msgstr "0.3337"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1307
-msgid "additional"
-msgstr "adicional"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1307
-msgid "Alpha Holdings Ltd. is entitled to 5 votes per share."
-msgstr "Alpha Holdings Ltd. tiene derecho a 5 votos por acción."
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1307
-msgid ""
-"Alpha Holdings Ltd. must maintain a minimum shareholding of 30% in the "
-"project company until 10 years from the date of commissioning have elapsed."
-msgstr ""
-"Alpha Holdings Ltd. debe mantener una participación mínima de 30% de la "
-"empresa del proyecto hasta transcurridos 10 años a partir de la fecha de "
-"puesta en marcha."
-
-#: ../../docs/framework.md:1271
-msgid "0.2336"
-msgstr "0.2336"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-msgid "ordinary"
-msgstr "ordinario"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-msgid "0.0334"
-msgstr "0.0334"
-
-#: ../../docs/framework.md:1271
-msgid "0.0935"
-msgstr "0.0935"
-
-#: ../../docs/framework.md:1271
-msgid "0.1268"
-msgstr "0.1268"
-
-#: ../../docs/framework.md:1271
-msgid "0.0654"
-msgstr "0.0654"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-msgid "0.0401"
-msgstr "0.0401"
-
-#: ../../docs/framework.md:1271 ../../docs/framework.md:1271
-msgid "none"
-msgstr "ninguna"
 
 #: ../../docs/framework.md:1277
 msgid "V.4. Equity transfer caps"
@@ -2826,26 +2039,6 @@ msgstr ""
 "sobre los límites de transferencia de capital o los acuerdos de bloqueo "
 "aplicables a un accionista en particular."
 
-#: ../../docs/framework.md:1307
-msgid "parties/0/shareholders/0/id"
-msgstr "parties/0/shareholders/0/id"
-
-#: ../../docs/framework.md:1307
-msgid "parties/0/shareholders/0/shareholding"
-msgstr "parties/0/shareholders/0/shareholding"
-
-#: ../../docs/framework.md:1307
-msgid "parties/0/shareholders/0/votingRights"
-msgstr "parties/0/shareholders/0/votingRights"
-
-#: ../../docs/framework.md:1307
-msgid "parties/0/shareholders/0/votingRightsDetails"
-msgstr "parties/0/shareholders/0/votingRightsDetails"
-
-#: ../../docs/framework.md:1307
-msgid "parties/0/shareholders/0/notes"
-msgstr "parties/0/shareholders/0/notes"
-
 #: ../../docs/framework.md:1313
 msgid "V.5. Lender and investor information"
 msgstr "V.5. Información de prestamistas e inversores"
@@ -2883,64 +2076,6 @@ msgid ""
 " provided in the `contract/finance` section."
 msgstr ""
 
-#: ../../docs/framework.md:1355
-msgid "contracts/0/finance/0/id"
-msgstr "contracts/0/finance/0/id"
-
-#: ../../docs/framework.md:1355
-msgid "contracts/0/finance/0/title"
-msgstr "contracts/0/finance/0/title"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1446
-msgid "contracts/0/finance/0/description"
-msgstr "contracts/0/finance/0/description"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1386
-msgid "contracts/0/finance/0/financeCategory"
-msgstr "contracts/0/finance/0/financeCategory"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1446
-msgid "contracts/0/finance/0/stepInRights"
-msgstr "contracts/0/finance/0/stepInRights"
-
-#: ../../docs/framework.md:1355
-msgid "contracts/0/finance/0/exchangeRateGuarantee"
-msgstr "contracts/0/finance/0/exchangeRateGuarantee"
-
-#: ../../docs/framework.md:1355
-msgid "contracts/0/finance/0/repaymentFrequency"
-msgstr "contracts/0/finance/0/repaymentFrequency"
-
-#: ../../docs/framework.md:1355
-msgid "Primary senior debt financing agreement"
-msgstr "Contrato principal de financiamiento de deuda mayor"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1446
-msgid ""
-"Big Bank Corp retains the right to step in should Mega Consortium fail to "
-"comply with the repayment schedule for a period of 3 consecutive months."
-msgstr ""
-"Big Bank Corp se reserva el derecho de intervenir en caso de que Mega "
-"Consortium no cumpla con el calendario de pagos por un período de 3 meses "
-"consecutivos."
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1386
-msgid "seniorDebt"
-msgstr "seniorDebt"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1446
-#: ../../docs/framework.md:1964
-msgid "True"
-msgstr "True"
-
-#: ../../docs/framework.md:1355 ../../docs/framework.md:1415
-msgid "False"
-msgstr "False"
-
-#: ../../docs/framework.md:1355
-msgid "30.4"
-msgstr "30.4"
-
 #: ../../docs/framework.md:1361
 msgid "V.6. Debt information"
 msgstr "V.6. Información de la deuda"
@@ -2976,22 +2111,6 @@ msgid ""
 "Details of interest rates relating to each finance arrangement should be "
 "provided in the `contract/finance` section."
 msgstr ""
-
-#: ../../docs/framework.md:1415
-msgid "contracts/0/finance/0/interestRate/base"
-msgstr "contracts/0/finance/0/interestRate/base"
-
-#: ../../docs/framework.md:1415
-msgid "contracts/0/finance/0/interestRate/margin"
-msgstr "contracts/0/finance/0/interestRate/margin"
-
-#: ../../docs/framework.md:1415
-msgid "contracts/0/finance/0/interestRate/fixed"
-msgstr "contracts/0/finance/0/interestRate/fixed"
-
-#: ../../docs/framework.md:1415
-msgid "LIBOR"
-msgstr "LIBOR"
 
 #: ../../docs/framework.md:1421
 msgid "V.8. Security information"
@@ -3041,14 +2160,6 @@ msgid ""
 "Structured information and supporting details about the forecast IRR of the "
 "PPP should be provided in the `contract/financeSummary` section."
 msgstr ""
-
-#: ../../docs/framework.md:1480
-msgid "contracts/0/financeSummary/projectIRR"
-msgstr "contracts/0/financeSummary/projectIRR"
-
-#: ../../docs/framework.md:1480
-msgid "0.043"
-msgstr "0.043"
 
 #: ../../docs/framework.md:1487
 msgid "VI. Government Support"
@@ -3122,22 +2233,6 @@ msgid ""
 "Structured information and supporting details about the subsidy ratio for "
 "the PPP should be provided in the `contract/financeSummary` section."
 msgstr ""
-
-#: ../../docs/framework.md:1534
-msgid "contracts/0/financeSummary/subsidyRatio"
-msgstr "contracts/0/financeSummary/subsidyRatio"
-
-#: ../../docs/framework.md:1534
-msgid "contracts/0/financeSummary/subsidyRatioDetails"
-msgstr "contracts/0/financeSummary/subsidyRatioDetails"
-
-#: ../../docs/framework.md:1534
-msgid "0"
-msgstr "0"
-
-#: ../../docs/framework.md:1534
-msgid "No government subsidy is provided for the project"
-msgstr "No se otorgó ningún subsidio gubernamental para este proyecto"
 
 #: ../../docs/framework.md:1541
 msgid ""
@@ -3219,36 +2314,6 @@ msgid ""
 " in the `contract/implementation/transactions` section."
 msgstr ""
 
-#: ../../docs/framework.md:1587
-msgid "contracts/0/implementation/transactions/0/id"
-msgstr "contracts/0/implementation/transactions/0/id"
-
-#: ../../docs/framework.md:1587
-msgid "contracts/0/implementation/transactions/0/source"
-msgstr "contracts/0/implementation/transactions/0/source"
-
-#: ../../docs/framework.md:1587
-msgid "contracts/0/implementation/transactions/0/date"
-msgstr "contracts/0/implementation/transactions/0/date"
-
-#: ../../docs/framework.md:1587
-msgid "contracts/0/implementation/transactions/0/uri"
-msgstr "contracts/0/implementation/transactions/0/uri"
-
-#: ../../docs/framework.md:1587
-msgid "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
-msgstr "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
-
-#: ../../docs/framework.md:1587 ../../docs/framework.md:1587
-msgid ""
-"http://finance.example.gov/spending/a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
-msgstr ""
-"http://finance.example.gov/spending/a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
-
-#: ../../docs/framework.md:1587
-msgid "2017-04-01T00:00:00-06:00"
-msgstr "2017-04-01T00:00:00-06:00"
-
 #: ../../docs/framework.md:1593
 msgid "VI.3.2. Structured information on total service payments"
 msgstr "VI.3.2. Información estructurada sobre los pagos totales del servicio"
@@ -3262,271 +2327,6 @@ msgid ""
 "Structured information on total service payments can be provided in the "
 "`contract/implementation/charges` section."
 msgstr ""
-
-#: ../../docs/framework.md:1615
-msgid "contracts/0/implementation/charges/id"
-msgstr "contracts/0/implementation/charges/id"
-
-#: ../../docs/framework.md:1615
-msgid "contracts/0/implementation/charges/title"
-msgstr "contracts/0/implementation/charges/title"
-
-#: ../../docs/framework.md:1615
-msgid "contracts/0/implementation/charges/paidBy"
-msgstr "contracts/0/implementation/charges/paidBy"
-
-#: ../../docs/framework.md:1615
-msgid "2016-user"
-msgstr "usuario-2016"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2016 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2016 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-#: ../../docs/framework.md:1615 ../../docs/framework.md:1615
-msgid "user"
-msgstr "usuario"
-
-#: ../../docs/framework.md:1615
-msgid "2017-user"
-msgstr "usuario-2017"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2017 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2017 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2018-user"
-msgstr "usuario-2018"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2018 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural calendario 2018 resultantes de tarifas"
-" de 4G, 3G, voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2019-user"
-msgstr "usuario-2019"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2019 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2019 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2020-user"
-msgstr "usuario-2020"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2020 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2020 como resultado de tarifas de 4G, "
-"3G, voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2021-user"
-msgstr "usuario-2021"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2021 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2021 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2022-user"
-msgstr "usuario-2022"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2022 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2022 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2023-user"
-msgstr "usuario-2023"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2023 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2023 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2024-user"
-msgstr "usuario-2024"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2024 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2024 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2025-user"
-msgstr "usuario-2025"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2025 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2025 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2026-user"
-msgstr "usuario-2026"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2026 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2026 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2027-user"
-msgstr "usuario-2027"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2027 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2027 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2028-user"
-msgstr "usuario-2028"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2028 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2028 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2029-user"
-msgstr "usuario-2029"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2029 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2029 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2030-user"
-msgstr "usuario-2030"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2030 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2030 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2031-user"
-msgstr "usuario-2031"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2031 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2031 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2032-user"
-msgstr "usuario-2032"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2032 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2032 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2033-user"
-msgstr "usuario-2033"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2033 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2033 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2034-user"
-msgstr "usuario-2034"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2034 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2034 resultantes de tarifas de 4G, 3G,"
-" voz y SMS"
-
-#: ../../docs/framework.md:1615
-msgid "2035-user"
-msgstr "usuario-2035"
-
-#: ../../docs/framework.md:1615
-msgid ""
-"User charges for calendar year 2035 resulting from 4G, 3G, voice and SMS "
-"tariffs"
-msgstr ""
-"Cargos al usuario para el año natural 2035 resultantes de tarifas de 4G, 3G,"
-" voz y sms"
 
 #: ../../docs/framework.md:1621
 msgid "VI.3.3. Service payment calculation methodology"
@@ -3708,30 +2508,6 @@ msgstr ""
 "`dimension` en los casos en que se aplican cargos diferentes a las "
 "diferentes partes."
 
-#: ../../docs/framework.md:1704
-msgid "contracts/0/implementation/tariffs/id"
-msgstr "contracts/0/implementation/tariffs/id"
-
-#: ../../docs/framework.md:1704
-msgid "contracts/0/implementation/tariffs/title"
-msgstr "contracts/0/implementation/tariffs/title"
-
-#: ../../docs/framework.md:1704
-msgid "Wholesale 4G price per gigabyte"
-msgstr "Precio por gigabyte 4G al por mayor "
-
-#: ../../docs/framework.md:1704
-msgid "Wholesale 3G price per gigabyte"
-msgstr "Precio por gigabyte 3G al por mayor "
-
-#: ../../docs/framework.md:1704
-msgid "Wholesale call price per minute"
-msgstr "Precio al por mayor de llamada por minuto"
-
-#: ../../docs/framework.md:1704
-msgid "Wholesale sms price per message"
-msgstr ""
-
 #: ../../docs/framework.md:1710
 msgid "VII.1.2. Tariff and pricing documentation"
 msgstr "VII.1.2. Documentación de tarifas y precios"
@@ -3872,52 +2648,6 @@ msgstr ""
 "asignación de riesgos, exposición fiscal, es decir, cualquier cambio en los "
 "compromisos fiscales y pasivos contingentes con una justificación para "
 "aceptar el cambio."
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/date"
-msgstr "contracts/0/amendments/0/date"
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/rationale"
-msgstr "contracts/0/amendments/0/rationale"
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/id"
-msgstr "contracts/0/amendments/0/id"
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/description"
-msgstr "contracts/0/amendments/0/description"
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/amendsReleaseID"
-msgstr "contracts/0/amendments/0/amendsReleaseID"
-
-#: ../../docs/framework.md:1770
-msgid "contracts/0/amendments/0/releaseID"
-msgstr "contracts/0/amendments/0/releaseID"
-
-#: ../../docs/framework.md:1770
-msgid "2020-01-24T00:00:00Z"
-msgstr "2020-01-24T00:00:00Z"
-
-#: ../../docs/framework.md:1770
-msgid ""
-"The contract was extended in accordance with the provisions in section X."
-msgstr ""
-"El contrato se extendió en conformidad con lo dispuesto en la sección X."
-
-#: ../../docs/framework.md:1770
-msgid "This amendment extends the Example PPP contract to 2046-01-23."
-msgstr "Esta enmienda extiende el contrato APP de ejemplo al 2046-01-23."
-
-#: ../../docs/framework.md:1770
-msgid "5.1.1"
-msgstr "5.1.1"
-
-#: ../../docs/framework.md:1770
-msgid "7.1.1"
-msgstr "7.1.1"
 
 #: ../../docs/framework.md:1776
 msgid "IX.1.1. Contract documents"
@@ -4121,33 +2851,6 @@ msgid ""
 " object."
 msgstr ""
 
-#: ../../docs/framework.md:1894
-msgid "contracts/0/implementation/metrics/id"
-msgstr "contracts/0/implementation/metrics/id"
-
-#: ../../docs/framework.md:1894
-msgid "contracts/0/implementation/metrics/title"
-msgstr "contracts/0/implementation/metrics/title"
-
-#: ../../docs/framework.md:1894
-msgid "contracts/0/implementation/metrics/description"
-msgstr "contracts/0/implementation/metrics/description"
-
-#: ../../docs/framework.md:1894
-msgid "coverageNational"
-msgstr "coverageNational"
-
-#: ../../docs/framework.md:1894
-msgid "National Coverage"
-msgstr "Cobertura Nacional"
-
-#: ../../docs/framework.md:1894
-msgid ""
-"National Coverage Percentage. 4 MB/s down and 1 MB/s up should be provided."
-msgstr ""
-"Porcentaje de cobertura nacional. Se debe proporcionar 4 MB/s de bajada y 1 "
-"MB/s de subida."
-
 #: ../../docs/framework.md:1900
 msgid "X.2. Actual annual revenue"
 msgstr "X.2. Ingresos anuales reales"
@@ -4307,46 +3010,6 @@ msgid ""
 "and those provided for in the contract can be provided in the "
 "`contract/implementation/performanceFailures` section."
 msgstr ""
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/id"
-msgstr "contracts/0/implementation/performanceFailures/id"
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/category"
-msgstr "contracts/0/implementation/performanceFailures/category"
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/events"
-msgstr "contracts/0/implementation/performanceFailures/events"
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/penaltyContracted"
-msgstr "contracts/0/implementation/performanceFailures/penaltyContracted"
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/penaltyImposed"
-msgstr "contracts/0/implementation/performanceFailures/penaltyImposed"
-
-#: ../../docs/framework.md:1964
-msgid "contracts/0/implementation/performanceFailures/penaltyPaid"
-msgstr "contracts/0/implementation/performanceFailures/penaltyPaid"
-
-#: ../../docs/framework.md:1964
-msgid "Service outages outside of scheduled maintenance"
-msgstr "Interrupciones de servicio fuera del mantenimiento programado"
-
-#: ../../docs/framework.md:1964
-msgid ""
-"The developer will be subject to a penalty of $50,000 for each service "
-"outage outside of scheduled maintenance"
-msgstr ""
-"El desarrollador estará sujeto a una multa de $50,000 por cada interrupción "
-"del servicio fuera del mantenimiento programado"
-
-#: ../../docs/framework.md:1964
-msgid "300000.0"
-msgstr "300000.0"
 
 #: ../../docs/framework.md:1970
 msgid "X.6. Performance assessment reports"

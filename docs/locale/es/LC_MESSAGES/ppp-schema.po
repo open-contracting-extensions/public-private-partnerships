@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-23 11:36-0400\n"
+"POT-Creation-Date: 2021-04-23 14:49-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
 "Last-Translator: James McKinney, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -200,11 +200,11 @@ msgid ""
 " canonical URI of the license should be used. Documents linked from this "
 "file may be under other license conditions."
 msgstr ""
-"Una liga a la licencia que aplique a los datos de este paquete. Se "
-"recomienda una Dedicación de Dominio Público o  una licencia [Open "
-"Definition Conformant] (http://opendefinition.org/licenses/). Se debe usar "
-"la URI canónica de la licencia. Los documentos ligados a este archivo pueden"
-" estar bajo condiciones de licencia."
+"Un enlace a la licencia que aplica para los datos en este paquete. Se "
+"recomiendan licencias de Entrega al Dominio Público o [que cumplan con la "
+"Open Definition ](http://opendefinition.org/licenses/). Se deberá usar la "
+"URI canónica de la licencia. Los documentos enlazados desde este archivo "
+"pueden estar bajo otras condiciones de licencia."
 
 #. /properties/publicationPolicy/title
 #: schema/patched/release-package-schema.json:1
@@ -296,6 +296,8 @@ msgid ""
 "The date on which the information contained in the release was first "
 "recorded in, or published by, any system."
 msgstr ""
+"La fecha en la cual la información contenida en la entrega fue registrada "
+"por primera vez, o publicada, por cualquier sistema."
 
 #. /properties/tag/title
 #: schema/patched/release-schema.json:1
@@ -310,6 +312,11 @@ msgid ""
 "codelist. Tags can be used to filter releases and to understand the kind of "
 "information that releases might contain."
 msgstr ""
+"Uno o más valores de la lista de código cerrada  "
+"[releaseTag](https://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#release-tag). Las "
+"etiquetas se pueden usar para filtrar entregas y para entender el tipo de "
+"información que las entregas contienen. "
 
 #. /properties/initiationType/title
 #: schema/patched/release-schema.json:1
@@ -324,6 +331,9 @@ msgid ""
 "contracting.org/{{version}}/{{lang}}/schema/codelists/#initiation-type) "
 "codelist."
 msgstr ""
+"El tipo de proceso de iniciación utilizado para este contrato, de la lista "
+"de código cerrada  [initiationType](https://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#initiation-type)."
 
 #. /properties/parties/title
 #: schema/patched/release-schema.json:1
@@ -356,6 +366,9 @@ msgid ""
 "services related to a contract. This may be different from the procuring "
 "entity who may be specified in the tender data."
 msgstr ""
+"Un comprador es una entidad cuyo presupuesto se utilizará para pagar bienes,"
+" obras o servicios relacionados con un contrato. Este puede ser diferente de"
+" la entidad contratante que puede especificarse en los datos de licitación."
 
 #. /properties/planning/title
 #. /definitions/Planning/title
@@ -430,11 +443,11 @@ msgid ""
 "[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
 "recommended."
 msgstr ""
-"El idioma predeterminado de los datos utilizando ya sea dos-letras "
-"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o "
-"extendidas [BCP47 language tags](http://www.w3.org/International/articles"
-"/language-tags/). Se recomienda el uso de códigos de dos letras minúsculas "
-"de [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)."
+"El idioma predeterminado de los datos, usando dos letras [ISO639-1], o el "
+"[lenguaje de etiquetas BCP47](http://www.w3.org/International/articles"
+"/language-tags/) extendido. Se recomienda el uso de códigos de dos letras "
+"minúsculas de "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)."
 
 #. /properties/relatedProcesses/description
 #: schema/patched/release-schema.json:1
@@ -480,10 +493,10 @@ msgid ""
 "fields in other schema sections; these would likely be estimates at this "
 "stage, e.g. value in tender."
 msgstr ""
-"Información de la fase de planeación del proceso de contratación. Nótese que"
-"  muchos otros campos se pueden llenar en la entrega de planeación, en los "
-"campos apropiados de otras secciones del esquema;  es probable que estos "
-"sean estimados en esta etapa, e.j. valor en licitación."
+"Información de la fase de planeación del proceso de contrataciones. Note que"
+" muchos otros campos pueden llenarse en la entrega de planeación, en los "
+"campos apropiados de otras secciones del esquema; lo más probable es que "
+"estos sean estimados en este punto, e.j. value en la licitación."
 
 #. /definitions/Planning/properties/rationale/title
 #. /definitions/Amendment/properties/rationale/title
@@ -1044,6 +1057,8 @@ msgid ""
 "The use of individual amendment objects has been deprecated. From OCDS 1.1 "
 "information should be provided in the amendments array."
 msgstr ""
+"El uso la propiedad de enmienda individual es obsoleto. Desde el OCDS 1.1 la"
+" información debe de proveerse en la lista de enmiendas."
 
 #. /definitions/Tender/properties/amendment/deprecated/description
 #. /definitions/Award/properties/amendment/deprecated/description
@@ -1053,6 +1068,8 @@ msgid ""
 "The single amendment object has been deprecated in favour of including "
 "amendments in an amendments (plural) array."
 msgstr ""
+"El objeto de enmienda individual es obsoleto y se ha cambiado para incluir "
+"enmiendas en una lista de enmiendas (en plural)."
 
 #. /definitions/Tender/properties/targets/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1192,6 +1209,9 @@ msgid ""
 "The suppliers awarded this award. If different suppliers have been awarded "
 "different items or values, these should be split into separate award blocks."
 msgstr ""
+"Los proveedores adjudicados. Si hay diferentes proveedores adjudicados para "
+"los artículos del procedimiento de contratación, estos deben ser separados "
+"en diferentes bloques de adjudicaciones."
 
 #. /definitions/Award/properties/items/title
 #: schema/patched/release-schema.json:1
@@ -1582,9 +1602,9 @@ msgid ""
 "Information on the revenue to be raised through charges, as set out in the "
 "contract or as subsequently revised during the life of the project."
 msgstr ""
-"Información sobre los ingresos que se recaudarán a través de los cargos, "
-"según lo estipulado en el contrato o revisado posteriormente durante la vida"
-" del proyecto."
+"Información sobre los ingresos que se recaudarán a través de cobros, según "
+"lo estipulado en el contrato o revisado posteriormente durante la vida del "
+"proyecto."
 
 #. /definitions/Implementation/properties/metrics/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1914,12 +1934,13 @@ msgid ""
 "recommended unless there is a clear user need for distinguishing the "
 "language subtype."
 msgstr ""
-"El idioma del documento ligado puede utilizar etiquetas de idioma de dos-"
-"dígitos [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o"
-" extendidas [BCP47 language tags](http://www.w3.org/International/articles"
-"/language-tags/). Se recomienda el uso de códigos de dos-dígitos en "
-"minúsculas  a menos de que haya una necesidad clara de los usuarios para "
-"distinguir entre el sub-tipo de idioma."
+"El lenguaje del documento enlazado utilizando ya sea dos letras "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o "
+"[etiquetas de lenguage BCP47](http://www.w3.org/International/articles"
+"/language-tags/) extendidas. El uso de de códigos de dos letras de "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) es "
+"recomendado a menos de que haya una necesidad de usuario clara para "
+"distinguir sobre el sub-tipo de lenguaje."
 
 #. /definitions/Document/properties/pageStart/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2068,6 +2089,12 @@ msgid ""
 "translation option is offered for this string, as translated values can be "
 "provided in third-party data, linked from the data source above."
 msgstr ""
+"El nombre del proyecto a través del cual el proceso de contrataciones está "
+"financiado (si aplica). Algunas organizaciones mantienen un registro de "
+"proyectos, y los datos deben de usar el nombre por el cual se conoce al "
+"proyecto en ese registro. No se ofrece una opción de traducción para esta "
+"cadena, ya que los valores traducidos pueden darse en datos de terceros, "
+"ligados a la fuente de datos anteriormente presentada."
 
 #. /definitions/Budget/properties/projectID/title
 #. /definitions/Project/properties/id/title
@@ -2083,6 +2110,10 @@ msgid ""
 "registry of projects, and the data should use the identifier from the "
 "relevant registry of projects."
 msgstr ""
+"Un identificador externo para el proyecto del que forma parte este proceso "
+"de contratación o a través del cual está financiado (si aplica). Algunas "
+"organizaciones mantienen un registro de proyectos y los datos deben usar el "
+"identificador del registro de proyectos relevante. "
 
 #. /definitions/Budget/properties/uri/title
 #: schema/patched/release-schema.json:1
@@ -2109,7 +2140,7 @@ msgstr ""
 #. /definitions/Budget/properties/source/title
 #: schema/patched/release-schema.json:1
 msgid "Data Source"
-msgstr ""
+msgstr "Fuente de los Datos"
 
 #. /definitions/Budget/properties/source/description
 #: schema/patched/release-schema.json:1
@@ -2119,6 +2150,10 @@ msgid ""
 "further information on the budget line item identifiers, or project "
 "identifiers, provided here."
 msgstr ""
+"(Obsoleto en 1.1) Usado para apuntar a un Paquete de Datos de Presupuesto, o"
+" una fuente legible por computadora o por un humano donde los usuarios "
+"puedan obtener más información sobre los identificadores de partida "
+"presupuestaria o identificadores de proyectos, provistos aquí. "
 
 #. /definitions/Budget/properties/source/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2130,6 +2165,14 @@ msgid ""
 "machine-readable budget information, and budget/description can be used to "
 "provide human-readable information on the budget source."
 msgstr ""
+"El campo de fuente de datos de presupuesto pretendía enlazar a datos "
+"legibles por computadora sobre el presupuesto para un proceso de "
+"contratación, pero se ha mal utilizado para proveer descripciones en texto "
+"libre de proveedores de presupuesto. Como resultado, se ha quitado de la "
+"versión 1.1. El campo budget/uri puede usarse para proveer un enlace a "
+"información de presupuesto legible por computadora y budget/description "
+"puede usarse para proveer información legible por una persona sobre la "
+"fuente del presupuesto."
 
 #. /definitions/Budget/properties/finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2257,6 +2300,8 @@ msgid ""
 "(Deprecated in 1.1. Use transaction.value instead) The value of the "
 "transaction. A negative value indicates a refund or correction."
 msgstr ""
+"(Obsoleto en 1.1. Usar transaction.value) El valor de la transacción. Un "
+"valor negativo indica un reembolso o una corrección."
 
 #. /definitions/Transaction/properties/amount/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2264,11 +2309,13 @@ msgid ""
 "This field has been replaced by the `transaction.value` field for "
 "consistency with the use of value and amount elsewhere in the standard."
 msgstr ""
+"Este campo ha sido reemplazado por el campo `transaction.value` buscando "
+"consistencia con el uso de valor y monto en otras partes del estándar."
 
 #. /definitions/Transaction/properties/providerOrganization/title
 #: schema/patched/release-schema.json:1
 msgid "Provider organization"
-msgstr ""
+msgstr "Organización proveedora"
 
 #. /definitions/Transaction/properties/providerOrganization/description
 #: schema/patched/release-schema.json:1
@@ -2278,6 +2325,10 @@ msgid ""
 "originate. Expressed following the Organizational Identifier standard - "
 "consult the documentation and the codelist."
 msgstr ""
+"(Obsoleto en 1.1. Usar transaction.payer.) El Identificador de Organización "
+"para la organización de la cuál se originan los fondos en esta transacción. "
+"Expresados siguiendo el estándar de Identificador Organizacional - consulta "
+"la documentación y la lista de códigos. "
 
 #. /definitions/Transaction/properties/providerOrganization/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2286,11 +2337,15 @@ msgid ""
 "ambiguity arising from 'provider' being interpreted as relating to the goods"
 " or services procured rather than the flow of funds between the parties."
 msgstr ""
+"Este campo ha sido reemplazado por el campo `transaction.payer` para "
+"resolver ambigüedades generadas por la interpretación de 'proveedor'  como "
+"relacionado con los bienes y los servicios en vez del flujo o los fondos "
+"entre partes."
 
 #. /definitions/Transaction/properties/receiverOrganization/title
 #: schema/patched/release-schema.json:1
 msgid "Receiver organization"
-msgstr ""
+msgstr "Organización receptora"
 
 #. /definitions/Transaction/properties/receiverOrganization/description
 #: schema/patched/release-schema.json:1
@@ -2300,6 +2355,10 @@ msgid ""
 "transaction. Expressed following the Organizational Identifier standard - "
 "consult the documentation and the codelist."
 msgstr ""
+"(Obsoleto en 1.1. Usar transaction.payee.) El Identificador de Organización "
+"para la organización que recibe los fondos en esta transacción. Expresados "
+"siguiendo el estándar de Identificador Organizacional - consulta la "
+"documentación y la lista de códigos. "
 
 #. /definitions/Transaction/properties/receiverOrganization/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2308,6 +2367,10 @@ msgid ""
 "ambiguity arising from 'receiver' being interpreted as relating to the goods"
 " or services procured rather than the flow of funds between the parties."
 msgstr ""
+"Este campo ha sido reemplazado por el campo `transaction.payee` para "
+"resolver ambigüedades generadas por la interpretación de 'receptor'  como "
+"relacionado con los bienes y los servicios en vez del flujo o los fondos "
+"entre partes."
 
 #. /definitions/OrganizationReference/properties/name/description
 #: schema/patched/release-schema.json:1
@@ -2352,6 +2415,11 @@ msgid ""
 "contracting.org/{{version}}/{{lang}}/schema/identifiers/) for the preferred "
 "scheme and identifier to use."
 msgstr ""
+"El identificador primario para esta organización o participante. Son "
+"preferibles los identificadores que identifican a una sola entidad legal. "
+"Consulta la [guía de identificadores de organización](https://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/) para encontrar el "
+"esquema preferido y el identificador que usarás."
 
 #. /definitions/OrganizationReference/properties/identifier/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2361,6 +2429,10 @@ msgid ""
 "be provided in the relevant cross-referenced entry in the parties section at"
 " the top level of a release."
 msgstr ""
+"A partir de la versión 1.1, se debe hacer referencia a las organizaciones a "
+"través de su identificador y nombre en un documento y la información legal "
+"detallada sólo debe de proveerse en la entrada de referencia cruzada en la "
+"sección de partes involucradas, en el nivel más alto de una entrega."
 
 #. /definitions/OrganizationReference/properties/address/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2370,12 +2442,16 @@ msgid ""
 "relevant cross-referenced entry in the parties section at the top level of a"
 " release."
 msgstr ""
+"A partir de la versión 1.1, se debe hacer referencia a las organizaciones a "
+"través de su identificador y nombre en un documento y la dirección detallada"
+" sólo debe de proveerse en la entrada de referencia en la sección de partes "
+"involucradas, en el nivel más alto de una entrega."
 
 #. /definitions/OrganizationReference/properties/address/description
 #. /definitions/OrganizationReference/properties/contactPoint/description
 #: schema/patched/release-schema.json:1
 msgid "(Deprecated outside the parties section)"
-msgstr ""
+msgstr "(Obsoleto fuera de la sección de partes involucradas)"
 
 #. /definitions/OrganizationReference/properties/address/title
 #. /definitions/Organization/properties/address/title
@@ -2392,6 +2468,11 @@ msgid ""
 "be provided in the relevant cross-referenced entry in the parties section at"
 " the top level of a release."
 msgstr ""
+"A partir de la versión 1.1, se debe hacer referencia a las organizaciones a "
+"través de su identificador y nombre en un documento y los identificadores "
+"adicionales para una organización sólo debe de proveerse en la entrada de "
+"referencia cruzada en la sección de partes involucradas, en el nivel más "
+"alto de una entrega."
 
 #. /definitions/OrganizationReference/properties/additionalIdentifiers/title
 #. /definitions/Organization/properties/additionalIdentifiers/title
@@ -2409,6 +2490,12 @@ msgid ""
 "to provide an internally used identifier for this organization in addition "
 "to the primary legal entity identifier."
 msgstr ""
+"(Obsoleto fuera de la sección de parties) Una lista adicional/suplementaria "
+"de identificadores para la organización, utilizando la [guía de "
+"identificadores de organizaciones](https://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/). Esto puede usarse"
+" para dar un identificador utilizado internamente por esta organización "
+"además del identificador primario legal de la entidad. "
 
 #. /definitions/OrganizationReference/properties/contactPoint/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2418,6 +2505,11 @@ msgid ""
 "should be provided in the relevant cross-referenced entry in the parties "
 "section at the top level of a release."
 msgstr ""
+"A partir de la versión 1.1, se debe hacer referencia a las organizaciones a "
+"través de su identificador y nombre en un documento y la información de "
+"punto de contacto para una organización sólo debe de proveerse en la entrada"
+" de referencia cruzada en la sección de partes involucradas, en el nivel más"
+" alto de una entrega."
 
 #. /definitions/OrganizationReference/properties/contactPoint/title
 #. /definitions/Organization/properties/contactPoint/title
@@ -2558,6 +2650,9 @@ msgid ""
 "partyDetail extensions that define particular fields and classification "
 "schemes."
 msgstr ""
+"Información adicional de clasificación de las partes se puede proporcionar "
+"usando las extensiones de partyDetail que definen campos particulares y "
+"esquemas de clasificación."
 
 #. /definitions/Organization/properties/details/title
 #: schema/patched/release-schema.json:1
@@ -2709,6 +2804,12 @@ msgid ""
 "scheme) codelist for details of how to find and use identifiers from the "
 "scheme in use."
 msgstr ""
+"El identificador de la lista de código a la que se hace referencia en el "
+"campo `scheme` . Revise la lista de código "
+"[unitClassificationScheme](https://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
+"scheme) para más detalles sobre cómo encontrar y usar identificadores del "
+"esquema en uso. "
 
 #. /definitions/Item/properties/unit/properties/name/description
 #: schema/patched/release-schema.json:1
@@ -2825,7 +2926,7 @@ msgstr "Entrega de enmienda (identificador)"
 #. /definitions/Amendment/properties/changes/title
 #: schema/patched/release-schema.json:1
 msgid "Amended fields"
-msgstr ""
+msgstr "Campos enmendados"
 
 #. /definitions/Amendment/properties/changes/description
 #: schema/patched/release-schema.json:1
@@ -2833,11 +2934,13 @@ msgid ""
 "An array of change objects describing the fields changed, and their former "
 "values. (Deprecated in 1.1)"
 msgstr ""
+"Una lista de cambios que describen los campos que cambiaron y sus valores "
+"previos. (Obsoleto en 1.1)"
 
 #. /definitions/Amendment/properties/changes/items/properties/property/title
 #: schema/patched/release-schema.json:1
 msgid "Property"
-msgstr ""
+msgstr "Propiedad "
 
 #. /definitions/Amendment/properties/changes/items/properties/property/description
 #: schema/patched/release-schema.json:1
@@ -2847,11 +2950,15 @@ msgid ""
 "changes within the contract.amendment would be value.amount. (Deprecated in "
 "1.1)"
 msgstr ""
+"El nombre de propiedad que ha sido cambiado con relación al lugar donde se "
+"encuentra la enmienda. Por ejemplo si el valor del contrato ha cambiado, "
+"entonces los cambios en el contract.amendment serían value.amount.(Obsoleto "
+"en 1.1)"
 
 #. /definitions/Amendment/properties/changes/items/properties/former_value/title
 #: schema/patched/release-schema.json:1
 msgid "Former Value"
-msgstr ""
+msgstr "Valor anterior"
 
 #. /definitions/Amendment/properties/changes/items/properties/former_value/description
 #: schema/patched/release-schema.json:1
@@ -2859,6 +2966,8 @@ msgid ""
 "The previous value of the changed property, in whatever type the property "
 "is. (Deprecated in 1.1)"
 msgstr ""
+"El valor previo de la propiedad cambiada en cualquier tipo de propiedad. "
+"(Obsoleto en 1.1)"
 
 #. /definitions/Amendment/properties/changes/deprecated/description
 #: schema/patched/release-schema.json:1
@@ -2869,6 +2978,11 @@ msgid ""
 "provide releases indicating the state of the contracting process before and "
 "after the amendment."
 msgstr ""
+"Una cadena de texto libre o semi-estructurada describiendo los cambios "
+"hechos en cada enmienda puede proveerse en el campo de "
+"amendment.description. Para proveer información estructurada en los campos "
+"que han cambiado, los publicadores deben de proveer entregas indicando el "
+"estado del proceso de contratación antes y después de la enmienda."
 
 #. /definitions/Classification/description
 #: schema/patched/release-schema.json:1

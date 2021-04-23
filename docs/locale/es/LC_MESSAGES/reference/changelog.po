@@ -6,15 +6,16 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# James McKinney, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-22 22:18-0400\n"
+"POT-Creation-Date: 2021-04-23 14:47-0400\n"
 "PO-Revision-Date: 2019-10-25 17:35+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Last-Translator: James McKinney, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr "Registro de cambios"
 
 #: ../../docs/reference/changelog.md:3
 msgid "Iterative improvements"
-msgstr ""
+msgstr "Mejoras iterativas"
 
 #: ../../docs/reference/changelog.md:5
 msgid ""
@@ -45,7 +46,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/reference/changelog.md:8
-msgid "[X.X.X.x] - YYYY-MM-DD"
+msgid "[1.0.0.beta3] - YYYY-MM-DD"
 msgstr ""
 
 #: ../../docs/reference/changelog.md:10 ../../docs/reference/changelog.md:20
