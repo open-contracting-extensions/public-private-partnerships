@@ -8,17 +8,17 @@
 # Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Oscar Montiel <oscar.montiel@okfn.org>, 2018
-# James McKinney, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# James McKinney, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-22 22:22-0400\n"
+"POT-Creation-Date: 2021-04-23 11:36-0400\n"
 "PO-Revision-Date: 2017-07-31 16:41+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Last-Translator: James McKinney, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1376,11 +1376,11 @@ msgid ""
 " This is important to explain to users why they are paying what they are "
 "paying and the scope for changes to payment structures."
 msgstr ""
-"Para resumir las disposiciones para la revisión y regulación de las tarifas, "
-"y enlazar con la documentación detallada que cubra cómo se regulan las "
+"Para resumir las disposiciones para la revisión y regulación de las tarifas,"
+" y enlazar con la documentación detallada que cubra cómo se regulan las "
 "tarifas. Esto es importante para explicar a los usuarios por qué están "
-"pagando lo que están pagando, y el alcance de los cambios en las estructuras "
-"de pago."
+"pagando lo que están pagando, y el alcance de los cambios en las estructuras"
+" de pago."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:45
