@@ -5,7 +5,7 @@
 * [#230](https://github.com/open-contracting-extensions/public-private-partnerships/pull/230) Reduce the degree of repetition on the Frameworks reference page.
 * [#231](https://github.com/open-contracting-extensions/public-private-partnerships/pull/231) Add a link to the release schema as a CSV spreadsheet.
 
-## [X.X.X.x] - YYYY-MM-DD
+## [1.0.0.beta3] - YYYY-MM-DD
 
 ### Normative changes
 
