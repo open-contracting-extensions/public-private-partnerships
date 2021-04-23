@@ -1376,6 +1376,11 @@ msgid ""
 " This is important to explain to users why they are paying what they are "
 "paying and the scope for changes to payment structures."
 msgstr ""
+"Para resumir las disposiciones para la revisión y regulación de las tarifas, "
+"y enlazar con la documentación detallada que cubra cómo se regulan las "
+"tarifas. Esto es importante para explicar a los usuarios por qué están "
+"pagando lo que están pagando, y el alcance de los cambios en las estructuras "
+"de pago."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:45
@@ -1391,6 +1396,10 @@ msgid ""
 "Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
 "to allow applications to directly display this content."
 msgstr ""
+"Para vincular a gráficos e informes sobre el cambio en el tiempo en los "
+"precios de las tarifas. Utilice el tipo de material de imagen relevante al "
+"vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones "
+"muestren directamente este contenido."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:46
@@ -1954,7 +1963,7 @@ msgstr ""
 #: schema/patched/codelists/financeType.csv:6
 #: schema/patched/codelists/financeType.csv:7
 msgid "Finance"
-msgstr ""
+msgstr "Financiamiento"
 
 #. Title
 #: schema/patched/codelists/financeCategory.csv:2

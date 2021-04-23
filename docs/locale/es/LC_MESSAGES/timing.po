@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
 msgid "planning"
-msgstr ""
+msgstr "planeación"
 
 #: ../../docs/timing.md:0
 msgid "1.2 Planning"

@@ -347,7 +347,7 @@ msgstr ""
 #. /properties/buyer/title
 #: schema/patched/release-schema.json:1
 msgid "Buyer"
-msgstr ""
+msgstr "Comprador"
 
 #. /properties/buyer/description
 #: schema/patched/release-schema.json:1
@@ -1184,7 +1184,7 @@ msgstr ""
 #. /definitions/Award/properties/suppliers/title
 #: schema/patched/release-schema.json:1
 msgid "Suppliers"
-msgstr ""
+msgstr "Proveedores"
 
 #. /definitions/Award/properties/suppliers/description
 #: schema/patched/release-schema.json:1
