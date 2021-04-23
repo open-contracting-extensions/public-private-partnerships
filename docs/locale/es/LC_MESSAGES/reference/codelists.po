@@ -6,7 +6,7 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Oscar Montiel <oscar.montiel@okfn.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
 # 
 #, fuzzy
@@ -14,10 +14,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 14:33-0500\n"
+"POT-Creation-Date: 2021-04-22 22:18-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
 "Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,17 +40,11 @@ msgstr ""
 #: ../../docs/reference/codelists.md:5
 msgid ""
 "Codelists can either be open or closed. **Closed codelists** are intended to"
-" be comprehensive; for example, the [currency](http://standard.open-"
+" be comprehensive; for example, the [currency](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#currency) codelist covers all "
 "currencies in the world. **Open codelists** are intended to be "
 "representative, but not comprehensive."
 msgstr ""
-"Las listas de código pueden ser abiertas o cerradas. **Las listas de código "
-"cerradas** están diseñadas para ser exhaustivas, por ejemplo, la lista de "
-"código de [moneda](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#currency) cubre todas las "
-"monedas del mundo. **Las listas de código abiertas** están diseñadas para "
-"ser representativas, no exhaustivas."
 
 #: ../../docs/reference/codelists.md:7
 msgid ""
@@ -69,11 +63,11 @@ msgstr ""
 " de OCDS para APPs](https://github.com/open-contracting-extensions/public-"
 "private-partnerships/issues)."
 
-#: ../../docs/reference/codelists.md:1
+#: ../../docs/reference/codelists.md:9
 msgid "Extending open codelists"
 msgstr "Extendiendo las listas de código abiertas"
 
-#: ../../None:1
+#: ../../docs/reference/codelists.md:9
 msgid ""
 "If you use new codes outside those in an open codelist, please create an "
 "issue in the [OCDS for PPPs GitHub repository](https://github.com/open-"
@@ -86,22 +80,18 @@ msgstr ""
 "partnerships/issues), para que se pueda considerar incluir los códigos en la"
 " lista de código."
 
-#: ../../docs/reference/codelists.md:19
+#: ../../docs/reference/codelists.md:15
 msgid ""
 "For more information on open and closed codelists, refer to the Open "
-"Contracting Data Standard [codelists documentation](http://standard.open-"
+"Contracting Data Standard [codelists documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/)."
 msgstr ""
-"Para más información en listas de código abiertas o cerradas, puede "
-"referirse a la [documentación de lista de código](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/) del Estándar de Datos de "
-"Contrataciones Abiertas."
 
-#: ../../docs/reference/codelists.md:21
+#: ../../docs/reference/codelists.md:17
 msgid "OCDS codelists"
 msgstr "Listas de código OCDS"
 
-#: ../../docs/reference/codelists.md:23
+#: ../../docs/reference/codelists.md:19
 msgid ""
 "OCDS for PPPs reuses some codelists from the Open Contracting Data Standard,"
 " without modification. Refer to the OCDS documentation for details of these "
@@ -111,139 +101,115 @@ msgstr ""
 "Contrataciones Abiertas, sin modificación. Puede ver la documentación OCDS "
 "para los detalles de estas listas de código:"
 
-#: ../../docs/reference/codelists.md:25 ../../docs/reference/codelists.md:50
+#: ../../docs/reference/codelists.md:21 ../../docs/reference/codelists.md:47
 msgid "Closed codelists"
 msgstr "Listas de Códigos Cerradas"
 
-#: ../../docs/reference/codelists.md:27
+#: ../../docs/reference/codelists.md:23
 msgid ""
-"[Award status](http://standard.open-"
+"[Award status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#award-status)"
 msgstr ""
-"[Estatus de adjudicación](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#award-status)"
+
+#: ../../docs/reference/codelists.md:24
+msgid ""
+"[Contract status](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#contract-status)"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:25
+msgid ""
+"[Currency](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#currency)"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:26
+msgid ""
+"[Initiation type](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#initiation-type)"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:27
+msgid ""
+"[Milestone status](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#milestone-status)"
+msgstr ""
 
 #: ../../docs/reference/codelists.md:28
 msgid ""
-"[Contract status](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#contract-status)"
+"[Procurement category](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#procurement-category)"
 msgstr ""
-"[Estatus de Contrato](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#contract-status)"
 
 #: ../../docs/reference/codelists.md:29
 msgid ""
-"[Currency](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#currency)"
+"[Procurement method](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#method)"
 msgstr ""
-"[Moneda](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#currency)"
 
 #: ../../docs/reference/codelists.md:30
 msgid ""
-"[Procurement method](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#method)"
+"[Release tag](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#release-tag)"
 msgstr ""
-"[Método de compra](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#method)"
 
 #: ../../docs/reference/codelists.md:31
 msgid ""
-"[Milestone status](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#milestone-status)"
-msgstr ""
-"[Estatus de hito](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#milestone-status)"
-
-#: ../../docs/reference/codelists.md:32
-msgid ""
-"[Procurement category](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#procurement-category)"
-msgstr ""
-"[Categoría de compra](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#procurement-category)"
-
-#: ../../docs/reference/codelists.md:33
-msgid ""
-"[Tender status](http://standard.open-"
+"[Tender status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#tender-status)"
 msgstr ""
-"[Estatus de licitación](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#tender-status)"
 
-#: ../../docs/reference/codelists.md:35 ../../docs/reference/codelists.md:152
+#: ../../docs/reference/codelists.md:33 ../../docs/reference/codelists.md:119
 msgid "Open codelists"
 msgstr "Listas de códigos abiertas"
 
-#: ../../docs/reference/codelists.md:37
+#: ../../docs/reference/codelists.md:35
 msgid ""
-"[Award criteria](http://standard.open-"
+"[Award criteria](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#award-criteria)"
 msgstr ""
-"[Criterios de adjudicación](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#award-criteria)"
+
+#: ../../docs/reference/codelists.md:36
+msgid ""
+"[Extended procurement category](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#extended-procurement-category)"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:37
+msgid ""
+"[Item classification scheme](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#item-classification-scheme)"
+msgstr ""
 
 #: ../../docs/reference/codelists.md:38
 msgid ""
-"[Extended procurement category](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#extended-procurement-category)"
+"[Related process](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#related-process)"
 msgstr ""
-"[Categoría de compra extendida](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#extended-procurement-category)"
 
 #: ../../docs/reference/codelists.md:39
 msgid ""
-"[Item classification scheme](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#item-classification-scheme)"
+"[Related process scheme](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#related-process-scheme)"
 msgstr ""
-"[Esquema de clasificación de artículos](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#item-classification-scheme)"
 
 #: ../../docs/reference/codelists.md:40
 msgid ""
-"[Organization identifier scheme](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#organization-identifier-scheme)"
+"[Submission method](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#submission-method)"
 msgstr ""
-"[Esquema de identificación de organizaciones] (http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#organization-identifier-scheme)"
 
 #: ../../docs/reference/codelists.md:41
 msgid ""
-"[Related process](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#related-process)"
-msgstr ""
-"[Procesos relacionados] (http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#related-process)"
-
-#: ../../docs/reference/codelists.md:42
-msgid ""
-"[Related process scheme](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#related-process-scheme)"
-msgstr ""
-"[Esquema de procesos relacionados](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#related-process-scheme)"
-
-#: ../../docs/reference/codelists.md:43
-msgid ""
-"[Submission method](http://standard.open-"
-"contracting.org/latest/en/schema/codelists/#submission-method)"
-msgstr ""
-"[Método de entrega](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#submission-method)"
-
-#: ../../docs/reference/codelists.md:44
-msgid ""
-"[Unit classification scheme](http://standard.open-"
+"[Unit classification scheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#unit-classification-scheme)"
 msgstr ""
-"[Esquema de clasificación de unidades] (http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#unit-classification-scheme)"
 
-#: ../../docs/reference/codelists.md:46
+#: ../../docs/reference/codelists.md:43
 msgid "OCDS for PPPs codelists"
 msgstr "Listas de código OCDS para APPs"
 
-#: ../../docs/reference/codelists.md:48
+#: ../../docs/reference/codelists.md:45
 msgid ""
 "OCDS for PPPs modifies some codelists from OCDS and reuses codelists from "
 "extensions, without modification. The 'Extension' column in the tables below"
@@ -253,41 +219,279 @@ msgstr ""
 "listas de código de extensiones, sin ninguna modificación. La columna "
 "\"Extensión\" en las tablas abajo indica de dónde surge cada código."
 
-#: ../../docs/reference/codelists.md:52
+#: ../../docs/reference/codelists.md:49
 msgid "bidStatus"
 msgstr "bidStatus"
 
-#: ../../docs/reference/codelists.md:60 ../../docs/reference/codelists.md:162
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:61
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:101
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:193
+msgid "Code"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:61
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:101
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:193
+msgid "Title"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:61
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:101
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:193
+msgid "Description"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:61
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:101
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:193
+msgid "Extension"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "invited"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "Invited"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "A bid has been invited from the listed tenderer(s)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:51
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:51
+#: ../../docs/reference/codelists.md:51 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:123
+#: ../../docs/reference/codelists.md:123
+msgid "Bid statistics and details"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "pending"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "Pending"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "A bid has been submitted but not yet evaluated."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "valid"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "Valid"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid ""
+"The submitted bid met the qualification requirements in order to be "
+"evaluated."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "disqualified"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "Disqualified"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid ""
+"The submitted bid did not meet the qualification requirements in order to be"
+" evaluated."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "withdrawn"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "Withdrawn"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:51
+msgid "The submitted bid was withdrawn by the tenderer(s)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:57 ../../docs/reference/codelists.md:129
 msgid ""
 "For additional guidance on using this codelist, refer to the [Bid statistics"
 " and details extension documentation](https://extensions.open-"
-"contracting.org/en/extensions/bids/v1.1.4/)."
+"contracting.org/en/extensions/bids/v1.1.5/)."
 msgstr ""
-"Para guía adicional en el uso de esta lista de código, por favor vea la "
-"[documentación de extensión de Estadísticas y detalles de las "
-"ofertas](https://extensions.open-"
-"contracting.org/es/extensions/bids/v1.1.4/)."
 
-#: ../../docs/reference/codelists.md:62
-msgid "dataType"
-msgstr "dataType"
+#: ../../docs/reference/codelists.md:59
+msgid "chargePaidBy"
+msgstr ""
 
-#: ../../docs/reference/codelists.md:70 ../../docs/reference/codelists.md:110
-#: ../../docs/reference/codelists.md:130
+#: ../../docs/reference/codelists.md:61
+msgid "government"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61
+msgid "Government"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61
+msgid "The charge is paid by the government"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61 ../../docs/reference/codelists.md:61
+msgid "Charges"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61
+msgid "user"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61
+msgid "User"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:61
 msgid ""
-"For additional guidance on using this codelist, refer to the [Requirements "
-"extension documentation](https://extensions.open-"
-"contracting.org/en/extensions/requirements/master/)."
+"The charge is paid by businesses or citizens using the facilities provided "
+"by the contract"
 msgstr ""
-"Para guía adicional en el uso de esta lista de código, por favor vea la "
-"[documentación de la extensión de Requisitos](https://extensions.open-"
-"contracting.org/es/extensions/requirements/master/)."
 
-#: ../../docs/reference/codelists.md:72
+#: ../../docs/reference/codelists.md:67
+msgid ""
+"For additional guidance on using this codelist, refer to the [Charges "
+"extension documentation](https://extensions.open-"
+"contracting.org/en/extensions/charges/) and the [Tariffs extension "
+"documentation](https://extensions.open-"
+"contracting.org/en/extensions/tariffs/master/)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:69
 msgid "financeCategory"
 msgstr "financeCategory"
 
-#: ../../docs/reference/codelists.md:80
+#: ../../docs/reference/codelists.md:71
+msgid "equity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Equity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid ""
+"Equity finance is given in exchange for a share of ownership in the project "
+"(usually via direct or indirect shareholding in a Special Purpose Vehicle "
+"(SPV) company created to run the project)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:71
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:71
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:71
+#: ../../docs/reference/codelists.md:81 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:81 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:81 ../../docs/reference/codelists.md:81
+#: ../../docs/reference/codelists.md:81
+msgid "Finance"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "seniorDebt"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Senior debt"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid ""
+"Senior debt (sometimes called senior loans) take priority over other more "
+"junior debt."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "mezzanineDebt"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Mezzanine debt"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid ""
+"Mezzanine debt (sometimes called mezzanine loans) take priority over common "
+"shares."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "grant"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Grant"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "A grant is finance provided without expectation of repayment."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "guarantee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Guarantee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid ""
+"A guarantee is a promise by one party to assume the debt of another if the "
+"other defaults. Guarantees are not to be counted in totals of the overall "
+"financing of a project."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71 ../../docs/reference/codelists.md:81
+msgid "other"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid "Other debts or investments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:71
+msgid ""
+"Any details of the conditions attached to this finance can be provided in "
+"the notes field."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:77
 msgid ""
 "For additional guidance on using this codelist, refer to the [Financing "
 "extension documentation](https://extensions.open-"
@@ -297,52 +501,245 @@ msgstr ""
 "de extensión de Financiamiento](https://extensions.open-"
 "contracting.org/es/extensions/finance/master/)."
 
-#: ../../docs/reference/codelists.md:82
-msgid "initiationType"
-msgstr "initiationType"
-
-#: ../../docs/reference/codelists.md:90 ../../docs/reference/codelists.md:120
-#: ../../docs/reference/codelists.md:172 ../../docs/reference/codelists.md:182
-msgid ""
-"For additional guidance on using this codelist, refer to the [OCDS for PPPs "
-"extension documentation](https://extensions.open-"
-"contracting.org/en/extensions/ppp/master/)."
+#: ../../docs/reference/codelists.md:79
+msgid "financeType"
 msgstr ""
-"Para guía adicional en utilizar esta lista de código, vea la [documentación "
-"para la extensión OCDS para APPs](https://extensions.open-"
-"contracting.org/es/extensions/ppp/master/)."
 
-#: ../../docs/reference/codelists.md:92
-msgid "preQualificationStatus"
-msgstr "preQualificationStatus"
-
-#: ../../docs/reference/codelists.md:100
-msgid ""
-"For additional guidance on using this codelist, refer to the [Qualification "
-"extension documentation](https://extensions.open-"
-"contracting.org/en/extensions/qualification/master/)."
+#: ../../docs/reference/codelists.md:81
+msgid "institutional"
 msgstr ""
-"Para guía adicional al utilizar esta lista de código, vea la [documentación "
-"de la extensión de Calificación](https://extensions.open-"
-"contracting.org/es/extensions/qualification/master/). "
 
-#: ../../docs/reference/codelists.md:102
-msgid "relatesTo"
-msgstr "relatesTo"
+#: ../../docs/reference/codelists.md:81
+msgid "Institutional"
+msgstr ""
 
-#: ../../docs/reference/codelists.md:112
-msgid "releaseTag"
-msgstr "releaseTag"
+#: ../../docs/reference/codelists.md:81
+msgid ""
+"This finance was provided by institutional investors: entities which pool "
+"money to purchase securities, real property, and other investment assets or "
+"originate loans. Institutional investors include banks, insurance companies,"
+" pensions, hedge funds, REITs, investment advisors, endowments, and mutual "
+"funds."
+msgstr ""
 
-#: ../../docs/reference/codelists.md:122
-msgid "responseSource"
-msgstr "responseSource"
+#: ../../docs/reference/codelists.md:81
+msgid "commercial"
+msgstr ""
 
-#: ../../docs/reference/codelists.md:132
+#: ../../docs/reference/codelists.md:81
+msgid "Commercial"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid ""
+"This finance was provided by private parties who do not fall within the "
+"definition of institutional investor."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "bilateral"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "Bilateral"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid ""
+"This finance was provided by a bilateral institution: an agency of one "
+"specific government, usually a development agency or export-credit agency "
+"with a mandate to support domestic businesses in pursuing investments "
+"abroad."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "multilateral"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "Multilateral"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid ""
+"This finance was provided by a multilateral institution: a body created by a"
+" group of countries to provides financing and professional support, "
+"primarily for the purpose of development."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "publicBondIssue"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "Public bond issue"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "This finance was provided through a public bond issue."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "supplierCredit"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "Supplier credit"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid ""
+"This finance was provided through a line of credit provided by a supplier."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "Other"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:81
+msgid "This finance was provided through some other source."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:87
+msgid ""
+"For additional guidance on using this codelist, refer to the [Finance "
+"extension documentation](https://extensions.open-"
+"contracting.org/en/extensions/finance/master/)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:89
+msgid "geometryType"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "Point"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid "For type 'Point', the 'coordinates' member is a single position."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+#: ../../docs/reference/codelists.md:143 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:143 ../../docs/reference/codelists.md:143
+#: ../../docs/reference/codelists.md:143 ../../docs/reference/codelists.md:143
+msgid "Location"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "MultiPoint"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid ""
+"For type 'MultiPoint', the 'coordinates' member is an array of positions."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "LineString"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid ""
+"For type 'LineString', the 'coordinates' member is an array of two or more "
+"positions."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "MultiLineString"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid ""
+"For type 'MultiLineString', the 'coordinates' member is an array of "
+"LineString coordinate arrays."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "Polygon"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid ""
+"For type 'Polygon', the 'coordinates' member MUST be an array of linear ring"
+" coordinate arrays."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91 ../../docs/reference/codelists.md:91
+msgid "MultiPolygon"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:91
+msgid ""
+"For type 'MultiPolygon', the 'coordinates' member is an array of Polygon "
+"coordinate arrays."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:97 ../../docs/reference/codelists.md:149
+msgid ""
+"For additional guidance on using this codelist, refer to the [Location "
+"extension documentation](https://extensions.open-"
+"contracting.org/en/extensions/location/)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:99
 msgid "riskAllocation"
 msgstr "riskAllocation"
 
-#: ../../docs/reference/codelists.md:140 ../../docs/reference/codelists.md:212
+#: ../../docs/reference/codelists.md:101
+msgid "publicAuthority"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid "Public authority"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid "The risk is wholly or mostly retained by the public authority"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101 ../../docs/reference/codelists.md:101
+#: ../../docs/reference/codelists.md:101 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193 ../../docs/reference/codelists.md:193
+#: ../../docs/reference/codelists.md:193
+msgid "Risk Allocation"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101 ../../docs/reference/codelists.md:183
+msgid "privateParty"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101 ../../docs/reference/codelists.md:183
+msgid "Private party"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid "The risk is wholly or mostly retained by the private party"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid "undefined"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid "Undefined"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:101
+msgid ""
+"The risk is not clearly assigned to a specific party. Further details can be"
+" provided in the notes field."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:107 ../../docs/reference/codelists.md:199
 msgid ""
 "For additional guidance on using this codelist, refer to the [Risk "
 "allocation extension documentation](https://extensions.open-"
@@ -352,11 +749,82 @@ msgstr ""
 "de la extensión de Asignación de riesgos](https://extensions.open-"
 "contracting.org/es/extensions/risk_allocation/master/)."
 
-#: ../../docs/reference/codelists.md:142
+#: ../../docs/reference/codelists.md:109
 msgid "votingRights"
 msgstr "votingRights"
 
-#: ../../docs/reference/codelists.md:150
+#: ../../docs/reference/codelists.md:111
+msgid "ordinary"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "Ordinary voting rights"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid ""
+"The shareholder is entitled to a single vote per share in all circumstances"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:111
+#: ../../docs/reference/codelists.md:111 ../../docs/reference/codelists.md:111
+#: ../../docs/reference/codelists.md:111
+msgid "Shareholders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "none"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "No voting rights"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "The shareholder is not entitled to vote under any circumstances"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "restricted"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "Restricted voting rights"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "The shareholder is entitled to vote in specific circumstances only"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "additional"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "Additional voting rights"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid ""
+"The shareholder is entitled to more than one vote per share in all "
+"circumstances"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "enhanced"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid "Enhanced voting rights"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:111
+msgid ""
+"The shareholder is entitled to more than one vote per share in specific "
+"circumstances only"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:117
 msgid ""
 "For additional guidance on using this codelist, refer to the [Shareholders "
 "extension documentation](https://extensions.open-"
@@ -366,46 +834,2139 @@ msgstr ""
 "la extensión de Accionistas](https://extensions.open-"
 "contracting.org/es/extensions/shareholders/master/)."
 
-#: ../../docs/reference/codelists.md:154
+#: ../../docs/reference/codelists.md:121
 msgid "bidStatistics"
 msgstr "bidStatistics"
 
-#: ../../docs/reference/codelists.md:164
+#: ../../docs/reference/codelists.md:123
+msgid "requests"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Requests to participate"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "The total number of unique requests to participate received"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "bids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The total number of unique bids received (prior to any being discounted for "
+"not meeting essential criteria)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "validBids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Valid bids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The total number of unique bids received that were considered valid against "
+"relevant criteria (either of the bidder, or the bid submission itself). All "
+"valid bids should be considered during the tender evaluation stage."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123 ../../docs/reference/codelists.md:133
+msgid "bidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The total number of unique organizations or consortia submitting bids  "
+"(prior to any being discounted for not meeting essential criteria)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "qualifiedBidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Qualified bidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The total number of unique organizations or consortia passing the "
+"qualification stage of the evaluation process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "disqualifiedBidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Disqualified bidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The total number of unique organizations or consortia that did not pass the "
+"qualification stage of the evaluation process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "electronicBids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Electronic bids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "The number of bids received by electronic means."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "smeBids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bids from SMEs"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "The number of bids received from small and medium-sized enterprises."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "foreignBids"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bids from foreign firms"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The number of bids received from bidders from outside the country where the "
+"tender is issued."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "foreignBidsFromEU"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bids from firms in other European Economic Area countries"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The number of bids received from tenderers from other European Economic Area"
+" countries."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "foreignBidsFromNonEU"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Bids from firms in non-European Economic Area countries"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The number of bids received from tenderers from non-European Economic Area "
+"countries."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "tendersAbnormallyLow"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid "Tenders excluded because they were abnormally low"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:123
+msgid ""
+"The number of tenders excluded because they were abnormally low. Note that "
+"in some EU datasets this may have been converted from a boolean, such that a"
+" value of 1 would indicate '1 or more' tenders were excluded. Users should "
+"evaluate and interpret data accordingly."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:131
 msgid "documentType"
 msgstr "documentType"
 
-#: ../../docs/reference/codelists.md:174
+#: ../../docs/reference/codelists.md:133
+msgid "plannedProcurementNotice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Notice of planned procurement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A notice published by the procuring entity regarding their plans for future "
+"procurement, also known as a prior information notice. The procuring entity "
+"can use the notice of planned procurement as a tender notice."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:173
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:173
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:173
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:173
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183
+msgid "OCDS Core"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "tenderNotice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Tender notice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"The notice published by the procuring entity inviting interested suppliers "
+"to submit a request for participation, a bid, or both. This can be a link to"
+" a downloadable document, to a web page, or to an official gazette in which "
+"the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "awardNotice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Award notice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"The formal notice that gives details of the contract award. This can be a "
+"link to a downloadable document, to a web page, or to an official gazette in"
+" which the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractNotice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Contract notice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"The formal notice that gives details of a contract being signed and valid to"
+" start implementation. This can be a link to a downloadable document, to a "
+"web page, or to an official gazette in which the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "completionCertificate"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Completion certificate"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A completion certificate issued by a relevant authority providing evidence "
+"that works were completed to a certain level of quality. Completion "
+"certificates might only be relevant for particular kinds of contracting "
+"processes."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "procurementPlan"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Procurement plan"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation that sets out the basis for this particular contracting "
+"process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "biddingDocuments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Bidding documents"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation for potential suppliers, describing the goals of the contract "
+"(e.g. goods and services to be procured), and the bidding process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "technicalSpecifications"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Technical specifications"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Tendering requirements that: lay down the characteristics of goods or "
+"services to be procured, including quality, performance, safety and "
+"dimensions, or the processes and methods for their production or provision; "
+"or address terminology, symbols, packaging, marking or labelling "
+"requirements, as they apply to a good or service."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "evaluationCriteria"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Evaluation criteria"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Documentation on how bids will be evaluated."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "evaluationReports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Evaluation report"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation on the evaluation of the bids and the application of the "
+"evaluation criteria, including the justification for the award."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractDraft"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Contract draft"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "A draft or pro-forma copy of the contract."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractSigned"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Signed contract"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A copy of the signed contract. Consider providing both machine-readable "
+"(e.g. original PDF, Word or Open Document format files), and a separate "
+"document entry for scanned-signed pages where this is needed."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractArrangements"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Arrangements for ending contract"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Documentation of the arrangements for ending the contract(s)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractSchedule"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Contract schedules"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Any document which contains additional terms, obligations or information "
+"related to the contract, such as a schedule, appendix, annex, attachment or "
+"addendum."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "physicalProgressReport"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Physical progress reports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation on the status of implementation, usually against key "
+"milestones."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "financialProgressReport"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Financial progress reports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation providing dates and amounts of stage payments made (against "
+"total amount) and the source of those payments, including cost overruns, if "
+"any. Structured versions of this information can be provided through "
+"contract implementation transactions."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "finalAudit"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Final audit"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of a final audit carried out at the end of contract "
+"implementation."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "hearingNotice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Public hearing notice"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of any public hearings that took place as part of the planning"
+" for this contracting process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "marketStudies"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Market studies"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of any market studies that took place as part of the planning "
+"for this contracting process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "eligibilityCriteria"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Eligibility criteria"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Detailed documents about the eligibility of bidders."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "clarifications"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Clarifications to bidders questions"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation that provides replies to issues raised in pre-bid conferences "
+"or an enquiry processes."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "shortlistedFirms"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Shortlisted firms"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation providing information on shortlisted firms. Structured "
+"versions of this information can be provided using the bids extension."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "environmentalImpact"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Environmental impact"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of assessments of the environmental impacts (e.g. impacts on "
+"flora, fauna & woodlands, areas of natural beauty, carbon emissions etc.) "
+"and mitigation measures (e.g. pollution control, low carbon solutions, "
+"sustainable timber etc.) for the contracting process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "assetAndLiabilityAssessment"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Assessment of government's assets and liabilities"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation covering assessments of the government's assets and "
+"liabilities related to this contracting process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "riskProvisions"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Provisions for management of risks and liabilities"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "winningBid"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Winning bid"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of the winning bid, including, wherever applicable, a full "
+"copy of the proposal received."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "complaints"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Complaints and decisions"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of any complaints received, or decisions in response to "
+"complaints."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractAnnexe"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Annexes to the contract"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Copies of annexes and other supporting documentation related to the "
+"contract."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractGuarantees"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Guarantees"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "subContract"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Subcontracts"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation detailing subcontracts and/or providing a copy of subcontracts"
+" themselves. Where OCDS data on the subcontracts exists, this can be "
+"declared using the relatedProcess block."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "needsAssessment"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Needs assessment"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of the needs assessments carried out for this contracting "
+"process addressing demand for the project or investment from the affected "
+"communities or users."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "feasibilityStudy"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Feasibility study"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of feasibility studies carried out for this contracting "
+"process, providing information on net benefits or costs of the proposed "
+"goods, works or services."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "projectPlan"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Project plan"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of project planning for this contracting process, and, where "
+"applicable, a copy of the project plan document."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "billOfQuantity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Bill of quantity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation that provides itemized information on materials, parts and "
+"labour, and the terms and conditions for their provision, providing "
+"information that would enable bidders to price work effectively. Structured "
+"versions of item and quantity information at each of tender, award and "
+"contract stage can be provided using units within the items building block."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Information on bidders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation on bidders or participants, their validation documents and any"
+" procedural exemptions for which they qualify."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "conflictOfInterest"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Conflict of interest"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Documentation of conflicts of interest declared or uncovered."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "debarments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Debarments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Documentation of any debarments issued."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "illustration"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Illustrations"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Images intended to provide supporting information. The URL for images should"
+" be directly to an image file that applications can display as part of a "
+"gallery of images. At the tender stage, images can be illustrations of "
+"goods, works or services needed or for sale. At the implementation stage, "
+"images can be illustrations or visual evidence of physical progress."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "submissionDocuments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Bid submission documents"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Documentation submitted by a bidder as part of their proposal."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "contractSummary"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Contract summary"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation providing an overview of the key terms and sections of the "
+"contract. Commonly used for large and complex contracts."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "cancellationDetails"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Cancellation details"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of the arrangements, or reasons, for cancellation of a "
+"contracting process, award or specific contract."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "tariffs"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133
+msgid "Tariffs"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "For providing tariff and pricing schedules."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "tariffMethod"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Tariff method"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"For summarizing the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This might include written"
+" documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "tariffReview"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Tariff review"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"For summarizing the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "tariffIllustration"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Tariff illustration"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "valueForMoneyAnalysis"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Value for money analysis"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A summary of the value for money analysis carried out for the project, along"
+" with supporting figures, calculations and business case, based on projected"
+" or actual procurement outcomes."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:133 ../../docs/reference/codelists.md:133
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:153
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:163 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:163 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:163 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:163 ../../docs/reference/codelists.md:163
+#: ../../docs/reference/codelists.md:173 ../../docs/reference/codelists.md:173
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183 ../../docs/reference/codelists.md:183
+#: ../../docs/reference/codelists.md:183
+msgid "OCDS for PPPs Extension"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "serviceDescription"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Service descriptions"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "A high-level description of the services"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "estimatedDemand"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Estimated demand"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A narrative describing the estimated demand to be served (annually) by the "
+"project."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "projectAdditionality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Project additionality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "A description of the additionality provided by the project"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "financeAdditionality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Finance additionality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "A description of the additionality provided by the finance method"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "pppModeRationale"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Rationale for PPP modality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A description of the reasons for choosing to conduct this project as a PPP"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "evaluationCommittee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Evaluation committee details"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Information on the constitution of the evaluation committee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "requestForQualification"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Request for qualification"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"The set of documents issued by the procuring authority that constitute the "
+"basis of the qualification and potentially the pre-selection of candidates "
+"(the short list). Qualified (or short-listed candidates) will then be "
+"invited to submit a proposal (or to enter into a new phase prior to bid "
+"submission, such as a dialogue phase or interactive phase)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "minutes"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Minutes"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Minutes of pre-bid meetings, or other relevant meetings."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "negotiationParameters"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Negotiation parameters"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"A description of the parameters for negotiation with the preferred proponent"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "riskComparison"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Risk comparison"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Risk comparison of other financing methods"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "discountRate"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Discount rate and risk premium"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"An explanation of the discount rate, and any risk premium used, including "
+"information on project-specific circumstances that justify the risk premium "
+"rate used."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "equityTransferCaps"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Equity transfer caps"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Details of any restrictions on the transfer of equity by shareholders or "
+"other relevant participants in the project. Certain contracts provide for "
+"caps on equity transfer in different stages of the contract, especially "
+"during the construction stage and for a few years thereafter."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "financeArrangements"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Security and step in arrangements"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Details of any rights granted to a lender to access value in the event of "
+"default by a borrower and any rights granted to a party to \"step in\" to "
+"the shoes of another party, for example, a right granted to a lender or "
+"public authority to take over temporarily the operation of a project in case"
+" of failure to perform by a private party."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "guaranteeReports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Fiscal commitments and contingent liabilities disclosure reports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Reports detailing the fiscal commitments of the public authority to the PPP,"
+" for example known payments that need to be made if the PPP proceeds or "
+"payment commitments whose occurrence, timing and magnitude depend on some "
+"uncertain future event, outside the control of the public authority."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "grants"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Grants"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Information on grants given to support the project. Grant information ought "
+"to detail the total value of subsidy, and/or the value of subsidy as a "
+"proportion of the overall project value, as well as providing information on"
+" the nature of the grant. For capital subsidies paid during construction of "
+"a project, or operating subsidies paid during operation, details of "
+"periodicity of grant payments, and particular grant milestones, ought to be "
+"provided."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "servicePayments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Service payments"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Service payments are payments made by the public authority or purchaser to "
+"the private provider for infrastructure services (applicable in some types "
+"of Public Private Partnership projects). The documentation ought to cover "
+"the total number of payments and their periodicity, as well as the "
+"methodology used for calculating payments and the indexation used."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "landTransfer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Land transfer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Details of land transferred on lease or other basis by government, including"
+" details of property numbers with the quantum of land transferred, zoning "
+"information and conditions of transfer."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "assetTransfer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Asset transfer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Details of asset, human resource of personnel transfers, including "
+"documentation of the conditions of transfer."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "revenueShare"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Revenue share"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of any revenue share arrangements, including revenue share on "
+"the base-case and upside for a public private partnership project."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "otherGovernmentSupport"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Other government support"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Documentation of any other government support, including non-complete "
+"clauses or provision for revenue shortfall loans."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "defaultEvents"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Defaults"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Information on events of default"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "termination"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Termination"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Information on contract termination"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "handover"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Handover"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid ""
+"Contractual provisions for, or reporting on, handover of assets back to the "
+"state, including details of condition of assets and any other conditions of "
+"handover."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "financialStatement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Financial statement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Audited financial statements of the project company"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "performanceReport"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Performance report"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:133
+msgid "Performance assessment reports"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:139
+msgid ""
+"For additional guidance on using this codelist, refer to the [OCDS document "
+"type codelist documentation](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#document-type)."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:141
+msgid "locationGazetteers"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "NUTS"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "EU Nomenclature of Territorial Units for Statistics"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid ""
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "ISO2"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "ISO Country Codes (3166-1 alpha-2)"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "ISO 2-Digit Country Codes"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "GEONAMES"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "GeoNames"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid ""
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, populated centres and other "
+"locations, embedded within a structured tree of geographic relations."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OSMN"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OpenStreetMap Node"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid ""
+"OpenStreetMap Nodes consist of a single point in space defined by a "
+"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"particular geographic feature they represent."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OSMR"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OpenStreetMap Relation"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid ""
+"Relations are used to model logical (and usually local) or geographic "
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in OpenStreetMap."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OSMW"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid "OpenStreetMap Way"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:143
+msgid ""
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be used "
+"to describe fragments of roads or local boundaries and bounding boxes."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:151
+msgid "metricID"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "demand"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "Demand"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "For reporting on forecast or actual demand"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153 ../../docs/reference/codelists.md:193
+msgid "revenue"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "Revenue"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "For reporting on forecast or actual revenues"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "IRR"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "Internal rate of return"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:153
+msgid "For reporting on forecast or actual project IRR"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:159 ../../docs/reference/codelists.md:169
+msgid ""
+"For additional guidance on using this codelist, refer to the [OCDS for PPPs "
+"extension documentation](https://extensions.open-"
+"contracting.org/en/extensions/ppp/master/)."
+msgstr ""
+"Para guía adicional en utilizar esta lista de código, vea la [documentación "
+"para la extensión OCDS para APPs](https://extensions.open-"
+"contracting.org/es/extensions/ppp/master/)."
+
+#: ../../docs/reference/codelists.md:161
 msgid "milestoneCode"
 msgstr "milestoneCode"
 
-#: ../../docs/reference/codelists.md:184
+#: ../../docs/reference/codelists.md:163
+msgid "projectApproval"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Project approval"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "The dates of approvals from relevant authorities."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "commercialClose"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Commercial close"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"In a financing, the point at which the commercial documentation has been "
+"executed but before conditions precedent have been satisfied or waived; "
+"before financial close."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "financialClose"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Financial close"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"In a financing, the point at which the documentation has been executed and "
+"conditions precedent have been satisfied or waived. Drawdowns become "
+"permissible after this point."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "commencement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Commencement of construction or development"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "The date of commencement of construction or development"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163 ../../docs/reference/codelists.md:193
+msgid "completion"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Completion of construction of development"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "The date of completion of construction or development"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "commissioning"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Commissioning"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"The testing and inspection of the completed works to verify that the works "
+"are ready for commercial operation."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "enquiryPeriodStart"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Enquiry period start"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"For processes with multiple enquiry periods, the start date of a period "
+"during which enquiries can be made and responded to which is not provided in"
+" the tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "enquiryPeriodEnd"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Enquiry period end"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"For processes with multiple enquiry periods, the end date of a period during"
+" which enquiries can be made and responded to which is not provided in the "
+"tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "draftFinalTender"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid "Submission of draft final tender"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:163
+msgid ""
+"For competitive dialogue processes, the deadline for submission of draft "
+"final tenders"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:171
 msgid "milestoneType"
 msgstr "milestoneType"
 
-#: ../../docs/reference/codelists.md:192
+#: ../../docs/reference/codelists.md:173
+msgid "preProcurement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Pre-procurement milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"For events during the planning or pre-procurement phase of a process, such "
+"as the preparation of key studies."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "approval"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Approval milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "For events such as the sign-off of a contract or project."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "engagement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Engagement milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "For engagement milestones, such as a public hearing."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "assessment"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Assessment milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"For assessment and adjudication milestones, such as the meeting date of a "
+"committee."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "delivery"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Delivery milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"For delivery milestones, such as the date when a good or service is to be "
+"provided."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "reporting"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Reporting milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "For reporting milestones, such as when key reports are to be provided."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "financing"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Financing milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"For events related to the funding of the contracting process. In public-"
+"private partnerships, such events might include, for example, planned "
+"payments and equity transfers."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "payment"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Payment milestones"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"For payment milestones, such as the date when a payment is expected to be "
+"made to a supplier. If the `status` of a contract's payment milestone is "
+"'met', then the contract ought to have an entry for the payment under its "
+"`implementation.transactions`."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "procurement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Procurement"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid ""
+"Events taking place during the procurement which are not captured by fields "
+"in core OCDS, such as additional enquiry periods or draft tender submissions"
+" in a competitive dialogue process"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "contractClose"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Contract close"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:173
+msgid "Events such as commercial and financial close"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:179
 msgid ""
 "For additional guidance on using this codelist, refer to the [OCDS milestone"
-" type codelist documentation](http://standard.open-"
+" type codelist documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#milestone-type)."
 msgstr ""
-"Para guía adicional al utilizar esta lista de código, vea la [documentación "
-"de la lista de código de Tipo de hito OCDS](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#milestone-type)."
 
-#: ../../docs/reference/codelists.md:194
+#: ../../docs/reference/codelists.md:181
 msgid "partyRole"
 msgstr "partyRole"
 
-#: ../../docs/reference/codelists.md:202
+#: ../../docs/reference/codelists.md:183
+msgid "buyer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Buyer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A buyer is an entity whose budget will be used to pay for goods, works or "
+"services related to a contract."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "procuringEntity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Procuring entity"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"The entity managing the procurement. This can be different from the buyer "
+"who pays for, or uses, the items being procured."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "supplier"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Supplier"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "An entity awarded or contracted to provide goods, works or services."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "tenderer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Tenderer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "All entities who submit a tender."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "funder"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Funder"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"The funder is an entity providing money or finance for this contracting "
+"process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "enquirer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Enquirer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A party who has made an enquiry during the enquiry phase of a contracting "
+"process."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "payer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Payer"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "A party making a payment from a transaction."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "payee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Payee"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "A party in receipt of a payment from a transaction."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "reviewBody"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Review body"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A party responsible for the review of this procurement process. This party "
+"often has a role in any challenges made to the contract award."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "interestedParty"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Interested party"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A party that has expressed an interest in the contracting process: for "
+"example, by purchasing tender documents or submitting clarification "
+"questions."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"The counter party of the procuring authority in the PPP contract. A private "
+"entity which has been granted the contract to construct and operate a "
+"government asset, and which is usually created under the form of a Special "
+"Purpose Vehicle or SPV."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "leadBank"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Lead bank"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A lead bank is a bank that oversees the arrangement of a loan syndication"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "lender"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Lender"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"The APMG PPP Certification Program defines lenders as \"Institutions that "
+"provide lending to the project: mainly banks and institutional investors "
+"through project bonds\""
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "equityInvestor"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Equity investor"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"The APMG PPP Certification Program defines equity investors as \"Investors "
+"who finance a portion of the project’s capital expenditures (Capex), "
+"typically as share capital or subordinated debt\""
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "consortiaMember"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Consortia member"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"One of a group of companies that has joined together to bid for a project."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "grantor"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Grantor"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "The party which grants a concession, a license or some other right."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "socialWitness"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Social witness"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A social witness participates as an external observer in a public "
+"procurements process. They have a formal role as an observer."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "otherWitness"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Other witness"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A witness attends one or more stages of the procurement process to observe "
+"proceedings."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "notary"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid "Notary"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:183
+msgid ""
+"A person authorized to perform certain legal formalities, especially to "
+"certify documents and proceedings."
+msgstr ""
+
+#: ../../docs/reference/codelists.md:189
 msgid ""
 "For additional guidance on using this codelist, refer to the [OCDS party "
-"role codelist documentation](http://standard.open-"
+"role codelist documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#party-role)."
 msgstr ""
-"Para guía adicional al utilizar esta lista de código, vea la [documentación "
-"de la lista de código Rol de la parte OCDS](http://standard.open-"
-"contracting.org/latest/es/schema/codelists/#party-role)."
 
-#: ../../docs/reference/codelists.md:204
+#: ../../docs/reference/codelists.md:191
 msgid "riskCategory"
 msgstr "riskCategory"
+
+#: ../../docs/reference/codelists.md:193
+msgid "landAvailability"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Land availability and acquisition risk"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Relates to the unavailability of land or site to construct the "
+"infrastructure at the time of contract signature"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "environmental"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Environmental risk"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Environmental risks might be related to a number of environmental issues "
+"such as general contamination, pollution, water contamination, impact on the"
+" natural environment etc. An adverse assessment might lead to changes in "
+"design, leading to a direct impact on cost of infrastructure"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "design"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Design risks"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Represents the possibility that design quality for the asset is not adequate"
+" to meet project requirements"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "construction"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Construction risks"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Represents the possibility that during the construction Phase, the actual "
+"project costs or construction time exceeds the projected time and costs"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Completion and commissioning"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Refers to the failure to meet the construction outcome or finalization as "
+"prescribed"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Revenue risk"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Refers to the risk of the revenue flows not being correctly assessed"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "inflationAndFx"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Foreign exchange, inflation and indexation risk"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risk that changes in exchange rates or inflation adversely affect the "
+"project outcomes"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "availabilityAndQuality"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Availability and quality risk"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risk linked to availability and quality issues relating to performance "
+"requirements and performance target levels"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "otherRevenue"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Other revenue risk events"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "credit or counterparty risk; fraud/non-payment by users"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "financeAvailability"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Availability of finance"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Represents the risk of financing not being available at commercial close or "
+"before construction starts"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "refinancing"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Refinancing risks"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Risks relating to the downside of refinancing"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "changeInLaw"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Changes in law"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risk that a change in general law or the sector regulatory framework "
+"adversely affect the project"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "forceMajeure"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Force majeure"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risk that external events beyond the control of the parties to the contract,"
+" such as natural disasters, wars, terrorism etc., affect the project"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "earlyTermination"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Early termination"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risk that compensation sum due to early termination might be insufficient to"
+" meet private party’s financial obligations or is less than expected"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "compliance"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "Compliance risks"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid ""
+"Risks deriving from the compliance or lack thereof of regulatory obligations"
+" related to the development of the project"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "all"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "All risks"
+msgstr ""
+
+#: ../../docs/reference/codelists.md:193
+msgid "All risks deriving from the project"
+msgstr ""

@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
-# James McKinney <jmckinney@open-contracting.org>, 2018
+# James McKinney, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 14:33-0500\n"
+"POT-Creation-Date: 2021-04-22 22:18-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: James McKinney, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -76,11 +76,11 @@ msgstr ""
 "El conjunto completo de campos para representar un documento se muestra a "
 "continuación"
 
-#: ../../sphinxcontrib-jsonschema:1
+#: ../../sphinxcontrib-jsonschema:1 ../../docs/reference/documents.md:27
 msgid "Title"
 msgstr "Título"
 
-#: ../../sphinxcontrib-jsonschema:1
+#: ../../sphinxcontrib-jsonschema:1 ../../docs/reference/documents.md:27
 msgid "Description"
 msgstr "Descripción"
 
@@ -96,14 +96,1071 @@ msgstr "Formato"
 msgid "Required"
 msgstr "Requerido"
 
-#: ../../docs/reference/documents.md:24
+#: ../../docs/reference/documents.md:23
 msgid "Types"
 msgstr "Tipos"
 
-#: ../../docs/reference/documents.md:26
+#: ../../docs/reference/documents.md:25
 msgid ""
 "The full list of document types, and where they should appear, is given "
 "below."
 msgstr ""
 "La lista completa de tipos de documentos, y donde deberían aparecer, se "
 "proporciona a continuación."
+
+#: ../../docs/reference/documents.md:27
+msgid "Code"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Extension"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "plannedProcurementNotice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Notice of planned procurement"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A notice published by the procuring entity regarding their plans for future "
+"procurement, also known as a prior information notice. The procuring entity "
+"can use the notice of planned procurement as a tender notice."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27
+msgid "OCDS Core"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "tenderNotice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Tender notice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"The notice published by the procuring entity inviting interested suppliers "
+"to submit a request for participation, a bid, or both. This can be a link to"
+" a downloadable document, to a web page, or to an official gazette in which "
+"the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "awardNotice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Award notice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"The formal notice that gives details of the contract award. This can be a "
+"link to a downloadable document, to a web page, or to an official gazette in"
+" which the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractNotice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Contract notice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"The formal notice that gives details of a contract being signed and valid to"
+" start implementation. This can be a link to a downloadable document, to a "
+"web page, or to an official gazette in which the notice is contained."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "completionCertificate"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Completion certificate"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A completion certificate issued by a relevant authority providing evidence "
+"that works were completed to a certain level of quality. Completion "
+"certificates might only be relevant for particular kinds of contracting "
+"processes."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "procurementPlan"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Procurement plan"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation that sets out the basis for this particular contracting "
+"process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "biddingDocuments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Bidding documents"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation for potential suppliers, describing the goals of the contract "
+"(e.g. goods and services to be procured), and the bidding process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "technicalSpecifications"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Technical specifications"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Tendering requirements that: lay down the characteristics of goods or "
+"services to be procured, including quality, performance, safety and "
+"dimensions, or the processes and methods for their production or provision; "
+"or address terminology, symbols, packaging, marking or labelling "
+"requirements, as they apply to a good or service."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "evaluationCriteria"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Evaluation criteria"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Documentation on how bids will be evaluated."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "evaluationReports"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Evaluation report"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation on the evaluation of the bids and the application of the "
+"evaluation criteria, including the justification for the award."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractDraft"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Contract draft"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "A draft or pro-forma copy of the contract."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractSigned"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Signed contract"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A copy of the signed contract. Consider providing both machine-readable "
+"(e.g. original PDF, Word or Open Document format files), and a separate "
+"document entry for scanned-signed pages where this is needed."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractArrangements"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Arrangements for ending contract"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Documentation of the arrangements for ending the contract(s)."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractSchedule"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Contract schedules"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Any document which contains additional terms, obligations or information "
+"related to the contract, such as a schedule, appendix, annex, attachment or "
+"addendum."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "physicalProgressReport"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Physical progress reports"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation on the status of implementation, usually against key "
+"milestones."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "financialProgressReport"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Financial progress reports"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation providing dates and amounts of stage payments made (against "
+"total amount) and the source of those payments, including cost overruns, if "
+"any. Structured versions of this information can be provided through "
+"contract implementation transactions."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "finalAudit"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Final audit"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of a final audit carried out at the end of contract "
+"implementation."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "hearingNotice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Public hearing notice"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of any public hearings that took place as part of the planning"
+" for this contracting process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "marketStudies"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Market studies"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of any market studies that took place as part of the planning "
+"for this contracting process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "eligibilityCriteria"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Eligibility criteria"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Detailed documents about the eligibility of bidders."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "clarifications"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Clarifications to bidders questions"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation that provides replies to issues raised in pre-bid conferences "
+"or an enquiry processes."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "shortlistedFirms"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Shortlisted firms"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation providing information on shortlisted firms. Structured "
+"versions of this information can be provided using the bids extension."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "environmentalImpact"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Environmental impact"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of assessments of the environmental impacts (e.g. impacts on "
+"flora, fauna & woodlands, areas of natural beauty, carbon emissions etc.) "
+"and mitigation measures (e.g. pollution control, low carbon solutions, "
+"sustainable timber etc.) for the contracting process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "assetAndLiabilityAssessment"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Assessment of government's assets and liabilities"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation covering assessments of the government's assets and "
+"liabilities related to this contracting process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "riskProvisions"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Provisions for management of risks and liabilities"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "winningBid"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Winning bid"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of the winning bid, including, wherever applicable, a full "
+"copy of the proposal received."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "complaints"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Complaints and decisions"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of any complaints received, or decisions in response to "
+"complaints."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractAnnexe"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Annexes to the contract"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Copies of annexes and other supporting documentation related to the "
+"contract."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractGuarantees"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Guarantees"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "subContract"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Subcontracts"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation detailing subcontracts and/or providing a copy of subcontracts"
+" themselves. Where OCDS data on the subcontracts exists, this can be "
+"declared using the relatedProcess block."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "needsAssessment"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Needs assessment"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of the needs assessments carried out for this contracting "
+"process addressing demand for the project or investment from the affected "
+"communities or users."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "feasibilityStudy"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Feasibility study"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of feasibility studies carried out for this contracting "
+"process, providing information on net benefits or costs of the proposed "
+"goods, works or services."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "projectPlan"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Project plan"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of project planning for this contracting process, and, where "
+"applicable, a copy of the project plan document."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "billOfQuantity"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Bill of quantity"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation that provides itemized information on materials, parts and "
+"labour, and the terms and conditions for their provision, providing "
+"information that would enable bidders to price work effectively. Structured "
+"versions of item and quantity information at each of tender, award and "
+"contract stage can be provided using units within the items building block."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "bidders"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Information on bidders"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation on bidders or participants, their validation documents and any"
+" procedural exemptions for which they qualify."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "conflictOfInterest"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Conflict of interest"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Documentation of conflicts of interest declared or uncovered."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "debarments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Debarments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Documentation of any debarments issued."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "illustration"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Illustrations"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Images intended to provide supporting information. The URL for images should"
+" be directly to an image file that applications can display as part of a "
+"gallery of images. At the tender stage, images can be illustrations of "
+"goods, works or services needed or for sale. At the implementation stage, "
+"images can be illustrations or visual evidence of physical progress."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "submissionDocuments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Bid submission documents"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Documentation submitted by a bidder as part of their proposal."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "contractSummary"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Contract summary"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation providing an overview of the key terms and sections of the "
+"contract. Commonly used for large and complex contracts."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "cancellationDetails"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Cancellation details"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of the arrangements, or reasons, for cancellation of a "
+"contracting process, award or specific contract."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "tariffs"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27
+msgid "Tariffs"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "For providing tariff and pricing schedules."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "tariffMethod"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Tariff method"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"For summarizing the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This might include written"
+" documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "tariffReview"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Tariff review"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"For summarizing the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "tariffIllustration"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Tariff illustration"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "valueForMoneyAnalysis"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Value for money analysis"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A summary of the value for money analysis carried out for the project, along"
+" with supporting figures, calculations and business case, based on projected"
+" or actual procurement outcomes."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+#: ../../docs/reference/documents.md:27 ../../docs/reference/documents.md:27
+msgid "OCDS for PPPs Extension"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "serviceDescription"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Service descriptions"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "A high-level description of the services"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "estimatedDemand"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Estimated demand"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A narrative describing the estimated demand to be served (annually) by the "
+"project."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "projectAdditionality"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Project additionality"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "A description of the additionality provided by the project"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "financeAdditionality"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Finance additionality"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "A description of the additionality provided by the finance method"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "pppModeRationale"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Rationale for PPP modality"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A description of the reasons for choosing to conduct this project as a PPP"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "evaluationCommittee"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Evaluation committee details"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Information on the constitution of the evaluation committee"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "requestForQualification"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Request for qualification"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"The set of documents issued by the procuring authority that constitute the "
+"basis of the qualification and potentially the pre-selection of candidates "
+"(the short list). Qualified (or short-listed candidates) will then be "
+"invited to submit a proposal (or to enter into a new phase prior to bid "
+"submission, such as a dialogue phase or interactive phase)."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "minutes"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Minutes"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Minutes of pre-bid meetings, or other relevant meetings."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "negotiationParameters"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Negotiation parameters"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"A description of the parameters for negotiation with the preferred proponent"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "riskComparison"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Risk comparison"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Risk comparison of other financing methods"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "discountRate"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Discount rate and risk premium"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"An explanation of the discount rate, and any risk premium used, including "
+"information on project-specific circumstances that justify the risk premium "
+"rate used."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "equityTransferCaps"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Equity transfer caps"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Details of any restrictions on the transfer of equity by shareholders or "
+"other relevant participants in the project. Certain contracts provide for "
+"caps on equity transfer in different stages of the contract, especially "
+"during the construction stage and for a few years thereafter."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "financeArrangements"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Security and step in arrangements"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Details of any rights granted to a lender to access value in the event of "
+"default by a borrower and any rights granted to a party to \"step in\" to "
+"the shoes of another party, for example, a right granted to a lender or "
+"public authority to take over temporarily the operation of a project in case"
+" of failure to perform by a private party."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "guaranteeReports"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Fiscal commitments and contingent liabilities disclosure reports"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Reports detailing the fiscal commitments of the public authority to the PPP,"
+" for example known payments that need to be made if the PPP proceeds or "
+"payment commitments whose occurrence, timing and magnitude depend on some "
+"uncertain future event, outside the control of the public authority."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "grants"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Grants"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Information on grants given to support the project. Grant information ought "
+"to detail the total value of subsidy, and/or the value of subsidy as a "
+"proportion of the overall project value, as well as providing information on"
+" the nature of the grant. For capital subsidies paid during construction of "
+"a project, or operating subsidies paid during operation, details of "
+"periodicity of grant payments, and particular grant milestones, ought to be "
+"provided."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "servicePayments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Service payments"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Service payments are payments made by the public authority or purchaser to "
+"the private provider for infrastructure services (applicable in some types "
+"of Public Private Partnership projects). The documentation ought to cover "
+"the total number of payments and their periodicity, as well as the "
+"methodology used for calculating payments and the indexation used."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "landTransfer"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Land transfer"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Details of land transferred on lease or other basis by government, including"
+" details of property numbers with the quantum of land transferred, zoning "
+"information and conditions of transfer."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "assetTransfer"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Asset transfer"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Details of asset, human resource of personnel transfers, including "
+"documentation of the conditions of transfer."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "revenueShare"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Revenue share"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of any revenue share arrangements, including revenue share on "
+"the base-case and upside for a public private partnership project."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "otherGovernmentSupport"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Other government support"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Documentation of any other government support, including non-complete "
+"clauses or provision for revenue shortfall loans."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "defaultEvents"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Defaults"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Information on events of default"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "termination"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Termination"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Information on contract termination"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "handover"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Handover"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid ""
+"Contractual provisions for, or reporting on, handover of assets back to the "
+"state, including details of condition of assets and any other conditions of "
+"handover."
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "financialStatement"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Financial statement"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Audited financial statements of the project company"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "performanceReport"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Performance report"
+msgstr ""
+
+#: ../../docs/reference/documents.md:27
+msgid "Performance assessment reports"
+msgstr ""
