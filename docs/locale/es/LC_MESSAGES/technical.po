@@ -6,20 +6,20 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
-# James McKinney <jmckinney@open-contracting.org>, 2020
+# James McKinney, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 14:33-0500\n"
+"POT-Creation-Date: 2021-04-22 22:18-0400\n"
 "PO-Revision-Date: 2017-05-10 17:02+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: James McKinney, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -107,13 +107,9 @@ msgstr ""
 #: ../../docs/technical.md:31
 msgid ""
 "A compiled OCDS for PPPs schema, with the extensions applied, is also  "
-"[available to download](../_static/patched/release-schema.json), and a [full"
-" reference table is provided](reference/schema.md)."
+"{download}`available to download <_static/patched/release-schema.json>`, and"
+" a [full reference table is provided](reference/schema.md)."
 msgstr ""
-"Un compilado del esquema OCDS para APPs, con las extensiones aplicadas, "
-"también esta  [disponible para descarga](../_static/patched/release-"
-"schema.json), y [la tabla de referencia completa es "
-"proveída](reference/schema.md)."
 
 #: ../../docs/technical.md:33
 msgid "Who is this for?"

@@ -16,7 +16,7 @@ Sub-stage | Recommended release identifier | Recommended release tag
 - | - | -
 1.1 Consultation | 1.1.X | planning
 1.2 Planning | 1.2.X | planning
-1.3 Approvals &amp; budget allocations | 1.3.X | planning
+1.3 Approvals & budget allocations | 1.3.X | planning
 
 ### P: Procurement
 

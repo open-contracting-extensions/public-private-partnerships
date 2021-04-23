@@ -5,17 +5,18 @@
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# James McKinney, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 14:33-0500\n"
+"POT-Creation-Date: 2021-04-23 14:47-0400\n"
 "PO-Revision-Date: 2019-10-25 17:35+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: James McKinney, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,14 +28,71 @@ msgid "Changelog"
 msgstr "Registro de cambios"
 
 #: ../../docs/reference/changelog.md:3
-msgid "[1.0.0.beta2] - 2019-10-21"
-msgstr "[1.0.0.beta2] - 2019-10-21"
+msgid "Iterative improvements"
+msgstr "Mejoras iterativas"
 
-#: ../../docs/reference/changelog.md:5 ../../docs/reference/changelog.md:45
+#: ../../docs/reference/changelog.md:5
+msgid ""
+"[#230](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/230) Reduce the degree of repetition on the Frameworks "
+"reference page."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:6
+msgid ""
+"[#231](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/231) Add a link to the release schema as a CSV "
+"spreadsheet."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:8
+msgid "[1.0.0.beta3] - YYYY-MM-DD"
+msgstr ""
+
+#: ../../docs/reference/changelog.md:10 ../../docs/reference/changelog.md:20
+#: ../../docs/reference/changelog.md:60
 msgid "Normative changes"
 msgstr "Cambios normativos"
 
-#: ../../docs/reference/changelog.md:7
+#: ../../docs/reference/changelog.md:12
+msgid "Update the profile to align with OCDS:"
+msgstr ""
+
+#: ../../docs/reference/changelog.md:13
+msgid ""
+"[#245](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/245) Remove the preQualification extension and update "
+"framework reference accordingly."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:14
+msgid ""
+"[#243](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/243) Restore `buyer` and `awards/supplier` fields and "
+"associated codes. Remove `publicAuthority` and `awards/preferredBidders` "
+"fields and associated codes. Update the framework reference accordingly."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:15
+msgid ""
+"[#244](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/244) Restore 'tender' code and remove 'ppp' code from "
+"`initiationType.csv`."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:16
+msgid ""
+"[#260](https://github.com/open-contracting-extensions/public-private-"
+"partnerships/pull/260) Remove extensions that were not referenced in the "
+"framework guidance from the profile (budget breakdown, process-level title "
+"and description, requirements and transaction related milestones)."
+msgstr ""
+
+#: ../../docs/reference/changelog.md:18
+msgid "[1.0.0.beta2] - 2019-10-21"
+msgstr "[1.0.0.beta2] - 2019-10-21"
+
+#: ../../docs/reference/changelog.md:22
 msgid ""
 "[#203](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/203) The profile has been upgraded to OCDS 1.1.4. All core"
@@ -49,7 +107,7 @@ msgstr ""
 " y descripción. Todas las extensiones de comunidad se han actualizado a sus "
 "versiones más recientes."
 
-#: ../../docs/reference/changelog.md:8
+#: ../../docs/reference/changelog.md:23
 msgid ""
 "[#205](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/205) The documentType codelist has been updated:"
@@ -57,11 +115,11 @@ msgstr ""
 "[#205](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/205)  La lista de código documentType se ha actualizado:"
 
-#: ../../docs/reference/changelog.md:9
+#: ../../docs/reference/changelog.md:24
 msgid "'contractSchedules' has been renamed to 'contractMilestones'."
 msgstr "'contractSchedules' se ha renombrado a 'contractMilestones'."
 
-#: ../../docs/reference/changelog.md:10
+#: ../../docs/reference/changelog.md:25
 msgid ""
 "The description of 'needsAssessment' has been updated to match the "
 "description from OC4IDS."
@@ -69,7 +127,7 @@ msgstr ""
 "La descripción de 'needsAssessment' se ha actualizado para coincidir con la "
 "descripción de OC4IDS."
 
-#: ../../docs/reference/changelog.md:11
+#: ../../docs/reference/changelog.md:26
 msgid ""
 "The description of 'environmentalImpact' has been updated to match the "
 "description from OC4IDS."
@@ -77,11 +135,11 @@ msgstr ""
 "La descripción de 'environmentalImpact' se ha actualizado para coincidir con"
 " la descripción de OC4IDS."
 
-#: ../../docs/reference/changelog.md:13 ../../docs/reference/changelog.md:50
+#: ../../docs/reference/changelog.md:28 ../../docs/reference/changelog.md:65
 msgid "Non-normative changes"
 msgstr "Cambios no-normativos"
 
-#: ../../docs/reference/changelog.md:15
+#: ../../docs/reference/changelog.md:30
 msgid ""
 "[#223](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/223) In the descriptions of fields in the profile's "
@@ -95,7 +153,7 @@ msgstr ""
 "código del perfil, en vez de a la documentación de las listas de código "
 "OCDS, si la lista de código se modifico por el perfil. "
 
-#: ../../docs/reference/changelog.md:16
+#: ../../docs/reference/changelog.md:31
 msgid ""
 "[#222](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/222) Clarify the one-to-one correspondence between a PPP "
@@ -105,7 +163,7 @@ msgstr ""
 "partnerships/pull/222)  Aclarar la correspondencia uno a uno entre el "
 "proyecto APP y el proceso de contratación."
 
-#: ../../docs/reference/changelog.md:17
+#: ../../docs/reference/changelog.md:32
 msgid ""
 "[#195](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/195) The documentation pages of all extensions have been "
@@ -117,7 +175,7 @@ msgstr ""
 "extensiones se han cambiado al nuevo [Explorador de "
 "Extensiones](https://extensions.open-contracting.org/)."
 
-#: ../../docs/reference/changelog.md:18
+#: ../../docs/reference/changelog.md:33
 msgid ""
 "[#206](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/206) Links to the milestones extension documentation have "
@@ -127,7 +185,7 @@ msgstr ""
 "partnerships/pull/206) Las ligas a los hitos de documentación de extensión "
 "se han reemplazada con ligas a la documentación del estándar."
 
-#: ../../docs/reference/changelog.md:19
+#: ../../docs/reference/changelog.md:34
 msgid ""
 "[#212](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/212) The codelist reference page has been updated to:"
@@ -136,7 +194,7 @@ msgstr ""
 "partnerships/pull/212) La página de referencia a la lista de código se ha "
 "actualizado a:"
 
-#: ../../docs/reference/changelog.md:20
+#: ../../docs/reference/changelog.md:35
 msgid ""
 "Separate out codelists from OCDS which are reused without modification and "
 "those which are modified."
@@ -144,7 +202,7 @@ msgstr ""
 "Separe las listas de código del OCDS que se han reutilizado sin modificación"
 " y los que se han modificado."
 
-#: ../../docs/reference/changelog.md:21
+#: ../../docs/reference/changelog.md:36
 msgid ""
 "Add codelists which were present in the profile but missing from the "
 "documentation."
@@ -152,7 +210,7 @@ msgstr ""
 "Agregue las listas de código que se presentan en el perfil pero faltan en la"
 " documentación."
 
-#: ../../docs/reference/changelog.md:22
+#: ../../docs/reference/changelog.md:37
 msgid ""
 "Add links to additional codelist documentation in the OCDS documentation and"
 " the Extension Explorer."
@@ -160,7 +218,7 @@ msgstr ""
 "Agregue ligas a documentación adicional de listas de código en la "
 "documentación OCDS y en el Explorador de Extensiones"
 
-#: ../../docs/reference/changelog.md:23
+#: ../../docs/reference/changelog.md:38
 msgid ""
 "[#214](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/214) Replace mentions of 'OCDS core' with 'OCDS'."
@@ -168,7 +226,7 @@ msgstr ""
 "[#214](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/214) Reemplace menciones de  'OCDS central'  con 'OCDS'."
 
-#: ../../docs/reference/changelog.md:24
+#: ../../docs/reference/changelog.md:39
 msgid ""
 "[#209](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/209) A schema browser has been added."
@@ -176,7 +234,7 @@ msgstr ""
 "[#209](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/209) Se ha agregado un navegador del esquema."
 
-#: ../../docs/reference/changelog.md:25
+#: ../../docs/reference/changelog.md:40
 msgid ""
 "[#210](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/10) This changelog has been added."
@@ -184,7 +242,7 @@ msgstr ""
 "[#210](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/10) Se ha agregado este registro de cambios."
 
-#: ../../docs/reference/changelog.md:26
+#: ../../docs/reference/changelog.md:41
 msgid ""
 "The build process for the documentation has been improved "
 "([#182](https://github.com/open-contracting-extensions/public-private-"
@@ -212,11 +270,11 @@ msgstr ""
 "partnerships/pull/220), [#220](https://github.com/open-contracting-"
 "extensions/public-private-partnerships/pull/221))."
 
-#: ../../docs/reference/changelog.md:28 ../../docs/reference/changelog.md:55
+#: ../../docs/reference/changelog.md:43 ../../docs/reference/changelog.md:70
 msgid "Fixes"
 msgstr "Mejoras"
 
-#: ../../docs/reference/changelog.md:30
+#: ../../docs/reference/changelog.md:45
 msgid ""
 "[#202](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/202), [#203](https://github.com/open-contracting-"
@@ -230,7 +288,7 @@ msgstr ""
 "/open-contracting-extensions/public-private-partnerships/pull/204) El "
 "ejemplo trabajado de los archivos JSON se ha actualizado:"
 
-#: ../../docs/reference/changelog.md:31
+#: ../../docs/reference/changelog.md:46
 msgid ""
 "Remove the `planning.budget.amount` field which is not referenced in the "
 "framework reference."
@@ -238,26 +296,26 @@ msgstr ""
 "Quitar el campo  `planning.budget.amount` al que no se hace referencia en la"
 " referencia marco."
 
-#: ../../docs/reference/changelog.md:32
+#: ../../docs/reference/changelog.md:47
 msgid ""
 "Remove trailing '.0' from strings comprised entirely of numeric characters."
 msgstr ""
 "Elimine el '.0' final de las cadenas compuestas completamente por caracteres"
 " numéricos."
 
-#: ../../docs/reference/changelog.md:33
+#: ../../docs/reference/changelog.md:48
 msgid "Fix unresolvable organization references for shareholders."
 msgstr "Fijar referencias de organización irresolubles para los accionistas."
 
-#: ../../docs/reference/changelog.md:34
+#: ../../docs/reference/changelog.md:49
 msgid "Correct incorrect use of the `identifier.uri` field."
 msgstr "Corrija el uso incorrecto del campo `identifier.uri`"
 
-#: ../../docs/reference/changelog.md:36
+#: ../../docs/reference/changelog.md:51
 msgid "[1.0.0.beta] - 2018-08-16"
 msgstr "[1.0.0.beta] - 2018-08-16"
 
-#: ../../docs/reference/changelog.md:38
+#: ../../docs/reference/changelog.md:53
 msgid ""
 "This changelog entry indicates notable changes since the initial release of "
 "OCDS for PPPs. It is not intended to be a complete list of changes."
@@ -266,11 +324,11 @@ msgstr ""
 "entrega inicial de OCDS para APPs. No esta diseñado para ser una lista "
 "completa de los cambios."
 
-#: ../../docs/reference/changelog.md:40
+#: ../../docs/reference/changelog.md:55
 msgid "In addition to the specific changes below:"
 msgstr "Además de los cambios específicos abajo:"
 
-#: ../../docs/reference/changelog.md:42
+#: ../../docs/reference/changelog.md:57
 msgid ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) Various fixes to codelist files (unquoted line "
@@ -280,7 +338,7 @@ msgstr ""
 "partnerships/pull/121) Algunas correcciones a los archivos de lista de "
 "código (saltos de línea sin comillas, filas en blanco, etc.)"
 
-#: ../../docs/reference/changelog.md:43
+#: ../../docs/reference/changelog.md:58
 msgid ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) Various fixes to broken links, typos, grammar and "
@@ -291,7 +349,7 @@ msgstr ""
 "tipográficos, gramática y mayúsculas en la documentación, el esquema y las "
 "listas de códigos."
 
-#: ../../docs/reference/changelog.md:47
+#: ../../docs/reference/changelog.md:62
 msgid ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) The core extensions were upgraded to v1.1.3."
@@ -299,7 +357,7 @@ msgstr ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) Las extensiones centrales se actualizaron a v1.1.3."
 
-#: ../../docs/reference/changelog.md:48
+#: ../../docs/reference/changelog.md:63
 msgid ""
 "[#133](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/133) Descriptions were added for the 'financeArrangements'"
@@ -310,7 +368,7 @@ msgstr ""
 "'financeArrangements' y 'guaranteeReports' en la lista de código "
 "documentType."
 
-#: ../../docs/reference/changelog.md:52
+#: ../../docs/reference/changelog.md:67
 msgid ""
 "[#164](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/164) A patched release package schema is now distributed "
@@ -320,7 +378,7 @@ msgstr ""
 "partnerships/pull/164) Ahora se distribuye un esquema de paquete de entrega "
 "parcheado con el perfil."
 
-#: ../../docs/reference/changelog.md:53
+#: ../../docs/reference/changelog.md:68
 msgid ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) The build process for the documentation was aligned "
@@ -330,7 +388,7 @@ msgstr ""
 "partnerships/pull/121) El proceso de compilación de la documentación se "
 "alineó con el proceso de compilación de perfil común."
 
-#: ../../docs/reference/changelog.md:57
+#: ../../docs/reference/changelog.md:72
 msgid ""
 "[#121](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/121) `tag` `enum` updated to reflect changes to the "
@@ -340,7 +398,7 @@ msgstr ""
 "partnerships/pull/121) `tag` `enum` se actualizaron para reflejar los "
 "cambios en la lista de código `releaseTag`. "
 
-#: ../../docs/reference/changelog.md:58
+#: ../../docs/reference/changelog.md:73
 msgid ""
 "[#136](https://github.com/open-contracting-extensions/public-private-"
 "partnerships/pull/136) Set `uniqueItems` and `wholeListMerge` to `true` for "

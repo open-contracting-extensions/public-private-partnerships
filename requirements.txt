@@ -4,5 +4,5 @@
 
 linkify-it-py
 sphinxcontrib-opencontracting==0.0.1
--e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@75e4427b0f6f6a23dff9019aeb5d64833aab104a#egg=sphinxcontrib-jsonschema
--e git+https://github.com/jpmckinney/sphinxcontrib-opendataservices.git@csvtable-option_spec#egg=sphinxcontrib-opendataservices
+-e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices-jsonschema.git@101d6bb44f6565f70712cfd85c134e6bae84fb4f#egg=sphinxcontrib-opendataservices-jsonschema
+-e git+https://github.com/jpmckinney/sphinxcontrib-opendataservices.git@tests#egg=sphinxcontrib-opendataservices

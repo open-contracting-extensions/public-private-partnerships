@@ -67,12 +67,6 @@ source_file = build/locale/ppp-schema.pot
 source_lang = en
 type = PO
 
-[ocds-for-ppps._static--docson--README]
-file_filter = docs/locale/<lang>/LC_MESSAGES/_static/docson/README.po
-source_file = build/locale/_static/docson/README.pot
-source_lang = en
-type = PO
-
 [ocds-for-ppps.extensions]
 file_filter = docs/locale/<lang>/LC_MESSAGES/extensions.po
 source_file = build/locale/extensions.pot
