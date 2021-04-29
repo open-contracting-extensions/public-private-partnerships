@@ -3,5 +3,5 @@
 # Add your own requirements below.
 
 sphinxcontrib-opencontracting==0.0.3
--e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices-jsonschema.git@101d6bb44f6565f70712cfd85c134e6bae84fb4f#egg=sphinxcontrib-opendataservices-jsonschema
+sphinxcontrib-opendataservices-jsonschema==0.2.0
 -e git+https://github.com/jpmckinney/sphinxcontrib-opendataservices.git@tests#egg=sphinxcontrib-opendataservices
