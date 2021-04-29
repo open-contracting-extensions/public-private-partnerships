@@ -29,7 +29,7 @@ copyright = 'Open Contracting Partnership'
 author = 'Open Data Services / Open Contracting Partnership'
 
 version = '1.0'
-release = '1.0.0-beta2'
+release = '1.0.0-beta3'
 
 
 # -- General configuration ---------------------------------------------------

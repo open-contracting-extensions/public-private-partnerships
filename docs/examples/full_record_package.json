@@ -2,7 +2,7 @@
   "version": "1.1",
   "license": "http://opendatacommons.org/licenses/pddl/1.0/",
   "extensions": [
-    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta2/extension.json"
+    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta3/extension.json"
   ],
   "publishedDate": "2020-01-24T00:00:00Z",
   "publisher": {
