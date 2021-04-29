@@ -16,4 +16,4 @@ This means it can also be a useful tool for implementers to think about the poin
 
 The table structures and validation in the template can also be used to construct smaller data collection tools: for example, monthly metrics reporting sheets.
 
-Advanced users may wish to consult the [flatten tool spreadsheet designers guide](http://flatten-tool.readthedocs.io/en/latest/unflatten/) which explains the syntax used in column headings (row 5) to map between the structured JSON model of OCDS for PPPs, and tabular data.
+Advanced users may wish to consult the [flatten tool spreadsheet designers guide](https://flatten-tool.readthedocs.io/en/latest/unflatten/) which explains the syntax used in column headings (row 5) to map between the structured JSON model of OCDS for PPPs, and tabular data.

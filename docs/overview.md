@@ -4,7 +4,7 @@
 :align: right
 ```
 
-The [World Bank PPP Disclosure Framework](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process.
+The [World Bank PPP Disclosure Framework](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process.
 
 OCDS for PPPs provides a framework for **how** to publish the requested information, with clear separation of:
 
@@ -12,14 +12,14 @@ OCDS for PPPs provides a framework for **how** to publish the requested informat
 * Documents
 * Presentation
 
-The [OCDS releases and records model](http://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis. 
+The [OCDS releases and records model](https://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis. 
 
 ## Data
 
 ```{image} _static/images/structured_shareholding.png
 :align: right
 :width: 400
-:target: ../spreadsheet/index.html
+:target: spreadsheet.md
 ```
 
 Many elements of the PPP framework call for **structured data**. For example:
