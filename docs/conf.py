@@ -15,12 +15,13 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import json
 import os
-import re
 from glob import glob
 from pathlib import Path
 
 import standard_theme
+from docutils.nodes import make_id
 from ocds_babel.translate import translate
+from sphinx.locale import get_translation
 
 # -- Project information -----------------------------------------------------
 
@@ -58,8 +59,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '_static/docson/*.md', '
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'standard_theme'
+html_theme = 'standard_theme'  # 'pydata_sphinx_theme'
 html_theme_path = [standard_theme.get_html_theme_path()]
+html_favicon = '_static/favicon-16x16.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -69,19 +71,31 @@ html_static_path = ['_static', 'examples']
 
 # -- Local configuration -----------------------------------------------------
 
-def update_codelist_urls(text, codelists):
-    def replace(match):
-        codelist = match.group(2).replace('-', '')
-        if any(name for name in codelists if name.lower()[:-4] == codelist):
-            return match.group(1) + 'profiles/ppp/latest/{{lang}}/reference/codelists/#' + codelist
-        return match.group()
-
-    return re.sub(r'(://standard\.open-contracting\.org/)[^/]+/[^/]+/schema/codelists/#([a-z-]+)', replace, text)
-
+_ = get_translation('theme')
 
 profile_identifier = 'ppp'
 repository_url = 'https://github.com/open-contracting-extensions/public-private-partnerships'
 
+# Internationalization.
+gettext_compact = False
+gettext_domain_prefix = '{}-'.format(profile_identifier)  # `DOMAIN_PREFIX` from `config.mk`
+locale_dirs = ['locale/', os.path.join(standard_theme.get_html_theme_path(), 'locale')]
+# We use single quotes for codes, which docutils will change to double quotes.
+# https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/docutils/utils/smartquotes.py
+smartquotes = False
+
+# MyST configuration.
+# Disable dollarmath, which uses MathJax for a string like: "If Alice has $100 and Bob has $1..."
+# https://myst-parser.readthedocs.io/en/latest/using/intro.html#sphinx-configuration-options
+myst_enable_extensions = ['linkify']
+myst_heading_anchors = 6
+myst_heading_slug_func = make_id
+
+# Theme customization.
+navigation_with_keys = False  # restore the Sphinx default
+html_context = {
+    'analytics_id': 'HTWZHRIZ',
+}
 html_theme_options = {
     'analytics_id': 'HTWZHRIZ',
     'display_version': True,
@@ -93,35 +107,19 @@ html_theme_options = {
     'repository_url': repository_url,
 }
 
-# The version of OCDS to patch.
-standard_tag = '1__1__5'
+# Imported by manage.py.
+standard_tag = '1__1__5'  # the version of OCDS to patch
 standard_version = '1.1'
-
-# Where the patched schemas will be deployed.
-schema_base_url = 'https://standard.open-contracting.org{}/schema/{}/'.format(
-    html_theme_options['root_url'], release.replace('-', '__').replace('.', '__'))
-
-# The `LOCALE_DIR` from `config.mk`, plus the theme's locale.
-locale_dirs = ['locale/', os.path.join(standard_theme.get_html_theme_path(), 'locale')]
-
-gettext_compact = False
-
-# The `DOMAIN_PREFIX` from `config.mk`.
-gettext_domain_prefix = '{}-'.format(profile_identifier)
-
+managed_codelist = False
 # List the extension identifiers and versions that should be part of this profile. The extensions must be available in
 # the extension registry: https://github.com/open-contracting/extension_registry/blob/main/extension_versions.csv
 with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'extension_versions.json')) as f:
     extension_versions = json.load(f)
 
-# Disable dollarmath, which uses MathJax for a string like: "If Alice has $100 and Bob has $1..."
-# https://myst-parser.readthedocs.io/en/latest/using/intro.html#sphinx-configuration-options
-myst_enable_extensions = ['linkify']
-
 
 def setup(app):
     # The root of the repository.
-    basedir = Path(os.path.realpath(__file__)).parents[1]
+    basedir = Path(__file__).resolve().parents[1]
     # The `LOCALE_DIR` from `config.mk`.
     localedir = basedir / 'docs' / 'locale'
 
