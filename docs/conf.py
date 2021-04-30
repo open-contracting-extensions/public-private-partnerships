@@ -19,7 +19,7 @@ from glob import glob
 from pathlib import Path
 
 import standard_theme
-from docutils.nodes import make_id
+# from docutils.nodes import make_id
 from ocds_babel.translate import translate
 from sphinx.locale import get_translation
 
