@@ -19,7 +19,7 @@ from glob import glob
 from pathlib import Path
 
 import standard_theme
-# from docutils.nodes import make_id
+from docutils.nodes import make_id
 from ocds_babel.translate import translate
 from sphinx.locale import get_translation
 
@@ -90,18 +90,14 @@ linkcheck_ignore = [
     r'^https://standard\.open-contracting\.org/profiles/ppp/schema/\w+/release-schema\.json$',  # pre-release URL
     r'^http://[a-z.]*\.example\b',  # example URL
     r'^https://docs\.google\.com/spreadsheets/d/[^/]+/copy$',  # expected redirect
-    # https://github.com/executablebooks/MyST-Parser/issues/332
-    r'^\.\./reference/codelists/#documenttype$',
-    r'^\.\./reference/schema/#release-schema\.json,,'
 ]
 
 # MyST configuration.
 # Disable dollarmath, which uses MathJax for a string like: "If Alice has $100 and Bob has $1..."
 # https://myst-parser.readthedocs.io/en/latest/using/intro.html#sphinx-configuration-options
 myst_enable_extensions = ['linkify']
-# https://github.com/executablebooks/MyST-Parser/issues/332
-# myst_heading_anchors = 6
-# myst_heading_slug_func = make_id
+myst_heading_anchors = 6
+myst_heading_slug_func = make_id
 
 # Theme customization.
 navigation_with_keys = False  # restore the Sphinx default

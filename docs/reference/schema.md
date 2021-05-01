@@ -10,4 +10,5 @@ This page presents the release schema as a table. You can also download the cano
 
 ```{jsonschema} ../_static/patched/release-schema.json
 :nocrossref:
+:addtargets:
 ```

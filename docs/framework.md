@@ -110,7 +110,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the sponsoring agency or department, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -135,7 +135,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
+A reference to the sponsoring agency or department should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
@@ -166,25 +166,25 @@ P  | R | R | R  |   | R
 
 The value, or range of values, anticipated during the planning stage.
 
-**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [planning/project/totalValue](../reference/schema/#release-schema.json,,planning/project/totalValue) field.
+**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [planning/project/totalValue](release-schema.json,,planning/project/totalValue) field.
 
 #### I.3.2. Tender value
 
 The value, or range of values, in a call for tenders for the project.
 
-**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [tender/value](../reference/schema/#release-schema.json,,tender/value) field.
+**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [tender/value](release-schema.json,,tender/value) field.
 
 #### I.3.3. Award value
 
 The value of the project at time of contract award.
 
-**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [awards/value](../reference/schema/#release-schema.json,,awards/0/value) field.
+**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [awards/value](release-schema.json,,awards/0/value) field.
 
 #### I.3.4. Contract value
 
 The total value of the project agreed in the contract(s).
 
-**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [contracts/value](../reference/schema/#release-schema.json,,contracts/0/value) field.
+**Schema**: Information can be provided using a [Value](https://standard.open-contracting.org/1.1/en/schema/reference/#value) object in the [contracts/value](release-schema.json,,contracts/0/value) field.
 
 ### I.4. Project economic and social benefits
 
@@ -202,7 +202,7 @@ Information on the project need, benefits provided, and economic and social impa
 * A short summary text
 * A link to one or more documents that provide additional information
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](../reference/schema/#release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'needsAssessment'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'needsAssessment'.
 
 **JSON example:**
 
@@ -234,7 +234,7 @@ A technical description of the physical infrastructure should be provided throug
 * A short summary text
 * A link to one or more documents that provide additional information
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. Each document's `documentType` field should be set to 'technicalSpecifications'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. Each document's `documentType` field should be set to 'technicalSpecifications'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -254,7 +254,7 @@ A high-level description of the services should be provided through:
 * A short summary text
 * A link to one or more documents that provide additional information
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. Each document's `documentType` field should be set to 'serviceDescription'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. Each document's `documentType` field should be set to 'serviceDescription'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -306,7 +306,7 @@ Non-structured data relating to estimated demand can be provided through:
 * A short summary text
 * A link to one or more documents that provide additional information
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](../reference/schema/#release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'estimatedDemand'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'estimatedDemand'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -329,7 +329,7 @@ Descriptions should be provided for both:
 * The additionality of the project;
 * The additionality of the finance method used;
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](../reference/schema/#release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'projectAdditionality' or 'financeAdditionality'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'projectAdditionality' or 'financeAdditionality'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -349,7 +349,7 @@ A short summary of the reason for the PPP selection mode should be provided thro
 * A short summary text
 * A link to one or more documents that provide additional information
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](../reference/schema/#release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'pppModeRationale'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [planning/documents](release-schema.json,,planning/documents) array. Each document's `documentType` field should be set to 'pppModeRationale'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -364,7 +364,7 @@ PP | P | A | CC | I | R
 P  |   |   |    |   |
 </div>
 
-Each approval during the planning stage should be provided as a [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) object in the [planning/milestones](../reference/schema/#release-schema.json,,planning/milestones) array with:
+Each approval during the planning stage should be provided as a [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) object in the [planning/milestones](release-schema.json,,planning/milestones) array with:
 
 * its `type` field set to 'approval'
 * its `dueDate` field set to the date for which the approval is scheduled
@@ -390,7 +390,7 @@ Each approval during the planning stage should be provided as a [Milestone](http
 
 Key events relating to commercial and financial close
 
-This information can be provided as [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) objects in the [contracts/milestones](../reference/schema/#release-schema.json,,contracts/0/milestones) array, each with its `type`, `code` and `status` fields set to codes from the relevant codelists and its `documents` array set to links to any additional documentation.
+This information can be provided as [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) objects in the [contracts/milestones](release-schema.json,,contracts/0/milestones) array, each with its `type`, `code` and `status` fields set to codes from the relevant codelists and its `documents` array set to links to any additional documentation.
 
 #### I.11.1. Contract milestones - Date of commercial close
 
@@ -428,7 +428,7 @@ The milestone should have a `type` of 'financing', a `code` of 'financialClose' 
 
 Key events relating to the implementation of the project.
 
-This information can be provided as [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) objects in the [contracts/milestones](../reference/schema/#release-schema.json,,contracts/0/milestones) array, each with its `type`, `code` and `status` fields set to codes from the relevant codelists and its `documents` array set to links to any additional documentation.
+This information can be provided as [Milestone](https://standard.open-contracting.org/1.1/en/schema/reference/#milestone) objects in the [contracts/milestones](release-schema.json,,contracts/0/milestones) array, each with its `type`, `code` and `status` fields set to codes from the relevant codelists and its `documents` array set to links to any additional documentation.
 
 #### I.12.1. Implementation milestones - Date of commencement of construction or development
 
@@ -488,7 +488,7 @@ Information on the actual contract expiry date should be provided using the `per
 
 The actual date of contract expiry should be entered into the `period/endDate` field.  
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](../reference/schema/#release-schema.json,,tender/contractPeriod) field.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](release-schema.json,,tender/contractPeriod) field.
 
 **JSON example:**
 
@@ -516,7 +516,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-Links to contract documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array.  Each document's `documentType` field should be set to one of 'contractDraft', 'contractSigned' or 'contractSchedule'. (The contract may have a `status` of 'pending' up until it is signed.)
+Links to contract documents can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array.  Each document's `documentType` field should be set to one of 'contractDraft', 'contractSigned' or 'contractSchedule'. (The contract may have a `status` of 'pending' up until it is signed.)
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -535,7 +535,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-References to all signatories to the contract (including the public authority) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](../reference/schema/#release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
+References to all signatories to the contract (including the public authority) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
 
 **JSON example:**
 
@@ -560,7 +560,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the public authority, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](release-schema.json,,parties) array. The party's `roles` array should include the 'buyer' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -585,7 +585,7 @@ PP | P | A | CC | I | R
 P  | U | U | U  | U | U
 </div>
 
-A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](../reference/schema/#release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
+A reference to the public authority should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [buyer](release-schema.json,,buyer) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
@@ -609,7 +609,7 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 #### I.15.1. Contract signatories
 
-References to all signatories to the contract (including the private party) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](../reference/schema/#release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
+References to all signatories to the contract (including the private party) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
 
 **JSON example:**
 
@@ -627,7 +627,7 @@ References to all signatories to the contract (including the private party) shou
 
 #### I.15.2. Organization details
 
-Details of the private party, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'privateParty' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the private party, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](release-schema.json,,parties) array. The party's `roles` array should include the 'privateParty' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -645,7 +645,7 @@ Details of the private party, including name and contact details, should be prov
 
 #### I.15.3. Organization reference
 
-A reference to the private party should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](../reference/schema/#release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
+A reference to the private party should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
@@ -667,7 +667,7 @@ A reference to the private party should be provided using an [OrganizationRefere
 
 #### I.16.1. Organization details
 
-Details of the financiers, including name and contact details, should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array. Each party's `roles` array should include the 'leadBank' or 'lender' code, as appropriate, and each party's `contactPoint` field can be used to provide details of a named representative.
+Details of the financiers, including name and contact details, should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](release-schema.json,,parties) array. Each party's `roles` array should include the 'leadBank' or 'lender' code, as appropriate, and each party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -685,7 +685,7 @@ Details of the financiers, including name and contact details, should be provide
 
 #### I.16.2. Contract signatories
 
-References to all signatories to the contract (including any financiers that are signatories) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](../reference/schema/#release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
+References to all signatories to the contract (including any financiers that are signatories) should be provided using [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) objects in the [contracts/signatories](release-schema.json,,contracts/0/signatories) array, referencing the relevant entries in the `parties` section.
 
 **JSON example:**
 
@@ -729,7 +729,7 @@ P  | U |   |    |   |
 
 Use the `tender/tenderPeriod` field to provide the period during which the first stage is open for submissions. `tenderPeriod/endDate` should contain the closing date for submissions.
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/tenderPeriod](../reference/schema/#release-schema.json,,tender/tenderPeriod) field.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/tenderPeriod](release-schema.json,,tender/tenderPeriod) field.
 
 **JSON example:**
 
@@ -756,7 +756,7 @@ P  | U |   |    |   |
 
 Use the `tender/enquiryPeriod` field to provide the period during which enquiries may be made and answered.
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/enquiryPeriod](../reference/schema/#release-schema.json,,tender/enquiryPeriod) field.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/enquiryPeriod](release-schema.json,,tender/enquiryPeriod) field.
 
 **JSON example:**
 
@@ -848,7 +848,7 @@ Use the `tender` section to provide information on the eligibility criteria for 
 
 In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the Request for Proposal.
 
-Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Use [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -863,7 +863,7 @@ P  | U |   |    |   |
 
 Use the `tender/awardPeriod` field to provide the period during which an award is expected to be made.
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/awardPeriod](../reference/schema/#release-schema.json,,tender/awardPeriod) field.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/awardPeriod](release-schema.json,,tender/awardPeriod) field.
 
 **JSON example:**
 
@@ -890,7 +890,7 @@ P  | U | U | U  | U | U
 
 Use the `tender/contractPeriod` field to provide the expected start and end dates for the contract. Use the `awards/contractPeriod` field to provide the actual start and end dates of the contract at the time of the contract award. Update the `contracts/period` field with any changes to the contract period after the award.
 
-**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](../reference/schema/#release-schema.json,,tender/contractPeriod), [awards/contractPeriod](../reference/schema/#release-schema.json,,awards/contractPeriod) and [contracts/period](../reference/schema/#release-schema.json,,contracts/period) fields.
+**Schema**: Information can be provided using a [Period](https://standard.open-contracting.org/1.1/en/schema/reference/#period) object in the [tender/contractPeriod](release-schema.json,,tender/contractPeriod), [awards/contractPeriod](release-schema.json,,awards/0/contractPeriod) and [contracts/period](release-schema.json,,contracts/0/period) fields.
 
 **JSON example:**
 
@@ -951,7 +951,7 @@ PP | P | A | CC | I | R
 P  | U |   |    |   |
 </div>
 
-Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to documents.
+Use [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array to provide links to documents.
 
 You should provide links to:
 
@@ -960,7 +960,7 @@ You should provide links to:
 * land acquisition, rehabilitation, social, human rights, and environmental assessments
 * reports of independent procurement auditors
 
-A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -968,7 +968,7 @@ A short summary of each document can be provided using its `description` field. 
 
 > Pre-qualification or shortlist.
 
-Details of suppliers that submit a request to participate should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
+Details of suppliers that submit a request to participate should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](release-schema.json,,parties) array.
 
 For each request to participate:
 
@@ -990,7 +990,7 @@ For each request to participate:
 
 In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the same set of documents.
 
-Use [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Use [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array to provide links to these documents. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -998,7 +998,7 @@ Use [Document](reference/documents) objects in the [tender/documents](../referen
 
 > Evaluation criteria: brief description with weightage
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCriteria'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCriteria'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1006,7 +1006,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Brief information on constitution of the evaluation committees
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCommittee'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationCommittee'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1014,7 +1014,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 > Negotiation parameters: brief description of the parameters for negotiation with preferred proponent
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'negotiationParameters'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'negotiationParameters'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1022,7 +1022,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 > Minutes of pre-bid meetings
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](../reference/schema/#release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'minutes'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [tender/documents](release-schema.json,,tender/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'minutes'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1030,7 +1030,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 #### II.8.1. Organization details
 
-Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](../reference/schema/#release-schema.json,,parties) array. The party's `roles` array should include the 'supplier' code, and the party's `contactPoint` field can be used to provide details of a named representative.
+Details of the preferred bidder, including name and contact details, should be provided using an [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) object in the [parties](release-schema.json,,parties) array. The party's `roles` array should include the 'supplier' code, and the party's `contactPoint` field can be used to provide details of a named representative.
 
 **JSON example:**
 
@@ -1048,7 +1048,7 @@ Details of the preferred bidder, including name and contact details, should be p
 
 #### II.8.2. Organization reference
 
-A reference to the preferred bidder should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](../reference/schema/#release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
+A reference to the preferred bidder should be provided using an [OrganizationReference](https://standard.open-contracting.org/1.1/en/schema/reference/#organizationreference) object in the [awards/suppliers](release-schema.json,,awards/0/suppliers) field, referencing the relevant entry in the `parties` section.
 
 **JSON example:**
 
@@ -1108,7 +1108,7 @@ Additional free text information on each risk allocation, for example the ration
 
 #### III.1.2. Additional financial modelling for risks
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. Each document's `documentType` field should be set to 'riskProvisions'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. Each document's `documentType` field should be set to 'riskProvisions'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1118,7 +1118,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 > Link to evaluation report (value for money or other)
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationReports'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'evaluationReports'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1130,7 +1130,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 *Note: Choice of methodology affects the costs to the public and it is important to assure them that the PPP mode selected is the best possible in terms of cost, given equal standards of service in all modes tested.*
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'valueForMoneyAnalysis'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'valueForMoneyAnalysis'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1164,7 +1164,7 @@ Structured information and supporting details about the discount rate and risk p
 
 ##### IV.2.2.2. Discount rate and risk premium - supporting documentation
 
-Links to supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'discountRate'.
+Links to supporting documentation about the discount rate and risk premium used by government to evaluate the PPP can be provided using [Document](reference/documents) objects in the [awards/documents](release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'discountRate'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1172,7 +1172,7 @@ Links to supporting documentation about the discount rate and risk premium used 
 
 > Risk comparison of other financing mechanisms should be specified.
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](../reference/schema/#release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'riskComparison'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [awards/documents](release-schema.json,,awards/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'riskComparison'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1232,7 +1232,7 @@ Structured information and supporting details about the share capital of the PPP
 
 #### V.3.1. Shareholder organization details
 
-Details of the shareholders should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array. Each party's `roles` array should include the 'equityInvestor' code.
+Details of the shareholders should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](release-schema.json,,parties) array. Each party's `roles` array should include the 'equityInvestor' code.
 
 **JSON example:**
 
@@ -1280,7 +1280,7 @@ Structured information about each shareholder on the proportion of shares held a
 
 #### V.4.1. Documentation of equity transfer caps
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'equityTransferCaps'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'equityTransferCaps'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1316,7 +1316,7 @@ Information on equity transfer caps or lock in arrangements applicable to a part
 
 #### V.5.1. Organization information
 
-Details of the lenders and investors should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array. Each party's `roles` array should include the 'lender' or 'equityInvestor' code, as appropriate.
+Details of the lenders and investors should be provided using [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](release-schema.json,,parties) array. Each party's `roles` array should include the 'lender' or 'equityInvestor' code, as appropriate.
 
 **JSON example:**
 
@@ -1452,7 +1452,7 @@ Details of security and step in rights relating to each financing arrangement sh
 
 #### V.8.2. Security and step in documentation
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'financeArrangements'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'financeArrangements'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1504,7 +1504,7 @@ Structured information about financial guarantees can be provided in the contrac
 
 #### VI.1.2. Guarantee documentation
 
-Links to documentation or reports on each guarantee should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'guarantee'.
+Links to documentation or reports on each guarantee should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'guarantee'.
 
 ### VI.2. Grant/Subsidy information
 
@@ -1540,7 +1540,7 @@ Structured information and supporting details about the subsidy ratio for the PP
 
 #### VI.2.1. Supporting documentation on subsidy as a proportion of project value
 
-Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'grants'.
+Links to these documents can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'grants'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1548,7 +1548,7 @@ Links to these documents can be provided using [Document](reference/documents) o
 
 > Capital subsidies paid during construction with periodicity or milestones
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'grants'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'grants'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1556,7 +1556,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Operating subsidies and their periodicity or milestones
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1622,7 +1622,7 @@ Structured information on total service payments can be provided in the `contrac
 
 > Methodology for calculating payments
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1630,7 +1630,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Indexation used
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'servicePayments'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1640,7 +1640,7 @@ Links to these documents should be provided using [Document](reference/documents
 > * Equipment transfers: details of equipment with conditions of transfer
 > * Human resources/personnel transfers: details and conditions of transfer
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'lease' or 'assetTransfer'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'lease' or 'assetTransfer'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1649,7 +1649,7 @@ Links to these documents should be provided using [Document](reference/documents
 > * Non-complete clauses
 > * Provision for revenue shortfall loan
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'otherGovernmentSupport'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'otherGovernmentSupport'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1661,13 +1661,13 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### VI.6.1. Revenue share agreed in contract
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'revenueShare'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'revenueShare'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
 #### VI.6.2. Revenue share in operation during contract
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'revenueShare'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'revenueShare'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1709,9 +1709,9 @@ Information on who pays the tariff can be modelled using a `dimension` in cases 
 
 #### VII.1.2. Tariff and pricing documentation
 
-Tariffs and pricing schedules defined in the contract can be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffs'.
+Tariffs and pricing schedules defined in the contract can be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffs'.
 
-Subsequent revisions to tariffs and pricing schedules can similarly be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array.
+Subsequent revisions to tariffs and pricing schedules can similarly be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](release-schema.json,,contracts/0/implementation/documents) array.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1719,19 +1719,19 @@ Subsequent revisions to tariffs and pricing schedules can similarly be provided 
 
 > Methodology for tariff setting/pricing
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffMethod'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffMethod'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
 ### VII.3. Tariff review mechanism
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
 ### VII.4. Tariff change illustrations
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffIllustration'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to 'tariffIllustration'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1741,7 +1741,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Describe key events of default under two major categories: concessionaires events of default and public authority's events of default. State the termination payments against each, stating clearly the methodology used for total payments. The following format may be used:
 
-Provision for contract termination should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'termination'.
+Provision for contract termination should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'termination'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1749,7 +1749,7 @@ Provision for contract termination should be provided using [Document](reference
 
 > State details of hand over of assets back to state, condition of assets, and any other conditions relating to hand over. Include details of provision for continuity of service
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'handover'.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to 'handover'.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1775,7 +1775,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 #### IX.1.1. Contract documents
 
-The amended contract should be provided using a [Document](reference/documents) object in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of the **variations to the contract** should be provided using the document's `description` field. The document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+The amended contract should be provided using a [Document](reference/documents) object in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of the **variations to the contract** should be provided using the document's `description` field. The document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 #### IX.1.2. Description
 
@@ -1809,7 +1809,7 @@ A rationale for the variation should be provided in the `amendment/rationale` fi
 
 > Change in roles and responsibilities of the parties due to the variation, if any
 
-Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the relevant [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](../reference/schema/#release-schema.json,,parties) array.
+Structured information on changes to the roles and responsibilities of the parties due to the variation should be provided by updating the relevant [Organization](https://standard.open-contracting.org/1.1/en/schema/reference/#parties) objects in the [parties](release-schema.json,,parties) array.
 
 #### IX.1.5. Risk allocation
 
@@ -1829,7 +1829,7 @@ Structured information on changes to the original risk allocation due to the var
 
 > Change in original fiscal commitments or contingent liabilities of government due to the variation, if any
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1837,7 +1837,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Change in capital or operational costs due to the variation, if any
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](../reference/schema/#release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/documents](release-schema.json,,contracts/0/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1857,7 +1857,7 @@ Structured information on changes to the tariffs should be provided by updating 
 
 #### IX.1.8. Service levels
 
-Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/agreedMetrics](../reference/schema/#release-schema.json,,contracts/0/agreedMetrics) array.
+Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/agreedMetrics](release-schema.json,,contracts/0/agreedMetrics) array.
 
 #### IX.1.9. Date
 
@@ -1879,9 +1879,9 @@ The date of the variation should be provided using the `amendment/date` field.
 
 > State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
-Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
-A metric with an `id` of 'demand' should be given, with a series of [observations](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual demand for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
+A metric with an `id` of 'demand' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual demand for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
 **JSON example:**
 
@@ -1905,9 +1905,9 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 > State the actual annual total revenues reported in the financial statements and reports.
 
-Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
-A metric with an `id` of 'revenue' should be given, with a series of [observations](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
+A metric with an `id` of 'revenue' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
@@ -1915,7 +1915,7 @@ A metric with an `id` of 'revenue' should be given, with a series of [observatio
 
 > Provide links to audited financial statements of the provider company.
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document can be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
 
@@ -1923,9 +1923,9 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Recommended only where there is government equity investment or other form of government support that is substantial
 
-Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
-A metric with an `id` of 'IRR' should be given, with a series of [observations](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
+A metric with an `id` of 'IRR' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
@@ -1933,9 +1933,9 @@ A metric with an `id` of 'IRR' should be given, with a series of [observations](
 
 > State actual year-wise performance here against each of 10-12 identified key performance indicators
 
-Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
-These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](../reference/schema/#release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
+These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
 **Example**: See [section X.1](#x-1-actual-annual-demand) for JSON and flattened examples of the `metrics` building block.
 
@@ -1971,6 +1971,6 @@ Structured data about actual performance failures, penalties and abatements and 
 
 > Provide links to audit report, independent performance assessments of the the independent engineer and any other performance reports available for the project.
 
-Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](../reference/schema/#release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](../reference/codelists/#documenttype), to identify the type of document being disclosed.
+Links to these documents should be provided using [Document](reference/documents) objects in the [contracts/implementation/documents](release-schema.json,,contracts/0/implementation/documents) array. A short summary of each document should be provided using its `description` field. Each document's `documentType` field should be set to a value from the [document type codelist](reference/codelists.md#documenttype), to identify the type of document being disclosed.
 
 **Example**: See [section I.4](#i-4-project-economic-and-social-benefits) for JSON and flattened examples of the `documents` building block.
