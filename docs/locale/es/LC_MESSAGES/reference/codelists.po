@@ -9,15 +9,16 @@
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
 # James McKinney, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 11:36-0400\n"
+"POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -129,36 +130,48 @@ msgid ""
 "[Initiation type](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#initiation-type)"
 msgstr ""
+"[Tipo de iniciación](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#initiation-type)"
 
 #: ../../docs/reference/codelists.md:27
 msgid ""
 "[Milestone status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#milestone-status)"
 msgstr ""
+"[Estado de Hitos](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#milestone-status)"
 
 #: ../../docs/reference/codelists.md:28
 msgid ""
 "[Procurement category](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#procurement-category)"
 msgstr ""
+"[Categoría de Compra](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#procurement-category)"
 
 #: ../../docs/reference/codelists.md:29
 msgid ""
 "[Procurement method](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#method)"
 msgstr ""
+"[Método de compra](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#method)"
 
 #: ../../docs/reference/codelists.md:30
 msgid ""
 "[Release tag](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#release-tag)"
 msgstr ""
+"[Etiqueta de entrega](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#release-tag)"
 
 #: ../../docs/reference/codelists.md:31
 msgid ""
 "[Tender status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#tender-status)"
 msgstr ""
+"[Estado de la Licitación](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#tender-status)"
 
 #: ../../docs/reference/codelists.md:33 ../../docs/reference/codelists.md:119
 msgid "Open codelists"
@@ -169,36 +182,48 @@ msgid ""
 "[Award criteria](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#award-criteria)"
 msgstr ""
+"[Criterios de Adjudicación](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#award-criteria)"
 
 #: ../../docs/reference/codelists.md:36
 msgid ""
 "[Extended procurement category](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#extended-procurement-category)"
 msgstr ""
+"[Categoría de Compra Ampliada](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#extended-procurement-category)"
 
 #: ../../docs/reference/codelists.md:37
 msgid ""
 "[Item classification scheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#item-classification-scheme)"
 msgstr ""
+"[Esquema de Clasificación de Artículos](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#item-classification-scheme)"
 
 #: ../../docs/reference/codelists.md:38
 msgid ""
 "[Related process](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#related-process)"
 msgstr ""
+"[Proceso Relacionado](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#related-process)"
 
 #: ../../docs/reference/codelists.md:39
 msgid ""
 "[Related process scheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#related-process-scheme)"
 msgstr ""
+"[Esquema de Proceso Relacionado](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#related-process-scheme)"
 
 #: ../../docs/reference/codelists.md:40
 msgid ""
 "[Submission method](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#submission-method)"
 msgstr ""
+"[Método de Presentación](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#submission-method)"
 
 #: ../../docs/reference/codelists.md:41
 msgid ""

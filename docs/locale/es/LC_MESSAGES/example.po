@@ -8,15 +8,16 @@
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-22 22:18-0400\n"
+"POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,12 +113,15 @@ msgstr "Explora el ejemplo"
 msgid ""
 "View the {download}`OCDS releases in JSON format here <examples/full.json>`."
 msgstr ""
+"Vea las {download}`entregas OCDS en formato JSON aquí <examples/full.json>`."
 
 #: ../../docs/example.md:31
 msgid ""
 "View the {download}`OCDS record in JSON format here "
 "<examples/full_record_package.json>`."
 msgstr ""
+"Vea los {download}`registros OCDS en formato JSON aquí "
+"<examples/full_record_package.json>`."
 
 #: ../../docs/example.md:33
 msgid ""
@@ -126,6 +130,10 @@ msgid ""
 "/public-private-"
 "partnerships/1.0-dev/docs/examples/full_record_package.json)."
 msgstr ""
+"Vea los [datos en OCDS mostrados aquí](https://open-contracting.github.io"
+"/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-"
+"extensions/public-private-"
+"partnerships/1.0-dev/docs/examples/full_record_package.json)."
 
 #: ../../docs/example.md:35
 msgid "In the record within OCDS show:"
@@ -147,8 +155,8 @@ msgid ""
 "The record 'builds up' as information is provided, and highlights what has "
 "changed at each point;"
 msgstr ""
-"El registro se \"crece\" a medida que se proporciona información, y destaca "
-"lo que ha cambiado en cada punto;"
+"El registro \"se acumula\" a medida que se proporciona información, y "
+"destaca lo que ha cambiado en cada punto;"
 
 #: ../../docs/example.md:41
 msgid ""

@@ -9,15 +9,17 @@
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-23 14:49-0400\n"
+"POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1988,6 +1990,9 @@ msgid ""
 "for example: registering for access, paying a fee, or visiting a location to"
 " inspect the document."
 msgstr ""
+"Una descripción de los arreglos especiales necesarios para acceder a este "
+"documento, por ejemplo: registrarse para el acceso, pagar una cuota o "
+"visitar un lugar para inspeccionar el documento."
 
 #. /definitions/Document/properties/author/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1997,7 +2002,7 @@ msgstr "Autor"
 #. /definitions/Document/properties/author/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The names of the authors of the document."
-msgstr ""
+msgstr "Los nombres de los autores del documento."
 
 #. /definitions/Budget/title
 #: schema/patched/release-schema.json:1
@@ -2179,6 +2184,8 @@ msgstr ""
 msgid ""
 "An array with details of each source of finance planned for this procedure."
 msgstr ""
+"Un arreglo con los detalles de cada fuente de financiamiento planeada para "
+"este procedimiento"
 
 #. /definitions/Transaction/title
 #: schema/patched/release-schema.json:1
@@ -3216,7 +3223,8 @@ msgid "Amount as a number."
 msgstr "Monto como una cifra."
 
 #. /definitions/Value/properties/currency/title
-#: schema/patched/release-schema.json:1
+#. /definitions/BidsStatistic/properties/currency/title
+#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Currency"
 msgstr "Moneda"
 
@@ -3414,16 +3422,16 @@ msgstr "Estadística de ofertas"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "For reporting aggregate statistics about the bids related to a tender. Where"
-" lots are in use, statistics may optionally be broken down by lot."
+" lots are in use, statistics can be broken down by lot."
 msgstr ""
-"Para reportar estadísticas agregadas sobre las ofertas relacionadas con una "
-"oferta. Cuando se utilizan lotes, las estadísticas pueden dividirse por "
-"lotes."
+"Para informar de las estadísticas agregadas sobre las ofertas relacionadas "
+"con una licitación. Cuando se utilizan lotes, las estadísticas pueden "
+"desglosarse por lote."
 
 #. /definitions/BidsStatistic/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "An internal identifier for this statistical item."
-msgstr "Un identificador interno para este elemento estadístico."
+msgid "An internal identifier for this statistic."
+msgstr "Un identificador interno para estas estadísticas."
 
 #. /definitions/BidsStatistic/properties/measure/title
 #. /definitions/Observation/properties/measure/title
@@ -3433,39 +3441,44 @@ msgstr "Medida"
 
 #. /definitions/BidsStatistic/properties/measure/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid ""
-"An item from the bidStatistics codelist for the statistic reported in value."
-" This is an open codelist, and other statistics may also be included."
-msgstr ""
-"Un elemento de la lista de códigos bidStatistics para la estadística "
-"informada en valor. Esta es una lista de códigos abierta, también se pueden "
-"incluir otras estadísticas."
+msgid "The statistic reported in the value."
+msgstr "La estadística reportada en el valor."
 
 #. /definitions/BidsStatistic/properties/date/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "The date when this statistic was last updated. This is often the closing "
-"date of the tender process. This field can be left blank unless either (a) "
-"the same statistic is provided from multiple points in time, or (b) there is"
-" a specific local requirement for the date when statistics were calculated "
-"to be provided."
+"date of the tender process. This field may be omitted unless either (a) the "
+"same statistic is provided from multiple points in time, or (b) there is a "
+"specific local requirement for the date when statistics were calculated to "
+"be provided."
 msgstr ""
 "La fecha en que se actualizó por última vez esta estadística. Esta es a "
 "menudo la fecha de cierre del proceso de licitación. Este campo puede "
 "dejarse en blanco a menos que (a) se proporcione la misma estadística desde "
-"múltiples puntos en el tiempo, o (b) exista un requisito local específico "
-"para los datos cuando se calculen estadísticas para que estén disponibles."
+"múltiples puntos en el tiempo, o (b) exista un requerimiento local "
+"específico para proveer la fecha en la cual las estadísticas fueron "
+"calculadas."
 
 #. /definitions/BidsStatistic/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "The value for the measure in question. Total counts should be provided as an"
-" integer. Percentages should be presented as a proportion of 1 (e.g. 10% = "
+" integer. Percentages should be provided as a proportion of 1 (e.g. 10% = "
 "0.1)"
 msgstr ""
 "El valor de la medida en cuestión. Los recuentos totales deben "
-"proporcionarse como un entero. Los porcentajes deben presentarse como una "
-"proporción de 1 (por ejemplo, 10% = 0.1)"
+"proporcionarse como un entero. Los porcentajes deberían presentarse como una"
+" proporción de 1 (por ejemplo, 10% = 0.1)."
+
+#. /definitions/BidsStatistic/properties/currency/description
+#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
+msgid ""
+"The currency of the amount in the `value` field, if the statistic has a "
+"monetary value."
+msgstr ""
+"La moneda para el monto contenido en el campo `value`, si la estadística "
+"tiene un valor monetario."
 
 #. /definitions/BidsStatistic/properties/notes/title
 #. /definitions/Charge/properties/notes/title
@@ -3477,8 +3490,9 @@ msgstr "Notas"
 
 #. /definitions/BidsStatistic/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Any notes required to understand or interpret the given statistic."
-msgstr "Cualquier nota requerida para entender o interpretar la estadística."
+msgid "Any notes needed to understand or interpret the given statistic."
+msgstr ""
+"Cualquier nota necesaria para entender o interpretar la estadística dada."
 
 #. /definitions/BidsStatistic/properties/relatedLot/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3566,8 +3580,8 @@ msgstr "La fecha en que se recibió esta oferta."
 
 #. /definitions/Bid/properties/status/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "The status of the bid, drawn from the bidStatus codelist"
-msgstr "El estado de la oferta, extraído de la lista de códigos bidStatus"
+msgid "The status of the bid."
+msgstr "El estado de la oferta."
 
 #. /definitions/Bid/properties/tenderers/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3576,14 +3590,8 @@ msgstr "Licitante"
 
 #. /definitions/Bid/properties/tenderers/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid ""
-"The party, or parties, responsible for this bid. This should provide a name "
-"and identifier, cross-referenced to an entry in the parties array at the top"
-" level of the release."
-msgstr ""
-"La parte o partes responsables de esta oferta. Esto debe proporcionar un "
-"nombre y un identificador, con referencias cruzadas a una entrada en la "
-"matriz de partes en el nivel superior de la entrega."
+msgid "The party, or parties, responsible for this bid."
+msgstr "La parte, o las partes, responsable de esta oferta. "
 
 #. /definitions/Bid/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3756,7 +3764,7 @@ msgstr "Tipo de financiamiento"
 #. /definitions/Finance/properties/financeType/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The type of finance arranged."
-msgstr ""
+msgstr "El tipo de financiamiento acordado. "
 
 #. /definitions/Finance/properties/financeCategory/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3770,6 +3778,9 @@ msgid ""
 " order of preference for investors to get their money back in cases of "
 "liquidation."
 msgstr ""
+"La naturaleza de la financiación. Esta información puede utilizarse a la "
+"hora de determinar el orden de preferencia de los inversores para recuperar "
+"su dinero en caso de liquidación. "
 
 #. /definitions/Finance/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3809,6 +3820,10 @@ msgid ""
 "variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
 " entire interest rate."
 msgstr ""
+"La variable a la que se añade un importe de margen adicional para obtener el"
+" importe de los intereses. Puede especificarse como un número fijo, como una"
+" variable conocida (por ejemplo, LIBOR o LIBOR+1%), o puede omitirse si el "
+"margen especifica todo el tipo de interés."
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3921,13 +3936,12 @@ msgstr ""
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "A name or description of this location. This might include the name(s) of "
-"the location(s), or might provide a human readable description of the "
-"location to be covered. This description may be used in a user-interface."
+"the location(s), or might provide a human-readable description of the "
+"location to be covered."
 msgstr ""
-"Un nombre o descripción de esta ubicación. Esto podría incluir el nombre de "
-"la(s) ubicación(es), o podría proporcionar una descripción legible por el "
-"usuario de la ubicación a cubrir. Esta descripción se puede utilizar en una "
-"interfaz de usuario."
+"Un nombre o descripción para esta ubicación. Esto puede incluir el(los) "
+"nombre(s) de la ubicación (o ubicaciones), o puede incluir una descripción "
+"legible de la ubicación a ser cubierta."
 
 #. /definitions/Location/properties/geometry/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3938,21 +3952,21 @@ msgstr "Geometría"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "We follow the [GeoJSON standard](http://geojson.org/) to express basic "
-"location information, using longitude, latitude, and (optionally) elevation "
+"location information, using longitude, latitude, and optional elevation "
 "values in the [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) "
 "(EPSG:4326) projection. A point location can be identified by geocoding a "
 "delivery address. For concession licenses, or other contracts covering a "
 "polygon location which is not contained in a known gazetteer, polygon and "
 "multi-polygon can be used."
 msgstr ""
-"Seguimos el estándar [GeoJSON](http://geojson.org/) para expresar "
+"Seguimos el [estándar GeoJSON] (http://geojson.org/) para expresar "
 "información básica de ubicación, usando los valores de longitud, latitud y "
-"(opcionalmente) elevación en [WGS84] "
-"(https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG: 4326). Una "
-"ubicación de punto se puede identificar geocodificando una dirección de "
-"entrega. Para licencias de concesión, u otros contratos que cubran una "
-"ubicación de polígono que no esté contenida en un diccionario geográfico "
-"conocido, se pueden usar polígonos y polígonos múltiples."
+"opcionalmente elevación en la proyección [WGS84] "
+"(https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG: 4326). Un punto"
+" de ubicación se puede identificar geocodificando una dirección de entrega. "
+"Para licencias de concesión, u otros contratos que cubran una ubicación en "
+"polígono que no esté contenida en un diccionario geográfico conocido, se "
+"pueden usar polígonos y polígonos múltiples."
 
 #. /definitions/Location/properties/geometry/properties/type/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3964,18 +3978,15 @@ msgstr "Tipo"
 msgid ""
 "The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html"
 "#geometry-objects) being provided. To provide longitude, latitude, and "
-"(optionally) elevation, use 'Point', and enter an array of [longitude, "
-"latitude] or [longitude, latitude, elevation] as the value of the "
-"coordinates field: e.g. [-122.085, 37.42]. Note the capitalization of type "
-"values, in order to maintain compatibility with GeoJSON."
+"optional elevation, use 'Point', and enter an array of [longitude, latitude]"
+" or [longitude, latitude, elevation] as the value of the coordinates field: "
+"e.g. [-122.085, 37.42]."
 msgstr ""
-"El tipo de [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html"
+"El tipo de [Objeto Geométrico GeoJSON] (http://geojson.org/geojson-spec.html"
 "#geometry-objects) que se proporciona. Para proporcionar longitud, latitud y"
-" (opcionalmente) elevación, use 'Point', e ingrese una matriz de [longitude,"
-" latitude] o [longitude, latitude, elevation] como el valor del campo de "
-"coordenadas: por ejemplo, [-122.085, 37.42]. Tenga en cuenta la "
-"capitalización de los valores de tipo, a fin de mantener la compatibilidad "
-"con GeoJSON."
+" opcionalmente elevación, use 'Point', e ingrese una lista de [longitud, "
+"latitud] o [longitud, latitud, elevación] como el valor del campo de "
+"coordenadas: por ejemplo, [-122.085, 37.42]."
 
 #. /definitions/Location/properties/geometry/properties/coordinates/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3987,13 +3998,13 @@ msgstr "Coordenadas"
 msgid ""
 "The relevant array of points, e.g. [longitude, latitude] or [longitude, "
 "latitude, elevation], or a nested array of points, for the GeoJSON geometry "
-"being described. The longitude and latitude MUST be expressed in decimal "
+"being described. The longitude and latitude must be expressed in decimal "
 "degrees in the WGS84 (EPSG:4326) projection."
 msgstr ""
-"El conjunto relevante de puntos, por ejemplo,  [longitude, latitude] o "
-"[longitude, latitude, elevation], o una matriz anidada de puntos, para la "
-"geometría GeoJSON que se describe. La longitud y la latitud DEBEN expresarse"
-" en grados decimales en la proyección WGS84 (EPSG: 4326)."
+"La lista de puntos, ej. [longitud, latitud] o [longitud, latitud, "
+"elevación], o una lista anidada de puntos, para el objeto geométrico GeoJSON"
+" que está siendo descrito. La longitud y latitud deben ser expresadas en "
+"grados decimales en la proyección WGS84 (EPSG:4326)."
 
 #. /definitions/Location/properties/gazetteer/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4003,13 +4014,11 @@ msgstr "Diccionario Geográfico"
 #. /definitions/Location/properties/gazetteer/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"A gazetteer is a geographical index or directory. The specific gazetteer "
-"used should be specified in scheme, and one or more codes from that "
-"gazetteer used in identifier."
+"Identifiers from a gazetteer (a geographical index or directory) for the "
+"location."
 msgstr ""
-"Un diccionario geográfico es un índice o directorio geográfico. El "
-"diccionario específico utilizado debe especificarse en el esquema, y ​​se "
-"deben utilizar uno o más códigos de ese diccionario en el identificador."
+"Identificadores de un diccionario geográfico (un índice o directorio "
+"geográfico) para la ubicación. "
 
 #. /definitions/Location/properties/gazetteer/properties/scheme/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4019,14 +4028,14 @@ msgstr "Esquema de diccionario geográfico"
 #. /definitions/Location/properties/gazetteer/properties/scheme/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The entry of the selected gazetteer in the gazetteers codelist. The codelist"
-" provides details of services, where available, that can resolve a gazetteer"
-" entry to provide location names."
+"The identifier of the gazetteer. The `locationGazetteers.csv` codelist "
+"provides details of services, where available, that can resolve a gazetteer "
+"entry to provide location names."
 msgstr ""
-"La entrada del diccionario geográfico seleccionado en la lista de códigos de"
-" diccionarios geográficos. La lista de códigos proporciona detalles de los "
-"servicios, cuando están disponibles, que pueden resolver una entrada de un "
-"diccionario geográfico para proporcionar nombres de ubicación."
+"El identificador del diccionario geográfico. La lista de códigos "
+"`locationGazetteers.csv` provee detalles de servicios, si están disponibles,"
+" que pueden resolver una entrada del diccionario geográfico para proveer "
+"nombres de ubicación."
 
 #. /definitions/Location/properties/gazetteer/properties/identifiers/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4036,20 +4045,21 @@ msgstr "Identificadores"
 #. /definitions/Location/properties/gazetteer/properties/identifiers/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"An array of one or more codes drawn from the gazetteer indicated in scheme."
+"An array of one or more codes drawn from the gazetteer indicated by the "
+"`scheme` field."
 msgstr ""
-"Una matriz de uno o más códigos extraídos del diccionario geográfico "
-"indicado en el esquema."
+"Una lista de uno o más códigos tomados del diccionario geográfico indicado "
+"en el campo `scheme`."
 
 #. /definitions/Location/properties/uri/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"A URI to a further description of the activity location. This may be a human"
-" readable document with information on the location, or a machine-readable "
-"description of the location."
+"A URI to a further description of the activity location. This might be a "
+"human-readable document with information on the location, or a machine-"
+"readable description of the location."
 msgstr ""
-"Un URI para una descripción más detallada de la ubicación de la actividad. "
-"Esto puede ser un documento legible por el usuario con información sobre la "
+"Un URI a una descripción más detallada de la ubicación de la actividad. Esto"
+" puede ser un documento legible por el usuario con información sobre la "
 "ubicación o una descripción legible por computadora de la ubicación."
 
 #. /definitions/Metric/title
@@ -4176,6 +4186,10 @@ msgid ""
 "scheme 'UNCEFACT' for the UN/CEFACT Recommendation 20 list of \"Codes for "
 "Units of Measure Used in International Trade\" is recommended."
 msgstr ""
+"La lista de la que se toman los identificadores de las unidades de medida. "
+"Se recomienda el uso del esquema 'UNCEFACT' para la lista Recomendación 20 "
+"de CEFACT/ONU de \"Códigos de unidades de medida utilizados en el comercio "
+"internacional\"."
 
 #. /definitions/Observation/properties/unit/properties/id/description
 #. /definitions/Tariff/properties/unit/properties/id/description
@@ -4515,7 +4529,7 @@ msgstr "Categoría de riesgo"
 #. /definitions/Risk/properties/category/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The category of the risk."
-msgstr ""
+msgstr "La categoria del riesgo. "
 
 #. /definitions/Risk/properties/description/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4611,6 +4625,8 @@ msgid ""
 "The type of voting rights associated with the shares held by the "
 "shareholder."
 msgstr ""
+"El tipo de derechos de voto asociados a las acciones que posee el "
+"accionista."
 
 #. /definitions/Shareholder/properties/votingRightsDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1

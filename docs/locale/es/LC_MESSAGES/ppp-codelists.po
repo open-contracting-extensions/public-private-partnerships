@@ -10,15 +10,16 @@
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Oscar Montiel <oscar.montiel@okfn.org>, 2018
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-23 14:49-0400\n"
+"POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-07-31 16:41+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -495,6 +496,8 @@ msgstr "El número total de solicitudes únicas de participación recibidas"
 #: schema/patched/codelists/bidStatistics.csv:10
 #: schema/patched/codelists/bidStatistics.csv:11
 #: schema/patched/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/patched/codelists/bidStatistics.csv:14
 #: schema/patched/codelists/bidStatus.csv:1
 #: schema/patched/codelists/bidStatus.csv:2
 #: schema/patched/codelists/bidStatus.csv:3
@@ -531,22 +534,46 @@ msgstr "Ofertas válidas"
 msgid ""
 "The total number of unique bids received that were considered valid against "
 "relevant criteria (either of the bidder, or the bid submission itself). All "
-"valid bids should be considered during the tender evaluation stage."
+"valid bids are considered during the tender evaluation stage."
 msgstr ""
-"El número total de ofertas únicas recibidas que se consideraron válidas en "
-"función de los criterios pertinentes (del licitante o de la solicitud de "
-"oferta misma). Todas las ofertas válidas deben ser consideradas durante la "
-"etapa de evaluación de la oferta."
+"El número total de ofertas únicas recibidas que fueron consideradas válidas "
+"con el criterio relevante (ya sea del postor o la presentación de la oferta "
+"en sí). Todas las ofertas válidas son consideradas durante la etapa de "
+"evaluación de la licitación."
 
 #. Title
 #: schema/patched/codelists/bidStatistics.csv:4
 #: schema/profile/codelists/bidStatistics.csv:4
-msgid "Bidders"
-msgstr "Licitantes"
+msgid "Lowest valid bid value"
+msgstr "Valor más bajo de la oferta válida"
 
 #. Description
 #: schema/patched/codelists/bidStatistics.csv:4
 #: schema/profile/codelists/bidStatistics.csv:4
+msgid "The value of the lowest valid bid."
+msgstr "Valor de la oferta válida más baja."
+
+#. Title
+#: schema/patched/codelists/bidStatistics.csv:5
+#: schema/profile/codelists/bidStatistics.csv:5
+msgid "Highest valid bid value"
+msgstr "Valor más alto de la oferta válida"
+
+#. Description
+#: schema/patched/codelists/bidStatistics.csv:5
+#: schema/profile/codelists/bidStatistics.csv:5
+msgid "The value of the highest valid bid."
+msgstr "Valor de la oferta válida más alta."
+
+#. Title
+#: schema/patched/codelists/bidStatistics.csv:6
+#: schema/profile/codelists/bidStatistics.csv:6
+msgid "Bidders"
+msgstr "Licitantes"
+
+#. Description
+#: schema/patched/codelists/bidStatistics.csv:6
+#: schema/profile/codelists/bidStatistics.csv:6
 msgid ""
 "The total number of unique organizations or consortia submitting bids  "
 "(prior to any being discounted for not meeting essential criteria)."
@@ -555,14 +582,14 @@ msgstr ""
 "(antes de que se descarten por no cumplir los criterios esenciales)."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:5
-#: schema/profile/codelists/bidStatistics.csv:5
+#: schema/patched/codelists/bidStatistics.csv:7
+#: schema/profile/codelists/bidStatistics.csv:7
 msgid "Qualified bidders"
 msgstr "Licitantes calificados"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:5
-#: schema/profile/codelists/bidStatistics.csv:5
+#: schema/patched/codelists/bidStatistics.csv:7
+#: schema/profile/codelists/bidStatistics.csv:7
 msgid ""
 "The total number of unique organizations or consortia passing the "
 "qualification stage of the evaluation process."
@@ -571,14 +598,14 @@ msgstr ""
 "calificación del proceso de evaluación."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:6
-#: schema/profile/codelists/bidStatistics.csv:6
+#: schema/patched/codelists/bidStatistics.csv:8
+#: schema/profile/codelists/bidStatistics.csv:8
 msgid "Disqualified bidders"
 msgstr "Licitantes descalificados"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:6
-#: schema/profile/codelists/bidStatistics.csv:6
+#: schema/patched/codelists/bidStatistics.csv:8
+#: schema/profile/codelists/bidStatistics.csv:8
 msgid ""
 "The total number of unique organizations or consortia that did not pass the "
 "qualification stage of the evaluation process."
@@ -587,38 +614,38 @@ msgstr ""
 "etapa de calificación del proceso de evaluación."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:7
-#: schema/profile/codelists/bidStatistics.csv:7
+#: schema/patched/codelists/bidStatistics.csv:9
+#: schema/profile/codelists/bidStatistics.csv:9
 msgid "Electronic bids"
 msgstr "Ofertas electrónicas"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:7
-#: schema/profile/codelists/bidStatistics.csv:7
+#: schema/patched/codelists/bidStatistics.csv:9
+#: schema/profile/codelists/bidStatistics.csv:9
 msgid "The number of bids received by electronic means."
 msgstr "El número de ofertas recibidas por medios electrónicos."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:8
-#: schema/profile/codelists/bidStatistics.csv:8
+#: schema/patched/codelists/bidStatistics.csv:10
+#: schema/profile/codelists/bidStatistics.csv:10
 msgid "Bids from SMEs"
 msgstr "Ofertas de PYMES"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:8
-#: schema/profile/codelists/bidStatistics.csv:8
+#: schema/patched/codelists/bidStatistics.csv:10
+#: schema/profile/codelists/bidStatistics.csv:10
 msgid "The number of bids received from small and medium-sized enterprises."
 msgstr "El número de ofertas recibidas de pequeñas o medianas empresas."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:9
-#: schema/profile/codelists/bidStatistics.csv:9
+#: schema/patched/codelists/bidStatistics.csv:11
+#: schema/profile/codelists/bidStatistics.csv:11
 msgid "Bids from foreign firms"
 msgstr "Ofertas de empresas extranjeras"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:9
-#: schema/profile/codelists/bidStatistics.csv:9
+#: schema/patched/codelists/bidStatistics.csv:11
+#: schema/profile/codelists/bidStatistics.csv:11
 msgid ""
 "The number of bids received from bidders from outside the country where the "
 "tender is issued."
@@ -627,14 +654,14 @@ msgstr ""
 "emite la oferta."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:10
-#: schema/profile/codelists/bidStatistics.csv:10
+#: schema/patched/codelists/bidStatistics.csv:12
+#: schema/profile/codelists/bidStatistics.csv:12
 msgid "Bids from firms in other European Economic Area countries"
 msgstr "Ofertas de empresas en otros países del Área Económica Europea"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:10
-#: schema/profile/codelists/bidStatistics.csv:10
+#: schema/patched/codelists/bidStatistics.csv:12
+#: schema/profile/codelists/bidStatistics.csv:12
 msgid ""
 "The number of bids received from tenderers from other European Economic Area"
 " countries."
@@ -643,16 +670,16 @@ msgstr ""
 "Económica Europea."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:11
-#: schema/profile/codelists/bidStatistics.csv:11
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/profile/codelists/bidStatistics.csv:13
 msgid "Bids from firms in non-European Economic Area countries"
 msgstr ""
 "Ofertas de empresas en otros países que no pertenecen al Área Económica "
 "Europea"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:11
-#: schema/profile/codelists/bidStatistics.csv:11
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/profile/codelists/bidStatistics.csv:13
 msgid ""
 "The number of bids received from tenderers from non-European Economic Area "
 "countries."
@@ -661,25 +688,25 @@ msgstr ""
 " al Área Económica Europea."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:12
-#: schema/profile/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:14
+#: schema/profile/codelists/bidStatistics.csv:14
 msgid "Tenders excluded because they were abnormally low"
 msgstr "Ofertas excluídas porque eran anormalmente bajas"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:12
-#: schema/profile/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:14
+#: schema/profile/codelists/bidStatistics.csv:14
 msgid ""
 "The number of tenders excluded because they were abnormally low. Note that "
-"in some EU datasets this may have been converted from a boolean, such that a"
-" value of 1 would indicate '1 or more' tenders were excluded. Users should "
-"evaluate and interpret data accordingly."
+"in some EU datasets this might have been converted from a boolean, such that"
+" a value of 1 would indicate \"1 or more\" tenders were excluded. Users need"
+" to evaluate and interpret data accordingly."
 msgstr ""
-"El número de ofertas excluidas porque eran anormalmente bajas. Tenga en "
-"cuenta que en algunos conjuntos de datos de la UE esto pudo haber sido "
-"convertido de un booleano, de modo que un valor 1 indicaría \"1 o más\" "
-"ofertas fueron excluidas. Los usuarios deben evaluar e interpretar los datos"
-" según corresponda."
+"El número de licitaciones excluidas por ser anormalmente bajas. Tenga en "
+"cuenta que en algunos conjuntos de datos de la UE esto puede haberse "
+"convertido en un booleano, de manera que un valor de 1 indicaría que se "
+"excluyeron \"1 o más\" licitaciones. Los usuarios deben evaluar e "
+"interpretar los datos en consecuencia."
 
 #. Title
 #: schema/patched/codelists/bidStatus.csv:1
@@ -1449,6 +1476,10 @@ msgid ""
 " documentation and spreadsheets providing the models used to calculate "
 "tariffs."
 msgstr ""
+"Para resumir el método de fijación de tarifas y enlazar con la documentación"
+" detallada de los métodos de fijación de tarifas. Esto podría incluir "
+"documentación escrita y hojas de cálculo que proporcionen los modelos "
+"utilizados para calcular las tarifas."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:44
@@ -1475,7 +1506,7 @@ msgstr ""
 #: schema/patched/codelists/documentType.csv:45
 #: schema/profile/codelists/+documentType.csv:4
 msgid "Tariff illustration"
-msgstr ""
+msgstr "Ilustración de tarifa"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:45
@@ -1783,6 +1814,11 @@ msgid ""
 "payment commitments whose occurrence, timing and magnitude depend on some "
 "uncertain future event, outside the control of the public authority."
 msgstr ""
+"Informes en los que se detallan los compromisos fiscales de la autoridad "
+"pública con la APP, por ejemplo, los pagos conocidos que deben realizarse si"
+" la APP sigue adelante o los compromisos de pago cuya ocurrencia, calendario"
+" y magnitud dependen de algún acontecimiento futuro incierto, fuera del "
+"control de la autoridad pública."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:61
@@ -1802,6 +1838,14 @@ msgid ""
 "periodicity of grant payments, and particular grant milestones, ought to be "
 "provided."
 msgstr ""
+"Información sobre las subvenciones concedidas para apoyar el proyecto. La "
+"información sobre las subvenciones debe detallar el valor total de la "
+"subvención, y/o el valor de la subvención como proporción del valor total "
+"del proyecto, así como proporcionar información sobre la naturaleza de la "
+"subvención. En el caso de las subvenciones de capital pagadas durante la "
+"construcción de un proyecto, o de las subvenciones de explotación pagadas "
+"durante el funcionamiento, deben facilitarse detalles sobre la periodicidad "
+"de los pagos de la subvención, así como los hitos concretos de la misma."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:62
@@ -1819,6 +1863,12 @@ msgid ""
 "the total number of payments and their periodicity, as well as the "
 "methodology used for calculating payments and the indexation used."
 msgstr ""
+"Los pagos de servicios son los pagos realizados por la autoridad pública o "
+"el comprador al proveedor privado por los servicios de infraestructura "
+"(aplicable en algunos tipos de proyectos de Asociación Público-Privada). La "
+"documentación debe incluir el número total de pagos y su periodicidad, así "
+"como la metodología utilizada para calcular los pagos y la indexación "
+"utilizada."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:63
@@ -2114,6 +2164,9 @@ msgid ""
 "other defaults. Guarantees are not to be counted in totals of the overall "
 "financing of a project."
 msgstr ""
+"Una garantía es la promesa de una parte de asumir la deuda de otra en caso "
+"de que ésta incumpla. Las garantías no deben contabilizarse en los totales "
+"de la financiación global de un proyecto."
 
 #. Title
 #: schema/patched/codelists/financeCategory.csv:6
@@ -2128,6 +2181,8 @@ msgid ""
 "Any details of the conditions attached to this finance can be provided in "
 "the notes field."
 msgstr ""
+"Los detalles de las condiciones asociadas a esta financiación pueden "
+"indicarse en el campo de notas."
 
 #. Title
 #: schema/patched/codelists/financeType.csv:1
@@ -2331,11 +2386,11 @@ msgstr "Polygon"
 #: schema/patched/codelists/geometryType.csv:5
 #: schema/profile/codelists/geometryType.csv:5
 msgid ""
-"For type 'Polygon', the 'coordinates' member MUST be an array of linear ring"
+"For type 'Polygon', the 'coordinates' member must be an array of linear ring"
 " coordinate arrays."
 msgstr ""
-"Para el tipo 'Polygon' el miembro 'coordinates' DEBE ser un array de "
-"coordenadas 'LinearRing'"
+"Para el tipo 'Polygon', el miembro 'coordinates' debe ser una matriz de "
+"coordenadas anulares lineales."
 
 #. Title
 #: schema/patched/codelists/geometryType.csv:6
@@ -2660,12 +2715,12 @@ msgstr "Nodo de Open Street Map"
 #: schema/profile/codelists/locationGazetteers.csv:4
 msgid ""
 "OpenStreetMap Nodes consist of a single point in space defined by a "
-"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"latitude, longitude and node ID. Nodes might have tags to indicate the "
 "particular geographic feature they represent."
 msgstr ""
-"Los Nodos de Open Street Map consisten en un único punto en el espacio "
-"definido por una latitud, longitud y ID de nodo. Los nodos pueden tener "
-"etiquetas para indicar la característica geográfica particular que "
+"Los nodos de OpenStreetMap consisten en un único punto en el espacio "
+"definido por una latitud, una longitud y un ID de nodo. Los nodos pueden "
+"tener etiquetas para indicar el accidente geográfico concreto que "
 "representan."
 
 #. Title
@@ -2696,12 +2751,12 @@ msgstr "Vía de Open Street Map"
 #: schema/patched/codelists/locationGazetteers.csv:6
 #: schema/profile/codelists/locationGazetteers.csv:6
 msgid ""
-"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be used "
-"to describe fragments of roads or local boundaries and bounding boxes."
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. It can be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""
-"Una Vía de Open Street Map es una lista ordenada de nodos Open Street Map. "
-"Puede ser usado para describir fragmentos de caminos o límites locales y "
-"cajas delimitadoras."
+"Un camino de OpenStreetMap es una lista ordenada de nodos de OpenStreetMap. "
+"Puede utilizarse para describir fragmentos de caminos o límites locales y "
+"cuadros delimitadores."
 
 #. Title
 #: schema/patched/codelists/method.csv:1
@@ -2791,7 +2846,7 @@ msgstr "Aprobación del proyecto"
 #: schema/patched/codelists/milestoneCode.csv:1
 #: schema/profile/codelists/milestoneCode.csv:1
 msgid "The dates of approvals from relevant authorities."
-msgstr ""
+msgstr "Las fechas de las aprobaciones de las autoridades pertinentes."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:2
@@ -2883,6 +2938,10 @@ msgid ""
 "during which enquiries can be made and responded to which is not provided in"
 " the tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
+"Para los procesos con múltiples periodos de consulta, la fecha de inicio de "
+"un periodo durante el cual se pueden realizar y responder consultas que no "
+"se proporciona en el bloque tender/enquiryPeriod. A veces conocidos como "
+"períodos de aclaración."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:8
@@ -2898,6 +2957,10 @@ msgid ""
 " which enquiries can be made and responded to which is not provided in the "
 "tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
+"En los procesos con múltiples periodos de consulta, la fecha de finalización"
+" de un periodo durante el cual se pueden realizar y responder consultas que "
+"no se proporciona en el bloque tender/enquiryPeriod. A veces conocidos como "
+"períodos de aclaración."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:9
@@ -3873,6 +3936,11 @@ msgid ""
 " natural environment etc. An adverse assessment might lead to changes in "
 "design, leading to a direct impact on cost of infrastructure"
 msgstr ""
+"Los riesgos medioambientales pueden estar relacionados con una serie de "
+"cuestiones medioambientales como la contaminación general, la contaminación "
+"del agua, el impacto en el entorno natural, etc. Una evaluación adversa "
+"podría conducir a cambios en el diseño, lo que repercutiría directamente en "
+"el coste de la infraestructura"
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:3
@@ -4040,6 +4108,9 @@ msgid ""
 "Risk that external events beyond the control of the parties to the contract,"
 " such as natural disasters, wars, terrorism etc., affect the project"
 msgstr ""
+"Riesgo de que acontecimientos externos ajenos al control de las partes del "
+"contrato, como catástrofes naturales, guerras, terrorismo, etc., afecten al "
+"proyecto"
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:14
@@ -4054,6 +4125,9 @@ msgid ""
 "Risk that compensation sum due to early termination might be insufficient to"
 " meet private party’s financial obligations or is less than expected"
 msgstr ""
+"Riesgo de que el importe de la indemnización por rescisión anticipada sea "
+"insuficiente para hacer frente a las obligaciones financieras de la parte "
+"privada o sea inferior a lo previsto"
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:15
