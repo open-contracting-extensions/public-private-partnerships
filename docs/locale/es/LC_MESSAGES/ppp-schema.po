@@ -7,10 +7,10 @@
 # Oscar Montiel <oscar.montiel@okfn.org>, 2018
 # Ben Webb <ben.webb@opendataservices.coop>, 2018
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -888,7 +888,7 @@ msgstr ""
 #. /definitions/Tender/properties/enquiryPeriod/title
 #: schema/patched/release-schema.json:1
 msgid "Enquiry period"
-msgstr "Periodo de consulta"
+msgstr "Período de consulta"
 
 #. /definitions/Tender/properties/enquiryPeriod/description
 #: schema/patched/release-schema.json:1
@@ -899,7 +899,7 @@ msgid ""
 "submissionMethodDetails. Structured dates for when responses to questions "
 "will be made can be provided using tender milestones."
 msgstr ""
-"El periodo durante el cual los postulantes potenciales pueden hacer "
+"El peróodo durante el cual los postulantes potenciales pueden hacer "
 "preguntas o solicitudes de aclaración a la entidad que gestiona el proceso "
 "de contratación. Los detalles de cómo enviar solicitudes deben especificarse"
 " en documentos de notificaciones adjuntos o en el campo "
@@ -959,14 +959,14 @@ msgid ""
 "The period over which the contract is estimated or required to be active. If"
 " the tender does not specify explicit dates, the duration field may be used."
 msgstr ""
-"El periodo sobre el cual se estima el contrato o requiere que esté activo. "
+"El período sobre el cual se estima el contrato o requiere que esté activo. "
 "Si la licitación no especifica fechas, se puede usar el campo de duración."
 
 #. /definitions/Tender/properties/contractPeriod/title
 #. /definitions/Award/properties/contractPeriod/title
 #: schema/patched/release-schema.json:1
 msgid "Contract period"
-msgstr "Periodo de contrato"
+msgstr "Período de contrato"
 
 #. /definitions/Tender/properties/numberOfTenderers/title
 #: schema/patched/release-schema.json:1
@@ -1234,7 +1234,7 @@ msgstr ""
 #. /definitions/Award/properties/contractPeriod/description
 #: schema/patched/release-schema.json:1
 msgid "The period for which the contract has been awarded."
-msgstr "El periodo por el cual se ha adjudicado el contrato."
+msgstr "El período por el cual se ha adjudicado el contrato."
 
 #. /definitions/Award/properties/documents/description
 #: schema/patched/release-schema.json:1
@@ -1373,7 +1373,7 @@ msgstr ""
 #. /definitions/Observation/properties/period/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Period"
-msgstr "Periodo"
+msgstr "Período"
 
 #. /definitions/Contract/properties/period/description
 #: schema/patched/release-schema.json:1
@@ -4002,9 +4002,9 @@ msgid ""
 "degrees in the WGS84 (EPSG:4326) projection."
 msgstr ""
 "La lista de puntos, ej. [longitud, latitud] o [longitud, latitud, "
-"elevación], o una lista anidada de puntos, para el objeto geométrico GeoJSON"
-" que está siendo descrito. La longitud y latitud deben ser expresadas en "
-"grados decimales en la proyección WGS84 (EPSG:4326)."
+"elevación], o una matriz anidada de puntos, para el objeto geométrico "
+"GeoJSON que está siendo descrito. La longitud y latitud deben ser expresadas"
+" en grados decimales en la proyección WGS84 (EPSG:4326)."
 
 #. /definitions/Location/properties/gazetteer/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4449,7 +4449,7 @@ msgstr "Información vinculada del proyecto"
 #. /definitions/Project/properties/uri/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "A URI pointing to further information about this project."
-msgstr "Una URI que apunte a mayor información sobre este proyecto."
+msgstr "Un URI que apunte a mayor información sobre este proyecto."
 
 #. /definitions/Project/properties/sector/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4529,7 +4529,7 @@ msgstr "Categoría de riesgo"
 #. /definitions/Risk/properties/category/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The category of the risk."
-msgstr "La categoria del riesgo. "
+msgstr "La categoría del riesgo. "
 
 #. /definitions/Risk/properties/description/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1

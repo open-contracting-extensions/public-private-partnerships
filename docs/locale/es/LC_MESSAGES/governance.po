@@ -7,6 +7,7 @@
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,7 +91,7 @@ msgid ""
 "[Metrics](https://extensions.open-"
 "contracting.org/en/extensions/metrics/master/)"
 msgstr ""
-"[Metricas](https://extensions.open-"
+"[Métricas](https://extensions.open-"
 "contracting.org/es/extensions/metrics/master/)"
 
 #: ../../docs/governance.md:13

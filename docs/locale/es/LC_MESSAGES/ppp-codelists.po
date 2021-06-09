@@ -6,11 +6,11 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2018
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Oscar Montiel <oscar.montiel@okfn.org>, 2018
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-07-31 16:41+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1420,7 +1420,7 @@ msgstr "Documentación enviada por un licitante como parte de su oferta"
 #. Title
 #: schema/patched/codelists/documentType.csv:40
 msgid "Contract summary"
-msgstr "Resúmen del contrato"
+msgstr "Resumen del contrato"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:40
@@ -1793,10 +1793,10 @@ msgid ""
 msgstr ""
 "Los detalles de cualquier derecho otorgado a un prestador para acceder al "
 "valor en caso de una falta por el prestador, y cualquier derecho que se de a"
-" alguna parte involucrada que entre por otra parte involucrada , por "
-"ejemplo, un derecho concedido a un prestador o autoridad pública para tomar "
-"control temporal sobre la operación del proyecto en caso de que un actor "
-"privado falle."
+" alguna parte involucrada que entre por otra parte involucrada, por ejemplo,"
+" un derecho concedido a un prestador o autoridad pública para tomar control "
+"temporal sobre la operación del proyecto en caso de que un actor privado "
+"falle."
 
 #. Title
 #: schema/patched/codelists/documentType.csv:60
@@ -2341,7 +2341,7 @@ msgstr "MultiPoint"
 msgid ""
 "For type 'MultiPoint', the 'coordinates' member is an array of positions."
 msgstr ""
-"Para el tipo \"MultiPoint\", el miembro 'coordinates' es una lista de "
+"Para el tipo \"MultiPoint\", el miembro 'coordinates' es una matriz de "
 "posiciones."
 
 #. Title
@@ -2357,8 +2357,8 @@ msgid ""
 "For type 'LineString', the 'coordinates' member is an array of two or more "
 "positions."
 msgstr ""
-"Para el tipo \"LineString\", el miembro 'coordinates' es una lista de dos o "
-"más posiciones."
+"Para el tipo \"LineString\", el miembro 'coordinates' es una matriz de dos o"
+" más posiciones."
 
 #. Title
 #: schema/patched/codelists/geometryType.csv:4
@@ -2373,7 +2373,7 @@ msgid ""
 "For type 'MultiLineString', the 'coordinates' member is an array of "
 "LineString coordinate arrays."
 msgstr ""
-"Para el tipo \"MultiLineString\", el miembro 'coordinates' es un array de "
+"Para el tipo \"MultiLineString\", el miembro 'coordinates' es una matriz de "
 "coordenadas 'LineString'."
 
 #. Title
@@ -2405,8 +2405,8 @@ msgid ""
 "For type 'MultiPolygon', the 'coordinates' member is an array of Polygon "
 "coordinate arrays."
 msgstr ""
-"Para el tipo 'MultiPolygon' el miembro 'coordinates' es una lista de "
-"coordendas 'Polygon'"
+"Para el tipo 'MultiPolygon' el miembro 'coordinates' es una matriz de "
+"coordenadas 'Polygon'"
 
 #. Title
 #: schema/patched/codelists/initiationType.csv:1
@@ -3137,9 +3137,9 @@ msgid ""
 "`implementation.transactions`."
 msgstr ""
 "Para hitos de pago, tales como la fecha en la que se espera que un pago se "
-"haga a un proveedor. Si el estado (`status`) de un hito de pago de contrato "
-"es 'met' (o \"cumplido\"), el contrato debe de tener una entrada para el "
-"pago en su lista de transacciones en `implementation.transactions`."
+"haga a un proveedor. Si el estado `status` de un hito de pago de contrato es"
+" 'met' (o \"cumplido\"), el contrato debe de tener una entrada para el pago "
+"en su lista de transacciones en `implementation.transactions`."
 
 #. Title
 #: schema/patched/codelists/milestoneType.csv:9

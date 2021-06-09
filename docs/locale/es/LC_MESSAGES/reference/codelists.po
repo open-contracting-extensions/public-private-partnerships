@@ -6,10 +6,10 @@
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Oscar Montiel <oscar.montiel@okfn.org>, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
 # James McKinney, 2021
 # Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
-"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,12 @@ msgid ""
 "currencies in the world. **Open codelists** are intended to be "
 "representative, but not comprehensive."
 msgstr ""
+"Las listas de código pueden ser abiertas o cerradas. **Las listas de código "
+"cerradas** están diseñadas para ser completas, por ejemplo, la lista de "
+"código [moneda](http://standard.open-"
+"contracting.org/latest/es/schema/codelists/#currency) cubre todas las "
+"monedas del mundo. **Las listas de código abiertas** están diseñadas para "
+"ser representativas, pero no completas."
 
 #: ../../docs/reference/codelists.md:7
 msgid ""
@@ -88,6 +94,10 @@ msgid ""
 "Contracting Data Standard [codelists documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/)."
 msgstr ""
+"Para más información en listas de código abiertas y cerradas, vea la "
+"[documentación de lista de código](http://standard.open-"
+"contracting.org/latest/es/schema/codelists/) del Estándar de Datos de "
+"Contrataciones Abiertas."
 
 #: ../../docs/reference/codelists.md:17
 msgid "OCDS codelists"
@@ -112,18 +122,24 @@ msgid ""
 "[Award status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#award-status)"
 msgstr ""
+"[Estado de la Adjudicación](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#award-status)"
 
 #: ../../docs/reference/codelists.md:24
 msgid ""
 "[Contract status](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#contract-status)"
 msgstr ""
+"[Estado del contrato](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#contract-status)"
 
 #: ../../docs/reference/codelists.md:25
 msgid ""
 "[Currency](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#currency)"
 msgstr ""
+"[Moneda](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#currency)"
 
 #: ../../docs/reference/codelists.md:26
 msgid ""
@@ -230,6 +246,8 @@ msgid ""
 "[Unit classification scheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#unit-classification-scheme)"
 msgstr ""
+"[Esquema de Clasificación de la Unidad](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/#unit-classification-scheme)"
 
 #: ../../docs/reference/codelists.md:43
 msgid "OCDS for PPPs codelists"
@@ -255,6 +273,9 @@ msgid ""
 " and details extension documentation](https://extensions.open-"
 "contracting.org/en/extensions/bids/v1.1.5/)."
 msgstr ""
+"Para guía adicional al utilizar esta lista de código, vea la [documentación "
+"de extensión de estadísticas y detalles de las ofertas ](https://extensions"
+".open-contracting.org/es/extensions/bids/v1.1.5/)."
 
 #: ../../docs/reference/codelists.md:59
 msgid "chargePaidBy"
@@ -268,6 +289,11 @@ msgid ""
 "documentation](https://extensions.open-"
 "contracting.org/en/extensions/tariffs/master/)."
 msgstr ""
+"Para guía adicional al usar esta lista de código, vea la [documentación de "
+"la extensión de cargos](https://extensions.open-"
+"contracting.org/es/extensions/charges/) y la [documentación de la extensión "
+"de tarifas](https://extensions.open-"
+"contracting.org/es/extensions/tariffs/master/)."
 
 #: ../../docs/reference/codelists.md:69
 msgid "financeCategory"
@@ -293,6 +319,9 @@ msgid ""
 "extension documentation](https://extensions.open-"
 "contracting.org/en/extensions/finance/master/)."
 msgstr ""
+"Para guía adicional al utilizar esta lista de código, vea la [documentación "
+"de la extensión de Financiamiento ](https://extensions.open-"
+"contracting.org/es/extensions/finance/master/)."
 
 #: ../../docs/reference/codelists.md:89
 msgid "geometryType"
@@ -304,6 +333,9 @@ msgid ""
 "extension documentation](https://extensions.open-"
 "contracting.org/en/extensions/location/)."
 msgstr ""
+"Para guía adicional al utilizar esta lista de código, vea la [documentación "
+"de la extensión de Ubicación](https://extensions.open-"
+"contracting.org/es/extensions/location/)."
 
 #: ../../docs/reference/codelists.md:99
 msgid "riskAllocation"
@@ -347,6 +379,9 @@ msgid ""
 "type codelist documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#document-type)."
 msgstr ""
+"Para guía adicional al usar esta lista de código, vea la [documentación de "
+"lista de códigos de tipo de documento OCDS](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#document-type)."
 
 #: ../../docs/reference/codelists.md:141
 msgid "locationGazetteers"
@@ -380,6 +415,9 @@ msgid ""
 " type codelist documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#milestone-type)."
 msgstr ""
+"Para guía adicional al utilizar esta lista de código, vea la [documentación "
+"de la lista de códigos de tipo de hito OCDS](http://standard.open-"
+"contracting.org/latest/es/schema/codelists/#milestone-type)."
 
 #: ../../docs/reference/codelists.md:181
 msgid "partyRole"
@@ -391,6 +429,9 @@ msgid ""
 "role codelist documentation](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#party-role)."
 msgstr ""
+"Para guía adicional al utilizar esta lista de código, vea la [documentación "
+"de la lista de códigos de rol de la parte OCDS](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#party-role)."
 
 #: ../../docs/reference/codelists.md:191
 msgid "riskCategory"
