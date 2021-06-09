@@ -112,7 +112,7 @@ msgid ""
 " a [full reference table is provided](reference/schema.md)."
 msgstr ""
 "Un compilado del esquema OCDS para APPs, con las extensiones aplicadas, "
-"también esta {descarga}`disponible para descarga<_static/patched/release-"
+"también esta {download}`disponible para descarga<_static/patched/release-"
 "schema.json>`, y [la tabla de referencia completa es "
 "proveída](reference/schema.md)."
 
