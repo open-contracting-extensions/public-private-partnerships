@@ -8,9 +8,8 @@ This allows different stakeholders to understand how a project has developed.
 
 ## Details
 
-```eval_rst
-.. image:: _static/images/ocds_show.png
-   :target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
+```{image} _static/images/ocds_show.png
+:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/full_record_package.json
 ```
 
 Based on our pilot work with the Red Compartida programme, we have created a fictional example PPP.
@@ -27,11 +26,11 @@ The releases were then compiled into a record, and are available to browse using
 
 ## Explore the example
 
-View the [OCDS releases in JSON format here](../_static/full.json).
+View the {download}`OCDS releases in JSON format here <examples/full.json>`.
 
-View the [OCDS record in JSON format here](../_static/full_record_package.json).
+View the {download}`OCDS record in JSON format here <examples/full_record_package.json>`.
 
-View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full_record_package.json).
+View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/full_record_package.json).
 
 In the record within OCDS show:
 
@@ -41,6 +40,6 @@ In the record within OCDS show:
 
 Use the 'text input' button to see (and adapt) the JSON data which generates this view.
 
-Use a web browser add-on for a more user friendly preview of the JSON files. You can install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), [JSONView for Firefox](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)
+Use a web browser add-on for a more user friendly preview of the JSON files. You can install [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), [JSONView for Firefox](https://addons.mozilla.org/en-US/firefox/addon/jsonview/) or [JSONView for Safari](https://apps.apple.com/us/story/id1377753262?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)
 
 Alternative presentations of data can be prepared using the open source [OCDS Show](https://github.com/open-contracting/ocds-show-ppp) tool.

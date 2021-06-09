@@ -14,20 +14,19 @@ Each document can be represented using a `Document` object. This can contain:
 
 The full set of fields for representing a document are shown below
 
-```eval_rst
-.. jsonschema:: ../_static/patched/release-schema.json
-    :pointer: /definitions/Document
-    :collapse: 
-    :nocrossref:
+```{jsonschema} ../_static/patched/release-schema.json
+:pointer: /definitions/Document
+:collapse:
+:nocrossref:
 ```
 
 ## Types
 
 The full list of document types, and where they should appear, is given below.
 
-```eval_rst
-.. csv-table-no-translate::
-   :header-rows: 1
-   :file: ../_static/patched/codelists/documentType.csv
+```{csv-table-no-translate}
+:header-rows: 1
+:widths: auto
+:file: ../_static/patched/codelists/documentType.csv
 ```
 

@@ -1,38 +1,23 @@
-# History and governance
+# Governance
 
-OCDS for PPPs was developed between May 2016 and May 2017 through a partnership between the World Bank Governance Global Practice (GGP), the World Bank Public Private Partnerships Cross-Cutting Solutions Area (PPP CCSA) and the Open Contracting Partnership. Open Data Services was hired to implement the development of the product.
+As an implementation profile, extending OCDS 1.1, updates to the OCDS schema will be subject to the [OCDS Governance Process](https://standard.open-contracting.org/latest/en/governance/).
 
-You can read more about OCDS for PPPs and other tools for transparency and accountability in PPPs on the [World Bank Governance for Development blog](http://blogs.worldbank.org/governance/public-private-partnerships-transparency-and-accountability-where-my-data).
+It draws upon the following [extensions](https://extensions.open-contracting.org/en/):
 
-## Development
-
-You can read more about the early development process on the [Open Contracting Partnership blog](http://www.open-contracting.org/2016/09/08/extending-open-contracting-data-standard-ppps/)
-
-## Governance
-
-As an implementation profile, extending OCDS 1.1, updates to the OCDS schema will be subject to the [OCDS Governance Process](http://standard.open-contracting.org/latest/en/support/governance/).
-
-It draws upon the following extensions from the [OCDS extension registry](http://standard.open-contracting.org/latest/en/extensions/).
-
-* ppp
-* process_title
-* location
-* requirements
-* budget
-* budget_project
-* documentation_details
-* metrics
-* risk_allocation
-* shareholders
-* finance
-* qualification
-* tariffs
-* performance_failures
-* signatories
-* charges
-* transaction_milestones
-* bids
-* milestone_documents
+* [Bid statistics and details](https://extensions.open-contracting.org/en/extensions/bids/v1.1.5/)
+* [Charges](https://extensions.open-contracting.org/en/extensions/charges/master/)
+* [Document Details](https://extensions.open-contracting.org/en/extensions/documentation_details/master/)
+* [Finance](https://extensions.open-contracting.org/en/extensions/finance/master/)
+* [Location](https://extensions.open-contracting.org/en/extensions/location/v1.1.5/)
+* [Metrics](https://extensions.open-contracting.org/en/extensions/metrics/master/)
+* [Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)
+* [Performance failures](https://extensions.open-contracting.org/en/extensions/performance_failures/master/)
+* [Project](https://extensions.open-contracting.org/en/extensions/project/master/)
+* [Risk allocation](https://extensions.open-contracting.org/en/extensions/risk_allocation/master/)
+* [Shareholders](https://extensions.open-contracting.org/en/extensions/shareholders/master/)
+* [Signatories](https://extensions.open-contracting.org/en/extensions/signatories/master/)
+* [Tariffs](https://extensions.open-contracting.org/en/extensions/tariffs/1.1/)
+* [OCDS for PPPs Extension](https://extensions.open-contracting.org/en/extensions/ppp/master/)
 
 Issues related to the individual extensions that make up the implementation profile can be raised on their respective GitHub projects.
 
