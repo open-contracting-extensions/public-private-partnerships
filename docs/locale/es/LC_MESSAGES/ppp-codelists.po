@@ -1,29 +1,30 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
 # Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2018
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Oscar Montiel <oscar.montiel@okfn.org>, 2018
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-23 14:33-0500\n"
+"POT-Creation-Date: 2021-04-23 16:31-0400\n"
 "PO-Revision-Date: 2017-07-31 16:41+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/74632/es/)\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -33,7 +34,7 @@ msgstr ""
 #: schema/patched/codelists/bidStatus.csv
 #: schema/patched/codelists/chargePaidBy.csv
 #: schema/patched/codelists/contractStatus.csv
-#: schema/patched/codelists/currency.csv schema/patched/codelists/dataType.csv
+#: schema/patched/codelists/currency.csv
 #: schema/patched/codelists/documentType.csv
 #: schema/patched/codelists/extendedProcurementCategory.csv
 #: schema/patched/codelists/financeCategory.csv
@@ -47,38 +48,28 @@ msgstr ""
 #: schema/patched/codelists/milestoneStatus.csv
 #: schema/patched/codelists/milestoneType.csv
 #: schema/patched/codelists/partyRole.csv
-#: schema/patched/codelists/preQualificationStatus.csv
 #: schema/patched/codelists/procurementCategory.csv
 #: schema/patched/codelists/relatedProcess.csv
 #: schema/patched/codelists/relatedProcessScheme.csv
-#: schema/patched/codelists/relatesTo.csv
 #: schema/patched/codelists/releaseTag.csv
-#: schema/patched/codelists/responseSource.csv
 #: schema/patched/codelists/riskAllocation.csv
 #: schema/patched/codelists/riskCategory.csv
 #: schema/patched/codelists/submissionMethod.csv
 #: schema/patched/codelists/tenderStatus.csv
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
+#: schema/profile/codelists/+documentType.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
-#: schema/profile/codelists/+releaseTag.csv
-#: schema/profile/codelists/-partyRole.csv
 #: schema/profile/codelists/bidStatistics.csv
 #: schema/profile/codelists/bidStatus.csv
 #: schema/profile/codelists/chargePaidBy.csv
-#: schema/profile/codelists/dataType.csv
-#: schema/profile/codelists/documentType.csv
 #: schema/profile/codelists/financeCategory.csv
 #: schema/profile/codelists/financeType.csv
 #: schema/profile/codelists/geometryType.csv
-#: schema/profile/codelists/initiationType.csv
 #: schema/profile/codelists/locationGazetteers.csv
 #: schema/profile/codelists/metricID.csv
 #: schema/profile/codelists/milestoneCode.csv
-#: schema/profile/codelists/preQualificationStatus.csv
-#: schema/profile/codelists/relatesTo.csv
-#: schema/profile/codelists/responseSource.csv
 #: schema/profile/codelists/riskAllocation.csv
 #: schema/profile/codelists/riskCategory.csv
 #: schema/profile/codelists/votingRights.csv
@@ -91,7 +82,7 @@ msgstr "Código"
 #: schema/patched/codelists/bidStatus.csv
 #: schema/patched/codelists/chargePaidBy.csv
 #: schema/patched/codelists/contractStatus.csv
-#: schema/patched/codelists/currency.csv schema/patched/codelists/dataType.csv
+#: schema/patched/codelists/currency.csv
 #: schema/patched/codelists/documentType.csv
 #: schema/patched/codelists/extendedProcurementCategory.csv
 #: schema/patched/codelists/financeCategory.csv
@@ -105,37 +96,28 @@ msgstr "Código"
 #: schema/patched/codelists/milestoneStatus.csv
 #: schema/patched/codelists/milestoneType.csv
 #: schema/patched/codelists/partyRole.csv
-#: schema/patched/codelists/preQualificationStatus.csv
 #: schema/patched/codelists/procurementCategory.csv
 #: schema/patched/codelists/relatedProcess.csv
 #: schema/patched/codelists/relatedProcessScheme.csv
-#: schema/patched/codelists/relatesTo.csv
 #: schema/patched/codelists/releaseTag.csv
-#: schema/patched/codelists/responseSource.csv
 #: schema/patched/codelists/riskAllocation.csv
 #: schema/patched/codelists/riskCategory.csv
 #: schema/patched/codelists/submissionMethod.csv
 #: schema/patched/codelists/tenderStatus.csv
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
+#: schema/profile/codelists/+documentType.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
-#: schema/profile/codelists/+releaseTag.csv
 #: schema/profile/codelists/bidStatistics.csv
 #: schema/profile/codelists/bidStatus.csv
 #: schema/profile/codelists/chargePaidBy.csv
-#: schema/profile/codelists/dataType.csv
-#: schema/profile/codelists/documentType.csv
 #: schema/profile/codelists/financeCategory.csv
 #: schema/profile/codelists/financeType.csv
 #: schema/profile/codelists/geometryType.csv
-#: schema/profile/codelists/initiationType.csv
 #: schema/profile/codelists/locationGazetteers.csv
 #: schema/profile/codelists/metricID.csv
 #: schema/profile/codelists/milestoneCode.csv
-#: schema/profile/codelists/preQualificationStatus.csv
-#: schema/profile/codelists/relatesTo.csv
-#: schema/profile/codelists/responseSource.csv
 #: schema/profile/codelists/riskAllocation.csv
 #: schema/profile/codelists/riskCategory.csv
 #: schema/profile/codelists/votingRights.csv
@@ -148,7 +130,6 @@ msgstr "Título"
 #: schema/patched/codelists/bidStatus.csv
 #: schema/patched/codelists/chargePaidBy.csv
 #: schema/patched/codelists/contractStatus.csv
-#: schema/patched/codelists/dataType.csv
 #: schema/patched/codelists/documentType.csv
 #: schema/patched/codelists/extendedProcurementCategory.csv
 #: schema/patched/codelists/financeCategory.csv
@@ -162,37 +143,28 @@ msgstr "Título"
 #: schema/patched/codelists/milestoneStatus.csv
 #: schema/patched/codelists/milestoneType.csv
 #: schema/patched/codelists/partyRole.csv
-#: schema/patched/codelists/preQualificationStatus.csv
 #: schema/patched/codelists/procurementCategory.csv
 #: schema/patched/codelists/relatedProcess.csv
 #: schema/patched/codelists/relatedProcessScheme.csv
-#: schema/patched/codelists/relatesTo.csv
 #: schema/patched/codelists/releaseTag.csv
-#: schema/patched/codelists/responseSource.csv
 #: schema/patched/codelists/riskAllocation.csv
 #: schema/patched/codelists/riskCategory.csv
 #: schema/patched/codelists/submissionMethod.csv
 #: schema/patched/codelists/tenderStatus.csv
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
+#: schema/profile/codelists/+documentType.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
-#: schema/profile/codelists/+releaseTag.csv
 #: schema/profile/codelists/bidStatistics.csv
 #: schema/profile/codelists/bidStatus.csv
 #: schema/profile/codelists/chargePaidBy.csv
-#: schema/profile/codelists/dataType.csv
-#: schema/profile/codelists/documentType.csv
 #: schema/profile/codelists/financeCategory.csv
 #: schema/profile/codelists/financeType.csv
 #: schema/profile/codelists/geometryType.csv
-#: schema/profile/codelists/initiationType.csv
 #: schema/profile/codelists/locationGazetteers.csv
 #: schema/profile/codelists/metricID.csv
 #: schema/profile/codelists/milestoneCode.csv
-#: schema/profile/codelists/preQualificationStatus.csv
-#: schema/profile/codelists/relatesTo.csv
-#: schema/profile/codelists/responseSource.csv
 #: schema/profile/codelists/riskAllocation.csv
 #: schema/profile/codelists/riskCategory.csv
 #: schema/profile/codelists/votingRights.csv
@@ -205,7 +177,7 @@ msgstr "Descripción"
 #: schema/patched/codelists/bidStatus.csv
 #: schema/patched/codelists/chargePaidBy.csv
 #: schema/patched/codelists/contractStatus.csv
-#: schema/patched/codelists/currency.csv schema/patched/codelists/dataType.csv
+#: schema/patched/codelists/currency.csv
 #: schema/patched/codelists/documentType.csv
 #: schema/patched/codelists/extendedProcurementCategory.csv
 #: schema/patched/codelists/financeCategory.csv
@@ -219,13 +191,10 @@ msgstr "Descripción"
 #: schema/patched/codelists/milestoneStatus.csv
 #: schema/patched/codelists/milestoneType.csv
 #: schema/patched/codelists/partyRole.csv
-#: schema/patched/codelists/preQualificationStatus.csv
 #: schema/patched/codelists/procurementCategory.csv
 #: schema/patched/codelists/relatedProcess.csv
 #: schema/patched/codelists/relatedProcessScheme.csv
-#: schema/patched/codelists/relatesTo.csv
 #: schema/patched/codelists/releaseTag.csv
-#: schema/patched/codelists/responseSource.csv
 #: schema/patched/codelists/riskAllocation.csv
 #: schema/patched/codelists/riskCategory.csv
 #: schema/patched/codelists/submissionMethod.csv
@@ -259,10 +228,52 @@ msgstr ""
 #: schema/patched/codelists/contractStatus.csv:2
 #: schema/patched/codelists/contractStatus.csv:3
 #: schema/patched/codelists/contractStatus.csv:4
+#: schema/patched/codelists/documentType.csv:1
+#: schema/patched/codelists/documentType.csv:2
+#: schema/patched/codelists/documentType.csv:3
+#: schema/patched/codelists/documentType.csv:4
+#: schema/patched/codelists/documentType.csv:5
+#: schema/patched/codelists/documentType.csv:6
+#: schema/patched/codelists/documentType.csv:7
+#: schema/patched/codelists/documentType.csv:8
+#: schema/patched/codelists/documentType.csv:9
+#: schema/patched/codelists/documentType.csv:10
+#: schema/patched/codelists/documentType.csv:11
+#: schema/patched/codelists/documentType.csv:12
+#: schema/patched/codelists/documentType.csv:13
+#: schema/patched/codelists/documentType.csv:14
+#: schema/patched/codelists/documentType.csv:15
+#: schema/patched/codelists/documentType.csv:16
+#: schema/patched/codelists/documentType.csv:17
+#: schema/patched/codelists/documentType.csv:18
+#: schema/patched/codelists/documentType.csv:19
+#: schema/patched/codelists/documentType.csv:20
+#: schema/patched/codelists/documentType.csv:21
+#: schema/patched/codelists/documentType.csv:22
+#: schema/patched/codelists/documentType.csv:23
+#: schema/patched/codelists/documentType.csv:24
+#: schema/patched/codelists/documentType.csv:25
+#: schema/patched/codelists/documentType.csv:26
+#: schema/patched/codelists/documentType.csv:27
+#: schema/patched/codelists/documentType.csv:28
+#: schema/patched/codelists/documentType.csv:29
+#: schema/patched/codelists/documentType.csv:30
+#: schema/patched/codelists/documentType.csv:31
+#: schema/patched/codelists/documentType.csv:32
+#: schema/patched/codelists/documentType.csv:33
+#: schema/patched/codelists/documentType.csv:34
+#: schema/patched/codelists/documentType.csv:35
+#: schema/patched/codelists/documentType.csv:36
+#: schema/patched/codelists/documentType.csv:37
+#: schema/patched/codelists/documentType.csv:38
+#: schema/patched/codelists/documentType.csv:39
+#: schema/patched/codelists/documentType.csv:40
+#: schema/patched/codelists/documentType.csv:41
 #: schema/patched/codelists/extendedProcurementCategory.csv:1
 #: schema/patched/codelists/extendedProcurementCategory.csv:2
 #: schema/patched/codelists/extendedProcurementCategory.csv:3
 #: schema/patched/codelists/extendedProcurementCategory.csv:4
+#: schema/patched/codelists/initiationType.csv:1
 #: schema/patched/codelists/itemClassificationScheme.csv:1
 #: schema/patched/codelists/itemClassificationScheme.csv:2
 #: schema/patched/codelists/itemClassificationScheme.csv:3
@@ -271,6 +282,9 @@ msgstr ""
 #: schema/patched/codelists/itemClassificationScheme.csv:6
 #: schema/patched/codelists/itemClassificationScheme.csv:7
 #: schema/patched/codelists/itemClassificationScheme.csv:8
+#: schema/patched/codelists/itemClassificationScheme.csv:9
+#: schema/patched/codelists/itemClassificationScheme.csv:10
+#: schema/patched/codelists/itemClassificationScheme.csv:11
 #: schema/patched/codelists/method.csv:1 schema/patched/codelists/method.csv:2
 #: schema/patched/codelists/method.csv:3 schema/patched/codelists/method.csv:4
 #: schema/patched/codelists/milestoneStatus.csv:1
@@ -284,11 +298,17 @@ msgstr ""
 #: schema/patched/codelists/milestoneType.csv:5
 #: schema/patched/codelists/milestoneType.csv:6
 #: schema/patched/codelists/milestoneType.csv:7
+#: schema/patched/codelists/milestoneType.csv:8
 #: schema/patched/codelists/partyRole.csv:1
 #: schema/patched/codelists/partyRole.csv:2
 #: schema/patched/codelists/partyRole.csv:3
 #: schema/patched/codelists/partyRole.csv:4
 #: schema/patched/codelists/partyRole.csv:5
+#: schema/patched/codelists/partyRole.csv:6
+#: schema/patched/codelists/partyRole.csv:7
+#: schema/patched/codelists/partyRole.csv:8
+#: schema/patched/codelists/partyRole.csv:9
+#: schema/patched/codelists/partyRole.csv:10
 #: schema/patched/codelists/procurementCategory.csv:1
 #: schema/patched/codelists/procurementCategory.csv:2
 #: schema/patched/codelists/procurementCategory.csv:3
@@ -408,9 +428,7 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/awardStatus.csv:2
 #: schema/patched/codelists/contractStatus.csv:2
-#: schema/patched/codelists/preQualificationStatus.csv:2
 #: schema/patched/codelists/tenderStatus.csv:3
-#: schema/profile/codelists/preQualificationStatus.csv:2
 msgid "Active"
 msgstr "Activo"
 
@@ -422,9 +440,7 @@ msgstr "Se ha adjudicado y está en proceso."
 #. Title
 #: schema/patched/codelists/awardStatus.csv:3
 #: schema/patched/codelists/contractStatus.csv:3
-#: schema/patched/codelists/preQualificationStatus.csv:3
 #: schema/patched/codelists/tenderStatus.csv:4
-#: schema/profile/codelists/preQualificationStatus.csv:3
 msgid "Cancelled"
 msgstr "Cancelado"
 
@@ -435,9 +451,7 @@ msgstr "Esta adjudicación se ha cancelado."
 
 #. Title
 #: schema/patched/codelists/awardStatus.csv:4
-#: schema/patched/codelists/preQualificationStatus.csv:4
 #: schema/patched/codelists/tenderStatus.csv:5
-#: schema/profile/codelists/preQualificationStatus.csv:4
 msgid "Unsuccessful"
 msgstr "Sin Éxito"
 
@@ -482,6 +496,8 @@ msgstr "El número total de solicitudes únicas de participación recibidas"
 #: schema/patched/codelists/bidStatistics.csv:10
 #: schema/patched/codelists/bidStatistics.csv:11
 #: schema/patched/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/patched/codelists/bidStatistics.csv:14
 #: schema/patched/codelists/bidStatus.csv:1
 #: schema/patched/codelists/bidStatus.csv:2
 #: schema/patched/codelists/bidStatus.csv:3
@@ -518,22 +534,46 @@ msgstr "Ofertas válidas"
 msgid ""
 "The total number of unique bids received that were considered valid against "
 "relevant criteria (either of the bidder, or the bid submission itself). All "
-"valid bids should be considered during the tender evaluation stage."
+"valid bids are considered during the tender evaluation stage."
 msgstr ""
-"El número total de ofertas únicas recibidas que se consideraron válidas en "
-"función de los criterios pertinentes (del licitante o de la solicitud de "
-"oferta misma). Todas las ofertas válidas deben ser consideradas durante la "
-"etapa de evaluación de la oferta."
+"El número total de ofertas únicas recibidas que fueron consideradas válidas "
+"con el criterio relevante (ya sea del postor o la presentación de la oferta "
+"en sí). Todas las ofertas válidas son consideradas durante la etapa de "
+"evaluación de la licitación."
 
 #. Title
 #: schema/patched/codelists/bidStatistics.csv:4
 #: schema/profile/codelists/bidStatistics.csv:4
-msgid "Bidders"
-msgstr "Licitantes"
+msgid "Lowest valid bid value"
+msgstr "Valor más bajo de la oferta válida"
 
 #. Description
 #: schema/patched/codelists/bidStatistics.csv:4
 #: schema/profile/codelists/bidStatistics.csv:4
+msgid "The value of the lowest valid bid."
+msgstr "Valor de la oferta válida más baja."
+
+#. Title
+#: schema/patched/codelists/bidStatistics.csv:5
+#: schema/profile/codelists/bidStatistics.csv:5
+msgid "Highest valid bid value"
+msgstr "Valor más alto de la oferta válida"
+
+#. Description
+#: schema/patched/codelists/bidStatistics.csv:5
+#: schema/profile/codelists/bidStatistics.csv:5
+msgid "The value of the highest valid bid."
+msgstr "Valor de la oferta válida más alta."
+
+#. Title
+#: schema/patched/codelists/bidStatistics.csv:6
+#: schema/profile/codelists/bidStatistics.csv:6
+msgid "Bidders"
+msgstr "Licitantes"
+
+#. Description
+#: schema/patched/codelists/bidStatistics.csv:6
+#: schema/profile/codelists/bidStatistics.csv:6
 msgid ""
 "The total number of unique organizations or consortia submitting bids  "
 "(prior to any being discounted for not meeting essential criteria)."
@@ -542,14 +582,14 @@ msgstr ""
 "(antes de que se descarten por no cumplir los criterios esenciales)."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:5
-#: schema/profile/codelists/bidStatistics.csv:5
+#: schema/patched/codelists/bidStatistics.csv:7
+#: schema/profile/codelists/bidStatistics.csv:7
 msgid "Qualified bidders"
-msgstr "Licitadores calificados"
+msgstr "Licitantes calificados"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:5
-#: schema/profile/codelists/bidStatistics.csv:5
+#: schema/patched/codelists/bidStatistics.csv:7
+#: schema/profile/codelists/bidStatistics.csv:7
 msgid ""
 "The total number of unique organizations or consortia passing the "
 "qualification stage of the evaluation process."
@@ -558,14 +598,14 @@ msgstr ""
 "calificación del proceso de evaluación."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:6
-#: schema/profile/codelists/bidStatistics.csv:6
+#: schema/patched/codelists/bidStatistics.csv:8
+#: schema/profile/codelists/bidStatistics.csv:8
 msgid "Disqualified bidders"
-msgstr "Licitadores descalificados"
+msgstr "Licitantes descalificados"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:6
-#: schema/profile/codelists/bidStatistics.csv:6
+#: schema/patched/codelists/bidStatistics.csv:8
+#: schema/profile/codelists/bidStatistics.csv:8
 msgid ""
 "The total number of unique organizations or consortia that did not pass the "
 "qualification stage of the evaluation process."
@@ -574,38 +614,38 @@ msgstr ""
 "etapa de calificación del proceso de evaluación."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:7
-#: schema/profile/codelists/bidStatistics.csv:7
+#: schema/patched/codelists/bidStatistics.csv:9
+#: schema/profile/codelists/bidStatistics.csv:9
 msgid "Electronic bids"
 msgstr "Ofertas electrónicas"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:7
-#: schema/profile/codelists/bidStatistics.csv:7
+#: schema/patched/codelists/bidStatistics.csv:9
+#: schema/profile/codelists/bidStatistics.csv:9
 msgid "The number of bids received by electronic means."
 msgstr "El número de ofertas recibidas por medios electrónicos."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:8
-#: schema/profile/codelists/bidStatistics.csv:8
+#: schema/patched/codelists/bidStatistics.csv:10
+#: schema/profile/codelists/bidStatistics.csv:10
 msgid "Bids from SMEs"
 msgstr "Ofertas de PYMES"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:8
-#: schema/profile/codelists/bidStatistics.csv:8
+#: schema/patched/codelists/bidStatistics.csv:10
+#: schema/profile/codelists/bidStatistics.csv:10
 msgid "The number of bids received from small and medium-sized enterprises."
 msgstr "El número de ofertas recibidas de pequeñas o medianas empresas."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:9
-#: schema/profile/codelists/bidStatistics.csv:9
+#: schema/patched/codelists/bidStatistics.csv:11
+#: schema/profile/codelists/bidStatistics.csv:11
 msgid "Bids from foreign firms"
 msgstr "Ofertas de empresas extranjeras"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:9
-#: schema/profile/codelists/bidStatistics.csv:9
+#: schema/patched/codelists/bidStatistics.csv:11
+#: schema/profile/codelists/bidStatistics.csv:11
 msgid ""
 "The number of bids received from bidders from outside the country where the "
 "tender is issued."
@@ -614,57 +654,59 @@ msgstr ""
 "emite la oferta."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:10
-#: schema/profile/codelists/bidStatistics.csv:10
+#: schema/patched/codelists/bidStatistics.csv:12
+#: schema/profile/codelists/bidStatistics.csv:12
 msgid "Bids from firms in other European Economic Area countries"
-msgstr "Ofertas de compañías en otros países del Área Económica Europea."
+msgstr "Ofertas de empresas en otros países del Área Económica Europea"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:10
-#: schema/profile/codelists/bidStatistics.csv:10
+#: schema/patched/codelists/bidStatistics.csv:12
+#: schema/profile/codelists/bidStatistics.csv:12
 msgid ""
 "The number of bids received from tenderers from other European Economic Area"
 " countries."
 msgstr ""
-"El número de ofertas recibidas de licitadores de otros países del Área "
+"El número de ofertas recibidas de empresas en otros países del Área "
 "Económica Europea."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:11
-#: schema/profile/codelists/bidStatistics.csv:11
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/profile/codelists/bidStatistics.csv:13
 msgid "Bids from firms in non-European Economic Area countries"
-msgstr "Ofertas de compañías en países que no son del Área Económica Europea."
+msgstr ""
+"Ofertas de empresas en otros países que no pertenecen al Área Económica "
+"Europea"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:11
-#: schema/profile/codelists/bidStatistics.csv:11
+#: schema/patched/codelists/bidStatistics.csv:13
+#: schema/profile/codelists/bidStatistics.csv:13
 msgid ""
 "The number of bids received from tenderers from non-European Economic Area "
 "countries."
 msgstr ""
-"El número de ofertas recibidas de licitadores de otros países que no son del"
-" Área Económica Europea."
+"El número de ofertas recibidas de empresas en otros países que no pertenecen"
+" al Área Económica Europea."
 
 #. Title
-#: schema/patched/codelists/bidStatistics.csv:12
-#: schema/profile/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:14
+#: schema/profile/codelists/bidStatistics.csv:14
 msgid "Tenders excluded because they were abnormally low"
 msgstr "Ofertas excluídas porque eran anormalmente bajas"
 
 #. Description
-#: schema/patched/codelists/bidStatistics.csv:12
-#: schema/profile/codelists/bidStatistics.csv:12
+#: schema/patched/codelists/bidStatistics.csv:14
+#: schema/profile/codelists/bidStatistics.csv:14
 msgid ""
 "The number of tenders excluded because they were abnormally low. Note that "
-"in some EU datasets this may have been converted from a boolean, such that a"
-" value of 1 would indicate '1 or more' tenders were excluded. Users should "
-"evaluate and interpret data accordingly."
+"in some EU datasets this might have been converted from a boolean, such that"
+" a value of 1 would indicate \"1 or more\" tenders were excluded. Users need"
+" to evaluate and interpret data accordingly."
 msgstr ""
-"El número de ofertas excluidas porque eran anormalmente bajas. Tenga en "
-"cuenta que en algunos conjuntos de datos de la UE esto pudo haber sido "
-"convertido de un booleano, de modo que un valor 1 indicaría \"1 o más\" "
-"ofertas fueron excluidas. Los usuarios deben evaluar e interpretar los datos"
-" según corresponda."
+"El número de licitaciones excluidas por ser anormalmente bajas. Tenga en "
+"cuenta que en algunos conjuntos de datos de la UE esto puede haberse "
+"convertido en un booleano, de manera que un valor de 1 indicaría que se "
+"excluyeron \"1 o más\" licitaciones. Los usuarios deben evaluar e "
+"interpretar los datos en consecuencia."
 
 #. Title
 #: schema/patched/codelists/bidStatus.csv:1
@@ -803,145 +845,727 @@ msgstr ""
 "terminación temprana debido a que no fue finalizado."
 
 #. Title
-#: schema/patched/codelists/dataType.csv:1
-#: schema/profile/codelists/dataType.csv:1
-msgid "String"
-msgstr "Cadena"
+#: schema/patched/codelists/documentType.csv:1
+msgid "Notice of planned procurement"
+msgstr "Aviso de compra planeada"
 
 #. Description
-#: schema/patched/codelists/dataType.csv:1
-#: schema/profile/codelists/dataType.csv:1
-msgid "The requirement response must be of type string"
-msgstr "La respuesta de requisito debe ser una cadena"
-
-#. Extension
-#: schema/patched/codelists/dataType.csv:1
-#: schema/patched/codelists/dataType.csv:2
-#: schema/patched/codelists/dataType.csv:3
-#: schema/patched/codelists/dataType.csv:4
-#: schema/patched/codelists/dataType.csv:5
-#: schema/patched/codelists/relatesTo.csv:1
-#: schema/patched/codelists/relatesTo.csv:2
-#: schema/patched/codelists/responseSource.csv:1
-#: schema/patched/codelists/responseSource.csv:2
-#: schema/patched/codelists/responseSource.csv:3
-msgid "Requirements"
-msgstr "Requisitos"
-
-#. Title
-#: schema/patched/codelists/dataType.csv:2
-#: schema/profile/codelists/dataType.csv:2
-msgid "Date-time"
-msgstr "Fecha y hora"
-
-#. Description
-#: schema/patched/codelists/dataType.csv:2
-#: schema/profile/codelists/dataType.csv:2
-msgid "The requirement response must be of type date-time (ISO8601)"
-msgstr "La respuesta de requisito debe ser del tipo fecha y hora (ISO8601)"
-
-#. Title
-#: schema/patched/codelists/dataType.csv:3
-#: schema/profile/codelists/dataType.csv:3
-msgid "Number"
-msgstr "Número"
-
-#. Description
-#: schema/patched/codelists/dataType.csv:3
-#: schema/profile/codelists/dataType.csv:3
+#: schema/patched/codelists/documentType.csv:1
 msgid ""
-"The requirement response must be of type number, i.e. a floating point or "
-"whole number"
+"A notice published by the procuring entity regarding their plans for future "
+"procurement, also known as a prior information notice. The procuring entity "
+"can use the notice of planned procurement as a tender notice."
 msgstr ""
-"La respuesta de requisitos debe de ser el tipo numérica, por ejemplo: un "
-"punto flotante o un número entero"
+"Un aviso publicado por la entidad procuradora sobre los planes para las "
+"compras futuras, también conocidos como un aviso de información previa. La "
+"entidad procuradora puede usar el aviso de compra planeada como un aviso de "
+"licitación."
 
 #. Title
-#: schema/patched/codelists/dataType.csv:4
-#: schema/profile/codelists/dataType.csv:4
-msgid "Integer"
-msgstr "Entero"
-
-#. Description
-#: schema/patched/codelists/dataType.csv:4
-#: schema/profile/codelists/dataType.csv:4
-msgid "The requirement response must be of type integer"
-msgstr "La respuesta del requisito debe ser del tipo entero"
-
-#. Title
-#: schema/patched/codelists/dataType.csv:5
-#: schema/profile/codelists/dataType.csv:5
-msgid "Boolean"
-msgstr "Booleano"
-
-#. Description
-#: schema/patched/codelists/dataType.csv:5
-#: schema/profile/codelists/dataType.csv:5
-msgid "The requirement response must be of type boolean"
-msgstr "La respuesta de requisito debe ser de tipo booleano"
-
-#. Title
-#: schema/patched/codelists/documentType.csv:1
-#: schema/profile/codelists/documentType.csv:1
-msgid "Needs Assessment"
-msgstr "Evaluación de Necesidad"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:1
-#: schema/profile/codelists/documentType.csv:1
-msgid ""
-"Information on the project need, benefits provided, and economic and social "
-"impact"
-msgstr ""
-"Información sobre la necesidad del proyecto, beneficios proporcionados e "
-"impacto económico y social"
-
-#. Extension
-#: schema/patched/codelists/documentType.csv:1
 #: schema/patched/codelists/documentType.csv:2
+msgid "Tender notice"
+msgstr "Aviso de licitación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:2
+msgid ""
+"The notice published by the procuring entity inviting interested suppliers "
+"to submit a request for participation, a bid, or both. This can be a link to"
+" a downloadable document, to a web page, or to an official gazette in which "
+"the notice is contained."
+msgstr ""
+"El aviso publicado por la entidad procuradora invitando a proveedores "
+"interesados a presentar una solicitud para participar, una oferta o ambas. "
+"Esto puede ser un link a un documento descargable, una página web, o una "
+"gaceta oficial en donde se encuentra el aviso. "
+
+#. Title
 #: schema/patched/codelists/documentType.csv:3
+msgid "Award notice"
+msgstr "Aviso de adjudicación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:3
+msgid ""
+"The formal notice that gives details of the contract award. This can be a "
+"link to a downloadable document, to a web page, or to an official gazette in"
+" which the notice is contained."
+msgstr ""
+"El aviso formal que da detalles sobre la adjudicación del contrato. Esto "
+"puede ser un link a un documento descargable, una página web, o una gaceta "
+"oficial en donde se encuentra el aviso. "
+
+#. Title
 #: schema/patched/codelists/documentType.csv:4
+msgid "Contract notice"
+msgstr "Aviso de contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:4
+msgid ""
+"The formal notice that gives details of a contract being signed and valid to"
+" start implementation. This can be a link to a downloadable document, to a "
+"web page, or to an official gazette in which the notice is contained."
+msgstr ""
+"El aviso formal que da detalles sobre un contrato ya firmado y válido para "
+"empezar la implementación. Esto puede ser un link a un documento "
+"descargable, una página web, o una gaceta oficial en donde se encuentra el "
+"aviso. "
+
+#. Title
 #: schema/patched/codelists/documentType.csv:5
+msgid "Completion certificate"
+msgstr "Certificado de terminación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:5
+msgid ""
+"A completion certificate issued by a relevant authority providing evidence "
+"that works were completed to a certain level of quality. Completion "
+"certificates might only be relevant for particular kinds of contracting "
+"processes."
+msgstr ""
+"Un certificado de terminación emitido por una autoridad relevante que da "
+"evidencia sobre la finalización de los trabajos con cierto nivel de calidad."
+" Los certificados de terminación pueden solo ser relevantes para procesos de"
+" contrataciones particulares."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:6
+msgid "Procurement plan"
+msgstr "Plan de adquisiciones"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:6
+msgid ""
+"Documentation that sets out the basis for this particular contracting "
+"process."
+msgstr ""
+"Documentación que establece las bases para este proceso de contratación en "
+"particular."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:7
+msgid "Bidding documents"
+msgstr "Documentos de ofertas"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:7
+msgid ""
+"Documentation for potential suppliers, describing the goals of the contract "
+"(e.g. goods and services to be procured), and the bidding process."
+msgstr ""
+"Documentación para proveedores potenciales, describiendo las metas del "
+"contrato (p.ej. bienes y servicios a contratar) y el proceso de envío de "
+"propuestas."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:8
+msgid "Technical specifications"
+msgstr "Especificaciones técnicas"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:8
+msgid ""
+"Tendering requirements that: lay down the characteristics of goods or "
+"services to be procured, including quality, performance, safety and "
+"dimensions, or the processes and methods for their production or provision; "
+"or address terminology, symbols, packaging, marking or labelling "
+"requirements, as they apply to a good or service."
+msgstr ""
+"Requisitos de oferta que:  expliquen las características de los bienes o "
+"servicios por comprar, incluyendo calidad, rendimiento, seguridad, "
+"dimensiones, o procesos y métodos para su producción o abastecimiento; o que"
+" refieran a requisitos de terminología, símbolos, empaque, marcado o "
+"etiquetado, según se apliquen a un bien o servicio."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:9
+msgid "Evaluation criteria"
+msgstr "Criterios de evaluación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:9
+msgid "Documentation on how bids will be evaluated."
+msgstr "Documentación sobre cómo se evaluarán las ofertas."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:10
+msgid "Evaluation report"
+msgstr "Reporte de evaluación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:10
+msgid ""
+"Documentation on the evaluation of the bids and the application of the "
+"evaluation criteria, including the justification for the award."
+msgstr ""
+"Documentación en la evaluación de ofertas y la aplicación de criterios de "
+"evaluación, incluyendo la justificación sobre la adjudicación."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:11
+msgid "Contract draft"
+msgstr "Borrador de contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:11
+msgid "A draft or pro-forma copy of the contract."
+msgstr "Un borrador o copia pro-forma del contrato."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:12
+msgid "Signed contract"
+msgstr "Contrato firmado"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:12
+msgid ""
+"A copy of the signed contract. Consider providing both machine-readable "
+"(e.g. original PDF, Word or Open Document format files), and a separate "
+"document entry for scanned-signed pages where this is needed."
+msgstr ""
+"Una copia firmada del contrato. Considere dar una versión leíble por máquina"
+" (PDF original, Word o documentos en formato Open Document), y un documento "
+"separado para poner páginas firmadas y escaneadas cuando sea necesario."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:13
+msgid "Arrangements for ending contract"
+msgstr "Arreglos para finalizar un contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:13
+msgid "Documentation of the arrangements for ending the contract(s)."
+msgstr "Documentación de los arreglos para terminar el contrato(s)."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:14
+msgid "Contract schedules"
+msgstr "Calendario del contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:14
+msgid ""
+"Any document which contains additional terms, obligations or information "
+"related to the contract, such as a schedule, appendix, annex, attachment or "
+"addendum."
+msgstr ""
+"Cualquier documento que contenga términos adicionales, obligaciones o "
+"información relacionada con el contrato, tal como un calendario, apéndice, "
+"anexo, anexo o adición."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:15
+msgid "Physical progress reports"
+msgstr "Reportes de progreso físico"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:15
+msgid ""
+"Documentation on the status of implementation, usually against key "
+"milestones."
+msgstr ""
+"Documentación sobre el estado de la implementación, usualmente comparado con"
+" hitos clave."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:16
+msgid "Financial progress reports"
+msgstr "Reportes de progreso financiero"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:16
+msgid ""
+"Documentation providing dates and amounts of stage payments made (against "
+"total amount) and the source of those payments, including cost overruns, if "
+"any. Structured versions of this information can be provided through "
+"contract implementation transactions."
+msgstr ""
+"Documentación que provee fechas y montos de pagos realizados (contra el "
+"monto total) y el origen de esos pagos, incluyendo excesos de costos, si los"
+" hay. Se pueden proveer versiones estructuradas de esta información a través"
+" de las transacciones de implementación del contrato. "
+
+#. Title
 #: schema/patched/codelists/documentType.csv:17
+msgid "Final audit"
+msgstr "Auditoría final"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:17
+msgid ""
+"Documentation of a final audit carried out at the end of contract "
+"implementation."
+msgstr ""
+"Documentación de una auditoría final llevada a cabo al final de la "
+"implementación de un contrato."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:18
+msgid "Public hearing notice"
+msgstr "Aviso de audiencia pública"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:18
+msgid ""
+"Documentation of any public hearings that took place as part of the planning"
+" for this contracting process."
+msgstr ""
+"Documentación de cualquier audiencia que ocurrió como parte de la planeación"
+" de este proceso de contratación."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:19
+msgid "Market studies"
+msgstr "Estudios de mercado"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:19
+msgid ""
+"Documentation of any market studies that took place as part of the planning "
+"for this contracting process."
+msgstr ""
+"Documentación de cualquier estudio de mercado que haya ocurrido como parte "
+"de la planeación de este proceso de contrato."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:20
+msgid "Eligibility criteria"
+msgstr "Criterios de elegibilidad"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:20
+msgid "Detailed documents about the eligibility of bidders."
+msgstr "Documentos detallados sobre la elegibilidad de los licitantes."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:21
+msgid "Clarifications to bidders questions"
+msgstr "Aclaraciones a las preguntas de los licitantes"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:21
+msgid ""
+"Documentation that provides replies to issues raised in pre-bid conferences "
+"or an enquiry processes."
+msgstr ""
+"Documentación que provee las respuestas a las cuestiones apuntadas en "
+"reuniones pre-ofertas o procesos de preguntas."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:22
+msgid "Shortlisted firms"
+msgstr "Empresas preseleccionadas"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:22
+msgid ""
+"Documentation providing information on shortlisted firms. Structured "
+"versions of this information can be provided using the bids extension."
+msgstr ""
+"Documentación que provee información sobre las firmas preseleccionadas. Se "
+"pueden proveer versiones estructuradas de esta información usando la "
+"extensión de ofertas."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:23
+msgid "Environmental impact"
+msgstr "Impacto medioambiental"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:23
+msgid ""
+"Documentation of assessments of the environmental impacts (e.g. impacts on "
+"flora, fauna & woodlands, areas of natural beauty, carbon emissions etc.) "
+"and mitigation measures (e.g. pollution control, low carbon solutions, "
+"sustainable timber etc.) for the contracting process."
+msgstr ""
+"Documentación de reportes de impacto medioambiental (e.j. impacto en flora, "
+"fauna y bosques, zonas de belleza natural, emisiones de carbono etc.) y "
+"medidas de mitigación (e.j control de contaminación, soluciones bajas en "
+"carbono, madera sostenible, etc.) para el proceso de contratación."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:24
+msgid "Assessment of government's assets and liabilities"
+msgstr "Evaluación de los activos y responsabilidades del gobierno"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:24
+msgid ""
+"Documentation covering assessments of the government's assets and "
+"liabilities related to this contracting process."
+msgstr ""
+"Documentación que cubre las evaluaciones de los activos y responsabilidades "
+"del gobierno relacionados con este proceso de contratación."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:25
+msgid "Provisions for management of risks and liabilities"
+msgstr "Cláusulas para el manejo de riesgos y responsabilidades"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:25
+msgid ""
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
+msgstr ""
+"Documentación que cubre cómo se manejarán los riesgos como parte de este "
+"proceso de contratación."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:26
+msgid "Winning bid"
+msgstr "Oferta ganadora"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:26
+msgid ""
+"Documentation of the winning bid, including, wherever applicable, a full "
+"copy of the proposal received."
+msgstr ""
+"Documentación de la oferta ganadora, incluyendo, cuando aplique, una copia "
+"completa de la oferta recibida."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:27
+msgid "Complaints and decisions"
+msgstr "Quejas y decisiones"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:27
+msgid ""
+"Documentation of any complaints received, or decisions in response to "
+"complaints."
+msgstr ""
+"Documentación de cualquier queja recibida o decisiones en respuesta a dichas"
+" quejas."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:28
+msgid "Annexes to the contract"
+msgstr "Anexos al contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:28
+msgid ""
+"Copies of annexes and other supporting documentation related to the "
+"contract."
+msgstr ""
+"Copias de anexos y otra documentación de soporte relacionados con el "
+"contrato."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:29
+msgid "Guarantees"
+msgstr "Garantías"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:29
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
+msgstr ""
+"Documentación de garantías relacionadas con el proceso de contratación o el "
+"contrato."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:30
+msgid "Subcontracts"
+msgstr "Subcontratos"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:30
+msgid ""
+"Documentation detailing subcontracts and/or providing a copy of subcontracts"
+" themselves. Where OCDS data on the subcontracts exists, this can be "
+"declared using the relatedProcess block."
+msgstr ""
+"Documentación que detalla los subcontratos y/o provee una copia de los "
+"subcontratos. Donde haya datos de OCDS sobre los subcontratos, puede "
+"declararse usando el bloque de relatedProcess."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:31
+msgid "Needs assessment"
+msgstr "Evaluación de necesidades"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:31
+msgid ""
+"Documentation of the needs assessments carried out for this contracting "
+"process addressing demand for the project or investment from the affected "
+"communities or users."
+msgstr ""
+"Documentación de la evaluación de necesidad llevada a cabo para este proceso"
+" de contratación, cubriendo la demanda para el proyecto o inversión de la "
+"comunidad o usuarios afectados"
+
+#. Title
 #: schema/patched/codelists/documentType.csv:32
+msgid "Feasibility study"
+msgstr "Estudio de factibilidad"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:32
+msgid ""
+"Documentation of feasibility studies carried out for this contracting "
+"process, providing information on net benefits or costs of the proposed "
+"goods, works or services."
+msgstr ""
+"Documentación de la evaluación de factibilidad llevada a cabo para este "
+"proceso de contratación, proveyendo información sobre los beneficios o "
+"costos netos de los bienes, obras o servicios propuestos."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:33
+msgid "Project plan"
+msgstr "Plan de proyecto"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:33
+msgid ""
+"Documentation of project planning for this contracting process, and, where "
+"applicable, a copy of the project plan document."
+msgstr ""
+"Documentación de la planeación de proyecto para este proceso de contratación"
+" y, donde aplique, una copia del documento del plan de proyecto"
+
+#. Title
 #: schema/patched/codelists/documentType.csv:34
+msgid "Bill of quantity"
+msgstr "Factura de cantidad"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:34
+msgid ""
+"Documentation that provides itemized information on materials, parts and "
+"labour, and the terms and conditions for their provision, providing "
+"information that would enable bidders to price work effectively. Structured "
+"versions of item and quantity information at each of tender, award and "
+"contract stage can be provided using units within the items building block."
+msgstr ""
+"Documentación que provee la información desglosada de materiales, partes y "
+"mano de obra y los términos y condiciones para su provisión, dando "
+"información que permitirá a los licitadores dar efectivamente un precio. Se "
+"pueden proveer versiones estructuradas de artículos y cantidades en la etapa"
+" de licitación, adjudicación y contrato usando las unidades dentro del "
+"bloque de artículos."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:35
+msgid "Information on bidders"
+msgstr "Información de Licitante"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:35
+msgid ""
+"Documentation on bidders or participants, their validation documents and any"
+" procedural exemptions for which they qualify."
+msgstr ""
+"Documentación sobre ofertantes o participantes, sus documentos de validación"
+" y cualquier excepción al procedimiento para el que estén calificados."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:36
+msgid "Conflict of interest"
+msgstr "Conflicto de interés"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:36
+msgid "Documentation of conflicts of interest declared or uncovered."
+msgstr "Documentación de conflictos de interés declarado o descubierto."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:37
+msgid "Debarments"
+msgstr "Inhabilitaciones"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:37
+msgid "Documentation of any debarments issued."
+msgstr "Documentación de cualquier inhabilitación efectuada."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:38
+msgid "Illustrations"
+msgstr "Ilustraciones"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:38
+msgid ""
+"Images intended to provide supporting information. The URL for images should"
+" be directly to an image file that applications can display as part of a "
+"gallery of images. At the tender stage, images can be illustrations of "
+"goods, works or services needed or for sale. At the implementation stage, "
+"images can be illustrations or visual evidence of physical progress."
+msgstr ""
+"Imágenes con la intención de dar información adicional. La URL de las "
+"imágenes deben de ser directas a un archivo de imagen que las aplicaciones "
+"muestren como parte de una galería de imágenes. En la etapa de licitación, "
+"las imágenes pueden ser ilustraciones de bienes, trabajos o servicios que se"
+" necesiten o estén en venta. En la etapa de implementación, las imágenes "
+"pueden ser ilustraciones o evidencia visual del progreso físico."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:39
+msgid "Bid submission documents"
+msgstr "Documentos de presentación de oferta"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:39
+msgid "Documentation submitted by a bidder as part of their proposal."
+msgstr "Documentación enviada por un licitante como parte de su oferta"
+
+#. Title
 #: schema/patched/codelists/documentType.csv:40
+msgid "Contract summary"
+msgstr "Resumen del contrato"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:40
+msgid ""
+"Documentation providing an overview of the key terms and sections of the "
+"contract. Commonly used for large and complex contracts."
+msgstr ""
+"Documentación que da una imagen general de los términos y secciones clave "
+"del contrato. Comúnmente usado para contratos largos y complejos."
+
+#. Title
 #: schema/patched/codelists/documentType.csv:41
+msgid "Cancellation details"
+msgstr "Detalles de cancelación"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:41
+msgid ""
+"Documentation of the arrangements, or reasons, for cancellation of a "
+"contracting process, award or specific contract."
+msgstr ""
+"Documentación de los arreglos, o razones para la cancelación de un proceso "
+"de contrataciones, adjudicación o contrato específico."
+
+#. Title
+#. Extension
 #: schema/patched/codelists/documentType.csv:42
 #: schema/patched/codelists/documentType.csv:43
 #: schema/patched/codelists/documentType.csv:44
-#: schema/patched/codelists/initiationType.csv:1
+#: schema/patched/codelists/documentType.csv:45
+#: schema/profile/codelists/+documentType.csv:1
+msgid "Tariffs"
+msgstr "Tarifas"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:42
+#: schema/profile/codelists/+documentType.csv:1
+msgid "For providing tariff and pricing schedules."
+msgstr "Para proporcionar tarifas y programación de precios."
+
+#. Title
+#: schema/patched/codelists/documentType.csv:43
+#: schema/profile/codelists/+documentType.csv:2
+msgid "Tariff method"
+msgstr "Método de tarifas"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:43
+#: schema/profile/codelists/+documentType.csv:2
+msgid ""
+"For summarizing the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This might include written"
+" documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+msgstr ""
+"Para resumir el método de fijación de tarifas y enlazar con la documentación"
+" detallada de los métodos de fijación de tarifas. Esto podría incluir "
+"documentación escrita y hojas de cálculo que proporcionen los modelos "
+"utilizados para calcular las tarifas."
+
+#. Title
+#: schema/patched/codelists/documentType.csv:44
+#: schema/profile/codelists/+documentType.csv:3
+msgid "Tariff review"
+msgstr "Revisión de la tarifa"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:44
+#: schema/profile/codelists/+documentType.csv:3
+msgid ""
+"For summarizing the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+msgstr ""
+"Para resumir las disposiciones para la revisión y regulación de las tarifas,"
+" y enlazar con la documentación detallada que cubra cómo se regulan las "
+"tarifas. Esto es importante para explicar a los usuarios por qué están "
+"pagando lo que están pagando, y el alcance de los cambios en las estructuras"
+" de pago."
+
+#. Title
+#: schema/patched/codelists/documentType.csv:45
+#: schema/profile/codelists/+documentType.csv:4
+msgid "Tariff illustration"
+msgstr "Ilustración de tarifa"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:45
+#: schema/profile/codelists/+documentType.csv:4
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+msgstr ""
+"Para vincular a gráficos e informes sobre el cambio en el tiempo en los "
+"precios de las tarifas. Utilice el tipo de material de imagen relevante al "
+"vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones "
+"muestren directamente este contenido."
+
+#. Title
+#: schema/patched/codelists/documentType.csv:46
+#: schema/profile/codelists/+documentType.csv:5
+msgid "Value for money analysis"
+msgstr "Análisis de valor por dinero"
+
+#. Description
+#: schema/patched/codelists/documentType.csv:46
+#: schema/profile/codelists/+documentType.csv:5
+msgid ""
+"A summary of the value for money analysis carried out for the project, along"
+" with supporting figures, calculations and business case, based on projected"
+" or actual procurement outcomes."
+msgstr ""
+"Un resumen del análisis de la relación de valor por dinero para el proyecto,"
+" junto con las cifras de soporte, cálculos y modelo de negocios, basados "
+"​​en los resultados proyectados o reales de la adquisición."
+
+#. Extension
+#: schema/patched/codelists/documentType.csv:46
+#: schema/patched/codelists/documentType.csv:47
+#: schema/patched/codelists/documentType.csv:48
+#: schema/patched/codelists/documentType.csv:49
+#: schema/patched/codelists/documentType.csv:50
+#: schema/patched/codelists/documentType.csv:51
+#: schema/patched/codelists/documentType.csv:52
+#: schema/patched/codelists/documentType.csv:53
+#: schema/patched/codelists/documentType.csv:54
+#: schema/patched/codelists/documentType.csv:55
+#: schema/patched/codelists/documentType.csv:56
+#: schema/patched/codelists/documentType.csv:57
+#: schema/patched/codelists/documentType.csv:58
+#: schema/patched/codelists/documentType.csv:59
+#: schema/patched/codelists/documentType.csv:60
+#: schema/patched/codelists/documentType.csv:61
+#: schema/patched/codelists/documentType.csv:62
+#: schema/patched/codelists/documentType.csv:63
+#: schema/patched/codelists/documentType.csv:64
+#: schema/patched/codelists/documentType.csv:65
+#: schema/patched/codelists/documentType.csv:66
+#: schema/patched/codelists/documentType.csv:67
+#: schema/patched/codelists/documentType.csv:68
+#: schema/patched/codelists/documentType.csv:69
+#: schema/patched/codelists/documentType.csv:70
+#: schema/patched/codelists/documentType.csv:71
 #: schema/patched/codelists/metricID.csv:1
 #: schema/patched/codelists/metricID.csv:2
 #: schema/patched/codelists/metricID.csv:3
@@ -954,11 +1578,8 @@ msgstr ""
 #: schema/patched/codelists/milestoneCode.csv:7
 #: schema/patched/codelists/milestoneCode.csv:8
 #: schema/patched/codelists/milestoneCode.csv:9
-#: schema/patched/codelists/milestoneType.csv:8
 #: schema/patched/codelists/milestoneType.csv:9
-#: schema/patched/codelists/partyRole.csv:8
-#: schema/patched/codelists/partyRole.csv:9
-#: schema/patched/codelists/partyRole.csv:10
+#: schema/patched/codelists/milestoneType.csv:10
 #: schema/patched/codelists/partyRole.csv:11
 #: schema/patched/codelists/partyRole.csv:12
 #: schema/patched/codelists/partyRole.csv:13
@@ -968,66 +1589,30 @@ msgstr ""
 #: schema/patched/codelists/partyRole.csv:17
 #: schema/patched/codelists/partyRole.csv:18
 #: schema/patched/codelists/partyRole.csv:19
-#: schema/patched/codelists/releaseTag.csv:17
-#: schema/patched/codelists/releaseTag.csv:18
-#: schema/patched/codelists/releaseTag.csv:19
-#: schema/patched/codelists/releaseTag.csv:20
-#: schema/patched/codelists/releaseTag.csv:21
-#: schema/patched/codelists/releaseTag.csv:22
 msgid "OCDS for PPPs Extension"
 msgstr "Extensión OCDS para APPs"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:2
-#: schema/profile/codelists/documentType.csv:2
-msgid "Value for money analysis"
-msgstr "Análisis de valor por dinero"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:2
-#: schema/profile/codelists/documentType.csv:2
-msgid ""
-"A summary of the value for money analysis carried out for the project, along"
-" with supporting figures, calculations and business case, based on projected"
-" or actual procurement outcomes."
-msgstr ""
-"Un resumen del análisis de la relación de valor por dinero para el proyecto,"
-" junto con las cifras de soporte, cálculos y modelo de negocios, basados "
-"​​en los resultados proyectados o reales de la adquisición."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:3
-#: schema/profile/codelists/documentType.csv:3
-msgid "Technical Specifications"
-msgstr "Especificaciones Técnicas"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:3
-#: schema/profile/codelists/documentType.csv:3
-msgid "Detailed technical information about goods or services to be provided."
-msgstr "Información técnica detallada sobre los bienes o servicios a proveer."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:4
-#: schema/profile/codelists/documentType.csv:4
+#: schema/patched/codelists/documentType.csv:47
+#: schema/profile/codelists/+documentType.csv:6
 msgid "Service descriptions"
 msgstr "Descripciones del servicio"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:4
-#: schema/profile/codelists/documentType.csv:4
+#: schema/patched/codelists/documentType.csv:47
+#: schema/profile/codelists/+documentType.csv:6
 msgid "A high-level description of the services"
 msgstr "Una descripción de general de los servicios"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:5
-#: schema/profile/codelists/documentType.csv:5
+#: schema/patched/codelists/documentType.csv:48
+#: schema/profile/codelists/+documentType.csv:7
 msgid "Estimated demand"
 msgstr "Demanda estimada"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:5
-#: schema/profile/codelists/documentType.csv:5
+#: schema/patched/codelists/documentType.csv:48
+#: schema/profile/codelists/+documentType.csv:7
 msgid ""
 "A narrative describing the estimated demand to be served (annually) by the "
 "project."
@@ -1036,39 +1621,39 @@ msgstr ""
 "por el proyecto."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:6
-#: schema/profile/codelists/documentType.csv:6
+#: schema/patched/codelists/documentType.csv:49
+#: schema/profile/codelists/+documentType.csv:8
 msgid "Project additionality"
 msgstr "Adicionalidad del proyecto"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:6
-#: schema/profile/codelists/documentType.csv:6
+#: schema/patched/codelists/documentType.csv:49
+#: schema/profile/codelists/+documentType.csv:8
 msgid "A description of the additionality provided by the project"
 msgstr "Una descripción de la adicionalidad proporcionada por el proyecto"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:7
-#: schema/profile/codelists/documentType.csv:7
+#: schema/patched/codelists/documentType.csv:50
+#: schema/profile/codelists/+documentType.csv:9
 msgid "Finance additionality"
 msgstr "Adicionalidad financiera"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:7
-#: schema/profile/codelists/documentType.csv:7
+#: schema/patched/codelists/documentType.csv:50
+#: schema/profile/codelists/+documentType.csv:9
 msgid "A description of the additionality provided by the finance method"
 msgstr ""
 "Una descripción de la adicionalidad proporcionada por el método financiero"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:8
-#: schema/profile/codelists/documentType.csv:8
+#: schema/patched/codelists/documentType.csv:51
+#: schema/profile/codelists/+documentType.csv:10
 msgid "Rationale for PPP modality"
 msgstr "Justificación de la modalidad APP"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:8
-#: schema/profile/codelists/documentType.csv:8
+#: schema/patched/codelists/documentType.csv:51
+#: schema/profile/codelists/+documentType.csv:10
 msgid ""
 "A description of the reasons for choosing to conduct this project as a PPP"
 msgstr ""
@@ -1076,141 +1661,26 @@ msgstr ""
 "proyecto como APP"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:9
-#: schema/profile/codelists/documentType.csv:9
-msgid "Contract draft"
-msgstr "Borrador de contrato"
+#: schema/patched/codelists/documentType.csv:52
+#: schema/profile/codelists/+documentType.csv:11
+msgid "Evaluation committee details"
+msgstr "Detalles del comité de evaluación"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:9
-#: schema/profile/codelists/documentType.csv:9
-msgid "A draft or pro-forma copy of the contract."
-msgstr "Un borrador o copia pro-forma del contrato."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:10
-#: schema/profile/codelists/documentType.csv:10
-msgid "Schedules and milestones"
-msgstr "Calendarios e hitos"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:10
-#: schema/profile/codelists/documentType.csv:10
-msgid ""
-"Documentation setting out key milestones and schedules. Structured versions "
-"of this information may be modelled using the milestones block."
-msgstr ""
-"Documentación que muestra calendarios e hitos clave. Se pueden modelar "
-"versiones estructuradas de esta información usando el bloque de hitos."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:11
-#: schema/profile/codelists/documentType.csv:11
-msgid "Signed Contract"
-msgstr "Contrato Firmado"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:11
-#: schema/profile/codelists/documentType.csv:11
-msgid ""
-"A copy of the signed contract. Consider providing both machine-readable "
-"(e.g. original PDF, Word or Open Document format files), and a separate "
-"document entry for scanned-signed pages where this is required."
-msgstr ""
-"Una copia del contrato firmado. Considera proveer tanto un documento legible"
-" por computadora (p.ej. PDF original, o formato de Word u Open Document) "
-"como un documento separado para páginas firmadas digitalizadas donde sea "
-"requerido."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:12
-#: schema/profile/codelists/documentType.csv:12
-msgid "Feasibility study"
-msgstr "Estudio de factibilidad"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:12
-#: schema/profile/codelists/documentType.csv:12
-msgid ""
-"Documentation of feasibility studies carried out for this contracting "
-"process, providing information on net benefits or costs of the proposed "
-"goods, works or services."
-msgstr ""
-"Documentación de la evaluación de factibilidad llevada a cabo para este "
-"proceso de contratación, proveyendo información sobre los beneficios o "
-"costos netos de los bienes, obras o servicios propuestos."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:13
-#: schema/profile/codelists/documentType.csv:13
-msgid "Environmental Impact"
-msgstr "Impacto Ambiental"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:13
-#: schema/profile/codelists/documentType.csv:13
-msgid ""
-"Documentation of environmental impact assessments carried out before, during"
-" or after the contracting process."
-msgstr ""
-"Documentación de evaluaciones de impacto ambiental llevadas a cabo antes, "
-"durante o después del proceso de contratación."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:14
-#: schema/profile/codelists/documentType.csv:14
-msgid "Final Audit"
-msgstr "Auditoría Final"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:14
-#: schema/profile/codelists/documentType.csv:14
-msgid ""
-"Documentation of a final audit carried out at the end of contract "
-"implementation."
-msgstr ""
-"Documentación de una auditoría final llevada a cabo al final de la "
-"implementación de un contrato."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:15
-#: schema/profile/codelists/documentType.csv:15
-msgid "Tender Notice"
-msgstr "Aviso de Licitación"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:15
-#: schema/profile/codelists/documentType.csv:15
-msgid ""
-"The formal notice that gives details of a tender. This may be a link to a "
-"downloadable document, to a web page, or to an official gazette in which the"
-" notice is contained."
-msgstr ""
-"El aviso formal que da los detalles de una licitación. Este puede ser un "
-"enlace a un documento descargable, a un sitio web o a una gaceta oficial en "
-"la cual se contiene el aviso. "
-
-#. Title
-#: schema/patched/codelists/documentType.csv:16
-#: schema/profile/codelists/documentType.csv:16
-msgid "Evaluation Committee Details"
-msgstr "Detalles del Comité de Evaluación"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:16
-#: schema/profile/codelists/documentType.csv:16
+#: schema/patched/codelists/documentType.csv:52
+#: schema/profile/codelists/+documentType.csv:11
 msgid "Information on the constitution of the evaluation committee"
 msgstr "Información sobre la constitución del comité de evaluación"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:17
-#: schema/profile/codelists/documentType.csv:17
-msgid "Request for Qualification"
-msgstr "Solicitud de Calificación"
+#: schema/patched/codelists/documentType.csv:53
+#: schema/profile/codelists/+documentType.csv:12
+msgid "Request for qualification"
+msgstr "Solicitud de calificación"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:17
-#: schema/profile/codelists/documentType.csv:17
+#: schema/patched/codelists/documentType.csv:53
+#: schema/profile/codelists/+documentType.csv:12
 msgid ""
 "The set of documents issued by the procuring authority that constitute the "
 "basis of the qualification and potentially the pre-selection of candidates "
@@ -1226,57 +1696,28 @@ msgstr ""
 " como una fase de diálogo o una fase interactiva)."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:18
-#: schema/profile/codelists/documentType.csv:18
-msgid "Evaluation Criteria"
-msgstr "Criterios de Evaluación"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:18
-#: schema/profile/codelists/documentType.csv:18
-msgid "Documentation on how bids will be evaluated."
-msgstr "Documentación sobre cómo se evaluarán las ofertas."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:19
-#: schema/profile/codelists/documentType.csv:19
+#: schema/patched/codelists/documentType.csv:54
+#: schema/profile/codelists/+documentType.csv:13
 msgid "Minutes"
 msgstr "Minutas"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:19
-#: schema/profile/codelists/documentType.csv:19
+#: schema/patched/codelists/documentType.csv:54
+#: schema/profile/codelists/+documentType.csv:13
 msgid "Minutes of pre-bid meetings, or other relevant meetings."
 msgstr ""
 "Minutas de las reuniones previas a la licitación u otras reuniones "
 "pertinentes."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:20
-#: schema/profile/codelists/documentType.csv:20
-msgid "Shortlisted Firms"
-msgstr "Firmas Preseleccionadas"
+#: schema/patched/codelists/documentType.csv:55
+#: schema/profile/codelists/+documentType.csv:14
+msgid "Negotiation parameters"
+msgstr "Parámetros de negociación"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:20
-#: schema/profile/codelists/documentType.csv:20
-msgid ""
-"Documentation providing information on shortlisted firms. Structured "
-"versions of this information can be provided using the bids extension."
-msgstr ""
-"Documentación que provee información sobre las firmas preseleccionadas. Se "
-"pueden proveer versiones estructuradas de esta información usando la "
-"extensión de ofertas."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:21
-#: schema/profile/codelists/documentType.csv:21
-msgid "Negotiation Parameters"
-msgstr "Parámetros de Negociación"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:21
-#: schema/profile/codelists/documentType.csv:21
+#: schema/patched/codelists/documentType.csv:55
+#: schema/profile/codelists/+documentType.csv:14
 msgid ""
 "A description of the parameters for negotiation with the preferred proponent"
 msgstr ""
@@ -1284,58 +1725,26 @@ msgstr ""
 "preferido"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:22
-#: schema/profile/codelists/documentType.csv:22
-msgid "Provisions for management of risks and liabilities"
-msgstr "Cláusulas para el manejo de riesgos y responsabilidades"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:22
-#: schema/profile/codelists/documentType.csv:22
-msgid ""
-"Documentation covering how risks will be managed as part of this contracting"
-" process."
-msgstr ""
-"Documentación que cubre cómo se manejarán los riesgos como parte de este "
-"proceso de contratación."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:23
-#: schema/profile/codelists/documentType.csv:23
-msgid "Evaluation report"
-msgstr "Reporte de evaluación"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:23
-#: schema/profile/codelists/documentType.csv:23
-msgid ""
-"Documentation on the evaluation of the bids and the application of the "
-"evaluation criteria, including the justification for the award"
-msgstr ""
-"Documentación sobre la evaluación de las ofertas y la aplicación de los "
-"criterios de evaluación, incluyendo la justificación para la adjudicación"
-
-#. Title
-#: schema/patched/codelists/documentType.csv:24
-#: schema/profile/codelists/documentType.csv:24
+#: schema/patched/codelists/documentType.csv:56
+#: schema/profile/codelists/+documentType.csv:15
 msgid "Risk comparison"
 msgstr "Comparación de riesgos"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:24
-#: schema/profile/codelists/documentType.csv:24
+#: schema/patched/codelists/documentType.csv:56
+#: schema/profile/codelists/+documentType.csv:15
 msgid "Risk comparison of other financing methods"
 msgstr "Comparación de riesgos de otros métodos de financiamiento"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:25
-#: schema/profile/codelists/documentType.csv:25
+#: schema/patched/codelists/documentType.csv:57
+#: schema/profile/codelists/+documentType.csv:16
 msgid "Discount rate and risk premium"
 msgstr "Tasa de descuento y prima de riesgo"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:25
-#: schema/profile/codelists/documentType.csv:25
+#: schema/patched/codelists/documentType.csv:57
+#: schema/profile/codelists/+documentType.csv:16
 msgid ""
 "An explanation of the discount rate, and any risk premium used, including "
 "information on project-specific circumstances that justify the risk premium "
@@ -1346,14 +1755,14 @@ msgstr ""
 "proyecto que justifiquen la tasa de prima de riesgo utilizada."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:26
-#: schema/profile/codelists/documentType.csv:26
+#: schema/patched/codelists/documentType.csv:58
+#: schema/profile/codelists/+documentType.csv:17
 msgid "Equity transfer caps"
 msgstr "Límites de transferencia de capital"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:26
-#: schema/profile/codelists/documentType.csv:26
+#: schema/patched/codelists/documentType.csv:58
+#: schema/profile/codelists/+documentType.csv:17
 msgid ""
 "Details of any restrictions on the transfer of equity by shareholders or "
 "other relevant participants in the project. Certain contracts provide for "
@@ -1367,14 +1776,14 @@ msgstr ""
 "construcción y durante algunos años después."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:27
-#: schema/profile/codelists/documentType.csv:27
+#: schema/patched/codelists/documentType.csv:59
+#: schema/profile/codelists/+documentType.csv:18
 msgid "Security and step in arrangements"
 msgstr "Seguridad y pasos en los arreglos"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:27
-#: schema/profile/codelists/documentType.csv:27
+#: schema/patched/codelists/documentType.csv:59
+#: schema/profile/codelists/+documentType.csv:18
 msgid ""
 "Details of any rights granted to a lender to access value in the event of "
 "default by a borrower and any rights granted to a party to \"step in\" to "
@@ -1384,107 +1793,92 @@ msgid ""
 msgstr ""
 "Los detalles de cualquier derecho otorgado a un prestador para acceder al "
 "valor en caso de una falta por el prestador, y cualquier derecho que se de a"
-" alguna parte involucrada que entre por otra parte involucrada , por "
-"ejemplo, un derecho concedido a un prestador o autoridad pública para tomar "
-"control temporal sobre la operación del proyecto en caso de que un actor "
-"privado falle."
+" alguna parte involucrada que entre por otra parte involucrada, por ejemplo,"
+" un derecho concedido a un prestador o autoridad pública para tomar control "
+"temporal sobre la operación del proyecto en caso de que un actor privado "
+"falle."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:28
-#: schema/profile/codelists/documentType.csv:28
-msgid "Guarantees"
-msgstr "Garantías"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:28
-#: schema/profile/codelists/documentType.csv:28
-msgid ""
-"Documentation of guarantees relating to a contracting process or contract."
-msgstr ""
-"Documentación de garantías relacionadas con el proceso de contratación o el "
-"contrato."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:29
-#: schema/profile/codelists/documentType.csv:29
+#: schema/patched/codelists/documentType.csv:60
+#: schema/profile/codelists/+documentType.csv:19
 msgid "Fiscal commitments and contingent liabilities disclosure reports"
 msgstr ""
 "Compromisos fiscales y reportes de divulgación de deudas contingentes "
 
 #. Description
-#: schema/patched/codelists/documentType.csv:29
-#: schema/profile/codelists/documentType.csv:29
+#: schema/patched/codelists/documentType.csv:60
+#: schema/profile/codelists/+documentType.csv:19
 msgid ""
 "Reports detailing the fiscal commitments of the public authority to the PPP,"
-" for example known payments that must be made if the PPP proceeds or payment"
-" commitments whose occurrence, timing and magnitude depend on some uncertain"
-" future event, outside the control of the public authority."
+" for example known payments that need to be made if the PPP proceeds or "
+"payment commitments whose occurrence, timing and magnitude depend on some "
+"uncertain future event, outside the control of the public authority."
 msgstr ""
-"Reportes que detallen los compromisos fiscales de la autoridad pública para "
-"el APP, por ejemplo, pagos que se deben de hacer si el APP procede, o "
-"compromisos de pago que debido a algún acontecimiento, la fecha y magnitud "
-"dependen de un evento futuro incierto, fuera del control de la autoridad "
-"pública"
+"Informes en los que se detallan los compromisos fiscales de la autoridad "
+"pública con la APP, por ejemplo, los pagos conocidos que deben realizarse si"
+" la APP sigue adelante o los compromisos de pago cuya ocurrencia, calendario"
+" y magnitud dependen de algún acontecimiento futuro incierto, fuera del "
+"control de la autoridad pública."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:30
-#: schema/profile/codelists/documentType.csv:30
+#: schema/patched/codelists/documentType.csv:61
+#: schema/profile/codelists/+documentType.csv:20
 msgid "Grants"
 msgstr "Subsidios"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:30
-#: schema/profile/codelists/documentType.csv:30
+#: schema/patched/codelists/documentType.csv:61
+#: schema/profile/codelists/+documentType.csv:20
 msgid ""
-"Information on grants given to support the project. Grant information should"
-" detail the total value of subsidy, and/or the value of subsidy as a "
+"Information on grants given to support the project. Grant information ought "
+"to detail the total value of subsidy, and/or the value of subsidy as a "
 "proportion of the overall project value, as well as providing information on"
 " the nature of the grant. For capital subsidies paid during construction of "
 "a project, or operating subsidies paid during operation, details of "
-"periodicity of grant payments, and particular grant milestones, should be "
+"periodicity of grant payments, and particular grant milestones, ought to be "
 "provided."
 msgstr ""
 "Información sobre las subvenciones concedidas para apoyar el proyecto. La "
-"información sobre la subvención debe detallar el valor total de la "
-"subvención y/o el valor de la subvención como proporción del valor total del"
-" proyecto, así como proporcionar información sobre la naturaleza de la "
-"subvención. Para las subvenciones de capital pagadas durante la construcción"
-" de un proyecto, o las subvenciones de funcionamiento pagadas durante la "
-"operación, se deben proporcionar detalles de la periodicidad de los pagos de"
-" la subvención y los hitos particulares de la subvención."
+"información sobre las subvenciones debe detallar el valor total de la "
+"subvención, y/o el valor de la subvención como proporción del valor total "
+"del proyecto, así como proporcionar información sobre la naturaleza de la "
+"subvención. En el caso de las subvenciones de capital pagadas durante la "
+"construcción de un proyecto, o de las subvenciones de explotación pagadas "
+"durante el funcionamiento, deben facilitarse detalles sobre la periodicidad "
+"de los pagos de la subvención, así como los hitos concretos de la misma."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:31
-#: schema/profile/codelists/documentType.csv:31
+#: schema/patched/codelists/documentType.csv:62
+#: schema/profile/codelists/+documentType.csv:21
 msgid "Service payments"
 msgstr "Pagos de servicios"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:31
-#: schema/profile/codelists/documentType.csv:31
+#: schema/patched/codelists/documentType.csv:62
+#: schema/profile/codelists/+documentType.csv:21
 msgid ""
 "Service payments are payments made by the public authority or purchaser to "
 "the private provider for infrastructure services (applicable in some types "
-"of Public Private Partnership projects). The documentation should cover the "
-"total number of payments and their periodicity, as well as the methodology "
-"used for calculating payments and the indexation used."
+"of Public Private Partnership projects). The documentation ought to cover "
+"the total number of payments and their periodicity, as well as the "
+"methodology used for calculating payments and the indexation used."
 msgstr ""
-"Los pagos por servicios son pagos efectuados por la autoridad pública o el "
-"comprador al proveedor privado para servicios de infraestructura (aplicable "
-"en algunos tipos de proyectos de asociación público-privada). La "
-"documentación debe cubrir el número total de pagos y su periodicidad, así "
+"Los pagos de servicios son los pagos realizados por la autoridad pública o "
+"el comprador al proveedor privado por los servicios de infraestructura "
+"(aplicable en algunos tipos de proyectos de Asociación Público-Privada). La "
+"documentación debe incluir el número total de pagos y su periodicidad, así "
 "como la metodología utilizada para calcular los pagos y la indexación "
 "utilizada."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:32
-#: schema/profile/codelists/documentType.csv:32
+#: schema/patched/codelists/documentType.csv:63
+#: schema/profile/codelists/+documentType.csv:22
 msgid "Land transfer"
 msgstr "Transferencia de tierras"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:32
-#: schema/profile/codelists/documentType.csv:32
+#: schema/patched/codelists/documentType.csv:63
+#: schema/profile/codelists/+documentType.csv:22
 msgid ""
 "Details of land transferred on lease or other basis by government, including"
 " details of property numbers with the quantum of land transferred, zoning "
@@ -1496,14 +1890,14 @@ msgstr ""
 "transferencia."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:33
-#: schema/profile/codelists/documentType.csv:33
-msgid "Asset Transfer"
+#: schema/patched/codelists/documentType.csv:64
+#: schema/profile/codelists/+documentType.csv:23
+msgid "Asset transfer"
 msgstr "Transferencia de activos"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:33
-#: schema/profile/codelists/documentType.csv:33
+#: schema/patched/codelists/documentType.csv:64
+#: schema/profile/codelists/+documentType.csv:23
 msgid ""
 "Details of asset, human resource of personnel transfers, including "
 "documentation of the conditions of transfer."
@@ -1512,14 +1906,14 @@ msgstr ""
 " incluida la documentación de las condiciones de transferencia."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:34
-#: schema/profile/codelists/documentType.csv:34
-msgid "Revenue Share"
+#: schema/patched/codelists/documentType.csv:65
+#: schema/profile/codelists/+documentType.csv:24
+msgid "Revenue share"
 msgstr "Participación de los ingresos"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:34
-#: schema/profile/codelists/documentType.csv:34
+#: schema/patched/codelists/documentType.csv:65
+#: schema/profile/codelists/+documentType.csv:24
 msgid ""
 "Documentation of any revenue share arrangements, including revenue share on "
 "the base-case and upside for a public private partnership project."
@@ -1529,14 +1923,14 @@ msgstr ""
 " un proyecto de asociación público-privada."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:35
-#: schema/profile/codelists/documentType.csv:35
+#: schema/patched/codelists/documentType.csv:66
+#: schema/profile/codelists/+documentType.csv:25
 msgid "Other government support"
 msgstr "Otro apoyo gubernamental"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:35
-#: schema/profile/codelists/documentType.csv:35
+#: schema/patched/codelists/documentType.csv:66
+#: schema/profile/codelists/+documentType.csv:25
 msgid ""
 "Documentation of any other government support, including non-complete "
 "clauses or provision for revenue shortfall loans."
@@ -1545,111 +1939,38 @@ msgstr ""
 " completas o provisión para préstamos de déficit de ingresos."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:36
-#: schema/profile/codelists/documentType.csv:36
-msgid "Tariff method"
-msgstr "Método de tarifas"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:36
-#: schema/profile/codelists/documentType.csv:36
-msgid ""
-"For summarizing the method by which tariffs are set, and linking to detailed"
-" documentation of the methods for setting tariffs. This may include written "
-"documentation, and spreadsheets providing the models used to calculate "
-"tariffs. This should make clear who sets the tariff and on what basis."
-msgstr ""
-"Para resumir el método por el cual se establecen las tarifas y vincular a la"
-" documentación detallada de los métodos de definición de tarifas. Esto puede"
-" incluir documentación escrita y hojas de cálculo que proporcionen los "
-"modelos utilizados para calcular las tarifas. Esto debería aclarar quién "
-"establece la tarifa y sobre qué base."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:37
-#: schema/profile/codelists/documentType.csv:37
-msgid "Tariff review"
-msgstr "Revisión de la tarifa"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:37
-#: schema/profile/codelists/documentType.csv:37
-msgid ""
-"For summarizing the arrangements for the review and regulation of tariffs, "
-"and linking to detailed documentation that covers how tariffs are regulated."
-" This is important to explain to users why they are paying what they are "
-"paying, and the scope for changes to payment structures."
-msgstr ""
-"Para resumir las disposiciones para la revisión y regulación de las tarifas,"
-" y enlazar con la documentación detallada que cubra cómo se regulan las "
-"tarifas. Esto es importante para explicar a los usuarios por qué están "
-"pagando lo que están pagando, y el alcance de los cambios en las estructuras"
-" de pago."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:38
-#: schema/profile/codelists/documentType.csv:38
-msgid "Tariffs"
-msgstr "Tarifas"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:38
-#: schema/profile/codelists/documentType.csv:38
-msgid "For providing tariff and pricing schedules."
-msgstr "Para proporcionar tarifas y programación de precios."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:39
-#: schema/profile/codelists/documentType.csv:39
-msgid "Tariff illustrations"
-msgstr "Ilustraciones de tarifas"
-
-#. Description
-#: schema/patched/codelists/documentType.csv:39
-#: schema/profile/codelists/documentType.csv:39
-msgid ""
-"For linking to graphs and reports on the change over time in tariff prices. "
-"Use the relevant image media type when linking to PNG, JPEG or GIF graphs to"
-" allow applications to directly display this content."
-msgstr ""
-"Para vincular a gráficos e informes sobre el cambio en el tiempo en los "
-"precios de las tarifas. Utilice el media/type de imagen relevante al "
-"vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones "
-"muestren directamente este contenido."
-
-#. Title
-#: schema/patched/codelists/documentType.csv:40
-#: schema/profile/codelists/documentType.csv:40
+#: schema/patched/codelists/documentType.csv:67
+#: schema/profile/codelists/+documentType.csv:26
 msgid "Defaults"
 msgstr "Incumplimientos"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:40
-#: schema/profile/codelists/documentType.csv:40
+#: schema/patched/codelists/documentType.csv:67
+#: schema/profile/codelists/+documentType.csv:26
 msgid "Information on events of default"
 msgstr "Información sobre eventos de incumplimiento"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:41
-#: schema/profile/codelists/documentType.csv:41
+#: schema/patched/codelists/documentType.csv:68
+#: schema/profile/codelists/+documentType.csv:27
 msgid "Termination"
 msgstr "Terminación"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:41
-#: schema/profile/codelists/documentType.csv:41
+#: schema/patched/codelists/documentType.csv:68
+#: schema/profile/codelists/+documentType.csv:27
 msgid "Information on contract termination"
 msgstr "Información sobre la terminación del contrato"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:42
-#: schema/profile/codelists/documentType.csv:42
+#: schema/patched/codelists/documentType.csv:69
+#: schema/profile/codelists/+documentType.csv:28
 msgid "Handover"
 msgstr "Entrega"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:42
-#: schema/profile/codelists/documentType.csv:42
+#: schema/patched/codelists/documentType.csv:69
+#: schema/profile/codelists/+documentType.csv:28
 msgid ""
 "Contractual provisions for, or reporting on, handover of assets back to the "
 "state, including details of condition of assets and any other conditions of "
@@ -1660,26 +1981,26 @@ msgstr ""
 "y cualquier otra condición de traspaso."
 
 #. Title
-#: schema/patched/codelists/documentType.csv:43
-#: schema/profile/codelists/documentType.csv:43
+#: schema/patched/codelists/documentType.csv:70
+#: schema/profile/codelists/+documentType.csv:29
 msgid "Financial statement"
 msgstr "Estado financiero"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:43
-#: schema/profile/codelists/documentType.csv:43
+#: schema/patched/codelists/documentType.csv:70
+#: schema/profile/codelists/+documentType.csv:29
 msgid "Audited financial statements of the project company"
 msgstr "Estados financieros auditados de la empresa del proyecto"
 
 #. Title
-#: schema/patched/codelists/documentType.csv:44
-#: schema/profile/codelists/documentType.csv:44
+#: schema/patched/codelists/documentType.csv:71
+#: schema/profile/codelists/+documentType.csv:30
 msgid "Performance report"
 msgstr "Reporte de desempeño"
 
 #. Description
-#: schema/patched/codelists/documentType.csv:44
-#: schema/profile/codelists/documentType.csv:44
+#: schema/patched/codelists/documentType.csv:71
+#: schema/profile/codelists/+documentType.csv:30
 msgid "Performance assessment reports"
 msgstr "Informes de evaluación de rendimiento"
 
@@ -1780,7 +2101,7 @@ msgstr ""
 #: schema/patched/codelists/financeType.csv:5
 #: schema/patched/codelists/financeType.csv:6
 #: schema/patched/codelists/financeType.csv:7
-msgid "Financing"
+msgid "Finance"
 msgstr "Financiamiento"
 
 #. Title
@@ -1840,12 +2161,12 @@ msgstr "Garantía"
 #: schema/profile/codelists/financeCategory.csv:5
 msgid ""
 "A guarantee is a promise by one party to assume the debt of another if the "
-"other defaults. Guarantees should not be counted in totals of the overall "
+"other defaults. Guarantees are not to be counted in totals of the overall "
 "financing of a project."
 msgstr ""
-"Una garantía es una promesa por una parte de asumir la deuda de otra si el "
-"otro incumple. Las garantías no deben contabilizarse en los totales del "
-"financiamiento global de un proyecto."
+"Una garantía es la promesa de una parte de asumir la deuda de otra en caso "
+"de que ésta incumpla. Las garantías no deben contabilizarse en los totales "
+"de la financiación global de un proyecto."
 
 #. Title
 #: schema/patched/codelists/financeCategory.csv:6
@@ -1857,11 +2178,11 @@ msgstr "Otras deudas o inversiones"
 #: schema/patched/codelists/financeCategory.csv:6
 #: schema/profile/codelists/financeCategory.csv:6
 msgid ""
-"Any details of the conditions attached to this finance can be recorded in an"
-" associated notes field."
+"Any details of the conditions attached to this finance can be provided in "
+"the notes field."
 msgstr ""
-"Cualquier detalle sobre las condiciones asociadas a este financiamiento "
-"deben registrarse en el campo de notas asociadas."
+"Los detalles de las condiciones asociadas a esta financiación pueden "
+"indicarse en el campo de notas."
 
 #. Title
 #: schema/patched/codelists/financeType.csv:1
@@ -1942,8 +2263,8 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/financeType.csv:5
 #: schema/profile/codelists/financeType.csv:5
-msgid "Public Bond Issue"
-msgstr "Emisión de Bonos Públicos"
+msgid "Public bond issue"
+msgstr "Emisión de bonos públicos"
 
 #. Description
 #: schema/patched/codelists/financeType.csv:5
@@ -1956,8 +2277,8 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/financeType.csv:6
 #: schema/profile/codelists/financeType.csv:6
-msgid "Supplier Credit"
-msgstr "Crédito del Proveedor"
+msgid "Supplier credit"
+msgstr "Crédito del proveedor"
 
 #. Description
 #: schema/patched/codelists/financeType.csv:6
@@ -2020,7 +2341,7 @@ msgstr "MultiPoint"
 msgid ""
 "For type 'MultiPoint', the 'coordinates' member is an array of positions."
 msgstr ""
-"Para el tipo \"MultiPoint\", el miembro 'coordinates' es una lista de "
+"Para el tipo \"MultiPoint\", el miembro 'coordinates' es una matriz de "
 "posiciones."
 
 #. Title
@@ -2036,8 +2357,8 @@ msgid ""
 "For type 'LineString', the 'coordinates' member is an array of two or more "
 "positions."
 msgstr ""
-"Para el tipo \"LineString\", el miembro 'coordinates' es una lista de dos o "
-"más posiciones."
+"Para el tipo \"LineString\", el miembro 'coordinates' es una matriz de dos o"
+" más posiciones."
 
 #. Title
 #: schema/patched/codelists/geometryType.csv:4
@@ -2052,7 +2373,7 @@ msgid ""
 "For type 'MultiLineString', the 'coordinates' member is an array of "
 "LineString coordinate arrays."
 msgstr ""
-"Para el tipo \"MultiLineString\", el miembro 'coordinates' es un array de "
+"Para el tipo \"MultiLineString\", el miembro 'coordinates' es una matriz de "
 "coordenadas 'LineString'."
 
 #. Title
@@ -2065,11 +2386,11 @@ msgstr "Polygon"
 #: schema/patched/codelists/geometryType.csv:5
 #: schema/profile/codelists/geometryType.csv:5
 msgid ""
-"For type 'Polygon', the 'coordinates' member MUST be an array of linear ring"
+"For type 'Polygon', the 'coordinates' member must be an array of linear ring"
 " coordinate arrays."
 msgstr ""
-"Para el tipo 'Polygon' el miembro 'coordinates' DEBE ser un array de "
-"coordenadas 'LinearRing'"
+"Para el tipo 'Polygon', el miembro 'coordinates' debe ser una matriz de "
+"coordenadas anulares lineales."
 
 #. Title
 #: schema/patched/codelists/geometryType.csv:6
@@ -2084,31 +2405,25 @@ msgid ""
 "For type 'MultiPolygon', the 'coordinates' member is an array of Polygon "
 "coordinate arrays."
 msgstr ""
-"Para el tipo 'MultiPolygon' el miembro 'coordinates' es una lista de "
-"coordendas 'Polygon'"
+"Para el tipo 'MultiPolygon' el miembro 'coordinates' es una matriz de "
+"coordenadas 'Polygon'"
 
 #. Title
 #: schema/patched/codelists/initiationType.csv:1
-#: schema/profile/codelists/initiationType.csv:1
-msgid "Public Private Partnership"
-msgstr "Asociación Público-Privada"
+#: schema/patched/codelists/releaseTag.csv:3
+msgid "Tender"
+msgstr "Licitación"
 
 #. Description
 #: schema/patched/codelists/initiationType.csv:1
-#: schema/profile/codelists/initiationType.csv:1
 msgid ""
-"An open competitive bidding or tendering to form a Public Private "
-"Partnership contract. The process may involve a qualification stage, whereby"
-" the number of qualified bidders is limited by reviewing each bidder’s "
-"qualifications against a set of criteria, before inviting prospective "
-"partners to submit bids for evaluation and selecting a winner or winners."
+"An open competitive bidding or tendering to form contracts. The process "
+"generally involves publicly inviting prospective contractors to submit bids "
+"for evaluation and selecting a winner or winners."
 msgstr ""
-"Una competencia de oferta o licitiación abierta para hacer un contrato de "
-"Asociación Público Privada. El proceso puede involucrar una etapa de "
-"calificación, donde el número de licitadores calificados esta limitado por "
-"una revisión de las aptitudes de cada licitante contra una serie de "
-"criterios, antes de invitar a posibles socios a enviar ofertas para "
-"evaluación y seleccionar un ganador o ganadores."
+"Una puja o licitación abierta para formar contratos. El proceso generalmente"
+" involucra invitaciones públicas a los contratistas potenciales para que "
+"envíen ofertas para su evaluación y seleccionar a un ganador o ganadores."
 
 #. Title
 #: schema/patched/codelists/itemClassificationScheme.csv:1
@@ -2191,17 +2506,11 @@ msgstr "United Nations Standard Products and Services Code"
 #: schema/patched/codelists/itemClassificationScheme.csv:4
 msgid ""
 "The United Nations Standard Products and Services Code (UNSPSC) is a "
-"hierarchical convention that is used to classify all products and services. "
-"Machine-readable metadata for UNSPSC is not provided as open data; "
-"publishers are encouraged to consider alternative classification schemes "
-"that do provide open data lookup tables wherever possible."
+"hierarchical convention that is used to classify all products and services."
 msgstr ""
-"El Código de Servicios y Productos Estándar de las Naciones Unidas (UNSPSC, "
-"por sus siglas en inglés) es una convención jerárquica que se utiliza para "
-"clasificar todos los productos y servicios. Los metadatos legibles por "
-"máquina para UNSPSC no se proporcionan como datos abiertos; se anima a los "
-"publicadores a considerar esquemas de clasificación alternativos que "
-"proporcionen tablas de búsqueda de datos abiertos siempre que sea posible."
+"El Código de Productos y Servicios Estándar de las Naciones Unidas (UNSPSC, "
+"en inglés) es una convención jerárquica que se utiliza para clasificar todos"
+" los productos y servicios."
 
 #. Title
 #: schema/patched/codelists/itemClassificationScheme.csv:5
@@ -2277,6 +2586,75 @@ msgstr ""
 "rentas."
 
 #. Title
+#: schema/patched/codelists/itemClassificationScheme.csv:9
+msgid "North American Industry Classification System"
+msgstr "Sistema de Clasificación de la Industria Norteamericana"
+
+#. Description
+#: schema/patched/codelists/itemClassificationScheme.csv:9
+msgid ""
+"The North American Industry Classification System (NAICS) is an industry "
+"classification system developed by the statistical agencies of Canada, "
+"Mexico and the United States. Created against the background of the North "
+"American Free Trade Agreement, it is designed to provide common definitions "
+"of the industrial structure of the three countries and a common statistical "
+"framework to facilitate the analysis of the three economies. NAICS is based "
+"on supply-side or production-oriented principles, to ensure that industrial "
+"data, classified to NAICS, are suitable for the analysis of production-"
+"related issues such as industrial performance."
+msgstr ""
+"El Sistema de Clasificación de la Industria de América del Norte (NAICS, en "
+"inglés) es un sistema de clasificación de la industria desarrollado por las "
+"agencias estadísticas de Canadá, Estados Unidos y México. Creado en el "
+"contexto del Tratado de Libre Comercio de América del Norte, está diseñado "
+"para proporcionar definiciones comunes de la estructura industrial de los "
+"tres países y un marco estadístico común para facilitar el análisis de las "
+"tres economías. NAICS se basa en principios orientados a la oferta u "
+"orientados a la producción, para garantizar que los datos industriales, "
+"clasificados usando NAICS, sean adecuados para el análisis de cuestiones "
+"relacionadas con la producción, como el rendimiento industrial."
+
+#. Title
+#: schema/patched/codelists/itemClassificationScheme.csv:10
+msgid "Product and Service Codes"
+msgstr "Códigos de Productos y Servicios"
+
+#. Description
+#: schema/patched/codelists/itemClassificationScheme.csv:10
+msgid ""
+"The Product and Service Codes (PSC) Manual provides codes to describe "
+"products, services, and research and development (R&D) purchased by the "
+"United States federal government. These codes indicate 'WHAT' was bought for"
+" each contract action reported in the Federal Procurement Data System "
+"(FPDS)."
+msgstr ""
+"El Manual de Códigos de Productos y Servicios (PSC, en inglés) proporciona "
+"códigos para describir productos, servicios e investigación y desarrollo "
+"(R&D, en inglés) comprado por el gobierno federal de los Estados Unidos. "
+"Estos códigos indican 'QUÉ' se compró para cada contrato reportado en el "
+"Sistema de Datos de Compras Federales (FPDS, en inglés)."
+
+#. Title
+#: schema/patched/codelists/itemClassificationScheme.csv:11
+msgid "Harmonized Commodity Description and Coding System"
+msgstr "Sistema Armonizado de Descripción y Codificación de Mercancías"
+
+#. Description
+#: schema/patched/codelists/itemClassificationScheme.csv:11
+msgid ""
+"The Harmonized System is an international nomenclature for the "
+"classification of products. It allows participating countries to classify "
+"traded goods on a common basis for customs purposes. At the international "
+"level, the Harmonized System (HS) for classifying goods is a six-digit code "
+"system."
+msgstr ""
+"El Sistema Armonizado es una nomenclatura internacional para la "
+"clasificación de productos. Permite a los países participantes clasificar "
+"mercancías comercializadas sobre una base común para propósitos aduaneros. A"
+" nivel internacional, el Sistema Armonizado (SA) para la clasificación de "
+"bienes es un sistema de código de seis dígitos."
+
+#. Title
 #: schema/patched/codelists/locationGazetteers.csv:1
 #: schema/profile/codelists/locationGazetteers.csv:1
 msgid "EU Nomenclature of Territorial Units for Statistics"
@@ -2337,12 +2715,12 @@ msgstr "Nodo de Open Street Map"
 #: schema/profile/codelists/locationGazetteers.csv:4
 msgid ""
 "OpenStreetMap Nodes consist of a single point in space defined by a "
-"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"latitude, longitude and node ID. Nodes might have tags to indicate the "
 "particular geographic feature they represent."
 msgstr ""
-"Los Nodos de Open Street Map consisten en un único punto en el espacio "
-"definido por una latitud, longitud y ID de nodo. Los nodos pueden tener "
-"etiquetas para indicar la característica geográfica particular que "
+"Los nodos de OpenStreetMap consisten en un único punto en el espacio "
+"definido por una latitud, una longitud y un ID de nodo. Los nodos pueden "
+"tener etiquetas para indicar el accidente geográfico concreto que "
 "representan."
 
 #. Title
@@ -2373,12 +2751,12 @@ msgstr "Vía de Open Street Map"
 #: schema/patched/codelists/locationGazetteers.csv:6
 #: schema/profile/codelists/locationGazetteers.csv:6
 msgid ""
-"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be used "
-"to describe fragments of roads or local boundaries and bounding boxes."
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. It can be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""
-"Una Vía de Open Street Map es una lista ordenada de nodos Open Street Map. "
-"Puede ser usado para describir fragmentos de caminos o límites locales y "
-"cajas delimitadoras."
+"Un camino de OpenStreetMap es una lista ordenada de nodos de OpenStreetMap. "
+"Puede utilizarse para describir fragmentos de caminos o límites locales y "
+"cuadros delimitadores."
 
 #. Title
 #: schema/patched/codelists/method.csv:1
@@ -2449,8 +2827,8 @@ msgstr "Para informar sobre los ingresos previstos o reales"
 #. Title
 #: schema/patched/codelists/metricID.csv:3
 #: schema/profile/codelists/metricID.csv:3
-msgid "Internal Rate of Return"
-msgstr "Tasa de Rentabilidad Interna"
+msgid "Internal rate of return"
+msgstr "Tasa de rentabilidad interna"
 
 #. Description
 #: schema/patched/codelists/metricID.csv:3
@@ -2467,9 +2845,8 @@ msgstr "Aprobación del proyecto"
 #. Description
 #: schema/patched/codelists/milestoneCode.csv:1
 #: schema/profile/codelists/milestoneCode.csv:1
-msgid "The dates of approvals required from relevant authorities."
-msgstr ""
-"Las fechas de las aprobaciones requeridas por las autoridades pertinentes."
+msgid "The dates of approvals from relevant authorities."
+msgstr "Las fechas de las aprobaciones de las autoridades pertinentes."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:2
@@ -2557,14 +2934,14 @@ msgstr "Comienzo del período de consulta"
 #: schema/patched/codelists/milestoneCode.csv:7
 #: schema/profile/codelists/milestoneCode.csv:7
 msgid ""
-"For processes with multiple enquiry periods,the start date of a period "
-"during which enquiries may be made and responded to which is not provided in"
+"For processes with multiple enquiry periods, the start date of a period "
+"during which enquiries can be made and responded to which is not provided in"
 " the tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
-"Para los procesos con múltiples períodos de consulta, la fecha de inicio de "
-"un período durante el cual se pueden hacer consultas y se responderán que no"
-" se proporciona en el bloque de tender/enquiryPeriod. A veces conocido como "
-"períodos de clarificación."
+"Para los procesos con múltiples periodos de consulta, la fecha de inicio de "
+"un periodo durante el cual se pueden realizar y responder consultas que no "
+"se proporciona en el bloque tender/enquiryPeriod. A veces conocidos como "
+"períodos de aclaración."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:8
@@ -2577,13 +2954,13 @@ msgstr "Fin del período de consulta"
 #: schema/profile/codelists/milestoneCode.csv:8
 msgid ""
 "For processes with multiple enquiry periods, the end date of a period during"
-" which enquiries may be made and responded to which is not provided in the "
+" which enquiries can be made and responded to which is not provided in the "
 "tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
-"Para los procesos con múltiples períodos de consulta, la fecha de "
-"finalización de un período durante el cual se pueden realizar y responder "
-"preguntas que no se proporcionan en el bloque de tender/enquiryPeriod. A "
-"veces conocido como períodos de clarificación."
+"En los procesos con múltiples periodos de consulta, la fecha de finalización"
+" de un periodo durante el cual se pueden realizar y responder consultas que "
+"no se proporciona en el bloque tender/enquiryPeriod. A veces conocidos como "
+"períodos de aclaración."
 
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:9
@@ -2738,20 +3115,40 @@ msgstr "Hitos de financiamiento"
 #. Description
 #: schema/patched/codelists/milestoneType.csv:7
 msgid ""
-"For events such as planned payments, or equity transfers in public private "
-"partnership projects."
+"For events related to the funding of the contracting process. In public-"
+"private partnerships, such events might include, for example, planned "
+"payments and equity transfers."
 msgstr ""
-"Para eventos tales como pagos planificados o transferencias de capital en "
-"proyectos de asociación público-privada."
+"Para eventos relacionados a la financiación del proceso de contratación. En "
+"las asociaciones público-privadas, tales eventos pueden incluir, por "
+"ejemplo, pagos planificados y transferencias de capital."
 
 #. Title
 #: schema/patched/codelists/milestoneType.csv:8
+msgid "Payment milestones"
+msgstr "Hitos de pago"
+
+#. Description
+#: schema/patched/codelists/milestoneType.csv:8
+msgid ""
+"For payment milestones, such as the date when a payment is expected to be "
+"made to a supplier. If the `status` of a contract's payment milestone is "
+"'met', then the contract ought to have an entry for the payment under its "
+"`implementation.transactions`."
+msgstr ""
+"Para hitos de pago, tales como la fecha en la que se espera que un pago se "
+"haga a un proveedor. Si el estado `status` de un hito de pago de contrato es"
+" 'met' (o \"cumplido\"), el contrato debe de tener una entrada para el pago "
+"en su lista de transacciones en `implementation.transactions`."
+
+#. Title
+#: schema/patched/codelists/milestoneType.csv:9
 #: schema/profile/codelists/+milestoneType.csv:1
 msgid "Procurement"
 msgstr "Contratación"
 
 #. Description
-#: schema/patched/codelists/milestoneType.csv:8
+#: schema/patched/codelists/milestoneType.csv:9
 #: schema/profile/codelists/+milestoneType.csv:1
 msgid ""
 "Events taking place during the procurement which are not captured by fields "
@@ -2764,24 +3161,87 @@ msgstr ""
 "diálogo competitivo"
 
 #. Title
-#: schema/patched/codelists/milestoneType.csv:9
+#: schema/patched/codelists/milestoneType.csv:10
 #: schema/profile/codelists/+milestoneType.csv:2
 msgid "Contract close"
 msgstr "Cierre de contrato"
 
 #. Description
-#: schema/patched/codelists/milestoneType.csv:9
+#: schema/patched/codelists/milestoneType.csv:10
 #: schema/profile/codelists/+milestoneType.csv:2
 msgid "Events such as commercial and financial close"
 msgstr "Eventos como el cierre comercial y financiero"
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:1
+msgid "Buyer"
+msgstr "Comprador"
+
+#. Description
+#: schema/patched/codelists/partyRole.csv:1
+msgid ""
+"A buyer is an entity whose budget will be used to pay for goods, works or "
+"services related to a contract."
+msgstr ""
+"Un comprador es una entidad cuyo presupuesto se utilizará para pagar bienes,"
+" obras o servicios relacionados con un contrato."
+
+#. Title
+#: schema/patched/codelists/partyRole.csv:2
+msgid "Procuring entity"
+msgstr "Entidad contratante"
+
+#. Description
+#: schema/patched/codelists/partyRole.csv:2
+msgid ""
+"The entity managing the procurement. This can be different from the buyer "
+"who pays for, or uses, the items being procured."
+msgstr ""
+"La entidad administrando la compra. Esto puede ser diferente del comprador "
+"que paga, o usa, los artículos que se están comprando."
+
+#. Title
+#: schema/patched/codelists/partyRole.csv:3
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. Description
+#: schema/patched/codelists/partyRole.csv:3
+msgid "An entity awarded or contracted to provide goods, works or services."
+msgstr ""
+"Una entidad adjudicada o contratada para dar bienes, trabajos o servicios. "
+
+#. Title
+#: schema/patched/codelists/partyRole.csv:4
+msgid "Tenderer"
+msgstr "Licitante"
+
+#. Description
+#: schema/patched/codelists/partyRole.csv:4
+msgid "All entities who submit a tender."
+msgstr "Todas las entidades que hacen una oferta."
+
+#. Title
+#: schema/patched/codelists/partyRole.csv:5
+msgid "Funder"
+msgstr "Financiador"
+
+#. Description
+#: schema/patched/codelists/partyRole.csv:5
+msgid ""
+"The funder is an entity providing money or finance for this contracting "
+"process."
+msgstr ""
+"El financiador es una entidad que provee dinero o financia este proceso de "
+"contratación."
+
+#. Title
+#: schema/patched/codelists/partyRole.csv:6
 msgid "Enquirer"
 msgstr "Persona que solicita información"
 
 #. Description
-#: schema/patched/codelists/partyRole.csv:1
+#: schema/patched/codelists/partyRole.csv:6
 msgid ""
 "A party who has made an enquiry during the enquiry phase of a contracting "
 "process."
@@ -2790,32 +3250,32 @@ msgstr ""
 "solicitudes de información de un proceso de contratación."
 
 #. Title
-#: schema/patched/codelists/partyRole.csv:2
+#: schema/patched/codelists/partyRole.csv:7
 msgid "Payer"
 msgstr "Pagador"
 
 #. Description
-#: schema/patched/codelists/partyRole.csv:2
+#: schema/patched/codelists/partyRole.csv:7
 msgid "A party making a payment from a transaction."
 msgstr "Una parte hace un pago de una transacción."
 
 #. Title
-#: schema/patched/codelists/partyRole.csv:3
+#: schema/patched/codelists/partyRole.csv:8
 msgid "Payee"
 msgstr "Beneficiario"
 
 #. Description
-#: schema/patched/codelists/partyRole.csv:3
+#: schema/patched/codelists/partyRole.csv:8
 msgid "A party in receipt of a payment from a transaction."
 msgstr "Una parte en recepción del pago de una transacción."
 
 #. Title
-#: schema/patched/codelists/partyRole.csv:4
+#: schema/patched/codelists/partyRole.csv:9
 msgid "Review body"
 msgstr "Órgano de revisión"
 
 #. Description
-#: schema/patched/codelists/partyRole.csv:4
+#: schema/patched/codelists/partyRole.csv:9
 msgid ""
 "A party responsible for the review of this procurement process. This party "
 "often has a role in any challenges made to the contract award."
@@ -2825,12 +3285,12 @@ msgstr ""
 "adjudicación del contrato."
 
 #. Title
-#: schema/patched/codelists/partyRole.csv:5
+#: schema/patched/codelists/partyRole.csv:10
 msgid "Interested party"
 msgstr "Parte interesada"
 
 #. Description
-#: schema/patched/codelists/partyRole.csv:5
+#: schema/patched/codelists/partyRole.csv:10
 msgid ""
 "A party that has expressed an interest in the contracting process: for "
 "example, by purchasing tender documents or submitting clarification "
@@ -2841,124 +3301,16 @@ msgstr ""
 "clarificación."
 
 #. Title
-#: schema/patched/codelists/partyRole.csv:6
-#: schema/profile/codelists/+partyRole.csv:1
-msgid "Qualified bidder"
-msgstr "Licitante calificado"
-
-#. Description
-#: schema/patched/codelists/partyRole.csv:6
-#: schema/profile/codelists/+partyRole.csv:1
-msgid ""
-"Those parties invited to submit a proposal in response to a Request for "
-"Proposal (RFP) for a project in which the government only allows a limited "
-"number of pre-qualified bidders to proceed to the RFP phase."
-msgstr ""
-"Las partes invitadas a presentar una propuesta en respuesta a un llamado a "
-"propuestas (RFP) para un proyecto en el que el gobierno sólo permite a un "
-"número limitado de licitadores precalificados para proceder a la fase de "
-"llamado a propuestas."
-
-#. Extension
-#. Title
-#: schema/patched/codelists/partyRole.csv:6
-#: schema/patched/codelists/partyRole.csv:7
-#: schema/patched/codelists/preQualificationStatus.csv:1
-#: schema/patched/codelists/preQualificationStatus.csv:2
-#: schema/patched/codelists/preQualificationStatus.csv:3
-#: schema/patched/codelists/preQualificationStatus.csv:4
-#: schema/patched/codelists/preQualificationStatus.csv:5
-#: schema/patched/codelists/releaseTag.csv:17
-#: schema/profile/codelists/+releaseTag.csv:1
-msgid "Qualification"
-msgstr "Calificación"
-
-#. Title
-#: schema/patched/codelists/partyRole.csv:7
-#: schema/profile/codelists/+partyRole.csv:2
-msgid "Disqualified bidder"
-msgstr "Licitador descalificado"
-
-#. Description
-#: schema/patched/codelists/partyRole.csv:7
-#: schema/profile/codelists/+partyRole.csv:2
-msgid ""
-"A bidder which either did not pass the qualification stage of the evaluation"
-" process or did not pass the pre-qualification stage of the process."
-msgstr ""
-"Un licitante que no pasó la fase de calificación del proceso de evaluación o"
-" no pasó la etapa de precalificación del proceso."
-
-#. Title
-#: schema/patched/codelists/partyRole.csv:8
-#: schema/patched/codelists/riskAllocation.csv:1
-#: schema/profile/codelists/+partyRole.csv:3
-#: schema/profile/codelists/riskAllocation.csv:1
-msgid "Public authority"
-msgstr "Autoridad pública"
-
-#. Description
-#: schema/patched/codelists/partyRole.csv:8
-#: schema/profile/codelists/+partyRole.csv:3
-msgid ""
-"The unit/body/department within a government that is tendering and "
-"contracting the project. The public counterpart in the PPP contract."
-msgstr ""
-"La unidad/cuerpo/departamento dentro de un gobierno que está licitando y "
-"contratando el proyecto. La contraparte pública en el contrato de APP."
-
-#. Title
-#: schema/patched/codelists/partyRole.csv:9
-#: schema/profile/codelists/+partyRole.csv:4
-msgid "Bidder"
-msgstr "Licitador"
-
-#. Description
-#: schema/patched/codelists/partyRole.csv:9
-#: schema/profile/codelists/+partyRole.csv:4
-msgid ""
-"The company or a group of companies, such as a consortium, that submits a "
-"bid in response to a RFP. A bidder could be a single party or a consortium "
-"of parties, each responsible for a specific element, such as constructing "
-"the infrastructure, supplying the equipment, or operating the business."
-msgstr ""
-"La empresa o un grupo de empresas, como un consorcio, que presenta una "
-"oferta en respuesta a una solicitud de propuesta. Un licitador podría ser "
-"una sola parte o un consorcio de partes, cada uno responsable de un elemento"
-" específico, como la construcción de la infraestructura, el suministro del "
-"equipo o la operación del negocio."
-
-#. Title
-#: schema/patched/codelists/partyRole.csv:10
-#: schema/profile/codelists/+partyRole.csv:5
-msgid "Preferred bidder"
-msgstr "Licitante seleccionado"
-
-#. Description
-#: schema/patched/codelists/partyRole.csv:10
-#: schema/profile/codelists/+partyRole.csv:5
-msgid ""
-"The bidder identified at the end of the tender evaluation process as being "
-"the government’s preferred partner to enter into (or enter into final "
-"negotiations for) a PPP contract. The preferred bidder is awarded the "
-"contract and called to contract signature."
-msgstr ""
-"El licitador identificado al final del proceso de evaluación de ofertas como"
-" el socio seleccionado del gobierno para celebrar (o entrar en negociaciones"
-" finales) un contrato de APP. Se adjudica el contrato al licitador "
-"seleccionado y se le llama a firmar el contrato."
-
-#. Title
 #: schema/patched/codelists/partyRole.csv:11
 #: schema/patched/codelists/riskAllocation.csv:2
-#: schema/profile/codelists/+partyRole.csv:6
+#: schema/profile/codelists/+partyRole.csv:1
 #: schema/profile/codelists/riskAllocation.csv:2
 msgid "Private party"
 msgstr "Parte privada"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:11
-#: schema/profile/codelists/+partyRole.csv:6
+#: schema/profile/codelists/+partyRole.csv:1
 msgid ""
 "The counter party of the procuring authority in the PPP contract. A private "
 "entity which has been granted the contract to construct and operate a "
@@ -2972,13 +3324,13 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:12
-#: schema/profile/codelists/+partyRole.csv:7
+#: schema/profile/codelists/+partyRole.csv:2
 msgid "Lead bank"
 msgstr "Lider del consorcio"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:12
-#: schema/profile/codelists/+partyRole.csv:7
+#: schema/profile/codelists/+partyRole.csv:2
 msgid ""
 "A lead bank is a bank that oversees the arrangement of a loan syndication"
 msgstr ""
@@ -2987,13 +3339,13 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:13
-#: schema/profile/codelists/+partyRole.csv:8
+#: schema/profile/codelists/+partyRole.csv:3
 msgid "Lender"
 msgstr "Prestador"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:13
-#: schema/profile/codelists/+partyRole.csv:8
+#: schema/profile/codelists/+partyRole.csv:3
 msgid ""
 "The APMG PPP Certification Program defines lenders as \"Institutions that "
 "provide lending to the project: mainly banks and institutional investors "
@@ -3005,13 +3357,13 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:14
-#: schema/profile/codelists/+partyRole.csv:9
+#: schema/profile/codelists/+partyRole.csv:4
 msgid "Equity investor"
 msgstr "Inversor de capital"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:14
-#: schema/profile/codelists/+partyRole.csv:9
+#: schema/profile/codelists/+partyRole.csv:4
 msgid ""
 "The APMG PPP Certification Program defines equity investors as \"Investors "
 "who finance a portion of the project’s capital expenditures (Capex), "
@@ -3023,13 +3375,13 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:15
-#: schema/profile/codelists/+partyRole.csv:10
+#: schema/profile/codelists/+partyRole.csv:5
 msgid "Consortia member"
 msgstr "Miembro de los consorcios"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:15
-#: schema/profile/codelists/+partyRole.csv:10
+#: schema/profile/codelists/+partyRole.csv:5
 msgid ""
 "One of a group of companies that has joined together to bid for a project."
 msgstr ""
@@ -3037,25 +3389,25 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:16
-#: schema/profile/codelists/+partyRole.csv:11
+#: schema/profile/codelists/+partyRole.csv:6
 msgid "Grantor"
 msgstr "Concedente"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:16
-#: schema/profile/codelists/+partyRole.csv:11
+#: schema/profile/codelists/+partyRole.csv:6
 msgid "The party which grants a concession, a license or some other right."
 msgstr "La parte que otorga una concesión, una licencia u otro derecho."
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:17
-#: schema/profile/codelists/+partyRole.csv:12
+#: schema/profile/codelists/+partyRole.csv:7
 msgid "Social witness"
 msgstr "Testigo social"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:17
-#: schema/profile/codelists/+partyRole.csv:12
+#: schema/profile/codelists/+partyRole.csv:7
 msgid ""
 "A social witness participates as an external observer in a public "
 "procurements process. They have a formal role as an observer."
@@ -3065,13 +3417,13 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:18
-#: schema/profile/codelists/+partyRole.csv:13
+#: schema/profile/codelists/+partyRole.csv:8
 msgid "Other witness"
 msgstr "Otro testigo"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:18
-#: schema/profile/codelists/+partyRole.csv:13
+#: schema/profile/codelists/+partyRole.csv:8
 msgid ""
 "A witness attends one or more stages of the procurement process to observe "
 "proceedings."
@@ -3081,65 +3433,19 @@ msgstr ""
 
 #. Title
 #: schema/patched/codelists/partyRole.csv:19
-#: schema/profile/codelists/+partyRole.csv:14
+#: schema/profile/codelists/+partyRole.csv:9
 msgid "Notary"
 msgstr "Notario"
 
 #. Description
 #: schema/patched/codelists/partyRole.csv:19
-#: schema/profile/codelists/+partyRole.csv:14
+#: schema/profile/codelists/+partyRole.csv:9
 msgid ""
 "A person authorized to perform certain legal formalities, especially to "
 "certify documents and proceedings."
 msgstr ""
 "Una persona autorizada para realizar ciertas formalidades legales, "
 "especialmente para certificar documentos y procedimientos."
-
-#. Title
-#: schema/patched/codelists/preQualificationStatus.csv:1
-#: schema/patched/codelists/tenderStatus.csv:2
-#: schema/profile/codelists/preQualificationStatus.csv:1
-msgid "Planned"
-msgstr "Planeado"
-
-#. Description
-#: schema/patched/codelists/preQualificationStatus.csv:1
-#: schema/profile/codelists/preQualificationStatus.csv:1
-msgid "This pre-qualification has been proposed, but is not yet taking place."
-msgstr ""
-"Esta pre-calificación se ha propuesto, pero todavía no se está llevando a "
-"cabo."
-
-#. Description
-#: schema/patched/codelists/preQualificationStatus.csv:2
-#: schema/profile/codelists/preQualificationStatus.csv:2
-msgid "A pre-qualification process is currently taking place."
-msgstr "Un proceso de pre-calificación está en proceso."
-
-#. Description
-#: schema/patched/codelists/preQualificationStatus.csv:3
-#: schema/profile/codelists/preQualificationStatus.csv:3
-msgid "The pre-qualification process has been cancelled."
-msgstr "El proceso de pre-calificación ha sido cancelado."
-
-#. Description
-#: schema/patched/codelists/preQualificationStatus.csv:4
-#: schema/profile/codelists/preQualificationStatus.csv:4
-msgid "The pre-qualification process was unsuccessful."
-msgstr "El proceso de pre-calificación no fue exitoso."
-
-#. Title
-#: schema/patched/codelists/preQualificationStatus.csv:5
-#: schema/patched/codelists/tenderStatus.csv:6
-#: schema/profile/codelists/preQualificationStatus.csv:5
-msgid "Complete"
-msgstr "Completo"
-
-#. Description
-#: schema/patched/codelists/preQualificationStatus.csv:5
-#: schema/profile/codelists/preQualificationStatus.csv:5
-msgid "The pre-qualification process is complete."
-msgstr "El proceso de pre-calificación se ha completado"
 
 #. Description
 #: schema/patched/codelists/procurementCategory.csv:1
@@ -3283,32 +3589,6 @@ msgid "An open contracting process identifier (ocid)."
 msgstr "Un identificador de procesos de contrataciones abiertas (ocid)."
 
 #. Title
-#: schema/patched/codelists/relatesTo.csv:1
-#: schema/patched/codelists/responseSource.csv:1
-#: schema/profile/codelists/relatesTo.csv:1
-#: schema/profile/codelists/responseSource.csv:1
-msgid "Tenderer"
-msgstr "Licitante"
-
-#. Description
-#: schema/patched/codelists/relatesTo.csv:1
-#: schema/profile/codelists/relatesTo.csv:1
-msgid "The criterion evaluates or assesses a tenderer"
-msgstr "El criterio evalúa a un licitador"
-
-#. Title
-#: schema/patched/codelists/relatesTo.csv:2
-#: schema/profile/codelists/relatesTo.csv:2
-msgid "Item"
-msgstr "Artículo"
-
-#. Description
-#: schema/patched/codelists/relatesTo.csv:2
-#: schema/profile/codelists/relatesTo.csv:2
-msgid "The criterion evaluates or assesses an item"
-msgstr "El criterio evalúa un elemento"
-
-#. Title
 #: schema/patched/codelists/releaseTag.csv:1
 #: schema/patched/codelists/tenderStatus.csv:1
 msgid "Planning"
@@ -3346,11 +3626,6 @@ msgstr ""
 "actividades relacionadas a la consulta, detalles o líneas del tiempo "
 "modificados para un proceso de contrataciones propuesto, o una actualización"
 " a tender.status para indicar que una propuesta ha sido retirada."
-
-#. Title
-#: schema/patched/codelists/releaseTag.csv:3
-msgid "Tender"
-msgstr "Licitación"
 
 #. Description
 #: schema/patched/codelists/releaseTag.csv:3
@@ -3572,149 +3847,11 @@ msgstr ""
 "Esta etiqueta se usa sólo en registros compilados, que han reunido múltiples"
 " entregas para proveer una captura del contrato y un historial de versiones."
 
-#. Description
-#: schema/patched/codelists/releaseTag.csv:17
-#: schema/profile/codelists/+releaseTag.csv:1
-msgid ""
-"Providing information about a new pre-qualification process (to qualify or "
-"pre-select bidders for a tender process)."
-msgstr ""
-"Proporcionar información sobre un nuevo proceso de precalificación (para "
-"calificar o preseleccionar a los licitadores para un proceso de licitación)."
-
 #. Title
-#: schema/patched/codelists/releaseTag.csv:18
-#: schema/profile/codelists/+releaseTag.csv:2
-msgid "Qualification Update"
-msgstr "Actualización de Calificación"
-
-#. Description
-#: schema/patched/codelists/releaseTag.csv:18
-#: schema/profile/codelists/+releaseTag.csv:2
-msgid ""
-"An update to an existing qualification release. There should be at least one"
-" qualification release with the same ocid, but an earlier releaseDate, "
-"before a qualificationUpdate is published. An update may add new information"
-" or make corrections to prior published information. It should not be used "
-"for formal legal amendments to a pre-qualification process, for which the "
-"qualificationAmendment tag should be used."
-msgstr ""
-"Actualización de una entrega de calificación existente. Debe haber al menos "
-"una entrega de calificación con el mismo ocid, pero un releaseDate anterior,"
-" antes de que se edite un qualifiedUpdate. Una actualización puede agregar "
-"nueva información o hacer correcciones a la información publicada "
-"anteriormente. No debe utilizarse para las enmiendas legales formales a un "
-"proceso de precalificación, para lo cual se debe usar la etiqueta "
-"qualificationAmendment."
-
-#. Title
-#: schema/patched/codelists/releaseTag.csv:19
-#: schema/profile/codelists/+releaseTag.csv:3
-msgid "Qualification Amendment"
-msgstr "Enmienda de Calificación"
-
-#. Description
-#: schema/patched/codelists/releaseTag.csv:19
-#: schema/profile/codelists/+releaseTag.csv:3
-msgid ""
-"An amendment to an existing qualification release. There should be at least "
-"one qualification release with the same ocid, but an earlier releaseDate, "
-"before a qualificationAmendment is published. The term amendment has legal "
-"meaning in many jurisdictions."
-msgstr ""
-"Una enmienda a una entrega de calificación existente. Debe haber por lo "
-"menos una entrega de calificación con el mismo ocid, pero una releaseDate "
-"anterior, antes de que se publique una qualificationAmendment. El término "
-"enmienda tiene significado legal en muchas jurisdicciones."
-
-#. Title
-#: schema/patched/codelists/releaseTag.csv:20
-#: schema/profile/codelists/+releaseTag.csv:4
-msgid "Qualification Cancellation"
-msgstr "Cancelación de la Calificación"
-
-#. Description
-#: schema/patched/codelists/releaseTag.csv:20
-#: schema/profile/codelists/+releaseTag.csv:4
-msgid ""
-"The cancellation of an existing pre-qualification process. There should be "
-"at least one release with the same ocid, but an earlier releaseDate, which "
-"provides details of the pre-qualification process being cancelled."
-msgstr ""
-"La cancelación de un proceso de precalificación existente. Debe haber al "
-"menos una entrega con el mismo ocid, pero un releaseDate anterior, que "
-"proporciona detalles del proceso de precalificación que se cancela."
-
-#. Title
-#: schema/patched/codelists/releaseTag.csv:21
-#: schema/profile/codelists/+releaseTag.csv:5
-msgid "Shortlist"
-msgstr "Lista Corta"
-
-#. Description
-#: schema/patched/codelists/releaseTag.csv:21
-#: schema/profile/codelists/+releaseTag.csv:5
-msgid ""
-"Providing information about the qualification or pre-selection of bidders. "
-"The preQualification section may be populated with details of the process "
-"leading up to the shortlist, and details of qualified or shortlisted bidders"
-" will be provided in the parties section."
-msgstr ""
-"Proporcionar información sobre la calificación o preselección de los "
-"licitadores. La sección de precalificación puede ser llenada con detalles "
-"sobre el proceso que conduce a la lista corta, y los detalles de licitadores"
-" calificados o preseleccionados serán proporcionados en la sección de "
-"partes."
-
-#. Title
-#: schema/patched/codelists/releaseTag.csv:22
-#: schema/profile/codelists/+releaseTag.csv:6
-msgid "Shortlist Update"
-msgstr "Actualización de lista corta"
-
-#. Description
-#: schema/patched/codelists/releaseTag.csv:22
-#: schema/profile/codelists/+releaseTag.csv:6
-msgid ""
-"An update to an existing shortlist release. There should be at least one "
-"shortlist release with the same ocid, but an earlier releaseDate before an "
-"shortlistUpdate is published. An update may add new information or make "
-"corrections."
-msgstr ""
-"Una actualización de una lista de preselecciones existente. Debe haber al "
-"menos una entrega de lista corta con el mismo ocid, pero un releaseDate "
-"anterior, antes de que se publique una shortlistUpdate. Una actualización "
-"puede agregar nueva información o hacer correcciones."
-
-#. Description
-#: schema/patched/codelists/responseSource.csv:1
-#: schema/profile/codelists/responseSource.csv:1
-msgid "The response should be provided by the tenderer"
-msgstr "La respuesta deberá ser proporcionada por el licitante"
-
-#. Title
-#: schema/patched/codelists/responseSource.csv:2
-#: schema/profile/codelists/responseSource.csv:2
-msgid "Buyer"
-msgstr "Comprador"
-
-#. Description
-#: schema/patched/codelists/responseSource.csv:2
-#: schema/profile/codelists/responseSource.csv:2
-msgid "The response should be provided by the buyer"
-msgstr "La respuesta debe ser proporcionada por el comprador"
-
-#. Title
-#: schema/patched/codelists/responseSource.csv:3
-#: schema/profile/codelists/responseSource.csv:3
-msgid "Procuring entity"
-msgstr "Entidad contratante"
-
-#. Description
-#: schema/patched/codelists/responseSource.csv:3
-#: schema/profile/codelists/responseSource.csv:3
-msgid "The response should be provided by the procuring entity"
-msgstr "La respuesta debe ser proporcionada por la entidad adjudicadora"
+#: schema/patched/codelists/riskAllocation.csv:1
+#: schema/profile/codelists/riskAllocation.csv:1
+msgid "Public authority"
+msgstr "Autoridad pública"
 
 #. Description
 #: schema/patched/codelists/riskAllocation.csv:1
@@ -3794,16 +3931,16 @@ msgstr "Riesgo medioambiental"
 #: schema/patched/codelists/riskCategory.csv:2
 #: schema/profile/codelists/riskCategory.csv:2
 msgid ""
-"Environmental risks may be related to a number of environmental issues such "
-"as general contamination, pollution, water contamination, impact on the "
-"natural environment etc. An adverse assessment may require changes in "
+"Environmental risks might be related to a number of environmental issues "
+"such as general contamination, pollution, water contamination, impact on the"
+" natural environment etc. An adverse assessment might lead to changes in "
 "design, leading to a direct impact on cost of infrastructure"
 msgstr ""
 "Los riesgos medioambientales pueden estar relacionados con una serie de "
-"cuestiones ambientales tales como la contaminación general, la contaminación"
-" del aire, la contaminación del agua, el impacto en el medio ambiente, etc. "
-"Una evaluación adversa puede requerir cambios en el diseño que lleven a un "
-"impacto directo en el costo de la infraestructura"
+"cuestiones medioambientales como la contaminación general, la contaminación "
+"del agua, el impacto en el entorno natural, etc. Una evaluación adversa "
+"podría conducir a cambios en el diseño, lo que repercutiría directamente en "
+"el coste de la infraestructura"
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:3
@@ -3871,7 +4008,7 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/riskCategory.csv:7
 #: schema/profile/codelists/riskCategory.csv:7
-msgid "Foreign exchange, Inflation and indexation risk"
+msgid "Foreign exchange, inflation and indexation risk"
 msgstr "Riesgo de inflación y de indexación"
 
 #. Description
@@ -3961,7 +4098,7 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/riskCategory.csv:13
 #: schema/profile/codelists/riskCategory.csv:13
-msgid "Force Majeure"
+msgid "Force majeure"
 msgstr "Fuerza mayor"
 
 #. Description
@@ -3969,10 +4106,10 @@ msgstr "Fuerza mayor"
 #: schema/profile/codelists/riskCategory.csv:13
 msgid ""
 "Risk that external events beyond the control of the parties to the contract,"
-" such as natural disasters, wars, terrorism etc.,  affect the project"
+" such as natural disasters, wars, terrorism etc., affect the project"
 msgstr ""
-"Riesgo de que eventos externos fuera del control de las partes en el "
-"contrato, como desastres naturales, guerras, terrorismo, etc., afecten el "
+"Riesgo de que acontecimientos externos ajenos al control de las partes del "
+"contrato, como catástrofes naturales, guerras, terrorismo, etc., afecten al "
 "proyecto"
 
 #. Title
@@ -3985,12 +4122,12 @@ msgstr "Terminación anticipada"
 #: schema/patched/codelists/riskCategory.csv:14
 #: schema/profile/codelists/riskCategory.csv:14
 msgid ""
-"Risk that compensation sum due to early termination may be insufficient to "
-"meet private party’s financial obligations or is less than expected"
+"Risk that compensation sum due to early termination might be insufficient to"
+" meet private party’s financial obligations or is less than expected"
 msgstr ""
-"Riesgo de que la suma de compensación debida a la terminación anticipada "
-"pueda ser insuficiente para satisfacer las obligaciones financieras de las "
-"partes privadas o sea inferior a la esperada"
+"Riesgo de que el importe de la indemnización por rescisión anticipada sea "
+"insuficiente para hacer frente a las obligaciones financieras de la parte "
+"privada o sea inferior a lo previsto"
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:15
@@ -4087,6 +4224,11 @@ msgstr ""
 " oportunidades de consulta, durante los cuales los detalles de la próxima "
 "licitación pueden formarse."
 
+#. Title
+#: schema/patched/codelists/tenderStatus.csv:2
+msgid "Planned"
+msgstr "Planeado"
+
 #. Description
 #: schema/patched/codelists/tenderStatus.csv:2
 msgid ""
@@ -4111,6 +4253,11 @@ msgstr "El proceso de licitación ha sido cancelado."
 #: schema/patched/codelists/tenderStatus.csv:5
 msgid "The tender process was unsuccessful."
 msgstr "El proceso de licitación no fue exitoso."
+
+#. Title
+#: schema/patched/codelists/tenderStatus.csv:6
+msgid "Complete"
+msgstr "Completo"
 
 #. Description
 #: schema/patched/codelists/tenderStatus.csv:6
@@ -4232,6 +4379,10 @@ msgstr ""
 "El accionista tiene derecho a más de un voto por acción en circunstancias "
 "específicas únicamente"
 
+#: schema/profile/codelists/+documentType.csv
+msgid "Section"
+msgstr "Sección"
+
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
 #: schema/profile/codelists/financeType.csv
@@ -4247,18 +4398,6 @@ msgstr "Fuente"
 #: schema/profile/codelists/riskCategory.csv
 msgid "Category"
 msgstr "Categoría"
-
-#: schema/profile/codelists/documentType.csv
-msgid "Framework"
-msgstr "Marco de referencia"
-
-#: schema/profile/codelists/documentType.csv
-msgid "Section"
-msgstr "Sección"
-
-#: schema/profile/codelists/documentType.csv
-msgid "Summary required"
-msgstr "Resumen requerido"
 
 #: schema/profile/codelists/locationGazetteers.csv
 msgid "URI Pattern"
