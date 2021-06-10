@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Como un perfil de implementación, extender el OCDS 1.1, actualizaciones al "
 "esquema OCDS están sujetas a el [Proceso de Gobernanza "
-"OCDS](https://standard.open-contracting.org/latest/es/support/governance/)."
+"OCDS](https://standard.open-contracting.org/latest/es/governance/)."
 
 #: ../../docs/governance.md:5
 msgid ""
