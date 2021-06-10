@@ -5,20 +5,18 @@
 # 
 # Translators:
 # Ben Webb <ben.webb@opendataservices.coop>, 2017
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2018
 # Romina Fernandez <rfernandez@cds.com.py>, 2019
-# James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# James McKinney, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 16:31-0400\n"
+"POT-Creation-Date: 2021-06-09 16:41-0400\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Last-Translator: James McKinney, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -113,7 +111,8 @@ msgstr "Explora el ejemplo"
 #: ../../docs/example.md:29
 msgid ""
 "View the {download}`OCDS releases in JSON format here <examples/full.json>`."
-msgstr "Vea las {download}`entregas OCDS en formato JSON aquí <examples/full.json>`."
+msgstr ""
+"Vea las {download}`entregas OCDS en formato JSON aquí <examples/full.json>`."
 
 #: ../../docs/example.md:31
 msgid ""
@@ -172,15 +171,17 @@ msgid ""
 " You can install [JSONView for "
 "Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc),"
 " [JSONView for Firefox](https://addons.mozilla.org/en-"
-"us/firefox/addon/jsonview/) or [JSONView for Safari](https://safari-"
-"extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)"
+"US/firefox/addon/jsonview/) or [JSONView for "
+"Safari](https://apps.apple.com/us/story/id1377753262?id=com.dcrousso"
+".jsonview-safari-Q5M4T22BE9)"
 msgstr ""
-"Utilice un complemento para navegadores web para obtener una vista previa "
-"más amigable al usuario de los archivos JSON. Puede instalar [JSONView para "
+"Utilice un complemento de navegador web para obtener una vista previa más "
+"fácil de usar de los archivos JSON. Puede instalar [JSONView para "
 "Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc),"
 " [JSONView para Firefox](https://addons.mozilla.org/en-"
-"us/firefox/addon/jsonview/) o [JSONView para Safari](https://safari-"
-"extensions.apple.com/details/?id=com.dcrousso.jsonview-safari-Q5M4T22BE9)"
+"US/firefox/addon/jsonview/) o [JSONView para "
+"Safari](https://apps.apple.com/us/story/id1377753262?id=com.dcrousso"
+".jsonview-safari-Q5M4T22BE9)"
 
 #: ../../docs/example.md:45
 msgid ""

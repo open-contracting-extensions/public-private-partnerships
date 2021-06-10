@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 16:31-0400\n"
+"POT-Creation-Date: 2021-06-09 16:41-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
 "Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Browsing the schema"
 msgstr "Navegando el esquema"
 
-#: ../../docs/reference/schema.md:5
+#: ../../docs/reference/schema.md:1
 msgid ""
 "This page presents the release schema as a table. You can also download the "
 "canonical version of the release schema as {download}`JSON Schema "
