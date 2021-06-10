@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 16:31-0400\n"
+"POT-Creation-Date: 2021-06-09 16:41-0400\n"
 "PO-Revision-Date: 2017-05-10 17:03+0000\n"
 "Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Extending open codelists"
 msgstr "Extendiendo las listas de código abiertas"
 
-#: ../../docs/reference/codelists.md:9
+#: ../../docs/reference/codelists.md:1
 msgid ""
 "If you use new codes outside those in an open codelist, please create an "
 "issue in the [OCDS for PPPs GitHub repository](https://github.com/open-"
