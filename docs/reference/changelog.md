@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0.beta3] - YYYY-MM-DD
+## [1.0.0.beta3] - 2021-06-10
 
 ### Normative changes
 
