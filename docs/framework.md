@@ -524,7 +524,9 @@ Links to contract documents can be provided using [Document](reference/documents
 
 > Public authority: name of authority, name of representative, address, telephone, fax, e-mail
 
-> The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.
 
 #### I.14.1. Contract signatories
 
@@ -605,7 +607,9 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 > Private party: name of company or consortium, name of representative, address, telephone, fax, e-mail
 
-> The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV.
 
 #### I.15.1. Contract signatories
 
@@ -983,6 +987,7 @@ For each request to participate:
 ### II.3. Request for Proposal
 
 > The set of documents issued by the procuring authority that set out:
+>
 > * The basis or requirements for submitting the proposal (which documents and in which format and contents the bidder has to submit)
 > * The basis of the evaluation criteria  for selecting the preferred bidder or awardee
 > * The PPP contract that will be signed with the successful bidder and other annexed information such as forms, templates, complementary information for reference purposes, and so on.
@@ -1070,7 +1075,9 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 > Listing of risks with information on who bears the risk. Countries, sectors, and individual projects may use different categorizations. Several risks can be further broken down into components or listed together. If within a large category of risk subcategories are allocated to different parties, it makes sense to show the subcategories clearly.
 
-> The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk.
 
 #### III.1.1. Structured risk allocation information
 

@@ -10,7 +10,7 @@ The template is available to [view via Google Sheets](https://docs.google.com/sp
 :target: https://docs.google.com/spreadsheets/d/18fPWX7j393XaH-56COco1JoJbduqFqV__siWT3DsHnY/view
 ```
 
-Unlike the [framework reference](framework.md) which reflects the ordering of properties required by the World Bank PPP Disclosure Framework, the spreadsheet template is structured around the stages of a **contracting process**. 
+Unlike the [framework reference](framework.md) which reflects the ordering of properties required by the World Bank PPP Disclosure Framework, the spreadsheet template is structured around the stages of a **contracting process**.
 
 This means it can also be a useful tool for implementers to think about the points in time at which information will become available.
 
