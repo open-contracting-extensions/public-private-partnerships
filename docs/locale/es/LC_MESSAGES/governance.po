@@ -90,10 +90,10 @@ msgstr ""
 #: ../../docs/governance.md:12
 msgid ""
 "[Metrics](https://extensions.open-"
-"contracting.org/en/extensions/metrics/master/)"
+"contracting.org/en/extensions/metrics/1.1/)"
 msgstr ""
 "[Métricas](https://extensions.open-"
-"contracting.org/es/extensions/metrics/master/)"
+"contracting.org/es/extensions/metrics/1.1/)"
 
 #: ../../docs/governance.md:13
 msgid ""

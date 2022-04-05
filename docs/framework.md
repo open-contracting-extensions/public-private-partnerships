@@ -1864,7 +1864,7 @@ Structured information on changes to the tariffs should be provided by updating 
 
 #### IX.1.8. Service levels
 
-Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/agreedMetrics](release-schema.json,,contracts/0/agreedMetrics) array.
+Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/agreedMetrics](release-schema.json,,contracts/0/agreedMetrics) array.
 
 #### IX.1.9. Date
 
@@ -1886,7 +1886,7 @@ The date of the variation should be provided using the `amendment/date` field.
 
 > State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
-Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'demand' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual demand for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1912,7 +1912,7 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 > State the actual annual total revenues reported in the financial statements and reports.
 
-Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'revenue' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1930,7 +1930,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Recommended only where there is government equity investment or other form of government support that is substantial
 
-Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'IRR' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1940,7 +1940,7 @@ A metric with an `id` of 'IRR' should be given, with a series of [observations](
 
 > State actual year-wise performance here against each of 10-12 identified key performance indicators
 
-Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
