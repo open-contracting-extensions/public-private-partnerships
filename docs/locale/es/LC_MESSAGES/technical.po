@@ -105,12 +105,12 @@ msgstr ""
 #: ../../docs/technical.md:31
 msgid ""
 "A compiled OCDS for PPPs schema, with the extensions applied, is also  "
-"{download}`available to download <_static/patched/release-schema.json>`, and"
+"[available to download](_static/patched/release-schema.json), and"
 " a [full reference table is provided](reference/schema.md)."
 msgstr ""
 "Un compilado del esquema OCDS para APPs, con las extensiones aplicadas, "
-"también esta {download}`disponible para descarga<_static/patched/release-"
-"schema.json>`, y [la tabla de referencia completa es "
+"también esta [disponible para descarga](_static/patched/release-"
+"schema.json), y [la tabla de referencia completa es "
 "proveída](reference/schema.md)."
 
 #: ../../docs/technical.md:33
