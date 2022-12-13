@@ -1,111 +1,111 @@
 [main]
 host = https://www.transifex.com
 
-[ocds-for-ppps.framework]
-file_filter = docs/locale/<lang>/LC_MESSAGES/framework.po
-source_file = build/locale/framework.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.example]
-file_filter = docs/locale/<lang>/LC_MESSAGES/example.po
-source_file = build/locale/example.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.ppp-codelists]
-file_filter = docs/locale/<lang>/LC_MESSAGES/ppp-codelists.po
-source_file = build/locale/ppp-codelists.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.governance]
-file_filter = docs/locale/<lang>/LC_MESSAGES/governance.po
-source_file = build/locale/governance.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.spreadsheet]
-file_filter = docs/locale/<lang>/LC_MESSAGES/spreadsheet.po
-source_file = build/locale/spreadsheet.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.overview]
-file_filter = docs/locale/<lang>/LC_MESSAGES/overview.po
-source_file = build/locale/overview.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.index]
-file_filter = docs/locale/<lang>/LC_MESSAGES/index.po
-source_file = build/locale/index.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.timing]
-file_filter = docs/locale/<lang>/LC_MESSAGES/timing.po
-source_file = build/locale/timing.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.technical]
-file_filter = docs/locale/<lang>/LC_MESSAGES/technical.po
-source_file = build/locale/technical.pot
-source_lang = en
-type = PO
-
-[ocds-for-ppps.404]
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:404]
 file_filter = docs/locale/<lang>/LC_MESSAGES/404.po
 source_file = build/locale/404.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.ppp-schema]
-file_filter = docs/locale/<lang>/LC_MESSAGES/ppp-schema.po
-source_file = build/locale/ppp-schema.pot
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:example]
+file_filter = docs/locale/<lang>/LC_MESSAGES/example.po
+source_file = build/locale/example.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.extensions]
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:extensions]
 file_filter = docs/locale/<lang>/LC_MESSAGES/extensions.po
 source_file = build/locale/extensions.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--codelists]
-file_filter = docs/locale/<lang>/LC_MESSAGES/reference/codelists.po
-source_file = build/locale/reference/codelists.pot
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:framework]
+file_filter = docs/locale/<lang>/LC_MESSAGES/framework.po
+source_file = build/locale/framework.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--changelog]
-file_filter = docs/locale/<lang>/LC_MESSAGES/reference/changelog.po
-source_file = build/locale/reference/changelog.pot
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:governance]
+file_filter = docs/locale/<lang>/LC_MESSAGES/governance.po
+source_file = build/locale/governance.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--browser]
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:index]
+file_filter = docs/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:overview]
+file_filter = docs/locale/<lang>/LC_MESSAGES/overview.po
+source_file = build/locale/overview.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:ppp-codelists]
+file_filter = docs/locale/<lang>/LC_MESSAGES/ppp-codelists.po
+source_file = build/locale/ppp-codelists.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:ppp-schema]
+file_filter = docs/locale/<lang>/LC_MESSAGES/ppp-schema.po
+source_file = build/locale/ppp-schema.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--browser]
 file_filter = docs/locale/<lang>/LC_MESSAGES/reference/browser.po
 source_file = build/locale/reference/browser.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--schema]
-file_filter = docs/locale/<lang>/LC_MESSAGES/reference/schema.po
-source_file = build/locale/reference/schema.pot
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--changelog]
+file_filter = docs/locale/<lang>/LC_MESSAGES/reference/changelog.po
+source_file = build/locale/reference/changelog.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--documents]
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--codelists]
+file_filter = docs/locale/<lang>/LC_MESSAGES/reference/codelists.po
+source_file = build/locale/reference/codelists.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--documents]
 file_filter = docs/locale/<lang>/LC_MESSAGES/reference/documents.po
 source_file = build/locale/reference/documents.pot
 source_lang = en
-type = PO
+type        = PO
 
-[ocds-for-ppps.reference--index]
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--index]
 file_filter = docs/locale/<lang>/LC_MESSAGES/reference/index.po
 source_file = build/locale/reference/index.pot
 source_lang = en
-type = PO
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:reference--schema]
+file_filter = docs/locale/<lang>/LC_MESSAGES/reference/schema.po
+source_file = build/locale/reference/schema.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:spreadsheet]
+file_filter = docs/locale/<lang>/LC_MESSAGES/spreadsheet.po
+source_file = build/locale/spreadsheet.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:technical]
+file_filter = docs/locale/<lang>/LC_MESSAGES/technical.po
+source_file = build/locale/technical.pot
+source_lang = en
+type        = PO
+
+[o:open-contracting-partnership-1:p:ocds-for-ppps:r:timing]
+file_filter = docs/locale/<lang>/LC_MESSAGES/timing.po
+source_file = build/locale/timing.pot
+source_lang = en
+type        = PO
 
