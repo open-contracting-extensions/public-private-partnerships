@@ -49,7 +49,7 @@ This documentation is **not** designed for individual PPP project managers. If y
 
 First review:
 
-* The [Open Contracting Data Standard documentation](https://standard.open-contracting.org/latest/en/getting_started/);
+* The [Open Contracting Data Standard Primer](https://standard.open-contracting.org/latest/en/primer/);
 * The [World Bank Framework for Disclosure in Public Private Partnerships](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a-framework-for-disclosure-in-public-private-partnership-projects)
 
 Then consult the [reference](framework.md) pages to see how each element from the PPP Disclosure Framework template can be captured using OCDS.

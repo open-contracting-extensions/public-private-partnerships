@@ -12,7 +12,7 @@ OCDS for PPPs provides a framework for **how** to publish the requested informat
 * Documents
 * Presentation
 
-The [OCDS releases and records model](https://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis.
+The [OCDS releases and records model](https://standard.open-contracting.org/latest/en/primer/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis.
 
 ## Data
 
