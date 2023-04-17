@@ -110,17 +110,17 @@ msgstr "Explora el ejemplo"
 
 #: ../../docs/example.md:29
 msgid ""
-"View the {download}`OCDS releases in JSON format here <examples/full.json>`."
+"View the [OCDS releases in JSON format here](examples/full.json)."
 msgstr ""
-"Vea las {download}`entregas OCDS en formato JSON aquí <examples/full.json>`."
+"Vea las [entregas OCDS en formato JSON aquí](examples/full.json)."
 
 #: ../../docs/example.md:31
 msgid ""
-"View the {download}`OCDS record in JSON format here "
-"<examples/full_record_package.json>`."
+"View the [OCDS record in JSON format here"
+"](examples/full_record_package.json)."
 msgstr ""
-"Vea los {download}`registros OCDS en formato JSON aquí "
-"<examples/full_record_package.json>`."
+"Vea los [registros OCDS en formato JSON aquí"
+"](examples/full_record_package.json)."
 
 #: ../../docs/example.md:33
 msgid ""

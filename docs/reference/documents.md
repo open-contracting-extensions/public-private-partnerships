@@ -2,7 +2,7 @@
 
 There are many documents that should be disclosed at points during a PPP process.
 
-The OCDS for PPPs documentType codelist includes a description of each document or element of information referenced in the World Bank PPP Disclosure Framework. 
+The OCDS for PPPs documentType codelist includes a description of each document or element of information referenced in the World Bank PPP Disclosure Framework.
 
 ## Representation
 
@@ -26,7 +26,5 @@ The full list of document types, and where they should appear, is given below.
 
 ```{csv-table-no-translate}
 :header-rows: 1
-:widths: auto
 :file: ../_static/patched/codelists/documentType.csv
 ```
-

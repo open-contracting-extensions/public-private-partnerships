@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Como un perfil de implementación, extender el OCDS 1.1, actualizaciones al "
 "esquema OCDS están sujetas a el [Proceso de Gobernanza "
-"OCDS](https://standard.open-contracting.org/latest/es/support/governance/)."
+"OCDS](https://standard.open-contracting.org/latest/es/governance/)."
 
 #: ../../docs/governance.md:5
 msgid ""
@@ -90,10 +90,10 @@ msgstr ""
 #: ../../docs/governance.md:12
 msgid ""
 "[Metrics](https://extensions.open-"
-"contracting.org/en/extensions/metrics/master/)"
+"contracting.org/en/extensions/metrics/1.1/)"
 msgstr ""
 "[Métricas](https://extensions.open-"
-"contracting.org/es/extensions/metrics/master/)"
+"contracting.org/es/extensions/metrics/1.1/)"
 
 #: ../../docs/governance.md:13
 msgid ""

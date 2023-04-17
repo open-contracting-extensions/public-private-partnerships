@@ -12,7 +12,7 @@ OCDS for PPPs provides a framework for **how** to publish the requested informat
 * Documents
 * Presentation
 
-The [OCDS releases and records model](https://standard.open-contracting.org/latest/en/getting_started/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis. 
+The [OCDS releases and records model](https://standard.open-contracting.org/latest/en/primer/releases_and_records/) is designed to support **real time** updates, with data and documents on each stage of a process published and updated on an ongoing basis.
 
 ## Data
 
@@ -30,13 +30,13 @@ Many elements of the PPP framework call for **structured data**. For example:
 * Details of project finance;
 * A list of shareholders, and shares held;
 
-OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions). 
+OCDS for PPPs provides structured data elements to represent this information, using existing OCDS building blocks, or [selected extensions](extensions).
 
-These structured data elements can be represented using JSON data, or via simple spreadsheet templates. 
+These structured data elements can be represented using JSON data, or via simple spreadsheet templates.
 
 ## Documents
 
-PPP projects involve can involve 100s or 1000s of pages of documents. 
+PPP projects involve can involve 100s or 1000s of pages of documents.
 
 The framework calls for:
 
@@ -48,13 +48,13 @@ Use OCDS to:
 * Provide summary text for each framework element;
 * Link directly to the page in attached documents where more information can be found **or** describe where documents can be accessed;
 
-This way, stakeholders can more easily find the information they need to understand a project: and compliance with the framework can be more easily assessed. 
+This way, stakeholders can more easily find the information they need to understand a project: and compliance with the framework can be more easily assessed.
 
 ```{note}
 Make sure that documents are directly accessible at a persistent web address. Avoid placing documents behind a log-in or CAPTCHA, or moving the location of documents once they have been published.
 ```
 
-## Presentation 
+## Presentation
 
 ```{image} _static/images/ocds_show.png
 :align: right
@@ -71,7 +71,7 @@ It is possible to build custom interfaces onto PPP disclosures: tailored to diff
 
 In particular:
 
-* OCDS Show is a prototype interface that can be used to browse all the information in OCDS for PPPs releases and records; 
+* OCDS Show is a prototype interface that can be used to browse all the information in OCDS for PPPs releases and records;
 * OCDS for PPP data can be converted into spreadsheet formats for detailed analysis;
 * Any third-party can build an interface using the OCDS for PPPs standard;
 

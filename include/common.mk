@@ -70,12 +70,12 @@ push: extract
 	tx push -s
 
 force_push.%: extract
-	tx push -s -t -f --no-interactive -l $*
+	tx push -f -s -t -l $*
 
 # Also pushes the translation .po files (`file_filter` in .tx/config) to Transifex.
 .PHONY: force_push
 force_push: extract
-	tx push -s -t -f --no-interactive -l $(COMMA_SEPARATED_TRANSLATIONS)
+	tx push -f -s -t -l $(COMMA_SEPARATED_TRANSLATIONS)
 
 pull.%: FORCE
 	tx pull -f -l $*
@@ -121,13 +121,15 @@ all: build_source compile $(TRANSLATIONS:.%=build.%) clean_current_lang
 
 .PHONY: autobuild
 autobuild: current_lang.en
-	sphinx-autobuild -nW -q -b dirhtml $(DOCS_DIR) $(BUILD_DIR)/en
+	sphinx-autobuild $(SPHINX_AUTOBUILD_EXTRA_ARGS) -nW -q -b dirhtml $(DOCS_DIR) $(BUILD_DIR)/en
 
 .PHONY: update
 update: clean_dist
 	python manage.py update
 
 ### Test
+
+# "-" ignores the exit status. Schema files might contain old URLs that redirect, which can only be updated in a new version.
 
 .PHONY: linkcheck_source
 linkcheck_source: current_lang.en

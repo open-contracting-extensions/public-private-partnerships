@@ -524,7 +524,9 @@ Links to contract documents can be provided using [Document](reference/documents
 
 > Public authority: name of authority, name of representative, address, telephone, fax, e-mail
 
-> The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The unit/body/department within a government that is tendering and contracting the project. The public counterpart in the PPP contract.
 
 #### I.14.1. Contract signatories
 
@@ -605,7 +607,9 @@ A reference to the public authority should be provided using an [OrganizationRef
 
 > Private party: name of company or consortium, name of representative, address, telephone, fax, e-mail
 
-> The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The counter party of the procuring authority in the PPP contract. A private entity which has been granted the contract to construct and operate a government asset, and which is usually created under the form of a Special Purpose Vehicle or SPV.
 
 #### I.15.1. Contract signatories
 
@@ -983,6 +987,7 @@ For each request to participate:
 ### II.3. Request for Proposal
 
 > The set of documents issued by the procuring authority that set out:
+>
 > * The basis or requirements for submitting the proposal (which documents and in which format and contents the bidder has to submit)
 > * The basis of the evaluation criteria  for selecting the preferred bidder or awardee
 > * The PPP contract that will be signed with the successful bidder and other annexed information such as forms, templates, complementary information for reference purposes, and so on.
@@ -1070,7 +1075,9 @@ A reference to the preferred bidder should be provided using an [OrganizationRef
 
 > Listing of risks with information on who bears the risk. Countries, sectors, and individual projects may use different categorizations. Several risks can be further broken down into components or listed together. If within a large category of risk subcategories are allocated to different parties, it makes sense to show the subcategories clearly.
 
-> The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The allocation of the consequences of each risk to one of the parties in the contract, or agreeing to deal with the risk through a specified mechanism which may involve sharing the risk.
 
 #### III.1.1. Structured risk allocation information
 
@@ -1857,7 +1864,7 @@ Structured information on changes to the tariffs should be provided by updating 
 
 #### IX.1.8. Service levels
 
-Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/agreedMetrics](release-schema.json,,contracts/0/agreedMetrics) array.
+Structured information on changes to services levels should be provided by updating the [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/agreedMetrics](release-schema.json,,contracts/0/agreedMetrics) array.
 
 #### IX.1.9. Date
 
@@ -1879,7 +1886,7 @@ The date of the variation should be provided using the `amendment/date` field.
 
 > State the actual annual measured levels of demand or stated levels of demand in the providers report or contract managers report. Use the following format
 
-Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about estimated demand should be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'demand' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual demand for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1905,7 +1912,7 @@ A metric with an `id` of 'demand' should be given, with a series of [observation
 
 > State the actual annual total revenues reported in the financial statements and reports.
 
-Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about aggregated annual revenues can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'revenue' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1923,7 +1930,7 @@ Links to these documents should be provided using [Document](reference/documents
 
 > Recommended only where there is government equity investment or other form of government support that is substantial
 
-Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual IRR can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 A metric with an `id` of 'IRR' should be given, with a series of [observations](release-schema.json,,contracts/0/implementation/metrics/0/observations) that capture the actual revenue for a given period. These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 
@@ -1933,7 +1940,7 @@ A metric with an `id` of 'IRR' should be given, with a series of [observations](
 
 > State actual year-wise performance here against each of 10-12 identified key performance indicators
 
-Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/master/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
+Structured data about actual performance against KPIs can be provided using [Metric](https://extensions.open-contracting.org/en/extensions/metrics/1.1/schema/#metric) objects in the [contracts/implementation/metrics](release-schema.json,,contracts/0/implementation/metrics) array.
 
 These estimates can be disaggregated by any number of dimensions contained as key-value pairs within each observation's [dimensions](release-schema.json,,contracts/0/implementation/metrics/0/observations/0/dimensions) object.
 

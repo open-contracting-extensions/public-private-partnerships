@@ -9,7 +9,7 @@ Click on schema elements to expand the tree, or use the '+' icon to expand all e
 ```{admonition} Browsing the schema
 :class: note
 
-This page presents the release schema in an interactive browser. You can also download the canonical version of the release schema as {download}`JSON Schema <../_static/patched/release-schema.json>`, download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or view it as a [table](schema).
+This page presents the release schema in an interactive browser. You can also download the canonical version of the release schema as [JSON Schema](../_static/patched/release-schema.json), download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or view it as a [table](schema).
 ```
 
 <script src="../../_static/docson/public/js/widget.js" data-schema="../../../_static/patched/release-schema.json"></script>

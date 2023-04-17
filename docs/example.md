@@ -26,9 +26,9 @@ The releases were then compiled into a record, and are available to browse using
 
 ## Explore the example
 
-View the {download}`OCDS releases in JSON format here <examples/full.json>`.
+View the [OCDS releases in JSON format here](examples/full.json).
 
-View the {download}`OCDS record in JSON format here <examples/full_record_package.json>`.
+View the [OCDS record in JSON format here](examples/full_record_package.json).
 
 View the [data in OCDS show here](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/full_record_package.json).
 

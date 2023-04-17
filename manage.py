@@ -14,6 +14,10 @@ sys.path.append(str(basedir / 'docs'))
 
 
 def update_codelist_urls(text, codelists):
+    """
+    If the profile defines a codelist, replaces any links to the OCDS codelist with a link to the profile's codelist.
+    """
+
     def replace(match):
         codelist = match.group(2).replace('-', '')
         if any(name for name in codelists if name.lower()[:-4] == codelist):
@@ -30,17 +34,23 @@ def cli():
 
 @cli.command()
 def update():
+    """
+    Update the profile to the latest versions of extensions. If conf.py sets managed_codelist to True, regenerate
+    docs/reference/codelists.md to list all codelists from OCDS and extensions.
+    """
+
     import conf
 
-    schema_base_url = 'https://standard.open-contracting.org{}/schema/{}/'.format(
-        conf.html_theme_options['root_url'], conf.release.replace('-', '__').replace('.', '__'))
+    path_prefix = conf.html_theme_options['root_url']
+    ref = conf.release.replace('-', '__').replace('.', '__')
+    schema_base_url = f'https://standard.open-contracting.org{path_prefix}/schema/{ref}/'
     build_profile(basedir / 'schema', conf.standard_tag, conf.extension_versions, schema_base_url=schema_base_url,
                   update_codelist_urls=update_codelist_urls)
 
-    file = basedir / 'docs' / 'reference' / 'codelists.md'
     if not getattr(conf, 'managed_codelist', False):
         return
 
+    file = basedir / 'docs' / 'reference' / 'codelists.md'
     with file.open('w+') as f:
         filenames = glob(str(basedir / 'schema' / 'patched' / 'codelists' / '*.csv'))
         codelists = [os.path.basename(filename) for filename in filenames]

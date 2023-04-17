@@ -23,6 +23,8 @@ DOMAIN_PREFIX=ppp-
 TRANSIFEX_PROJECT=ocds-for-ppps
 # Any additional extract targets.
 EXTRACT_TARGETS=
+# Extra arguments for sphinx-autobuild.
+SPHINX_AUTOBUILD_EXTRA_ARGS=
 
 # The path to the branch of the documentation to print to PDF.
 PDF_ROOT=/profiles/ppp/latest

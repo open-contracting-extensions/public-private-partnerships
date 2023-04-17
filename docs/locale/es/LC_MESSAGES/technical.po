@@ -105,12 +105,12 @@ msgstr ""
 #: ../../docs/technical.md:31
 msgid ""
 "A compiled OCDS for PPPs schema, with the extensions applied, is also  "
-"{download}`available to download <_static/patched/release-schema.json>`, and"
+"[available to download](_static/patched/release-schema.json), and"
 " a [full reference table is provided](reference/schema.md)."
 msgstr ""
 "Un compilado del esquema OCDS para APPs, con las extensiones aplicadas, "
-"también esta {download}`disponible para descarga<_static/patched/release-"
-"schema.json>`, y [la tabla de referencia completa es "
+"también esta [disponible para descarga](_static/patched/release-"
+"schema.json), y [la tabla de referencia completa es "
 "proveída](reference/schema.md)."
 
 #: ../../docs/technical.md:33
@@ -190,11 +190,11 @@ msgstr "Primera revisión:"
 
 #: ../../docs/technical.md:52
 msgid ""
-"The [Open Contracting Data Standard documentation](https://standard.open-"
-"contracting.org/latest/en/getting_started/);"
+"The [Open Contracting Data Standard Primer](https://standard.open-"
+"contracting.org/latest/en/primer/);"
 msgstr ""
-"La [documentación del Estándar de Contrataciones Abiertas](https://standard"
-".open-contracting.org/latest/es/getting_started/);"
+"La [Introducción del Estándar de Contrataciones Abiertas](https://standard"
+".open-contracting.org/latest/es/primer/);"
 
 #: ../../docs/technical.md:53
 msgid ""
