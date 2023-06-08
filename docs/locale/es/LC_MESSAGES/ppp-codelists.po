@@ -1675,8 +1675,8 @@ msgstr "Información sobre la constitución del comité de evaluación"
 #. Title
 #: schema/patched/codelists/documentType.csv:53
 #: schema/profile/codelists/+documentType.csv:12
-msgid "Request for qualification"
-msgstr "Solicitud de calificación"
+msgid "Request for qualifications"
+msgstr "Solicitud de calificaciónes"
 
 #. Description
 #: schema/patched/codelists/documentType.csv:53

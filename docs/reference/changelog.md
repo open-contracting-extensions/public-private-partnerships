@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Non-normative changes
+
+* Make explicit the references to the glossaries of the APMG Public-Private Partnerships Certification Program Guide and Public-Private Partnership Legal Resource Center (PPPLRC).
+
 ## [1.0.0.beta3] - 2021-06-10
 
 ### Normative changes

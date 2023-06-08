@@ -515,8 +515,8 @@
           {
             "id": "1",
             "documentType": "biddingDocuments",
-            "title": "Request for Qualification",
-            "description": "Request for qualification documents for example PPP",
+            "title": "Request for Qualifications",
+            "description": "Request for qualifications documents for example PPP",
             "url": "http://communications.gov.example/example_ppp/rfq.pdf",
             "datePublished": "2015-10-31T00:00:00-06:00",
             "format": "application/pdf",
