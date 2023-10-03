@@ -28,7 +28,7 @@ msgstr "Referencia de extensión"
 
 #: ../../docs/extensions.md:3
 msgid ""
-"OCDS for PPPs is constructed using a number of re-usable extensions for the "
+"OCDS for PPPs is constructed using a number of reusable extensions for the "
 "Open Contracting Data Standard."
 msgstr ""
 "El OCDS para APPs se construye utilizando una serie de extensiones "

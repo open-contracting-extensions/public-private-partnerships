@@ -9,7 +9,7 @@ This section provides a step-by-step reference resource on how all the requireme
 
 This section should be read in conjunction with the Disclosure Framework.
 
-The mapping for each requirement in the framework includes a guide to publication timing, indicating whether information should be **P**ublished, **R**epeated or **U**pdated at each stage of the contracting process. More information on the stages of the contracting process can be found in the [publication timing section](timing.md).
+The mapping for each requirement in the framework includes a guide to publication timing, indicating whether information should be published (**P**), repeated (**R**) or updated (**U**) at each stage of the contracting process. More information on the stages of the contracting process can be found in the [publication timing section](timing.md).
 
 ## I. Basic Project Information
 
