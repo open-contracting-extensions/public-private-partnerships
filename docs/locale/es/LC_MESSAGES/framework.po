@@ -354,10 +354,10 @@ msgstr ""
 #: ../../docs/framework.md:92
 msgid ""
 "There are a range of tools available to generate GeoJSON data, such as "
-"[http://geojson.io/](http://geojson.io)"
+"[geojson.io](https://geojson.io)."
 msgstr ""
 "Hay una gama de herramientas disponibles para generar datos GeoJSON, como"
-" [http://geojson.io/](http://geojson.io)"
+" [geojson.io](https://geojson.io)."
 
 #: ../../docs/framework.md:102
 msgid "I.2. Sponsoring agency/department"

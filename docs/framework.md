@@ -89,7 +89,7 @@ The locations where a project is taking place can be specified using:
 * **A gazetteer entry**. For example, the GeoNames code of the administrative division where activity is taking place.
 * **A GeoJSON object**. Describing the boundary, or extent, of where activity will take place.
 
-There are a range of tools available to generate GeoJSON data, such as [http://geojson.io/](http://geojson.io)
+There are a range of tools available to generate GeoJSON data, such as [geojson.io](https://geojson.io).
 
 **Schema**: Information can be provided using the following OCDS fields.
 
