@@ -174,9 +174,9 @@
           }
         },
         "forecasts": {
-          "type": "array",
           "title": "Forecasts",
           "description": "Any forecasts metrics for this results of this contracting process.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Metric"
           },
@@ -464,9 +464,9 @@
           }
         },
         "targets": {
-          "type": "array",
           "title": "Targets",
           "description": "Any target metrics for this results of this contracting process.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Metric"
           },
@@ -636,9 +636,9 @@
           ]
         },
         "agreedMetrics": {
-          "type": "array",
           "title": "Agreed metrics",
           "description": "Any target metrics set out as part of the contract award.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Metric"
           },
@@ -814,9 +814,9 @@
           "minItems": 1
         },
         "agreedMetrics": {
-          "type": "array",
           "title": "Agreed metrics",
           "description": "Any target metrics set out as part of the contract documents.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Metric"
           },
@@ -835,7 +835,7 @@
         },
         "signatories": {
           "title": "Contract signatories",
-          "description": "The signatories to the contract. Each signatory should have an associated entry in the parties section of OCDS.",
+          "description": "The signatories to the contract. Each signatory should have a corresponding entry in the `parties` array.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
@@ -844,9 +844,9 @@
           "minItems": 1
         },
         "tariffs": {
-          "type": "array",
           "title": "Tariffs",
           "description": "The tariffs as set out in the contract schedules. Also known as tolls or user charges. Updates to tariffs over the operation of the contract can be provided in the implementation section.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Tariff"
           },
@@ -907,9 +907,9 @@
           "uniqueItems": true
         },
         "charges": {
-          "type": "array",
           "title": "Charges",
           "description": "Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Charge"
           },
@@ -917,9 +917,9 @@
           "minItems": 1
         },
         "metrics": {
-          "type": "array",
           "title": "Metrics",
           "description": "Reported results from the delivery of the contracted goods, works or services.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Metric"
           },
@@ -937,9 +937,9 @@
           "minItems": 1
         },
         "tariffs": {
-          "type": "array",
           "title": "Tariffs",
           "description": "The tariffs as they apply during the life of the project. Also known as tolls or user charges. These may be initially copied from the contract section, and then updated with any revisions over the lifetime of the implementation phase. ",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Tariff"
           },
@@ -1183,6 +1183,15 @@
           ],
           "minLength": 1
         },
+        "accessDetailsURL": {
+          "title": "Access details URL",
+          "description": "A web address for information on any special arrangements needed to access the document.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
         "author": {
           "title": "Author",
           "description": "The names of the authors of the document.",
@@ -1191,6 +1200,22 @@
             "null"
           ],
           "minLength": 1
+        },
+        "unofficialTranslations": {
+          "title": "Unofficial translations",
+          "description": "The languages in which unofficial translations of the document are available, from the open [language](https://standard.open-contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#language) codelist. A [BCP47 language tag](https://www.w3.org/International/articles/language-tags/) is allowed, if there is a user need for the additional information.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "codelist": "language.csv",
+          "openCodelist": true,
+          "uniqueItems": true,
+          "minItems": 1
         }
       },
       "patternProperties": {
@@ -1524,31 +1549,14 @@
           "title": "Details"
         },
         "shareholders": {
-          "title": "Organization shareholders",
-          "description": "A list of shareholders in the organization: used to provide company ownership information for firms, primarily in the case of large and complex contracts, or Public Private Partnerships, that require disclosure of this information for certain bidders or awarded parties.",
+          "title": "Shareholdings",
+          "description": "Shareholdings in the organization: used to provide company ownership information for firms, primarily in the case of large and complex contracts, like public private partnerships, that require disclosure of this information by bidders or suppliers.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Shareholder"
           },
           "uniqueItems": true,
           "minItems": 1
-        },
-        "beneficialOwnership": {
-          "type": "object",
-          "title": "Beneficial ownership",
-          "description": "This section can be used to record information concerning individuals or organizations with a beneficial ownership or control interests in this party. Where structured data is available, this section may be extended by embedding or linking to information modelled using the [Beneficial Ownership Data Standard (BODS)](https://github.com/openownership/data-standard).",
-          "properties": {
-            "description": {
-              "title": "Description",
-              "description": "A free text description of beneficial ownership or control arrangements.",
-              "type": [
-                "string",
-                "null"
-              ],
-              "minLength": 1
-            }
-          },
-          "minProperties": 1
         }
       },
       "patternProperties": {
@@ -2883,9 +2891,9 @@
       }
     },
     "Charge": {
-      "type": "object",
       "title": "Charge",
       "description": "A charge to be incurred by users or government over the course of the contract. Charge information can be broken down by period. Information on the unit prices upon which total values are based can be provided in the tariffs section. ",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -2948,8 +2956,8 @@
       "minProperties": 1
     },
     "Finance": {
-      "title": "Financing arrangements",
-      "description": "This block can be used to model details of each of the parties financing a contract or project. Note: If the finance is syndicated, and all the parties to the syndication are known, this section may be further extended with an array of syndicate partners. No schema for this is currently provided.",
+      "title": "Financing arrangement",
+      "description": "Information about a financing arrangement.",
       "type": "object",
       "required": [
         "id"
@@ -2972,7 +2980,7 @@
         },
         "description": {
           "title": "Description",
-          "description": "A short description of this financing arrangement. This may include details of lender rights, step in arrangements, exchange rate guarantees, and for syndicated loans, details of syndication and any banks who are known parties to the loan.",
+          "description": "A short description of this financing arrangement. This may include details of lender rights, step in arrangements, exchange rate guarantees, and for syndicated loans, details of syndication and any members of the syndicate.",
           "type": [
             "string",
             "null"
@@ -2980,8 +2988,8 @@
           "minLength": 1
         },
         "financingParty": {
-          "title": "Financing party",
-          "description": "The party providing this financing arrangement.",
+          "title": "Financing organization",
+          "description": "The organization providing this financing arrangement.",
           "$ref": "#/definitions/OrganizationReference"
         },
         "financeType": {
@@ -3006,7 +3014,7 @@
         },
         "financeCategory": {
           "title": "Finance category",
-          "description": "The nature of the finance. This information can be used when determining the order of preference for investors to get their money back in cases of liquidation.",
+          "description": "The nature of the finance, relevant to determining the order of preference for investors to get their money back in case of liquidation.",
           "type": [
             "string",
             "null"
@@ -3034,9 +3042,9 @@
           "$ref": "#/definitions/Period"
         },
         "interestRate": {
-          "type": "object",
           "title": "Interest rate",
           "description": "The interest rate associated with this finance.",
+          "type": "object",
           "properties": {
             "base": {
               "title": "Base",
@@ -3077,17 +3085,17 @@
           "minProperties": 1
         },
         "repaymentFrequency": {
+          "title": "Repayment frequency (days)",
+          "description": "What is the average repayment frequency (in days) for this source of finance. For example, for yearly, use 365; for monthly repayment use 30.4; for daily use 1. User interfaces may wish to translate this into a more user-friendly presentation, such as 'daily','monthly' or 'yearly'.",
           "type": [
             "number",
             "null"
           ],
-          "title": "Repayment frequency (days)",
-          "description": "What is the average repayment frequency (in days) for this source of finance. For example, for yearly, use 365; for monthly repayment use 30.4; for daily use 1. User interfaces may wish to translate this into a more user-friendly presentation, such as 'daily','monthly' or 'yearly'.",
           "minimum": 0
         },
         "stepInRights": {
           "title": "Step in rights",
-          "description": "Does provision of this finance confer any step in rights on the financing party? Step in rights are the lender's option to assume certain contractual responsibilities of a project party through managing their contract in cases when that party is not meeting its obligations under such a contract. This is a true/false field to indicate when step in rights exist. If there are step in rights, details should be provided in the description field, and in additional contract documents.",
+          "description": "Whether provision of this finance confers any step in rights to the financing organization.",
           "type": [
             "boolean",
             "null"
@@ -3095,11 +3103,25 @@
         },
         "exchangeRateGuarantee": {
           "title": "Exchange rate guarantees",
-          "description": "Is there an associated exchange rate guarantee with this source of finance. This is a true/false field to indicate when exchange rate guarantees exist. Details of any guarantees can be provided in the finance description, or in associated documents.",
+          "description": "Whether there is an associated exchange rate guarantee with this source of finance.",
           "type": [
             "boolean",
             "null"
           ]
+        },
+        "relatedLots": {
+          "title": "Related lot(s)",
+          "description": "The identifiers of the lots to which this financing arrangement relates.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
         }
       },
       "minProperties": 1
@@ -3198,9 +3220,9 @@
       }
     },
     "Metric": {
-      "type": "object",
       "title": "Metric",
       "description": "Metrics are used to set out targets and results from a contracting process. During the planning and tender sections, a metric indicates the anticipated results. In award and contract sections it indicates the awarded/contracted results. In the implementation section it is used to provide updates on actually delivered results, also known as outputs.",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -3208,9 +3230,7 @@
         "id": {
           "title": "Identifier",
           "description": "An identifier for this metric. In some cases this may be drawn from a codelist of metrics required for this type of contracting process, or in other instances may be an arbitrary identifier.",
-          "type": [
-            "string"
-          ],
+          "type": "string",
           "minLength": 1,
           "codelist": "metricID.csv",
           "openCodelist": true
@@ -3234,9 +3254,9 @@
           "minLength": 1
         },
         "observations": {
-          "type": "array",
           "title": "Observations",
           "description": "An array of target or actual values for this metric.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Observation"
           },
@@ -3247,9 +3267,9 @@
       "minProperties": 1
     },
     "Observation": {
-      "type": "object",
       "title": "Observation",
       "description": "An actual or target observation. Observations should include either a value (for financial metrics) or measure (for other metrics). ",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -3281,17 +3301,17 @@
           "minLength": 1
         },
         "unit": {
-          "type": "object",
           "title": "Unit",
           "description": "Unit",
+          "type": "object",
           "properties": {
             "name": {
+              "title": "Unit name",
+              "description": "The name of the unit.",
               "type": [
                 "string",
                 "null"
               ],
-              "title": "Unit name",
-              "description": "The name of the unit.",
               "minLength": 1
             },
             "scheme": {
@@ -3307,7 +3327,7 @@
             },
             "id": {
               "title": "ID",
-              "description": "The identifier from the codelist referenced in the schema property. For example, with UNCEFACT, this is the value of the 'Common Code' column. From this identifier, applications can look-up the human readable name or symbol for this unit of measure. ",
+              "description": "The identifier from the codelist referenced in the scheme field. For example, with UNCEFACT, this is the value of the 'Common Code' column. From this identifier, applications can look-up the human readable name or symbol for this unit of measure. ",
               "type": [
                 "string",
                 "null"
@@ -3327,9 +3347,9 @@
           "minProperties": 1
         },
         "dimensions": {
-          "type": "object",
           "title": "Dimensions",
           "description": "Any number of dimensions can be recorded within this object. Dimensions names should follow the camelCase conventions of OCDS.",
+          "type": "object",
           "patternProperties": {
             "^.*": {
               "type": [
@@ -3359,9 +3379,9 @@
       "minProperties": 1
     },
     "MilestoneReference": {
-      "type": "object",
       "title": "Milestone Reference",
       "description": "A block used to reference a milestone, including the ID and title of the milestone being referenced.",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -3385,9 +3405,9 @@
       "minProperties": 1
     },
     "PerformanceFailure": {
-      "type": "object",
       "title": "Performance failure disclosure",
       "description": "Details of the performance failures for a given period and category. Details of the associated penalties and abatements provided for in the contract, imposed and paid can also be provided.",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -3400,12 +3420,12 @@
         },
         "period": {
           "title": "Performance failure period",
-          "description": "The reporting period for these performance failures.",
+          "description": "The reporting period for the performance failures.",
           "$ref": "#/definitions/Period"
         },
         "category": {
           "title": "Performance failure category",
-          "description": "The category into which these performance failures fall.",
+          "description": "The category of the performance failures.",
           "type": [
             "string",
             "null"
@@ -3414,7 +3434,7 @@
         },
         "events": {
           "title": "Number of events",
-          "description": "The number of performance failures for the given period and category.",
+          "description": "The number of performance failures for this period and category.",
           "type": [
             "number",
             "null"
@@ -3422,7 +3442,7 @@
         },
         "penaltyContracted": {
           "title": "Contracted penalty",
-          "description": "A free text description of the penalty or abatement provided for in the contract for this period, category and number of performance failures.",
+          "description": "A description of the penalty or abatement provided for in the contract for this period, category and number of performance failures.",
           "type": [
             "string",
             "null"
@@ -3431,7 +3451,7 @@
         },
         "penaltyImposed": {
           "title": "Penalty imposed",
-          "description": "A free text description of the penalty or abatement imposed for this period, category and number of performance failures.",
+          "description": "A description of the penalty or abatement imposed for this period, category and number of performance failures.",
           "type": [
             "string",
             "null"
@@ -3440,7 +3460,7 @@
         },
         "penaltyPaid": {
           "title": "Penalty paid",
-          "description": "A yes/no field indicating whether the penalty imposed for this period, category and number of performance failures has been paid.",
+          "description": "Whether the penalty imposed for this period, category and number of performance failures has been paid.",
           "type": [
             "boolean",
             "null"
@@ -3507,8 +3527,8 @@
           "items": {
             "$ref": "#/definitions/Classification"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
         },
         "locations": {
@@ -3518,8 +3538,8 @@
           "items": {
             "$ref": "#/definitions/Location"
           },
-          "uniqueItems": true,
           "wholeListMerge": true,
+          "uniqueItems": true,
           "minItems": 1
         }
       },
@@ -3560,7 +3580,7 @@
         },
         "category": {
           "title": "Risk category",
-          "description": "The category of the risk.",
+          "description": "The category of the risk, from the riskCategory codelist.",
           "type": [
             "string",
             "null"
@@ -3571,7 +3591,7 @@
         },
         "description": {
           "title": "Risk description",
-          "description": "A description for this risk.",
+          "description": "The description of the risk.",
           "type": [
             "string",
             "null"
@@ -3580,7 +3600,7 @@
         },
         "allocation": {
           "title": "Risk allocation",
-          "description": "The party which retains the risk.",
+          "description": "The party to the contract that retains the risk.",
           "type": [
             "string",
             "null"
@@ -3596,7 +3616,7 @@
         },
         "notes": {
           "title": "Risk notes",
-          "description": "Additional notes on the risk, for example the rationale for the allocation",
+          "description": "Additional notes on the risk, for example the rationale for the allocation.",
           "type": [
             "string",
             "null"
@@ -3607,29 +3627,27 @@
       "minProperties": 1
     },
     "Shareholder": {
+      "title": "Shareholding",
+      "description": "A shareholding in an organization.",
       "type": "object",
-      "title": "Shareholder",
-      "description": "A shareholder in an organization.",
       "required": [
         "id"
       ],
       "properties": {
         "id": {
-          "title": "Shareholder ID",
-          "description": "A local identifier for this shareholder, unique within this block. This field is used to keep track of multiple revisions of a shareholder through the compilation from release to record mechanism.",
-          "type": [
-            "string"
-          ],
+          "title": "ID",
+          "description": "A local identifier for this shareholding, unique within this array.",
+          "type": "string",
           "minLength": 1
         },
         "shareholder": {
-          "title": "Shareholder organization reference.",
-          "description": "An organization reference pointing the entry in the parties section for the shareholding organization.",
+          "title": "Shareholder",
+          "description": "The organization holding the share.",
           "$ref": "#/definitions/OrganizationReference"
         },
         "shareholding": {
           "title": "Shareholding",
-          "description": "The percentage of shares held by the shareholder, expressed as a decimal value between 0 and 1.",
+          "description": "The percentage of the organization's shares held by the shareholder, expressed as a decimal between 0 and 1.",
           "type": [
             "number",
             "null"
@@ -3638,8 +3656,8 @@
           "maximum": 1
         },
         "votingRights": {
-          "title": "Shareholder voting rights",
-          "description": "The type of voting rights associated with the shares held by the shareholder.",
+          "title": "Voting rights",
+          "description": "The type of voting rights associated with the shareholder's shares.",
           "type": [
             "string",
             "null"
@@ -3656,8 +3674,8 @@
           ]
         },
         "votingRightsDetails": {
-          "title": "Shareholder voting rights details",
-          "description": "Detailed information about the shareholder's voting rights. This field should be completed when the shareholder voting rights are restricted, additional or enhanced.",
+          "title": "Voting rights details",
+          "description": "Detailed information about the voting rights associated with the shareholder's shares: for example, when the shareholder voting rights are restricted, additional or enhanced.",
           "type": [
             "string",
             "null"
@@ -3665,8 +3683,8 @@
           "minLength": 1
         },
         "notes": {
-          "title": "Shareholder notes",
-          "description": "Additional notes on this shareholder. This field should be used to provide details on any caps on equity transfer, or lock-in arrangements, applicable to this shareholder.",
+          "title": "Notes",
+          "description": "Additional notes on the shareholding or shareholder: for example, details on any caps on equity transfer, or lock-in arrangements, applicable to the shareholder.",
           "type": [
             "string",
             "null"
@@ -3677,9 +3695,9 @@
       "minProperties": 1
     },
     "Tariff": {
-      "type": "object",
       "title": "Tariff",
       "description": "An item in a tariff table, setting out a breakdown of the user or government fees payable in relation to each unit of a particular good or services.",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -3706,13 +3724,13 @@
             "string",
             "null"
           ],
+          "codelist": "chargePaidBy.csv",
+          "openCodelist": false,
           "enum": [
             "government",
             "user",
             null
-          ],
-          "codelist": "chargePaidBy.csv",
-          "openCodelist": false
+          ]
         },
         "period": {
           "title": "Tariff period",
@@ -3725,17 +3743,17 @@
           "$ref": "#/definitions/Value"
         },
         "unit": {
-          "type": "object",
           "title": "Tariff unit",
           "description": "The unit against which this tariff is charged.",
+          "type": "object",
           "properties": {
             "name": {
+              "title": "Unit name",
+              "description": "The name of the unit that the tariff is charged against. E.g. tonnes,",
               "type": [
                 "string",
                 "null"
               ],
-              "title": "Unit name",
-              "description": "The name of the unit that the tariff is charged against. E.g. tonnes,",
               "minLength": 1
             },
             "scheme": {
@@ -3771,9 +3789,9 @@
           "minProperties": 1
         },
         "dimensions": {
-          "type": "object",
           "title": "Tariff dimensions",
           "description": "Used to capture the different breakdowns in tariff charges. Any number of dimensions can be recorded within this object. Dimensions names should follow the camelCase conventions of OCDS.",
+          "type": "object",
           "patternProperties": {
             "^.*": {
               "type": [
@@ -3798,9 +3816,9 @@
       "minProperties": 1
     },
     "EvaluationIndicators": {
-      "type": "object",
       "title": "Evaluation indicators",
       "description": "Key indicators that describe how the PPP option has been evaluated by government.",
+      "type": "object",
       "properties": {
         "riskPremium": {
           "title": "Risk premium",
@@ -3854,9 +3872,9 @@
       "minProperties": 1
     },
     "FinanceSummary": {
-      "type": "object",
       "title": "Finance summary",
       "description": "Key indicators that describe the financial model of the PPP.",
+      "type": "object",
       "properties": {
         "debtEquityRatio": {
           "title": "Debt equity ratio",

@@ -51,7 +51,7 @@ projectAdditionality,Project additionality,A description of the additionality pr
 financeAdditionality,Finance additionality,A description of the additionality provided by the finance method,OCDS for PPPs Extension
 pppModeRationale,Rationale for PPP modality,A description of the reasons for choosing to conduct this project as a PPP,OCDS for PPPs Extension
 evaluationCommittee,Evaluation committee details,Information on the constitution of the evaluation committee,OCDS for PPPs Extension
-requestForQualification,Request for qualifications,"The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase).",OCDS for PPPs Extension
+requestForQualification,Request for qualification,"The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase).",OCDS for PPPs Extension
 minutes,Minutes,"Minutes of pre-bid meetings, or other relevant meetings.",OCDS for PPPs Extension
 negotiationParameters,Negotiation parameters,A description of the parameters for negotiation with the preferred proponent,OCDS for PPPs Extension
 riskComparison,Risk comparison,Risk comparison of other financing methods,OCDS for PPPs Extension
