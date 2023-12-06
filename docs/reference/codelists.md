@@ -82,15 +82,6 @@ For additional guidance on using this codelist, refer to the [Charges extension 
 
 For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
 
-#### financeType
-
-```{csv-table-no-translate}
-:header-rows: 1
-:file: ../_static/patched/codelists/financeType.csv
-```
-
-For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
-
 #### financingArrangementType
 
 ```{csv-table-no-translate}

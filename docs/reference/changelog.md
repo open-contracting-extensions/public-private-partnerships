@@ -8,7 +8,7 @@
 
 ### Extensions
 
-See the changelogs for the [included extensions](../governance).
+See the changelogs for the [included extensions](../governance), in particular the [Finance extension](https://extensions.open-contracting.org/en/extensions/finance/master/#changelog).
 
 ## [1.0.0.beta3] - 2021-06-10
 

@@ -1719,7 +1719,10 @@
                     "id": "XX-FI-22222222",
                     "name": "Big Bank Corp"
                   },
-                  "financeCategory": "seniorDebt",
+                  "assetClass": [
+                    "debt"
+                  ],
+                  "repaymentPriority": "senior",
                   "value": {
                     "amount": 41000000,
                     "currency": "USD"
@@ -1735,7 +1738,7 @@
                   },
                   "stepInRights": true,
                   "exchangeRateGuarantee": false,
-                  "repaymentFrequency": 30.4
+                  "paymentFrequency": 30.4
                 },
                 {
                   "id": "2",
@@ -1744,7 +1747,9 @@
                     "id": "XX-XXX-11111111",
                     "name": "Alpha Holdings Ltd"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 6674000,
                     "currency": "USD"
@@ -1757,7 +1762,9 @@
                     "id": "XX-XXX-22222222",
                     "name": "Beta Investment Company Ltd"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 4672000,
                     "currency": "USD"
@@ -1770,7 +1777,9 @@
                     "id": "XX-XXX-33333333",
                     "name": "Gamma Finance Corporation"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 668000,
                     "currency": "USD"
@@ -1783,7 +1792,9 @@
                     "id": "XX-XXX-44444444",
                     "name": "Delta Investments"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 668000,
                     "currency": "USD"
@@ -1796,7 +1807,9 @@
                     "id": "XX-XXX-55555555",
                     "name": "Epsilon"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 1870000,
                     "currency": "USD"
@@ -1809,7 +1822,9 @@
                     "id": "XX-XXX-66666666",
                     "name": "Zeta Joint Investments"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 2536000,
                     "currency": "USD"
@@ -1822,7 +1837,9 @@
                     "id": "XX-XXX-77777777",
                     "name": "Eta Fund"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 1308000,
                     "currency": "USD"
@@ -1835,7 +1852,9 @@
                     "id": "XX-XXX-88888888",
                     "name": "Theta Cable"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 801999.9999999999,
                     "currency": "USD"
@@ -1848,7 +1867,9 @@
                     "id": "XX-XXX-99999999",
                     "name": "Iota Telecoms"
                   },
-                  "financeCategory": "equity",
+                  "assetClass": [
+                    "equity"
+                  ],
                   "value": {
                     "amount": 801999.9999999999,
                     "currency": "USD"
@@ -4405,7 +4426,10 @@
                   "id": "XX-FI-22222222",
                   "name": "Big Bank Corp"
                 },
-                "financeCategory": "seniorDebt",
+                "assetClass": [
+                  "debt"
+                ],
+                "repaymentPriority": "senior",
                 "value": {
                   "amount": 41000000,
                   "currency": "USD"
@@ -4421,7 +4445,7 @@
                 },
                 "stepInRights": true,
                 "exchangeRateGuarantee": false,
-                "repaymentFrequency": 30.4
+                "paymentFrequency": 30.4
               },
               {
                 "id": "2",
@@ -4430,7 +4454,9 @@
                   "id": "XX-XXX-11111111",
                   "name": "Alpha Holdings Ltd"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 6674000,
                   "currency": "USD"
@@ -4443,7 +4469,9 @@
                   "id": "XX-XXX-22222222",
                   "name": "Beta Investment Company Ltd"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 4672000,
                   "currency": "USD"
@@ -4456,7 +4484,9 @@
                   "id": "XX-XXX-33333333",
                   "name": "Gamma Finance Corporation"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 668000,
                   "currency": "USD"
@@ -4469,7 +4499,9 @@
                   "id": "XX-XXX-44444444",
                   "name": "Delta Investments"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 668000,
                   "currency": "USD"
@@ -4482,7 +4514,9 @@
                   "id": "XX-XXX-55555555",
                   "name": "Epsilon"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 1870000,
                   "currency": "USD"
@@ -4495,7 +4529,9 @@
                   "id": "XX-XXX-66666666",
                   "name": "Zeta Joint Investments"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 2536000,
                   "currency": "USD"
@@ -4508,7 +4544,9 @@
                   "id": "XX-XXX-77777777",
                   "name": "Eta Fund"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 1308000,
                   "currency": "USD"
@@ -4521,7 +4559,9 @@
                   "id": "XX-XXX-88888888",
                   "name": "Theta Cable"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 801999.9999999999,
                   "currency": "USD"
@@ -4534,7 +4574,9 @@
                   "id": "XX-XXX-99999999",
                   "name": "Iota Telecoms"
                 },
-                "financeCategory": "equity",
+                "assetClass": [
+                  "equity"
+                ],
                 "value": {
                   "amount": 801999.9999999999,
                   "currency": "USD"
@@ -13142,14 +13184,28 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "seniorDebt"
+                    "value": [
+                      "debt"
+                    ]
+                  }
+                ],
+                "repaymentPriority": [
+                  {
+                    "releaseID": "5.1.1",
+                    "releaseDate": "2017-01-25T00:00:00-06:00",
+                    "releaseTag": [
+                      "contract"
+                    ],
+                    "value": [
+                      "senior"
+                    ]
                   }
                 ],
                 "value": {
@@ -13248,7 +13304,7 @@
                     "value": false
                   }
                 ],
-                "repaymentFrequency": [
+                "paymentFrequency": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
@@ -13293,14 +13349,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13360,14 +13418,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13427,14 +13487,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13494,14 +13556,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13561,14 +13625,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13628,14 +13694,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13695,14 +13763,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13762,14 +13832,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {
@@ -13829,14 +13901,16 @@
                     }
                   ]
                 },
-                "financeCategory": [
+                "assetClass": [
                   {
                     "releaseID": "5.1.1",
                     "releaseDate": "2017-01-25T00:00:00-06:00",
                     "releaseTag": [
                       "contract"
                     ],
-                    "value": "equity"
+                    "value": [
+                      "equity"
+                    ]
                   }
                 ],
                 "value": {

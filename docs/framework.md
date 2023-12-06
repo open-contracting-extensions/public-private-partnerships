@@ -1387,7 +1387,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```{jsonschema} _static/patched/release-schema.json
-:include: contracts/0/finance/0/financeType,contracts/0/finance/0/financeCategory
+:include: contracts/0/finance/0/financingPartyType,contracts/0/finance/0/assetClass,contracts/0/finance/0/type,contracts/0/finance/0/repaymentPriority
 :collapse:
 :nocrossref:
 ```
@@ -1396,7 +1396,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 
 ```{jsoninclude} examples/full.json
 :jsonpointer: /releases/4/contracts/0/finance/0
-:include_only: financeType, financeCategory
+:include_only: financingPartyType, assetClass, type, repaymentPriority
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1404,7 +1404,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 ```{jsoninclude-flat} examples/full.json
 :class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0
-:include_only: financeType, financeCategory
+:include_only: financingPartyType, assetClass, type, repaymentPriority
 :ignore_path: /releases/4/
 ```
 
@@ -1510,13 +1510,13 @@ Structured information and supporting details about the forecast IRR of the PPP 
 
 #### VI.1.1. Structured information on guarantees
 
-Structured information about financial guarantees can be provided in the contract `finance` block, with a `financeCategory` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented.
+Structured information about financial guarantees can be provided in the contract `finance` block, with a `type` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```{jsonschema} _static/patched/release-schema.json
 :include: contracts/0/finance
-:collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
+:collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/paymentFrequency
 :nocrossref:
 ```
 

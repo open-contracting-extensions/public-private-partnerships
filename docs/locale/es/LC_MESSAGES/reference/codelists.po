@@ -296,8 +296,8 @@ msgstr ""
 "contracting.org/es/extensions/tariffs/master/)."
 
 #: ../../docs/reference/codelists.md:69
-msgid "financeCategory"
-msgstr "financeCategory"
+msgid "financingArrangementType"
+msgstr "financingArrangementType"
 
 #: ../../docs/reference/codelists.md:77
 msgid ""
@@ -310,8 +310,8 @@ msgstr ""
 "contracting.org/es/extensions/finance/master/)."
 
 #: ../../docs/reference/codelists.md:79
-msgid "financeType"
-msgstr "financeType"
+msgid "financingPartyType"
+msgstr "financingPartyType"
 
 #: ../../docs/reference/codelists.md:87
 msgid ""
