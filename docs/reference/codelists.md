@@ -46,6 +46,15 @@ OCDS for PPPs modifies some codelists from OCDS and reuses codelists from extens
 
 ### Closed codelists
 
+#### assetClass
+
+```{csv-table-no-translate}
+:header-rows: 1
+:file: ../_static/patched/codelists/assetClass.csv
+```
+
+For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
 #### bidStatus
 
 ```{csv-table-no-translate}
@@ -64,20 +73,38 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 
 For additional guidance on using this codelist, refer to the [Charges extension documentation](https://extensions.open-contracting.org/en/extensions/charges/) and the [Tariffs extension documentation](https://extensions.open-contracting.org/en/extensions/tariffs/master/).
 
-#### financeCategory
+#### debtRepaymentPriority
 
 ```{csv-table-no-translate}
 :header-rows: 1
-:file: ../_static/patched/codelists/financeCategory.csv
+:file: ../_static/patched/codelists/debtRepaymentPriority.csv
 ```
 
-For additional guidance on using this codelist, refer to the [Financing extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
 
 #### financeType
 
 ```{csv-table-no-translate}
 :header-rows: 1
 :file: ../_static/patched/codelists/financeType.csv
+```
+
+For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
+#### financingArrangementType
+
+```{csv-table-no-translate}
+:header-rows: 1
+:file: ../_static/patched/codelists/financingArrangementType.csv
+```
+
+For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
+
+#### financingPartyType
+
+```{csv-table-no-translate}
+:header-rows: 1
+:file: ../_static/patched/codelists/financingPartyType.csv
 ```
 
 For additional guidance on using this codelist, refer to the [Finance extension documentation](https://extensions.open-contracting.org/en/extensions/finance/master/).
@@ -90,6 +117,15 @@ For additional guidance on using this codelist, refer to the [Finance extension 
 ```
 
 For additional guidance on using this codelist, refer to the [Location extension documentation](https://extensions.open-contracting.org/en/extensions/location/).
+
+#### language
+
+```{csv-table-no-translate}
+:header-rows: 1
+:file: ../_static/patched/codelists/language.csv
+```
+
+For additional guidance on using this codelist, refer to the [Document details extension documentation](https://extensions.open-contracting.org/en/extensions/documentation_details/master/).
 
 #### riskAllocation
 
