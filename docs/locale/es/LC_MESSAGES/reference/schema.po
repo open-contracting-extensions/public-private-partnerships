@@ -2,60 +2,43 @@
 # Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Ben Webb <ben.webb@opendataservices.coop>, 2017
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 16:41-0400\n"
-"PO-Revision-Date: 2017-05-10 17:03+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/reference/schema.md:1
 msgid "Full schema reference"
 msgstr "Referencia completa del esquema"
 
 #: ../../docs/reference/schema.md:3
-msgid ""
-"The table below contains all possible fields provided by the [OCDS"
-" for PPPs schema](../_static/patched/release-schema.json)"
+msgid "The table below contains all possible fields provided by the [OCDS for PPPs schema](../_static/patched/release-schema.json)"
 msgstr ""
-"La siguiente tabla contiene todos los posibles campos proporcionados por el "
-"[esquema de OCDS para APPs](../_static/patched/release-"
-"schema.json)"
+"La siguiente tabla contiene todos los posibles campos proporcionados por el ["
+"esquema de OCDS para APPs](../_static/patched/release-schema.json)"
 
 #: ../../docs/reference/schema.md:5
 msgid "Browsing the schema"
 msgstr "Navegando el esquema"
 
-#: ../../docs/reference/schema.md:1
-msgid ""
-"This page presents the release schema as a table. You can also download the "
-"canonical version of the release schema as [JSON Schema"
-"](../_static/patched/release-schema.json), download it as a [CSV "
-"spreadsheet](https://toucan.open-contracting.org/mapping-"
-"sheet/?source=https://standard.open-"
-"contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json), or"
-" view it in an [interactive browser](browser)."
+#: ../../docs/reference/schema.md:8
+msgid "This page presents the release schema as a table. You can also download the canonical version of the release schema as [JSON Schema](../_static/patched/release-schema.json), download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json), or view it in an [interactive browser](browser)."
 msgstr ""
 "Esta página presenta el esquema de entrega como una tabla. También puede "
-"descargar la versión canónica del esquema de entrega como [JSON "
-"Schema](../_static/patched/release-schema.json), como [CSV](https://toucan"
-".open-contracting.org/mapping-sheet/?source=https://standard.open-"
-"contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json), o "
-"visualizarlos en un [explorador interactivo](browser)."
+"descargar la versión canónica del esquema de entrega como [JSON Schema](../"
+"_static/patched/release-schema.json), como [CSV](https://toucan.open-"
+"contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/"
+"profiles/ppp/1.0/en/_static/patched/release-schema.json), o visualizarlos en "
+"un [explorador interactivo](browser)."
 
 #: ../../sphinxcontrib-jsonschema:1
 msgid "Title"

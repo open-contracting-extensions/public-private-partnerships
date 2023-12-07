@@ -2,59 +2,41 @@
 # Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# James McKinney, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 16:41-0400\n"
-"PO-Revision-Date: 2019-10-25 17:35+0000\n"
-"Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/reference/browser.md:1
 msgid "Schema browser"
 msgstr "Navegador de esquema"
 
 #: ../../docs/reference/browser.md:3
-msgid ""
-"The patched OCDS for PPPs schema can be explored using the browser below."
+msgid "The patched OCDS for PPPs schema can be explored using the browser below."
 msgstr ""
-"El esquema patcheado OCDS para APPs puede explorarse utilizando el navegador"
-" a continuación."
+"El esquema patcheado OCDS para APPs puede explorarse utilizando el navegador "
+"a continuación."
 
 #: ../../docs/reference/browser.md:5
-msgid ""
-"For this version of OCDS for PPPs, the canonical URL of the release schema "
-"is: <https://standard.open-"
-"contracting.org/profiles/ppp/schema/1__0__0__beta4/release-schema.json>. "
-"Using the canonical URL guarantees that your software, documentation or "
-"other resources will always refer to the specific version of the schema with"
-" which they were authored and tested."
+msgid "For this version of OCDS for PPPs, the canonical URL of the release schema is: <https://standard.open-contracting.org/profiles/ppp/schema/1__0__0__beta4/release-schema.json>. Using the canonical URL guarantees that your software, documentation or other resources will always refer to the specific version of the schema with which they were authored and tested."
 msgstr ""
 "Para esta versión de OCDS para PPP, la URL canónica del esquema de entrega "
-"es: <https://standard.open-"
-"contracting.org/profiles/ppp/schema/1__0__0__beta4/release-schema.json>. El "
-"uso de la URL canónica garantiza que su software, documentación u otros "
-"recursos siempre se referirán a la versión específica del esquema con el que"
-" fueron creados y probados."
+"es: <https://standard.open-contracting.org/profiles/ppp/schema/"
+"1__0__0__beta4/release-schema.json>. El uso de la URL canónica garantiza que "
+"su software, documentación u otros recursos siempre se referirán a la "
+"versión específica del esquema con el que fueron creados y probados."
 
 #: ../../docs/reference/browser.md:7
-msgid ""
-"Click on schema elements to expand the tree, or use the '+' icon to expand "
-"all elements. Use { } to view the underlying schema for any section. "
-"Required fields are indicated in **bold**."
+msgid "Click on schema elements to expand the tree, or use the '+' icon to expand all elements. Use { } to view the underlying schema for any section. Required fields are indicated in **bold**."
 msgstr ""
 "Haga click en los elementos del esquema para expandir el árbol, o usa el "
 "ícono de '+' para expandir todos los elementos. Usa { } para ver el esquema "
@@ -65,20 +47,12 @@ msgstr ""
 msgid "Browsing the schema"
 msgstr "Navegando el esquema"
 
-#: ../../docs/reference/browser.md:1
-msgid ""
-"This page presents the release schema in an interactive browser. You can "
-"also download the canonical version of the release schema as [JSON"
-" Schema](../_static/patched/release-schema.json), download it as a [CSV "
-"spreadsheet](https://toucan.open-contracting.org/mapping-"
-"sheet/?source=https://standard.open-"
-"contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or "
-"view it as a [table](schema)."
+#: ../../docs/reference/browser.md:12
+msgid "This page presents the release schema in an interactive browser. You can also download the canonical version of the release schema as [JSON Schema](../_static/patched/release-schema.json), download it as a [CSV spreadsheet](https://toucan.open-contracting.org/mapping-sheet/?source=https://standard.open-contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) or view it as a [table](schema)."
 msgstr ""
 "Esta página presenta el esquema de entrega en un navegador interactivo. "
-"También puede descargar la versión canónica del esquema de entrega como "
-"[JSON Schema](../_static/patched/release-schema.json), "
-"[CSV](https://toucan.open-contracting.org/mapping-"
-"sheet/?source=https://standard.open-"
-"contracting.org/profiles/ppp/1.0/en/_static/patched/release-schema.json) o "
-"visualizarlo como una [tabla](schema)."
+"También puede descargar la versión canónica del esquema de entrega como ["
+"JSON Schema](../_static/patched/release-schema.json), [CSV](https://toucan."
+"open-contracting.org/mapping-sheet/?source=https://standard.open-contracting."
+"org/profiles/ppp/1.0/en/_static/patched/release-schema.json) o visualizarlo "
+"como una [tabla](schema)."
