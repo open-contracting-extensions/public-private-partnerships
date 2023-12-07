@@ -459,16 +459,3 @@ msgstr ""
 #: ../../docs/reference/codelists.md:204
 msgid "riskCategory"
 msgstr "riskCategory"
-
-#~ msgid ""
-#~ "For additional guidance on using this"
-#~ " codelist, refer to the [Financing "
-#~ "extension documentation](https://extensions.open-"
-#~ "contracting.org/en/extensions/finance/master/)."
-#~ msgstr ""
-#~ "Para guía adicional al utilizar esta "
-#~ "lista de código, vea la [documentación"
-#~ " de extensión de "
-#~ "Financiamiento](https://extensions.open-"
-#~ "contracting.org/es/extensions/finance/master/)."
-
