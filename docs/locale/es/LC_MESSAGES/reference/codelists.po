@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../docs/reference/codelists.md:49
 msgid "assetClass"
-msgstr ""
+msgstr "assetClass"
 
 #: ../../docs/reference/codelists.md:56
 #: ../../docs/reference/codelists.md:83
@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../../docs/reference/codelists.md:76
 msgid "debtRepaymentPriority"
-msgstr ""
+msgstr "debtRepaymentPriority"
 
 #: ../../docs/reference/codelists.md:85
 msgid "financingArrangementType"
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../docs/reference/codelists.md:112
 msgid "language"
-msgstr ""
+msgstr "language"
 
 #: ../../docs/reference/codelists.md:119
 msgid "For additional guidance on using this codelist, refer to the [Document details extension documentation](https://extensions.open-contracting.org/en/extensions/documentation_details/master/)."
