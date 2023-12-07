@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [1.0.0.beta4] - 2023-12-06
 
 ### Non-normative changes
 
