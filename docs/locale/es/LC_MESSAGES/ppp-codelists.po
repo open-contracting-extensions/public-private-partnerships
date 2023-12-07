@@ -914,9 +914,8 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/debtRepaymentPriority.csv:1
 #: schema/profile/codelists/debtRepaymentPriority.csv:1
-#, fuzzy
 msgid "Senior"
-msgstr "Usuario"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/debtRepaymentPriority.csv:1
@@ -927,9 +926,8 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/debtRepaymentPriority.csv:2
 #: schema/profile/codelists/debtRepaymentPriority.csv:2
-#, fuzzy
 msgid "Subordinated"
-msgstr "Terminado"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/debtRepaymentPriority.csv:2
@@ -1771,9 +1769,8 @@ msgstr "Información sobre la constitución del comité de evaluación"
 #. Title
 #: schema/patched/codelists/documentType.csv:53
 #: schema/profile/codelists/+documentType.csv:12
-#, fuzzy
 msgid "Request for qualification"
-msgstr "Solicitud de calificaciónes"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/documentType.csv:53
@@ -2218,9 +2215,8 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/financingArrangementType.csv:4
 #: schema/profile/codelists/financingArrangementType.csv:4
-#, fuzzy
 msgid "Listed shares"
-msgstr "Empresas preseleccionadas"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/financingArrangementType.csv:4
@@ -2253,11 +2249,8 @@ msgstr "Subvención "
 #. Description
 #: schema/patched/codelists/financingArrangementType.csv:6
 #: schema/profile/codelists/financingArrangementType.csv:6
-#, fuzzy
 msgid "Money provided without expectation of repayment."
 msgstr ""
-"Una subvención es el financiamiento proporcionado sin la expectativa de "
-"pago."
 
 #. Title
 #: schema/patched/codelists/financingArrangementType.csv:7
@@ -2346,18 +2339,14 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/financingPartyType.csv:5
 #: schema/profile/codelists/financingPartyType.csv:5
-#, fuzzy
 msgid "Vendor"
-msgstr "Licitación"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/financingPartyType.csv:5
 #: schema/profile/codelists/financingPartyType.csv:5
-#, fuzzy
 msgid "This finance was provided through a line of credit provided by a vendor."
 msgstr ""
-"Este financiamiento fue proporcionado a través de una línea de crédito "
-"dada por un proveedor."
 
 #. Title
 #: schema/patched/codelists/financingPartyType.csv:6
@@ -3042,20 +3031,16 @@ msgstr ""
 #. Title
 #: schema/patched/codelists/milestoneCode.csv:9
 #: schema/profile/codelists/milestoneCode.csv:9
-#, fuzzy
 msgid "Submission of draft final bid"
-msgstr "Presentación del borrador final de licitación"
+msgstr ""
 
 #. Description
 #: schema/patched/codelists/milestoneCode.csv:9
 #: schema/profile/codelists/milestoneCode.csv:9
-#, fuzzy
 msgid ""
 "For competitive dialogue processes, the deadline for submission of draft "
 "final bids"
 msgstr ""
-"Para los procesos de diálogo competitivo, el plazo para la presentación "
-"de borradores finales de licitación"
 
 #. Title
 #: schema/patched/codelists/milestoneStatus.csv:1
@@ -3229,16 +3214,11 @@ msgstr "Contratación"
 #. Description
 #: schema/patched/codelists/milestoneType.csv:9
 #: schema/profile/codelists/+milestoneType.csv:1
-#, fuzzy
 msgid ""
 "Events taking place during the procurement which are not captured by "
 "fields in core OCDS, such as additional enquiry periods or draft bid "
 "submissions in a competitive dialogue process"
 msgstr ""
-"Los acontecimientos que se producen durante la contratación y que no son "
-"capturados por los campos del OCDS básico, tales como periodos de "
-"consulta adicionales o  presentación de borradores de ofertas en un "
-"proceso de diálogo competitivo"
 
 #. Title
 #: schema/patched/codelists/milestoneType.csv:10
@@ -3901,13 +3881,10 @@ msgstr "Indefinido"
 #. Description
 #: schema/patched/codelists/riskAllocation.csv:3
 #: schema/profile/codelists/riskAllocation.csv:3
-#, fuzzy
 msgid ""
 "The risk is not clearly assigned to a specific party to the contract. "
 "Further details can be provided in the notes field."
 msgstr ""
-"El riesgo no está claramente asignado a una parte interesada específica. "
-"Los detalles pueden ser proporcionados en el campo de notas."
 
 #. Title
 #: schema/patched/codelists/riskCategory.csv:1

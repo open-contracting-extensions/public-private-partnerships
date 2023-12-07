@@ -42,6 +42,13 @@ msgid ""
 " motivations, processes and legal frameworks for disclosure of "
 "information in Public Private Partnership projects."
 msgstr ""
+"El [Marco del Banco Mundial para la Divulgación de Proyectos de "
+"Asociación Público "
+"Privada](https://documents.worldbank.org/en/publication/documents-"
+"reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-"
+"public-private-partnership-projects) ofrece una visión general de las motivaciones, procesos y "
+"marcos legales para la divulgación de información en proyectos de "
+"Asociación Público-Privada."
 
 #: ../../docs/framework.md:8
 msgid ""
@@ -1364,16 +1371,12 @@ msgid "II.1. First stage"
 msgstr "II.1. Primera etapa"
 
 #: ../../docs/framework.md:727
-#, fuzzy
 msgid ""
 "Use the `tender` section to describe the first stage of the contracting "
 "process, whether it involves the submission of bids (as in a single-stage"
 " process), or requests to participate (as in a twi-stage process with "
 "pre-qualification)."
 msgstr ""
-"Utilice la sección `tender` para describir la primera fase del proceso de"
-" contratación, ya sea la presentación de ofertas o de solicitudes de "
-"participación."
 
 #: ../../docs/framework.md:729
 msgid ""

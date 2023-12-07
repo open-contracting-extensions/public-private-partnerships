@@ -50,18 +50,12 @@ msgstr ""
 "para un proyecto de APP."
 
 #: ../../docs/spreadsheet.md:7
-#, fuzzy
 msgid ""
 "The template is available to [view via Google "
 "Sheets](https://docs.google.com/spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/view)"
 " or [you can make a copy to "
 "edit](https://docs.google.com/spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/copy)."
 msgstr ""
-"La plantilla está [disponible para ver a través de Hojas de cálculo de "
-"Google aquí](https://docs.google.com/spreadsheets/d/18fPWX7j393XaH-"
-"56COco1JoJbduqFqV__siWT3DsHnY/view) o [puede hacer su propia copia para "
-"editar](https://docs.google.com/spreadsheets/d/18fPWX7j393XaH-"
-"56COco1JoJbduqFqV__siWT3DsHnY/copy)."
 
 #: ../../docs/spreadsheet.md:13
 msgid ""

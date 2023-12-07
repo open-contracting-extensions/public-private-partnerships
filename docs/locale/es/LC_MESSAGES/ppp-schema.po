@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-06 21:00-0500\n"
+"POT-Creation-Date: 2023-12-06 20:37-0500\n"
 "PO-Revision-Date: 2017-05-10 17:01+0000\n"
 "Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language: es\n"
@@ -1530,13 +1530,10 @@ msgstr "Firmantes del contrato"
 
 #. /definitions/Contract/properties/signatories/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "The signatories to the contract. Each signatory should have a "
 "corresponding entry in the `parties` array."
 msgstr ""
-"Los firmantes del contrato. Cada firmante debe tener una entrada asociada"
-" en la sección de partes de OCDS."
 
 #. /definitions/Contract/properties/tariffs/title
 #. /definitions/Implementation/properties/tariffs/title
@@ -2005,9 +2002,8 @@ msgstr ""
 
 #. /definitions/Document/properties/accessDetailsURL/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Access details URL"
-msgstr "Detalles de acceso"
+msgstr ""
 
 #. /definitions/Document/properties/accessDetailsURL/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2222,11 +2218,8 @@ msgstr ""
 
 #. /definitions/Budget/properties/finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Information about financing arrangements for this contracting process."
 msgstr ""
-"Cualquier métrica del objetivo para el resultado de este proceso de "
-"contratación."
 
 #. /definitions/Transaction/title
 #: schema/patched/release-schema.json:1
@@ -2720,24 +2713,17 @@ msgstr "Detalles"
 
 #. /definitions/Organization/properties/shareholders/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Shareholdings"
-msgstr "Participación"
+msgstr ""
 
 #. /definitions/Organization/properties/shareholders/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "Shareholdings in the organization: used to provide company ownership "
 "information for firms, primarily in the case of large and complex "
 "contracts, like public private partnerships, that require disclosure of "
 "this information by bidders or suppliers."
 msgstr ""
-"Una lista de los accionistas de la organización: se utiliza para "
-"proporcionar información sobre la propiedad de la empresa para las "
-"sociedades, principalmente en el caso de contratos grandes y complejos, o"
-" Sociedades Públicas Privadas, que requieren la divulgación de esta "
-"información para ciertos licitadores o adjudicatarios."
 
 #. /definitions/Item/title
 #: schema/patched/release-schema.json:1
@@ -3736,9 +3722,8 @@ msgstr ""
 
 #. /definitions/Finance/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Financing arrangement"
-msgstr "Acuerdo de financiamiento"
+msgstr ""
 
 #. /definitions/Finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3757,18 +3742,12 @@ msgstr "Título breve de este acuerdo de financiamiento."
 
 #. /definitions/Finance/properties/description/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "A short description of this financing arrangement. This may include "
 "details of service fees, commitment fees, lender rights, step in "
 "arrangements, exchange rate guarantees, and for syndicated loans, details"
 " of syndication and any members of the syndicate."
 msgstr ""
-"Una breve descripción de este acuerdo de financiamiento. Esto puede "
-"incluir detalles de los derechos del prestamista, los arreglos de "
-"intervención, las garantías de tipo de cambio, y para los préstamos "
-"indicados, los detalles de la sindicación y los bancos que son partes "
-"conocidas del préstamo."
 
 #. /definitions/Finance/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3777,21 +3756,18 @@ msgstr "El valor total de este financiamiento."
 
 #. /definitions/Finance/properties/financingParty/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Financing organization"
-msgstr "Organización receptora"
+msgstr ""
 
 #. /definitions/Finance/properties/financingParty/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The organization providing this financing arrangement."
-msgstr "Las partes que proveen este arreglo financiero."
+msgstr ""
 
 #. /definitions/Finance/properties/financingPartyType/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Financing organization type"
-msgstr "Organización receptora"
+msgstr ""
 
 #. /definitions/Finance/properties/financingPartyType/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3802,9 +3778,8 @@ msgstr ""
 
 #. /definitions/Finance/properties/source/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Funding source"
-msgstr "Fuente del Presupuesto"
+msgstr ""
 
 #. /definitions/Finance/properties/source/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3882,15 +3857,13 @@ msgstr "Periodo de financiamiento"
 
 #. /definitions/Finance/properties/period/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The period covered by this financing arrangement. Also called maturity."
-msgstr "Las partes que proveen este arreglo financiero."
+msgstr ""
 
 #. /definitions/Finance/properties/paymentPeriod/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Payment period"
-msgstr "Periodo de licitación"
+msgstr ""
 
 #. /definitions/Finance/properties/paymentPeriod/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3901,9 +3874,8 @@ msgstr ""
 
 #. /definitions/Finance/properties/paymentFrequency/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Payment frequency (days)"
-msgstr "Frecuencia de pagos (días)"
+msgstr ""
 
 #. /definitions/Finance/properties/paymentFrequency/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3999,15 +3971,13 @@ msgstr ""
 
 #. /definitions/Finance/properties/relatedLots/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Related lot(s)"
-msgstr "Lote Relacionado"
+msgstr ""
 
 #. /definitions/Finance/properties/relatedLots/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The identifiers of the lots to which this financing arrangement relates."
-msgstr "Un identificador para este acuerdo de financiamiento"
+msgstr ""
 
 #. /definitions/Location/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4281,18 +4251,12 @@ msgstr ""
 
 #. /definitions/Observation/properties/unit/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "The identifier from the codelist referenced in the scheme field. For "
 "example, with UNCEFACT, this is the value of the 'Common Code' column. "
 "From this identifier, applications can look-up the human readable name or"
 " symbol for this unit of measure."
 msgstr ""
-"El identificador de la lista de códigos se hace referencia en la "
-"propiedad de esquema. Por ejemplo, con UNCEFACT, este es el valor de la "
-"columna \"Common Code\". A partir de este identificador, las aplicaciones"
-" pueden buscar el nombre o símbolo legible para humanos  para esta unidad"
-" de medida."
 
 #. /definitions/Observation/properties/unit/properties/uri/description
 #. /definitions/Tariff/properties/unit/properties/uri/description
@@ -4415,9 +4379,8 @@ msgstr "Periodo de falla en el desempeño"
 
 #. /definitions/PerformanceFailure/properties/period/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The reporting period for the performance failures."
-msgstr "El período de reporte para estos incumplimentos."
+msgstr ""
 
 #. /definitions/PerformanceFailure/properties/category/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4426,9 +4389,8 @@ msgstr "Categoría de la falla en el desempeño"
 
 #. /definitions/PerformanceFailure/properties/category/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The category of the performance failures."
-msgstr "La categoría en la cual las fallas en el desempeño caen."
+msgstr ""
 
 #. /definitions/PerformanceFailure/properties/events/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4437,9 +4399,8 @@ msgstr "Número de eventos"
 
 #. /definitions/PerformanceFailure/properties/events/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The number of performance failures for this period and category."
-msgstr "El número de fallas en el desempeño para determinado periodo y categoría."
+msgstr ""
 
 #. /definitions/PerformanceFailure/properties/penaltyContracted/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4448,14 +4409,10 @@ msgstr "Penalización contractual"
 
 #. /definitions/PerformanceFailure/properties/penaltyContracted/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "A description of the penalty or abatement provided for in the contract "
 "for this period, category and number of performance failures."
 msgstr ""
-"Una descripción en texto libre de la penalización o reducción contemplada"
-" en el contrato para este periodo, categoría y número de fallas en el "
-"desempeño."
 
 #. /definitions/PerformanceFailure/properties/penaltyImposed/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4464,13 +4421,10 @@ msgstr "Penalización impuesta"
 
 #. /definitions/PerformanceFailure/properties/penaltyImposed/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "A description of the penalty or abatement imposed for this period, "
 "category and number of performance failures."
 msgstr ""
-"Una descripción en texto libre de la penalización o reducción impuesta "
-"para este periodo, categoría y número de fallas en el desempeño."
 
 #. /definitions/PerformanceFailure/properties/penaltyPaid/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4479,13 +4433,10 @@ msgstr "Penalización pagada"
 
 #. /definitions/PerformanceFailure/properties/penaltyPaid/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "Whether the penalty imposed for this period, category and number of "
 "performance failures has been paid."
 msgstr ""
-"Un campo sí/no que indica si se ha pagado la multa impuesta por este "
-"período, categoría y número de incumplimientos."
 
 #. /definitions/Project/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4635,15 +4586,13 @@ msgstr "Descripción de riesgo"
 
 #. /definitions/Risk/properties/description/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The description of the risk."
-msgstr "Una descripción para este riesgo."
+msgstr ""
 
 #. /definitions/Risk/properties/allocation/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The party to the contract that retains the risk."
-msgstr "La parte que absorbe el riesgo."
+msgstr ""
 
 #. /definitions/Risk/properties/notes/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4652,13 +4601,10 @@ msgstr "Notas de Riesgo"
 
 #. /definitions/Risk/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "Additional notes on the risk, for example the rationale for the "
 "allocation."
 msgstr ""
-"Notas adicionales sobre el riesgo, por ejemplo la justificación para la "
-"asignación."
 
 #. /definitions/Shareholder/title
 #. /definitions/Shareholder/properties/shareholding/title
@@ -4668,15 +4614,13 @@ msgstr "Participación"
 
 #. /definitions/Shareholder/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "A shareholding in an organization."
-msgstr "Un accionista en una organización."
+msgstr ""
 
 #. /definitions/Shareholder/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "A local identifier for this shareholding, unique within this array."
-msgstr "Un identificador local para esta relación, único dentro de esta lista."
+msgstr ""
 
 #. /definitions/Shareholder/properties/shareholder/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4685,63 +4629,46 @@ msgstr "Accionista"
 
 #. /definitions/Shareholder/properties/shareholder/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The organization holding the share."
-msgstr "El identificador de la organización en el esquema seleccionado."
+msgstr ""
 
 #. /definitions/Shareholder/properties/shareholding/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "The proportion of the organization's shares held by the shareholder, "
 "expressed as a decimal between 0 and 1."
 msgstr ""
-"El porcentaje de acciones que posee el accionista, expresado como un "
-"valor decimal entre 0 y 1."
 
 #. /definitions/Shareholder/properties/votingRights/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Voting rights"
-msgstr "Derechos de intervención"
+msgstr ""
 
 #. /definitions/Shareholder/properties/votingRights/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "The type of voting rights associated with the shareholder's shares."
 msgstr ""
-"El tipo de derechos de voto asociados a las acciones que posee el "
-"accionista."
 
 #. /definitions/Shareholder/properties/votingRightsDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid "Voting rights details"
-msgstr "Detalles de los derechos de voto de los accionistas"
+msgstr ""
 
 #. /definitions/Shareholder/properties/votingRightsDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "Detailed information about the voting rights associated with the "
 "shareholder's shares: for example, when the shareholder voting rights are"
 " restricted, additional or enhanced."
 msgstr ""
-"Información detallada sobre los derechos de voto del accionista. Este "
-"campo debe completarse cuando los derechos de voto de los accionistas son"
-" restringidos, adicionales o mejorados."
 
 #. /definitions/Shareholder/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-#, fuzzy
 msgid ""
 "Additional notes on the shareholding or shareholder: for example, details"
 " on any caps on equity transfer, or lock-in arrangements, applicable to "
 "the shareholder."
 msgstr ""
-"Notas adicionales sobre este accionista. Este campo debe usarse para "
-"proporcionar detalles sobre los límites máximos en la transferencia de "
-"capital, o acuerdos de bloqueo, aplicables a este accionista."
 
 #. /definitions/Tariff/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1

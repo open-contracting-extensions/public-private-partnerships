@@ -347,15 +347,11 @@ msgid "language"
 msgstr ""
 
 #: ../../docs/reference/codelists.md:119
-#, fuzzy
 msgid ""
 "For additional guidance on using this codelist, refer to the [Document "
 "details extension documentation](https://extensions.open-"
 "contracting.org/en/extensions/documentation_details/master/)."
 msgstr ""
-"Para guía adicional al utilizar esta lista de código, vea la "
-"[documentación de la extensión de Ubicación](https://extensions.open-"
-"contracting.org/es/extensions/location/)."
 
 #: ../../docs/reference/codelists.md:121
 msgid "riskAllocation"
