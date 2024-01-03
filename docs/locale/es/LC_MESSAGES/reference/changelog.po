@@ -33,7 +33,7 @@ msgstr "Cambios no-normativos"
 
 #: ../../docs/reference/changelog.md:7
 msgid "Make explicit the references to the glossaries of the APMG Public-Private Partnerships Certification Program Guide and Public-Private Partnership Legal Resource Center (PPPLRC)."
-msgstr ""
+msgstr "Hace explícitas las referencias a los glosarios de la Guía del Programa de Certificación de Alianzas Público-Privadas de APMG y del Centro de Recursos Legales de Alianzas Público-Privadas (PPPLRC)."
 
 #: ../../docs/reference/changelog.md:9
 #: ../../docs/reference/changelog.md:33
@@ -42,7 +42,7 @@ msgstr "Extensiones"
 
 #: ../../docs/reference/changelog.md:11
 msgid "See the changelogs for the [included extensions](../governance), in particular the [Finance extension](https://extensions.open-contracting.org/en/extensions/finance/master/#changelog)."
-msgstr ""
+msgstr "Consulta los registros de cambios para las [extensiones incluidas](../governance), en particular la [extensión de Finanzas](https://extensions.open-contracting.org/es/extensions/finance/master/#changelog)."
 
 #: ../../docs/reference/changelog.md:13
 msgid "[1.0.0.beta3] - 2021-06-10"
