@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../docs/spreadsheet.md:7
 msgid "The template is available to [view via Google Sheets](https://docs.google.com/spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/view) or [you can make a copy to edit](https://docs.google.com/spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/copy)."
-msgstr ""
+msgstr "La plantilla está disponible para [ver a través de Google Sheets](https://docs.google.com/spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/view) o [puede hacer una copia para editar](https://docs.google.com /spreadsheets/d/1f9Icp13Ak4UmaqsMUpT_HmmBTtkzZCgpefni0Pfmrn0/copy)."
 
 #: ../../docs/spreadsheet.md:13
 msgid "Unlike the [framework reference](framework.md) which reflects the ordering of properties required by the World Bank PPP Disclosure Framework, the spreadsheet template is structured around the stages of a **contracting process**."
