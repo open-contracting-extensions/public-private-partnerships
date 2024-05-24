@@ -19,7 +19,7 @@ The [OCDS releases and records model](https://standard.open-contracting.org/late
 ```{image} _static/images/structured_shareholding.png
 :align: right
 :width: 400
-:target: spreadsheet.md
+:target: ../spreadsheet/
 ```
 
 Many elements of the PPP framework call for **structured data**. For example:
