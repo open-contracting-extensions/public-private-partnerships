@@ -11,6 +11,7 @@ OCDS for PPPs was developed between May 2016 and May 2017 through a partnership 
 Funding for this work was provided by the [Public-Private Infrastructure Advisory Facility (PPIAF) Multi-Donor Trust Fund](https://ppiaf.org/).
 
 ```{image} _static/images/ppiaf_logo_rgb_final.png
+:alt: Public-Private Infrastructure Advisory Facility
 ```
 
 You can read more about OCDS for PPPs and other tools for transparency and accountability in PPPs on the [World Bank Governance for Development blog](https://blogs.worldbank.org/governance/public-private-partnerships-transparency-and-accountability-where-my-data) and the [Open Contracting Partnership blog](https://www.open-contracting.org/2016/09/08/extending-open-contracting-data-standard-ppps/).
