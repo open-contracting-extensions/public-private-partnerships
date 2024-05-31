@@ -266,7 +266,11 @@ msgstr "language"
 
 #: ../../docs/reference/codelists.md:119
 msgid "For additional guidance on using this codelist, refer to the [Document details extension documentation](https://extensions.open-contracting.org/en/extensions/documentation_details/master/)."
-msgstr "Para obtener orientación adicional sobre el uso de esta lista de códigos, consulta la [documentación de extensión de Detalles de documentos] (https://extensions.open-contracting.org/es/extensions/documentation_details/master/)."
+msgstr ""
+"Para obtener orientación adicional sobre el uso de esta lista de códigos, "
+"consulta la [documentación de extensión de Detalles de documentos] "
+"(https://extensions.open-contracting.org/es/extensions/documentation_details/"
+"master/)."
 
 #: ../../docs/reference/codelists.md:121
 msgid "riskAllocation"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"POT-Creation-Date: 2024-05-31 01:08-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,11 @@ msgstr ""
 "Infrastructure Advisory Facility (PPIAF) Multi-Donor Trust "
 "Fund](https://ppiaf.org/)."
 
-#: ../../docs/index.md:16
+#: ../../docs/index.md:13
+msgid "Public-Private Infrastructure Advisory Facility"
+msgstr "Fondo de Asesoría en Infraestructura Público-Privada"
+
+#: ../../docs/index.md:17
 msgid "You can read more about OCDS for PPPs and other tools for transparency and accountability in PPPs on the [World Bank Governance for Development blog](https://blogs.worldbank.org/governance/public-private-partnerships-transparency-and-accountability-where-my-data) and the [Open Contracting Partnership blog](https://www.open-contracting.org/2016/09/08/extending-open-contracting-data-standard-ppps/)."
 msgstr ""
 "Puede leer más acerca del OCDS para APPs y otras herramientas para la "
@@ -64,25 +68,25 @@ msgstr ""
 "Contrating Partnership](https://www.open-contracting.org/2016/09/08/"
 "extending-open-contracting-data-standard-ppps/)."
 
-#: ../../docs/index.md:18
+#: ../../docs/index.md:19
 msgid "For more information, contact [Lindsey Marchessault](mailto:lmarchessault@open-contracting.org)"
 msgstr ""
 "Para mayor información, comuníquese con [Lindsey "
 "Marchessault](mailto:lmarchessault@open-contracting.org)"
 
-#: ../../docs/index.md:20
+#: ../../docs/index.md:21
 msgid "Contents"
 msgstr "Contenidos"
 
-#: ../../docs/index.md:22
+#: ../../docs/index.md:23
 msgid "Contents:"
 msgstr "Contenido:"
 
-#: ../../docs/index.md:40
+#: ../../docs/index.md:41
 msgid "Credits"
 msgstr "Créditos"
 
-#: ../../docs/index.md:42
+#: ../../docs/index.md:43
 msgid "Developed by Open Data Services Co-operative for the World Bank and Open Contracting Partnership."
 msgstr ""
 "Desarrollado por Open Data Services Co-operative para el Banco Mundial y "
