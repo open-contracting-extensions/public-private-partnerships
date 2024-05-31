@@ -13,6 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import csv
 import json
 import os
 from glob import glob
@@ -21,6 +22,7 @@ from pathlib import Path
 import standard_theme
 from docutils.nodes import make_id
 from ocds_babel.translate import translate
+from ocdskit.mapping_sheet import mapping_sheet
 from sphinx.locale import get_translation
 
 # -- Project information -----------------------------------------------------
@@ -152,6 +154,14 @@ def setup(app):
         (glob(str(patched_dir / 'codelists' / '*.csv')), patched_build_dir / 'codelists', codelists_domain),
         (glob(str(profile_dir / 'codelists' / '*.csv')), profile_build_dir / 'codelists', codelists_domain),
     ], localedir, language, headers, version=standard_version)
+
+    with (patched_build_dir / 'release-schema.json').open() as f:
+        fieldnames, rows = mapping_sheet(json.load(f), infer_required=True)
+
+    with (patched_build_dir / 'release-schema.csv').open('w') as f:
+        writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
 
     # Copy the untranslated extension.json file.
     with (profile_dir / 'extension.json').open() as f:

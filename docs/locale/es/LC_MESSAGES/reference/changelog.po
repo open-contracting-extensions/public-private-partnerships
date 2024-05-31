@@ -21,8 +21,8 @@ msgid "Changelog"
 msgstr "Registro de cambios"
 
 #: ../../docs/reference/changelog.md:3
-msgid "[1.0.0.beta4] - Unreleased"
-msgstr "[1.0.0.beta4] - Unreleased"
+msgid "[1.0.0.beta4] - 2024-05-31"
+msgstr "[1.0.0.beta4] - 2024-05-31"
 
 #: ../../docs/reference/changelog.md:5
 #: ../../docs/reference/changelog.md:24
@@ -49,7 +49,7 @@ msgstr ""
 "Consulta los registros de cambios para las [extensiones "
 "incluidas](../governance), en particular la [extensión de "
 "Finanzas](https://extensions.open-contracting.org/es/extensions/finance/"
-"master/#changelog)."
+"master/#registro-de-cambios)."
 
 #: ../../docs/reference/changelog.md:13
 msgid "[1.0.0.beta3] - 2021-06-10"
