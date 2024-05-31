@@ -3,13 +3,13 @@
 ```{image} _static/images/disclosure-framework.png
 ```
 
-[The World Bank Framework for Disclosure in Public Private Partnership Projects](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects.
+The [World Bank Framework for Disclosure in Public Private Partnership Projects](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-public-private-partnership-projects) provides a comprehensive overview of motivations, processes and legal frameworks for disclosure of information in Public Private Partnership projects.
 
 This section provides a step-by-step reference resource on how all the requirements from the disclosure template in the framework can be captured as structured data and documents using OCDS for PPPs. Individual implementations of the framework may vary with respect to the elements of disclosure they prioritize.
 
 This section should be read in conjunction with the Disclosure Framework.
 
-The mapping for each requirement in the framework includes a guide to publication timing, indicating whether information should be **P**ublished, **R**epeated or **U**pdated at each stage of the contracting process. More information on the stages of the contracting process can be found in the [publication timing section](timing.md).
+The mapping for each requirement in the framework includes a guide to publication timing, indicating whether information should be published (**P**), repeated (**R**) or updated (**U**) at each stage of the contracting process. More information on the stages of the contracting process can be found in the [publication timing section](timing.md).
 
 ## I. Basic Project Information
 
@@ -89,7 +89,7 @@ The locations where a project is taking place can be specified using:
 * **A gazetteer entry**. For example, the GeoNames code of the administrative division where activity is taking place.
 * **A GeoJSON object**. Describing the boundary, or extent, of where activity will take place.
 
-There are a range of tools available to generate GeoJSON data, such as [http://geojson.io/](http://geojson.io)
+There are a range of tools available to generate GeoJSON data, such as [geojson.io](https://geojson.io).
 
 **Schema**: Information can be provided using the following OCDS fields.
 
@@ -394,7 +394,9 @@ This information can be provided as [Milestone](https://standard.open-contractin
 
 #### I.11.1. Contract milestones - Date of commercial close
 
-> In a financing, the point at which the commercial documentation has been executed but before conditions precedent have been satisfied or waived; before financial close. ([Source](https://pppknowledgelab.org/glossary#Commercial_Close))
+The Public-Private Partnership Legal Resource Center (PPPLRC)'s [glossary](https://ppp.worldbank.org/public-private-partnership/PPP_Online_Reference_Guide/Glossary) defines "commercial close" as:
+
+> In a financing, the point at which the commercial documentation has been executed but before conditions precedent have been satisfied or waived; before financial close.
 
 <div class="disclosure-timing">
 
@@ -409,7 +411,9 @@ This milestone should have a `type` of 'financing', a `code` of 'commercialClose
 
 #### I.11.2. Contract milestones - Date of financial close
 
-> In a financing, the point at which the documentation has been executed and conditions precedent have been satisfied or waived. Drawdowns become permissible after this point. ([Source](https://pppknowledgelab.org/glossary#Financial_Close))
+The Public-Private Partnership Legal Resource Center (PPPLRC)'s [glossary](https://ppp.worldbank.org/public-private-partnership/PPP_Online_Reference_Guide/Glossary) defines "financial close" as:
+
+> In a financing, the point at which the documentation has been executed and conditions precedent have been satisfied or waived. Drawdowns become permissible after this point.
 
 <div class="disclosure-timing">
 
@@ -458,7 +462,9 @@ The milestone should have a `type` of 'delivery', a `code` of 'developmentComple
 
 #### I.12.3. Implementation milestones - Date of commissioning
 
-> The testing and inspection of the completed works to verify that the works are ready for commercial operation. ([Source](https://pppknowledgelab.org/glossary#Commissioning))
+The Public-Private Partnership Legal Resource Center (PPPLRC)'s [glossary](https://ppp.worldbank.org/public-private-partnership/PPP_Online_Reference_Guide/Glossary) defines "commissioning" as:
+
+> The testing and inspection of the completed works to verify that the works are ready for commercial operation.
 
 <div class="disclosure-timing">
 
@@ -718,9 +724,11 @@ In OCDS, the `tender` section represents the invitation to participate (whether 
 
 ### II.1. First stage
 
-> The act of testing prospective bidders to determine whether they meet the pass/fail qualification criteria in advance of issuing the request for proposals. ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+Use the `tender` section to describe the first stage of the contracting process, whether it involves the submission of bids (as in a single-stage process), or requests to participate (as in a twi-stage process with pre-qualification).
 
-Use the `tender` section to describe the first stage of the contracting process, whether it involves the submission of bids, or requests to participate.
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines "pre-qualification" as:
+
+> The act of testing prospective bidders to determine whether they meet the pass/fail qualification criteria in advance of issuing the request for proposals.
 
 #### II.1.1. Dates - Submission period
 
@@ -846,9 +854,11 @@ Use the `tender` section to provide information on the eligibility criteria for 
 :ignore_path: /releases/1/
 ```
 
-#### II.1.6. Request for Qualification
+#### II.1.6. Request for Qualifications
 
-> The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase). ([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
+> The set of documents issued by the procuring authority that constitute the basis of the qualification and potentially the pre-selection of candidates (the short list). Qualified (or short-listed candidates) will then be invited to submit a proposal (or to enter into a new phase prior to bid submission, such as a dialogue phase or interactive phase).
 
 In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the Request for Proposal.
 
@@ -986,12 +996,13 @@ For each request to participate:
 
 ### II.3. Request for Proposal
 
+The APMG Public-Private Partnerships Certification Program Guide's [glossary](https://ppp-certification.com/ppp-certification-guide/glossary) defines it as:
+
 > The set of documents issued by the procuring authority that set out:
 >
 > * The basis or requirements for submitting the proposal (which documents and in which format and contents the bidder has to submit)
 > * The basis of the evaluation criteria  for selecting the preferred bidder or awardee
 > * The PPP contract that will be signed with the successful bidder and other annexed information such as forms, templates, complementary information for reference purposes, and so on.
-([Source](https://ppp-certification.com/ppp-certification-guide/glossary))
 
 In a single-stage procedure, the contents of the Request for Qualifications (RFQ) are embedded in the same set of documents.
 
@@ -1376,7 +1387,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```{jsonschema} _static/patched/release-schema.json
-:include: contracts/0/finance/0/financeType,contracts/0/finance/0/financeCategory
+:include: contracts/0/finance/0/financingPartyType,contracts/0/finance/0/assetClass,contracts/0/finance/0/type,contracts/0/finance/0/repaymentPriority
 :collapse:
 :nocrossref:
 ```
@@ -1385,7 +1396,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 
 ```{jsoninclude} examples/full.json
 :jsonpointer: /releases/4/contracts/0/finance/0
-:include_only: financeType, financeCategory
+:include_only: financingPartyType, assetClass, type, repaymentPriority
 ```
 
 **Flattened example** (showing top-level fields only)
@@ -1393,7 +1404,7 @@ Details of all debt financing should be provided in the `contract/finance` secti
 ```{jsoninclude-flat} examples/full.json
 :class: flattened-example
 :jsonpointer: /releases/4/contracts/0/finance/0
-:include_only: financeType, financeCategory
+:include_only: financingPartyType, assetClass, type, repaymentPriority
 :ignore_path: /releases/4/
 ```
 
@@ -1499,13 +1510,13 @@ Structured information and supporting details about the forecast IRR of the PPP 
 
 #### VI.1.1. Structured information on guarantees
 
-Structured information about financial guarantees can be provided in the contract `finance` block, with a `financeCategory` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented.
+Structured information about financial guarantees can be provided in the contract `finance` block, with a `type` code of 'guarantee'. This allows information about the party providing the guarantee, the total value, and any period it covers, to be represented.
 
 **Schema**: Information can be provided using the following OCDS fields.
 
 ```{jsonschema} _static/patched/release-schema.json
 :include: contracts/0/finance
-:collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/repaymentFrequency
+:collapse: contracts/0/finance/0/interestRate,contracts/0/finance/0/paymentFrequency
 :nocrossref:
 ```
 

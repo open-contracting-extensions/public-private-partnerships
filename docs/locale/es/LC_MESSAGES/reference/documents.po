@@ -2,45 +2,34 @@
 # Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Ben Webb <ben.webb@opendataservices.coop>, 2017
-# James McKinney, 2018
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 16:41-0400\n"
-"PO-Revision-Date: 2017-05-10 17:03+0000\n"
-"Last-Translator: James McKinney, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/reference/documents.md:1
 msgid "Documents"
 msgstr "Documentos"
 
 #: ../../docs/reference/documents.md:3
-msgid ""
-"There are many documents that should be disclosed at points during a PPP "
-"process."
+msgid "There are many documents that should be disclosed at points during a PPP process."
 msgstr ""
 "Hay muchos documentos que deben ser divulgados durante un proceso de APP."
 
 #: ../../docs/reference/documents.md:5
-msgid ""
-"The OCDS for PPPs documentType codelist includes a description of each "
-"document or element of information referenced in the World Bank PPP "
-"Disclosure Framework."
+msgid "The OCDS for PPPs documentType codelist includes a description of each document or element of information referenced in the World Bank PPP Disclosure Framework."
 msgstr ""
-"La lista de códigos documentType de OCDS para APP incluye una descripción de"
-" cada documento o elemento de información referenciado en el Marco de "
+"La lista de códigos documentType de OCDS para APP incluye una descripción de "
+"cada documento o elemento de información referenciado en el Marco de "
 "divulgación de APP del Banco Mundial."
 
 #: ../../docs/reference/documents.md:7
@@ -48,9 +37,7 @@ msgid "Representation"
 msgstr "Representación"
 
 #: ../../docs/reference/documents.md:9
-msgid ""
-"Each document can be represented using a `Document` object. This can "
-"contain:"
+msgid "Each document can be represented using a `Document` object. This can contain:"
 msgstr ""
 "Cada documento se puede representar usando un objeto `Document`. Este puede "
 "contener:"
@@ -64,8 +51,7 @@ msgid "A short summary of the information required;"
 msgstr "Un breve resumen de la información requerida;"
 
 #: ../../docs/reference/documents.md:13
-msgid ""
-"A direct link to the exact place where the further information is found;"
+msgid "A direct link to the exact place where the further information is found;"
 msgstr ""
 "Un enlace directo con el lugar exacto donde se encuentra la información "
 "adicional;"
@@ -101,9 +87,7 @@ msgid "Types"
 msgstr "Tipos"
 
 #: ../../docs/reference/documents.md:25
-msgid ""
-"The full list of document types, and where they should appear, is given "
-"below."
+msgid "The full list of document types, and where they should appear, is given below."
 msgstr ""
 "La lista completa de tipos de documentos, y donde deberían aparecer, se "
 "proporciona a continuación."

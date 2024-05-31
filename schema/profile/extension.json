@@ -8,8 +8,8 @@
     "es": "Reúne todas las extensiones que forman el perfil EDCA para APPs en una sola extensión."
   },
   "documentationUrl": {
-    "en": "http://standard.open-contracting.org/profiles/ppp/latest/en/",
-    "es": "http://standard.open-contracting.org/profiles/ppp/latest/es/"
+    "en": "https://standard.open-contracting.org/profiles/ppp/latest/en/",
+    "es": "https://standard.open-contracting.org/profiles/ppp/latest/es/"
   },
   "schemas": [
     "release-schema.json"
@@ -18,10 +18,14 @@
     "bidStatistics.csv",
     "bidStatus.csv",
     "chargePaidBy.csv",
-    "financeCategory.csv",
-    "financeType.csv",
+    "language.csv",
+    "assetClass.csv",
+    "debtRepaymentPriority.csv",
+    "financingArrangementType.csv",
+    "financingPartyType.csv",
     "locationGazetteers.csv",
     "geometryType.csv",
+    "+itemClassificationScheme.csv",
     "riskAllocation.csv",
     "riskCategory.csv",
     "votingRights.csv",

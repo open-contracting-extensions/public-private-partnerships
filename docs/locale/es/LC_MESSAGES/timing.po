@@ -2,28 +2,19 @@
 # Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Ben Webb <ben.webb@opendataservices.coop>, 2017
-# Catalina Demidchuk <catalina.d@idatosabiertos.org>, 2017
-# James McKinney, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 17:35-0400\n"
-"PO-Revision-Date: 2017-05-10 17:02+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/timing.md:1
 msgid "Publication timing"
@@ -34,27 +25,19 @@ msgid "Stages"
 msgstr "Etapas"
 
 #: ../../docs/timing.md:5
-msgid ""
-"Information about a Public Private Partnership project will become available"
-" at many different stages."
+msgid "Information about a Public Private Partnership project will become available at many different stages."
 msgstr ""
 "La información sobre un proyecto de Asociación Público-Privada estará "
 "disponible en distintas etapas."
 
 #: ../../docs/timing.md:7
-msgid ""
-"The reference page includes information about the stage at which certain "
-"information should be made available."
+msgid "The reference page includes information about the stage at which certain information should be made available."
 msgstr ""
-"La página de referencia incluye información sobre la etapa en la que se debe"
-" poner a disposición determinada información."
+"La página de referencia incluye información sobre la etapa en la que se debe "
+"poner a disposición determinada información."
 
 #: ../../docs/timing.md:9
-msgid ""
-"OCDS is designed to support real-time publication of information, so within "
-"each stage there may be multiple points where new or updated information is "
-"available. Each time information is provided, we call this an OCDS "
-"'release'."
+msgid "OCDS is designed to support real-time publication of information, so within each stage there may be multiple points where new or updated information is available. Each time information is provided, we call this an OCDS 'release'."
 msgstr ""
 "El OCDS está diseñado para soportar la publicación en tiempo real de "
 "información, por lo que en cada etapa puede haber varios puntos donde se "
@@ -62,10 +45,7 @@ msgstr ""
 "proporciona información, llamamos a esto una \"entrega de OCDS\"."
 
 #: ../../docs/timing.md:11
-msgid ""
-"A PPP process is likely to involve the stages below, the following release "
-"identifiers are a guide and additional releases can be made at any stage of "
-"the project."
+msgid "A PPP process is likely to involve the stages below, the following release identifiers are a guide and additional releases can be made at any stage of the project."
 msgstr ""
 "Es probable que un proceso de APP incluya las etapas siguientes, los "
 "siguientes identificadores de entregas son una guía, se pueden hacer "
@@ -75,18 +55,15 @@ msgstr ""
 msgid "PP: Pre-Procurement"
 msgstr "PP: Pre-Adquisición"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "Sub-stage"
 msgstr "Sub-etapa"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "Recommended release identifier"
 msgstr "Identificador de entrega recomendado"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "Recommended release tag"
 msgstr "Etiqueta de entrega recomendada"
 
@@ -98,7 +75,7 @@ msgstr "1.1 Consulta"
 msgid "1.1.X"
 msgstr "1.1.X"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "planning"
 msgstr "planning"
 
@@ -130,7 +107,7 @@ msgstr "2.1 Primera etapa (todos los procedimientos)"
 msgid "2.1.X"
 msgstr "2.1.X"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "tender"
 msgstr "tender"
 
@@ -142,7 +119,7 @@ msgstr "2.2 Lista corta"
 msgid "2.2.X"
 msgstr "2.2.X"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "tenderUpdate"
 msgstr "tenderUpdate"
 
@@ -198,7 +175,7 @@ msgstr "5.1 Firma del contrato (cierre comercial)"
 msgid "5.1.X"
 msgstr "5.1.X"
 
-#: ../../docs/timing.md:0 ../../docs/timing.md:0
+#: ../../docs/timing.md:0
 msgid "contract"
 msgstr "contract"
 

@@ -1,4 +1,4 @@
 Code,Title,Description,Extension
 publicAuthority,Public authority,The risk is wholly or mostly retained by the public authority,Risk Allocation
 privateParty,Private party,The risk is wholly or mostly retained by the private party,Risk Allocation
-undefined,Undefined,The risk is not clearly assigned to a specific party. Further details can be provided in the notes field.,Risk Allocation
+undefined,Undefined,The risk is not clearly assigned to a specific party to the contract. Further details can be provided in the notes field.,Risk Allocation

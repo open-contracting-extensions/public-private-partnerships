@@ -2,189 +2,138 @@
 # Copyright (C) Open Contracting Partnership
 # This file is distributed under the same license as the Open Contracting Data Standard for Public Private Partnerships package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Ben Webb <ben.webb@opendataservices.coop>, 2017
-# Romina Fernandez <rfernandez@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# James McKinney, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Open Contracting Data Standard for Public Private Partnerships 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 16:41-0400\n"
-"PO-Revision-Date: 2017-05-10 17:01+0000\n"
-"Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-12-06 20:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../docs/governance.md:1
 msgid "Governance"
 msgstr "Gobernanza"
 
 #: ../../docs/governance.md:3
-msgid ""
-"As an implementation profile, extending OCDS 1.1, updates to the OCDS schema"
-" will be subject to the [OCDS Governance Process](https://standard.open-"
-"contracting.org/latest/en/governance/)."
+msgid "As an implementation profile, extending OCDS 1.1, updates to the OCDS schema will be subject to the [OCDS Governance Process](https://standard.open-contracting.org/latest/en/governance/)."
 msgstr ""
 "Como un perfil de implementación, extender el OCDS 1.1, actualizaciones al "
-"esquema OCDS están sujetas a el [Proceso de Gobernanza "
-"OCDS](https://standard.open-contracting.org/latest/es/governance/)."
+"esquema OCDS están sujetas a el [Proceso de Gobernanza OCDS](https://standard"
+".open-contracting.org/latest/es/governance/)."
 
 #: ../../docs/governance.md:5
-msgid ""
-"It draws upon the following [extensions](https://extensions.open-"
-"contracting.org/en/):"
+msgid "It draws upon the following [extensions](https://extensions.open-contracting.org/en/):"
 msgstr ""
-"Se basa en las siguientes [extensiones](https://extensions.open-"
-"contracting.org/es/):"
+"Se basa en las siguientes [extensiones](https://extensions.open-contracting."
+"org/es/):"
 
 #: ../../docs/governance.md:7
-msgid ""
-"[Bid statistics and details](https://extensions.open-"
-"contracting.org/en/extensions/bids/v1.1.5/)"
+msgid "[Bid statistics and details](https://extensions.open-contracting.org/en/extensions/bids/v1.1.5/)"
 msgstr ""
-"[Estadísticas y detalles de la oferta](https://extensions.open-"
-"contracting.org/es/extensions/bids/v1.1.5/)"
+"[Estadísticas y detalles de la oferta](https://extensions.open-contracting."
+"org/es/extensions/bids/v1.1.5/)"
 
 #: ../../docs/governance.md:8
-msgid ""
-"[Charges](https://extensions.open-"
-"contracting.org/en/extensions/charges/master/)"
+msgid "[Charges](https://extensions.open-contracting.org/en/extensions/charges/master/)"
 msgstr ""
-"[Cargos](https://extensions.open-"
-"contracting.org/es/extensions/charges/master/)"
+"[Cargos](https://extensions.open-contracting.org/es/extensions/charges/"
+"master/)"
 
 #: ../../docs/governance.md:9
-msgid ""
-"[Document Details](https://extensions.open-"
-"contracting.org/en/extensions/documentation_details/master/)"
+msgid "[Document Details](https://extensions.open-contracting.org/en/extensions/documentation_details/master/)"
 msgstr ""
-"[Detalles del documento](https://extensions.open-"
-"contracting.org/es/extensions/documentation_details/master/)"
+"[Detalles del documento](https://extensions.open-contracting.org/es/"
+"extensions/documentation_details/master/)"
 
 #: ../../docs/governance.md:10
-msgid ""
-"[Finance](https://extensions.open-"
-"contracting.org/en/extensions/finance/master/)"
+msgid "[Finance](https://extensions.open-contracting.org/en/extensions/finance/master/)"
 msgstr ""
-"[Finanzas](https://extensions.open-"
-"contracting.org/es/extensions/finance/master/)"
+"[Finanzas](https://extensions.open-contracting.org/es/extensions/finance/"
+"master/)"
 
 #: ../../docs/governance.md:11
-msgid ""
-"[Location](https://extensions.open-"
-"contracting.org/en/extensions/location/v1.1.5/)"
+msgid "[Location](https://extensions.open-contracting.org/en/extensions/location/v1.1.5/)"
 msgstr ""
-"[Localización](https://extensions.open-"
-"contracting.org/es/extensions/location/v1.1.5/)"
+"[Localización](https://extensions.open-contracting.org/es/extensions/"
+"location/v1.1.5/)"
 
 #: ../../docs/governance.md:12
-msgid ""
-"[Metrics](https://extensions.open-"
-"contracting.org/en/extensions/metrics/1.1/)"
+msgid "[Metrics](https://extensions.open-contracting.org/en/extensions/metrics/1.1/)"
 msgstr ""
-"[Métricas](https://extensions.open-"
-"contracting.org/es/extensions/metrics/1.1/)"
+"[Métricas](https://extensions.open-contracting.org/es/extensions/metrics/1.1/"
+")"
 
 #: ../../docs/governance.md:13
-msgid ""
-"[Milestone documents](https://extensions.open-"
-"contracting.org/en/extensions/milestone_documents/v1.1.5/)"
+msgid "[Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)"
 msgstr ""
-"[Documentos de hito](https://extensions.open-"
-"contracting.org/es/extensions/milestone_documents/v1.1.5/)"
+"[Documentos de hito](https://extensions.open-contracting.org/es/extensions/"
+"milestone_documents/v1.1.5/)"
 
 #: ../../docs/governance.md:14
-msgid ""
-"[Performance failures](https://extensions.open-"
-"contracting.org/en/extensions/performance_failures/master/)"
+msgid "[Performance failures](https://extensions.open-contracting.org/en/extensions/performance_failures/master/)"
 msgstr ""
-"[Fallas de desempeño](https://extensions.open-"
-"contracting.org/es/extensions/performance_failures/master/)"
+"[Fallas de desempeño](https://extensions.open-contracting.org/es/extensions/"
+"performance_failures/master/)"
 
 #: ../../docs/governance.md:15
-msgid ""
-"[Project](https://extensions.open-"
-"contracting.org/en/extensions/project/master/)"
+msgid "[Project](https://extensions.open-contracting.org/en/extensions/project/master/)"
 msgstr ""
-"[Proyecto](https://extensions.open-"
-"contracting.org/es/extensions/project/master/)"
+"[Proyecto](https://extensions.open-contracting.org/es/extensions/project/"
+"master/)"
 
 #: ../../docs/governance.md:16
-msgid ""
-"[Risk allocation](https://extensions.open-"
-"contracting.org/en/extensions/risk_allocation/master/)"
+msgid "[Risk allocation](https://extensions.open-contracting.org/en/extensions/risk_allocation/master/)"
 msgstr ""
-"[Asignación de riesgo](https://extensions.open-"
-"contracting.org/es/extensions/risk_allocation/master/)"
+"[Asignación de riesgo](https://extensions.open-contracting.org/es/extensions/"
+"risk_allocation/master/)"
 
 #: ../../docs/governance.md:17
-msgid ""
-"[Shareholders](https://extensions.open-"
-"contracting.org/en/extensions/shareholders/master/)"
+msgid "[Shareholders](https://extensions.open-contracting.org/en/extensions/shareholders/master/)"
 msgstr ""
-"[Accionistas](https://extensions.open-"
-"contracting.org/es/extensions/shareholders/master/)"
+"[Accionistas](https://extensions.open-contracting.org/es/extensions/"
+"shareholders/master/)"
 
 #: ../../docs/governance.md:18
-msgid ""
-"[Signatories](https://extensions.open-"
-"contracting.org/en/extensions/signatories/master/)"
+msgid "[Signatories](https://extensions.open-contracting.org/en/extensions/signatories/master/)"
 msgstr ""
-"[Firmantes](https://extensions.open-"
-"contracting.org/es/extensions/signatories/master/)"
+"[Firmantes](https://extensions.open-contracting.org/es/extensions/"
+"signatories/master/)"
 
 #: ../../docs/governance.md:19
-msgid ""
-"[Tariffs](https://extensions.open-"
-"contracting.org/en/extensions/tariffs/1.1/)"
+msgid "[Tariffs](https://extensions.open-contracting.org/en/extensions/tariffs/1.1/)"
 msgstr ""
-"[Tarifas](https://extensions.open-"
-"contracting.org/es/extensions/tariffs/1.1/)"
+"[Tarifas](https://extensions.open-contracting.org/es/extensions/tariffs/1.1/)"
 
 #: ../../docs/governance.md:20
-msgid ""
-"[OCDS for PPPs Extension](https://extensions.open-"
-"contracting.org/en/extensions/ppp/master/)"
+msgid "[OCDS for PPPs Extension](https://extensions.open-contracting.org/en/extensions/ppp/master/)"
 msgstr ""
-"[Extensión OCDS para APPs](https://extensions.open-"
-"contracting.org/es/extensions/ppp/master/)"
+"[Extensión OCDS para APPs](https://extensions.open-contracting.org/es/"
+"extensions/ppp/master/)"
 
 #: ../../docs/governance.md:22
-msgid ""
-"Issues related to the individual extensions that make up the implementation "
-"profile can be raised on their respective GitHub projects."
+msgid "Issues related to the individual extensions that make up the implementation profile can be raised on their respective GitHub projects."
 msgstr ""
 "Los issues relacionados con las extensiones individuales que conforman el "
 "perfil de implementación pueden levantarse en sus respectivos proyectos de "
 "GitHub."
 
 #: ../../docs/governance.md:24
-msgid ""
-"General issues relating to their combination in this implementation profile "
-"can be raised [in the project issue tracker](https://github.com/open-"
-"contracting-extensions/public-private-partnerships/issues)."
+msgid "General issues relating to their combination in this implementation profile can be raised [in the project issue tracker](https://github.com/open-contracting-extensions/public-private-partnerships/issues)."
 msgstr ""
 "Los issues generales relacionados a la combinación de extensiones en este "
 "perfil de implementación pueden agregarse al [issue tracker del "
-"proyecto](https://github.com/open-contracting-extensions/public-private-"
-"partnerships/issues)."
+"proyecto](https://github.com/open-contracting-extensions/"
+"public-private-partnerships/issues)."
 
 #: ../../docs/governance.md:26
-msgid ""
-"Ongoing maintenance of OCDS for PPPs will be supported by the OCDS Global "
-"Helpdesk, for enquiries please contact [data@open-"
-"contracting.org](mailto:data@open-contracting.org)."
+msgid "Ongoing maintenance of OCDS for PPPs will be supported by the OCDS Global Helpdesk, for enquiries please contact [data@open-contracting.org](mailto:data@open-contracting.org)."
 msgstr ""
-"El mantenimiento de OCDS para APPs será apoyado por la Mesa de Ayuda Técnica"
-" Global de OCDS, en caso de alguna duda puede escribir a [data@open-"
+"El mantenimiento de OCDS para APPs será apoyado por la Mesa de Ayuda Técnica "
+"Global de OCDS, en caso de alguna duda puede escribir a [data@open-"
 "contracting.org](mailto:data@open-contracting.org)."

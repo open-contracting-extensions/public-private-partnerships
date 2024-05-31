@@ -12,13 +12,15 @@ LOCALE_DIR=docs/locale
 # Directory in which to build documentation files.
 BUILD_DIR=build
 # Extra build files or directories. (These should match paths in .gitignore.)
-EXTRA_BUILD_FILES=chromedriver* docs/_static/patched
+EXTRA_BUILD_FILES=docs/_static/patched
 # Files that are built and distributed (you may use Bash extended globbing).
 DIST_FILES=schema/profile/release-schema.json schema/profile/codelists schema/patched
 # Directory in which to build .pot files.
 POT_DIR=$(BUILD_DIR)/locale
 # The prefix, if any, to the schema and codelists domains.
 DOMAIN_PREFIX=ppp-
+# The Transifex organization name.
+TRANSIFEX_ORGANIZATION=open-contracting-partnership-1
 # The Transifex project name.
 TRANSIFEX_PROJECT=ocds-for-ppps
 # Any additional extract targets.
