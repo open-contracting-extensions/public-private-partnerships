@@ -34,7 +34,6 @@ OCDS for PPPs reuses some codelists from the Open Contracting Data Standard, wit
 
 * [Award criteria](https://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)
 * [Extended procurement category](https://standard.open-contracting.org/latest/en/schema/codelists/#extended-procurement-category)
-* [Item classification scheme](https://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme)
 * [Related process](https://standard.open-contracting.org/latest/en/schema/codelists/#related-process)
 * [Related process scheme](https://standard.open-contracting.org/latest/en/schema/codelists/#related-process-scheme)
 * [Submission method](https://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)
@@ -155,6 +154,15 @@ For additional guidance on using this codelist, refer to the [Bid statistics and
 ```
 
 For additional guidance on using this codelist, refer to the [OCDS document type codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#document-type).
+
+### itemClassificationScheme
+
+```{csv-table-no-translate}
+:header-rows: 1
+:file: ../_static/patched/codelists/itemClassificationScheme.csv
+```
+
+For additional guidance on using this codelist, refer to the [OCDS item classification scheme codelist documentation](https://standard.open-contracting.org/latest/en/schema/codelists/#item-classification-scheme).
 
 #### locationGazetteers
 
