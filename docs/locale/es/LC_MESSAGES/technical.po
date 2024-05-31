@@ -55,11 +55,10 @@ msgstr ""
 "bloques de adicionales y valores de lista de códigos."
 
 #: ../../docs/technical.md:14
-msgid "The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1)."
+msgid "The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](https://www.ppiaf.org/documents/2906)."
 msgstr ""
 "El esquema extendido de OCDS para APPs proporciona todos los elementos "
-"cubiertos por el [Marco de divulgación de APP del Banco Mundial] (https://www"
-".worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1)."
+"cubiertos por el [Marco de divulgación de APP del Banco Mundial](https://www.ppiaf.org/documents/2906)."
 
 #: ../../docs/technical.md:16
 msgid "In OCDS for PPPs, there is a one-to-one correspondence between a PPP project and a contracting process."
@@ -152,11 +151,10 @@ msgstr ""
 "open-contracting.org/latest/es/primer/);"
 
 #: ../../docs/technical.md:53
-msgid "The [World Bank Framework for Disclosure in Public Private Partnerships](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a-framework-for-disclosure-in-public-private-partnership-projects)"
+msgid "The [World Bank Framework for Disclosure in Public Private Partnerships](https://www.ppiaf.org/documents/2906)"
 msgstr ""
 "El [Marco del Banco Mundial para la Divulgación en las Asociaciones Público-"
-"Privadas] (https://www.worldbank.org/en/topic/publicprivatepartnerships/"
-"brief/a-framework-for-disclosure-in-public-private-partnership-projects)"
+"Privadas](https://www.ppiaf.org/documents/2906)"
 
 #: ../../docs/technical.md:55
 msgid "Then consult the [reference](framework.md) pages to see how each element from the PPP Disclosure Framework template can be captured using OCDS."

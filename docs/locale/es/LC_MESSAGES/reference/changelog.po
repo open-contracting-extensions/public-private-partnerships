@@ -49,7 +49,7 @@ msgstr ""
 "Consulta los registros de cambios para las [extensiones "
 "incluidas](../governance), en particular la [extensión de "
 "Finanzas](https://extensions.open-contracting.org/es/extensions/finance/"
-"master/#changelog)."
+"master/#registro-de-cambios)."
 
 #: ../../docs/reference/changelog.md:13
 msgid "[1.0.0.beta3] - 2021-06-10"

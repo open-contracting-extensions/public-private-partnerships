@@ -21,10 +21,9 @@ msgid "Overview"
 msgstr "Resumen"
 
 #: ../../docs/overview.md:7
-msgid "The [World Bank PPP Disclosure Framework](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) sets out **what** should be disclosed as part of a Public Private Partnership process."
+msgid "The [World Bank PPP Disclosure Framework](https://www.ppiaf.org/documents/2906) sets out **what** should be disclosed as part of a Public Private Partnership process."
 msgstr ""
-"El [Marco de divulgación de APP del Banco Mundial](https://www.worldbank.org/"
-"en/topic/publicprivatepartnerships/brief/ppp-tools#T1) establece **qué** se "
+"El [Marco de divulgación de APP del Banco Mundial](https://www.ppiaf.org/documents/2906) establece **qué** se "
 "debe divulgar como parte de una Asociación Público Privada."
 
 #: ../../docs/overview.md:9

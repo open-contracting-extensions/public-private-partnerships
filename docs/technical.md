@@ -11,7 +11,7 @@ This provides a foundational model for:
 
 The basic OCDS schema has been [extended](extensions) with a range of additional building blocks and codelist values.
 
-The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1).
+The extended OCDS for PPPs schema provides all the elements covered by the [World Bank PPP Disclosure Framework](https://www.ppiaf.org/documents/2906).
 
 In OCDS for PPPs, there is a one-to-one correspondence between a PPP project and a contracting process.
 
@@ -50,6 +50,6 @@ This documentation is **not** designed for individual PPP project managers. If y
 First review:
 
 * The [Open Contracting Data Standard Primer](https://standard.open-contracting.org/latest/en/primer/);
-* The [World Bank Framework for Disclosure in Public Private Partnerships](https://www.worldbank.org/en/topic/publicprivatepartnerships/brief/a-framework-for-disclosure-in-public-private-partnership-projects)
+* The [World Bank Framework for Disclosure in Public Private Partnerships](https://www.ppiaf.org/documents/2906)
 
 Then consult the [reference](framework.md) pages to see how each element from the PPP Disclosure Framework template can be captured using OCDS.
