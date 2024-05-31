@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-31 01:08-0400\n"
+"POT-Creation-Date: 2024-05-31 12:55-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,7 @@ msgstr ""
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
 #: schema/profile/codelists/+documentType.csv
+#: schema/profile/codelists/+itemClassificationScheme.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
 #: schema/profile/codelists/assetClass.csv
@@ -105,6 +106,7 @@ msgstr "Código"
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
 #: schema/profile/codelists/+documentType.csv
+#: schema/profile/codelists/+itemClassificationScheme.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
 #: schema/profile/codelists/assetClass.csv
@@ -157,6 +159,7 @@ msgstr "Título"
 #: schema/patched/codelists/unitClassificationScheme.csv
 #: schema/patched/codelists/votingRights.csv
 #: schema/profile/codelists/+documentType.csv
+#: schema/profile/codelists/+itemClassificationScheme.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
 #: schema/profile/codelists/assetClass.csv
@@ -2723,6 +2726,27 @@ msgstr ""
 "bienes es un sistema de código de seis dígitos."
 
 #. Title
+#: schema/patched/codelists/itemClassificationScheme.csv:12
+#: schema/profile/codelists/+itemClassificationScheme.csv:1
+msgid "OC4IDS Project Sector"
+msgstr "Sector del proyecto de OC4IDS"
+
+#. Description
+#: schema/patched/codelists/itemClassificationScheme.csv:12
+#: schema/profile/codelists/+itemClassificationScheme.csv:1
+msgid ""
+"Open Contracting for Infrastructure Data Standards Toolkit projectSector "
+"codelist"
+msgstr ""
+"La lista de código projectSector del Open Contracting for Infrastructure "
+"Data Standards Toolkit"
+
+#. Extension
+#: schema/patched/codelists/itemClassificationScheme.csv:12
+msgid "Project"
+msgstr "Proyecto"
+
+#. Title
 #: schema/patched/codelists/locationGazetteers.csv:1
 #: schema/profile/codelists/locationGazetteers.csv:1
 msgid "EU Nomenclature of Territorial Units for Statistics"
@@ -4380,6 +4404,7 @@ msgstr ""
 msgid "Section"
 msgstr "Sección"
 
+#: schema/profile/codelists/+itemClassificationScheme.csv
 #: schema/profile/codelists/+milestoneType.csv
 #: schema/profile/codelists/+partyRole.csv
 #: schema/profile/codelists/financingPartyType.csv
@@ -4390,6 +4415,7 @@ msgstr "Sección"
 msgid "Source"
 msgstr "Fuente"
 
+#: schema/profile/codelists/+itemClassificationScheme.csv
 #: schema/profile/codelists/bidStatistics.csv
 #: schema/profile/codelists/locationGazetteers.csv
 #: schema/profile/codelists/riskCategory.csv

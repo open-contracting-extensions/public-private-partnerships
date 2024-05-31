@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-31 01:08-0400\n"
+"POT-Creation-Date: 2024-05-31 12:55-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,6 +166,7 @@ msgstr "El ID único para esta entidad en el esquema de identificadores dado."
 #. /definitions/Identifier/properties/uri/title
 #. /definitions/Location/properties/uri/title
 #. /definitions/Observation/properties/unit/properties/uri/title
+#. /definitions/Project/properties/uri/title
 #. /definitions/Tariff/properties/unit/properties/uri/title
 #: schema/patched/release-package-schema.json:1
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -548,10 +549,8 @@ msgstr "Pronósticos"
 
 #. /definitions/Planning/properties/forecasts/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Any forecasts metrics for this results of this contracting process."
-msgstr ""
-"Cualquier métrica de pronóstico para los resultados de este proceso de "
-"contratación."
+msgid "Any forecasts metrics for a future contracting process."
+msgstr "Cualquier métrica de previsión para un futuro proceso de contratación."
 
 #. /definitions/Planning/properties/project/title
 #. /definitions/Project/title
@@ -562,11 +561,11 @@ msgstr "Información de proyecto"
 #. /definitions/Planning/properties/project/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The project section can be used to describe the relationship between this"
-" contracting process and a project or programme of work."
+"Information about the infrastructure or public-private partnership "
+"project to which the planning process is related."
 msgstr ""
-"Una sección de proyecto se puede usar para describir la relación entre este "
-"proceso de contratación y un proyecto o programa de trabajo."
+"Información sobre el proyecto de infraestructura o asociación público-"
+"privada al que se relaciona el proceso de planificación."
 
 #. /definitions/Tender/description
 #: schema/patched/release-schema.json:1
@@ -682,6 +681,7 @@ msgstr ""
 #. /definitions/Bid/properties/value/title
 #. /definitions/Finance/properties/value/title
 #. /definitions/Observation/properties/value/title
+#. /definitions/Tariff/properties/value/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Value"
 msgstr "Valor"
@@ -1070,10 +1070,8 @@ msgstr "Objetivos"
 
 #. /definitions/Tender/properties/targets/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Any target metrics for this results of this contracting process."
-msgstr ""
-"Cualquier métrica del objetivo para el resultado de este proceso de "
-"contratación."
+msgid "Any target metrics for this contracting process."
+msgstr "Cualquier métrica objetivo para este proceso de contratación."
 
 #. /definitions/Award/title
 #: schema/patched/release-schema.json:1
@@ -1116,6 +1114,8 @@ msgstr ""
 #. /definitions/Document/properties/title/title
 #. /definitions/Finance/properties/title/title
 #. /definitions/Metric/properties/title/title
+#. /definitions/Project/properties/title/title
+#. /definitions/Tariff/properties/title/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Title"
 msgstr "Título"
@@ -1134,6 +1134,7 @@ msgstr "Título de la adjudicación"
 #. /definitions/Finance/properties/description/title
 #. /definitions/Location/properties/description/title
 #. /definitions/Metric/properties/description/title
+#. /definitions/Project/properties/description/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Description"
 msgstr "Descripción"
@@ -1362,6 +1363,7 @@ msgstr ""
 #. /definitions/Period/title
 #. /definitions/Charge/properties/period/title
 #. /definitions/Observation/properties/period/title
+#. /definitions/Tariff/properties/period/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Period"
 msgstr "Periodo"
@@ -2018,7 +2020,8 @@ msgid ""
 " codelist. A [BCP47 language "
 "tag](https://www.w3.org/International/articles/language-tags/) is "
 "allowed, if there is a user need for the additional information."
-msgstr ""
+msgstr "Los idiomas en los que están disponibles las traducciones no oficiales del documento, de la lista de códigos abierta [lenguaje](https://standard.open-"
+"contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#language). Se permite una etiqueta de lenguaje [BCP47](https://www.w3.org/International/articles/language-tags/), si hay una necesidad del usuario para la información adicional."
 
 #. /definitions/Budget/title
 #: schema/patched/release-schema.json:1
@@ -2097,8 +2100,7 @@ msgstr ""
 "desglose presupuestario."
 
 #. /definitions/Budget/properties/project/title
-#. /definitions/Project/properties/title/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
+#: schema/patched/release-schema.json:1
 msgid "Project title"
 msgstr "Título del Proyecto"
 
@@ -2120,8 +2122,7 @@ msgstr ""
 "ligados a la fuente de datos anteriormente presentada."
 
 #. /definitions/Budget/properties/projectID/title
-#. /definitions/Project/properties/id/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
+#: schema/patched/release-schema.json:1
 msgid "Project identifier"
 msgstr "Identificador de proyecto"
 
@@ -2199,8 +2200,10 @@ msgstr ""
 
 #. /definitions/Budget/properties/finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Information about financing arrangements for this contracting process."
+msgid "Information about financing arrangements for a future contracting process."
 msgstr ""
+"Información sobre modalidades de financiación para un futuro proceso de "
+"contratación."
 
 #. /definitions/Transaction/title
 #: schema/patched/release-schema.json:1
@@ -2742,7 +2745,8 @@ msgid "The primary classification for the item."
 msgstr "La clasificación primaria para un artículo."
 
 #. /definitions/Item/properties/additionalClassifications/title
-#: schema/patched/release-schema.json:1
+#. /definitions/Project/properties/additionalClassifications/title
+#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Additional classifications"
 msgstr "Clasificaciones adicionales"
 
@@ -2764,6 +2768,7 @@ msgstr "El número de unidades que se dan."
 #. /definitions/Item/properties/unit/title
 #. /definitions/Observation/properties/unit/title
 #. /definitions/Observation/properties/unit/description
+#. /definitions/Tariff/properties/unit/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Unit"
 msgstr "Unidad"
@@ -2999,13 +3004,10 @@ msgid ""
 "The scheme or codelist from which the classification code is taken. For "
 "line item classifications, this uses the open "
 "[itemClassificationScheme](https://standard.open-"
-"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-"
-"classification-scheme) codelist."
-msgstr ""
-"El esquema o lista de código del cual se obtiene el código de clasificación. "
-"Para clasificaciones de artículos de linea, esto utiliza la lista de código "
-"abierta [itemClassificationScheme](https://standard.open-contracting.org/"
-"{{version}}/{{lang}}/schema/codelists/#item-classification-scheme)."
+"contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#itemclassificationscheme)"
+" codelist."
+msgstr "Le schéma ou la liste de codes dont est tiré le code de classification. Pour les classifications de livrables, il utilise la liste de codes ouverte [itemClassificationScheme](https://standard.open-"
+"contracting.org/profiles/ppp/latest/{{lang}}/reference/codelists/#itemclassificationscheme)."
 
 #. /definitions/Classification/properties/id/description
 #: schema/patched/release-schema.json:1
@@ -3027,6 +3029,8 @@ msgstr "Un URI para identificar únicamente el código de clasificación."
 #. /definitions/Metric/properties/id/title
 #. /definitions/Observation/properties/id/title
 #. /definitions/PerformanceFailure/properties/id/title
+#. /definitions/Project/properties/id/title
+#. /definitions/Tariff/properties/id/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Identifier"
 msgstr "Identificador"
@@ -3473,6 +3477,7 @@ msgstr ""
 #. /definitions/Finance/properties/interestRate/properties/notes/title
 #. /definitions/Observation/properties/notes/title
 #. /definitions/Shareholder/properties/notes/title
+#. /definitions/Tariff/properties/notes/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Notes"
 msgstr "Notas"
@@ -3904,14 +3909,14 @@ msgstr "Base"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "The variable to which an additional margin amount is added to get the "
-"Interest amount. This can be specified as a fixed number, as a known "
+"interest amount. This can be specified as a fixed number, as a known "
 "variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies "
 "the entire interest rate."
 msgstr ""
-"La variable a la que se añade un importe de margen adicional para obtener el "
-"importe de los intereses. Puede especificarse como un número fijo, como una "
-"variable conocida (por ejemplo, LIBOR o LIBOR+1%), o puede omitirse si el "
-"margen especifica todo el tipo de interés."
+"La variable a la que se le suma un monto de margen adicional para obtener el "
+"monto del interés. Esto se puede especificar como un número fijo, como una "
+"variable conocida (por ejemplo, LIBOR o LIBOR+1%), o se puede omitir si el "
+"margen especifica la tasa de interés completa."
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3921,11 +3926,11 @@ msgstr "Margen"
 #. /definitions/Finance/properties/interestRate/properties/margin/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The variable added to the base to give the Interest amount expressed as a"
-" decimal fraction (e.g. 12.5% = 0.125)."
+"The variable added to the base to give the interest amount, expressed as "
+"a decimal (for example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
-"La variable añadida a la base para dar el monto de interés expresado como "
-"una fracción decimal (por ejemplo 12,5% = 0,125)."
+"La variable agregada a la base para dar el monto del interés, expresada como "
+"decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo, 10)."
 
 #. /definitions/Finance/properties/interestRate/properties/fixed/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4245,14 +4250,15 @@ msgstr "El nombre de la unidad."
 #. /definitions/Tariff/properties/unit/properties/scheme/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The list from which units of measure identifiers are taken. Use of the "
-"scheme 'UNCEFACT' for the UN/CEFACT Recommendation 20 list of \"Codes for"
-" Units of Measure Used in International Trade\" is recommended."
+"The list from which units of measure identifiers are taken. It is "
+"recommended to use the scheme 'UNCEFACT' and codes from the UN/CEFACT "
+"Recommendation 20 list of \"Codes for Units of Measure Used in "
+"International Trade\"."
 msgstr ""
-"La lista de la que se toman los identificadores de las unidades de medida. "
-"Se recomienda el uso del esquema 'UNCEFACT' para la lista Recomendación 20 "
-"de CEFACT/ONU de \"Códigos de unidades de medida utilizados en el comercio "
-"internacional\"."
+"La lista de la cual se toman los identificadores de unidades de medida. Se "
+"recomienda utilizar el esquema 'UNCEFACT' y los códigos de la lista de la "
+"Recomendación 20 de la UN/CEFACT de \"Códigos para Unidades de Medida "
+"Utilizadas en el Comercio Internacional\"."
 
 #. /definitions/Observation/properties/unit/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4279,6 +4285,7 @@ msgstr ""
 "unidad de medición, ésta puede proporcionarse."
 
 #. /definitions/Observation/properties/dimensions/title
+#. /definitions/Tariff/properties/dimensions/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Dimensions"
 msgstr "Dimensiones"
@@ -4456,107 +4463,91 @@ msgstr ""
 
 #. /definitions/Project/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "A project or programme of work."
-msgstr "Un proyecto o programa de trabajo."
+msgid ""
+"Information about the infrastructure or public-private partnership "
+"project to which a planning process is related."
+msgstr ""
+"Información sobre el proyecto de infraestructura o asociación público-"
+"privada al que se relaciona un proceso de planificación."
 
 #. /definitions/Project/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"An externally provided identifier for the project. This might be drawn "
-"from a projects register, or may be based on the canonical version of a "
-"project name. Project IDs should be unique to a publisher. URIs can be "
-"used."
+"An externally provided identifier for the project. This can be a URI, an "
+"identifier from a projects register, or based on the canonical version of"
+" the project's name. Project identifiers should be unique within the "
+"scope of the publication."
 msgstr ""
-"Un identificador externo para el proyecto. Éste puede tomarse de un registro "
-"de proyectos o puede basarse en la versión canónica de un nombre de "
-"proyecto. Los IDs de proyecto deben de ser únicos para un publicador. Se "
-"pueden usar URIs."
+"Un identificador proporcionado externamente para el proyecto. Puede ser un "
+"URI, un identificador de un registro de proyectos o basado en la versión "
+"canónica del nombre del proyecto. Los identificadores del proyecto deben ser "
+"únicos dentro del alcance de la publicación."
 
 #. /definitions/Project/properties/title/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The name of the project to which this contracting process relates. Some "
-"organizations maintain a registry of projects, and the data should use "
-"the name by which the project is known in that registry."
+"The name of the project. If a projects register is available, this should"
+" be the same as the project's name in that register."
 msgstr ""
-"El nombre del proyecto con el cual se relaciona este proceso de "
-"contratación. Algunas organizaciones mantienen un registro de proyectos y "
-"los datos deben de usar el nombre por el cual se conoce al proyecto en dicho "
-"registro."
-
-#. /definitions/Project/properties/description/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Project description"
-msgstr "Descripción del proyecto"
+"El nombre del proyecto. Si hay un registro de proyectos disponible, este "
+"debe ser el mismo que el nombre del proyecto en ese registro."
 
 #. /definitions/Project/properties/description/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "A short free text description of the project."
-msgstr "Una breve descripción en texto libre del proyecto."
+msgid "A short description of the project."
+msgstr "Una breve descripción del proyecto."
 
 #. /definitions/Project/properties/totalValue/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Total project value"
-msgstr "Valor total del proyecto"
+msgid "Total value"
+msgstr "Valor total"
 
 #. /definitions/Project/properties/totalValue/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "The total anticipated value of the project over it's lifetime."
-msgstr "El monto total anticipado del proyecto a lo largo de su duración."
-
-#. /definitions/Project/properties/uri/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Linked project information"
-msgstr "Información vinculada del proyecto"
+msgid "The total anticipated value of the project over its lifetime."
+msgstr "El valor total previsto del proyecto a lo largo de su vida."
 
 #. /definitions/Project/properties/uri/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "A URI pointing to further information about this project."
-msgstr "Un URI que apunte a mayor información sobre este proyecto."
+msgid "The URI of a resource with additional information about the project."
+msgstr "El URI de un recurso con información adicional sobre el proyecto."
 
 #. /definitions/Project/properties/sector/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Project sector"
-msgstr "Sector del proyecto"
+msgid "Sector"
+msgstr "Sector"
 
 #. /definitions/Project/properties/sector/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"A high-level categorization of the main sector this procurement process "
-"relates to. Use of [UN COFOG "
-"codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), "
-"with 'COFOG' as the classification scheme, and the numerical COFOG code "
-"is recommended for the primary sector classification."
+"The primary sector to which the project relates. It is recommended to use"
+" the scheme 'oc4idsProjectSector' and codes from the [OC4IDS "
+"projectSector codelist](https://standard.open-"
+"contracting.org/infrastructure/latest/en/reference/codelists/#projectsector)."
 msgstr ""
-"Una categorización general del sector principal con el cual se relaciona "
-"este proceso de licitación. Se recomienda el uso de [UN COFOG "
-"codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), con "
-"'COFOG'  como esquema de clasificación y el código numérico COFOG para la "
-"clasificación primaria de sector."
-
-#. /definitions/Project/properties/additionalClassifications/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Additional sector classifications"
-msgstr "Clasificaciones sectoriales adicionales "
+"El sector primario al que se refiere el proyecto. Se recomienda utilizar el "
+"esquema 'oc4idsProjectSector' y códigos de la [lista de códigos OC4IDS "
+"projectSector](https://standard.open-contracting.org/infrastructure/latest/"
+"en/reference/codelists/#projectsector)."
 
 #. /definitions/Project/properties/additionalClassifications/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"Additional project classification, by other sector classifications, or "
-"using other classification schemes (e.g. against a strategic framework)."
+"Additional classifications for the project. For example, a sector or "
+"strategic framework classification."
 msgstr ""
-"Clasificación adicional del proyecto por otras clasificaciones de sector o "
-"usando otros esquemas de clasificación (p.ej. Contra un marco estratégico)."
+"Clasificaciones adicionales para el proyecto. Por ejemplo, una clasificación "
+"sectorial o de marco estratégico."
 
 #. /definitions/Project/properties/locations/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Project location"
-msgstr "Ubicación de Proyecto"
+msgid "Locations"
+msgstr "Ubicaciones"
 
 #. /definitions/Project/properties/locations/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Information about the location where a project is taking place."
-msgstr "Información sobre la ubicación donde se llevará a cabo un proyecto."
+msgid "Information about the locations where the project is taking place."
+msgstr "Información sobre las ubicaciones donde se desarrolla el proyecto."
 
 #. /definitions/Risk/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4713,11 +4704,6 @@ msgstr ""
 "tasas gubernamentales que se pagan con relación a cada unidad de un bien o "
 "servicios en particular."
 
-#. /definitions/Tariff/properties/id/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff identifier"
-msgstr "Identificador de tarifa"
-
 #. /definitions/Tariff/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
@@ -4728,40 +4714,20 @@ msgstr ""
 "para realizar un seguimiento de las revisiones de una tarifa a través de "
 "múltiples entregas de OCDS."
 
-#. /definitions/Tariff/properties/title/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff title"
-msgstr "Título de la tarifa"
-
 #. /definitions/Tariff/properties/title/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The title of this tariff."
 msgstr "El título de esta tarifa."
-
-#. /definitions/Tariff/properties/period/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff period"
-msgstr "Periodo de la tarifa"
 
 #. /definitions/Tariff/properties/period/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The period to which this tariff applies."
 msgstr "El período al que se aplica esta tarifa."
 
-#. /definitions/Tariff/properties/value/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff value"
-msgstr "Valor de la tarifa"
-
 #. /definitions/Tariff/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The price per unit of this tariff."
 msgstr "El precio por unidad de esta tarifa."
-
-#. /definitions/Tariff/properties/unit/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff unit"
-msgstr "Unidad de las tarifas"
 
 #. /definitions/Tariff/properties/unit/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4786,11 +4752,6 @@ msgstr ""
 "\"Common Code\". A partir de este identificador, las aplicaciones pueden "
 "buscar el nombre o símbolo legible para humanos  para esta unidad de medida."
 
-#. /definitions/Tariff/properties/dimensions/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff dimensions"
-msgstr "Dimensiones de la tarifa"
-
 #. /definitions/Tariff/properties/dimensions/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
@@ -4802,11 +4763,6 @@ msgstr ""
 "tarifa. Cualquier número de dimensiones se puede registrar dentro de este "
 "objeto. Los nombres de dimensiones deben seguir las convenciones de OCDS de "
 "camelCase."
-
-#. /definitions/Tariff/properties/notes/title
-#: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Tariff notes"
-msgstr "Notas sobre las tarifas"
 
 #. /definitions/Tariff/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4830,14 +4786,13 @@ msgstr "Prima de riesgo"
 #. /definitions/EvaluationIndicators/properties/riskPremium/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The risk premium used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of "
-"the risk premium used should be provided in the riskPremiumDetails field."
+"The risk premium used by government when evaluating the PPP option, "
+"expressed as a decimal (for example, 0.1) and not as a percentage (for "
+"example, 10)."
 msgstr ""
-"La prima de riesgo utilizada por el gobierno al evaluar la opción APP "
-"expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se debe "
-"proporcionar una explicación de la prima de riesgo utilizada en el campo "
-"riskPremiumDetails."
+"La prima de riesgo utilizada por el gobierno al evaluar la opción de APP, "
+"expresada como decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo, "
+"10)."
 
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4846,12 +4801,10 @@ msgstr "Detalles de la prima de riesgo"
 
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid ""
-"Further details on the risk premium used including an explanation of why "
-"it was used."
+msgid "Additional details on the risk premium used: for example, the rationale."
 msgstr ""
-"Más detalles sobre la prima de riesgo utilizada, incluyendo una explicación "
-"de por qué se utilizó."
+"Detalles adicionales sobre la prima de riesgo utilizada: por ejemplo, la "
+"justificación."
 
 #. /definitions/EvaluationIndicators/properties/discountRate/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4861,13 +4814,13 @@ msgstr "Tasa de descuento"
 #. /definitions/EvaluationIndicators/properties/discountRate/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The discount rate used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can "
-"be provided in the discountRateDetails field."
+"The discount rate used by government when evaluating the PPP option, "
+"expressed as a decimal (for example, 0.1) and not as a percentage (for "
+"example, 10)."
 msgstr ""
-"La tasa de descuento utilizada por el gobierno al evaluar la opción APP "
-"expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se pueden "
-"proporcionar más detalles en el campo discountRateDetails."
+"La tasa de descuento utilizada por el gobierno al evaluar la opción de APP, "
+"expresada como decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo, "
+"10)."
 
 #. /definitions/EvaluationIndicators/properties/discountRateDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4876,8 +4829,8 @@ msgstr "Detalles de la tasa de descuento"
 
 #. /definitions/EvaluationIndicators/properties/discountRateDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the discount rate used."
-msgstr "Más detalles sobre la tasa de descuento utilizada."
+msgid "Additional details on the discount rate used."
+msgstr "Detalles adicionales sobre la tasa de descuento utilizada."
 
 #. /definitions/EvaluationIndicators/properties/netPresentValue/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4888,12 +4841,10 @@ msgstr "Valor presente neto"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "The discounted value of an investment's cash inflows minus the discounted"
-" value of its cash outflows. Further details can be provided in the "
-"netPresentValueRateDetails field."
+" value of its cash outflows."
 msgstr ""
-"El valor descontado de las entradas de efectivo de una inversión menos el "
-"valor descontado de sus salidas de efectivo. Se pueden proporcionar más "
-"detalles en el campo netPresentValueRateDetails."
+"El valor rebajado de las entradas de efectivo de una inversión menos el "
+"valor rebajado de sus salidas de efectivo."
 
 #. /definitions/EvaluationIndicators/properties/netPresentValueDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4902,39 +4853,32 @@ msgstr "Detalles del valor actual neto"
 
 #. /definitions/EvaluationIndicators/properties/netPresentValueDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the calculation of the net present value."
-msgstr "Más detalles sobre el cálculo del valor actual neto."
+msgid "Additional details on the calculation of the net present value."
+msgstr "Detalles adicionales sobre el cálculo del valor actual neto."
 
 #. /definitions/FinanceSummary/properties/debtEquityRatio/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Debt equity ratio"
-msgstr "Proporción de capital de la deuda"
+msgid "Debt-equity ratio"
+msgstr "Ratio de capital de la deuda"
 
 #. /definitions/FinanceSummary/properties/debtEquityRatio/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The debt-equity ratio of the project, expressed as a decimal value. The "
-"World Bank PPPIRC defines the debt equity ratio as 'long term debt "
-"(divided by) the shareholder equity of the project company'. Also known "
-"as 'leverage' or 'gearing'. Further details on the debt equity ratio can "
-"be provided in the debtEquityRatioDetails field."
+"The debt-equity ratio of the project, expressed as a decimal (for "
+"example, 0.1). Also called gearing or leverage."
 msgstr ""
-"La proporción deuda-capital del proyecto, expresada como un valor decimal. "
-"El PPPIRC del Banco Mundial define la proporción de endeudamiento como "
-"\"deuda a largo plazo (dividida por) el capital accionario de la empresa del "
-"proyecto\". También conocido como \"apalancamiento\" o \"gearing\". Pueden "
-"proporcionarse más detalles sobre la proporción de capital de deuda en el "
-"campo debtEquityRatioDetails."
+"El ratio deuda-capital del proyecto, expresado como decimal (por ejemplo, "
+"0,1). También llamado engranaje o apalancamiento."
 
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Debt equity ratio details"
-msgstr "Detalles de la relación de capital de la deuda"
+msgid "Debt-equity ratio details"
+msgstr "Detalles del ratio deuda-capital"
 
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the calculation of the debt equity ratio."
-msgstr "Más detalles sobre el cálculo de la proporción del capital de la deuda."
+msgid "Additional details on the calculation of the debt equity ratio."
+msgstr "Detalles adicionales sobre el cálculo del ratio de endeudamiento."
 
 #. /definitions/FinanceSummary/properties/shareCapital/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4945,12 +4889,9 @@ msgstr "Capital accionario"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
 "The value of the capital in the project that comes from the issue of "
-"shares. Further details on the share capital can be provided in the "
-"shareCapitalDetails field."
+"shares."
 msgstr ""
-"El valor del capital en el proyecto que proviene de la emisión de acciones. "
-"Pueden proporcionarse más detalles sobre el capital accionario en el campo "
-"shareCapitalDetails."
+"El valor del capital del proyecto que proviene de la emisión de acciones."
 
 #. /definitions/FinanceSummary/properties/shareCapitalDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4959,8 +4900,8 @@ msgstr "Detalles del capital social"
 
 #. /definitions/FinanceSummary/properties/shareCapitalDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the calculation of the share capital."
-msgstr "Más detalles sobre el cálculo del capital social."
+msgid "Additional details on the calculation of the share capital."
+msgstr "Detalles adicionales sobre el cálculo del capital social."
 
 #. /definitions/FinanceSummary/properties/subsidyRatio/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4970,13 +4911,11 @@ msgstr "Relación de subsidio"
 #. /definitions/FinanceSummary/properties/subsidyRatio/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"Subsidy as a proportion of project value, expressed as a decimal fraction"
-" (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be "
-"provided in the subsidyRatioDetails field."
+"The subsidy's proportion of the project value, expressed as a decimal "
+"between 0 and 1."
 msgstr ""
-"Subvención como proporción del valor del proyecto, expresada como una "
-"fracción decimal (por ejemplo, 3,2% = 0,032). Se pueden proporcionar más "
-"detalles sobre el coeficiente de subvención en el campo subsidyRatioDetails."
+"La proporción de la subvención sobre el valor del proyecto, expresada como "
+"un decimal entre 0 y 1."
 
 #. /definitions/FinanceSummary/properties/subsidyRatioDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4985,40 +4924,29 @@ msgstr "Detalles de la relación de subvención"
 
 #. /definitions/FinanceSummary/properties/subsidyRatioDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the calculation of the subsidy ratio."
-msgstr "Más detalles sobre el cálculo del coeficiente de subvención."
+msgid "Additional details on the calculation of the subsidy ratio."
+msgstr "Detalles adicionales sobre el cálculo del ratio de subvención."
 
 #. /definitions/FinanceSummary/properties/projectIRR/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Project Internal Rate of Return"
-msgstr "Tasa Interna de Retorno del Proyecto"
+msgid "Internal rate of return"
+msgstr "Tasa interna de retorno"
 
 #. /definitions/FinanceSummary/properties/projectIRR/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid ""
-"The internal rate of return of the project, expressed as a decimal "
-"fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines "
-"IRR as 'The rate of return of an investment calculated from its projected"
-" cash flows. The internal rate of return (IRR) is also the discount rate "
-"that equates the present value of a future stream of cash flows to the "
-"initial investment'. Further details on the project IRR can be provided "
-"in the projectIRRDetails field."
+"The internal rate of return of the project, expressed as a decimal (for "
+"example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
-"La tasa interna de rendimiento del proyecto, expresada como una fracción "
-"decimal (por ejemplo, 3,2% = 0,032). El Programa de Certificación PPM de "
-"APMG define la TIR como \"La tasa de rendimiento de una inversión calculada "
-"a partir de sus flujos de efectivo proyectados. La tasa interna de "
-"rentabilidad (TIR) ​​es también la tasa de descuento que equipara el valor "
-"presente de una corriente futura de flujos de efectivo a la inversión "
-"inicial\" Pueden proporcionarse más detalles sobre la TIR del proyecto en el "
-"campo projectIRRdetails."
+"La tasa interna de retorno del proyecto, expresada como decimal (por "
+"ejemplo, 0,1) y no como porcentaje (por ejemplo, 10)."
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Project IRR details"
-msgstr "Detalles de la tasa interna de retorno de la inversión  del proyecto"
+msgid "Internal rate of return details"
+msgstr "Detalles de la tasa interna de retorno"
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
-msgid "Further details on the calculation of the project IRR."
-msgstr "Más detalles sobre el cálculo de la TIR del proyecto."
+msgid "Additional details on the calculation of the project IRR."
+msgstr "Detalles adicionales sobre el cálculo de la TIR del proyecto."
