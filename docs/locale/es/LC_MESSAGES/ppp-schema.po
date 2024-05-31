@@ -1481,7 +1481,7 @@ msgstr "Financiamiento"
 #. /definitions/Contract/properties/finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Information about financing arrangements for this contract."
-msgstr ""
+msgstr "Información sobre las modalidades de financiación de este contrato."
 
 #. /definitions/Contract/properties/agreedMetrics/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1513,6 +1513,8 @@ msgid ""
 "The signatories to the contract. Each signatory should have a "
 "corresponding entry in the `parties` array."
 msgstr ""
+"Los firmantes del contrato. Cada firmante debe tener una entrada "
+"correspondiente en la lista de `parties`."
 
 #. /definitions/Contract/properties/tariffs/title
 #. /definitions/Implementation/properties/tariffs/title
@@ -1981,7 +1983,7 @@ msgstr ""
 #. /definitions/Document/properties/accessDetailsURL/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Access details URL"
-msgstr ""
+msgstr "URL de detalles de acceso"
 
 #. /definitions/Document/properties/accessDetailsURL/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -1989,6 +1991,8 @@ msgid ""
 "A web address for information on any special arrangements needed to "
 "access the document."
 msgstr ""
+"Una dirección web para obtener información sobre cualquier disposición "
+"especial necesaria para acceder al documento."
 
 #. /definitions/Document/properties/author/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2003,7 +2007,7 @@ msgstr "Los nombres de los autores del documento."
 #. /definitions/Document/properties/unofficialTranslations/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Unofficial translations"
-msgstr ""
+msgstr "Traducciones no oficiales"
 
 #. /definitions/Document/properties/unofficialTranslations/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2683,7 +2687,7 @@ msgstr "Detalles"
 #. /definitions/Organization/properties/shareholders/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Shareholdings"
-msgstr ""
+msgstr "Participaciones accionarias"
 
 #. /definitions/Organization/properties/shareholders/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -2693,6 +2697,11 @@ msgid ""
 "contracts, like public private partnerships, that require disclosure of "
 "this information by bidders or suppliers."
 msgstr ""
+"Participaciones accionarias en la organización: se utiliza para proporcionar "
+"información sobre la propiedad de las empresas, principalmente en el caso de "
+"contratos grandes y complejos, como asociaciones público-privadas, que "
+"requieren la divulgación de esta información por parte de los oferentes o "
+"proveedores."
 
 #. /definitions/Item/title
 #: schema/patched/release-schema.json:1
@@ -3688,12 +3697,12 @@ msgstr ""
 #. /definitions/Finance/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Financing arrangement"
-msgstr ""
+msgstr "Acuerdo de financiación"
 
 #. /definitions/Finance/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "An arrangement between two parties for raising money."
-msgstr ""
+msgstr "Un acuerdo entre dos partes para recaudar dinero."
 
 #. /definitions/Finance/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3713,6 +3722,11 @@ msgid ""
 "arrangements, exchange rate guarantees, and for syndicated loans, details"
 " of syndication and any members of the syndicate."
 msgstr ""
+"Una breve descripción de este acuerdo de financiación. Esto puede incluir "
+"detalles de tarifas de servicio, tarifas de compromiso, derechos de "
+"prestamista, acuerdos de intervención, garantías de tipo de cambio y, para "
+"préstamos sindicados, detalles de la sindicación y cualquier miembro del "
+"sindicato."
 
 #. /definitions/Finance/properties/value/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3722,17 +3736,17 @@ msgstr "El valor total de este financiamiento."
 #. /definitions/Finance/properties/financingParty/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Financing organization"
-msgstr ""
+msgstr "Organización financiera"
 
 #. /definitions/Finance/properties/financingParty/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The organization providing this financing arrangement."
-msgstr ""
+msgstr "La organización que proporciona este acuerdo de financiación."
 
 #. /definitions/Finance/properties/financingPartyType/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Financing organization type"
-msgstr ""
+msgstr "Tipo de organización financiera"
 
 #. /definitions/Finance/properties/financingPartyType/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3740,11 +3754,13 @@ msgid ""
 "The type of the financing organization, from the closed "
 "financingPartyType codelist."
 msgstr ""
+"El tipo de organización financiera, de la lista de códigos cerrada "
+"financePartyType."
 
 #. /definitions/Finance/properties/source/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Funding source"
-msgstr ""
+msgstr "Fuente de financiamiento"
 
 #. /definitions/Finance/properties/source/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3752,11 +3768,13 @@ msgid ""
 "The source of funds for this financing arrangement. For example, the "
 "Green Climate Fund."
 msgstr ""
+"La fuente de fondos para este acuerdo de financiación. Por ejemplo, el Fondo "
+"Verde para el Clima."
 
 #. /definitions/Finance/properties/assetClass/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Asset class"
-msgstr ""
+msgstr "Clase de activos"
 
 #. /definitions/Finance/properties/assetClass/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3764,6 +3782,8 @@ msgid ""
 "The asset classes used in this financing arrangement, from the closed "
 "assetClass codelist."
 msgstr ""
+"Las clases de activos utilizadas en este acuerdo de financiación, de la "
+"lista de códigos cerrada de activeClass."
 
 #. /definitions/Finance/properties/type/title
 #. /definitions/Location/properties/geometry/properties/type/title
@@ -3777,11 +3797,13 @@ msgid ""
 "The type of this financing arrangement, from the closed "
 "financingArrangementType codelist."
 msgstr ""
+"El tipo de este acuerdo de financiación, de la lista de códigos de tipo de "
+"acuerdo de financiación cerrado."
 
 #. /definitions/Finance/properties/repaymentPriority/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Repayment priority"
-msgstr ""
+msgstr "Prioridad de pago"
 
 #. /definitions/Finance/properties/repaymentPriority/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3789,11 +3811,14 @@ msgid ""
 "The order in which the debt in this financing arrangement will be repaid "
 "in case of default, from the closed debtRepaymentPriority codelist."
 msgstr ""
+"El orden en el que se reembolsará la deuda en este acuerdo de financiación "
+"en caso de incumplimiento, de la lista de códigos cerrada "
+"debtRepaymentPriority."
 
 #. /definitions/Finance/properties/concessional/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Concessional"
-msgstr ""
+msgstr "Concesional"
 
 #. /definitions/Finance/properties/concessional/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3802,11 +3827,14 @@ msgid ""
 " to accelerate climate or development objectives. Also called soft "
 "financing and subsidized funding."
 msgstr ""
+"Si este acuerdo de financiación se proporciona por debajo de la tasa de "
+"mercado para acelerar los objetivos climáticos o de desarrollo. También "
+"llamado financiamiento blando y financiamiento subsidiado."
 
 #. /definitions/Finance/properties/resultsBased/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Results based"
-msgstr ""
+msgstr "Basado en resultados"
 
 #. /definitions/Finance/properties/resultsBased/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3814,6 +3842,8 @@ msgid ""
 "Whether payments under this financing arrangement are contingent on the "
 "achievement of pre-defined results."
 msgstr ""
+"Si los pagos conforme a este acuerdo de financiación están supeditados al "
+"logro de resultados predefinidos."
 
 #. /definitions/Finance/properties/period/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3824,11 +3854,13 @@ msgstr "Periodo de financiamiento"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The period covered by this financing arrangement. Also called maturity."
 msgstr ""
+"El período cubierto por este acuerdo de financiación. También llamada "
+"madurez."
 
 #. /definitions/Finance/properties/paymentPeriod/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Payment period"
-msgstr ""
+msgstr "Periodo de pago"
 
 #. /definitions/Finance/properties/paymentPeriod/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3836,11 +3868,13 @@ msgid ""
 "The period over which the borrower in this financing arrangement is "
 "obliged to make payments."
 msgstr ""
+"El período durante el cual el prestatario en este acuerdo de financiación "
+"está obligado a realizar pagos."
 
 #. /definitions/Finance/properties/paymentFrequency/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Payment frequency (days)"
-msgstr ""
+msgstr "Frecuencia de pago (días)"
 
 #. /definitions/Finance/properties/paymentFrequency/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3848,6 +3882,8 @@ msgid ""
 "The average payment frequency (in days) of this financing arrangement. "
 "For example, 365 for yearly, 30.4 for monthly, or 1 for daily."
 msgstr ""
+"La frecuencia de pago promedio (en días) de este acuerdo de financiamiento. "
+"Por ejemplo, 365 por año, 30,4 por mes o 1 por día."
 
 #. /definitions/Finance/properties/interestRate/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3921,6 +3957,8 @@ msgid ""
 "Whether there is an associated exchange rate guarantee with this source "
 "of finance."
 msgstr ""
+"Si existe una garantía de tipo de cambio asociada a esta fuente de "
+"financiación."
 
 #. /definitions/Finance/properties/stepInRights/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3933,6 +3971,8 @@ msgid ""
 "Whether provision of this finance confers any step in rights to the "
 "financing organization."
 msgstr ""
+"Si la provisión de esta financiación confiere derechos de paso a la "
+"organización financiera."
 
 #. /definitions/Finance/properties/relatedLots/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -3943,6 +3983,8 @@ msgstr "Lotes relacionados"
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The identifiers of the lots to which this financing arrangement relates."
 msgstr ""
+"Los identificadores de los lotes a los que se refiere este acuerdo de "
+"financiación."
 
 #. /definitions/Location/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4565,7 +4607,7 @@ msgstr "La descripción del riesgo."
 #. /definitions/Risk/properties/allocation/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The party to the contract that retains the risk."
-msgstr ""
+msgstr "La parte del contrato que retiene el riesgo."
 
 #. /definitions/Risk/properties/notes/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4590,12 +4632,14 @@ msgstr "Participación"
 #. /definitions/Shareholder/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "A shareholding in an organization."
-msgstr ""
+msgstr "Una participación accionaria en una organización."
 
 #. /definitions/Shareholder/properties/id/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "A local identifier for this shareholding, unique within this array."
 msgstr ""
+"Un identificador local para esta participación accionaria, único dentro de "
+"esta lista."
 
 #. /definitions/Shareholder/properties/shareholder/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4605,7 +4649,7 @@ msgstr "Accionista"
 #. /definitions/Shareholder/properties/shareholder/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The organization holding the share."
-msgstr ""
+msgstr "La organización titular de la acción."
 
 #. /definitions/Shareholder/properties/shareholding/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4613,21 +4657,23 @@ msgid ""
 "The proportion of the organization's shares held by the shareholder, "
 "expressed as a decimal between 0 and 1."
 msgstr ""
+"La proporción de las acciones de la organización en poder del accionista, "
+"expresada como un decimal entre 0 y 1."
 
 #. /definitions/Shareholder/properties/votingRights/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Voting rights"
-msgstr ""
+msgstr "Derecho al voto"
 
 #. /definitions/Shareholder/properties/votingRights/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "The type of voting rights associated with the shareholder's shares."
-msgstr ""
+msgstr "El tipo de derechos de voto asociados con las acciones del accionista."
 
 #. /definitions/Shareholder/properties/votingRightsDetails/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
 msgid "Voting rights details"
-msgstr ""
+msgstr "Detalles de los derechos de voto"
 
 #. /definitions/Shareholder/properties/votingRightsDetails/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4636,6 +4682,9 @@ msgid ""
 "shareholder's shares: for example, when the shareholder voting rights are"
 " restricted, additional or enhanced."
 msgstr ""
+"Información detallada sobre los derechos de voto asociados a las acciones "
+"del accionista: por ejemplo, cuando los derechos de voto de los accionistas "
+"son restringidos, adicionales o mejorados."
 
 #. /definitions/Shareholder/properties/notes/description
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1
@@ -4644,6 +4693,9 @@ msgid ""
 " on any caps on equity transfer, or lock-in arrangements, applicable to "
 "the shareholder."
 msgstr ""
+"Notas adicionales sobre la participación o el accionista: por ejemplo, "
+"detalles sobre cualquier límite a la transferencia de capital o acuerdos de "
+"bloqueo aplicables al accionista."
 
 #. /definitions/Tariff/title
 #: schema/patched/release-schema.json:1 schema/profile/release-schema.json:1

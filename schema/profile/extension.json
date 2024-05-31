@@ -25,6 +25,7 @@
     "financingPartyType.csv",
     "locationGazetteers.csv",
     "geometryType.csv",
+    "+itemClassificationScheme.csv",
     "riskAllocation.csv",
     "riskCategory.csv",
     "votingRights.csv",
