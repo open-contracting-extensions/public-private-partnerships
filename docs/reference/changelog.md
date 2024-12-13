@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Normative changes
+
+* The Milestone documents extension is no longer included, because it undeprecates a field (`Milestone/documents`), which is prohibited.
+
 ## [1.0.0.beta4] - 2024-05-31
 
 ### Non-normative changes
@@ -36,7 +42,7 @@ See the changelogs for the updated extensions:
 
 * [Bid statistics and details](https://extensions.open-contracting.org/en/extensions/bids/v1.1.5/)
 * [Location](https://extensions.open-contracting.org/en/extensions/location/v1.1.5/)
-* [Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)
+* [Milestone documents](https://github.com/open-contracting-extensions/ocds_milestone_documents_extension/tree/v1.1.5)
 * [OCDS for PPPs Extension](https://extensions.open-contracting.org/en/extensions/ppp/master/)
 
 ## [1.0.0.beta2] - 2019-10-21

@@ -183,12 +183,6 @@ msgstr ""
 "[Localización](https://extensions.open-contracting.org/es/extensions/"
 "location/v1.1.5/)"
 
-#: ../../docs/reference/changelog.md:39
-msgid "[Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)"
-msgstr ""
-"[Documentos de hito](https://extensions.open-contracting.org/es/extensions/"
-"milestone_documents/v1.1.5/)"
-
 #: ../../docs/reference/changelog.md:40
 msgid "[OCDS for PPPs Extension](https://extensions.open-contracting.org/en/extensions/ppp/master/)"
 msgstr ""

@@ -69,12 +69,6 @@ msgstr ""
 "[Métricas](https://extensions.open-contracting.org/es/extensions/metrics/1.1/"
 ")"
 
-#: ../../docs/governance.md:13
-msgid "[Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)"
-msgstr ""
-"[Documentos de hito](https://extensions.open-contracting.org/es/extensions/"
-"milestone_documents/v1.1.5/)"
-
 #: ../../docs/governance.md:14
 msgid "[Performance failures](https://extensions.open-contracting.org/en/extensions/performance_failures/master/)"
 msgstr ""

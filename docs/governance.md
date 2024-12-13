@@ -10,7 +10,6 @@ It draws upon the following [extensions](https://extensions.open-contracting.org
 * [Finance](https://extensions.open-contracting.org/en/extensions/finance/master/)
 * [Location](https://extensions.open-contracting.org/en/extensions/location/v1.1.5/)
 * [Metrics](https://extensions.open-contracting.org/en/extensions/metrics/1.1/)
-* [Milestone documents](https://extensions.open-contracting.org/en/extensions/milestone_documents/v1.1.5/)
 * [Performance failures](https://extensions.open-contracting.org/en/extensions/performance_failures/master/)
 * [Project](https://extensions.open-contracting.org/en/extensions/project/master/)
 * [Risk allocation](https://extensions.open-contracting.org/en/extensions/risk_allocation/master/)
