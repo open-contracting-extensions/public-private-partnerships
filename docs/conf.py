@@ -45,6 +45,8 @@ html_theme = "standard_theme"  # 'pydata_sphinx_theme'
 html_theme_path = [standard_theme.get_html_theme_path()]
 html_favicon = "_static/favicon-16x16.ico"
 html_static_path = ["_static", "examples"]
+html_css_files = ["simplemodal.css", "custom.css"]
+html_js_files = ["jquery.simplemodal.1.4.4.min.js", "show-shower.js"]
 
 # -- Local configuration -----------------------------------------------------
 
