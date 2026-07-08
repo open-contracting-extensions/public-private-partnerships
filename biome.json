@@ -8,11 +8,11 @@
   "files": {
     "includes": [
       "**",
-      "!schema",
       "!docs/_static/docson",
       "!docs/_static/jquery.simplemodal.1.4.4.min.js",
       "!docs/_templates",
-      "!docs/examples"
+      "!docs/examples",
+      "!schema"
     ]
   },
   "assist": {
