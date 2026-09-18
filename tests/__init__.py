@@ -15,8 +15,7 @@ test_navigation_params = [
 
 test_search_params = [
     ("en", r"found \d+ page\(s\) matching"),
-    # See https://github.com/sphinx-doc/sphinx/issues/11008
-    # ('es', r'encontraron \d+ páginas que coinciden'),  # noqa: ERA001
+    ('es', r'encontraron \d+ páginas que coinciden'),
 ]
 
 last_path = "/governance/"
