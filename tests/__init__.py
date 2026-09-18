@@ -1,22 +1,21 @@
 languages = {
-    'en': 'English',
-    'es': 'Español',
+    "en": "English",
+    "es": "Español",
 }
 
 test_basic_params = {
-    'en': 'Home',
-    'es': 'Inicio',
+    "en": "Home",
+    "es": "Inicio",
 }
 
 test_navigation_params = [
-    ('en', 'Next'),
-    ('es', 'Siguiente'),
+    ("en", "Next"),
+    ("es", "Siguiente"),
 ]
 
 test_search_params = [
-    ('en', r'found \d+ page\(s\) matching'),
-    # See https://github.com/sphinx-doc/sphinx/issues/11008
-    # ('es', r'encontraron \d+ páginas que coinciden'),
+    ("en", r"found \d+ page\(s\) matching"),
+    ("es", r"encontraron \d+ páginas que coinciden"),
 ]
 
-last_path = '/governance/'
+last_path = "/governance/"

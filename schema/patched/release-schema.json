@@ -1,5 +1,5 @@
 {
-  "id": "https://standard.open-contracting.org/profiles/ppp/schema/1__0__0__beta4/release-schema.json",
+  "id": "https://standard.open-contracting.org/profiles/ppp/schema/1__0__0__beta5/release-schema.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Schema for an Open Contracting Release",
   "description": "Each release provides data about a single contracting process at a particular point in time. Releases can be used to notify users of new tenders, awards, contracts and other updates. Releases may repeat or update information provided previously in this contracting process. One contracting process may have many releases. A 'record' of a contracting process follows the same structure as a release, but combines information from multiple points in time into a single summary.",
@@ -1049,6 +1049,10 @@
           "title": "Documents",
           "description": "List of documents associated with this milestone (Deprecated in 1.1).",
           "type": "array",
+          "deprecated": {
+            "deprecatedVersion": "1.1",
+            "description": "Inclusion of documents at the milestone level is now deprecated. Documentation should be attached in the tender, award, contract or implementation sections, and titles and descriptions used to highlight the related milestone. Publishers who wish to continue to provide documents at the milestone level should explicitly declare this by using the milestone documents extension."
+          },
           "items": {
             "$ref": "#/definitions/Document"
           },

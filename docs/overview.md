@@ -59,7 +59,7 @@ Make sure that documents are directly accessible at a persistent web address. Av
 ```{image} _static/images/ocds_show.png
 :align: right
 :width: 400
-:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json
+:target: https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/full.json
 ```
 
 With the combination of:
@@ -75,4 +75,4 @@ In particular:
 * OCDS for PPP data can be converted into spreadsheet formats for detailed analysis;
 * Any third-party can build an interface using the OCDS for PPPs standard;
 
-You can explore a [preview of OCDS Show with example data](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting/ocds-show-ppp/master/example/full.json).
+You can explore a [preview of OCDS Show with example data](https://open-contracting.github.io/ocds-show-ppp/?load=https://raw.githubusercontent.com/open-contracting-extensions/public-private-partnerships/1.0-dev/docs/examples/full.json).
