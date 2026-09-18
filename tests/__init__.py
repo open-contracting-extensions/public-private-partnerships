@@ -15,7 +15,7 @@ test_navigation_params = [
 
 test_search_params = [
     ("en", r"found \d+ page\(s\) matching"),
-    ('es', r'encontraron \d+ páginas que coinciden'),
+    ("es", r"encontraron \d+ páginas que coinciden"),
 ]
 
 last_path = "/governance/"
