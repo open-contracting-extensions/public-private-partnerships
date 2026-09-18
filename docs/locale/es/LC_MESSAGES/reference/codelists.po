@@ -234,8 +234,8 @@ msgid ""
 "[Unit classification scheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#unit-classification-scheme)"
 msgstr ""
-"[Esquema de clasificación de la unidad](https://standard.open-contracting."
-"org/latest/en/schema/codelists/#unit-classification-scheme)"
+"[Esquema de clasificación de la unidad](https://standard.open-"
+"contracting.org/latest/es/schema/codelists/#unit-classification-scheme)"
 
 #: ../../docs/reference/codelists.md:42
 msgid "OCDS for PPPs codelists"
