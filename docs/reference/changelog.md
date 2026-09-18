@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [1.0.0.beta5] - 2026-09-18
 
 ### Normative changes
 

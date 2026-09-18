@@ -23,7 +23,7 @@ copyright = "Open Contracting Partnership"
 author = "Open Contracting Partnership and Open Data Services Co-operative Limited"
 
 version = "1.0"
-release = "1.0.0-beta4"
+release = "1.0.0-beta5"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

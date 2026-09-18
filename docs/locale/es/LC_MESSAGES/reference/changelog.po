@@ -24,8 +24,8 @@ msgid "Changelog"
 msgstr "Registro de cambios"
 
 #: ../../docs/reference/changelog.md:3
-msgid "Unreleased"
-msgstr ""
+msgid "[1.0.0.beta5] - 2026-09-18"
+msgstr "[1.0.0.beta5] - 2026-09-18"
 
 #: ../../docs/reference/changelog.md:5 ../../docs/reference/changelog.md:21
 #: ../../docs/reference/changelog.md:50 ../../docs/reference/changelog.md:90
