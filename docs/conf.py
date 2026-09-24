@@ -86,6 +86,9 @@ html_theme_options = {
     "analytics_id": "HTWZHRIZ",
     "display_version": True,
     "root_url": f"/profiles/{profile_identifier}" if profile_identifier else "",
+    # Relative to the version's directory, so that one value serves the live and staging copies.
+    "versions_url": "../versions.json",
+    "branch": os.getenv("GITHUB_REF_NAME", ""),
     "short_project": "OCDS for PPPs",
     "copyright": copyright,
     "license_name": "Apache License 2.0",
