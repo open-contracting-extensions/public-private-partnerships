@@ -88,6 +88,7 @@ html_theme_options = {
     "root_url": f"/profiles/{profile_identifier}" if profile_identifier else "",
     # Relative to the version's directory, so that one value serves the live and staging copies.
     "versions_url": "../versions.json",
+    "languages": {"en": "English", "es": "Español"},
     "branch": os.getenv("GITHUB_REF_NAME", ""),
     "short_project": "OCDS for PPPs",
     "copyright": copyright,
