@@ -41,7 +41,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**/docson/[!p]**", "**/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "standard_theme"  # 'pydata_sphinx_theme'
-html_favicon = "_static/favicon-16x16.ico"
 html_static_path = ["_static", "examples"]
 html_css_files = ["simplemodal.css", "custom.css"]
 html_js_files = ["jquery.simplemodal.1.4.4.min.js", "show-shower.js"]
@@ -81,17 +80,11 @@ html_context = {
     "analytics_id": "HTWZHRIZ",
 }
 html_theme_options = {
-    "analytics_id": "HTWZHRIZ",
     "display_version": True,
     "root_url": f"/profiles/{profile_identifier}" if profile_identifier else "",
-    # Relative to the version's directory, so that one value serves the live and staging copies.
-    "versions_url": "../versions.json",
     "languages": {"en": "English", "es": "Español"},
     "branch": os.getenv("GITHUB_REF_NAME", ""),
     "short_project": "OCDS for PPPs",
-    "copyright": copyright,
-    "license_name": "Apache License 2.0",
-    "license_url": f"{repository_url}/blob/HEAD/LICENSE",
     "repository_url": repository_url,
 }
 html_short_title = f"{html_theme_options['short_project']} v{release}"
