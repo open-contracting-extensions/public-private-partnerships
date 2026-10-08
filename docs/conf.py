@@ -9,7 +9,6 @@ import os
 from glob import glob
 from pathlib import Path
 
-import standard_theme
 from docutils.nodes import make_id
 from ocds_babel.translate import translate
 from ocdskit.mapping_sheet import mapping_sheet
@@ -42,7 +41,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**/docson/[!p]**", "**/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "standard_theme"  # 'pydata_sphinx_theme'
-html_theme_path = [standard_theme.get_html_theme_path()]
 html_favicon = "_static/favicon-16x16.ico"
 html_static_path = ["_static", "examples"]
 html_css_files = ["simplemodal.css", "custom.css"]
@@ -59,7 +57,7 @@ repository_url = "https://github.com/open-contracting-extensions/public-private-
 gettext_compact = False
 # `DOMAIN_PREFIX` from `config.mk`.
 gettext_domain_prefix = f"{profile_identifier}-" if profile_identifier else ""
-locale_dirs = ["locale/", os.path.join(standard_theme.get_html_theme_path(), "locale")]
+locale_dirs = ["locale/"]
 # We use single quotes for codes, which docutils will change to double quotes.
 # https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/docutils/utils/smartquotes.py
 smartquotes = False
