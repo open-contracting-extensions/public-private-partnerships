@@ -9,6 +9,8 @@ import os
 from glob import glob
 from pathlib import Path
 
+from babel.messages.mofile import write_mo
+from babel.messages.pofile import read_po
 from docutils.nodes import make_id
 from ocds_babel.translate import translate
 from ocdskit.mapping_sheet import mapping_sheet
@@ -99,6 +101,16 @@ with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "extension_v
     extension_versions = json.load(f)
 
 
+def compile_catalogs(localedir, language, domains):
+    """Compile the catalogs that `translate` reads, as `pybabel compile --use-fuzzy` does."""
+    for domain in domains:
+        path = localedir / language / "LC_MESSAGES" / f"{domain}.po"
+        with path.open() as f:
+            catalog = read_po(f, locale=language, domain=domain)
+        with path.with_suffix(".mo").open("wb") as f:
+            write_mo(f, catalog, use_fuzzy=True)
+
+
 def setup(app):
     # The root of the repository.
     basedir = Path(__file__).resolve().parents[1]
@@ -117,6 +129,10 @@ def setup(app):
     profile_dir = basedir / "schema" / "profile"
     patched_build_dir = basedir / "docs" / "_static" / "patched"
     profile_build_dir = basedir / "build" / language
+
+    # English is the source language, and has no catalogs.
+    if language != "en":
+        compile_catalogs(localedir, language, (schema_domain, codelists_domain))
 
     translate(
         [
