@@ -44,8 +44,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**/docson/[!p]**", "**/
 
 html_theme = "standard_theme"  # 'pydata_sphinx_theme'
 html_static_path = ["_static", "examples"]
-html_css_files = ["simplemodal.css", "custom.css"]
-html_js_files = ["jquery.simplemodal.1.4.4.min.js", "show-shower.js"]
+html_css_files = ["custom.css"]
+html_js_files = ["show-shower.js"]
 
 # -- Local configuration -----------------------------------------------------
 
